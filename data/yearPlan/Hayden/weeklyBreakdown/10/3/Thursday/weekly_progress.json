@@ -3,1077 +3,2063 @@
     "Tuesday": {},
     "Wednesday": {},
     "Thursday": {
-        "Language Arts+": [
+        "Algebra": [
             {
-                "quiz_grade": 100.0,
-                "wrong_answers": [],
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    2,
+                    3,
+                    5,
+                    8
+                ],
                 "attempt_number": 2,
                 "quiz": [
                     {
-                        "question": "What is a subject-verb agreement error?",
+                        "question": "What is the first step in performing synthetic division?",
                         "options": [
-                            "1) When the subject and verb do not match in number",
-                            "2) When there is a misplaced modifier in a sentence",
-                            "4) When a verb tense is used incorrectly",
-                            "3) When two independent clauses are connected solely by a comma"
+                            "1) Write down the coefficients of the polynomial",
+                            "3) Find the roots of the polynomial",
+                            "4) Write the polynomial in factored form",
+                            "2) Set up the polynomial in standard form"
                         ],
-                        "explanation": "A subject-verb agreement error occurs when the subject and verb do not match in number, which can lead to confusion in writing.",
-                        "answer": "1) When the subject and verb do not match in number"
+                        "explanation": "The first step in synthetic division is to write down the coefficients of the polynomial you are dividing.",
+                        "answer": "1) The first step in performing synthetic division is to write down the coefficients of the polynomial."
                     },
                     {
-                        "question": "Which of the following is a recommended technique for improving your writing during self-editing?",
+                        "question": "In synthetic division, what do you do after bringing down the first coefficient?",
                         "options": [
-                            "4) Editing without taking breaks",
-                            "1) Reading your text silently",
-                            "2) Reading through your text slowly and out loud",
-                            "3) Ignoring common errors"
+                            "2) Square it",
+                            "1) Multiply it by 'r' and add to the next coefficient",
+                            "4) Find the derivative",
+                            "3) Set it equal to zero"
                         ],
-                        "explanation": "Reading your text slowly and out loud helps identify awkward phrasing and errors more effectively than silently reading.",
-                        "answer": "2) Reading through your text slowly and out loud"
+                        "explanation": "After bringing down the first coefficient in synthetic division, you multiply it by 'r' (the root) and add it to the next coefficient to continue the process.",
+                        "answer": "1) After bringing down the first coefficient, you multiply it by 'r' and add to the next coefficient."
                     },
                     {
-                        "question": "What is one common error that can cause confusion in writing, as mentioned in the lecture?",
+                        "question": "If P(x) = (x - 2)(2x^2 - 2x - 2), what is one root of the polynomial P(x)?",
                         "options": [
-                            "1) Subject-verb agreement errors",
-                            "2) Sentence length",
-                            "4) Excessive adjectives",
-                            "3) Use of jargon"
+                            "2) -2",
+                            "3) 0",
+                            "4) 1",
+                            "1) 2"
                         ],
-                        "explanation": "Subject-verb agreement errors may confuse readers when the subject and verb do not agree in number, leading to unclear writing.",
-                        "answer": "1) Subject-verb agreement errors"
+                        "explanation": "The polynomial P(x) is factored as (x - 2)(2x^2 - 2x - 2), which means one root is x = 2 when (x - 2) = 0.",
+                        "answer": "1) One root of the polynomial P(x) is 2."
                     },
                     {
-                        "question": "What is a useful way to approach the review of your own writing?",
+                        "question": "What does the Fundamental Theorem of Algebra state about a polynomial of degree n?",
                         "options": [
-                            "3) Take a break after writing before editing",
-                            "2) Review your piece for grammar first, then content",
-                            "1) Skip the review if you feel confident",
-                            "4) Edit immediately after finishing your first draft"
+                            "4) It will have at least one real root",
+                            "2) It will have exactly n roots",
+                            "1) It can have up to n real roots and n imaginary roots",
+                            "3) It can have no roots"
                         ],
-                        "explanation": "Taking a break after writing allows you to return with fresh eyes, which is a valuable self-editing strategy.",
-                        "answer": "3) Take a break after writing before editing"
+                        "explanation": "The Fundamental Theorem of Algebra states that a polynomial of degree n will have exactly n roots, considering their multiplicities and including complex roots.",
+                        "answer": "2) A polynomial of degree n will have exactly n roots."
                     },
                     {
-                        "question": "Which technique is suggested to focus on when self-editing writing?",
+                        "question": "What is the quadratic formula used for?",
                         "options": [
-                            "4) Avoiding any feedback loop",
-                            "1) Reviewing all errors simultaneously",
-                            "3) Only focusing on spelling mistakes",
-                            "2) Using a checklist of common errors"
+                            "4) To graph polynomial equations",
+                            "2) To factor polynomials",
+                            "1) To find the roots of a quadratic polynomial",
+                            "3) To perform synthetic division"
                         ],
-                        "explanation": "Using a checklist of common errors can help ensure systematic review and prevent missing critical mistakes during self-editing.",
-                        "answer": "2) Using a checklist of common errors"
+                        "explanation": "The quadratic formula is used to find the roots of a quadratic polynomial when it is in the form ax^2 + bx + c = 0.",
+                        "answer": "1) The quadratic formula is used to find the roots of a quadratic polynomial."
                     },
                     {
-                        "question": "What does the lecture suggest about providing feedback during peer editing?",
+                        "question": "What is the first step in solving polynomial inequalities?",
                         "options": [
-                            "1) Be harsh and direct",
-                            "4) Provide no feedback at all",
-                            "3) Start with positive feedback before suggesting improvements",
-                            "2) Focus only on what needs improvement"
+                            "3) Graphing the polynomial.",
+                            "4) Calculating the degree of the polynomial.",
+                            "2) Putting the polynomial into coefficient form.",
+                            "1) Identifying the roots of the polynomial."
                         ],
-                        "explanation": "Starting with positive feedback can help build the confidence of the writer and create a constructive editing environment.",
-                        "answer": "3) Start with positive feedback before suggesting improvements"
+                        "explanation": "The first step in solving polynomial inequalities is to identify the roots of the polynomial, as they will help determine the intervals to test.",
+                        "answer": "1) The first step in solving polynomial inequalities is identifying the roots of the polynomial."
                     },
                     {
-                        "question": "What is a misplaced modifier?",
+                        "question": "In terms of polynomial inequalities, what are intervals tested for?",
                         "options": [
-                            "3) An incorrect use of punctuation",
-                            "2) A word or phrase that is poorly placed causing confusion",
-                            "1) A sentence that does not have a verb",
-                            "4) A result of a sentence fragment"
+                            "2) To determine where the polynomial is positive or negative",
+                            "1) To find the roots only",
+                            "3) To find the derivative",
+                            "4) To calculate the integral"
                         ],
-                        "explanation": "A misplaced modifier occurs when the modifier is positioned incorrectly in the sentence, leading to confusion about what it modifies.",
-                        "answer": "2) A word or phrase that is poorly placed causing confusion"
+                        "explanation": "Intervals tested in polynomial inequalities are used to determine where the polynomial is positive or negative by using test points.",
+                        "answer": "2) Intervals are tested to determine where the polynomial is positive or negative."
                     },
                     {
-                        "question": "What can you do to ensure clarity in your writing regarding verb tenses?",
+                        "question": "If the inequality is strict (greater than), what should you remember about the roots when writing the solution set?",
                         "options": [
-                            "3) Change tense in every paragraph",
-                            "2) Use the same tense consistently throughout your piece",
-                            "4) Avoid using any tenses",
-                            "1) Mix past and present tenses freely"
+                            "1) The roots should be included in the solution set.",
+                            "2) The roots should not be included in the solution set.",
+                            "4) The order of the roots should be reversed.",
+                            "3) The roots can sometimes be ignored."
                         ],
-                        "explanation": "Using the same verb tense consistently ensures clarity and maintains a clear timeline for the reader.",
-                        "answer": "2) Use the same tense consistently throughout your piece"
+                        "explanation": "If the inequality is strict (like > or <), the roots should not be included in the solution set because they do not satisfy the strict inequality.",
+                        "answer": "2) The roots should not be included in the solution set."
                     },
                     {
-                        "question": "How can peer editing improve your writing?",
+                        "question": "When performing synthetic division, what is the outcome if the last number (the remainder) is zero?",
                         "options": [
-                            "4) It eliminates all errors instantly",
-                            "2) It provides insights from different perspectives",
-                            "1) It allows you to duplicate someone else's style",
-                            "3) It creates competition among peers"
+                            "1) The polynomial divided perfectly",
+                            "4) The quotient is negative",
+                            "2) The polynomial has no roots",
+                            "3) There are infinite roots"
                         ],
-                        "explanation": "Peer editing provides insights from different perspectives, which can lead to improvements in writing quality and helps to refine your ideas.",
-                        "answer": "2) It provides insights from different perspectives"
+                        "explanation": "If the remainder is zero in synthetic division, it means the polynomial divides perfectly by the divisor, indicating that x - r is a factor of the polynomial.",
+                        "answer": "1) The polynomial divided perfectly."
                     },
                     {
-                        "question": "What is a recommended strategy for organizing the self-editing process?",
+                        "question": "What expression would you use to represent the roots obtained from the quadratic formula?",
                         "options": [
-                            "3) Change your writing style completely",
-                            "1) Review for grammar, then content, then punctuation",
-                            "4) Avoid reviewing content at all",
-                            "2) Edit just for spelling mistakes"
+                            "4) Roots throughout the real number system",
+                            "3) Polynomial inequalities",
+                            "2) Complex numbers only",
+                            "1) Rational numbers"
                         ],
-                        "explanation": "A step-by-step approach to reviewing content, grammar, and punctuation makes the process manageable and less overwhelming.",
-                        "answer": "1) Review for grammar, then content, then punctuation"
-                    }
-                ]
-            }
-        ],
-        "Language Arts Advanced+": [
-            {
-                "quiz_grade": 90.0,
-                "wrong_answers": [
-                    6
-                ],
-                "attempt_number": 3,
-                "quiz": [
-                    {
-                        "question": "What type of narratives do fiction authors primarily create?",
-                        "options": [
-                            "2) Real-life events",
-                            "3) Worlds and characters that may not exist",
-                            "1) Factual accounts",
-                            "4) Informative essays"
-                        ],
-                        "explanation": "Fiction authors focus on creating worlds, characters, and narratives that may not exist in reality, distinguishing their work from non-fiction.",
-                        "answer": "3) Worlds and characters that may not exist"
-                    },
-                    {
-                        "question": "What storytelling technique is emphasized for non-fiction authors during the lecture?",
-                        "options": [
-                            "3) Using real-life anecdotes",
-                            "1) Character development",
-                            "2) Creating fictional plots",
-                            "4) Imaginative world-building"
-                        ],
-                        "explanation": "Non-fiction authors use real-life characters and events along with anecdotes and case studies to frame their narratives effectively.",
-                        "answer": "3) Using real-life anecdotes"
-                    },
-                    {
-                        "question": "According to the lecture, what should you consider when analyzing an author's purpose?",
-                        "options": [
-                            "3) The length of the narrative",
-                            "4) The setting of the story",
-                            "2) The number of characters in their work",
-                            "1) The emotional responses they aim to evoke"
-                        ],
-                        "explanation": "Understanding the emotional responses an author aims to evoke can enhance comprehension of their intended message and effectiveness.",
-                        "answer": "1) The emotional responses they aim to evoke"
-                    },
-                    {
-                        "question": "How can role-playing as authors enhance understanding of writing techniques?",
-                        "options": [
-                            "2) By allowing exploration of creative processes",
-                            "3) By focusing on writing outlines",
-                            "1) By practicing grammar skills",
-                            "4) By reducing the need for research"
-                        ],
-                        "explanation": "Role-playing encourages exploration of the creative processes behind writing, fostering empathy and deeper understanding of each genre's techniques.",
-                        "answer": "2) By allowing exploration of creative processes"
-                    },
-                    {
-                        "question": "What common writing element do both fiction and non-fiction authors share?",
-                        "options": [
-                            "3) Employing narrative techniques",
-                            "2) Consistent character development",
-                            "1) Utilizing biased information",
-                            "4) Writing exclusively for entertainment"
-                        ],
-                        "explanation": "Both genres utilize narrative techniques such as character development, although the materials and objectives may differ.",
-                        "answer": "3) Employing narrative techniques"
-                    },
-                    {
-                        "question": "Which question would be appropriate to ask a fiction author in an interview, based on the lecture?",
-                        "options": [
-                            "1) How do you fact-check your information?",
-                            "2) What inspires your characters?",
-                            "4) How do you ensure factual accuracy?",
-                            "3) What is your research process?"
-                        ],
-                        "explanation": "Asking a fiction author about their inspiration for characters delves into their creative process, a key focus in the lecture.",
-                        "answer": "2) What inspires your characters?"
-                    },
-                    {
-                        "question": "What aspect of non-fiction authorship was emphasized in relation to ensuring accuracy?",
-                        "options": [
-                            "2) Technical jargon usage",
-                            "3) Engaging narrative structure",
-                            "1) Crafting fictional scenarios",
-                            "4) The research process"
-                        ],
-                        "explanation": "The research process is critical for non-fiction authors to ensure that their narratives are accurate and engaging while based on factual information.",
-                        "answer": "4) The research process"
-                    },
-                    {
-                        "question": "Why is it important to analyze an author\u2019s writing purpose according to the lecture?",
-                        "options": [
-                            "1) It helps to memorize the text",
-                            "4) It focuses only on genre classification",
-                            "3) It allows for better spelling skills",
-                            "2) It enhances critical thinking and appreciation"
-                        ],
-                        "explanation": "Analyzing an author's purpose strengthens critical thinking skills and appreciation for literature by uncovering deeper meaning in their writing.",
-                        "answer": "2) It enhances critical thinking and appreciation"
-                    },
-                    {
-                        "question": "What type of writing aims to provoke thought or inspire as discussed in the lecture?",
-                        "options": [
-                            "3) Fiction",
-                            "2) Poetry",
-                            "4) Biographies",
-                            "1) Non-fiction"
-                        ],
-                        "explanation": "Fiction often aims to entertain, provoke thought, or inspire readers by engaging them with emotions and empathy through characters and stories.",
-                        "answer": "3) Fiction"
-                    },
-                    {
-                        "question": "In the context of the lecture, what do both fiction and non-fiction writers need to do to engage their readers?",
-                        "options": [
-                            "2) Use emotional storytelling techniques",
-                            "4) Focus on elaborate descriptions only",
-                            "3) Stick to dry presentations",
-                            "1) Provide comprehensive lists"
-                        ],
-                        "explanation": "Engaging readers requires the use of emotional storytelling techniques that resonate with audiences, whether in fiction or non-fiction.",
-                        "answer": "2) Use emotional storytelling techniques"
+                        "explanation": "The roots obtained from the quadratic formula can be real or complex numbers, representing the solutions to the polynomial equation.",
+                        "answer": "4) Roots obtained can vary throughout the real number system."
                     }
                 ]
             },
             {
-                "quiz_grade": 90.0,
+                "quiz_grade": 50.0,
                 "wrong_answers": [
-                    6
+                    2,
+                    3,
+                    5,
+                    7,
+                    8
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is the first step in performing synthetic division?",
+                        "options": [
+                            "1) Write down the coefficients of the polynomial",
+                            "3) Find the roots of the polynomial",
+                            "4) Write the polynomial in factored form",
+                            "2) Set up the polynomial in standard form"
+                        ],
+                        "explanation": "The first step in synthetic division is to write down the coefficients of the polynomial you are dividing.",
+                        "answer": "1) The first step in performing synthetic division is to write down the coefficients of the polynomial."
+                    },
+                    {
+                        "question": "In synthetic division, what do you do after bringing down the first coefficient?",
+                        "options": [
+                            "2) Square it",
+                            "1) Multiply it by 'r' and add to the next coefficient",
+                            "4) Find the derivative",
+                            "3) Set it equal to zero"
+                        ],
+                        "explanation": "After bringing down the first coefficient in synthetic division, you multiply it by 'r' (the root) and add it to the next coefficient to continue the process.",
+                        "answer": "1) After bringing down the first coefficient, you multiply it by 'r' and add to the next coefficient."
+                    },
+                    {
+                        "question": "If P(x) = (x - 2)(2x^2 - 2x - 2), what is one root of the polynomial P(x)?",
+                        "options": [
+                            "2) -2",
+                            "3) 0",
+                            "4) 1",
+                            "1) 2"
+                        ],
+                        "explanation": "The polynomial P(x) is factored as (x - 2)(2x^2 - 2x - 2), which means one root is x = 2 when (x - 2) = 0.",
+                        "answer": "1) One root of the polynomial P(x) is 2."
+                    },
+                    {
+                        "question": "What does the Fundamental Theorem of Algebra state about a polynomial of degree n?",
+                        "options": [
+                            "4) It will have at least one real root",
+                            "2) It will have exactly n roots",
+                            "1) It can have up to n real roots and n imaginary roots",
+                            "3) It can have no roots"
+                        ],
+                        "explanation": "The Fundamental Theorem of Algebra states that a polynomial of degree n will have exactly n roots, considering their multiplicities and including complex roots.",
+                        "answer": "2) A polynomial of degree n will have exactly n roots."
+                    },
+                    {
+                        "question": "What is the quadratic formula used for?",
+                        "options": [
+                            "4) To graph polynomial equations",
+                            "2) To factor polynomials",
+                            "1) To find the roots of a quadratic polynomial",
+                            "3) To perform synthetic division"
+                        ],
+                        "explanation": "The quadratic formula is used to find the roots of a quadratic polynomial when it is in the form ax^2 + bx + c = 0.",
+                        "answer": "1) The quadratic formula is used to find the roots of a quadratic polynomial."
+                    },
+                    {
+                        "question": "What is the first step in solving polynomial inequalities?",
+                        "options": [
+                            "3) Graphing the polynomial.",
+                            "4) Calculating the degree of the polynomial.",
+                            "2) Putting the polynomial into coefficient form.",
+                            "1) Identifying the roots of the polynomial."
+                        ],
+                        "explanation": "The first step in solving polynomial inequalities is to identify the roots of the polynomial, as they will help determine the intervals to test.",
+                        "answer": "1) The first step in solving polynomial inequalities is identifying the roots of the polynomial."
+                    },
+                    {
+                        "question": "In terms of polynomial inequalities, what are intervals tested for?",
+                        "options": [
+                            "2) To determine where the polynomial is positive or negative",
+                            "1) To find the roots only",
+                            "3) To find the derivative",
+                            "4) To calculate the integral"
+                        ],
+                        "explanation": "Intervals tested in polynomial inequalities are used to determine where the polynomial is positive or negative by using test points.",
+                        "answer": "2) Intervals are tested to determine where the polynomial is positive or negative."
+                    },
+                    {
+                        "question": "If the inequality is strict (greater than), what should you remember about the roots when writing the solution set?",
+                        "options": [
+                            "1) The roots should be included in the solution set.",
+                            "2) The roots should not be included in the solution set.",
+                            "4) The order of the roots should be reversed.",
+                            "3) The roots can sometimes be ignored."
+                        ],
+                        "explanation": "If the inequality is strict (like > or <), the roots should not be included in the solution set because they do not satisfy the strict inequality.",
+                        "answer": "2) The roots should not be included in the solution set."
+                    },
+                    {
+                        "question": "When performing synthetic division, what is the outcome if the last number (the remainder) is zero?",
+                        "options": [
+                            "1) The polynomial divided perfectly",
+                            "4) The quotient is negative",
+                            "2) The polynomial has no roots",
+                            "3) There are infinite roots"
+                        ],
+                        "explanation": "If the remainder is zero in synthetic division, it means the polynomial divides perfectly by the divisor, indicating that x - r is a factor of the polynomial.",
+                        "answer": "1) The polynomial divided perfectly."
+                    },
+                    {
+                        "question": "What expression would you use to represent the roots obtained from the quadratic formula?",
+                        "options": [
+                            "4) Roots throughout the real number system",
+                            "3) Polynomial inequalities",
+                            "2) Complex numbers only",
+                            "1) Rational numbers"
+                        ],
+                        "explanation": "The roots obtained from the quadratic formula can be real or complex numbers, representing the solutions to the polynomial equation.",
+                        "answer": "4) Roots obtained can vary throughout the real number system."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 50.0,
+                "wrong_answers": [
+                    2,
+                    3,
+                    5,
+                    7,
+                    8
                 ],
                 "attempt_number": 4,
                 "quiz": [
                     {
-                        "question": "What type of narratives do fiction authors primarily create?",
+                        "question": "What is the first step in performing synthetic division?",
                         "options": [
-                            "2) Real-life events",
-                            "3) Worlds and characters that may not exist",
-                            "1) Factual accounts",
-                            "4) Informative essays"
+                            "1) Write down the coefficients of the polynomial",
+                            "3) Find the roots of the polynomial",
+                            "4) Write the polynomial in factored form",
+                            "2) Set up the polynomial in standard form"
                         ],
-                        "explanation": "Fiction authors focus on creating worlds, characters, and narratives that may not exist in reality, distinguishing their work from non-fiction.",
-                        "answer": "3) Worlds and characters that may not exist"
+                        "explanation": "The first step in synthetic division is to write down the coefficients of the polynomial you are dividing.",
+                        "answer": "1) The first step in performing synthetic division is to write down the coefficients of the polynomial."
                     },
                     {
-                        "question": "What storytelling technique is emphasized for non-fiction authors during the lecture?",
+                        "question": "In synthetic division, what do you do after bringing down the first coefficient?",
                         "options": [
-                            "3) Using real-life anecdotes",
-                            "1) Character development",
-                            "2) Creating fictional plots",
-                            "4) Imaginative world-building"
+                            "2) Square it",
+                            "1) Multiply it by 'r' and add to the next coefficient",
+                            "4) Find the derivative",
+                            "3) Set it equal to zero"
                         ],
-                        "explanation": "Non-fiction authors use real-life characters and events along with anecdotes and case studies to frame their narratives effectively.",
-                        "answer": "3) Using real-life anecdotes"
+                        "explanation": "After bringing down the first coefficient in synthetic division, you multiply it by 'r' (the root) and add it to the next coefficient to continue the process.",
+                        "answer": "1) After bringing down the first coefficient, you multiply it by 'r' and add to the next coefficient."
                     },
                     {
-                        "question": "According to the lecture, what should you consider when analyzing an author's purpose?",
+                        "question": "If P(x) = (x - 2)(2x^2 - 2x - 2), what is one root of the polynomial P(x)?",
                         "options": [
-                            "3) The length of the narrative",
-                            "4) The setting of the story",
-                            "2) The number of characters in their work",
-                            "1) The emotional responses they aim to evoke"
+                            "2) -2",
+                            "3) 0",
+                            "4) 1",
+                            "1) 2"
                         ],
-                        "explanation": "Understanding the emotional responses an author aims to evoke can enhance comprehension of their intended message and effectiveness.",
-                        "answer": "1) The emotional responses they aim to evoke"
+                        "explanation": "The polynomial P(x) is factored as (x - 2)(2x^2 - 2x - 2), which means one root is x = 2 when (x - 2) = 0.",
+                        "answer": "1) One root of the polynomial P(x) is 2."
                     },
                     {
-                        "question": "How can role-playing as authors enhance understanding of writing techniques?",
+                        "question": "What does the Fundamental Theorem of Algebra state about a polynomial of degree n?",
                         "options": [
-                            "2) By allowing exploration of creative processes",
-                            "3) By focusing on writing outlines",
-                            "1) By practicing grammar skills",
-                            "4) By reducing the need for research"
+                            "4) It will have at least one real root",
+                            "2) It will have exactly n roots",
+                            "1) It can have up to n real roots and n imaginary roots",
+                            "3) It can have no roots"
                         ],
-                        "explanation": "Role-playing encourages exploration of the creative processes behind writing, fostering empathy and deeper understanding of each genre's techniques.",
-                        "answer": "2) By allowing exploration of creative processes"
+                        "explanation": "The Fundamental Theorem of Algebra states that a polynomial of degree n will have exactly n roots, considering their multiplicities and including complex roots.",
+                        "answer": "2) A polynomial of degree n will have exactly n roots."
                     },
                     {
-                        "question": "What common writing element do both fiction and non-fiction authors share?",
+                        "question": "What is the quadratic formula used for?",
                         "options": [
-                            "3) Employing narrative techniques",
-                            "2) Consistent character development",
-                            "1) Utilizing biased information",
-                            "4) Writing exclusively for entertainment"
+                            "4) To graph polynomial equations",
+                            "2) To factor polynomials",
+                            "1) To find the roots of a quadratic polynomial",
+                            "3) To perform synthetic division"
                         ],
-                        "explanation": "Both genres utilize narrative techniques such as character development, although the materials and objectives may differ.",
-                        "answer": "3) Employing narrative techniques"
+                        "explanation": "The quadratic formula is used to find the roots of a quadratic polynomial when it is in the form ax^2 + bx + c = 0.",
+                        "answer": "1) The quadratic formula is used to find the roots of a quadratic polynomial."
                     },
                     {
-                        "question": "Which question would be appropriate to ask a fiction author in an interview, based on the lecture?",
+                        "question": "What is the first step in solving polynomial inequalities?",
                         "options": [
-                            "1) How do you fact-check your information?",
-                            "2) What inspires your characters?",
-                            "4) How do you ensure factual accuracy?",
-                            "3) What is your research process?"
+                            "3) Graphing the polynomial.",
+                            "4) Calculating the degree of the polynomial.",
+                            "2) Putting the polynomial into coefficient form.",
+                            "1) Identifying the roots of the polynomial."
                         ],
-                        "explanation": "Asking a fiction author about their inspiration for characters delves into their creative process, a key focus in the lecture.",
-                        "answer": "2) What inspires your characters?"
+                        "explanation": "The first step in solving polynomial inequalities is to identify the roots of the polynomial, as they will help determine the intervals to test.",
+                        "answer": "1) The first step in solving polynomial inequalities is identifying the roots of the polynomial."
                     },
                     {
-                        "question": "What aspect of non-fiction authorship was emphasized in relation to ensuring accuracy?",
+                        "question": "In terms of polynomial inequalities, what are intervals tested for?",
                         "options": [
-                            "2) Technical jargon usage",
-                            "3) Engaging narrative structure",
-                            "1) Crafting fictional scenarios",
-                            "4) The research process"
+                            "2) To determine where the polynomial is positive or negative",
+                            "1) To find the roots only",
+                            "3) To find the derivative",
+                            "4) To calculate the integral"
                         ],
-                        "explanation": "The research process is critical for non-fiction authors to ensure that their narratives are accurate and engaging while based on factual information.",
-                        "answer": "4) The research process"
+                        "explanation": "Intervals tested in polynomial inequalities are used to determine where the polynomial is positive or negative by using test points.",
+                        "answer": "2) Intervals are tested to determine where the polynomial is positive or negative."
                     },
                     {
-                        "question": "Why is it important to analyze an author\u2019s writing purpose according to the lecture?",
+                        "question": "If the inequality is strict (greater than), what should you remember about the roots when writing the solution set?",
                         "options": [
-                            "1) It helps to memorize the text",
-                            "4) It focuses only on genre classification",
-                            "3) It allows for better spelling skills",
-                            "2) It enhances critical thinking and appreciation"
+                            "1) The roots should be included in the solution set.",
+                            "2) The roots should not be included in the solution set.",
+                            "4) The order of the roots should be reversed.",
+                            "3) The roots can sometimes be ignored."
                         ],
-                        "explanation": "Analyzing an author's purpose strengthens critical thinking skills and appreciation for literature by uncovering deeper meaning in their writing.",
-                        "answer": "2) It enhances critical thinking and appreciation"
+                        "explanation": "If the inequality is strict (like > or <), the roots should not be included in the solution set because they do not satisfy the strict inequality.",
+                        "answer": "2) The roots should not be included in the solution set."
                     },
                     {
-                        "question": "What type of writing aims to provoke thought or inspire as discussed in the lecture?",
+                        "question": "When performing synthetic division, what is the outcome if the last number (the remainder) is zero?",
                         "options": [
-                            "3) Fiction",
-                            "2) Poetry",
-                            "4) Biographies",
-                            "1) Non-fiction"
+                            "1) The polynomial divided perfectly",
+                            "4) The quotient is negative",
+                            "2) The polynomial has no roots",
+                            "3) There are infinite roots"
                         ],
-                        "explanation": "Fiction often aims to entertain, provoke thought, or inspire readers by engaging them with emotions and empathy through characters and stories.",
-                        "answer": "3) Fiction"
+                        "explanation": "If the remainder is zero in synthetic division, it means the polynomial divides perfectly by the divisor, indicating that x - r is a factor of the polynomial.",
+                        "answer": "1) The polynomial divided perfectly."
                     },
                     {
-                        "question": "In the context of the lecture, what do both fiction and non-fiction writers need to do to engage their readers?",
+                        "question": "What expression would you use to represent the roots obtained from the quadratic formula?",
                         "options": [
-                            "2) Use emotional storytelling techniques",
-                            "4) Focus on elaborate descriptions only",
-                            "3) Stick to dry presentations",
-                            "1) Provide comprehensive lists"
+                            "4) Roots throughout the real number system",
+                            "3) Polynomial inequalities",
+                            "2) Complex numbers only",
+                            "1) Rational numbers"
                         ],
-                        "explanation": "Engaging readers requires the use of emotional storytelling techniques that resonate with audiences, whether in fiction or non-fiction.",
-                        "answer": "2) Use emotional storytelling techniques"
+                        "explanation": "The roots obtained from the quadratic formula can be real or complex numbers, representing the solutions to the polynomial equation.",
+                        "answer": "4) Roots obtained can vary throughout the real number system."
                     }
                 ]
             }
         ],
-        "Mathematics+": [
+        "Astronomy": [
             {
                 "quiz_grade": 100.0,
                 "wrong_answers": [],
                 "attempt_number": 2,
                 "quiz": [
                     {
-                        "question": "What role do percentages play in business reporting?",
+                        "question": "What percentage of the total mass of the Solar System is attributed to the Sun?",
                         "options": [
-                            "1) They represent a complete absence of data.",
-                            "3) They only represent partial data, without any context.",
-                            "2) They allow stakeholders to understand performance relative to previous periods.",
-                            "4) They are irrelevant to business decisions."
+                            "4) 90.10%",
+                            "2) 75.50%",
+                            "3) 50.20%",
+                            "1) 99.86%"
                         ],
-                        "explanation": "Percentages help stakeholders assess a company's performance over time by comparing figures more meaningfully.",
-                        "answer": "2) They allow stakeholders to understand performance relative to previous periods."
+                        "explanation": "The Sun accounts for about 99.86% of the total mass of the Solar System, which creates a strong gravitational pull that affects the orbits of planets and other celestial objects.",
+                        "answer": "1) 99.86%"
                     },
                     {
-                        "question": "How can the ratio of ingredients affect a recipe?",
+                        "question": "What shape are the orbits of planets in the Solar System according to Kepler's first law?",
                         "options": [
-                            "4) Ratios in recipes are purely theoretical.",
-                            "3) It is only concerned with nutritional information.",
-                            "2) Changing the ratio can enhance flavors and textures.",
-                            "1) It has no effect on the outcome of the dish."
+                            "4) Irregular",
+                            "1) Circular",
+                            "3) Spherical",
+                            "2) Elliptical"
                         ],
-                        "explanation": "The ratio of ingredients directly influences the flavor and texture of the resulting dish, reflecting the importance of ratios in cooking.",
-                        "answer": "2) Changing the ratio can enhance flavors and textures."
+                        "explanation": "According to Kepler's first law of planetary motion, planets move in elliptical orbits with the Sun at one of the foci, not in perfect circles.",
+                        "answer": "2) Elliptical"
                     },
                     {
-                        "question": "What is a pie chart commonly used for in data representation?",
+                        "question": "Which of the following describes Kepler's second law of planetary motion?",
                         "options": [
-                            "2) To depict the percentage of different categories in a whole.",
-                            "3) To identify individual data points.",
-                            "4) To compare two variables directly.",
-                            "1) To show trends over time."
+                            "2) A planet's distance from the Sun does not affect its speed.",
+                            "1) Planets move faster when they are further from the Sun.",
+                            "4) The Sun's gravity weakens at greater distances.",
+                            "3) A line segment joining a planet to the Sun sweeps out equal areas in equal times."
                         ],
-                        "explanation": "A pie chart visually represents the proportional parts of a whole, making it ideal for displaying percentages across categories.",
-                        "answer": "2) To depict the percentage of different categories in a whole."
+                        "explanation": "Kepler's second law states that a line segment joining a planet to the Sun sweeps out equal areas during equal intervals of time, meaning the planet moves faster when closer to the Sun.",
+                        "answer": "3) A line segment joining a planet to the Sun sweeps out equal areas in equal times."
                     },
                     {
-                        "question": "What insights can data analysis provide regarding consumer preferences?",
+                        "question": "What effect does the gravitational pull between the Earth and the Moon create?",
                         "options": [
-                            "1) It has no relevance to product decisions.",
-                            "2) It solely focuses on historical data.",
-                            "4) It only measures sales without context.",
-                            "3) It helps guide advertising efforts toward popular products."
+                            "2) Tides",
+                            "1) Solar eclipses",
+                            "3) Seasons",
+                            "4) Night and day"
                         ],
-                        "explanation": "Data analysis helps businesses understand consumer preferences, enabling targeted marketing for products that are favored by consumers.",
-                        "answer": "3) It helps guide advertising efforts toward popular products."
+                        "explanation": "The gravitational interaction between the Earth and the Moon causes tides, which are critical for many ecological processes on Earth.",
+                        "answer": "2) Tides"
                     },
                     {
-                        "question": "Which type of graph is typically used to show performance changes over periods of time?",
+                        "question": "In what way do simulations like Universe Sandbox help in the study of celestial bodies?",
                         "options": [
-                            "2) Line graph",
-                            "1) Bar graph",
-                            "4) Histogram",
-                            "3) Pie chart"
+                            "4) By displaying only static images of planets",
+                            "1) By providing historical data only",
+                            "3) By predicting weather on Earth",
+                            "2) By allowing the input of variables to observe gravitational effects"
                         ],
-                        "explanation": "Line graphs are effective for showing trends and changes in data over time, making them suitable for performance analysis.",
-                        "answer": "2) Line graph"
+                        "explanation": "Simulations like Universe Sandbox allow users to manipulate different variables such as mass and distance to observe the effects of gravitational pull on orbits, enhancing understanding of celestial mechanics.",
+                        "answer": "2) By allowing the input of variables to observe gravitational effects"
                     },
                     {
-                        "question": "Why is visual representation of data important?",
+                        "question": "What happens to a planet's speed as it moves closer to the Sun?",
                         "options": [
-                            "4) It is only for aesthetic purposes.",
-                            "2) It obscures underlying trends.",
-                            "1) It complicates understanding data.",
-                            "3) It makes data easier to comprehend and interpret."
+                            "2) It remains constant",
+                            "4) It moves in reverse",
+                            "3) It speeds up",
+                            "1) It slows down"
                         ],
-                        "explanation": "Visual representations help simplify complex data, enabling quicker understanding and interpretation of key insights.",
-                        "answer": "3) It makes data easier to comprehend and interpret."
+                        "explanation": "As a planet approaches the Sun, gravity pulls it in stronger, causing it to speed up according to Kepler's laws of planetary motion.",
+                        "answer": "3) It speeds up"
                     },
                     {
-                        "question": "What percentage indicates a drastic preference for one product over another, as per the discussed example?",
+                        "question": "Which celestial body has a significant number of moons due to its strong gravitational pull?",
                         "options": [
-                            "4) 100%",
-                            "3) 75%",
-                            "2) 25%",
-                            "1) 50%"
+                            "1) Mercury",
+                            "2) Mars",
+                            "4) Jupiter",
+                            "3) Saturn"
                         ],
-                        "explanation": "A reported preference of 75% indicates a strong majority favoring one product, highlighting significant consumer preference.",
-                        "answer": "3) 75%"
+                        "explanation": "Jupiter has a strong gravitational force that allows it to capture many celestial bodies, resulting in a substantial number of moons compared to other planets.",
+                        "answer": "4) Jupiter"
                     },
                     {
-                        "question": "What does the term 'data analysis' refer to?",
+                        "question": "What can the study of simulations reveal about celestial events?",
                         "options": [
-                            "4) The presentation of final decisions based on opinions.",
-                            "3) Simply summarizing the data without insights.",
-                            "1) The collection of raw data.",
-                            "2) The process of examining and interpreting data to extract useful insights."
+                            "2) The dissolution of galaxies",
+                            "1) Future weather patterns on Earth",
+                            "4) The exact location of all stars",
+                            "3) Historical events like collisions and system formations"
                         ],
-                        "explanation": "Data analysis involves evaluating and interpreting data to derive actionable insights that can drive decision-making processes.",
-                        "answer": "2) The process of examining and interpreting data to extract useful insights."
+                        "explanation": "By studying simulations, astronomers can learn about historical events such as the formation of the Solar System or collisions, allowing for better predictions about celestial dynamics.",
+                        "answer": "3) Historical events like collisions and system formations"
                     },
                     {
-                        "question": "When calculating percentages of a data set, what aspect is being summarized?",
+                        "question": "Why is gravity considered a fundamental force in the universe?",
                         "options": [
-                            "4) Trends over time.",
-                            "3) The proportion each part has in relation to the whole.",
-                            "2) The relationship between two unrelated numbers.",
-                            "1) The entire data set without focus."
+                            "4) It is only important in small-scale interactions.",
+                            "1) It is invisible and does not affect celestial bodies.",
+                            "3) It governs the movement of planets and holds the Solar System's structure.",
+                            "2) It only affects large objects like planets."
                         ],
-                        "explanation": "Calculating percentages focuses on summarizing the contribution of individual parts relative to the total, providing clearer insights.",
-                        "answer": "3) The proportion each part has in relation to the whole."
+                        "explanation": "Gravity is a fundamental force because it governs the movement and interaction of celestial bodies, maintaining the structure of the Solar System and the universe.",
+                        "answer": "3) It governs the movement of planets and holds the Solar System's structure."
                     },
                     {
-                        "question": "What is one conclusion drawn about the relationship between ratios and percentages?",
+                        "question": "How does Earth's gravity impact our day-to-day lives?",
                         "options": [
-                            "2) Ratios can be converted into percentages to understand parts of a whole.",
-                            "4) Ratios are irrelevant in data analysis.",
-                            "1) They are unrelated concepts.",
-                            "3) Percentages are only useful in theoretical scenarios."
+                            "1) It makes us float away.",
+                            "3) It only affects weather patterns.",
+                            "2) It keeps us grounded and allows interaction with our environment.",
+                            "4) It has no real impact on our daily activities."
                         ],
-                        "explanation": "Ratios can be expressed as percentages, which helps in understanding how they represent parts of a total contextually in data analysis.",
-                        "answer": "2) Ratios can be converted into percentages to understand parts of a whole."
+                        "explanation": "Earth's gravity keeps us grounded, allowing us to walk, interact with things around us, and experience the environment without floating away into space.",
+                        "answer": "2) It keeps us grounded and allows interaction with our environment."
+                    },
+                    {
+                        "question": "What does adjusting the mass of a celestial body in a simulation affect?",
+                        "options": [
+                            "4) The color of the celestial body",
+                            "3) The atmospheric conditions of Earth",
+                            "1) The temperature of the planet",
+                            "2) The gravitational pull and orbits of surrounding bodies"
+                        ],
+                        "explanation": "Adjusting the mass of a celestial body in a simulation directly affects its gravitational pull and subsequently influences the orbits of surrounding celestial bodies.",
+                        "answer": "2) The gravitational pull and orbits of surrounding bodies."
                     }
                 ]
             }
         ],
-        "Mathematics Advanced+": [
-            {
-                "quiz_grade": 100.0,
-                "wrong_answers": [],
-                "attempt_number": 3,
-                "quiz": [
-                    {
-                        "question": "Which of the following best describes integers?",
-                        "options": [
-                            "1) Only positive numbers",
-                            "4) Only whole numbers",
-                            "3) Positive, negative, and zero",
-                            "2) Only negative numbers"
-                        ],
-                        "explanation": "Integers include all whole numbers that can be positive, negative, or zero.",
-                        "answer": "3) Positive, negative, and zero"
-                    },
-                    {
-                        "question": "What element in a game allows players to gain or lose points based on their performance?",
-                        "options": [
-                            "3) A scoring system based solely on time",
-                            "4) Team-based scores only",
-                            "2) Rules defining point deductions and gains",
-                            "1) A random number generator"
-                        ],
-                        "explanation": "A game can define point deductions and gains through specific rules, allowing players to manipulate their scores effectively.",
-                        "answer": "2) Rules defining point deductions and gains"
-                    },
-                    {
-                        "question": "In a competition focused on integer problems, what is a possible outcome for players who answer incorrectly?",
-                        "options": [
-                            "3) They lose points",
-                            "1) They earn bonus points",
-                            "4) They move on to the next question regardless",
-                            "2) They receive no consequences"
-                        ],
-                        "explanation": "In competitive scenarios, players typically lose points for incorrect answers to encourage accuracy and understanding.",
-                        "answer": "3) They lose points"
-                    },
-                    {
-                        "question": "Why might incorporating technology into learning about integers be beneficial?",
-                        "options": [
-                            "3) It eliminates all traditional methods",
-                            "4) It focuses solely on memorization",
-                            "1) It makes learning more difficult",
-                            "2) It can enhance student engagement"
-                        ],
-                        "explanation": "Technology can enhance engagement by providing interactive and entertaining mediums to learn complex concepts like integers.",
-                        "answer": "2) It can enhance student engagement"
-                    },
-                    {
-                        "question": "What concept does a leaderboard in a competitive practice help to establish?",
-                        "options": [
-                            "1) Individual collaboration",
-                            "3) Random scoring",
-                            "4) Irrelevant feedback",
-                            "2) Clear motivation for improvement"
-                        ],
-                        "explanation": "Leaderboards provide a clear motivation for improvement, by visually tracking players' progress and scores.",
-                        "answer": "2) Clear motivation for improvement"
-                    },
-                    {
-                        "question": "Which aspect of game design could be most helpful in teaching the order of operations?",
-                        "options": [
-                            "2) Creating a scoring system based on answering correctly",
-                            "3) A lengthy instruction manual",
-                            "1) The aesthetic appeal of the game",
-                            "4) Using only visuals and no language"
-                        ],
-                        "explanation": "A scoring system that rewards correct answers helps reinforce understanding of the order of operations through practical application.",
-                        "answer": "2) Creating a scoring system based on answering correctly"
-                    },
-                    {
-                        "question": "What is a beneficial strategy when conducting integer problem competitions?",
-                        "options": [
-                            "3) Encouraging team explanations on problem-solving",
-                            "1) Focusing on individual performance only",
-                            "4) Ignoring feedback from players",
-                            "2) Allowing players to work in complete silence"
-                        ],
-                        "explanation": "Encouraging team explanations fosters collaboration and enhances critical thinking skills among participants.",
-                        "answer": "3) Encouraging team explanations on problem-solving"
-                    },
-                    {
-                        "question": "How can challenges revolving around integers enhance learning?",
-                        "options": [
-                            "3) By providing irrelevant context",
-                            "1) By allowing students to avoid complex problems",
-                            "4) By emphasizing isolated practice only",
-                            "2) By promoting hands-on interactive experiences"
-                        ],
-                        "explanation": "Interactive experiences through challenges allow for deeper engagement and understanding of mathematical concepts like integers.",
-                        "answer": "2) By promoting hands-on interactive experiences"
-                    },
-                    {
-                        "question": "In integer-based games, what is a common feature regarding player scores?",
-                        "options": [
-                            "3) Scores do not impact game play",
-                            "1) Scores can only increase",
-                            "2) Scores can fluctuate positively and negatively",
-                            "4) Scores stay constant throughout the game"
-                        ],
-                        "explanation": "In integer-based games, scores can fluctuate positively when earning points and negatively when losing points, showcasing the concept of integers.",
-                        "answer": "2) Scores can fluctuate positively and negatively"
-                    },
-                    {
-                        "question": "What role does setting up a \u2018Math Corner\u2019 play in a fun learning environment?",
-                        "options": [
-                            "1) It discourages participation",
-                            "3) It enhances interest in math",
-                            "2) It restricts creativity",
-                            "4) It simplifies learning to a single approach"
-                        ],
-                        "explanation": "A \u2018Math Corner\u2019 filled with engaging materials encourages exploration and enhances interest in mathematical topics like integers.",
-                        "answer": "3) It enhances interest in math"
-                    }
-                ]
-            }
-        ],
-        "Science+": [
+        "Computer Science": [
             {
                 "quiz_grade": 90.0,
                 "wrong_answers": [
-                    2
+                    8
                 ],
-                "attempt_number": 4,
-                "quiz": [
-                    {
-                        "question": "What is the main purpose of using interactive simulations in the context of atomic structure?",
-                        "options": [
-                            "3) To conduct chemical experiments",
-                            "1) To memorize the periodic table",
-                            "2) To visualize atomic interactions and properties",
-                            "4) To learn about molecular biology"
-                        ],
-                        "explanation": "Interactive simulations allow learners to visualize how atomic components interact and change, providing a deeper understanding of atomic structure.",
-                        "answer": "2) To visualize atomic interactions and properties"
-                    },
-                    {
-                        "question": "In modeling atoms, what do circles represent?",
-                        "options": [
-                            "3) Chemical bonds",
-                            "4) Energy levels",
-                            "2) Protons and Neutrons",
-                            "1) Electrons"
-                        ],
-                        "explanation": "In atomic models, circles are commonly used to denote protons and neutrons, while smaller circles represent electrons.",
-                        "answer": "2) Protons and Neutrons"
-                    },
-                    {
-                        "question": "What key concept is illustrated by the statement that 'chemical reactions occur when atoms and molecules come together to form new substances'?",
-                        "options": [
-                            "4) The periodic table",
-                            "3) The electron cloud model",
-                            "1) Atomic theory",
-                            "2) The law of conservation of mass"
-                        ],
-                        "explanation": "This concept demonstrates that during chemical reactions, atoms are rearranged to form different substances, showcasing their interactions.",
-                        "answer": "1) Atomic theory"
-                    },
-                    {
-                        "question": "Which of the following best describes chemical reactions as discussed in the lecture?",
-                        "options": [
-                            "3) They involve the breaking and forming of bonds between atoms.",
-                            "4) They cannot be observed through simulations.",
-                            "1) They can occur without changing the composition of substances.",
-                            "2) They are solely dependent on external temperature changes."
-                        ],
-                        "explanation": "Chemical reactions involve the rearrangement of atoms, where bonds break and new bonds form, highlighting atomic interactions.",
-                        "answer": "3) They involve the breaking and forming of bonds between atoms."
-                    },
-                    {
-                        "question": "What does changing the number of electrons in an atom affect?",
-                        "options": [
-                            "1) The atomic number",
-                            "3) The charge and chemical properties of the atom",
-                            "4) The number of protons",
-                            "2) The mass number"
-                        ],
-                        "explanation": "Adding or removing electrons alters the charge of the atom, impacting its chemical properties, such as its reactivity.",
-                        "answer": "3) The charge and chemical properties of the atom"
-                    },
-                    {
-                        "question": "Why is the concept of conservation of mass important in observing chemical reactions?",
-                        "options": [
-                            "3) It explains that the total mass of reactants equals the total mass of products.",
-                            "2) It means that atoms can be created or destroyed in a reaction.",
-                            "4) It indicates that energy is conserved in chemical reactions.",
-                            "1) It ensures that reactions can happen spontaneously."
-                        ],
-                        "explanation": "Conservation of mass states that in a chemical reaction, the sum of the masses of the reactants is equal to the sum of the masses of the products, affirming the constant number of atoms.",
-                        "answer": "3) It explains that the total mass of reactants equals the total mass of products."
-                    },
-                    {
-                        "question": "Which aspect of atomic structure do simulations help us explore?",
-                        "options": [
-                            "4) The interactions between different atomic components",
-                            "3) The movement of atoms in different states of matter",
-                            "1) The color of elements",
-                            "2) The temperature fluctuations of atoms"
-                        ],
-                        "explanation": "Simulations provide insights into how different atomic components, such as protons, neutrons, and electrons, interact and change during processes.",
-                        "answer": "4) The interactions between different atomic components"
-                    },
-                    {
-                        "question": "Which part of an atom is responsible for determining the element type?",
-                        "options": [
-                            "4) Molecules",
-                            "3) Protons",
-                            "2) Electrons",
-                            "1) Neutrons"
-                        ],
-                        "explanation": "The number of protons in an atom's nucleus defines its atomic number, which determines the type of element it is.",
-                        "answer": "3) Protons"
-                    },
-                    {
-                        "question": "In the context of the lecture, how are practical applications of atomic structure highlighted?",
-                        "options": [
-                            "2) They are only applicable in scientific research.",
-                            "4) They emphasize historical experiments in chemistry.",
-                            "3) They demonstrate the relevance of chemistry in everyday life and various careers.",
-                            "1) They are unrelated to fields like cooking and sewing."
-                        ],
-                        "explanation": "The discussion on practical applications emphasizes how understanding atomic structure is crucial for fields such as engineering and medicine.",
-                        "answer": "3) They demonstrate the relevance of chemistry in everyday life and various careers."
-                    },
-                    {
-                        "question": "What method is suggested for creating detailed models of atoms?",
-                        "options": [
-                            "3) Using symbols and abstract representations of particles.",
-                            "1) Using physical materials to build the models.",
-                            "2) Drawing models on paper.",
-                            "4) Building 3D structures with software applications."
-                        ],
-                        "explanation": "The lecture suggests using symbols to represent different particles in atoms, simplifying the process of modeling atomic structure.",
-                        "answer": "3) Using symbols and abstract representations of particles."
-                    }
-                ]
-            }
-        ],
-        "Social Studies+": [
-            {
-                "quiz_grade": 100.0,
-                "wrong_answers": [],
                 "attempt_number": 2,
                 "quiz": [
                     {
-                        "question": "What geographical feature is considered the key to Mesopotamia's success as the 'Cradle of Civilization'?",
+                        "question": "What is the primary purpose of a function in programming?",
                         "options": [
-                            "4) The Amazon River",
-                            "3) The Tigris and Euphrates Rivers",
-                            "1) The Nile River",
-                            "2) The Indus River"
+                            "1) To create reusable pieces of code",
+                            "2) To produce random outputs",
+                            "3) To optimize hardware usage",
+                            "4) To connect to databases"
                         ],
-                        "explanation": "The Tigris and Euphrates Rivers provided fertile land which allowed for the development of agriculture and complex societies in Mesopotamia.",
-                        "answer": "3) The Tigris and Euphrates Rivers"
+                        "explanation": "The primary purpose of a function is to encapsulate a sequence of instructions to perform a specific task, making code reusable and improving readability.",
+                        "answer": "1) To create reusable pieces of code"
                     },
                     {
-                        "question": "In Ancient Egypt, who was considered both the political and divine ruler?",
+                        "question": "Which of the following best describes a recursive function?",
                         "options": [
-                            "3) A King",
-                            "4) A General",
-                            "2) A Priest",
-                            "1) A Pharaoh"
+                            "2) A function that calls itself",
+                            "3) A function with no input parameters",
+                            "1) A function that returns multiple values",
+                            "4) A function that can only execute once"
                         ],
-                        "explanation": "The Pharaoh was believed to be a god on earth, embodying both political and religious authority in Ancient Egypt.",
-                        "answer": "1) A Pharaoh"
+                        "explanation": "A recursive function is a function that calls itself in order to solve a problem, typically breaking it down into smaller subproblems.",
+                        "answer": "2) A function that calls itself"
                     },
                     {
-                        "question": "Which civilization is recognized for its advanced urban planning, including sophisticated drainage systems?",
+                        "question": "What keyword is used to define a lambda function in Python?",
                         "options": [
-                            "1) Ancient Egypt",
-                            "2) The Indus Valley Civilization",
-                            "3) Mesopotamia",
-                            "4) The Shang Dynasty"
+                            "1) func",
+                            "4) method",
+                            "2) lambda",
+                            "3) define"
                         ],
-                        "explanation": "The Indus Valley Civilization is noted for its advanced urban planning with well-organized cities such as Harappa and Mohenjo-daro.",
-                        "answer": "2) The Indus Valley Civilization"
+                        "explanation": "The keyword used to define a lambda function in Python is 'lambda', which allows the definition of small anonymous functions.",
+                        "answer": "2) lambda"
                     },
                     {
-                        "question": "What was a notable feature of ancient Chinese governance during the Shang Dynasty?",
+                        "question": "Which of the following statements is true regarding lambda functions?",
                         "options": [
-                            "4) Democracy",
-                            "2) The Mandate of Heaven",
-                            "3) Codes of Law",
-                            "1) City-states"
+                            "3) They can contain multiple arguments",
+                            "4) They are used primarily for creating classes",
+                            "2) They can only return integer values",
+                            "1) They can only have one argument"
                         ],
-                        "explanation": "The Mandate of Heaven was a significant concept that justified the ruler's authority by suggesting it was divinely sanctioned.",
-                        "answer": "2) The Mandate of Heaven"
+                        "explanation": "Lambda functions can contain multiple arguments but are limited to a single expression, making them concise and useful for short-term tasks.",
+                        "answer": "3) They can contain multiple arguments"
                     },
                     {
-                        "question": "How did the governance in Mesopotamia differ from that of Ancient Egypt?",
+                        "question": "What aspect of error handling helps maintain the stability of a program?",
                         "options": [
-                            "1) Mesopotamia had a feudal system, while Egypt was centralized",
-                            "3) Mesopotamia consisted of city-states, while Egypt was centralized under a Pharaoh",
-                            "2) Mesopotamia was centralized under a Pharaoh",
-                            "4) Both had the same governance structure"
+                            "2) Ignoring errors completely",
+                            "3) Utilizing try-except blocks",
+                            "1) Using extensive print statements",
+                            "4) Writing code without any errors"
                         ],
-                        "explanation": "Mesopotamia was characterized by independent city-states governed by kings, whereas Ancient Egypt was centralized under the authority of the Pharaoh.",
-                        "answer": "3) Mesopotamia consisted of city-states, while Egypt was centralized under a Pharaoh"
+                        "explanation": "Utilizing try-except blocks allows programmers to catch and handle exceptions, preventing crashes and ensuring a user-friendly experience.",
+                        "answer": "3) Utilizing try-except blocks"
                     },
                     {
-                        "question": "Which technological advancement was significant during the Shang Dynasty in ancient China?",
+                        "question": "What is a common application of recursive functions mentioned in the lecture?",
                         "options": [
-                            "4) Written language",
-                            "1) The wheel",
-                            "2) Bronze casting",
-                            "3) Pyramid construction"
+                            "4) Managing file input-output",
+                            "2) Computing the Fibonacci series",
+                            "3) Drawing graphical images",
+                            "1) Searching for keywords in a document"
                         ],
-                        "explanation": "Bronze casting was a significant technological advancement during the Shang Dynasty, contributing to their economic prosperity through improved tools and weapons.",
-                        "answer": "2) Bronze casting"
+                        "explanation": "Recursive functions are often used for computations like the Fibonacci series, where the result of a number depends on smaller previous results.",
+                        "answer": "2) Computing the Fibonacci series"
                     },
                     {
-                        "question": "What influenced the decline of the Indus Valley Civilization, according to discussions on climate change and resources?",
+                        "question": "What type of problems can recursive functions simplify, as discussed?",
                         "options": [
-                            "1) Invasions by other cultures",
-                            "3) Lack of trade",
-                            "4) Poor writing systems",
-                            "2) Climate change and resource management issues"
+                            "2) Problems that have no solution",
+                            "3) Problems defined in terms of smaller subproblems",
+                            "1) Problems with a single solution",
+                            "4) Problems that require brute force calculations"
                         ],
-                        "explanation": "Discussions suggest the decline may have been influenced by climate change and resource management challenges, highlighting sustainability issues.",
-                        "answer": "2) Climate change and resource management issues"
+                        "explanation": "Recursive functions are particularly effective for solving problems that can be defined in terms of smaller subproblems, allowing simplification.",
+                        "answer": "3) Problems defined in terms of smaller subproblems"
                     },
                     {
-                        "question": "What was a shared characteristic of governance in both Mesopotamia and Egypt?",
+                        "question": "What role do lambda functions often play in programming?",
                         "options": [
-                            "4) Direct democracy",
-                            "1) Separation of religion and politics",
-                            "3) Integration of religion into governance",
-                            "2) Bureaucratic structures"
+                            "2) They are primarily used for debugging",
+                            "1) They replace all functions in a program",
+                            "3) They serve as anonymous functions for short-term use",
+                            "4) They cannot be used as arguments to other functions"
                         ],
-                        "explanation": "Both Mesopotamia and Egypt integrated religious authority into their political structures, with rulers often seen as divine or appointed by the gods.",
-                        "answer": "3) Integration of religion into governance"
+                        "explanation": "Lambda functions are often used as anonymous functions for short durations, particularly as arguments to higher-order functions.",
+                        "answer": "3) They serve as anonymous functions for short-term use"
                     },
                     {
-                        "question": "Which trade route is mentioned as a vital connection for ancient civilizations?",
+                        "question": "Which of the following statements correctly reflects the structure of error handling in Python?",
                         "options": [
-                            "4) The Spice Route",
-                            "2) The Incense Route",
-                            "1) The Silk Road",
-                            "3) The Roman Roads"
+                            "2) The syntax requires 'try' before 'except'.",
+                            "3) Catching exceptions is not necessary.",
+                            "1) All exceptions must be handled according to their type.",
+                            "4) You cannot write multiple try-except blocks."
                         ],
-                        "explanation": "The Silk Road was essential for trade and cultural exchange between ancient civilizations, influencing ideas and technology.",
-                        "answer": "1) The Silk Road"
+                        "explanation": "In Python, the correct structure for error handling involves placing the code that might cause an error in a 'try' block followed by 'except' to handle the exceptions.",
+                        "answer": "2) The syntax requires 'try' before 'except'."
                     },
                     {
-                        "question": "What legacy of ancient civilizations is still noticeable in modern governance?",
+                        "question": "In the context of project work mentioned in the lecture, what is essential to consider?",
                         "options": [
-                            "4) Clan-based governance",
-                            "1) A focus on trade",
-                            "2) The development of seniority systems",
-                            "3) Codes of Law and bureaucratic structures"
+                            "4) Only focusing on syntax errors",
+                            "3) Avoiding any use of functions",
+                            "2) Planning how to integrate functions and error handling",
+                            "1) Directly copying existing projects"
                         ],
-                        "explanation": "Ancient civilizations laid the foundations for modern societal organization through the establishment of laws and structured governance.",
-                        "answer": "3) Codes of Law and bureaucratic structures"
-                    }
-                ]
-            }
-        ],
-        "American History+": [
-            {
-                "quiz_grade": 90.0,
-                "wrong_answers": [
-                    6
-                ],
-                "attempt_number": 3,
-                "quiz": [
-                    {
-                        "question": "What type of timeline will we create for the Colonial America lesson?",
-                        "options": [
-                            "2) Circular",
-                            "4) Interactive",
-                            "1) Linear",
-                            "3) Hierarchical"
-                        ],
-                        "explanation": "We will create a linear timeline to capture key events from the 1600s to the mid-1700s.",
-                        "answer": "1) Linear"
-                    },
-                    {
-                        "question": "What is one method discussed for enhancing timelines visually?",
-                        "options": [
-                            "2) Using only text descriptions",
-                            "3) Organizing events alphabetically",
-                            "1) Incorporating pictures and symbols",
-                            "4) Creating a digital presentation"
-                        ],
-                        "explanation": "Incorporating pictures of symbols and key figures helps make timelines more engaging and aids in memory retention.",
-                        "answer": "1) Incorporating pictures and symbols"
-                    },
-                    {
-                        "question": "Why is understanding chronology emphasized in the lesson?",
-                        "options": [
-                            "4) It replaces the need for detailed notes.",
-                            "3) It allows for easy memorization of dates.",
-                            "2) It simplifies historical narratives.",
-                            "1) It helps to recognize the sequence of events."
-                        ],
-                        "explanation": "Understanding chronology helps recognize the temporal relationships among events, clarifying how they lead to later occurrences.",
-                        "answer": "1) It helps to recognize the sequence of events."
-                    },
-                    {
-                        "question": "How can we assess our timeline once it is completed?",
-                        "options": [
-                            "3) By comparing it to existing textbooks.",
-                            "2) By showing it to peers for feedback.",
-                            "4) By writing an essay about it.",
-                            "1) By analyzing patterns and asking critical questions."
-                        ],
-                        "explanation": "We can assess our timelines by analyzing patterns such as the frequency of conflicts and shifts in governance, along with posing critical questions about them.",
-                        "answer": "1) By analyzing patterns and asking critical questions."
-                    },
-                    {
-                        "question": "What type of events does the scale of the timeline allow us to focus on?",
-                        "options": [
-                            "2) Only the most significant events in history.",
-                            "1) Specific themes or events without overwhelming ourselves.",
-                            "4) Events from various unrelated periods.",
-                            "3) Events within one year only."
-                        ],
-                        "explanation": "Establishing a scale allows us to focus on specific themes or events within defined time frames, making it more digestible.",
-                        "answer": "1) Specific themes or events without overwhelming ourselves."
-                    },
-                    {
-                        "question": "What historical period does our timeline cover in this lesson?",
-                        "options": [
-                            "4) From the founding of America to its independence.",
-                            "2) The 1700s to the 1800s.",
-                            "3) The 1500s to the 1600s.",
-                            "1) The 1600s to the mid-1700s."
-                        ],
-                        "explanation": "Our timeline specifically covers events from Colonial America, focusing on the period from the 1600s to the mid-1700s.",
-                        "answer": "1) The 1600s to the mid-1700s."
-                    },
-                    {
-                        "question": "What is an example of an event we might include in our Colonial America timeline according to the lecture?",
-                        "options": [
-                            "4) The American Civil War.",
-                            "3) The invention of the cotton gin.",
-                            "2) The founding of the Massachusetts Bay Colony.",
-                            "1) The signing of the Declaration of Independence."
-                        ],
-                        "explanation": "An example event we might include is the founding of the Massachusetts Bay Colony, which is significant in the context of Colonial America.",
-                        "answer": "2) The founding of the Massachusetts Bay Colony."
-                    },
-                    {
-                        "question": "Which factor is important when deciding on events to include in a timeline?",
-                        "options": [
-                            "2) The color of the sources presenting the information.",
-                            "3) The publication date of historical documents.",
-                            "1) The impact and relevance of events to the broader historical narrative.",
-                            "4) Whether events had a minimal effect on society."
-                        ],
-                        "explanation": "Choosing events based on their impact and relevance to the broader narrative helps to create a meaningful and informative timeline.",
-                        "answer": "1) The impact and relevance of events to the broader historical narrative."
-                    },
-                    {
-                        "question": "What benefit does incorporating visuals in a timeline provide?",
-                        "options": [
-                            "1) It transforms the timeline into a colorful display.",
-                            "4) It eliminates the need for explanations.",
-                            "3) It serves as a distraction from the text.",
-                            "2) It makes the timeline more engaging and reinforces memory."
-                        ],
-                        "explanation": "Incorporating visuals in a timeline makes it more engaging and helps reinforce the memory of the events presented, aiding in understanding.",
-                        "answer": "2) It makes the timeline more engaging and reinforces memory."
-                    },
-                    {
-                        "question": "What is one of the main focuses when discussing events that led to the American Revolution?",
-                        "options": [
-                            "2) The weather conditions during those events.",
-                            "3) The economic status of each colony.",
-                            "1) The cultural and social elements alongside political ones.",
-                            "4) The geographic locations of key battles."
-                        ],
-                        "explanation": "Understanding the cultural and social elements alongside political ones is crucial for comprehending the events that led to the American Revolution.",
-                        "answer": "1) The cultural and social elements alongside political ones."
+                        "explanation": "In project work, it is crucial to plan how to integrate various functions, use recursion, and implement error handling effectively for a robust final product.",
+                        "answer": "2) Planning how to integrate functions and error handling"
                     }
                 ]
             },
             {
                 "quiz_grade": 100.0,
                 "wrong_answers": [],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is the primary purpose of a function in programming?",
+                        "options": [
+                            "1) To create reusable pieces of code",
+                            "2) To produce random outputs",
+                            "3) To optimize hardware usage",
+                            "4) To connect to databases"
+                        ],
+                        "explanation": "The primary purpose of a function is to encapsulate a sequence of instructions to perform a specific task, making code reusable and improving readability.",
+                        "answer": "1) To create reusable pieces of code"
+                    },
+                    {
+                        "question": "Which of the following best describes a recursive function?",
+                        "options": [
+                            "2) A function that calls itself",
+                            "3) A function with no input parameters",
+                            "1) A function that returns multiple values",
+                            "4) A function that can only execute once"
+                        ],
+                        "explanation": "A recursive function is a function that calls itself in order to solve a problem, typically breaking it down into smaller subproblems.",
+                        "answer": "2) A function that calls itself"
+                    },
+                    {
+                        "question": "What keyword is used to define a lambda function in Python?",
+                        "options": [
+                            "1) func",
+                            "4) method",
+                            "2) lambda",
+                            "3) define"
+                        ],
+                        "explanation": "The keyword used to define a lambda function in Python is 'lambda', which allows the definition of small anonymous functions.",
+                        "answer": "2) lambda"
+                    },
+                    {
+                        "question": "Which of the following statements is true regarding lambda functions?",
+                        "options": [
+                            "3) They can contain multiple arguments",
+                            "4) They are used primarily for creating classes",
+                            "2) They can only return integer values",
+                            "1) They can only have one argument"
+                        ],
+                        "explanation": "Lambda functions can contain multiple arguments but are limited to a single expression, making them concise and useful for short-term tasks.",
+                        "answer": "3) They can contain multiple arguments"
+                    },
+                    {
+                        "question": "What aspect of error handling helps maintain the stability of a program?",
+                        "options": [
+                            "2) Ignoring errors completely",
+                            "3) Utilizing try-except blocks",
+                            "1) Using extensive print statements",
+                            "4) Writing code without any errors"
+                        ],
+                        "explanation": "Utilizing try-except blocks allows programmers to catch and handle exceptions, preventing crashes and ensuring a user-friendly experience.",
+                        "answer": "3) Utilizing try-except blocks"
+                    },
+                    {
+                        "question": "What is a common application of recursive functions mentioned in the lecture?",
+                        "options": [
+                            "4) Managing file input-output",
+                            "2) Computing the Fibonacci series",
+                            "3) Drawing graphical images",
+                            "1) Searching for keywords in a document"
+                        ],
+                        "explanation": "Recursive functions are often used for computations like the Fibonacci series, where the result of a number depends on smaller previous results.",
+                        "answer": "2) Computing the Fibonacci series"
+                    },
+                    {
+                        "question": "What type of problems can recursive functions simplify, as discussed?",
+                        "options": [
+                            "2) Problems that have no solution",
+                            "3) Problems defined in terms of smaller subproblems",
+                            "1) Problems with a single solution",
+                            "4) Problems that require brute force calculations"
+                        ],
+                        "explanation": "Recursive functions are particularly effective for solving problems that can be defined in terms of smaller subproblems, allowing simplification.",
+                        "answer": "3) Problems defined in terms of smaller subproblems"
+                    },
+                    {
+                        "question": "What role do lambda functions often play in programming?",
+                        "options": [
+                            "2) They are primarily used for debugging",
+                            "1) They replace all functions in a program",
+                            "3) They serve as anonymous functions for short-term use",
+                            "4) They cannot be used as arguments to other functions"
+                        ],
+                        "explanation": "Lambda functions are often used as anonymous functions for short durations, particularly as arguments to higher-order functions.",
+                        "answer": "3) They serve as anonymous functions for short-term use"
+                    },
+                    {
+                        "question": "Which of the following statements correctly reflects the structure of error handling in Python?",
+                        "options": [
+                            "2) The syntax requires 'try' before 'except'.",
+                            "3) Catching exceptions is not necessary.",
+                            "1) All exceptions must be handled according to their type.",
+                            "4) You cannot write multiple try-except blocks."
+                        ],
+                        "explanation": "In Python, the correct structure for error handling involves placing the code that might cause an error in a 'try' block followed by 'except' to handle the exceptions.",
+                        "answer": "2) The syntax requires 'try' before 'except'."
+                    },
+                    {
+                        "question": "In the context of project work mentioned in the lecture, what is essential to consider?",
+                        "options": [
+                            "4) Only focusing on syntax errors",
+                            "3) Avoiding any use of functions",
+                            "2) Planning how to integrate functions and error handling",
+                            "1) Directly copying existing projects"
+                        ],
+                        "explanation": "In project work, it is crucial to plan how to integrate various functions, use recursion, and implement error handling effectively for a robust final product.",
+                        "answer": "2) Planning how to integrate functions and error handling"
+                    }
+                ]
+            }
+        ],
+        "English": [
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    0,
+                    1
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What process is vital for ensuring that your arguments resonate with your audience?",
+                        "options": [
+                            "2) Peer Evaluations",
+                            "3) Structuring Your Conclusion",
+                            "1) Final Edits",
+                            "4) Writing More Evidence"
+                        ],
+                        "explanation": "Peer evaluations help improve your writing by providing new perspectives and identifying areas for improvement.",
+                        "answer": "2) Peer Evaluations"
+                    },
+                    {
+                        "question": "What is suggested as a method to ensure clarity in your writing during final edits?",
+                        "options": [
+                            "3) Reading Your Paper Aloud",
+                            "4) Seeking Feedback from Friends",
+                            "1) Reviewing Your Thesis",
+                            "2) Highlighting Your Call to Action"
+                        ],
+                        "explanation": "Reading your paper aloud can help catch errors that may be overlooked when reading silently and improve clarity of ideas.",
+                        "answer": "3) Reading Your Paper Aloud"
+                    },
+                    {
+                        "question": "What should you do to reinforce your reader's understanding in the conclusion?",
+                        "options": [
+                            "4) Omit Important Points",
+                            "2) Restate Your Thesis",
+                            "1) Introduce New Ideas",
+                            "3) Include Personal Opinions"
+                        ],
+                        "explanation": "Restating your thesis in a new way helps to emphasize the core message and reinforces the reader's understanding.",
+                        "answer": "2) Restate Your Thesis"
+                    },
+                    {
+                        "question": "What is an appropriate call to action in your conclusion?",
+                        "options": [
+                            "3) A Long Historical Analysis",
+                            "2) A Personal Anecdote",
+                            "1) A Suggestion for Future Research",
+                            "4) A Summary of the Introduction"
+                        ],
+                        "explanation": "Including a suggestion for future research or a practical application encourages readers to think further about the topic and take action.",
+                        "answer": "1) A Suggestion for Future Research"
+                    },
+                    {
+                        "question": "Why is the Arguments Summary crucial in your paper?",
+                        "options": [
+                            "2) It Provides Closure",
+                            "3) It Introduces Contradictory Ideas",
+                            "1) It Offers New Arguments",
+                            "4) It Randomizes Your Points"
+                        ],
+                        "explanation": "The Arguments Summary captures the essence of your argument and gives closure to the reader, reinforcing the main points.",
+                        "answer": "2) It Provides Closure"
+                    },
+                    {
+                        "question": "What aspect of your writing does the final edit focus on refining?",
+                        "options": [
+                            "2) Style Consistency",
+                            "1) Grammar and Spelling Mistakes",
+                            "4) Adding More References",
+                            "3) Length of the Paper"
+                        ],
+                        "explanation": "Final edits focus on polishing the work by correcting grammatical mistakes, ensuring clarity, and tightening language.",
+                        "answer": "1) Grammar and Spelling Mistakes"
+                    },
+                    {
+                        "question": "How does summarizing your arguments benefit your readers?",
+                        "options": [
+                            "4) It Detracts from Main Ideas",
+                            "2) It Reiterates Points Harshly",
+                            "3) It Cement Their Understanding",
+                            "1) It Confuses Them"
+                        ],
+                        "explanation": "A well-structured summary reinforces understanding and highlights why your perspective matters, leading readers to reflect on the arguments made.",
+                        "answer": "3) It Cement Their Understanding"
+                    },
+                    {
+                        "question": "What should a compelling conclusion aim to do?",
+                        "options": [
+                            "2) Stop the Discussion",
+                            "4) Fury Readers",
+                            "3) Inspire Further Thought and Action",
+                            "1) Leave the Reader Indifferent"
+                        ],
+                        "explanation": "A compelling conclusion should inspire readers to think further or to take action based on the arguments presented.",
+                        "answer": "3) Inspire Further Thought and Action"
+                    },
+                    {
+                        "question": "Which part of your paper gives you the chance to briefly restate your main points?",
+                        "options": [
+                            "4) Background Information",
+                            "1) Introduction",
+                            "3) Arguments Summary",
+                            "2) Conclusion"
+                        ],
+                        "explanation": "The Arguments Summary is the section that allows you to restate the main points succinctly, providing a coherent finale to your argument.",
+                        "answer": "3) Arguments Summary"
+                    },
+                    {
+                        "question": "What does peer review provide to an author beyond identifying mistakes?",
+                        "options": [
+                            "3) It Guarantees Perfection",
+                            "1) It Is Only Critical",
+                            "2) It Offers New Perspectives",
+                            "4) It Is Unnecessary"
+                        ],
+                        "explanation": "Peer review not only spots errors but also provides fresh perspectives that can enhance the quality and effectiveness of your writing.",
+                        "answer": "2) It Offers New Perspectives"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What process is vital for ensuring that your arguments resonate with your audience?",
+                        "options": [
+                            "2) Peer Evaluations",
+                            "3) Structuring Your Conclusion",
+                            "1) Final Edits",
+                            "4) Writing More Evidence"
+                        ],
+                        "explanation": "Peer evaluations help improve your writing by providing new perspectives and identifying areas for improvement.",
+                        "answer": "2) Peer Evaluations"
+                    },
+                    {
+                        "question": "What is suggested as a method to ensure clarity in your writing during final edits?",
+                        "options": [
+                            "3) Reading Your Paper Aloud",
+                            "4) Seeking Feedback from Friends",
+                            "1) Reviewing Your Thesis",
+                            "2) Highlighting Your Call to Action"
+                        ],
+                        "explanation": "Reading your paper aloud can help catch errors that may be overlooked when reading silently and improve clarity of ideas.",
+                        "answer": "3) Reading Your Paper Aloud"
+                    },
+                    {
+                        "question": "What should you do to reinforce your reader's understanding in the conclusion?",
+                        "options": [
+                            "4) Omit Important Points",
+                            "2) Restate Your Thesis",
+                            "1) Introduce New Ideas",
+                            "3) Include Personal Opinions"
+                        ],
+                        "explanation": "Restating your thesis in a new way helps to emphasize the core message and reinforces the reader's understanding.",
+                        "answer": "2) Restate Your Thesis"
+                    },
+                    {
+                        "question": "What is an appropriate call to action in your conclusion?",
+                        "options": [
+                            "3) A Long Historical Analysis",
+                            "2) A Personal Anecdote",
+                            "1) A Suggestion for Future Research",
+                            "4) A Summary of the Introduction"
+                        ],
+                        "explanation": "Including a suggestion for future research or a practical application encourages readers to think further about the topic and take action.",
+                        "answer": "1) A Suggestion for Future Research"
+                    },
+                    {
+                        "question": "Why is the Arguments Summary crucial in your paper?",
+                        "options": [
+                            "2) It Provides Closure",
+                            "3) It Introduces Contradictory Ideas",
+                            "1) It Offers New Arguments",
+                            "4) It Randomizes Your Points"
+                        ],
+                        "explanation": "The Arguments Summary captures the essence of your argument and gives closure to the reader, reinforcing the main points.",
+                        "answer": "2) It Provides Closure"
+                    },
+                    {
+                        "question": "What aspect of your writing does the final edit focus on refining?",
+                        "options": [
+                            "2) Style Consistency",
+                            "1) Grammar and Spelling Mistakes",
+                            "4) Adding More References",
+                            "3) Length of the Paper"
+                        ],
+                        "explanation": "Final edits focus on polishing the work by correcting grammatical mistakes, ensuring clarity, and tightening language.",
+                        "answer": "1) Grammar and Spelling Mistakes"
+                    },
+                    {
+                        "question": "How does summarizing your arguments benefit your readers?",
+                        "options": [
+                            "4) It Detracts from Main Ideas",
+                            "2) It Reiterates Points Harshly",
+                            "3) It Cement Their Understanding",
+                            "1) It Confuses Them"
+                        ],
+                        "explanation": "A well-structured summary reinforces understanding and highlights why your perspective matters, leading readers to reflect on the arguments made.",
+                        "answer": "3) It Cement Their Understanding"
+                    },
+                    {
+                        "question": "What should a compelling conclusion aim to do?",
+                        "options": [
+                            "2) Stop the Discussion",
+                            "4) Fury Readers",
+                            "3) Inspire Further Thought and Action",
+                            "1) Leave the Reader Indifferent"
+                        ],
+                        "explanation": "A compelling conclusion should inspire readers to think further or to take action based on the arguments presented.",
+                        "answer": "3) Inspire Further Thought and Action"
+                    },
+                    {
+                        "question": "Which part of your paper gives you the chance to briefly restate your main points?",
+                        "options": [
+                            "4) Background Information",
+                            "1) Introduction",
+                            "3) Arguments Summary",
+                            "2) Conclusion"
+                        ],
+                        "explanation": "The Arguments Summary is the section that allows you to restate the main points succinctly, providing a coherent finale to your argument.",
+                        "answer": "3) Arguments Summary"
+                    },
+                    {
+                        "question": "What does peer review provide to an author beyond identifying mistakes?",
+                        "options": [
+                            "3) It Guarantees Perfection",
+                            "1) It Is Only Critical",
+                            "2) It Offers New Perspectives",
+                            "4) It Is Unnecessary"
+                        ],
+                        "explanation": "Peer review not only spots errors but also provides fresh perspectives that can enhance the quality and effectiveness of your writing.",
+                        "answer": "2) It Offers New Perspectives"
+                    }
+                ]
+            }
+        ],
+        "Science": [
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    2,
+                    3,
+                    4,
+                    8
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is the primary role of a catalyst in a chemical reaction?",
+                        "options": [
+                            "2) It increases the reaction rate without being consumed.",
+                            "4) It decreases the temperature.",
+                            "1) It slows down the reaction.",
+                            "3) It changes the products of the reaction."
+                        ],
+                        "explanation": "A catalyst speeds up a chemical reaction without being consumed in the process, making it vital for many biological and chemical processes.",
+                        "answer": "2) It increases the reaction rate without being consumed."
+                    },
+                    {
+                        "question": "How does temperature affect reaction rates according to the lecture?",
+                        "options": [
+                            "1) It has no effect on the rate.",
+                            "4) It changes the state of the reactants.",
+                            "3) It decreases the energy of reactants.",
+                            "2) It increases the speed of the reaction by providing more energy to reactants."
+                        ],
+                        "explanation": "Increasing the temperature gives reactant particles more energy, which increases their movement and the frequency of collisions, leading to faster reaction rates.",
+                        "answer": "2) It increases the speed of the reaction by providing more energy to reactants."
+                    },
+                    {
+                        "question": "Which type of factor does surface area of reactants fall under when considering reaction rates?",
+                        "options": [
+                            "2) Physical properties",
+                            "1) Chemical properties",
+                            "3) Environmental factors",
+                            "4) Kinetic factors"
+                        ],
+                        "explanation": "Surface area is a physical property that can influence reaction rates because breaking solids into smaller pieces exposes more particles for collision.",
+                        "answer": "2) Physical properties"
+                    },
+                    {
+                        "question": "What happens to a system at equilibrium if pressure is increased, according to Le Chatelier's Principle?",
+                        "options": [
+                            "1) The system remains unchanged.",
+                            "2) It shifts to favor the side with more moles of gas.",
+                            "3) It shifts to favor the side with fewer moles of gas.",
+                            "4) It completely shifts towards the products."
+                        ],
+                        "explanation": "According to Le Chatelier's Principle, increasing pressure will shift the equilibrium to favor the side with fewer moles of gas to reduce the pressure effect.",
+                        "answer": "3) It shifts to favor the side with fewer moles of gas."
+                    },
+                    {
+                        "question": "In industrial processes, why is it important to control reaction rates?",
+                        "options": [
+                            "1) To produce more waste.",
+                            "3) To limit the use of resources.",
+                            "4) To reduce costs by using less energy.",
+                            "2) To maximize the yield of desired products."
+                        ],
+                        "explanation": "Controlling reaction rates is essential in industrial processes because it allows for maximizing the yield of desired products, thus improving efficiency.",
+                        "answer": "2) To maximize the yield of desired products."
+                    },
+                    {
+                        "question": "What is an example of a situation where Le Chatelier's Principle can be applied in agriculture?",
+                        "options": [
+                            "4) Harvesting crops",
+                            "3) Irrigating crops",
+                            "2) Optimizing fertilizer conditions",
+                            "1) Using pesticides"
+                        ],
+                        "explanation": "In agriculture, Le Chatelier's Principle can be applied by optimizing conditions under which fertilizers react to enhance crop efficacy and growth.",
+                        "answer": "2) Optimizing fertilizer conditions"
+                    },
+                    {
+                        "question": "How does increasing the surface area of a reactant affect the rate of reaction?",
+                        "options": [
+                            "1) It has no effect on the reaction rate.",
+                            "3) It increases the reaction rate by allowing more collisions.",
+                            "2) It decreases the reaction rate.",
+                            "4) It causes the reaction to stop."
+                        ],
+                        "explanation": "Increasing the surface area allows more reactant particles to collide and react, thus increasing the overall rate of reaction.",
+                        "answer": "3) It increases the reaction rate by allowing more collisions."
+                    },
+                    {
+                        "question": "What real-life application was mentioned in the lecture related to pharmaceuticals?",
+                        "options": [
+                            "2) Manufacturing food products.",
+                            "1) Determining reaction rates of drugs.",
+                            "3) Reducing energy waste.",
+                            "4) Improving air quality."
+                        ],
+                        "explanation": "In pharmaceuticals, understanding and determining the reaction rates of drugs is crucial for effective treatment and dosage planning.",
+                        "answer": "1) Determining reaction rates of drugs."
+                    },
+                    {
+                        "question": "What does increasing the concentration of reactants generally do to a reaction rate?",
+                        "options": [
+                            "4) It stops the reaction.",
+                            "1) It decreases the reaction rate.",
+                            "2) It no effect on the reaction rate.",
+                            "3) It increases the reaction rate."
+                        ],
+                        "explanation": "Increasing the concentration of reactants generally speeds up the reaction rate, as there are more reactant particles available for collisions.",
+                        "answer": "3) It increases the reaction rate."
+                    },
+                    {
+                        "question": "What is the term for substances that can alter reaction rates without being consumed?",
+                        "options": [
+                            "2) Catalysts",
+                            "3) Products",
+                            "1) Reactants",
+                            "4) Solvents"
+                        ],
+                        "explanation": "Catalysts are substances that can increase the rate of a chemical reaction without being consumed in the process, playing a crucial role in many reactions.",
+                        "answer": "2) Catalysts."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 70.0,
+                "wrong_answers": [
+                    2,
+                    3,
+                    8
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is the primary role of a catalyst in a chemical reaction?",
+                        "options": [
+                            "2) It increases the reaction rate without being consumed.",
+                            "4) It decreases the temperature.",
+                            "1) It slows down the reaction.",
+                            "3) It changes the products of the reaction."
+                        ],
+                        "explanation": "A catalyst speeds up a chemical reaction without being consumed in the process, making it vital for many biological and chemical processes.",
+                        "answer": "2) It increases the reaction rate without being consumed."
+                    },
+                    {
+                        "question": "How does temperature affect reaction rates according to the lecture?",
+                        "options": [
+                            "1) It has no effect on the rate.",
+                            "4) It changes the state of the reactants.",
+                            "3) It decreases the energy of reactants.",
+                            "2) It increases the speed of the reaction by providing more energy to reactants."
+                        ],
+                        "explanation": "Increasing the temperature gives reactant particles more energy, which increases their movement and the frequency of collisions, leading to faster reaction rates.",
+                        "answer": "2) It increases the speed of the reaction by providing more energy to reactants."
+                    },
+                    {
+                        "question": "Which type of factor does surface area of reactants fall under when considering reaction rates?",
+                        "options": [
+                            "2) Physical properties",
+                            "1) Chemical properties",
+                            "3) Environmental factors",
+                            "4) Kinetic factors"
+                        ],
+                        "explanation": "Surface area is a physical property that can influence reaction rates because breaking solids into smaller pieces exposes more particles for collision.",
+                        "answer": "2) Physical properties"
+                    },
+                    {
+                        "question": "What happens to a system at equilibrium if pressure is increased, according to Le Chatelier's Principle?",
+                        "options": [
+                            "1) The system remains unchanged.",
+                            "2) It shifts to favor the side with more moles of gas.",
+                            "3) It shifts to favor the side with fewer moles of gas.",
+                            "4) It completely shifts towards the products."
+                        ],
+                        "explanation": "According to Le Chatelier's Principle, increasing pressure will shift the equilibrium to favor the side with fewer moles of gas to reduce the pressure effect.",
+                        "answer": "3) It shifts to favor the side with fewer moles of gas."
+                    },
+                    {
+                        "question": "In industrial processes, why is it important to control reaction rates?",
+                        "options": [
+                            "1) To produce more waste.",
+                            "3) To limit the use of resources.",
+                            "4) To reduce costs by using less energy.",
+                            "2) To maximize the yield of desired products."
+                        ],
+                        "explanation": "Controlling reaction rates is essential in industrial processes because it allows for maximizing the yield of desired products, thus improving efficiency.",
+                        "answer": "2) To maximize the yield of desired products."
+                    },
+                    {
+                        "question": "What is an example of a situation where Le Chatelier's Principle can be applied in agriculture?",
+                        "options": [
+                            "4) Harvesting crops",
+                            "3) Irrigating crops",
+                            "2) Optimizing fertilizer conditions",
+                            "1) Using pesticides"
+                        ],
+                        "explanation": "In agriculture, Le Chatelier's Principle can be applied by optimizing conditions under which fertilizers react to enhance crop efficacy and growth.",
+                        "answer": "2) Optimizing fertilizer conditions"
+                    },
+                    {
+                        "question": "How does increasing the surface area of a reactant affect the rate of reaction?",
+                        "options": [
+                            "1) It has no effect on the reaction rate.",
+                            "3) It increases the reaction rate by allowing more collisions.",
+                            "2) It decreases the reaction rate.",
+                            "4) It causes the reaction to stop."
+                        ],
+                        "explanation": "Increasing the surface area allows more reactant particles to collide and react, thus increasing the overall rate of reaction.",
+                        "answer": "3) It increases the reaction rate by allowing more collisions."
+                    },
+                    {
+                        "question": "What real-life application was mentioned in the lecture related to pharmaceuticals?",
+                        "options": [
+                            "2) Manufacturing food products.",
+                            "1) Determining reaction rates of drugs.",
+                            "3) Reducing energy waste.",
+                            "4) Improving air quality."
+                        ],
+                        "explanation": "In pharmaceuticals, understanding and determining the reaction rates of drugs is crucial for effective treatment and dosage planning.",
+                        "answer": "1) Determining reaction rates of drugs."
+                    },
+                    {
+                        "question": "What does increasing the concentration of reactants generally do to a reaction rate?",
+                        "options": [
+                            "4) It stops the reaction.",
+                            "1) It decreases the reaction rate.",
+                            "2) It no effect on the reaction rate.",
+                            "3) It increases the reaction rate."
+                        ],
+                        "explanation": "Increasing the concentration of reactants generally speeds up the reaction rate, as there are more reactant particles available for collisions.",
+                        "answer": "3) It increases the reaction rate."
+                    },
+                    {
+                        "question": "What is the term for substances that can alter reaction rates without being consumed?",
+                        "options": [
+                            "2) Catalysts",
+                            "3) Products",
+                            "1) Reactants",
+                            "4) Solvents"
+                        ],
+                        "explanation": "Catalysts are substances that can increase the rate of a chemical reaction without being consumed in the process, playing a crucial role in many reactions.",
+                        "answer": "2) Catalysts."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    2,
+                    8
+                ],
                 "attempt_number": 4,
                 "quiz": [
                     {
-                        "question": "What type of timeline will we create for the Colonial America lesson?",
+                        "question": "What is the primary role of a catalyst in a chemical reaction?",
                         "options": [
-                            "2) Circular",
-                            "4) Interactive",
-                            "1) Linear",
-                            "3) Hierarchical"
+                            "2) It increases the reaction rate without being consumed.",
+                            "4) It decreases the temperature.",
+                            "1) It slows down the reaction.",
+                            "3) It changes the products of the reaction."
                         ],
-                        "explanation": "We will create a linear timeline to capture key events from the 1600s to the mid-1700s.",
-                        "answer": "1) Linear"
+                        "explanation": "A catalyst speeds up a chemical reaction without being consumed in the process, making it vital for many biological and chemical processes.",
+                        "answer": "2) It increases the reaction rate without being consumed."
                     },
                     {
-                        "question": "What is one method discussed for enhancing timelines visually?",
+                        "question": "How does temperature affect reaction rates according to the lecture?",
                         "options": [
-                            "2) Using only text descriptions",
-                            "3) Organizing events alphabetically",
-                            "1) Incorporating pictures and symbols",
-                            "4) Creating a digital presentation"
+                            "1) It has no effect on the rate.",
+                            "4) It changes the state of the reactants.",
+                            "3) It decreases the energy of reactants.",
+                            "2) It increases the speed of the reaction by providing more energy to reactants."
                         ],
-                        "explanation": "Incorporating pictures of symbols and key figures helps make timelines more engaging and aids in memory retention.",
-                        "answer": "1) Incorporating pictures and symbols"
+                        "explanation": "Increasing the temperature gives reactant particles more energy, which increases their movement and the frequency of collisions, leading to faster reaction rates.",
+                        "answer": "2) It increases the speed of the reaction by providing more energy to reactants."
                     },
                     {
-                        "question": "Why is understanding chronology emphasized in the lesson?",
+                        "question": "Which type of factor does surface area of reactants fall under when considering reaction rates?",
                         "options": [
-                            "4) It replaces the need for detailed notes.",
-                            "3) It allows for easy memorization of dates.",
-                            "2) It simplifies historical narratives.",
-                            "1) It helps to recognize the sequence of events."
+                            "2) Physical properties",
+                            "1) Chemical properties",
+                            "3) Environmental factors",
+                            "4) Kinetic factors"
                         ],
-                        "explanation": "Understanding chronology helps recognize the temporal relationships among events, clarifying how they lead to later occurrences.",
-                        "answer": "1) It helps to recognize the sequence of events."
+                        "explanation": "Surface area is a physical property that can influence reaction rates because breaking solids into smaller pieces exposes more particles for collision.",
+                        "answer": "2) Physical properties"
                     },
                     {
-                        "question": "How can we assess our timeline once it is completed?",
+                        "question": "What happens to a system at equilibrium if pressure is increased, according to Le Chatelier's Principle?",
                         "options": [
-                            "3) By comparing it to existing textbooks.",
-                            "2) By showing it to peers for feedback.",
-                            "4) By writing an essay about it.",
-                            "1) By analyzing patterns and asking critical questions."
+                            "1) The system remains unchanged.",
+                            "2) It shifts to favor the side with more moles of gas.",
+                            "3) It shifts to favor the side with fewer moles of gas.",
+                            "4) It completely shifts towards the products."
                         ],
-                        "explanation": "We can assess our timelines by analyzing patterns such as the frequency of conflicts and shifts in governance, along with posing critical questions about them.",
-                        "answer": "1) By analyzing patterns and asking critical questions."
+                        "explanation": "According to Le Chatelier's Principle, increasing pressure will shift the equilibrium to favor the side with fewer moles of gas to reduce the pressure effect.",
+                        "answer": "3) It shifts to favor the side with fewer moles of gas."
                     },
                     {
-                        "question": "What type of events does the scale of the timeline allow us to focus on?",
+                        "question": "In industrial processes, why is it important to control reaction rates?",
                         "options": [
-                            "2) Only the most significant events in history.",
-                            "1) Specific themes or events without overwhelming ourselves.",
-                            "4) Events from various unrelated periods.",
-                            "3) Events within one year only."
+                            "1) To produce more waste.",
+                            "3) To limit the use of resources.",
+                            "4) To reduce costs by using less energy.",
+                            "2) To maximize the yield of desired products."
                         ],
-                        "explanation": "Establishing a scale allows us to focus on specific themes or events within defined time frames, making it more digestible.",
-                        "answer": "1) Specific themes or events without overwhelming ourselves."
+                        "explanation": "Controlling reaction rates is essential in industrial processes because it allows for maximizing the yield of desired products, thus improving efficiency.",
+                        "answer": "2) To maximize the yield of desired products."
                     },
                     {
-                        "question": "What historical period does our timeline cover in this lesson?",
+                        "question": "What is an example of a situation where Le Chatelier's Principle can be applied in agriculture?",
                         "options": [
-                            "4) From the founding of America to its independence.",
-                            "2) The 1700s to the 1800s.",
-                            "3) The 1500s to the 1600s.",
-                            "1) The 1600s to the mid-1700s."
+                            "4) Harvesting crops",
+                            "3) Irrigating crops",
+                            "2) Optimizing fertilizer conditions",
+                            "1) Using pesticides"
                         ],
-                        "explanation": "Our timeline specifically covers events from Colonial America, focusing on the period from the 1600s to the mid-1700s.",
-                        "answer": "1) The 1600s to the mid-1700s."
+                        "explanation": "In agriculture, Le Chatelier's Principle can be applied by optimizing conditions under which fertilizers react to enhance crop efficacy and growth.",
+                        "answer": "2) Optimizing fertilizer conditions"
                     },
                     {
-                        "question": "What is an example of an event we might include in our Colonial America timeline according to the lecture?",
+                        "question": "How does increasing the surface area of a reactant affect the rate of reaction?",
                         "options": [
-                            "4) The American Civil War.",
-                            "3) The invention of the cotton gin.",
-                            "2) The founding of the Massachusetts Bay Colony.",
-                            "1) The signing of the Declaration of Independence."
+                            "1) It has no effect on the reaction rate.",
+                            "3) It increases the reaction rate by allowing more collisions.",
+                            "2) It decreases the reaction rate.",
+                            "4) It causes the reaction to stop."
                         ],
-                        "explanation": "An example event we might include is the founding of the Massachusetts Bay Colony, which is significant in the context of Colonial America.",
-                        "answer": "2) The founding of the Massachusetts Bay Colony."
+                        "explanation": "Increasing the surface area allows more reactant particles to collide and react, thus increasing the overall rate of reaction.",
+                        "answer": "3) It increases the reaction rate by allowing more collisions."
                     },
                     {
-                        "question": "Which factor is important when deciding on events to include in a timeline?",
+                        "question": "What real-life application was mentioned in the lecture related to pharmaceuticals?",
                         "options": [
-                            "2) The color of the sources presenting the information.",
-                            "3) The publication date of historical documents.",
-                            "1) The impact and relevance of events to the broader historical narrative.",
-                            "4) Whether events had a minimal effect on society."
+                            "2) Manufacturing food products.",
+                            "1) Determining reaction rates of drugs.",
+                            "3) Reducing energy waste.",
+                            "4) Improving air quality."
                         ],
-                        "explanation": "Choosing events based on their impact and relevance to the broader narrative helps to create a meaningful and informative timeline.",
-                        "answer": "1) The impact and relevance of events to the broader historical narrative."
+                        "explanation": "In pharmaceuticals, understanding and determining the reaction rates of drugs is crucial for effective treatment and dosage planning.",
+                        "answer": "1) Determining reaction rates of drugs."
                     },
                     {
-                        "question": "What benefit does incorporating visuals in a timeline provide?",
+                        "question": "What does increasing the concentration of reactants generally do to a reaction rate?",
                         "options": [
-                            "1) It transforms the timeline into a colorful display.",
-                            "4) It eliminates the need for explanations.",
-                            "3) It serves as a distraction from the text.",
-                            "2) It makes the timeline more engaging and reinforces memory."
+                            "4) It stops the reaction.",
+                            "1) It decreases the reaction rate.",
+                            "2) It no effect on the reaction rate.",
+                            "3) It increases the reaction rate."
                         ],
-                        "explanation": "Incorporating visuals in a timeline makes it more engaging and helps reinforce the memory of the events presented, aiding in understanding.",
-                        "answer": "2) It makes the timeline more engaging and reinforces memory."
+                        "explanation": "Increasing the concentration of reactants generally speeds up the reaction rate, as there are more reactant particles available for collisions.",
+                        "answer": "3) It increases the reaction rate."
                     },
                     {
-                        "question": "What is one of the main focuses when discussing events that led to the American Revolution?",
+                        "question": "What is the term for substances that can alter reaction rates without being consumed?",
                         "options": [
-                            "2) The weather conditions during those events.",
-                            "3) The economic status of each colony.",
-                            "1) The cultural and social elements alongside political ones.",
-                            "4) The geographic locations of key battles."
+                            "2) Catalysts",
+                            "3) Products",
+                            "1) Reactants",
+                            "4) Solvents"
                         ],
-                        "explanation": "Understanding the cultural and social elements alongside political ones is crucial for comprehending the events that led to the American Revolution.",
-                        "answer": "1) The cultural and social elements alongside political ones."
+                        "explanation": "Catalysts are substances that can increase the rate of a chemical reaction without being consumed in the process, playing a crucial role in many reactions.",
+                        "answer": "2) Catalysts."
+                    }
+                ]
+            }
+        ],
+        "Texas History": [
+            {
+                "quiz_grade": 70.0,
+                "wrong_answers": [
+                    3,
+                    5,
+                    7
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What title is often given to Stephen F. Austin for his role in Texas history?",
+                        "options": [
+                            "2) King of Texas",
+                            "3) Prophet of Texas",
+                            "4) Guardian of Texas",
+                            "1) Father of Texas"
+                        ],
+                        "explanation": "Stephen F. Austin is often referred to as the 'Father of Texas' due to his pivotal role in bringing settlers to the region and leading movements toward independence.",
+                        "answer": "1) Father of Texas"
+                    },
+                    {
+                        "question": "What was a key function of the Committees of Safety and Correspondence during the Texas Revolution?",
+                        "options": [
+                            "4) To gather soldiers for the Alamo",
+                            "2) To organize resistance against Mexican authority",
+                            "3) To prepare for annexation to the United States",
+                            "1) To promote peaceful relations with Mexico"
+                        ],
+                        "explanation": "The Committees of Safety and Correspondence played a vital role in organizing resistance against Mexican government authority, acting as local leaders to mobilize citizens.",
+                        "answer": "2) To organize resistance against Mexican authority"
+                    },
+                    {
+                        "question": "Which notable letter is William B. Travis known for during the siege at the Alamo?",
+                        "options": [
+                            "4) A plea for Mexican support",
+                            "1) A call for peace",
+                            "2) A declaration of independence",
+                            "3) A letter proclaiming 'Victory or Death'"
+                        ],
+                        "explanation": "William B. Travis is famous for his passionate letter during the Alamo siege, in which he demanded aid while famously declaring his commitment with 'Victory or Death!'",
+                        "answer": "3) A letter proclaiming 'Victory or Death'."
+                    },
+                    {
+                        "question": "What was one of the significant results of the victory at the Battle of San Jacinto?",
+                        "options": [
+                            "4) It sparked a war with the United States",
+                            "2) It ended the Texas Revolution",
+                            "3) It caused a rift between Anglo-Americans and Tejanos",
+                            "1) It led to Texas being annexed to Mexico"
+                        ],
+                        "explanation": "The victory at the Battle of San Jacinto was decisive in ending the Texas Revolution and securing Texan independence from Mexico.",
+                        "answer": "2) It ended the Texas Revolution."
+                    },
+                    {
+                        "question": "How did grassroots movements impact the Texas Revolution according to the lecture?",
+                        "options": [
+                            "4) They established a formal government",
+                            "2) They left communities unprepared for battle",
+                            "3) They united ordinary citizens for the cause",
+                            "1) They slowed down the revolution's progress"
+                        ],
+                        "explanation": "Grassroots movements united ordinary citizens who actively organized and mobilized support for the fight for independence against Mexican rule.",
+                        "answer": "3) They united ordinary citizens for the cause."
+                    },
+                    {
+                        "question": "Which two leaders are highlighted as key figures during the stand at the Alamo?",
+                        "options": [
+                            "3) Davy Crockett and Jim Bowie",
+                            "2) William B. Travis and James Bowie",
+                            "1) Sam Houston and Stephen F. Austin",
+                            "4) Juan Segu\u00edn and James Fannin"
+                        ],
+                        "explanation": "William B. Travis and James Bowie are highlighted as essential leaders during the siege at the Alamo, showcasing their bravery and leadership.",
+                        "answer": "2) William B. Travis and James Bowie."
+                    },
+                    {
+                        "question": "What role did women play in the Texas Revolution as mentioned in the lecture?",
+                        "options": [
+                            "3) They provided support and care for soldiers",
+                            "1) They were primarily combat fighters",
+                            "4) They led the Committees of Safety",
+                            "2) They helped with intelligence gathering"
+                        ],
+                        "explanation": "Women contributed significantly by providing support, care for soldiers, and assisting their families during the revolution, showcasing their vital role.",
+                        "answer": "3) They provided support and care for soldiers."
+                    },
+                    {
+                        "question": "What ideology became a cornerstone of Texan identity following the revolution?",
+                        "options": [
+                            "1) Collective governance",
+                            "4) Economic independence",
+                            "3) Loyalty to Mexico",
+                            "2) Individual rights and liberty"
+                        ],
+                        "explanation": "The revolution fostered a strong sense of individual rights and liberty which became integral to Texan identity after achieving independence.",
+                        "answer": "2) Individual rights and liberty."
+                    },
+                    {
+                        "question": "Which cultural event reflects the blending of Texan and Mexican heritage?",
+                        "options": [
+                            "2) Cinco de Mayo",
+                            "3) Fourth of July",
+                            "1) Thanksgiving",
+                            "4) Halloween"
+                        ],
+                        "explanation": "Cinco de Mayo is celebrated in Texas and reflects the cultural blending of both Texan and Mexican heritage, highlighting this connection.",
+                        "answer": "2) Cinco de Mayo."
+                    },
+                    {
+                        "question": "What was a significant contribution of grassroots committees during the Texas Revolution?",
+                        "options": [
+                            "2) They established a constitution",
+                            "1) They formed a militia",
+                            "3) They shared intelligence on Mexican military actions",
+                            "4) They built defenses for the Alamo"
+                        ],
+                        "explanation": "Grassroots committees were crucial in sharing intelligence about Mexican military actions, helping to organize the Texian resistance effectively.",
+                        "answer": "3) They shared intelligence on Mexican military actions."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    3
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What title is often given to Stephen F. Austin for his role in Texas history?",
+                        "options": [
+                            "2) King of Texas",
+                            "3) Prophet of Texas",
+                            "4) Guardian of Texas",
+                            "1) Father of Texas"
+                        ],
+                        "explanation": "Stephen F. Austin is often referred to as the 'Father of Texas' due to his pivotal role in bringing settlers to the region and leading movements toward independence.",
+                        "answer": "1) Father of Texas"
+                    },
+                    {
+                        "question": "What was a key function of the Committees of Safety and Correspondence during the Texas Revolution?",
+                        "options": [
+                            "4) To gather soldiers for the Alamo",
+                            "2) To organize resistance against Mexican authority",
+                            "3) To prepare for annexation to the United States",
+                            "1) To promote peaceful relations with Mexico"
+                        ],
+                        "explanation": "The Committees of Safety and Correspondence played a vital role in organizing resistance against Mexican government authority, acting as local leaders to mobilize citizens.",
+                        "answer": "2) To organize resistance against Mexican authority"
+                    },
+                    {
+                        "question": "Which notable letter is William B. Travis known for during the siege at the Alamo?",
+                        "options": [
+                            "4) A plea for Mexican support",
+                            "1) A call for peace",
+                            "2) A declaration of independence",
+                            "3) A letter proclaiming 'Victory or Death'"
+                        ],
+                        "explanation": "William B. Travis is famous for his passionate letter during the Alamo siege, in which he demanded aid while famously declaring his commitment with 'Victory or Death!'",
+                        "answer": "3) A letter proclaiming 'Victory or Death'."
+                    },
+                    {
+                        "question": "What was one of the significant results of the victory at the Battle of San Jacinto?",
+                        "options": [
+                            "4) It sparked a war with the United States",
+                            "2) It ended the Texas Revolution",
+                            "3) It caused a rift between Anglo-Americans and Tejanos",
+                            "1) It led to Texas being annexed to Mexico"
+                        ],
+                        "explanation": "The victory at the Battle of San Jacinto was decisive in ending the Texas Revolution and securing Texan independence from Mexico.",
+                        "answer": "2) It ended the Texas Revolution."
+                    },
+                    {
+                        "question": "How did grassroots movements impact the Texas Revolution according to the lecture?",
+                        "options": [
+                            "4) They established a formal government",
+                            "2) They left communities unprepared for battle",
+                            "3) They united ordinary citizens for the cause",
+                            "1) They slowed down the revolution's progress"
+                        ],
+                        "explanation": "Grassroots movements united ordinary citizens who actively organized and mobilized support for the fight for independence against Mexican rule.",
+                        "answer": "3) They united ordinary citizens for the cause."
+                    },
+                    {
+                        "question": "Which two leaders are highlighted as key figures during the stand at the Alamo?",
+                        "options": [
+                            "3) Davy Crockett and Jim Bowie",
+                            "2) William B. Travis and James Bowie",
+                            "1) Sam Houston and Stephen F. Austin",
+                            "4) Juan Segu\u00edn and James Fannin"
+                        ],
+                        "explanation": "William B. Travis and James Bowie are highlighted as essential leaders during the siege at the Alamo, showcasing their bravery and leadership.",
+                        "answer": "2) William B. Travis and James Bowie."
+                    },
+                    {
+                        "question": "What role did women play in the Texas Revolution as mentioned in the lecture?",
+                        "options": [
+                            "3) They provided support and care for soldiers",
+                            "1) They were primarily combat fighters",
+                            "4) They led the Committees of Safety",
+                            "2) They helped with intelligence gathering"
+                        ],
+                        "explanation": "Women contributed significantly by providing support, care for soldiers, and assisting their families during the revolution, showcasing their vital role.",
+                        "answer": "3) They provided support and care for soldiers."
+                    },
+                    {
+                        "question": "What ideology became a cornerstone of Texan identity following the revolution?",
+                        "options": [
+                            "1) Collective governance",
+                            "4) Economic independence",
+                            "3) Loyalty to Mexico",
+                            "2) Individual rights and liberty"
+                        ],
+                        "explanation": "The revolution fostered a strong sense of individual rights and liberty which became integral to Texan identity after achieving independence.",
+                        "answer": "2) Individual rights and liberty."
+                    },
+                    {
+                        "question": "Which cultural event reflects the blending of Texan and Mexican heritage?",
+                        "options": [
+                            "2) Cinco de Mayo",
+                            "3) Fourth of July",
+                            "1) Thanksgiving",
+                            "4) Halloween"
+                        ],
+                        "explanation": "Cinco de Mayo is celebrated in Texas and reflects the cultural blending of both Texan and Mexican heritage, highlighting this connection.",
+                        "answer": "2) Cinco de Mayo."
+                    },
+                    {
+                        "question": "What was a significant contribution of grassroots committees during the Texas Revolution?",
+                        "options": [
+                            "2) They established a constitution",
+                            "1) They formed a militia",
+                            "3) They shared intelligence on Mexican military actions",
+                            "4) They built defenses for the Alamo"
+                        ],
+                        "explanation": "Grassroots committees were crucial in sharing intelligence about Mexican military actions, helping to organize the Texian resistance effectively.",
+                        "answer": "3) They shared intelligence on Mexican military actions."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What title is often given to Stephen F. Austin for his role in Texas history?",
+                        "options": [
+                            "2) King of Texas",
+                            "3) Prophet of Texas",
+                            "4) Guardian of Texas",
+                            "1) Father of Texas"
+                        ],
+                        "explanation": "Stephen F. Austin is often referred to as the 'Father of Texas' due to his pivotal role in bringing settlers to the region and leading movements toward independence.",
+                        "answer": "1) Father of Texas"
+                    },
+                    {
+                        "question": "What was a key function of the Committees of Safety and Correspondence during the Texas Revolution?",
+                        "options": [
+                            "4) To gather soldiers for the Alamo",
+                            "2) To organize resistance against Mexican authority",
+                            "3) To prepare for annexation to the United States",
+                            "1) To promote peaceful relations with Mexico"
+                        ],
+                        "explanation": "The Committees of Safety and Correspondence played a vital role in organizing resistance against Mexican government authority, acting as local leaders to mobilize citizens.",
+                        "answer": "2) To organize resistance against Mexican authority"
+                    },
+                    {
+                        "question": "Which notable letter is William B. Travis known for during the siege at the Alamo?",
+                        "options": [
+                            "4) A plea for Mexican support",
+                            "1) A call for peace",
+                            "2) A declaration of independence",
+                            "3) A letter proclaiming 'Victory or Death'"
+                        ],
+                        "explanation": "William B. Travis is famous for his passionate letter during the Alamo siege, in which he demanded aid while famously declaring his commitment with 'Victory or Death!'",
+                        "answer": "3) A letter proclaiming 'Victory or Death'."
+                    },
+                    {
+                        "question": "What was one of the significant results of the victory at the Battle of San Jacinto?",
+                        "options": [
+                            "4) It sparked a war with the United States",
+                            "2) It ended the Texas Revolution",
+                            "3) It caused a rift between Anglo-Americans and Tejanos",
+                            "1) It led to Texas being annexed to Mexico"
+                        ],
+                        "explanation": "The victory at the Battle of San Jacinto was decisive in ending the Texas Revolution and securing Texan independence from Mexico.",
+                        "answer": "2) It ended the Texas Revolution."
+                    },
+                    {
+                        "question": "How did grassroots movements impact the Texas Revolution according to the lecture?",
+                        "options": [
+                            "4) They established a formal government",
+                            "2) They left communities unprepared for battle",
+                            "3) They united ordinary citizens for the cause",
+                            "1) They slowed down the revolution's progress"
+                        ],
+                        "explanation": "Grassroots movements united ordinary citizens who actively organized and mobilized support for the fight for independence against Mexican rule.",
+                        "answer": "3) They united ordinary citizens for the cause."
+                    },
+                    {
+                        "question": "Which two leaders are highlighted as key figures during the stand at the Alamo?",
+                        "options": [
+                            "3) Davy Crockett and Jim Bowie",
+                            "2) William B. Travis and James Bowie",
+                            "1) Sam Houston and Stephen F. Austin",
+                            "4) Juan Segu\u00edn and James Fannin"
+                        ],
+                        "explanation": "William B. Travis and James Bowie are highlighted as essential leaders during the siege at the Alamo, showcasing their bravery and leadership.",
+                        "answer": "2) William B. Travis and James Bowie."
+                    },
+                    {
+                        "question": "What role did women play in the Texas Revolution as mentioned in the lecture?",
+                        "options": [
+                            "3) They provided support and care for soldiers",
+                            "1) They were primarily combat fighters",
+                            "4) They led the Committees of Safety",
+                            "2) They helped with intelligence gathering"
+                        ],
+                        "explanation": "Women contributed significantly by providing support, care for soldiers, and assisting their families during the revolution, showcasing their vital role.",
+                        "answer": "3) They provided support and care for soldiers."
+                    },
+                    {
+                        "question": "What ideology became a cornerstone of Texan identity following the revolution?",
+                        "options": [
+                            "1) Collective governance",
+                            "4) Economic independence",
+                            "3) Loyalty to Mexico",
+                            "2) Individual rights and liberty"
+                        ],
+                        "explanation": "The revolution fostered a strong sense of individual rights and liberty which became integral to Texan identity after achieving independence.",
+                        "answer": "2) Individual rights and liberty."
+                    },
+                    {
+                        "question": "Which cultural event reflects the blending of Texan and Mexican heritage?",
+                        "options": [
+                            "2) Cinco de Mayo",
+                            "3) Fourth of July",
+                            "1) Thanksgiving",
+                            "4) Halloween"
+                        ],
+                        "explanation": "Cinco de Mayo is celebrated in Texas and reflects the cultural blending of both Texan and Mexican heritage, highlighting this connection.",
+                        "answer": "2) Cinco de Mayo."
+                    },
+                    {
+                        "question": "What was a significant contribution of grassroots committees during the Texas Revolution?",
+                        "options": [
+                            "2) They established a constitution",
+                            "1) They formed a militia",
+                            "3) They shared intelligence on Mexican military actions",
+                            "4) They built defenses for the Alamo"
+                        ],
+                        "explanation": "Grassroots committees were crucial in sharing intelligence about Mexican military actions, helping to organize the Texian resistance effectively.",
+                        "answer": "3) They shared intelligence on Mexican military actions."
+                    }
+                ]
+            }
+        ],
+        "The Evolution of Faith": [
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    2,
+                    5
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What concept refers to the belief in a single, all-powerful deity?",
+                        "options": [
+                            "4) Secularism",
+                            "1) Monotheism",
+                            "3) Agnosticism",
+                            "2) Polytheism"
+                        ],
+                        "explanation": "Monotheism is defined as the belief in one single, all-powerful deity, contrasting with polytheism which involves multiple gods.",
+                        "answer": "1) Monotheism"
+                    },
+                    {
+                        "question": "Which practice fosters understanding among followers of different monotheistic faiths?",
+                        "options": [
+                            "3) Secular celebrations",
+                            "4) Cultural assimilation",
+                            "2) Interfaith dialogue",
+                            "1) Evangelical outreach"
+                        ],
+                        "explanation": "Interfaith dialogue involves representatives from different religions discussing their beliefs, which promotes understanding and respect among diverse faith communities.",
+                        "answer": "2) Interfaith dialogue"
+                    },
+                    {
+                        "question": "In response to secularism, what contemporary issues are monotheistic religions engaging with?",
+                        "options": [
+                            "3) Social justice",
+                            "1) Historical accuracy",
+                            "4) Religious rituals",
+                            "2) Ancient texts"
+                        ],
+                        "explanation": "Monotheistic religions are engaging with social justice, environmental concerns, and human rights as they seek relevance in a secular society.",
+                        "answer": "3) Social justice"
+                    },
+                    {
+                        "question": "What is one way that technology influences modern monotheistic beliefs?",
+                        "options": [
+                            "2) It helps in exchanging ideas rapidly",
+                            "4) It isolates religious groups",
+                            "3) It exclusively promotes one religion",
+                            "1) It decreases faith participation"
+                        ],
+                        "explanation": "Technology and digital communication allow for the rapid exchange of ideas and beliefs among different monotheistic traditions, fostering new interpretations.",
+                        "answer": "2) It helps in exchanging ideas rapidly"
+                    },
+                    {
+                        "question": "What is a notable outcome of cultural adaptation in monotheistic faiths?",
+                        "options": [
+                            "1) Uniformity in beliefs",
+                            "3) New expressions of the same faith",
+                            "4) Rejection of modern influences",
+                            "2) Creation of conflict"
+                        ],
+                        "explanation": "Cultural adaptation leads to different expressions of the same faith as it incorporates local customs and practices, thus ensuring relevance.",
+                        "answer": "3) New expressions of the same faith"
+                    },
+                    {
+                        "question": "Which form of Christianity emphasizes social justice within its teachings?",
+                        "options": [
+                            "4) Fundamentalism",
+                            "1) Evangelical Christianity",
+                            "2) Liberation Theology",
+                            "3) Prosperity Gospel"
+                        ],
+                        "explanation": "Liberation Theology is a form of Christianity that focuses on social justice and the plight of the oppressed, particularly in Latin America.",
+                        "answer": "2) Liberation Theology"
+                    },
+                    {
+                        "question": "What does the cultural adaptation of monotheism prompt discussions about?",
+                        "options": [
+                            "1) Globalization",
+                            "2) Core beliefs and practices",
+                            "4) Secularism alone",
+                            "3) Historical texts"
+                        ],
+                        "explanation": "Cultural adaptation raises questions about what remains core to faith while exploring how practices can vary based on culture and context.",
+                        "answer": "2) Core beliefs and practices"
+                    },
+                    {
+                        "question": "Which trend allows monotheism to engage with modern societal challenges?",
+                        "options": [
+                            "1) Rejection of technology",
+                            "4) Exclusivity of beliefs",
+                            "2) Cultural isolation",
+                            "3) Interfaith engagement"
+                        ],
+                        "explanation": "Engagement with interfaith dialogue and contemporary issues allows monotheistic religions to address modern challenges and remain relevant.",
+                        "answer": "3) Interfaith engagement"
+                    },
+                    {
+                        "question": "How have monotheistic religions adapted to secular philosophies?",
+                        "options": [
+                            "1) By becoming more exclusive",
+                            "3) By addressing contemporary moral dilemmas",
+                            "2) By retreating from public life",
+                            "4) By withdrawing from societal debates"
+                        ],
+                        "explanation": "Monotheistic religions are adapting to secular philosophies by addressing current moral dilemmas within their frameworks, engaging with society.",
+                        "answer": "3) By addressing contemporary moral dilemmas"
+                    },
+                    {
+                        "question": "What does the future of monotheism likely include according to the lecture?",
+                        "options": [
+                            "4) Decline in participation",
+                            "2) Isolation from modernity",
+                            "1) Increased conflict",
+                            "3) Blending of beliefs and practices"
+                        ],
+                        "explanation": "The future of monotheism is likely to include a blending of beliefs and practices as societies become more interconnected and diverse.",
+                        "answer": "3) Blending of beliefs and practices"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    5
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What concept refers to the belief in a single, all-powerful deity?",
+                        "options": [
+                            "4) Secularism",
+                            "1) Monotheism",
+                            "3) Agnosticism",
+                            "2) Polytheism"
+                        ],
+                        "explanation": "Monotheism is defined as the belief in one single, all-powerful deity, contrasting with polytheism which involves multiple gods.",
+                        "answer": "1) Monotheism"
+                    },
+                    {
+                        "question": "Which practice fosters understanding among followers of different monotheistic faiths?",
+                        "options": [
+                            "3) Secular celebrations",
+                            "4) Cultural assimilation",
+                            "2) Interfaith dialogue",
+                            "1) Evangelical outreach"
+                        ],
+                        "explanation": "Interfaith dialogue involves representatives from different religions discussing their beliefs, which promotes understanding and respect among diverse faith communities.",
+                        "answer": "2) Interfaith dialogue"
+                    },
+                    {
+                        "question": "In response to secularism, what contemporary issues are monotheistic religions engaging with?",
+                        "options": [
+                            "3) Social justice",
+                            "1) Historical accuracy",
+                            "4) Religious rituals",
+                            "2) Ancient texts"
+                        ],
+                        "explanation": "Monotheistic religions are engaging with social justice, environmental concerns, and human rights as they seek relevance in a secular society.",
+                        "answer": "3) Social justice"
+                    },
+                    {
+                        "question": "What is one way that technology influences modern monotheistic beliefs?",
+                        "options": [
+                            "2) It helps in exchanging ideas rapidly",
+                            "4) It isolates religious groups",
+                            "3) It exclusively promotes one religion",
+                            "1) It decreases faith participation"
+                        ],
+                        "explanation": "Technology and digital communication allow for the rapid exchange of ideas and beliefs among different monotheistic traditions, fostering new interpretations.",
+                        "answer": "2) It helps in exchanging ideas rapidly"
+                    },
+                    {
+                        "question": "What is a notable outcome of cultural adaptation in monotheistic faiths?",
+                        "options": [
+                            "1) Uniformity in beliefs",
+                            "3) New expressions of the same faith",
+                            "4) Rejection of modern influences",
+                            "2) Creation of conflict"
+                        ],
+                        "explanation": "Cultural adaptation leads to different expressions of the same faith as it incorporates local customs and practices, thus ensuring relevance.",
+                        "answer": "3) New expressions of the same faith"
+                    },
+                    {
+                        "question": "Which form of Christianity emphasizes social justice within its teachings?",
+                        "options": [
+                            "4) Fundamentalism",
+                            "1) Evangelical Christianity",
+                            "2) Liberation Theology",
+                            "3) Prosperity Gospel"
+                        ],
+                        "explanation": "Liberation Theology is a form of Christianity that focuses on social justice and the plight of the oppressed, particularly in Latin America.",
+                        "answer": "2) Liberation Theology"
+                    },
+                    {
+                        "question": "What does the cultural adaptation of monotheism prompt discussions about?",
+                        "options": [
+                            "1) Globalization",
+                            "2) Core beliefs and practices",
+                            "4) Secularism alone",
+                            "3) Historical texts"
+                        ],
+                        "explanation": "Cultural adaptation raises questions about what remains core to faith while exploring how practices can vary based on culture and context.",
+                        "answer": "2) Core beliefs and practices"
+                    },
+                    {
+                        "question": "Which trend allows monotheism to engage with modern societal challenges?",
+                        "options": [
+                            "1) Rejection of technology",
+                            "4) Exclusivity of beliefs",
+                            "2) Cultural isolation",
+                            "3) Interfaith engagement"
+                        ],
+                        "explanation": "Engagement with interfaith dialogue and contemporary issues allows monotheistic religions to address modern challenges and remain relevant.",
+                        "answer": "3) Interfaith engagement"
+                    },
+                    {
+                        "question": "How have monotheistic religions adapted to secular philosophies?",
+                        "options": [
+                            "1) By becoming more exclusive",
+                            "3) By addressing contemporary moral dilemmas",
+                            "2) By retreating from public life",
+                            "4) By withdrawing from societal debates"
+                        ],
+                        "explanation": "Monotheistic religions are adapting to secular philosophies by addressing current moral dilemmas within their frameworks, engaging with society.",
+                        "answer": "3) By addressing contemporary moral dilemmas"
+                    },
+                    {
+                        "question": "What does the future of monotheism likely include according to the lecture?",
+                        "options": [
+                            "4) Decline in participation",
+                            "2) Isolation from modernity",
+                            "1) Increased conflict",
+                            "3) Blending of beliefs and practices"
+                        ],
+                        "explanation": "The future of monotheism is likely to include a blending of beliefs and practices as societies become more interconnected and diverse.",
+                        "answer": "3) Blending of beliefs and practices"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    5
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What concept refers to the belief in a single, all-powerful deity?",
+                        "options": [
+                            "4) Secularism",
+                            "1) Monotheism",
+                            "3) Agnosticism",
+                            "2) Polytheism"
+                        ],
+                        "explanation": "Monotheism is defined as the belief in one single, all-powerful deity, contrasting with polytheism which involves multiple gods.",
+                        "answer": "1) Monotheism"
+                    },
+                    {
+                        "question": "Which practice fosters understanding among followers of different monotheistic faiths?",
+                        "options": [
+                            "3) Secular celebrations",
+                            "4) Cultural assimilation",
+                            "2) Interfaith dialogue",
+                            "1) Evangelical outreach"
+                        ],
+                        "explanation": "Interfaith dialogue involves representatives from different religions discussing their beliefs, which promotes understanding and respect among diverse faith communities.",
+                        "answer": "2) Interfaith dialogue"
+                    },
+                    {
+                        "question": "In response to secularism, what contemporary issues are monotheistic religions engaging with?",
+                        "options": [
+                            "3) Social justice",
+                            "1) Historical accuracy",
+                            "4) Religious rituals",
+                            "2) Ancient texts"
+                        ],
+                        "explanation": "Monotheistic religions are engaging with social justice, environmental concerns, and human rights as they seek relevance in a secular society.",
+                        "answer": "3) Social justice"
+                    },
+                    {
+                        "question": "What is one way that technology influences modern monotheistic beliefs?",
+                        "options": [
+                            "2) It helps in exchanging ideas rapidly",
+                            "4) It isolates religious groups",
+                            "3) It exclusively promotes one religion",
+                            "1) It decreases faith participation"
+                        ],
+                        "explanation": "Technology and digital communication allow for the rapid exchange of ideas and beliefs among different monotheistic traditions, fostering new interpretations.",
+                        "answer": "2) It helps in exchanging ideas rapidly"
+                    },
+                    {
+                        "question": "What is a notable outcome of cultural adaptation in monotheistic faiths?",
+                        "options": [
+                            "1) Uniformity in beliefs",
+                            "3) New expressions of the same faith",
+                            "4) Rejection of modern influences",
+                            "2) Creation of conflict"
+                        ],
+                        "explanation": "Cultural adaptation leads to different expressions of the same faith as it incorporates local customs and practices, thus ensuring relevance.",
+                        "answer": "3) New expressions of the same faith"
+                    },
+                    {
+                        "question": "Which form of Christianity emphasizes social justice within its teachings?",
+                        "options": [
+                            "4) Fundamentalism",
+                            "1) Evangelical Christianity",
+                            "2) Liberation Theology",
+                            "3) Prosperity Gospel"
+                        ],
+                        "explanation": "Liberation Theology is a form of Christianity that focuses on social justice and the plight of the oppressed, particularly in Latin America.",
+                        "answer": "2) Liberation Theology"
+                    },
+                    {
+                        "question": "What does the cultural adaptation of monotheism prompt discussions about?",
+                        "options": [
+                            "1) Globalization",
+                            "2) Core beliefs and practices",
+                            "4) Secularism alone",
+                            "3) Historical texts"
+                        ],
+                        "explanation": "Cultural adaptation raises questions about what remains core to faith while exploring how practices can vary based on culture and context.",
+                        "answer": "2) Core beliefs and practices"
+                    },
+                    {
+                        "question": "Which trend allows monotheism to engage with modern societal challenges?",
+                        "options": [
+                            "1) Rejection of technology",
+                            "4) Exclusivity of beliefs",
+                            "2) Cultural isolation",
+                            "3) Interfaith engagement"
+                        ],
+                        "explanation": "Engagement with interfaith dialogue and contemporary issues allows monotheistic religions to address modern challenges and remain relevant.",
+                        "answer": "3) Interfaith engagement"
+                    },
+                    {
+                        "question": "How have monotheistic religions adapted to secular philosophies?",
+                        "options": [
+                            "1) By becoming more exclusive",
+                            "3) By addressing contemporary moral dilemmas",
+                            "2) By retreating from public life",
+                            "4) By withdrawing from societal debates"
+                        ],
+                        "explanation": "Monotheistic religions are adapting to secular philosophies by addressing current moral dilemmas within their frameworks, engaging with society.",
+                        "answer": "3) By addressing contemporary moral dilemmas"
+                    },
+                    {
+                        "question": "What does the future of monotheism likely include according to the lecture?",
+                        "options": [
+                            "4) Decline in participation",
+                            "2) Isolation from modernity",
+                            "1) Increased conflict",
+                            "3) Blending of beliefs and practices"
+                        ],
+                        "explanation": "The future of monotheism is likely to include a blending of beliefs and practices as societies become more interconnected and diverse.",
+                        "answer": "3) Blending of beliefs and practices"
                     }
                 ]
             }

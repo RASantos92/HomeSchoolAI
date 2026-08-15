@@ -1,0 +1,194 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Introduction to Client-Side Scripting and DOM Manipulation",
+                "lecture": "Hello there! Today, we will focus on more advanced client-side scripting techniques, particularly around DOM manipulation. This is crucial for making changes to web page content dynamically. We often interact with the Document Object Model, or DOM, when we want to create a more engaging and interactive user experience on the web. \n\nLet's kick off our journey by understanding what the DOM is. The DOM represents the structure of a web page as a tree of objects. Each element, attribute, and piece of text in your HTML is represented as a node in this tree. The DOM allows programming languages like JavaScript to interact with the structure of the web page, enabling developers to add, modify, or delete elements and attributes on the fly.\n\nOne of the first things you\u2019ll want to do in client-side scripting is to learn how to select elements from the DOM. Selecting elements is essential because, without selecting an element, you cannot manipulate it. In JavaScript, one of the most commonly used methods for this purpose is `document.getElementById()`, which allows you to grab an element by its unique ID. You can also select elements by class name using `document.getElementsByClassName()` or by tag using `document.getElementsByTagName()`. There's also `document.querySelector()` and `document.querySelectorAll()`, which give you a lot of flexibility in selecting the elements you want based on CSS selectors.\n\nFor example, if you have an HTML element like `<div id='myElement'>Hello World</div>`, you can select it in JavaScript with the following code:  \n`var myElement = document.getElementById('myElement');`  \nOnce you hold a reference to this element, you can perform various operations on it, such as changing its content or attributes. \n[p]  \nAnother way to modify elements is by changing their contents directly using the `.innerHTML` or `.textContent` properties. If you wanted to change the text inside our previously mentioned element, you could simply do:  \n`myElement.innerHTML = 'New Text!';`  \nThis command modifies the HTML within that specific element. However, if you\u2019re aiming to change the plain text, `.textContent` is the way to go.  \n\nSo, remember, selecting elements and modifying their content can take your web pages to a new level of interactivity! If you want to dive deeper into DOM selection methods, you can refer to the following Wikipedia links:  \n- [Document Object Model](https://en.wikipedia.org/wiki/Document_Object_Model) \n- [element.getElementById](https://en.wikipedia.org/wiki/Document_Object_Model#Methods)\n\n[p]  \nNow that you're comfortable with selecting elements, let's move on to changing CSS with JavaScript. CSS (Cascading Style Sheets) is what makes your web pages beautiful. However, using JavaScript, you can change those styles dynamically based on events, user input, or other factors. \n\nTo change CSS styles, you can use either the `.style` property on a DOM element or add/remove CSS classes using `.classList`. For instance, you can change the background color of our `myElement` with the following command:  \n`myElement.style.backgroundColor = 'blue';`  \nThis line sets the background color of the element to blue instantly. This level of flexibility opens the door to create engaging user experiences.\n[p]  \nHowever, if you want to apply several styles or create a more manageable way to style your elements, using CSS classes is advisable. You can add a class with `.classList.add('newClass')` and remove it with `.classList.remove('oldClass')`. \n\nHere's a simple example: If you have a CSS class defined as:  \n```css  \n.newClass {  \n   background-color: green;  \n   font-size: 20px;  \n}  \n```  \nYou can apply it dynamically to your element like this:  \n`myElement.classList.add('newClass');`  \nThis command would change the element's styling to reflect those properties defined in your stylesheet.  \n\nUsing JavaScript, we can thus manipulate the aesthetics of our web page interactively. You have now learned how to interact with the CSS side of elements using JavaScript, which is a fantastic way to enhance the user experience. For further reading, check these resources:  \n- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)  \n- [DOM style property](https://en.wikipedia.org/wiki/Document_Object_Model#Styles)\n\n[p]  \nIn summary, today we walked through the essential techniques in client-side scripting, specifically around DOM manipulation. We kicked off with an understanding of the DOM and how it works as a tree of elements representing your web page. You learned how to select elements using different methods and how to manipulate their content via JavaScript. Lastly, we covered changing CSS with JavaScript, emphasizing the `style` property and managing CSS classes using `.classList`. \n\nI encourage you to play around with these concepts by creating your own small projects or enhancing existing ones. Experiment with different manipulations and styles to see how they affect the user experience. Happy coding!  \n\n**Main Topic:** Client-Side Scripting  \n**Sub Topics:** ['Intro to DOM', 'Selecting Elements', 'Changing CSS with JavaScript']  \n",
+                "summary": "In summary, today we walked through the essential techniques in client-side scripting, specifically around DOM manipulation. We kicked off with an understanding of the DOM and how it works as a tree of elements representing your web page. You learned how to select elements using different methods and how to manipulate their content via JavaScript. Lastly, we covered changing CSS with JavaScript, emphasizing the style property and managing CSS classes using .classList. I encourage you to play around with these concepts by creating your own small projects or enhancing existing ones. Experiment with different manipulations and styles to see how they affect the user experience. Happy coding!",
+                "subject": "Computer Science",
+                "main_topic": "Client-Side Scripting",
+                "sub_topics": [
+                    "Intro to DOM",
+                    "Selecting Elements",
+                    "Changing CSS with JavaScript"
+                ],
+                "wikipedia_refrences": [
+                    "Document Object Model",
+                    "element.getElementById",
+                    "CSS",
+                    "DOM style property"
+                ],
+                "quiz": [
+                    {
+                        "question": "What does the DOM represent in web development?",
+                        "options": [
+                            "4) An image format",
+                            "3) A database of web pages",
+                            "1) A programming language",
+                            "2) A tree of objects representing a web page's structure"
+                        ],
+                        "explanation": "The Document Object Model (DOM) represents the structure of a web page as a tree of objects, with each element, attribute, and piece of text as a node.",
+                        "answer": "2) A tree of objects representing a web page's structure"
+                    },
+                    {
+                        "question": "Which method would you use to select multiple elements of the same class in JavaScript?",
+                        "options": [
+                            "4) document.querySelectorAll()",
+                            "1) document.getElementsByClassName()",
+                            "3) document.getElementById()",
+                            "2) document.querySelector()"
+                        ],
+                        "explanation": "The method document.getElementsByClassName() is specifically designed to select multiple elements that share the same class, returning a live HTMLCollection.",
+                        "answer": "1) document.getElementsByClassName()"
+                    },
+                    {
+                        "question": "How can you change the background color of an element using JavaScript?",
+                        "options": [
+                            "1) element.style.backgroundColor = 'color'",
+                            "3) element.backgroundColor = 'color'",
+                            "2) element.setColor('color')",
+                            "4) element.style.color = 'color'"
+                        ],
+                        "explanation": "To change the background color of an element in JavaScript, you should use the style property: element.style.backgroundColor = 'color'.",
+                        "answer": "1) element.style.backgroundColor = 'color'"
+                    },
+                    {
+                        "question": "Which property should be used to directly modify the HTML content of an element?",
+                        "options": [
+                            "3) .textContent",
+                            "4) .classList",
+                            "2) .innerHTML",
+                            "1) .content"
+                        ],
+                        "explanation": ".innerHTML is the property used to directly modify the HTML content within an element, allowing you to add or change HTML tags inside.",
+                        "answer": "2) .innerHTML"
+                    },
+                    {
+                        "question": "When using .classList to manage CSS classes, what method would you use to remove a class?",
+                        "options": [
+                            "1) .removeClass()",
+                            "4) .classList.delete()",
+                            "3) .classList.remove()",
+                            "2) .removeClassName()"
+                        ],
+                        "explanation": "To remove a class from an element's class list, you use .classList.remove('className').",
+                        "answer": "3) .classList.remove()"
+                    },
+                    {
+                        "question": "If you want to apply multiple style changes at once, which is a more efficient method?",
+                        "options": [
+                            "4) Using multiple style properties",
+                            "2) Using style attributes directly",
+                            "1) Using inline styles",
+                            "3) Managing CSS classes with .classList"
+                        ],
+                        "explanation": "Managing CSS classes using .classList is more efficient because you can define all styles in your CSS and apply/remove them as needed without directly manipulating styles in JavaScript.",
+                        "answer": "3) Managing CSS classes with .classList"
+                    },
+                    {
+                        "question": "What does the textContent property do?",
+                        "options": [
+                            "1) Modifies only the HTML tags of an element",
+                            "3) Changes the text content without modifying HTML",
+                            "4) Changes the element's ID",
+                            "2) Modifies the styles of an element"
+                        ],
+                        "explanation": "The textContent property is used to change the text inside an element, affecting only the text and not any HTML structure.",
+                        "answer": "3) Changes the text content without modifying HTML"
+                    },
+                    {
+                        "question": "Which method provides more flexibility for selecting elements in JavaScript by using CSS selectors?",
+                        "options": [
+                            "1) document.getElementById()",
+                            "3) document.querySelector()",
+                            "4) document.getElementsByTagName()",
+                            "2) document.getElementsByClassName()"
+                        ],
+                        "explanation": "The document.querySelector() method allows you to use any valid CSS selector to select elements, making it very flexible compared with other selection methods.",
+                        "answer": "3) document.querySelector()"
+                    },
+                    {
+                        "question": "What is one benefit of using JavaScript to change CSS styles dynamically?",
+                        "options": [
+                            "2) It allows for interactive user experiences",
+                            "3) It makes the website slower",
+                            "1) It reduces the need for CSS",
+                            "4) It can only be done on server-side scripting"
+                        ],
+                        "explanation": "One of the main benefits of using JavaScript to change CSS styles dynamically is it allows for creating interactive user experiences by responding to user actions immediately.",
+                        "answer": "2) It allows for interactive user experiences"
+                    },
+                    {
+                        "question": "Which of the following is true about the DOM?",
+                        "options": [
+                            "4) The DOM is only used in server-side scripts",
+                            "2) The DOM is a static representation of HTML",
+                            "3) The DOM structure is a tree of nodes",
+                            "1) The DOM can be modified, but not accessed"
+                        ],
+                        "explanation": "The DOM structure is indeed a tree of nodes that represents the web page, allowing for dynamic interaction and updates through client-side scripting.",
+                        "answer": "3) The DOM structure is a tree of nodes"
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "Which method is used to select an HTML element by its unique ID in JavaScript?",
+                        "options": [
+                            "2) document.querySelector()",
+                            "3) document.getElementById()",
+                            "1) document.getElementsByClassName()",
+                            "4) document.getElementsByTagName()"
+                        ],
+                        "explanation": "The correct method to select an HTML element by its unique ID is `document.getElementById()`. This method directly targets an element based on the ID attribute, allowing for easy manipulation of that specific element.",
+                        "answer": "3) document.getElementById()"
+                    },
+                    {
+                        "question": "Which property should you use if you want to change only the plain text content of an element without affecting its HTML structure?",
+                        "options": [
+                            "4) .outerHTML",
+                            "2) .textContent",
+                            "3) .innerText",
+                            "1) .innerHTML"
+                        ],
+                        "explanation": ".textContent modifies the plain text within an element, ensuring that the HTML structure remains unaltered.",
+                        "answer": "2) .textContent"
+                    },
+                    {
+                        "question": "What is one method to change CSS styles of a DOM element using JavaScript?",
+                        "options": [
+                            "4) Using the `alert()` function",
+                            "3) Using the `.appendChild()` method",
+                            "2) Using the `.style` property",
+                            "1) Using the `document.getElementById()` method"
+                        ],
+                        "explanation": "The correct method to change CSS styles of a DOM element is by using the `.style` property, such as `myElement.style.backgroundColor = 'blue';` This allows you to dynamically alter the styling of an element.",
+                        "answer": "2) Using the `.style` property"
+                    },
+                    {
+                        "question": "What method do you use to add a new CSS class to an element using JavaScript?",
+                        "options": [
+                            "1) element.style.add('newClass')",
+                            "2) myElement.classList.add('newClass')",
+                            "4) myElement.add('newClass')",
+                            "3) element.addClass('newClass')"
+                        ],
+                        "explanation": "The correct method to add a CSS class to an element in JavaScript is by using the classList property followed by the add method, as shown in the text: myElement.classList.add('newClass'). This method enables us to dynamically apply styles to an element.",
+                        "answer": "2) myElement.classList.add('newClass')"
+                    },
+                    {
+                        "question": "What is the primary purpose of the Document Object Model (DOM) in client-side scripting?",
+                        "options": [
+                            "4) To create server-side scripts",
+                            "1) To manage the server-side database",
+                            "3) To improve website loading speed",
+                            "2) To represent HTML documents as a tree structure"
+                        ],
+                        "explanation": "The main purpose of the DOM is to represent the structure of an HTML document in a tree format, allowing client-side scripts (like JavaScript) to dynamically manipulate the document's elements, content, and styles.",
+                        "answer": "2) To represent HTML documents as a tree structure"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

@@ -1,0 +1,192 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Mastering Version Control with Git: Your Capstone Project",
+                "lecture": "Hello there! Today, we're going to synthesize everything you've learned about Git and how it plays a crucial role in software development through the lens of a capstone project. This lecture will focus on several essential sub-topics: Project Planning, Finalizing Code Changes, and Documentation and Reporting. By the end of this session, you'll see how these elements interconnect with version control practices.\n\nLet\u2019s begin with Project Planning. Project Planning is an integral part of any software development process. It lays the groundwork for successfully implementing version control systems like Git. Think about it this way: if you don't have a plan, how can you ensure that each member of your team, or even yourself, remains on track?\n\nEffective project planning ensures that you have clear goals, milestones, and timelines. For an individual working on a capstone project, this means setting objectives for what you want to achieve within a specified period. You\u2019ll also want to identify the resources you need and how you will utilize Git to manage your project's code collaboratively, even if it\u2019s just between you and your future self.\n\nYou'll leverage features such as branches to experiment with new features while keeping the main codebase stable. Planning helps you answer questions like: What features should I implement first? How will I organize different tasks? You can utilize tools like Gantt charts or Kanban boards to visualize progress and help you remain organized throughout the project\u2019s lifecycle. [p]\n\nNow, let\u2019s move on to Finalizing Code Changes. As you work through your project, you will inevitably reach points where you need to integrate various changes into your main codebase. This process can be tricky if you aren\u2019t careful; it is here where version control demonstrates its importance.\n\nGit allows you to keep track of every change you make and to communicate clearly with any contributors (even if that\u2019s just you). The process generally involves several steps: reviewing your changes, committing them with clear messages, and possibly creating a pull request if you're working with others.\n\nEach commit you make acts like a snapshot of your project at a given moment. It enables you to go back, view history, and understand how the project evolved over time. You also need to understand the difference between merging and rebasing. Merging combines changes from different branches while retaining the history, while rebasing takes commits from one branch and appends them to another. Understanding how to finalize code and integrate changes correctly will greatly impact your project's success. [p]\n\nThis brings us to our third sub-topic: Documentation and Reporting. Now, imagine having a brilliant codebase but lacking documentation - it\u2019s like building a fantastic building without any blueprints or guidebooks. Documenting your code is critical; it serves as a reference for both yourself and other developers.\n\nIn Git, you can create reference points using tags or branches to mark notable versions of your project. Documentation should encompass detailed explanations of your code, how to set it up, and an overview of the methods you employed to manage the code with Git. It's essential to report on the progress of your project, acknowledging what has been done and what remains. This often informs future decisions regarding project scope and enhancements. [p]\n\nWhen documenting your code, think about using markdown files (like README.md), which GitHub and other platforms easily render. Your reporting methods can extend to utilizing Git\u2019s built-in features that allow you to track changes and issues. GitHub Issues, for example, lets you track feature requests or bugs, enhancing collaboration, even with a small team of one! [p]\n\nAs we progress today, remember that Git is not just a tool; it's a way of thinking about project management and collaboration. Consider your capstone project as your opportunity to showcase not only your coding abilities but also your project management skills. Ensuring you\u2019ve planned adequately, finalized code changes thoroughly, and documented everything with clarity will reflect your commitment to coding best practices. [p]\n\nIn summary, today we explored how to effectively utilize Git for project planning, managing code changes, and proper documentation and reporting. These components are crucial to your capstone project and will serve as a foundation for your coding experience in the future. Remember to set clear project goals, review and integrate your code carefully, and document your work thoroughly. By doing these things, not only will you streamline your work process, but you will also set yourself up for success in future projects!\n\nAs a final note, here are your references for today\u2019s topics:\n1. Project Planning: [Project Management on Wikipedia](https://en.wikipedia.org/wiki/Project_management)\n2. Finalizing Code Changes: [Version Control on Wikipedia](https://en.wikipedia.org/wiki/Version_control)\n3. Documentation and Reporting: [Software Documentation on Wikipedia](https://en.wikipedia.org/wiki/Software_documentation)\n\nMain Topic: Version Control with Git\nSub Topics: ['Project Planning', 'Finalizing Code Changes', 'Documentation and Reporting']",
+                "summary": "Today's lecture guided you through the importance of project planning, finalizing code changes, and the need for proper documentation and reporting within the context of version control using Git. With insights into these sub-topics, you are now prepared to apply best practices to your capstone project, ensuring a structured approach to your coding efforts. Understanding how to leverage Git effectively will not only improve your personal projects but also set a standard for collaboration with others in the future.",
+                "subject": "Computer Science",
+                "main_topic": "Version Control with Git",
+                "sub_topics": [
+                    "Project Planning",
+                    "Finalizing Code Changes",
+                    "Documentation and Reporting"
+                ],
+                "wikipedia_refrences": [
+                    "https://en.wikipedia.org/wiki/Project_management",
+                    "https://en.wikipedia.org/wiki/Version_control",
+                    "https://en.wikipedia.org/wiki/Software_documentation"
+                ],
+                "quiz": [
+                    {
+                        "question": "What tool can help visualize project progress during effective project planning?",
+                        "options": [
+                            "4) Compilers",
+                            "3) Text editors",
+                            "1) Gantt charts",
+                            "2) Debuggers"
+                        ],
+                        "explanation": "Gantt charts are used to visualize the timeline and progress of a project, allowing for better planning and time management.",
+                        "answer": "1) Gantt charts"
+                    },
+                    {
+                        "question": "What is a snapshot of your project at a given moment in Git called?",
+                        "options": [
+                            "1) Commit",
+                            "4) Branch",
+                            "2) Issue",
+                            "3) Tag"
+                        ],
+                        "explanation": "A commit in Git represents a snapshot of the current state of the codebase, allowing you to track changes over time.",
+                        "answer": "1) Commit"
+                    },
+                    {
+                        "question": "When finalizing code changes, what is the process where changes from two branches are combined while keeping the history?",
+                        "options": [
+                            "2) Rebasing",
+                            "4) Committing",
+                            "1) Merging",
+                            "3) Branching"
+                        ],
+                        "explanation": "Merging combines the contents of two branches while preserving their respective histories in Git.",
+                        "answer": "1) Merging"
+                    },
+                    {
+                        "question": "Which type of files can be used to document a project within a Git repository?",
+                        "options": [
+                            "1) README.md files",
+                            "3) Binary files",
+                            "2) Source code files",
+                            "4) Image files"
+                        ],
+                        "explanation": "README.md files are markdown files used in Git repositories to provide documentation and instructions for the project.",
+                        "answer": "1) README.md files"
+                    },
+                    {
+                        "question": "What Git feature allows you to track feature requests or bugs efficiently?",
+                        "options": [
+                            "4) Branches",
+                            "2) Commits",
+                            "1) GitHub Issues",
+                            "3) Pull Requests"
+                        ],
+                        "explanation": "GitHub Issues is a built-in feature that lets you track bugs and feature requests, making project management easier.",
+                        "answer": "1) GitHub Issues"
+                    },
+                    {
+                        "question": "What do you call the process of experimenting with new features in Git while keeping the main codebase stable?",
+                        "options": [
+                            "3) Tagging",
+                            "1) Branching",
+                            "2) Merging",
+                            "4) Committing"
+                        ],
+                        "explanation": "Branching allows you to work on new features or changes without affecting the main codebase, maintaining stability.",
+                        "answer": "1) Branching"
+                    },
+                    {
+                        "question": "What should be included in documentation to make it clear for other developers and your future self?",
+                        "options": [
+                            "4) None of the above",
+                            "3) Random notes",
+                            "2) Personal opinions",
+                            "1) Code explanations and setup instructions"
+                        ],
+                        "explanation": "Documentation should clearly explain how to set up the project and detail the methods used, aiding future understanding.",
+                        "answer": "1) Code explanations and setup instructions"
+                    },
+                    {
+                        "question": "Which of the following best defines the difference between merging and rebasing?",
+                        "options": [
+                            "4) Merging only works on local repositories",
+                            "2) Merging and rebasing are completely identical",
+                            "1) Merging keeps history while rebasing appends changes",
+                            "3) Rebasing is safer than merging"
+                        ],
+                        "explanation": "Merging combines changes from different branches while keeping commit history intact, whereas rebasing appends changes from one branch onto another.",
+                        "answer": "1) Merging keeps history while rebasing appends changes"
+                    },
+                    {
+                        "question": "Why is it important to set clear goals during project planning with Git?",
+                        "options": [
+                            "2) Goals are irrelevant",
+                            "4) They are only important for large teams",
+                            "1) To ensure everyone knows their tasks",
+                            "3) They help you build better code"
+                        ],
+                        "explanation": "Setting clear goals ensures that you and any collaborators understand what needs to be accomplished, promoting effective use of Git for project management.",
+                        "answer": "1) To ensure everyone knows their tasks"
+                    },
+                    {
+                        "question": "What is one aspect of reporting that enhances collaboration even in solo projects?",
+                        "options": [
+                            "3) Avoiding discussions on issues",
+                            "1) Tracking changes and progress",
+                            "2) Relying on informal notes",
+                            "4) Ignoring version control"
+                        ],
+                        "explanation": "Reporting through tracking changes and progress enables you to have clear insight into the project's status and helps in future planning.",
+                        "answer": "1) Tracking changes and progress"
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What is one of the key benefits of effective project planning in software development using Git?",
+                        "options": [
+                            "4) It makes teamwork unnecessary.",
+                            "1) It eliminates the need for version control.",
+                            "2) It ensures clear goals, milestones, and timelines are set.",
+                            "3) It allows for spontaneous coding without structure."
+                        ],
+                        "explanation": "Effective project planning lays the groundwork for a successful software development process by ensuring that there are clear goals, milestones, and timelines. This structured approach improves the management of the project when using version control systems like Git.",
+                        "answer": "2) It ensures clear goals, milestones, and timelines are set."
+                    },
+                    {
+                        "question": "What is the primary purpose of committing changes in Git?",
+                        "options": [
+                            "1) To delete old project files",
+                            "3) To create a new branch automatically",
+                            "2) To keep track of every change and create snapshots of the project",
+                            "4) To publish the project online"
+                        ],
+                        "explanation": "Committing changes in Git is essential for tracking progress, enabling users to create snapshots of the project at various stages, which allows for a clear review of the project's history and evolution over time.",
+                        "answer": "2) To keep track of every change and create snapshots of the project"
+                    },
+                    {
+                        "question": "Why is documentation considered critical in a codebase?",
+                        "options": [
+                            "4) It only benefits the project manager",
+                            "1) It helps in managing the project scope",
+                            "2) It serves as a reference for developers",
+                            "3) It is unnecessary if the code is well-written"
+                        ],
+                        "explanation": "Documentation is essential because it acts as a reference for both the original developer and any other developers who may work on the code in the future. It ensures that the thought process, structure, and functionality of the code are clearly communicated, which is crucial for effective collaboration and maintenance.",
+                        "answer": "2) It serves as a reference for developers"
+                    },
+                    {
+                        "question": "What is one important aspect of using Git effectively in a capstone project?",
+                        "options": [
+                            "2) To ignore documentation in order to save time.",
+                            "4) To work independently without any collaboration.",
+                            "1) To focus solely on coding without considering project management.",
+                            "3) To plan adequately and document everything with clarity."
+                        ],
+                        "explanation": "Using Git effectively involves not only coding but also applying strong project management principles. This includes planning, documenting changes, and collaborating with others to ensure a successful project outcome.",
+                        "answer": "3) To plan adequately and document everything with clarity."
+                    },
+                    {
+                        "question": "What is a crucial component of using Git effectively for project management?",
+                        "options": [
+                            "1) Ignoring code documentation",
+                            "2) Setting clear project goals",
+                            "4) Skipping project planning",
+                            "3) Avoiding code integration"
+                        ],
+                        "explanation": "Setting clear project goals is crucial in using Git effectively because it helps to guide the project and measure progress towards its completion. Without clear goals, it can be challenging to determine what changes need to be made or how to properly document the process.",
+                        "answer": "2) Setting clear project goals"
+                    }
+                ]
+            }
+        ]
+    }
+]

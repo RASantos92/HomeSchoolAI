@@ -1,3 +1,13 @@
 .env
 __pycache__
 myenv
+.pytest_cache
+
+# Local id-cache mapping names to a specific empowerHSA instance's Mongo
+# object ids - environment-specific, not portable across deployments.
+data/empower_ids.json
+
+# Old/superseded generated JSON from earlier iterations of the data layout -
+# not read by any current code path (see CLAUDE.md). Kept on disk as an
+# archive, not in version control.
+z_Data_stock/

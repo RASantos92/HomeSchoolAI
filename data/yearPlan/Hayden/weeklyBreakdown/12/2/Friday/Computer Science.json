@@ -1,0 +1,216 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "CSS Styling: Creating a Styled Web Page from Scratch",
+                "lecture": "Hello! Today, we are going to dive into an exciting aspect of web development - CSS styling. CSS, or Cascading Style Sheets, allows you to control the layout and appearance of your web pages. It\u2019s not just about making things look pretty; it plays a crucial role in enhancing user experience. Today, you will put your CSS skills to use in a mini-project where you will create a styled web page from scratch.\n\nTo start, let\u2019s talk about **Project Planning**. Before you begin any project, it\u2019s essential to have a clear plan in place. Project planning involves setting specific goals and outlining the steps you need to get there. In the realm of web development, this includes deciding on the purpose of your web page, identifying your target audience, and determining what information you want to present.\n\nThink about this: What do you want your web page to achieve? Is it informational? Is it a portfolio? Once you have a clear objective, you can move on to sketching a layout. This doesn\u2019t have to be elaborate; it could simply be a rough outline of where content will be placed. [p]\n\nOnce your layout is sketched, consider the **Creative Brainstorming** phase. Here, you should brainstorm ideas for the design, colors, fonts, and overall aesthetic of your webpage. Creativity is key! Explore different themes and styles that resonate with the message and purpose of your site.\n\nIn this phase, it might be helpful to gather inspiration. Look at websites you admire or make notes of design elements you find appealing. Keep in mind the user experience - simple, intuitive designs are often more effective than complicated ones. [p]\n\nNext, let\u2019s discuss how to translate your planning and brainstorming into actual CSS styling. CSS is typically linked to your HTML file using a `<link>` tag in the header. Here\u2019s a simple example of how to link your CSS file:\n```html\n<link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\">\n```\nMake sure you replace `styles.css` with the name of your actual CSS file. [p]\n\nNow, let\u2019s delve deeper into the various styles you can apply using CSS. One of the fundamental concepts is **selectors**. Selectors allow you to target HTML elements you want to style. For example, if you want to change the color of your headings, you can use a selector like this:\n```css\nh1 {\n    color: blue;\n}\n```\nThis code snippet tells the browser to render all `<h1>` headings in blue. There are various types of selectors available, such as class selectors, ID selectors, and pseudo-classes. Utilizing these will help you gain more control over the styles of specific elements on your webpage. [p]\n\nAnother essential aspect of CSS is the **box model**. Understanding the box model is crucial, as it affects how elements are displayed in the browser. Every HTML element is represented as a rectangular box, which consists of the following:\n- **Content**: The actual content, such as text or images, inside the box.\n- **Padding**: Space between the content and the border, which adds internal spacing.\n- **Border**: A border wraps around the padding.\n- **Margin**: Space outside the border, separating the element from other elements.\n\nHere\u2019s an example of how to apply padding, border, and margin:\n```css\ndiv {\n    padding: 10px;\n    border: 2px solid black;\n    margin: 20px;\n}\n```\nThis snippet would create a `div` box with 10px of padding, a solid black border, and 20px of margin around it. [p]\n\nNext, let\u2019s touch upon the importance of **flexbox** and **grid layouts** for creating responsive designs. Flexbox is a one-dimensional layout method that allows you to align items within a container more effectively. The following example demonstrates how to use flexbox:\n```css\n.container {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n```\nThis code centers all items within the `.container` div both horizontally and vertically. [p]\n\nGrid layouts, on the other hand, provide a two-dimensional layout system that allows for more complex designs. You might define a grid with rows and columns and position items accordingly. Here\u2019s a simple grid example:\n```css\n.grid {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 10px;\n}\n```\nThis snippet creates a grid layout with three equal columns and a 10px gap between the items. [p]\n\nAs you start creating your styled webpage, you\u2019ll also want to consider responsive design principles. This means your website should look good on both desktop and mobile devices. One way to achieve this is through **media queries**. Media queries allow you to apply different styles depending on the screen size. An example looks like this:\n```css\n@media (max-width: 600px) {\n    body {\n        background-color: lightblue;\n    }\n}\n```\nThis code will change the background color to light blue when the screen width is 600px or less. Utilizing media queries ensures your webpage is accessible to users on various devices. [p]\n\nLastly, let\u2019s not forget about **best practices** in CSS. This includes organizing your code for readability by using comments, consistent naming conventions, and keeping your stylesheets manageable. A well-structured CSS file not only aids you in the future but helps others understand your work if you share it.\n\nAs we wrap up this lecture, let\u2019s summarize what you have learned today. You\u2019ve explored project planning and creative brainstorming as essential steps in web design. You\u2019ve also delved into key CSS concepts, including selectors, the box model, flexbox, grid layouts, media queries, and best practices for writing CSS. [p]\n\nNow it\u2019s your turn! Get ready to dive into your mini project and create a styled web page from scratch. Remember to apply everything you\u2019ve learned, and don\u2019t hesitate to get creative!",
+                "summary": "Today's lecture covered the essentials of CSS styling, including project planning and creative brainstorming phases. You learned about selectors, the box model, flexbox, and grid layouts for responsive design. Additionally, you explored media queries and CSS best practices. With this knowledge, you are equipped to create a styled web page from scratch.",
+                "subject": "Computer Science",
+                "main_topic": "CSS Styling",
+                "sub_topics": [
+                    "Project planning",
+                    "Creative brainstorming"
+                ],
+                "wikipedia_refrences": [
+                    "https://en.wikipedia.org/wiki/Cascading_Style_Sheets",
+                    "https://en.wikipedia.org/wiki/Box_model",
+                    "https://en.wikipedia.org/wiki/Flexbox",
+                    "https://en.wikipedia.org/wiki/CSS_grid_layout",
+                    "https://en.wikipedia.org/wiki/Media_queries"
+                ],
+                "quiz": [
+                    {
+                        "question": "What does the <link> tag in HTML do in relation to CSS?",
+                        "options": [
+                            "1) It scripts a JavaScript file.",
+                            "3) It embeds an image into a webpage.",
+                            "4) It styles text directly within HTML.",
+                            "2) It links a CSS file to an HTML document."
+                        ],
+                        "explanation": "The <link> tag is used to link an external CSS file to an HTML document, allowing the browser to apply the CSS styles to the HTML content.",
+                        "answer": "2) It links a CSS file to an HTML document."
+                    },
+                    {
+                        "question": "What is a key feature of the flexbox layout method in CSS?",
+                        "options": [
+                            "3) It is used only for grid layouts.",
+                            "1) It allows for a simple one-dimensional layout.",
+                            "2) It provides a two-dimensional layout system.",
+                            "4) It requires no CSS properties to function."
+                        ],
+                        "explanation": "Flexbox is specifically designed for one-dimensional layouts, allowing you to easily align and distribute space among elements in a container.",
+                        "answer": "1) It allows for a simple one-dimensional layout."
+                    },
+                    {
+                        "question": "In CSS, what does the padding do in the box model?",
+                        "options": [
+                            "4) It is used to set the font size.",
+                            "2) It adds space inside the content area.",
+                            "3) It wraps around the content within an element.",
+                            "1) It adds space outside the border."
+                        ],
+                        "explanation": "Padding is the space between the content and the border of an element in the box model, adding internal spacing for visual clarity.",
+                        "answer": "2) It adds space inside the content area."
+                    },
+                    {
+                        "question": "What property is used to center items in a flexbox container both horizontally and vertically?",
+                        "options": [
+                            "4) margin: auto;",
+                            "2) display: grid;",
+                            "1) align-items: center;",
+                            "3) justify-content: center;"
+                        ],
+                        "explanation": "To center items in a flexbox container both horizontally and vertically, you need to use both align-items: center; and justify-content: center; in the flexbox styling.",
+                        "answer": "1) align-items: center."
+                    },
+                    {
+                        "question": "What is the purpose of the margin in the CSS box model?",
+                        "options": [
+                            "1) It adds internal space to the content.",
+                            "4) It defines the layout structure of the elements.",
+                            "3) It sets the border color.",
+                            "2) It separates elements from one another."
+                        ],
+                        "explanation": "The margin creates space outside the border of an element, effectively separating it from other elements on the page.",
+                        "answer": "2) It separates elements from one another."
+                    },
+                    {
+                        "question": "What does the CSS rule '@media (max-width: 600px)' accomplish?",
+                        "options": [
+                            "4) It changes all font sizes to 12px.",
+                            "3) It permanently sets the background color to blue.",
+                            "1) It selects all elements on the webpage.",
+                            "2) It applies styles only if the screen width is 600 pixels or less."
+                        ],
+                        "explanation": "The @media rule is used to apply specific styles when certain conditions are met, such as when the viewport width is less than or equal to 600 pixels.",
+                        "answer": "2) It applies styles only if the screen width is 600 pixels or less."
+                    },
+                    {
+                        "question": "Which of the following properties is NOT a part of the box model?",
+                        "options": [
+                            "1) Content",
+                            "3) Margin",
+                            "4) Color",
+                            "2) Padding"
+                        ],
+                        "explanation": "Color is not part of the box model, which includes content, padding, border, and margin as its fundamental components.",
+                        "answer": "4) Color."
+                    },
+                    {
+                        "question": "What is the main benefit of using grid layouts in CSS?",
+                        "options": [
+                            "3) It simplifies the structure of a one-dimensional layout.",
+                            "1) It only works for forms and buttons.",
+                            "4) It requires less CSS code overall.",
+                            "2) It allows for complex two-dimensional layouts."
+                        ],
+                        "explanation": "Grid layouts provide a robust framework for creating complex two-dimensional layouts, allowing precise control of rows and columns.",
+                        "answer": "2) It allows for complex two-dimensional layouts."
+                    },
+                    {
+                        "question": "What is the purpose of organizing CSS code with comments?",
+                        "options": [
+                            "2) To enhance readability for future reference.",
+                            "1) To reduce file size.",
+                            "4) To hide certain parts of the code from the browser.",
+                            "3) To speed up website loading time."
+                        ],
+                        "explanation": "Using comments in CSS helps organize and clarify the code, making it easier for both the original author and others to understand it at a later time.",
+                        "answer": "2) To enhance readability for future reference."
+                    },
+                    {
+                        "question": "In which scenario would you use a class selector in CSS?",
+                        "options": [
+                            "3) To select all headings on a page.",
+                            "2) To apply styles to multiple elements sharing the same class.",
+                            "1) To style a single unique element.",
+                            "4) To override the default browser styles."
+                        ],
+                        "explanation": "Class selectors are used to apply styles to multiple elements that share the same class name, making them very versatile in CSS.",
+                        "answer": "2) To apply styles to multiple elements sharing the same class."
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What is the primary purpose of project planning in web development?",
+                        "options": [
+                            "4) To focus solely on the technical aspects of coding.",
+                            "2) To outline the steps needed to achieve clear project goals and objectives.",
+                            "3) To hire a team of developers for the web page project.",
+                            "1) To create a visually appealing site without considering its functionality."
+                        ],
+                        "explanation": "Project planning in web development focuses on setting specific goals and outlining the necessary steps to achieve those goals, ensuring that the web page meets its intended purpose and serves its target audience effectively.",
+                        "answer": "2) To outline the steps needed to achieve clear project goals and objectives."
+                    },
+                    {
+                        "question": "What is the primary focus during the Creative Brainstorming phase of webpage design?",
+                        "options": [
+                            "1) Gathering inspiration and brainstorming design ideas",
+                            "2) Coding the webpage in HTML",
+                            "3) Testing the website for bugs",
+                            "4) Launching the webpage to the public"
+                        ],
+                        "explanation": "The Creative Brainstorming phase emphasizes brainstorming ideas for design elements such as colors, fonts, and overall aesthetics while gathering inspiration from admired websites, making option 1 the correct answer.",
+                        "answer": "1) Gathering inspiration and brainstorming design ideas"
+                    },
+                    {
+                        "question": "What is the purpose of CSS selectors?",
+                        "options": [
+                            "1) To add HTML content to a webpage",
+                            "2) To target and apply styles to specific HTML elements",
+                            "3) To create JavaScript functions",
+                            "4) To optimize web page loading speed"
+                        ],
+                        "explanation": "CSS selectors are used specifically to select and apply styles to particular HTML elements. This enables you to control the appearance of your webpage effectively.",
+                        "answer": "2) To target and apply styles to specific HTML elements"
+                    },
+                    {
+                        "question": "What are the four components of the CSS box model?",
+                        "options": [
+                            "1) Content, Padding, Border, Margin",
+                            "3) Content, Padding, Outline, Margin",
+                            "2) Content, Spacing, Outline, Margin",
+                            "4) Content, Border, Padding, Edge"
+                        ],
+                        "explanation": "The correct components of the CSS box model include Content, Padding, Border, and Margin. The box model defines how these elements interact and affect the display of HTML elements in the browser.",
+                        "answer": "1) Content, Padding, Border, Margin"
+                    },
+                    {
+                        "question": "What does the CSS property 'grid-template-columns: repeat(3, 1fr);' achieve in a grid layout?",
+                        "options": [
+                            "2) It creates one column with three times the width.",
+                            "1) It creates three columns of equal width.",
+                            "4) It creates a single row with three columns.",
+                            "3) It creates three columns of varying width."
+                        ],
+                        "explanation": "The property 'grid-template-columns: repeat(3, 1fr);' specifies that the grid should have three columns, each taking up an equal fraction of the available space, which is what is meant by '1fr'. Therefore, all columns will be of equal width within the grid layout.",
+                        "answer": "1) It creates three columns of equal width."
+                    },
+                    {
+                        "question": "What is the purpose of media queries in responsive web design?",
+                        "options": [
+                            "3) To improve the loading speed of a website.",
+                            "4) To enhance the security of a webpage.",
+                            "1) To change the content based on the user's location.",
+                            "2) To alter the webpage's style according to the screen size."
+                        ],
+                        "explanation": "Media queries are used in responsive web design to apply different styles based on the screen size, ensuring that the webpage is visually appealing and functional on both desktop and mobile devices.",
+                        "answer": "2) To alter the webpage's style according to the screen size."
+                    },
+                    {
+                        "question": "Which of the following is considered a best practice when writing CSS?",
+                        "options": [
+                            "2) Ignoring comments in your code",
+                            "3) Keeping stylesheets organized and manageable",
+                            "4) Avoiding media queries",
+                            "1) Using inconsistent naming conventions"
+                        ],
+                        "explanation": "Keeping stylesheets organized and manageable not only improves readability but also aids in future maintenance and helps others understand your work. Using comments and consistent naming conventions contributes to this best practice.",
+                        "answer": "3) Keeping stylesheets organized and manageable"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

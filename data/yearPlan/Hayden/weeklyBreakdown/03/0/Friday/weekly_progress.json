@@ -1,0 +1,2163 @@
+{
+    "Monday": {},
+    "Tuesday": {},
+    "Wednesday": {},
+    "Thursday": {},
+    "Friday": {
+        "Algebra": [
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    7,
+                    8
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "Which of the following describes the behavior of an exponential function when the base 'b' is greater than 1?",
+                        "options": [
+                            "3) It grows as x increases.",
+                            "4) It remains constant regardless of x.",
+                            "1) It decays as x increases.",
+                            "2) It grows at a constant rate."
+                        ],
+                        "explanation": "When the base 'b' is greater than 1, the exponential function f(x) = a * b^x exhibits growth as x increases, leading to rapid increases in the function value.",
+                        "answer": "3) It grows as x increases."
+                    },
+                    {
+                        "question": "In the context of population growth, what does it mean if a population is modeled by the function P(t) = 100 * 2^t?",
+                        "options": [
+                            "3) The population doubles every hour.",
+                            "2) The population remains constant.",
+                            "1) The population decreases over time.",
+                            "4) The population triples every hour."
+                        ],
+                        "explanation": "The equation P(t) = 100 * 2^t indicates that the population starts at 100 and doubles for each increment of time t, hence it doubles every hour.",
+                        "answer": "3) The population doubles every hour."
+                    },
+                    {
+                        "question": "What shape does the graph of an exponential growth function typically have?",
+                        "options": [
+                            "4) Circular",
+                            "3) Exponential curve",
+                            "1) Linear",
+                            "2) Quadratic"
+                        ],
+                        "explanation": "An exponential growth function has a graph that demonstrates a rapid increase, characterized by an upward-sloping curve that steepens over time, known as an exponential curve.",
+                        "answer": "3) Exponential curve"
+                    },
+                    {
+                        "question": "What does the term 'half-life' refer to in the context of exponential decay?",
+                        "options": [
+                            "4) The maximum amount left after exponential decay.",
+                            "3) The constant rate of decay per year.",
+                            "2) The time required for half of the initial amount to decay.",
+                            "1) The time it takes for the entire substance to decay."
+                        ],
+                        "explanation": "Half-life is defined as the time required for half of the initial amount of a radioactive substance to decay, illustrating exponential decay behavior.",
+                        "answer": "2) The time required for half of the initial amount to decay."
+                    },
+                    {
+                        "question": "How does the formula for compound interest reflect exponential growth?",
+                        "options": [
+                            "3) It only applies to savings accounts.",
+                            "1) It is only linear growth in the long term.",
+                            "4) It is diminishing returns on investments.",
+                            "2) It shows how interest accumulates on both principal and interest over time."
+                        ],
+                        "explanation": "The formula for compound interest shows that interest accumulates on both the original principal and the interest already earned, leading to exponential growth.",
+                        "answer": "2) It shows how interest accumulates on both principal and interest over time."
+                    },
+                    {
+                        "question": "What is indicated by the function N(t) = 50 * 2^(t/4) in relation to the rabbit population?",
+                        "options": [
+                            "2) The population stays constant at 50.",
+                            "3) The population doubles every month.",
+                            "4) The population doubles every 4 months.",
+                            "1) The population will never exceed 50."
+                        ],
+                        "explanation": "This function indicates that the initial rabbit population starts at 50, and it doubles every 4 months as determined by the exponential growth factor.",
+                        "answer": "4) The population doubles every 4 months."
+                    },
+                    {
+                        "question": "Which of the following is an example of exponential decay?",
+                        "options": [
+                            "2) Decrease of bacteria in a culture over time.",
+                            "4) Population growth of a species.",
+                            "3) Inflation affecting currency value.",
+                            "1) Growth of savings in a bank account."
+                        ],
+                        "explanation": "Exponential decay refers to situations where quantities decrease over time, such as the decline in the amount of a radioactive substance or bacteria in a culture.",
+                        "answer": "2) Decrease of bacteria in a culture over time."
+                    },
+                    {
+                        "question": "When discussing exponential growth, what is often a limiting factor in real-world scenarios?",
+                        "options": [
+                            "2) Optimal growth conditions.",
+                            "4) Constant environmental factors.",
+                            "1) Infinite resources.",
+                            "3) Limited resources."
+                        ],
+                        "explanation": "In real-world situations, limitations on growth are typically due to finite resources, which can prevent continued exponential growth and lead to logistic growth instead.",
+                        "answer": "3) Limited resources."
+                    },
+                    {
+                        "question": "Which of the following is true about the rate of growth of an exponential function compared to a linear function?",
+                        "options": [
+                            "2) Exponential growth increases at a decreasing rate.",
+                            "4) They both grow at the same rate.",
+                            "1) Exponential growth increases at a constant rate.",
+                            "3) Exponential growth increases at an increasing rate."
+                        ],
+                        "explanation": "Exponential growth increases at an increasing rate as the value of x increases, unlike linear growth which remains constant.",
+                        "answer": "3) Exponential growth increases at an increasing rate."
+                    },
+                    {
+                        "question": "In the context of finance, how does compound interest differ from simple interest?",
+                        "options": [
+                            "3) There is no difference; both are the same.",
+                            "4) Simple interest yields a higher return than compound interest.",
+                            "1) Compound interest is calculated only on the principal amount.",
+                            "2) Compound interest grows exponentially while simple interest grows linearly."
+                        ],
+                        "explanation": "Compound interest is calculated on the total amount (principal + interest) over time, leading to exponential growth, while simple interest is calculated only on the principal, resulting in linear growth.",
+                        "answer": "2) Compound interest grows exponentially while simple interest grows linearly."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    7,
+                    8
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "Which of the following describes the behavior of an exponential function when the base 'b' is greater than 1?",
+                        "options": [
+                            "3) It grows as x increases.",
+                            "4) It remains constant regardless of x.",
+                            "1) It decays as x increases.",
+                            "2) It grows at a constant rate."
+                        ],
+                        "explanation": "When the base 'b' is greater than 1, the exponential function f(x) = a * b^x exhibits growth as x increases, leading to rapid increases in the function value.",
+                        "answer": "3) It grows as x increases."
+                    },
+                    {
+                        "question": "In the context of population growth, what does it mean if a population is modeled by the function P(t) = 100 * 2^t?",
+                        "options": [
+                            "3) The population doubles every hour.",
+                            "2) The population remains constant.",
+                            "1) The population decreases over time.",
+                            "4) The population triples every hour."
+                        ],
+                        "explanation": "The equation P(t) = 100 * 2^t indicates that the population starts at 100 and doubles for each increment of time t, hence it doubles every hour.",
+                        "answer": "3) The population doubles every hour."
+                    },
+                    {
+                        "question": "What shape does the graph of an exponential growth function typically have?",
+                        "options": [
+                            "4) Circular",
+                            "3) Exponential curve",
+                            "1) Linear",
+                            "2) Quadratic"
+                        ],
+                        "explanation": "An exponential growth function has a graph that demonstrates a rapid increase, characterized by an upward-sloping curve that steepens over time, known as an exponential curve.",
+                        "answer": "3) Exponential curve"
+                    },
+                    {
+                        "question": "What does the term 'half-life' refer to in the context of exponential decay?",
+                        "options": [
+                            "4) The maximum amount left after exponential decay.",
+                            "3) The constant rate of decay per year.",
+                            "2) The time required for half of the initial amount to decay.",
+                            "1) The time it takes for the entire substance to decay."
+                        ],
+                        "explanation": "Half-life is defined as the time required for half of the initial amount of a radioactive substance to decay, illustrating exponential decay behavior.",
+                        "answer": "2) The time required for half of the initial amount to decay."
+                    },
+                    {
+                        "question": "How does the formula for compound interest reflect exponential growth?",
+                        "options": [
+                            "3) It only applies to savings accounts.",
+                            "1) It is only linear growth in the long term.",
+                            "4) It is diminishing returns on investments.",
+                            "2) It shows how interest accumulates on both principal and interest over time."
+                        ],
+                        "explanation": "The formula for compound interest shows that interest accumulates on both the original principal and the interest already earned, leading to exponential growth.",
+                        "answer": "2) It shows how interest accumulates on both principal and interest over time."
+                    },
+                    {
+                        "question": "What is indicated by the function N(t) = 50 * 2^(t/4) in relation to the rabbit population?",
+                        "options": [
+                            "2) The population stays constant at 50.",
+                            "3) The population doubles every month.",
+                            "4) The population doubles every 4 months.",
+                            "1) The population will never exceed 50."
+                        ],
+                        "explanation": "This function indicates that the initial rabbit population starts at 50, and it doubles every 4 months as determined by the exponential growth factor.",
+                        "answer": "4) The population doubles every 4 months."
+                    },
+                    {
+                        "question": "Which of the following is an example of exponential decay?",
+                        "options": [
+                            "2) Decrease of bacteria in a culture over time.",
+                            "4) Population growth of a species.",
+                            "3) Inflation affecting currency value.",
+                            "1) Growth of savings in a bank account."
+                        ],
+                        "explanation": "Exponential decay refers to situations where quantities decrease over time, such as the decline in the amount of a radioactive substance or bacteria in a culture.",
+                        "answer": "2) Decrease of bacteria in a culture over time."
+                    },
+                    {
+                        "question": "When discussing exponential growth, what is often a limiting factor in real-world scenarios?",
+                        "options": [
+                            "2) Optimal growth conditions.",
+                            "4) Constant environmental factors.",
+                            "1) Infinite resources.",
+                            "3) Limited resources."
+                        ],
+                        "explanation": "In real-world situations, limitations on growth are typically due to finite resources, which can prevent continued exponential growth and lead to logistic growth instead.",
+                        "answer": "3) Limited resources."
+                    },
+                    {
+                        "question": "Which of the following is true about the rate of growth of an exponential function compared to a linear function?",
+                        "options": [
+                            "2) Exponential growth increases at a decreasing rate.",
+                            "4) They both grow at the same rate.",
+                            "1) Exponential growth increases at a constant rate.",
+                            "3) Exponential growth increases at an increasing rate."
+                        ],
+                        "explanation": "Exponential growth increases at an increasing rate as the value of x increases, unlike linear growth which remains constant.",
+                        "answer": "3) Exponential growth increases at an increasing rate."
+                    },
+                    {
+                        "question": "In the context of finance, how does compound interest differ from simple interest?",
+                        "options": [
+                            "3) There is no difference; both are the same.",
+                            "4) Simple interest yields a higher return than compound interest.",
+                            "1) Compound interest is calculated only on the principal amount.",
+                            "2) Compound interest grows exponentially while simple interest grows linearly."
+                        ],
+                        "explanation": "Compound interest is calculated on the total amount (principal + interest) over time, leading to exponential growth, while simple interest is calculated only on the principal, resulting in linear growth.",
+                        "answer": "2) Compound interest grows exponentially while simple interest grows linearly."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    7
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "Which of the following describes the behavior of an exponential function when the base 'b' is greater than 1?",
+                        "options": [
+                            "3) It grows as x increases.",
+                            "4) It remains constant regardless of x.",
+                            "1) It decays as x increases.",
+                            "2) It grows at a constant rate."
+                        ],
+                        "explanation": "When the base 'b' is greater than 1, the exponential function f(x) = a * b^x exhibits growth as x increases, leading to rapid increases in the function value.",
+                        "answer": "3) It grows as x increases."
+                    },
+                    {
+                        "question": "In the context of population growth, what does it mean if a population is modeled by the function P(t) = 100 * 2^t?",
+                        "options": [
+                            "3) The population doubles every hour.",
+                            "2) The population remains constant.",
+                            "1) The population decreases over time.",
+                            "4) The population triples every hour."
+                        ],
+                        "explanation": "The equation P(t) = 100 * 2^t indicates that the population starts at 100 and doubles for each increment of time t, hence it doubles every hour.",
+                        "answer": "3) The population doubles every hour."
+                    },
+                    {
+                        "question": "What shape does the graph of an exponential growth function typically have?",
+                        "options": [
+                            "4) Circular",
+                            "3) Exponential curve",
+                            "1) Linear",
+                            "2) Quadratic"
+                        ],
+                        "explanation": "An exponential growth function has a graph that demonstrates a rapid increase, characterized by an upward-sloping curve that steepens over time, known as an exponential curve.",
+                        "answer": "3) Exponential curve"
+                    },
+                    {
+                        "question": "What does the term 'half-life' refer to in the context of exponential decay?",
+                        "options": [
+                            "4) The maximum amount left after exponential decay.",
+                            "3) The constant rate of decay per year.",
+                            "2) The time required for half of the initial amount to decay.",
+                            "1) The time it takes for the entire substance to decay."
+                        ],
+                        "explanation": "Half-life is defined as the time required for half of the initial amount of a radioactive substance to decay, illustrating exponential decay behavior.",
+                        "answer": "2) The time required for half of the initial amount to decay."
+                    },
+                    {
+                        "question": "How does the formula for compound interest reflect exponential growth?",
+                        "options": [
+                            "3) It only applies to savings accounts.",
+                            "1) It is only linear growth in the long term.",
+                            "4) It is diminishing returns on investments.",
+                            "2) It shows how interest accumulates on both principal and interest over time."
+                        ],
+                        "explanation": "The formula for compound interest shows that interest accumulates on both the original principal and the interest already earned, leading to exponential growth.",
+                        "answer": "2) It shows how interest accumulates on both principal and interest over time."
+                    },
+                    {
+                        "question": "What is indicated by the function N(t) = 50 * 2^(t/4) in relation to the rabbit population?",
+                        "options": [
+                            "2) The population stays constant at 50.",
+                            "3) The population doubles every month.",
+                            "4) The population doubles every 4 months.",
+                            "1) The population will never exceed 50."
+                        ],
+                        "explanation": "This function indicates that the initial rabbit population starts at 50, and it doubles every 4 months as determined by the exponential growth factor.",
+                        "answer": "4) The population doubles every 4 months."
+                    },
+                    {
+                        "question": "Which of the following is an example of exponential decay?",
+                        "options": [
+                            "2) Decrease of bacteria in a culture over time.",
+                            "4) Population growth of a species.",
+                            "3) Inflation affecting currency value.",
+                            "1) Growth of savings in a bank account."
+                        ],
+                        "explanation": "Exponential decay refers to situations where quantities decrease over time, such as the decline in the amount of a radioactive substance or bacteria in a culture.",
+                        "answer": "2) Decrease of bacteria in a culture over time."
+                    },
+                    {
+                        "question": "When discussing exponential growth, what is often a limiting factor in real-world scenarios?",
+                        "options": [
+                            "2) Optimal growth conditions.",
+                            "4) Constant environmental factors.",
+                            "1) Infinite resources.",
+                            "3) Limited resources."
+                        ],
+                        "explanation": "In real-world situations, limitations on growth are typically due to finite resources, which can prevent continued exponential growth and lead to logistic growth instead.",
+                        "answer": "3) Limited resources."
+                    },
+                    {
+                        "question": "Which of the following is true about the rate of growth of an exponential function compared to a linear function?",
+                        "options": [
+                            "2) Exponential growth increases at a decreasing rate.",
+                            "4) They both grow at the same rate.",
+                            "1) Exponential growth increases at a constant rate.",
+                            "3) Exponential growth increases at an increasing rate."
+                        ],
+                        "explanation": "Exponential growth increases at an increasing rate as the value of x increases, unlike linear growth which remains constant.",
+                        "answer": "3) Exponential growth increases at an increasing rate."
+                    },
+                    {
+                        "question": "In the context of finance, how does compound interest differ from simple interest?",
+                        "options": [
+                            "3) There is no difference; both are the same.",
+                            "4) Simple interest yields a higher return than compound interest.",
+                            "1) Compound interest is calculated only on the principal amount.",
+                            "2) Compound interest grows exponentially while simple interest grows linearly."
+                        ],
+                        "explanation": "Compound interest is calculated on the total amount (principal + interest) over time, leading to exponential growth, while simple interest is calculated only on the principal, resulting in linear growth.",
+                        "answer": "2) Compound interest grows exponentially while simple interest grows linearly."
+                    }
+                ]
+            }
+        ],
+        "Astronomy": [
+            {
+                "quiz_grade": 70.0,
+                "wrong_answers": [
+                    0,
+                    7,
+                    9
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What are clusters of galaxies described as in the lecture?",
+                        "options": [
+                            "4) Vast empty spaces between galaxies",
+                            "3) Densely packed regions of galaxies",
+                            "1) Densely packed regions of interstellar gas",
+                            "2) Interconnected highways of galaxies"
+                        ],
+                        "explanation": "Clusters of galaxies are described in the lecture as densely packed regions of galaxies that congregate due to gravitational attraction.",
+                        "answer": "3) Densely packed regions of galaxies"
+                    },
+                    {
+                        "question": "What is significant about voids in the universe?",
+                        "options": [
+                            "3) They are sites of ongoing star formation",
+                            "2) They help define the overall structure of the universe",
+                            "1) They contain a high density of galaxies",
+                            "4) They are the most luminous areas in the universe"
+                        ],
+                        "explanation": "Voids are significant because they help define the overall structure of the universe and inform us about the distribution of dark energy, as mentioned in the lecture.",
+                        "answer": "2) They help define the overall structure of the universe"
+                    },
+                    {
+                        "question": "What are the gravitational effects produced by clusters on surrounding galaxies referred to as?",
+                        "options": [
+                            "1) Gravitational waves",
+                            "2) Cosmic fabric",
+                            "3) Filamentary structure",
+                            "4) Galactic spirals"
+                        ],
+                        "explanation": "The gravitational pull from a large cluster affects nearby galaxies, creating what is known as the filamentary structure, as explained in the lecture.",
+                        "answer": "3) Filamentary structure"
+                    },
+                    {
+                        "question": "How is the cosmic web described in relation to clusters and voids?",
+                        "options": [
+                            "2) As a random arrangement of matter",
+                            "3) As a scaffold formed by dark matter",
+                            "4) As only voids connected without clusters",
+                            "1) As a disconnected and chaotic network"
+                        ],
+                        "explanation": "The cosmic web illustrates how clusters and voids are interconnected, with dark matter forming the scaffolding for galaxies and clusters, as discussed in the lecture.",
+                        "answer": "3) As a scaffold formed by dark matter"
+                    },
+                    {
+                        "question": "What do cosmologists hope to understand more about in relation to dark energy?",
+                        "options": [
+                            "1) Its role in star formation",
+                            "2) Its interaction with clusters and voids",
+                            "3) Its composition and structure",
+                            "4) Its role in galactic collisions"
+                        ],
+                        "explanation": "Cosmologists aim to understand how dark energy interacts with clusters and voids, as this insight is vital for future cosmological inquiries mentioned in the lecture.",
+                        "answer": "2) Its interaction with clusters and voids"
+                    },
+                    {
+                        "question": "What did the lecture indicate about the future of galaxy clusters as per simulations?",
+                        "options": [
+                            "4) They will vanish completely",
+                            "3) They will collide and merge",
+                            "1) They will become less dense",
+                            "2) Their size will remain the same"
+                        ],
+                        "explanation": "The lecture mentioned that cosmological simulations predict that clusters will continue to collide and merge over time, impacting their evolution.",
+                        "answer": "3) They will collide and merge"
+                    },
+                    {
+                        "question": "Why is it important to study the structure of voids in the universe?",
+                        "options": [
+                            "1) To understand star birth rates",
+                            "4) To explore alien life",
+                            "3) To inform about dark energy distribution",
+                            "2) To determine the origins of black holes"
+                        ],
+                        "explanation": "Studying voids is crucial as they help inform us about the distribution of dark energy and contribute to defining the structure of the universe.",
+                        "answer": "3) To inform about dark energy distribution"
+                    },
+                    {
+                        "question": "What is one of the questions about the future of the universe related to clusters and voids?",
+                        "options": [
+                            "1) Will clusters become smaller over time?",
+                            "2) Will voids disappear altogether?",
+                            "4) Will dark matter cease to exist?",
+                            "3) How will clusters and voids evolve?"
+                        ],
+                        "explanation": "The lecture touches on the evolution and fate of cosmic structures, including the important question of how clusters and voids will evolve over cosmic time.",
+                        "answer": "3) How will clusters and voids evolve?"
+                    },
+                    {
+                        "question": "What does the term 'Big Rip' refer to in cosmological discussions?",
+                        "options": [
+                            "4) A void in the universe",
+                            "1) The collision of galaxies",
+                            "3) The formation of stars",
+                            "2) A scenario caused by dark energy"
+                        ],
+                        "explanation": "The 'Big Rip' is a potential future event theorized to occur if dark energy continues to dominate the universe's expansion, pulling apart galaxies and structures.",
+                        "answer": "2) A scenario caused by dark energy"
+                    },
+                    {
+                        "question": "What major observational advancement was mentioned in the lecture that will enhance our understanding of cosmic evolution?",
+                        "options": [
+                            "1) Hubble Space Telescope",
+                            "4) Kepler Space Telescope",
+                            "2) James Webb Space Telescope",
+                            "3) Chandra X-ray Observatory"
+                        ],
+                        "explanation": "The James Webb Space Telescope was mentioned in the lecture as an observational advancement that will enhance our understanding of cosmic evolution and the structures we observe today.",
+                        "answer": "2) James Webb Space Telescope"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    7
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What are clusters of galaxies described as in the lecture?",
+                        "options": [
+                            "4) Vast empty spaces between galaxies",
+                            "3) Densely packed regions of galaxies",
+                            "1) Densely packed regions of interstellar gas",
+                            "2) Interconnected highways of galaxies"
+                        ],
+                        "explanation": "Clusters of galaxies are described in the lecture as densely packed regions of galaxies that congregate due to gravitational attraction.",
+                        "answer": "3) Densely packed regions of galaxies"
+                    },
+                    {
+                        "question": "What is significant about voids in the universe?",
+                        "options": [
+                            "3) They are sites of ongoing star formation",
+                            "2) They help define the overall structure of the universe",
+                            "1) They contain a high density of galaxies",
+                            "4) They are the most luminous areas in the universe"
+                        ],
+                        "explanation": "Voids are significant because they help define the overall structure of the universe and inform us about the distribution of dark energy, as mentioned in the lecture.",
+                        "answer": "2) They help define the overall structure of the universe"
+                    },
+                    {
+                        "question": "What are the gravitational effects produced by clusters on surrounding galaxies referred to as?",
+                        "options": [
+                            "1) Gravitational waves",
+                            "2) Cosmic fabric",
+                            "3) Filamentary structure",
+                            "4) Galactic spirals"
+                        ],
+                        "explanation": "The gravitational pull from a large cluster affects nearby galaxies, creating what is known as the filamentary structure, as explained in the lecture.",
+                        "answer": "3) Filamentary structure"
+                    },
+                    {
+                        "question": "How is the cosmic web described in relation to clusters and voids?",
+                        "options": [
+                            "2) As a random arrangement of matter",
+                            "3) As a scaffold formed by dark matter",
+                            "4) As only voids connected without clusters",
+                            "1) As a disconnected and chaotic network"
+                        ],
+                        "explanation": "The cosmic web illustrates how clusters and voids are interconnected, with dark matter forming the scaffolding for galaxies and clusters, as discussed in the lecture.",
+                        "answer": "3) As a scaffold formed by dark matter"
+                    },
+                    {
+                        "question": "What do cosmologists hope to understand more about in relation to dark energy?",
+                        "options": [
+                            "1) Its role in star formation",
+                            "2) Its interaction with clusters and voids",
+                            "3) Its composition and structure",
+                            "4) Its role in galactic collisions"
+                        ],
+                        "explanation": "Cosmologists aim to understand how dark energy interacts with clusters and voids, as this insight is vital for future cosmological inquiries mentioned in the lecture.",
+                        "answer": "2) Its interaction with clusters and voids"
+                    },
+                    {
+                        "question": "What did the lecture indicate about the future of galaxy clusters as per simulations?",
+                        "options": [
+                            "4) They will vanish completely",
+                            "3) They will collide and merge",
+                            "1) They will become less dense",
+                            "2) Their size will remain the same"
+                        ],
+                        "explanation": "The lecture mentioned that cosmological simulations predict that clusters will continue to collide and merge over time, impacting their evolution.",
+                        "answer": "3) They will collide and merge"
+                    },
+                    {
+                        "question": "Why is it important to study the structure of voids in the universe?",
+                        "options": [
+                            "1) To understand star birth rates",
+                            "4) To explore alien life",
+                            "3) To inform about dark energy distribution",
+                            "2) To determine the origins of black holes"
+                        ],
+                        "explanation": "Studying voids is crucial as they help inform us about the distribution of dark energy and contribute to defining the structure of the universe.",
+                        "answer": "3) To inform about dark energy distribution"
+                    },
+                    {
+                        "question": "What is one of the questions about the future of the universe related to clusters and voids?",
+                        "options": [
+                            "1) Will clusters become smaller over time?",
+                            "2) Will voids disappear altogether?",
+                            "4) Will dark matter cease to exist?",
+                            "3) How will clusters and voids evolve?"
+                        ],
+                        "explanation": "The lecture touches on the evolution and fate of cosmic structures, including the important question of how clusters and voids will evolve over cosmic time.",
+                        "answer": "3) How will clusters and voids evolve?"
+                    },
+                    {
+                        "question": "What does the term 'Big Rip' refer to in cosmological discussions?",
+                        "options": [
+                            "4) A void in the universe",
+                            "1) The collision of galaxies",
+                            "3) The formation of stars",
+                            "2) A scenario caused by dark energy"
+                        ],
+                        "explanation": "The 'Big Rip' is a potential future event theorized to occur if dark energy continues to dominate the universe's expansion, pulling apart galaxies and structures.",
+                        "answer": "2) A scenario caused by dark energy"
+                    },
+                    {
+                        "question": "What major observational advancement was mentioned in the lecture that will enhance our understanding of cosmic evolution?",
+                        "options": [
+                            "1) Hubble Space Telescope",
+                            "4) Kepler Space Telescope",
+                            "2) James Webb Space Telescope",
+                            "3) Chandra X-ray Observatory"
+                        ],
+                        "explanation": "The James Webb Space Telescope was mentioned in the lecture as an observational advancement that will enhance our understanding of cosmic evolution and the structures we observe today.",
+                        "answer": "2) James Webb Space Telescope"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    7
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What are clusters of galaxies described as in the lecture?",
+                        "options": [
+                            "4) Vast empty spaces between galaxies",
+                            "3) Densely packed regions of galaxies",
+                            "1) Densely packed regions of interstellar gas",
+                            "2) Interconnected highways of galaxies"
+                        ],
+                        "explanation": "Clusters of galaxies are described in the lecture as densely packed regions of galaxies that congregate due to gravitational attraction.",
+                        "answer": "3) Densely packed regions of galaxies"
+                    },
+                    {
+                        "question": "What is significant about voids in the universe?",
+                        "options": [
+                            "3) They are sites of ongoing star formation",
+                            "2) They help define the overall structure of the universe",
+                            "1) They contain a high density of galaxies",
+                            "4) They are the most luminous areas in the universe"
+                        ],
+                        "explanation": "Voids are significant because they help define the overall structure of the universe and inform us about the distribution of dark energy, as mentioned in the lecture.",
+                        "answer": "2) They help define the overall structure of the universe"
+                    },
+                    {
+                        "question": "What are the gravitational effects produced by clusters on surrounding galaxies referred to as?",
+                        "options": [
+                            "1) Gravitational waves",
+                            "2) Cosmic fabric",
+                            "3) Filamentary structure",
+                            "4) Galactic spirals"
+                        ],
+                        "explanation": "The gravitational pull from a large cluster affects nearby galaxies, creating what is known as the filamentary structure, as explained in the lecture.",
+                        "answer": "3) Filamentary structure"
+                    },
+                    {
+                        "question": "How is the cosmic web described in relation to clusters and voids?",
+                        "options": [
+                            "2) As a random arrangement of matter",
+                            "3) As a scaffold formed by dark matter",
+                            "4) As only voids connected without clusters",
+                            "1) As a disconnected and chaotic network"
+                        ],
+                        "explanation": "The cosmic web illustrates how clusters and voids are interconnected, with dark matter forming the scaffolding for galaxies and clusters, as discussed in the lecture.",
+                        "answer": "3) As a scaffold formed by dark matter"
+                    },
+                    {
+                        "question": "What do cosmologists hope to understand more about in relation to dark energy?",
+                        "options": [
+                            "1) Its role in star formation",
+                            "2) Its interaction with clusters and voids",
+                            "3) Its composition and structure",
+                            "4) Its role in galactic collisions"
+                        ],
+                        "explanation": "Cosmologists aim to understand how dark energy interacts with clusters and voids, as this insight is vital for future cosmological inquiries mentioned in the lecture.",
+                        "answer": "2) Its interaction with clusters and voids"
+                    },
+                    {
+                        "question": "What did the lecture indicate about the future of galaxy clusters as per simulations?",
+                        "options": [
+                            "4) They will vanish completely",
+                            "3) They will collide and merge",
+                            "1) They will become less dense",
+                            "2) Their size will remain the same"
+                        ],
+                        "explanation": "The lecture mentioned that cosmological simulations predict that clusters will continue to collide and merge over time, impacting their evolution.",
+                        "answer": "3) They will collide and merge"
+                    },
+                    {
+                        "question": "Why is it important to study the structure of voids in the universe?",
+                        "options": [
+                            "1) To understand star birth rates",
+                            "4) To explore alien life",
+                            "3) To inform about dark energy distribution",
+                            "2) To determine the origins of black holes"
+                        ],
+                        "explanation": "Studying voids is crucial as they help inform us about the distribution of dark energy and contribute to defining the structure of the universe.",
+                        "answer": "3) To inform about dark energy distribution"
+                    },
+                    {
+                        "question": "What is one of the questions about the future of the universe related to clusters and voids?",
+                        "options": [
+                            "1) Will clusters become smaller over time?",
+                            "2) Will voids disappear altogether?",
+                            "4) Will dark matter cease to exist?",
+                            "3) How will clusters and voids evolve?"
+                        ],
+                        "explanation": "The lecture touches on the evolution and fate of cosmic structures, including the important question of how clusters and voids will evolve over cosmic time.",
+                        "answer": "3) How will clusters and voids evolve?"
+                    },
+                    {
+                        "question": "What does the term 'Big Rip' refer to in cosmological discussions?",
+                        "options": [
+                            "4) A void in the universe",
+                            "1) The collision of galaxies",
+                            "3) The formation of stars",
+                            "2) A scenario caused by dark energy"
+                        ],
+                        "explanation": "The 'Big Rip' is a potential future event theorized to occur if dark energy continues to dominate the universe's expansion, pulling apart galaxies and structures.",
+                        "answer": "2) A scenario caused by dark energy"
+                    },
+                    {
+                        "question": "What major observational advancement was mentioned in the lecture that will enhance our understanding of cosmic evolution?",
+                        "options": [
+                            "1) Hubble Space Telescope",
+                            "4) Kepler Space Telescope",
+                            "2) James Webb Space Telescope",
+                            "3) Chandra X-ray Observatory"
+                        ],
+                        "explanation": "The James Webb Space Telescope was mentioned in the lecture as an observational advancement that will enhance our understanding of cosmic evolution and the structures we observe today.",
+                        "answer": "2) James Webb Space Telescope"
+                    }
+                ]
+            }
+        ],
+        "Computer Science": [
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    2,
+                    7
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is typically the first phase in the Software Development Life Cycle?",
+                        "options": [
+                            "1) Implementation",
+                            "4) Analysis",
+                            "2) Testing",
+                            "3) Planning"
+                        ],
+                        "explanation": "The Planning phase is crucial as it lays the groundwork for understanding the need for a software solution and its objectives.",
+                        "answer": "3) Planning"
+                    },
+                    {
+                        "question": "During which phase do developers outline the architecture of the software system?",
+                        "options": [
+                            "1) Design",
+                            "2) Implementation",
+                            "4) Testing",
+                            "3) Maintenance"
+                        ],
+                        "explanation": "The Design phase is where the architecture of the software and its system components are outlined.",
+                        "answer": "1) Design"
+                    },
+                    {
+                        "question": "What activity primarily occurs during the Implementation phase of SDLC?",
+                        "options": [
+                            "1) Testing",
+                            "2) Coding",
+                            "3) Deployment",
+                            "4) Analysis"
+                        ],
+                        "explanation": "The Implementation phase is focused on coding, where developers write the software based on the design specifications.",
+                        "answer": "2) Coding"
+                    },
+                    {
+                        "question": "Which phase involves documenting detailed specifications that the software must fulfill?",
+                        "options": [
+                            "4) Planning",
+                            "1) Maintenance",
+                            "3) Analysis",
+                            "2) Design"
+                        ],
+                        "explanation": "The Analysis phase is dedicated to gathering and documenting the detailed specifications needed for the software.",
+                        "answer": "3) Analysis"
+                    },
+                    {
+                        "question": "What is the purpose of the Deployment phase?",
+                        "options": [
+                            "1) To gather user feedback",
+                            "2) To write code",
+                            "4) To test the software",
+                            "3) To deliver the software to users"
+                        ],
+                        "explanation": "The Deployment phase is where the software is actually delivered to the end users after development and testing are complete.",
+                        "answer": "3) To deliver the software to users"
+                    },
+                    {
+                        "question": "Why is testing a critical phase in the software development process?",
+                        "options": [
+                            "4) It helps in writing the code",
+                            "3) It specifies the project's requirements",
+                            "2) It identifies bugs and issues before deployment",
+                            "1) It ensures the software design is user-friendly"
+                        ],
+                        "explanation": "Testing is crucial as it allows developers to identify and fix bugs before the software is released to the users, ensuring reliability.",
+                        "answer": "2) It identifies bugs and issues before deployment"
+                    },
+                    {
+                        "question": "What can help mitigate risks during the different phases of the SDLC?",
+                        "options": [
+                            "3) Minimizing feedback from users",
+                            "4) Limiting stakeholder input",
+                            "1) Reducing team meetings",
+                            "2) Effective communication and regular updates"
+                        ],
+                        "explanation": "Effective communication and regular updates among team members and stakeholders are vital to mitigate risks and ensure project success.",
+                        "answer": "2) Effective communication and regular updates"
+                    },
+                    {
+                        "question": "What is one outcome of conducting retrospectives after software development projects?",
+                        "options": [
+                            "3) Reducing code complexity",
+                            "2) Learning from past mistakes",
+                            "4) Improving testing protocols",
+                            "1) Identifying scope creep"
+                        ],
+                        "explanation": "Conducting retrospectives allows teams to learn from past mistakes and successes, improving future software development processes.",
+                        "answer": "2) Learning from past mistakes"
+                    },
+                    {
+                        "question": "In the context of SDLC, what significant issue arose during the testing of the mobile payment application project?",
+                        "options": [
+                            "4) Conflicts in stakeholder objectives",
+                            "1) Difficulty in user feedback collection",
+                            "3) Code integration problems",
+                            "2) Security vulnerabilities were discovered"
+                        ],
+                        "explanation": "During the testing phase of the mobile payment application project, security vulnerabilities were identified, underscoring the importance of thorough testing.",
+                        "answer": "2) Security vulnerabilities were discovered"
+                    },
+                    {
+                        "question": "What is a common challenge faced during the implementation phase?",
+                        "options": [
+                            "2) Gathering requirements",
+                            "3) Integrating new software with existing systems",
+                            "1) Designing user interfaces",
+                            "4) Testing program functionalities"
+                        ],
+                        "explanation": "A common challenge in the implementation phase is integrating new software with existing systems, which can lead to additional time and resource requirements.",
+                        "answer": "3) Integrating new software with existing systems"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    2
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is typically the first phase in the Software Development Life Cycle?",
+                        "options": [
+                            "1) Implementation",
+                            "4) Analysis",
+                            "2) Testing",
+                            "3) Planning"
+                        ],
+                        "explanation": "The Planning phase is crucial as it lays the groundwork for understanding the need for a software solution and its objectives.",
+                        "answer": "3) Planning"
+                    },
+                    {
+                        "question": "During which phase do developers outline the architecture of the software system?",
+                        "options": [
+                            "1) Design",
+                            "2) Implementation",
+                            "4) Testing",
+                            "3) Maintenance"
+                        ],
+                        "explanation": "The Design phase is where the architecture of the software and its system components are outlined.",
+                        "answer": "1) Design"
+                    },
+                    {
+                        "question": "What activity primarily occurs during the Implementation phase of SDLC?",
+                        "options": [
+                            "1) Testing",
+                            "2) Coding",
+                            "3) Deployment",
+                            "4) Analysis"
+                        ],
+                        "explanation": "The Implementation phase is focused on coding, where developers write the software based on the design specifications.",
+                        "answer": "2) Coding"
+                    },
+                    {
+                        "question": "Which phase involves documenting detailed specifications that the software must fulfill?",
+                        "options": [
+                            "4) Planning",
+                            "1) Maintenance",
+                            "3) Analysis",
+                            "2) Design"
+                        ],
+                        "explanation": "The Analysis phase is dedicated to gathering and documenting the detailed specifications needed for the software.",
+                        "answer": "3) Analysis"
+                    },
+                    {
+                        "question": "What is the purpose of the Deployment phase?",
+                        "options": [
+                            "1) To gather user feedback",
+                            "2) To write code",
+                            "4) To test the software",
+                            "3) To deliver the software to users"
+                        ],
+                        "explanation": "The Deployment phase is where the software is actually delivered to the end users after development and testing are complete.",
+                        "answer": "3) To deliver the software to users"
+                    },
+                    {
+                        "question": "Why is testing a critical phase in the software development process?",
+                        "options": [
+                            "4) It helps in writing the code",
+                            "3) It specifies the project's requirements",
+                            "2) It identifies bugs and issues before deployment",
+                            "1) It ensures the software design is user-friendly"
+                        ],
+                        "explanation": "Testing is crucial as it allows developers to identify and fix bugs before the software is released to the users, ensuring reliability.",
+                        "answer": "2) It identifies bugs and issues before deployment"
+                    },
+                    {
+                        "question": "What can help mitigate risks during the different phases of the SDLC?",
+                        "options": [
+                            "3) Minimizing feedback from users",
+                            "4) Limiting stakeholder input",
+                            "1) Reducing team meetings",
+                            "2) Effective communication and regular updates"
+                        ],
+                        "explanation": "Effective communication and regular updates among team members and stakeholders are vital to mitigate risks and ensure project success.",
+                        "answer": "2) Effective communication and regular updates"
+                    },
+                    {
+                        "question": "What is one outcome of conducting retrospectives after software development projects?",
+                        "options": [
+                            "3) Reducing code complexity",
+                            "2) Learning from past mistakes",
+                            "4) Improving testing protocols",
+                            "1) Identifying scope creep"
+                        ],
+                        "explanation": "Conducting retrospectives allows teams to learn from past mistakes and successes, improving future software development processes.",
+                        "answer": "2) Learning from past mistakes"
+                    },
+                    {
+                        "question": "In the context of SDLC, what significant issue arose during the testing of the mobile payment application project?",
+                        "options": [
+                            "4) Conflicts in stakeholder objectives",
+                            "1) Difficulty in user feedback collection",
+                            "3) Code integration problems",
+                            "2) Security vulnerabilities were discovered"
+                        ],
+                        "explanation": "During the testing phase of the mobile payment application project, security vulnerabilities were identified, underscoring the importance of thorough testing.",
+                        "answer": "2) Security vulnerabilities were discovered"
+                    },
+                    {
+                        "question": "What is a common challenge faced during the implementation phase?",
+                        "options": [
+                            "2) Gathering requirements",
+                            "3) Integrating new software with existing systems",
+                            "1) Designing user interfaces",
+                            "4) Testing program functionalities"
+                        ],
+                        "explanation": "A common challenge in the implementation phase is integrating new software with existing systems, which can lead to additional time and resource requirements.",
+                        "answer": "3) Integrating new software with existing systems"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What is typically the first phase in the Software Development Life Cycle?",
+                        "options": [
+                            "1) Implementation",
+                            "4) Analysis",
+                            "2) Testing",
+                            "3) Planning"
+                        ],
+                        "explanation": "The Planning phase is crucial as it lays the groundwork for understanding the need for a software solution and its objectives.",
+                        "answer": "3) Planning"
+                    },
+                    {
+                        "question": "During which phase do developers outline the architecture of the software system?",
+                        "options": [
+                            "1) Design",
+                            "2) Implementation",
+                            "4) Testing",
+                            "3) Maintenance"
+                        ],
+                        "explanation": "The Design phase is where the architecture of the software and its system components are outlined.",
+                        "answer": "1) Design"
+                    },
+                    {
+                        "question": "What activity primarily occurs during the Implementation phase of SDLC?",
+                        "options": [
+                            "1) Testing",
+                            "2) Coding",
+                            "3) Deployment",
+                            "4) Analysis"
+                        ],
+                        "explanation": "The Implementation phase is focused on coding, where developers write the software based on the design specifications.",
+                        "answer": "2) Coding"
+                    },
+                    {
+                        "question": "Which phase involves documenting detailed specifications that the software must fulfill?",
+                        "options": [
+                            "4) Planning",
+                            "1) Maintenance",
+                            "3) Analysis",
+                            "2) Design"
+                        ],
+                        "explanation": "The Analysis phase is dedicated to gathering and documenting the detailed specifications needed for the software.",
+                        "answer": "3) Analysis"
+                    },
+                    {
+                        "question": "What is the purpose of the Deployment phase?",
+                        "options": [
+                            "1) To gather user feedback",
+                            "2) To write code",
+                            "4) To test the software",
+                            "3) To deliver the software to users"
+                        ],
+                        "explanation": "The Deployment phase is where the software is actually delivered to the end users after development and testing are complete.",
+                        "answer": "3) To deliver the software to users"
+                    },
+                    {
+                        "question": "Why is testing a critical phase in the software development process?",
+                        "options": [
+                            "4) It helps in writing the code",
+                            "3) It specifies the project's requirements",
+                            "2) It identifies bugs and issues before deployment",
+                            "1) It ensures the software design is user-friendly"
+                        ],
+                        "explanation": "Testing is crucial as it allows developers to identify and fix bugs before the software is released to the users, ensuring reliability.",
+                        "answer": "2) It identifies bugs and issues before deployment"
+                    },
+                    {
+                        "question": "What can help mitigate risks during the different phases of the SDLC?",
+                        "options": [
+                            "3) Minimizing feedback from users",
+                            "4) Limiting stakeholder input",
+                            "1) Reducing team meetings",
+                            "2) Effective communication and regular updates"
+                        ],
+                        "explanation": "Effective communication and regular updates among team members and stakeholders are vital to mitigate risks and ensure project success.",
+                        "answer": "2) Effective communication and regular updates"
+                    },
+                    {
+                        "question": "What is one outcome of conducting retrospectives after software development projects?",
+                        "options": [
+                            "3) Reducing code complexity",
+                            "2) Learning from past mistakes",
+                            "4) Improving testing protocols",
+                            "1) Identifying scope creep"
+                        ],
+                        "explanation": "Conducting retrospectives allows teams to learn from past mistakes and successes, improving future software development processes.",
+                        "answer": "2) Learning from past mistakes"
+                    },
+                    {
+                        "question": "In the context of SDLC, what significant issue arose during the testing of the mobile payment application project?",
+                        "options": [
+                            "4) Conflicts in stakeholder objectives",
+                            "1) Difficulty in user feedback collection",
+                            "3) Code integration problems",
+                            "2) Security vulnerabilities were discovered"
+                        ],
+                        "explanation": "During the testing phase of the mobile payment application project, security vulnerabilities were identified, underscoring the importance of thorough testing.",
+                        "answer": "2) Security vulnerabilities were discovered"
+                    },
+                    {
+                        "question": "What is a common challenge faced during the implementation phase?",
+                        "options": [
+                            "2) Gathering requirements",
+                            "3) Integrating new software with existing systems",
+                            "1) Designing user interfaces",
+                            "4) Testing program functionalities"
+                        ],
+                        "explanation": "A common challenge in the implementation phase is integrating new software with existing systems, which can lead to additional time and resource requirements.",
+                        "answer": "3) Integrating new software with existing systems"
+                    }
+                ]
+            }
+        ],
+        "English": [
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    1
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What type of theme resonates across cultures and times?",
+                        "options": [
+                            "1) Minor themes",
+                            "4) Symbolic themes",
+                            "2) Universal themes",
+                            "3) Major themes"
+                        ],
+                        "explanation": "Universal themes are those that are relevant and recognizable across different societies and eras, addressing common human experiences.",
+                        "answer": "2) Universal themes"
+                    },
+                    {
+                        "question": "What term describes a repeated idea or symbol that reinforces a theme in a literary work?",
+                        "options": [
+                            "3) Motif",
+                            "1) Theme",
+                            "2) Allegory",
+                            "4) Symbol"
+                        ],
+                        "explanation": "A motif is a recurring element in a narrative that serves to emphasize a theme or central idea.",
+                        "answer": "3) Motif"
+                    },
+                    {
+                        "question": "How can literature serve as a mirror to society?",
+                        "options": [
+                            "1) By depicting only fictional events",
+                            "4) By focusing solely on personal experiences",
+                            "2) By critiquing social norms and expectations",
+                            "3) By avoiding controversial themes"
+                        ],
+                        "explanation": "Literature reflects societal norms, often critiquing them through the themes it explores, providing commentary on prevailing social issues.",
+                        "answer": "2) By critiquing social norms and expectations"
+                    },
+                    {
+                        "question": "Which of the following statements best describes the importance of identifying themes in literature?",
+                        "options": [
+                            "2) It enhances understanding and insight of the text",
+                            "3) It only focuses on plot details",
+                            "1) It diminishes critical thinking",
+                            "4) It simplifies character analysis"
+                        ],
+                        "explanation": "Identifying themes allows readers to gain deeper insights and fosters more meaningful discussions about the text, enhancing overall understanding.",
+                        "answer": "2) It enhances understanding and insight of the text"
+                    },
+                    {
+                        "question": "What is the significance of symbolism in literature?",
+                        "options": [
+                            "4) It detracts from the main themes",
+                            "3) It represents larger concepts or ideas",
+                            "2) It illustrates characters' personalities",
+                            "1) It makes the text harder to read"
+                        ],
+                        "explanation": "Symbolism in literature serves to convey deeper meanings and reinforce the main themes through specific objects, characters, or colors.",
+                        "answer": "3) It represents larger concepts or ideas"
+                    },
+                    {
+                        "question": "What aspect should you consider to understand the author's message regarding the themes?",
+                        "options": [
+                            "3) The length of the novel",
+                            "4) The writing style used",
+                            "2) The author's personal life only",
+                            "1) The historical context of the narrative"
+                        ],
+                        "explanation": "Understanding the historical context can illuminate how societal influences and conditions shape the themes and characters within the narrative.",
+                        "answer": "1) The historical context of the narrative"
+                    },
+                    {
+                        "question": "Which of the following best describes a major theme in a text?",
+                        "options": [
+                            "2) It is developed and explored deeply throughout the text",
+                            "1) It is one that appears only in minor sections",
+                            "4) It solely focuses on character development",
+                            "3) It is not essential to the overall narrative"
+                        ],
+                        "explanation": "A major theme is a central idea that is significantly developed and explored throughout the narrative of a literary work.",
+                        "answer": "2) It is developed and explored deeply throughout the text"
+                    },
+                    {
+                        "question": "In literary analysis, what does a thesis statement regarding a theme do?",
+                        "options": [
+                            "1) Introduces characters only",
+                            "3) Provides a clear argument about the theme",
+                            "2) Summarizes plot events",
+                            "4) Lists all symbols in the text"
+                        ],
+                        "explanation": "A thesis statement provides a clear argument or perspective about the theme being analyzed, guiding the overall analysis in the essay.",
+                        "answer": "3) Provides a clear argument about the theme"
+                    },
+                    {
+                        "question": "What does the term 'topic' refer to in contrast to 'theme' in literature?",
+                        "options": [
+                            "3) It is what the story is about\u2014the content and characters",
+                            "1) It outlines the structure of the essay",
+                            "2) It describes the underlying message of the text",
+                            "4) It evaluates the author's writing style"
+                        ],
+                        "explanation": "The topic of a literary work encompasses the main content, characters, and settings, whereas the theme refers to the deeper meanings or messages within that content.",
+                        "answer": "3) It is what the story is about\u2014the content and characters"
+                    },
+                    {
+                        "question": "How do characters function in relation to themes in literature?",
+                        "options": [
+                            "1) They distract from the main plot",
+                            "4) They confirm the author's writing abilities",
+                            "2) They provide emotional responses only",
+                            "3) They are vessels through which themes are explored"
+                        ],
+                        "explanation": "Characters often embody and navigate the themes of a narrative, showcasing their development and choices that relate back to the central ideas presented in the text.",
+                        "answer": "3) They are vessels through which themes are explored"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    1
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What type of theme resonates across cultures and times?",
+                        "options": [
+                            "1) Minor themes",
+                            "4) Symbolic themes",
+                            "2) Universal themes",
+                            "3) Major themes"
+                        ],
+                        "explanation": "Universal themes are those that are relevant and recognizable across different societies and eras, addressing common human experiences.",
+                        "answer": "2) Universal themes"
+                    },
+                    {
+                        "question": "What term describes a repeated idea or symbol that reinforces a theme in a literary work?",
+                        "options": [
+                            "3) Motif",
+                            "1) Theme",
+                            "2) Allegory",
+                            "4) Symbol"
+                        ],
+                        "explanation": "A motif is a recurring element in a narrative that serves to emphasize a theme or central idea.",
+                        "answer": "3) Motif"
+                    },
+                    {
+                        "question": "How can literature serve as a mirror to society?",
+                        "options": [
+                            "1) By depicting only fictional events",
+                            "4) By focusing solely on personal experiences",
+                            "2) By critiquing social norms and expectations",
+                            "3) By avoiding controversial themes"
+                        ],
+                        "explanation": "Literature reflects societal norms, often critiquing them through the themes it explores, providing commentary on prevailing social issues.",
+                        "answer": "2) By critiquing social norms and expectations"
+                    },
+                    {
+                        "question": "Which of the following statements best describes the importance of identifying themes in literature?",
+                        "options": [
+                            "2) It enhances understanding and insight of the text",
+                            "3) It only focuses on plot details",
+                            "1) It diminishes critical thinking",
+                            "4) It simplifies character analysis"
+                        ],
+                        "explanation": "Identifying themes allows readers to gain deeper insights and fosters more meaningful discussions about the text, enhancing overall understanding.",
+                        "answer": "2) It enhances understanding and insight of the text"
+                    },
+                    {
+                        "question": "What is the significance of symbolism in literature?",
+                        "options": [
+                            "4) It detracts from the main themes",
+                            "3) It represents larger concepts or ideas",
+                            "2) It illustrates characters' personalities",
+                            "1) It makes the text harder to read"
+                        ],
+                        "explanation": "Symbolism in literature serves to convey deeper meanings and reinforce the main themes through specific objects, characters, or colors.",
+                        "answer": "3) It represents larger concepts or ideas"
+                    },
+                    {
+                        "question": "What aspect should you consider to understand the author's message regarding the themes?",
+                        "options": [
+                            "3) The length of the novel",
+                            "4) The writing style used",
+                            "2) The author's personal life only",
+                            "1) The historical context of the narrative"
+                        ],
+                        "explanation": "Understanding the historical context can illuminate how societal influences and conditions shape the themes and characters within the narrative.",
+                        "answer": "1) The historical context of the narrative"
+                    },
+                    {
+                        "question": "Which of the following best describes a major theme in a text?",
+                        "options": [
+                            "2) It is developed and explored deeply throughout the text",
+                            "1) It is one that appears only in minor sections",
+                            "4) It solely focuses on character development",
+                            "3) It is not essential to the overall narrative"
+                        ],
+                        "explanation": "A major theme is a central idea that is significantly developed and explored throughout the narrative of a literary work.",
+                        "answer": "2) It is developed and explored deeply throughout the text"
+                    },
+                    {
+                        "question": "In literary analysis, what does a thesis statement regarding a theme do?",
+                        "options": [
+                            "1) Introduces characters only",
+                            "3) Provides a clear argument about the theme",
+                            "2) Summarizes plot events",
+                            "4) Lists all symbols in the text"
+                        ],
+                        "explanation": "A thesis statement provides a clear argument or perspective about the theme being analyzed, guiding the overall analysis in the essay.",
+                        "answer": "3) Provides a clear argument about the theme"
+                    },
+                    {
+                        "question": "What does the term 'topic' refer to in contrast to 'theme' in literature?",
+                        "options": [
+                            "3) It is what the story is about\u2014the content and characters",
+                            "1) It outlines the structure of the essay",
+                            "2) It describes the underlying message of the text",
+                            "4) It evaluates the author's writing style"
+                        ],
+                        "explanation": "The topic of a literary work encompasses the main content, characters, and settings, whereas the theme refers to the deeper meanings or messages within that content.",
+                        "answer": "3) It is what the story is about\u2014the content and characters"
+                    },
+                    {
+                        "question": "How do characters function in relation to themes in literature?",
+                        "options": [
+                            "1) They distract from the main plot",
+                            "4) They confirm the author's writing abilities",
+                            "2) They provide emotional responses only",
+                            "3) They are vessels through which themes are explored"
+                        ],
+                        "explanation": "Characters often embody and navigate the themes of a narrative, showcasing their development and choices that relate back to the central ideas presented in the text.",
+                        "answer": "3) They are vessels through which themes are explored"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What type of theme resonates across cultures and times?",
+                        "options": [
+                            "1) Minor themes",
+                            "4) Symbolic themes",
+                            "2) Universal themes",
+                            "3) Major themes"
+                        ],
+                        "explanation": "Universal themes are those that are relevant and recognizable across different societies and eras, addressing common human experiences.",
+                        "answer": "2) Universal themes"
+                    },
+                    {
+                        "question": "What term describes a repeated idea or symbol that reinforces a theme in a literary work?",
+                        "options": [
+                            "3) Motif",
+                            "1) Theme",
+                            "2) Allegory",
+                            "4) Symbol"
+                        ],
+                        "explanation": "A motif is a recurring element in a narrative that serves to emphasize a theme or central idea.",
+                        "answer": "3) Motif"
+                    },
+                    {
+                        "question": "How can literature serve as a mirror to society?",
+                        "options": [
+                            "1) By depicting only fictional events",
+                            "4) By focusing solely on personal experiences",
+                            "2) By critiquing social norms and expectations",
+                            "3) By avoiding controversial themes"
+                        ],
+                        "explanation": "Literature reflects societal norms, often critiquing them through the themes it explores, providing commentary on prevailing social issues.",
+                        "answer": "2) By critiquing social norms and expectations"
+                    },
+                    {
+                        "question": "Which of the following statements best describes the importance of identifying themes in literature?",
+                        "options": [
+                            "2) It enhances understanding and insight of the text",
+                            "3) It only focuses on plot details",
+                            "1) It diminishes critical thinking",
+                            "4) It simplifies character analysis"
+                        ],
+                        "explanation": "Identifying themes allows readers to gain deeper insights and fosters more meaningful discussions about the text, enhancing overall understanding.",
+                        "answer": "2) It enhances understanding and insight of the text"
+                    },
+                    {
+                        "question": "What is the significance of symbolism in literature?",
+                        "options": [
+                            "4) It detracts from the main themes",
+                            "3) It represents larger concepts or ideas",
+                            "2) It illustrates characters' personalities",
+                            "1) It makes the text harder to read"
+                        ],
+                        "explanation": "Symbolism in literature serves to convey deeper meanings and reinforce the main themes through specific objects, characters, or colors.",
+                        "answer": "3) It represents larger concepts or ideas"
+                    },
+                    {
+                        "question": "What aspect should you consider to understand the author's message regarding the themes?",
+                        "options": [
+                            "3) The length of the novel",
+                            "4) The writing style used",
+                            "2) The author's personal life only",
+                            "1) The historical context of the narrative"
+                        ],
+                        "explanation": "Understanding the historical context can illuminate how societal influences and conditions shape the themes and characters within the narrative.",
+                        "answer": "1) The historical context of the narrative"
+                    },
+                    {
+                        "question": "Which of the following best describes a major theme in a text?",
+                        "options": [
+                            "2) It is developed and explored deeply throughout the text",
+                            "1) It is one that appears only in minor sections",
+                            "4) It solely focuses on character development",
+                            "3) It is not essential to the overall narrative"
+                        ],
+                        "explanation": "A major theme is a central idea that is significantly developed and explored throughout the narrative of a literary work.",
+                        "answer": "2) It is developed and explored deeply throughout the text"
+                    },
+                    {
+                        "question": "In literary analysis, what does a thesis statement regarding a theme do?",
+                        "options": [
+                            "1) Introduces characters only",
+                            "3) Provides a clear argument about the theme",
+                            "2) Summarizes plot events",
+                            "4) Lists all symbols in the text"
+                        ],
+                        "explanation": "A thesis statement provides a clear argument or perspective about the theme being analyzed, guiding the overall analysis in the essay.",
+                        "answer": "3) Provides a clear argument about the theme"
+                    },
+                    {
+                        "question": "What does the term 'topic' refer to in contrast to 'theme' in literature?",
+                        "options": [
+                            "3) It is what the story is about\u2014the content and characters",
+                            "1) It outlines the structure of the essay",
+                            "2) It describes the underlying message of the text",
+                            "4) It evaluates the author's writing style"
+                        ],
+                        "explanation": "The topic of a literary work encompasses the main content, characters, and settings, whereas the theme refers to the deeper meanings or messages within that content.",
+                        "answer": "3) It is what the story is about\u2014the content and characters"
+                    },
+                    {
+                        "question": "How do characters function in relation to themes in literature?",
+                        "options": [
+                            "1) They distract from the main plot",
+                            "4) They confirm the author's writing abilities",
+                            "2) They provide emotional responses only",
+                            "3) They are vessels through which themes are explored"
+                        ],
+                        "explanation": "Characters often embody and navigate the themes of a narrative, showcasing their development and choices that relate back to the central ideas presented in the text.",
+                        "answer": "3) They are vessels through which themes are explored"
+                    }
+                ]
+            }
+        ],
+        "Science": [
+            {
+                "quiz_grade": 70.0,
+                "wrong_answers": [
+                    1,
+                    3,
+                    5
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What defines acceleration as described in the lecture?",
+                        "options": [
+                            "3) The speed of an object",
+                            "2) The rate of change of velocity per unit of time",
+                            "1) The rate of change of position over time",
+                            "4) The total distance an object travels"
+                        ],
+                        "explanation": "Acceleration is defined as the rate of change of velocity per unit of time, indicating how quickly an object can change its speed or direction.",
+                        "answer": "2) The rate of change of velocity per unit of time"
+                    },
+                    {
+                        "question": "Which of the following best describes kinetic energy?",
+                        "options": [
+                            "4) Total energy in a closed system",
+                            "2) Energy due to position",
+                            "3) Energy from heat",
+                            "1) Energy of motion"
+                        ],
+                        "explanation": "Kinetic energy is defined as the energy that an object possesses due to its motion, quantified with the formula 1/2 mv\u00b2.",
+                        "answer": "1) Energy of motion"
+                    },
+                    {
+                        "question": "What does Newton's Third Law of Motion imply?",
+                        "options": [
+                            "3) Objects in motion stay in motion unless acted upon",
+                            "2) For every action, there is an equal and opposite reaction",
+                            "1) Motion cannot change without an external force",
+                            "4) The acceleration of an object increases with mass"
+                        ],
+                        "explanation": "Newton's Third Law of Motion states that for every action, there is an equal and opposite reaction, meaning forces always come in pairs.",
+                        "answer": "2) For every action, there is an equal and opposite reaction"
+                    },
+                    {
+                        "question": "How is work defined in relation to physics?",
+                        "options": [
+                            "4) The total energy contained in an object",
+                            "3) Force applied over a distance",
+                            "2) A measure of rotation in a system",
+                            "1) The energy transferred through temperature"
+                        ],
+                        "explanation": "Work in physics is defined as the product of force applied to an object and the distance over which that force is applied, represented by the equation Work = Force x Distance.",
+                        "answer": "3) Force applied over a distance"
+                    },
+                    {
+                        "question": "Which of the following concepts illustrates an unbalanced force?",
+                        "options": [
+                            "1) A stationary car remains still",
+                            "2) A soccer ball rolls after being kicked",
+                            "4) A tree standing firm against the wind",
+                            "3) A box is resting on a table without moving"
+                        ],
+                        "explanation": "An unbalanced force occurs when there is a force applied to an object that causes it to move, such as when a soccer ball rolls after being kicked.",
+                        "answer": "2) A soccer ball rolls after being kicked"
+                    },
+                    {
+                        "question": "What happens if no displacement occurs while a force is applied?",
+                        "options": [
+                            "2) Energy is lost",
+                            "4) Potential energy increases",
+                            "3) Work is not done",
+                            "1) Work is done"
+                        ],
+                        "explanation": "If no displacement occurs, regardless of force applied, no work is done because work requires movement in the direction of the force.",
+                        "answer": "3) Work is not done"
+                    },
+                    {
+                        "question": "What is the gravitational potential energy formula based on earlier discussions?",
+                        "options": [
+                            "3) PE = 1/2 mv",
+                            "2) PE = mgh",
+                            "1) PE = mv\u00b2",
+                            "4) PE = Fd"
+                        ],
+                        "explanation": "The potential energy due to an object's height is given by the formula Potential Energy = mgh, where m is mass, g is acceleration due to gravity, and h is height.",
+                        "answer": "2) PE = mgh"
+                    },
+                    {
+                        "question": "In what scenario would the energy of a system remain constant according to the law of conservation of energy?",
+                        "options": [
+                            "4) When work done is non-zero",
+                            "2) In a closed system where energy is transformed",
+                            "1) In an open system exchanging energy",
+                            "3) When energy is created during a reaction"
+                        ],
+                        "explanation": "The law of conservation of energy states that energy in a closed system remains constant and only changes forms, it cannot be created or destroyed.",
+                        "answer": "2) In a closed system where energy is transformed"
+                    },
+                    {
+                        "question": "When a car speeds up, what is happening to its acceleration?",
+                        "options": [
+                            "3) It increases",
+                            "2) It becomes negative",
+                            "4) It decreases",
+                            "1) It remains constant"
+                        ],
+                        "explanation": "When a car speeds up, its velocity increases, resulting in a positive acceleration, meaning it is accelerating in the direction of its motion.",
+                        "answer": "3) It increases"
+                    },
+                    {
+                        "question": "What does the formula F=ma represent in Newton's Second Law?",
+                        "options": [
+                            "1) The relationship between force, mass, and acceleration",
+                            "2) The calculation of potential energy",
+                            "4) The calculation of work",
+                            "3) The definition of kinetic energy"
+                        ],
+                        "explanation": "The formula F=ma expressed in Newton's Second Law of Motion describes how the force acting on an object is equal to the mass of the object multiplied by its acceleration.",
+                        "answer": "1) The relationship between force, mass, and acceleration"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    1,
+                    3
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What defines acceleration as described in the lecture?",
+                        "options": [
+                            "3) The speed of an object",
+                            "2) The rate of change of velocity per unit of time",
+                            "1) The rate of change of position over time",
+                            "4) The total distance an object travels"
+                        ],
+                        "explanation": "Acceleration is defined as the rate of change of velocity per unit of time, indicating how quickly an object can change its speed or direction.",
+                        "answer": "2) The rate of change of velocity per unit of time"
+                    },
+                    {
+                        "question": "Which of the following best describes kinetic energy?",
+                        "options": [
+                            "4) Total energy in a closed system",
+                            "2) Energy due to position",
+                            "3) Energy from heat",
+                            "1) Energy of motion"
+                        ],
+                        "explanation": "Kinetic energy is defined as the energy that an object possesses due to its motion, quantified with the formula 1/2 mv\u00b2.",
+                        "answer": "1) Energy of motion"
+                    },
+                    {
+                        "question": "What does Newton's Third Law of Motion imply?",
+                        "options": [
+                            "3) Objects in motion stay in motion unless acted upon",
+                            "2) For every action, there is an equal and opposite reaction",
+                            "1) Motion cannot change without an external force",
+                            "4) The acceleration of an object increases with mass"
+                        ],
+                        "explanation": "Newton's Third Law of Motion states that for every action, there is an equal and opposite reaction, meaning forces always come in pairs.",
+                        "answer": "2) For every action, there is an equal and opposite reaction"
+                    },
+                    {
+                        "question": "How is work defined in relation to physics?",
+                        "options": [
+                            "4) The total energy contained in an object",
+                            "3) Force applied over a distance",
+                            "2) A measure of rotation in a system",
+                            "1) The energy transferred through temperature"
+                        ],
+                        "explanation": "Work in physics is defined as the product of force applied to an object and the distance over which that force is applied, represented by the equation Work = Force x Distance.",
+                        "answer": "3) Force applied over a distance"
+                    },
+                    {
+                        "question": "Which of the following concepts illustrates an unbalanced force?",
+                        "options": [
+                            "1) A stationary car remains still",
+                            "2) A soccer ball rolls after being kicked",
+                            "4) A tree standing firm against the wind",
+                            "3) A box is resting on a table without moving"
+                        ],
+                        "explanation": "An unbalanced force occurs when there is a force applied to an object that causes it to move, such as when a soccer ball rolls after being kicked.",
+                        "answer": "2) A soccer ball rolls after being kicked"
+                    },
+                    {
+                        "question": "What happens if no displacement occurs while a force is applied?",
+                        "options": [
+                            "2) Energy is lost",
+                            "4) Potential energy increases",
+                            "3) Work is not done",
+                            "1) Work is done"
+                        ],
+                        "explanation": "If no displacement occurs, regardless of force applied, no work is done because work requires movement in the direction of the force.",
+                        "answer": "3) Work is not done"
+                    },
+                    {
+                        "question": "What is the gravitational potential energy formula based on earlier discussions?",
+                        "options": [
+                            "3) PE = 1/2 mv",
+                            "2) PE = mgh",
+                            "1) PE = mv\u00b2",
+                            "4) PE = Fd"
+                        ],
+                        "explanation": "The potential energy due to an object's height is given by the formula Potential Energy = mgh, where m is mass, g is acceleration due to gravity, and h is height.",
+                        "answer": "2) PE = mgh"
+                    },
+                    {
+                        "question": "In what scenario would the energy of a system remain constant according to the law of conservation of energy?",
+                        "options": [
+                            "4) When work done is non-zero",
+                            "2) In a closed system where energy is transformed",
+                            "1) In an open system exchanging energy",
+                            "3) When energy is created during a reaction"
+                        ],
+                        "explanation": "The law of conservation of energy states that energy in a closed system remains constant and only changes forms, it cannot be created or destroyed.",
+                        "answer": "2) In a closed system where energy is transformed"
+                    },
+                    {
+                        "question": "When a car speeds up, what is happening to its acceleration?",
+                        "options": [
+                            "3) It increases",
+                            "2) It becomes negative",
+                            "4) It decreases",
+                            "1) It remains constant"
+                        ],
+                        "explanation": "When a car speeds up, its velocity increases, resulting in a positive acceleration, meaning it is accelerating in the direction of its motion.",
+                        "answer": "3) It increases"
+                    },
+                    {
+                        "question": "What does the formula F=ma represent in Newton's Second Law?",
+                        "options": [
+                            "1) The relationship between force, mass, and acceleration",
+                            "2) The calculation of potential energy",
+                            "4) The calculation of work",
+                            "3) The definition of kinetic energy"
+                        ],
+                        "explanation": "The formula F=ma expressed in Newton's Second Law of Motion describes how the force acting on an object is equal to the mass of the object multiplied by its acceleration.",
+                        "answer": "1) The relationship between force, mass, and acceleration"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What defines acceleration as described in the lecture?",
+                        "options": [
+                            "3) The speed of an object",
+                            "2) The rate of change of velocity per unit of time",
+                            "1) The rate of change of position over time",
+                            "4) The total distance an object travels"
+                        ],
+                        "explanation": "Acceleration is defined as the rate of change of velocity per unit of time, indicating how quickly an object can change its speed or direction.",
+                        "answer": "2) The rate of change of velocity per unit of time"
+                    },
+                    {
+                        "question": "Which of the following best describes kinetic energy?",
+                        "options": [
+                            "4) Total energy in a closed system",
+                            "2) Energy due to position",
+                            "3) Energy from heat",
+                            "1) Energy of motion"
+                        ],
+                        "explanation": "Kinetic energy is defined as the energy that an object possesses due to its motion, quantified with the formula 1/2 mv\u00b2.",
+                        "answer": "1) Energy of motion"
+                    },
+                    {
+                        "question": "What does Newton's Third Law of Motion imply?",
+                        "options": [
+                            "3) Objects in motion stay in motion unless acted upon",
+                            "2) For every action, there is an equal and opposite reaction",
+                            "1) Motion cannot change without an external force",
+                            "4) The acceleration of an object increases with mass"
+                        ],
+                        "explanation": "Newton's Third Law of Motion states that for every action, there is an equal and opposite reaction, meaning forces always come in pairs.",
+                        "answer": "2) For every action, there is an equal and opposite reaction"
+                    },
+                    {
+                        "question": "How is work defined in relation to physics?",
+                        "options": [
+                            "4) The total energy contained in an object",
+                            "3) Force applied over a distance",
+                            "2) A measure of rotation in a system",
+                            "1) The energy transferred through temperature"
+                        ],
+                        "explanation": "Work in physics is defined as the product of force applied to an object and the distance over which that force is applied, represented by the equation Work = Force x Distance.",
+                        "answer": "3) Force applied over a distance"
+                    },
+                    {
+                        "question": "Which of the following concepts illustrates an unbalanced force?",
+                        "options": [
+                            "1) A stationary car remains still",
+                            "2) A soccer ball rolls after being kicked",
+                            "4) A tree standing firm against the wind",
+                            "3) A box is resting on a table without moving"
+                        ],
+                        "explanation": "An unbalanced force occurs when there is a force applied to an object that causes it to move, such as when a soccer ball rolls after being kicked.",
+                        "answer": "2) A soccer ball rolls after being kicked"
+                    },
+                    {
+                        "question": "What happens if no displacement occurs while a force is applied?",
+                        "options": [
+                            "2) Energy is lost",
+                            "4) Potential energy increases",
+                            "3) Work is not done",
+                            "1) Work is done"
+                        ],
+                        "explanation": "If no displacement occurs, regardless of force applied, no work is done because work requires movement in the direction of the force.",
+                        "answer": "3) Work is not done"
+                    },
+                    {
+                        "question": "What is the gravitational potential energy formula based on earlier discussions?",
+                        "options": [
+                            "3) PE = 1/2 mv",
+                            "2) PE = mgh",
+                            "1) PE = mv\u00b2",
+                            "4) PE = Fd"
+                        ],
+                        "explanation": "The potential energy due to an object's height is given by the formula Potential Energy = mgh, where m is mass, g is acceleration due to gravity, and h is height.",
+                        "answer": "2) PE = mgh"
+                    },
+                    {
+                        "question": "In what scenario would the energy of a system remain constant according to the law of conservation of energy?",
+                        "options": [
+                            "4) When work done is non-zero",
+                            "2) In a closed system where energy is transformed",
+                            "1) In an open system exchanging energy",
+                            "3) When energy is created during a reaction"
+                        ],
+                        "explanation": "The law of conservation of energy states that energy in a closed system remains constant and only changes forms, it cannot be created or destroyed.",
+                        "answer": "2) In a closed system where energy is transformed"
+                    },
+                    {
+                        "question": "When a car speeds up, what is happening to its acceleration?",
+                        "options": [
+                            "3) It increases",
+                            "2) It becomes negative",
+                            "4) It decreases",
+                            "1) It remains constant"
+                        ],
+                        "explanation": "When a car speeds up, its velocity increases, resulting in a positive acceleration, meaning it is accelerating in the direction of its motion.",
+                        "answer": "3) It increases"
+                    },
+                    {
+                        "question": "What does the formula F=ma represent in Newton's Second Law?",
+                        "options": [
+                            "1) The relationship between force, mass, and acceleration",
+                            "2) The calculation of potential energy",
+                            "4) The calculation of work",
+                            "3) The definition of kinetic energy"
+                        ],
+                        "explanation": "The formula F=ma expressed in Newton's Second Law of Motion describes how the force acting on an object is equal to the mass of the object multiplied by its acceleration.",
+                        "answer": "1) The relationship between force, mass, and acceleration"
+                    }
+                ]
+            }
+        ],
+        "Texas History": [
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    2,
+                    7
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "How many Texans enlisted to serve in the armed forces during World War I?",
+                        "options": [
+                            "4) Over 250,000",
+                            "1) Over 100,000",
+                            "2) Over 150,000",
+                            "3) Over 200,000"
+                        ],
+                        "explanation": "Over 200,000 Texans enlisted to serve in the armed forces during World War I, showcasing their commitment to the nation\u2019s efforts.",
+                        "answer": "3) Over 200,000"
+                    },
+                    {
+                        "question": "What was one of the roles Texas played in military training during World War I?",
+                        "options": [
+                            "4) Recruiting foreign troops",
+                            "1) Hosting military parades",
+                            "2) Supplying arms and ammunition",
+                            "3) Training bases such as Camp Travis"
+                        ],
+                        "explanation": "Texas\u2019s strategic location near the Mexican border made it significant for training bases, with facilities such as Camp Travis near San Antonio playing a crucial role.",
+                        "answer": "3) Training bases such as Camp Travis"
+                    },
+                    {
+                        "question": "What was a major contribution of Texan families to the home front during World War I?",
+                        "options": [
+                            "4) Engaging in diplomatic talks",
+                            "3) Traveling abroad",
+                            "1) Organizing protests",
+                            "2) Increasing food production"
+                        ],
+                        "explanation": "With many men and women serving overseas, Texan families took on the responsibility of producing goods and supporting the war effort, particularly through increased agricultural production.",
+                        "answer": "2) Increasing food production"
+                    },
+                    {
+                        "question": "What economic change did Texas experience due to World War I?",
+                        "options": [
+                            "1) Economic stagnation",
+                            "4) Economic isolation",
+                            "3) Economic boom",
+                            "2) Economic downturn"
+                        ],
+                        "explanation": "The increased demand for food and materials during World War I led to an economic boom in Texas, as cities like Houston and Dallas saw significant growth.",
+                        "answer": "3) Economic boom"
+                    },
+                    {
+                        "question": "What were 'meatless Mondays' and 'wheatless Wednesdays'?",
+                        "options": [
+                            "1) Days of significance for military events",
+                            "2) Initiatives to reduce food consumption",
+                            "4) Military training programs",
+                            "3) Days for farm product sales"
+                        ],
+                        "explanation": "These were initiatives encouraged by the government to conserve food and resources during World War I, reflecting the community effort to support the war.",
+                        "answer": "2) Initiatives to reduce food consumption"
+                    },
+                    {
+                        "question": "How did many women in Texas contribute to the war effort during World War I?",
+                        "options": [
+                            "3) By organizing political rallies",
+                            "4) By providing medical care abroad",
+                            "2) By filling jobs left vacant by men",
+                            "1) By joining the military directly"
+                        ],
+                        "explanation": "Many women joined the workforce to fill the jobs left vacant by men who had gone to war, showcasing their capabilities beyond traditional domestic roles.",
+                        "answer": "2) By filling jobs left vacant by men"
+                    },
+                    {
+                        "question": "Which state experienced a rise in military enlistment and production efforts during World War I?",
+                        "options": [
+                            "2) California",
+                            "1) New York",
+                            "3) Florida",
+                            "4) Texas"
+                        ],
+                        "explanation": "Texas saw a significant rise in military enlistments and contributions to production efforts due to its strategic location and the patriotic response to the war.",
+                        "answer": "4) Texas"
+                    },
+                    {
+                        "question": "What was one of the societal dynamics that changed for returning soldiers post-World War I?",
+                        "options": [
+                            "1) Increased job opportunities",
+                            "3) Adjustments to civilian life",
+                            "4) Return to their previous roles",
+                            "2) Increased societal rejection"
+                        ],
+                        "explanation": "Many veterans faced challenges adjusting back to civilian life, which included changes in societal dynamics and heightened expectations for their roles in society.",
+                        "answer": "3) Adjustments to civilian life"
+                    },
+                    {
+                        "question": "What was the impact of African American Texans serving in segregated units during World War I?",
+                        "options": [
+                            "3) Laid groundwork for civil rights movements",
+                            "4) Limited military participation",
+                            "1) Increased segregation",
+                            "2) Discrimination only at home"
+                        ],
+                        "explanation": "African American Texans served valiantly in segregated units, and their service laid groundwork for the civil rights movements that followed the war.",
+                        "answer": "3) Laid groundwork for civil rights movements"
+                    },
+                    {
+                        "question": "What did the war\u2019s impact on Texas agriculture reflect?",
+                        "options": [
+                            "1) A decline in production",
+                            "4) Increased food production for war efforts",
+                            "3) A shift towards industrialization",
+                            "2) The need for diversification"
+                        ],
+                        "explanation": "As farmers were called upon to increase production to feed both soldiers and civilians during the war, it reflected a crucial response to wartime needs.",
+                        "answer": "4) Increased food production for war efforts"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "How many Texans enlisted to serve in the armed forces during World War I?",
+                        "options": [
+                            "4) Over 250,000",
+                            "1) Over 100,000",
+                            "2) Over 150,000",
+                            "3) Over 200,000"
+                        ],
+                        "explanation": "Over 200,000 Texans enlisted to serve in the armed forces during World War I, showcasing their commitment to the nation\u2019s efforts.",
+                        "answer": "3) Over 200,000"
+                    },
+                    {
+                        "question": "What was one of the roles Texas played in military training during World War I?",
+                        "options": [
+                            "4) Recruiting foreign troops",
+                            "1) Hosting military parades",
+                            "2) Supplying arms and ammunition",
+                            "3) Training bases such as Camp Travis"
+                        ],
+                        "explanation": "Texas\u2019s strategic location near the Mexican border made it significant for training bases, with facilities such as Camp Travis near San Antonio playing a crucial role.",
+                        "answer": "3) Training bases such as Camp Travis"
+                    },
+                    {
+                        "question": "What was a major contribution of Texan families to the home front during World War I?",
+                        "options": [
+                            "4) Engaging in diplomatic talks",
+                            "3) Traveling abroad",
+                            "1) Organizing protests",
+                            "2) Increasing food production"
+                        ],
+                        "explanation": "With many men and women serving overseas, Texan families took on the responsibility of producing goods and supporting the war effort, particularly through increased agricultural production.",
+                        "answer": "2) Increasing food production"
+                    },
+                    {
+                        "question": "What economic change did Texas experience due to World War I?",
+                        "options": [
+                            "1) Economic stagnation",
+                            "4) Economic isolation",
+                            "3) Economic boom",
+                            "2) Economic downturn"
+                        ],
+                        "explanation": "The increased demand for food and materials during World War I led to an economic boom in Texas, as cities like Houston and Dallas saw significant growth.",
+                        "answer": "3) Economic boom"
+                    },
+                    {
+                        "question": "What were 'meatless Mondays' and 'wheatless Wednesdays'?",
+                        "options": [
+                            "1) Days of significance for military events",
+                            "2) Initiatives to reduce food consumption",
+                            "4) Military training programs",
+                            "3) Days for farm product sales"
+                        ],
+                        "explanation": "These were initiatives encouraged by the government to conserve food and resources during World War I, reflecting the community effort to support the war.",
+                        "answer": "2) Initiatives to reduce food consumption"
+                    },
+                    {
+                        "question": "How did many women in Texas contribute to the war effort during World War I?",
+                        "options": [
+                            "3) By organizing political rallies",
+                            "4) By providing medical care abroad",
+                            "2) By filling jobs left vacant by men",
+                            "1) By joining the military directly"
+                        ],
+                        "explanation": "Many women joined the workforce to fill the jobs left vacant by men who had gone to war, showcasing their capabilities beyond traditional domestic roles.",
+                        "answer": "2) By filling jobs left vacant by men"
+                    },
+                    {
+                        "question": "Which state experienced a rise in military enlistment and production efforts during World War I?",
+                        "options": [
+                            "2) California",
+                            "1) New York",
+                            "3) Florida",
+                            "4) Texas"
+                        ],
+                        "explanation": "Texas saw a significant rise in military enlistments and contributions to production efforts due to its strategic location and the patriotic response to the war.",
+                        "answer": "4) Texas"
+                    },
+                    {
+                        "question": "What was one of the societal dynamics that changed for returning soldiers post-World War I?",
+                        "options": [
+                            "1) Increased job opportunities",
+                            "3) Adjustments to civilian life",
+                            "4) Return to their previous roles",
+                            "2) Increased societal rejection"
+                        ],
+                        "explanation": "Many veterans faced challenges adjusting back to civilian life, which included changes in societal dynamics and heightened expectations for their roles in society.",
+                        "answer": "3) Adjustments to civilian life"
+                    },
+                    {
+                        "question": "What was the impact of African American Texans serving in segregated units during World War I?",
+                        "options": [
+                            "3) Laid groundwork for civil rights movements",
+                            "4) Limited military participation",
+                            "1) Increased segregation",
+                            "2) Discrimination only at home"
+                        ],
+                        "explanation": "African American Texans served valiantly in segregated units, and their service laid groundwork for the civil rights movements that followed the war.",
+                        "answer": "3) Laid groundwork for civil rights movements"
+                    },
+                    {
+                        "question": "What did the war\u2019s impact on Texas agriculture reflect?",
+                        "options": [
+                            "1) A decline in production",
+                            "4) Increased food production for war efforts",
+                            "3) A shift towards industrialization",
+                            "2) The need for diversification"
+                        ],
+                        "explanation": "As farmers were called upon to increase production to feed both soldiers and civilians during the war, it reflected a crucial response to wartime needs.",
+                        "answer": "4) Increased food production for war efforts"
+                    }
+                ]
+            }
+        ],
+        "The Evolution of Faith": [
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What role does globalization play in shaping contemporary faith practices?",
+                        "options": [
+                            "4) It standardizes all belief systems across the globe.",
+                            "2) It connects diverse cultures and offers new spiritual experiences.",
+                            "1) It isolates individuals from different faiths.",
+                            "3) It leads to a complete decline of all religious practices."
+                        ],
+                        "explanation": "Globalization connects diverse cultures, allowing for the exchange of spiritual practices and ideas, which can lead to greater understanding, acceptance, or conflict among different faiths.",
+                        "answer": "2) It connects diverse cultures and offers new spiritual experiences."
+                    },
+                    {
+                        "question": "How does secularization influence modern spirituality according to the lecture?",
+                        "options": [
+                            "3) It leads people to seek spirituality outside of organized religion.",
+                            "4) It consolidates all religious practices under one institution.",
+                            "1) It eradicates the need for any spiritual experience.",
+                            "2) It has no impact on how individuals seek spirituality."
+                        ],
+                        "explanation": "Secularization diminishes the influence of organized religion in daily life, prompting many to seek personal spiritual experiences independent of traditional structures.",
+                        "answer": "3) It leads people to seek spirituality outside of organized religion."
+                    },
+                    {
+                        "question": "What dual effect does technology have on faith communities as described in the lecture?",
+                        "options": [
+                            "2) It only complicates faith engagement.",
+                            "4) It completely transforms all traditional worship practices.",
+                            "1) It has no effect on religious practices.",
+                            "3) It facilitates community building and raises concerns about authenticity."
+                        ],
+                        "explanation": "Technology facilitates the growth of religious communities through online platforms, allowing for greater access to worship, while also raising concerns about distraction and authenticity.",
+                        "answer": "3) It facilitates community building and raises concerns about authenticity."
+                    },
+                    {
+                        "question": "In what way are faith communities responding to environmental challenges as discussed in the lecture?",
+                        "options": [
+                            "4) They are promoting technological solutions exclusively.",
+                            "3) They are retreating into old beliefs without assessment.",
+                            "2) They are advocating for sustainable practices and eco-theology.",
+                            "1) They are ignoring environmental issues altogether."
+                        ],
+                        "explanation": "Faith communities are engaging with ecological issues by advocating for sustainable practices, indicating a growing awareness of their responsibilities towards creation care.",
+                        "answer": "2) They are advocating for sustainable practices and eco-theology."
+                    },
+                    {
+                        "question": "What significance do interfaith dialogues hold in today's pluralistic society according to the lecture?",
+                        "options": [
+                            "1) They create further divisions between belief systems.",
+                            "3) They emphasize the superiority of one faith over others.",
+                            "4) They are no longer relevant in the modern world.",
+                            "2) They act as a stabilizing force by fostering understanding."
+                        ],
+                        "explanation": "Interfaith dialogues foster mutual respect and cooperation among different beliefs, essential for addressing shared challenges in a diverse society.",
+                        "answer": "2) They act as a stabilizing force by fostering understanding."
+                    },
+                    {
+                        "question": "How does the lecture describe the future of faith in relation to secularism?",
+                        "options": [
+                            "1) Faith will disappear completely under secularism.",
+                            "2) Faith adaptations will diminish due to rising secularism.",
+                            "4) Secularism is irrelevant to the discussion of faith's future.",
+                            "3) Secularism fosters new forms of spirituality outside tradition."
+                        ],
+                        "explanation": "The lecture indicates that while secularism poses challenges, it can also lead to new forms of spirituality as people redefine their understanding of faith outside traditional contexts.",
+                        "answer": "3) Secularism fosters new forms of spirituality outside tradition."
+                    },
+                    {
+                        "question": "What is emphasized about faith's relationship with modernity in the lecture?",
+                        "options": [
+                            "2) Faith is evolving to address modern challenges.",
+                            "4) Faith is strictly tied to historical practices.",
+                            "1) Faith remains unchanged despite modern influences.",
+                            "3) Faith is becoming irrelevant in the face of modernity."
+                        ],
+                        "explanation": "The lecture highlights that faith adapts and evolves in response to contemporary challenges, showing its resilience and relevance.",
+                        "answer": "2) Faith is evolving to address modern challenges."
+                    },
+                    {
+                        "question": "According to the lecture, what is an outcome of globalization on spiritual beliefs?",
+                        "options": [
+                            "3) It creates opportunities for hybrid forms of faith.",
+                            "4) It disregards the significance of local traditions.",
+                            "2) It leads to complete homogenization of beliefs.",
+                            "1) It isolates belief systems from one another."
+                        ],
+                        "explanation": "Globalization connects diverse cultures, allowing beliefs to blend and hybridize, leading to the emergence of new spiritual practices that reflect global contexts.",
+                        "answer": "3) It creates opportunities for hybrid forms of faith."
+                    },
+                    {
+                        "question": "What role does technology play in the accessibility of faith practices as mentioned in the lecture?",
+                        "options": [
+                            "2) It makes worship accessible beyond geographical barriers.",
+                            "1) It limits access to spiritual experiences.",
+                            "4) It has no impact on community engagement.",
+                            "3) It solely focuses on traditional practices."
+                        ],
+                        "explanation": "The lecture discusses how technology allows for the accessibility of worship through online means, breaking geographical barriers and connecting individuals.",
+                        "answer": "2) It makes worship accessible beyond geographical barriers."
+                    },
+                    {
+                        "question": "What is a critical aspect of environmentalism within faith discussions as highlighted in the lecture?",
+                        "options": [
+                            "1) Environmentalism is viewed as a distraction from spirituality.",
+                            "3) Environmental issues have no place in religious discourse.",
+                            "4) Faith communities are resistant to the idea of eco-theology.",
+                            "2) Faith leaders are actively advocating for ecological responsibility."
+                        ],
+                        "explanation": "Environmentalism is becoming a prominent aspect of faith discussions, with many leaders urging stewardship of the Earth as integral to spiritual practice, reflecting ecological responsibilities.",
+                        "answer": "2) Faith leaders are actively advocating for ecological responsibility."
+                    }
+                ]
+            }
+        ]
+    }
+}

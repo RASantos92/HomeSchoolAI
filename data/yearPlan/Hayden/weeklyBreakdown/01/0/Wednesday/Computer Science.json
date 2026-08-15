@@ -1,0 +1,205 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "JavaScript Basics: Control Flow and Conditionals",
+                "lecture": "Hello and welcome back to our JavaScript journey! Today, we\u2019re going to dive into a crucial part of programming: control flow statements. Specifically, we will explore how to utilize conditionals in our code. Understanding how to manage the flow of your program based on certain conditions helps you write smarter and more effective code. Let's get started!\n\nFirst, let's talk about **if/else Statements**. An if statement is used to specify a block of code to be executed if a specified condition is true. If the condition is false, you can execute another block of code using an else statement. This allows us to branch our code based on conditions, which is a fundamental aspect of decision-making in programming.\n\nHere\u2019s a simple structure for an if/else statement:\n\n```javascript\nif (condition) {\n    // block of code to be executed if the condition is true\n} else {\n    // block of code to be executed if the condition is false\n}\n```\n\nLet\u2019s consider an example to make this clearer. Imagine you\u2019re writing a program that checks if a person is old enough to vote. You could write:\n\n```javascript\nlet age = 18;\n\nif (age >= 18) {\n    console.log('You can vote!');\n} else {\n    console.log('You are too young to vote.');\n}\n```\n\nIn this example, if the `age` variable is 18 or greater, the message \u2018You can vote!\u2019 will be printed to the console. Otherwise, it will print \u2018You are too young to vote.\u2019 [p] \n\nNow, it's important to know that you can also use **else if** to allow for multiple conditions. So let's modify our previous example to account for different age groups:\n\n```javascript\nlet age = 16;\n\nif (age >= 18) {\n    console.log('You can vote!');\n} else if (age >= 16) {\n    console.log('You can drive!');\n} else {\n    console.log('You are too young for both.');\n}\n```\n\nHere, we first check if someone can vote. If not, we check if they can drive. Otherwise, we return a message saying they are too young for both. This flexibility in coding is what makes if/else statements so powerful.  [p]\n\nNext, we have **Switch Cases**. A switch statement is an alternative to using multiple if/else statements when checking a variable against several values. The switch statement evaluates an expression and executes the corresponding case block based on the outcome. If there is no match, it will execute the code in the default case if one is specified.\n\nHere\u2019s the basic structure of a switch statement:\n\n```javascript\nswitch (expression) {\n    case value1:\n        // block of code to be executed if expression equals value1\n        break;\n    case value2:\n        // block of code to be executed if expression equals value2\n        break;\n    default:\n        // block of code to be executed if expression doesn't match any case\n}\n```\n\nLet\u2019s apply this with an example. Suppose you want to write a program that outputs the day based on a number:\n\n```javascript\nlet day = 3;\n\nswitch (day) {\n    case 1:\n        console.log('Monday');\n        break;\n    case 2:\n        console.log('Tuesday');\n        break;\n    case 3:\n        console.log('Wednesday');\n        break;\n    default:\n        console.log('Not a valid day');\n}\n```\n\nHere, if our day variable is equal to 3, it will print \u2018Wednesday\u2019. If it's not one of the specified cases, it will go to the default case and print \u2018Not a valid day\u2019. The \u2018break;\u2019 keyword is essential as it prevents the code from running into subsequent cases unintentionally. [p] \n\nNow, let's move on to **Loops in JavaScript**. Loops are incredibly useful for executing a block of code repeatedly. As a programmer, you will often find yourself in situations where you need to perform the same operations multiple times.\n\nThere are several types of loops in JavaScript, including the **for loop**, the **while loop**, and the **do-while loop**.\n\nLet\u2019s begin with the **for loop**. Here is its basic structure:\n\n```javascript\nfor (initialization; condition; increment) {\n    // block of code to be executed\n}\n```\n\nFor example, if you want to print numbers from 1 to 5, you can do it like this:\n\n```javascript\nfor (let i = 1; i <= 5; i++) {\n    console.log(i);\n}\n```\n\nThis loop initializes `i` to 1, checks if `i` is less than or equal to 5, then prints `i` and increments it by 1. This continues until `i` exceeds 5. [p] \n\nNow let\u2019s talk about the **while loop**, which continues executing its block of code as long as the specified condition is true:\n\n```javascript\nwhile (condition) {\n    // block of code to be executed\n}\n```\n\nFor example:\n\n```javascript\nlet j = 1;\nwhile (j <= 5) {\n    console.log(j);\n    j++;\n}\n```\n\nThis will also print numbers from 1 to 5. Remember to increment `j` within the loop to avoid an infinite loop! [p] \n\nLastly, we have the **do-while loop**. This is similar to the while loop, but with one key difference: it guarantees that the code block will execute at least once before checking the condition:\n\n```javascript\ndo {\n    // block of code to be executed\n} while (condition);\n```\n\nFor example:\n\n```javascript\nlet k = 1;\ndo {\n    console.log(k);\n    k++;\n} while (k <= 5);\n```\n\nHere, you would print numbers from 1 to 5 as well. [p] \n\nIn conclusion, today we covered crucial concepts in JavaScript that will empower you to make better decisions in your coding. You learned about if/else statements and how to apply them to branch your code, switch cases for cleaner, more readable logic branches, and various loops to automate repetitive tasks. Each of these control flow mechanisms plays a significant role in programming, enabling you to build dynamic and responsive applications. Remember to practice using these tools as you continue your journey into the world of JavaScript!\n\n**Summary:** Today, you learned about if/else statements, switch cases, and loops in JavaScript. You discovered how these control flow statements help in making your code more flexible, organized, and efficient. Keep practicing these concepts as they are fundamental building blocks in your programming toolkit.\n\n**Wikipedia References:**\n1. [if...else](https://en.wikipedia.org/wiki/If%E2%80%93else_statement) \n2. [Switch statement](https://en.wikipedia.org/wiki/Switch_statement) \n3. [Control flow](https://en.wikipedia.org/wiki/Control_flow) \n4. [Loops in programming](https://en.wikipedia.org/wiki/Loop_(computer_science)) \n\n**Main Topic:** JavaScript Basics \n**Sub Topics:** if/else Statements, Switch Cases, Loops in JavaScript",
+                "summary": "Today, you learned about if/else statements, switch cases, and loops in JavaScript. You discovered how these control flow statements help in making your code more flexible, organized, and efficient. Keep practicing these concepts as they are fundamental building blocks in your programming toolkit.",
+                "subject": "Computer Science",
+                "main_topic": "JavaScript Basics",
+                "sub_topics": [
+                    "if/else Statements",
+                    "Switch Cases",
+                    "Loops in JavaScript"
+                ],
+                "wikipedia_refrences": [
+                    "https://en.wikipedia.org/wiki/If%E2%80%93else_statement",
+                    "https://en.wikipedia.org/wiki/Switch_statement",
+                    "https://en.wikipedia.org/wiki/Control_flow",
+                    "https://en.wikipedia.org/wiki/Loop_(computer_science)"
+                ],
+                "quiz": [
+                    {
+                        "question": "What kind of statement allows you to branch your code based on conditions?",
+                        "options": [
+                            "1) Loop statement",
+                            "4) Return statement",
+                            "3) Break statement",
+                            "2) Conditional statement"
+                        ],
+                        "explanation": "Conditional statements, such as if/else or switch statements, allow you to execute different blocks of code based on whether certain conditions are true or false.",
+                        "answer": "2) Conditional statement"
+                    },
+                    {
+                        "question": "What will the following code output if age is set to 19?\n```javascript\nlet age = 19;\nif (age >= 18) {\n    console.log('You can vote!');\n} else {\n    console.log('You are too young to vote.');\n}\n```",
+                        "options": [
+                            "4) Error",
+                            "3) Undefined",
+                            "1) You can vote!",
+                            "2) You are too young to vote."
+                        ],
+                        "explanation": "Since the age is 19, which is greater than or equal to 18, the code will execute the first console log statement, which outputs 'You can vote!'.",
+                        "answer": "1) You can vote!"
+                    },
+                    {
+                        "question": "In a switch statement, what is the purpose of the default case?",
+                        "options": [
+                            "1) To declare variables",
+                            "4) It is not needed",
+                            "3) To terminate the switch statement",
+                            "2) To handle unexpected values"
+                        ],
+                        "explanation": "The default case is executed when none of the specified cases match the expression, allowing you to handle unexpected or default scenarios.",
+                        "answer": "2) To handle unexpected values"
+                    },
+                    {
+                        "question": "What is the structure of a for loop in JavaScript?",
+                        "options": [
+                            "3) for (initialization; statement; condition)",
+                            "2) for (condition; initialization; statement)",
+                            "4) for (statement; initialization; condition)",
+                            "1) for (initialization; condition; statement)"
+                        ],
+                        "explanation": "The correct structure of a for loop is: `for (initialization; condition; increment)`, where you initialize a variable, check a condition, and then define how to increment that variable after each iteration.",
+                        "answer": "1) for (initialization; condition; statement)"
+                    },
+                    {
+                        "question": "What is the primary use of an if/else statement in programming?",
+                        "options": [
+                            "2) To handle multiple values",
+                            "4) To declare variables",
+                            "1) To repeat a block of code",
+                            "3) To execute code based on a condition"
+                        ],
+                        "explanation": "The primary use of an if/else statement is to execute different blocks of code based on whether a specific condition evaluates to true or false.",
+                        "answer": "3) To execute code based on a condition"
+                    },
+                    {
+                        "question": "When using a switch statement, what does the break keyword prevent?",
+                        "options": [
+                            "4) Evaluating expressions",
+                            "1) Accessing the default case",
+                            "2) Multiple case executions",
+                            "3) Declaring variables"
+                        ],
+                        "explanation": "The break keyword prevents the code from ",
+                        "answer": "2) Multiple case executions"
+                    },
+                    {
+                        "question": "If you want to run a block of code at least once regardless of the condition, which loop would you use?",
+                        "options": [
+                            "3) Do-while loop",
+                            "2) While loop",
+                            "4) Infinite loop",
+                            "1) For loop"
+                        ],
+                        "explanation": "A do-while loop will run the code block at least once before checking the condition, making it suitable for situations where you need at least one execution.",
+                        "answer": "3) Do-while loop"
+                    },
+                    {
+                        "question": "What will be the output of this code when day is set to 2?\n```javascript\nlet day = 2;\nswitch (day) {\n    case 1:\n        console.log('Monday');\n        break;\n    case 2:\n        console.log('Tuesday');\n        break;\n    default:\n        console.log('Not a valid day');\n}\n```",
+                        "options": [
+                            "1) Monday",
+                            "3) Not a valid day",
+                            "2) Tuesday",
+                            "4) Error"
+                        ],
+                        "explanation": "Since day equals 2, it matches the second case in the switch statement, which outputs 'Tuesday'.",
+                        "answer": "2) Tuesday"
+                    },
+                    {
+                        "question": "Which loop continuously executes its block of code as long as its condition is true?",
+                        "options": [
+                            "4) Switch statement",
+                            "1) Do-while loop",
+                            "2) While loop",
+                            "3) For loop"
+                        ],
+                        "explanation": "A while loop continues executing its block of code as long as the specified condition evaluates to true.",
+                        "answer": "2) While loop"
+                    },
+                    {
+                        "question": "What will be the output of this code when k is equal to 6?\n```javascript\nlet k = 6;\ndo {\n    console.log(k);\n    k++; \n} while (k <= 5);\n```",
+                        "options": [
+                            "3) It prints nothing",
+                            "2) 5",
+                            "1) 6",
+                            "4) Error"
+                        ],
+                        "explanation": "The do-while loop executes the block at least once, printing 6, and then checks the condition which evaluates to false after the first execution, hence stopping the loop.",
+                        "answer": "1) 6"
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What does the following code snippet do?\n\n```javascript\nlet age = 18;\n\nif (age >= 18) {\n    console.log('You can vote!');\n} else {\n    console.log('You are too young to vote.');\n}\n```",
+                        "options": [
+                            "1) It always prints 'You are too young to vote.'",
+                            "3) It shows an error because age cannot be a variable.",
+                            "4) It prints both messages regardless of the condition.",
+                            "2) It checks if a person can vote based on their age."
+                        ],
+                        "explanation": "The code uses an if/else statement to check if the variable 'age' is 18 or older. If true, it prints 'You can vote!'; if false, it prints 'You are too young to vote.' Therefore, the correct option is that it checks if a person can vote based on their age.",
+                        "answer": "2) It checks if a person can vote based on their age."
+                    },
+                    {
+                        "question": "In the provided JavaScript code, what will be logged to the console when the age is set to 16?",
+                        "options": [
+                            "4) Error: age is not defined.",
+                            "2) You can drive!",
+                            "1) You can vote!",
+                            "3) You are too young for both."
+                        ],
+                        "explanation": "When the age is set to 16, the first condition 'age >= 18' evaluates to false, so it checks the second condition 'age >= 16', which evaluates to true. Therefore, it logs 'You can drive!' to the console.",
+                        "answer": "2) You can drive!"
+                    },
+                    {
+                        "question": "What is the purpose of the 'break;' keyword in a switch statement?",
+                        "options": [
+                            "4) It is not necessary for the switch statement to work.",
+                            "2) It prevents the execution of subsequent case blocks within the switch statement.",
+                            "3) It allows multiple case blocks to execute simultaneously.",
+                            "1) It terminates the program immediately."
+                        ],
+                        "explanation": "The 'break;' keyword is crucial in a switch statement as it stops the execution of the following case blocks once a case has been matched and its code block executed. Without 'break;', the program would continue to execute the code in the subsequent case blocks until it encounters a break or reaches the end of the switch statement, which is usually not the intended behavior.",
+                        "answer": "2) It prevents the execution of subsequent case blocks within the switch statement."
+                    },
+                    {
+                        "question": "What is the correct way to initialize a loop variable in a for loop in JavaScript?",
+                        "options": [
+                            "4) Let i = 'a'",
+                            "2) Let i = 1",
+                            "1) Let i = 0",
+                            "3) Let i = -1"
+                        ],
+                        "explanation": "In a for loop, the initialization step is where you set the starting value of the loop variable. In order to print numbers from 1 to 5 as described, initializing the variable 'i' to 1 is correct, making option 2) the right choice.",
+                        "answer": "2) Let i = 1"
+                    },
+                    {
+                        "question": "What is the main difference between a do-while loop and a while loop in JavaScript?",
+                        "options": [
+                            "2) A do-while loop guarantees that the code block will execute at least once regardless of the condition.",
+                            "3) A do-while loop cannot execute if the condition is false.",
+                            "1) A do-while loop checks the condition before executing the code block.",
+                            "4) A do-while loop is used only for iterating arrays."
+                        ],
+                        "explanation": "The main difference between a do-while loop and a while loop is that the do-while loop guarantees the execution of the code block at least once, as the condition is checked after the execution of the block. In contrast, a while loop may not execute at all if the initial condition is false.",
+                        "answer": "2) A do-while loop guarantees that the code block will execute at least once regardless of the condition."
+                    },
+                    {
+                        "question": "Which of the following statements is used to execute one block of code if a specified condition is true and another block of code if it is false?",
+                        "options": [
+                            "4) Function",
+                            "1) Switch statement",
+                            "3) if/else statement",
+                            "2) Loop"
+                        ],
+                        "explanation": "The if/else statement is specifically designed to branch the code based on whether a condition evaluates to true or false, making it the correct answer.",
+                        "answer": "3) if/else statement"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

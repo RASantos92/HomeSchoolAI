@@ -1,0 +1,2447 @@
+{
+    "Monday": {},
+    "Tuesday": {},
+    "Wednesday": {},
+    "Thursday": {
+        "Algebra": [
+            {
+                "quiz_grade": 50.0,
+                "wrong_answers": [
+                    1,
+                    2,
+                    3,
+                    8,
+                    9
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is the first step to solving the absolute value equation |2x - 6| = 8?",
+                        "options": [
+                            "1) Rewrite it as two separate equations: 2x - 6 = 8 and 2x - 6 = -8",
+                            "3) Divide both sides by 2",
+                            "4) Isolate the absolute value expression",
+                            "2) Add 6 to both sides of the equation"
+                        ],
+                        "explanation": "To solve the absolute value equation, we start by rewriting it as two separate equations 2x - 6 = 8 and 2x - 6 = -8.",
+                        "answer": "1) Rewrite it as two separate equations: 2x - 6 = 8 and 2x - 6 = -8"
+                    },
+                    {
+                        "question": "What does the inequality |x| > 5 indicate about the values of x?",
+                        "options": [
+                            "1) x must be equal to 5",
+                            "3) x is less than -5 or greater than 5",
+                            "2) x is between -5 and 5",
+                            "4) x is always positive"
+                        ],
+                        "explanation": "The inequality |x| > 5 means that x can either be less than -5 or greater than 5, indicating values outside this range.",
+                        "answer": "3) x is less than -5 or greater than 5"
+                    },
+                    {
+                        "question": "In solving the inequality |x + 4| < 3, what is the correct representation of the solution set?",
+                        "options": [
+                            "4) -1 < x < -7",
+                            "2) x < -1 or x > 7",
+                            "1) -7 < x < -1",
+                            "3) x < -4 or x > -1"
+                        ],
+                        "explanation": "The correct representation of |x + 4| < 3 results in the solution set -7 < x < -1, meaning x is between -7 and -1.",
+                        "answer": "1) -7 < x < -1"
+                    },
+                    {
+                        "question": "If you solve the equation |x - 5| = 7, what two equations do you end up with?",
+                        "options": [
+                            "3) x - 5 = 7 and x - 5 = -7",
+                            "4) |x| = 5 and |x| = -7",
+                            "1) x - 5 = 7 and x + 5 = 7",
+                            "2) x - 5 = -7 and x + 5 = -7"
+                        ],
+                        "explanation": "To solve |x - 5| = 7, we break it into x - 5 = 7 and x - 5 = -7.",
+                        "answer": "3) x - 5 = 7 and x - 5 = -7"
+                    },
+                    {
+                        "question": "What is the absolute value inequality |x/3 + 2| \u2265 5 indicating about x?",
+                        "options": [
+                            "1) x is greater than or equal to 15",
+                            "3) x is less than or equal to -3",
+                            "4) x is outside the interval (-15, 15)",
+                            "2) x is between -15 and 15"
+                        ],
+                        "explanation": "The inequality |x/3 + 2| \u2265 5 translates to two inequalities: x/3 + 2 \u2264 -5 or x/3 + 2 \u2265 5, indicating x must be outside the interval (-15, 15).",
+                        "answer": "4) x is outside the interval (-15, 15)"
+                    },
+                    {
+                        "question": "What are the possible values for the inequality |x| < 4?",
+                        "options": [
+                            "3) x = -4 or x = 4",
+                            "2) x \u2264 -4 or x \u2265 4",
+                            "1) -4 < x < 4",
+                            "4) x > 0"
+                        ],
+                        "explanation": "The solution for |x| < 4 indicates that x can take values between -4 and 4 exclusively, represented by -4 < x < 4.",
+                        "answer": "1) -4 < x < 4"
+                    },
+                    {
+                        "question": "When graphing the solution to |x + 4| \u2265 3, what type of dots are used to represent the endpoints?",
+                        "options": [
+                            "1) Solid dots for included endpoints",
+                            "2) Dashed lines",
+                            "3) Open dots for excluded endpoints",
+                            "4) No dots, just lines"
+                        ],
+                        "explanation": "In an inequality like |x + 4| \u2265 3, solid dots are used to represent included endpoints when graphed on a number line.",
+                        "answer": "1) Solid dots for included endpoints"
+                    },
+                    {
+                        "question": "While solving |2x| = 10, which values do you end up with?",
+                        "options": [
+                            "1) x = 5 or x = -5",
+                            "4) x = 2 or x = -2",
+                            "2) x = 0",
+                            "3) x = 5"
+                        ],
+                        "explanation": "By breaking down |2x| = 10 into its components, we get 2x = 10 and 2x = -10, leading to solutions of x = 5 and x = -5.",
+                        "answer": "1) x = 5 or x = -5"
+                    },
+                    {
+                        "question": "Is the statement |x| \u2264 -3 possible?",
+                        "options": [
+                            "2) Yes, because absolute value can be zero",
+                            "4) Only if x = -3",
+                            "1) Yes, since absolute values can be negative",
+                            "3) No, because absolute values cannot be negative"
+                        ],
+                        "explanation": "The statement |x| \u2264 -3 is impossible, as absolute values represent non-negative distances and cannot be less than a negative number.",
+                        "answer": "3) No, because absolute values cannot be negative"
+                    },
+                    {
+                        "question": "In the equation |x - 2| = 4, what two separate equations do we derive?",
+                        "options": [
+                            "2) x + 2 = 4 and x - 2 = 4",
+                            "4) |x - 2| = 4 and x = 2",
+                            "3) |x| = 4",
+                            "1) x - 2 = 4 and x - 2 = -4"
+                        ],
+                        "explanation": "To solve |x - 2| = 4, we separate it into two equations: x - 2 = 4 and x - 2 = -4.",
+                        "answer": "1) x - 2 = 4 and x - 2 = -4"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    1,
+                    2,
+                    3,
+                    8
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is the first step to solving the absolute value equation |2x - 6| = 8?",
+                        "options": [
+                            "1) Rewrite it as two separate equations: 2x - 6 = 8 and 2x - 6 = -8",
+                            "3) Divide both sides by 2",
+                            "4) Isolate the absolute value expression",
+                            "2) Add 6 to both sides of the equation"
+                        ],
+                        "explanation": "To solve the absolute value equation, we start by rewriting it as two separate equations 2x - 6 = 8 and 2x - 6 = -8.",
+                        "answer": "1) Rewrite it as two separate equations: 2x - 6 = 8 and 2x - 6 = -8"
+                    },
+                    {
+                        "question": "What does the inequality |x| > 5 indicate about the values of x?",
+                        "options": [
+                            "1) x must be equal to 5",
+                            "3) x is less than -5 or greater than 5",
+                            "2) x is between -5 and 5",
+                            "4) x is always positive"
+                        ],
+                        "explanation": "The inequality |x| > 5 means that x can either be less than -5 or greater than 5, indicating values outside this range.",
+                        "answer": "3) x is less than -5 or greater than 5"
+                    },
+                    {
+                        "question": "In solving the inequality |x + 4| < 3, what is the correct representation of the solution set?",
+                        "options": [
+                            "4) -1 < x < -7",
+                            "2) x < -1 or x > 7",
+                            "1) -7 < x < -1",
+                            "3) x < -4 or x > -1"
+                        ],
+                        "explanation": "The correct representation of |x + 4| < 3 results in the solution set -7 < x < -1, meaning x is between -7 and -1.",
+                        "answer": "1) -7 < x < -1"
+                    },
+                    {
+                        "question": "If you solve the equation |x - 5| = 7, what two equations do you end up with?",
+                        "options": [
+                            "3) x - 5 = 7 and x - 5 = -7",
+                            "4) |x| = 5 and |x| = -7",
+                            "1) x - 5 = 7 and x + 5 = 7",
+                            "2) x - 5 = -7 and x + 5 = -7"
+                        ],
+                        "explanation": "To solve |x - 5| = 7, we break it into x - 5 = 7 and x - 5 = -7.",
+                        "answer": "3) x - 5 = 7 and x - 5 = -7"
+                    },
+                    {
+                        "question": "What is the absolute value inequality |x/3 + 2| \u2265 5 indicating about x?",
+                        "options": [
+                            "1) x is greater than or equal to 15",
+                            "3) x is less than or equal to -3",
+                            "4) x is outside the interval (-15, 15)",
+                            "2) x is between -15 and 15"
+                        ],
+                        "explanation": "The inequality |x/3 + 2| \u2265 5 translates to two inequalities: x/3 + 2 \u2264 -5 or x/3 + 2 \u2265 5, indicating x must be outside the interval (-15, 15).",
+                        "answer": "4) x is outside the interval (-15, 15)"
+                    },
+                    {
+                        "question": "What are the possible values for the inequality |x| < 4?",
+                        "options": [
+                            "3) x = -4 or x = 4",
+                            "2) x \u2264 -4 or x \u2265 4",
+                            "1) -4 < x < 4",
+                            "4) x > 0"
+                        ],
+                        "explanation": "The solution for |x| < 4 indicates that x can take values between -4 and 4 exclusively, represented by -4 < x < 4.",
+                        "answer": "1) -4 < x < 4"
+                    },
+                    {
+                        "question": "When graphing the solution to |x + 4| \u2265 3, what type of dots are used to represent the endpoints?",
+                        "options": [
+                            "1) Solid dots for included endpoints",
+                            "2) Dashed lines",
+                            "3) Open dots for excluded endpoints",
+                            "4) No dots, just lines"
+                        ],
+                        "explanation": "In an inequality like |x + 4| \u2265 3, solid dots are used to represent included endpoints when graphed on a number line.",
+                        "answer": "1) Solid dots for included endpoints"
+                    },
+                    {
+                        "question": "While solving |2x| = 10, which values do you end up with?",
+                        "options": [
+                            "1) x = 5 or x = -5",
+                            "4) x = 2 or x = -2",
+                            "2) x = 0",
+                            "3) x = 5"
+                        ],
+                        "explanation": "By breaking down |2x| = 10 into its components, we get 2x = 10 and 2x = -10, leading to solutions of x = 5 and x = -5.",
+                        "answer": "1) x = 5 or x = -5"
+                    },
+                    {
+                        "question": "Is the statement |x| \u2264 -3 possible?",
+                        "options": [
+                            "2) Yes, because absolute value can be zero",
+                            "4) Only if x = -3",
+                            "1) Yes, since absolute values can be negative",
+                            "3) No, because absolute values cannot be negative"
+                        ],
+                        "explanation": "The statement |x| \u2264 -3 is impossible, as absolute values represent non-negative distances and cannot be less than a negative number.",
+                        "answer": "3) No, because absolute values cannot be negative"
+                    },
+                    {
+                        "question": "In the equation |x - 2| = 4, what two separate equations do we derive?",
+                        "options": [
+                            "2) x + 2 = 4 and x - 2 = 4",
+                            "4) |x - 2| = 4 and x = 2",
+                            "3) |x| = 4",
+                            "1) x - 2 = 4 and x - 2 = -4"
+                        ],
+                        "explanation": "To solve |x - 2| = 4, we separate it into two equations: x - 2 = 4 and x - 2 = -4.",
+                        "answer": "1) x - 2 = 4 and x - 2 = -4"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    1,
+                    2,
+                    3,
+                    8
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What is the first step to solving the absolute value equation |2x - 6| = 8?",
+                        "options": [
+                            "1) Rewrite it as two separate equations: 2x - 6 = 8 and 2x - 6 = -8",
+                            "3) Divide both sides by 2",
+                            "4) Isolate the absolute value expression",
+                            "2) Add 6 to both sides of the equation"
+                        ],
+                        "explanation": "To solve the absolute value equation, we start by rewriting it as two separate equations 2x - 6 = 8 and 2x - 6 = -8.",
+                        "answer": "1) Rewrite it as two separate equations: 2x - 6 = 8 and 2x - 6 = -8"
+                    },
+                    {
+                        "question": "What does the inequality |x| > 5 indicate about the values of x?",
+                        "options": [
+                            "1) x must be equal to 5",
+                            "3) x is less than -5 or greater than 5",
+                            "2) x is between -5 and 5",
+                            "4) x is always positive"
+                        ],
+                        "explanation": "The inequality |x| > 5 means that x can either be less than -5 or greater than 5, indicating values outside this range.",
+                        "answer": "3) x is less than -5 or greater than 5"
+                    },
+                    {
+                        "question": "In solving the inequality |x + 4| < 3, what is the correct representation of the solution set?",
+                        "options": [
+                            "4) -1 < x < -7",
+                            "2) x < -1 or x > 7",
+                            "1) -7 < x < -1",
+                            "3) x < -4 or x > -1"
+                        ],
+                        "explanation": "The correct representation of |x + 4| < 3 results in the solution set -7 < x < -1, meaning x is between -7 and -1.",
+                        "answer": "1) -7 < x < -1"
+                    },
+                    {
+                        "question": "If you solve the equation |x - 5| = 7, what two equations do you end up with?",
+                        "options": [
+                            "3) x - 5 = 7 and x - 5 = -7",
+                            "4) |x| = 5 and |x| = -7",
+                            "1) x - 5 = 7 and x + 5 = 7",
+                            "2) x - 5 = -7 and x + 5 = -7"
+                        ],
+                        "explanation": "To solve |x - 5| = 7, we break it into x - 5 = 7 and x - 5 = -7.",
+                        "answer": "3) x - 5 = 7 and x - 5 = -7"
+                    },
+                    {
+                        "question": "What is the absolute value inequality |x/3 + 2| \u2265 5 indicating about x?",
+                        "options": [
+                            "1) x is greater than or equal to 15",
+                            "3) x is less than or equal to -3",
+                            "4) x is outside the interval (-15, 15)",
+                            "2) x is between -15 and 15"
+                        ],
+                        "explanation": "The inequality |x/3 + 2| \u2265 5 translates to two inequalities: x/3 + 2 \u2264 -5 or x/3 + 2 \u2265 5, indicating x must be outside the interval (-15, 15).",
+                        "answer": "4) x is outside the interval (-15, 15)"
+                    },
+                    {
+                        "question": "What are the possible values for the inequality |x| < 4?",
+                        "options": [
+                            "3) x = -4 or x = 4",
+                            "2) x \u2264 -4 or x \u2265 4",
+                            "1) -4 < x < 4",
+                            "4) x > 0"
+                        ],
+                        "explanation": "The solution for |x| < 4 indicates that x can take values between -4 and 4 exclusively, represented by -4 < x < 4.",
+                        "answer": "1) -4 < x < 4"
+                    },
+                    {
+                        "question": "When graphing the solution to |x + 4| \u2265 3, what type of dots are used to represent the endpoints?",
+                        "options": [
+                            "1) Solid dots for included endpoints",
+                            "2) Dashed lines",
+                            "3) Open dots for excluded endpoints",
+                            "4) No dots, just lines"
+                        ],
+                        "explanation": "In an inequality like |x + 4| \u2265 3, solid dots are used to represent included endpoints when graphed on a number line.",
+                        "answer": "1) Solid dots for included endpoints"
+                    },
+                    {
+                        "question": "While solving |2x| = 10, which values do you end up with?",
+                        "options": [
+                            "1) x = 5 or x = -5",
+                            "4) x = 2 or x = -2",
+                            "2) x = 0",
+                            "3) x = 5"
+                        ],
+                        "explanation": "By breaking down |2x| = 10 into its components, we get 2x = 10 and 2x = -10, leading to solutions of x = 5 and x = -5.",
+                        "answer": "1) x = 5 or x = -5"
+                    },
+                    {
+                        "question": "Is the statement |x| \u2264 -3 possible?",
+                        "options": [
+                            "2) Yes, because absolute value can be zero",
+                            "4) Only if x = -3",
+                            "1) Yes, since absolute values can be negative",
+                            "3) No, because absolute values cannot be negative"
+                        ],
+                        "explanation": "The statement |x| \u2264 -3 is impossible, as absolute values represent non-negative distances and cannot be less than a negative number.",
+                        "answer": "3) No, because absolute values cannot be negative"
+                    },
+                    {
+                        "question": "In the equation |x - 2| = 4, what two separate equations do we derive?",
+                        "options": [
+                            "2) x + 2 = 4 and x - 2 = 4",
+                            "4) |x - 2| = 4 and x = 2",
+                            "3) |x| = 4",
+                            "1) x - 2 = 4 and x - 2 = -4"
+                        ],
+                        "explanation": "To solve |x - 2| = 4, we separate it into two equations: x - 2 = 4 and x - 2 = -4.",
+                        "answer": "1) x - 2 = 4 and x - 2 = -4"
+                    }
+                ]
+            }
+        ],
+        "Astronomy": [
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    3,
+                    4
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "Which factor primarily affects the visibility of constellations in the night sky throughout the year?",
+                        "options": [
+                            "1) Moon phases",
+                            "4) Space weather",
+                            "3) Star brightness",
+                            "2) Earth's orbit around the Sun"
+                        ],
+                        "explanation": "The Earth's orbit around the Sun changes our perspective on the stars, leading to different constellations being visible during different seasons.",
+                        "answer": "2) Earth's orbit around the Sun"
+                    },
+                    {
+                        "question": "What is the primary effect of the Earth's axial tilt on the seasonal changes in the night sky?",
+                        "options": [
+                            "3) It causes varying sunlight exposure on Earth",
+                            "1) It changes the color of stars",
+                            "2) It alters the path of the Moon",
+                            "4) It affects the gravity of celestial bodies"
+                        ],
+                        "explanation": "The axial tilt affects how much sunlight different parts of the Earth receive throughout the year, which influences what stars and constellations are visible.",
+                        "answer": "3) It causes varying sunlight exposure on Earth"
+                    },
+                    {
+                        "question": "Which collection of stars is represented by the Summer Triangle?",
+                        "options": [
+                            "2) Lyra, Cygnus, and Aquila",
+                            "1) Orion, Canis Major, and Ursa Major",
+                            "4) Virgo, Libra, and Scorpio",
+                            "3) Cassiopeia, Perseus, and Taurus"
+                        ],
+                        "explanation": "The Summer Triangle is comprised of three bright stars from the constellations Lyra, Cygnus, and Aquila, recognizable during the summer months.",
+                        "answer": "2) Lyra, Cygnus, and Aquila"
+                    },
+                    {
+                        "question": "What are zodiac constellations primarily associated with in relation to the night sky?",
+                        "options": [
+                            "1) Moon locations",
+                            "3) The phases of stars",
+                            "4) Planet movements",
+                            "2) Seasonal changes"
+                        ],
+                        "explanation": "Zodiac constellations mark divisions along the ecliptic and are visible at different times of the year as seasons change.",
+                        "answer": "2) Seasonal changes"
+                    },
+                    {
+                        "question": "Why is the Andromeda Galaxy particularly favorable for viewing during the fall?",
+                        "options": [
+                            "3) It's the closest galaxy to Earth",
+                            "2) It is higher in the sky at that time",
+                            "4) It's only visible in clear weather",
+                            "1) It is surrounded by brighter stars"
+                        ],
+                        "explanation": "The Andromeda Galaxy is positioned higher in the sky during the fall, making it more accessible for stargazers.",
+                        "answer": "2) It is higher in the sky at that time"
+                    },
+                    {
+                        "question": "What is a significant impact of weather on stargazing?",
+                        "options": [
+                            "4) Weather only matters during summer months",
+                            "2) Weather can enhance the brightness of stars",
+                            "1) Weather does not affect visibility",
+                            "3) Clear skies improve visibility, while clouds can obstruct it"
+                        ],
+                        "explanation": "Clear skies allow for better visibility of celestial objects, while clouds and light pollution can hinder observation of the night sky.",
+                        "answer": "3) Clear skies improve visibility, while clouds can obstruct it"
+                    },
+                    {
+                        "question": "What is the primary reason for differences in seasonal constellations?",
+                        "options": [
+                            "1) The rotation of the Earth",
+                            "4) The brightness of stars",
+                            "2) The gravitational pull of the Sun",
+                            "3) The Earth's axial tilt and its orbit around the Sun"
+                        ],
+                        "explanation": "The Earth's axial tilt and its orbit around the Sun influence which constellations are visible during different seasons.",
+                        "answer": "3) The Earth's axial tilt and its orbit around the Sun"
+                    },
+                    {
+                        "question": "Which of the following describes the path the Sun appears to follow through the stars?",
+                        "options": [
+                            "1) The horizon",
+                            "4) The equator",
+                            "2) The ecliptic",
+                            "3) The celestial sphere"
+                        ],
+                        "explanation": "The ecliptic is the path that the Sun appears to follow through the stars across the sky throughout the year.",
+                        "answer": "2) The ecliptic"
+                    },
+                    {
+                        "question": "What benefit do planetarium apps provide to stargazers?",
+                        "options": [
+                            "4) They can predict future comet appearances",
+                            "3) They provide live data on visible celestial bodies",
+                            "2) They show potential star formations",
+                            "1) They can change the weather"
+                        ],
+                        "explanation": "Planetarium apps provide real-time information about which celestial bodies are visible, enhancing the stargazing experience.",
+                        "answer": "3) They provide live data on visible celestial bodies"
+                    },
+                    {
+                        "question": "Which star is often referred to as the 'Evening Star' or 'Morning Star'?",
+                        "options": [
+                            "1) Mars",
+                            "4) Jupiter",
+                            "3) Venus",
+                            "2) Saturn"
+                        ],
+                        "explanation": "Venus is commonly referred to as the 'Evening Star' or 'Morning Star' depending on its position in relation to the Earth and the Sun.",
+                        "answer": "3) Venus"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    4
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "Which factor primarily affects the visibility of constellations in the night sky throughout the year?",
+                        "options": [
+                            "1) Moon phases",
+                            "4) Space weather",
+                            "3) Star brightness",
+                            "2) Earth's orbit around the Sun"
+                        ],
+                        "explanation": "The Earth's orbit around the Sun changes our perspective on the stars, leading to different constellations being visible during different seasons.",
+                        "answer": "2) Earth's orbit around the Sun"
+                    },
+                    {
+                        "question": "What is the primary effect of the Earth's axial tilt on the seasonal changes in the night sky?",
+                        "options": [
+                            "3) It causes varying sunlight exposure on Earth",
+                            "1) It changes the color of stars",
+                            "2) It alters the path of the Moon",
+                            "4) It affects the gravity of celestial bodies"
+                        ],
+                        "explanation": "The axial tilt affects how much sunlight different parts of the Earth receive throughout the year, which influences what stars and constellations are visible.",
+                        "answer": "3) It causes varying sunlight exposure on Earth"
+                    },
+                    {
+                        "question": "Which collection of stars is represented by the Summer Triangle?",
+                        "options": [
+                            "2) Lyra, Cygnus, and Aquila",
+                            "1) Orion, Canis Major, and Ursa Major",
+                            "4) Virgo, Libra, and Scorpio",
+                            "3) Cassiopeia, Perseus, and Taurus"
+                        ],
+                        "explanation": "The Summer Triangle is comprised of three bright stars from the constellations Lyra, Cygnus, and Aquila, recognizable during the summer months.",
+                        "answer": "2) Lyra, Cygnus, and Aquila"
+                    },
+                    {
+                        "question": "What are zodiac constellations primarily associated with in relation to the night sky?",
+                        "options": [
+                            "1) Moon locations",
+                            "3) The phases of stars",
+                            "4) Planet movements",
+                            "2) Seasonal changes"
+                        ],
+                        "explanation": "Zodiac constellations mark divisions along the ecliptic and are visible at different times of the year as seasons change.",
+                        "answer": "2) Seasonal changes"
+                    },
+                    {
+                        "question": "Why is the Andromeda Galaxy particularly favorable for viewing during the fall?",
+                        "options": [
+                            "3) It's the closest galaxy to Earth",
+                            "2) It is higher in the sky at that time",
+                            "4) It's only visible in clear weather",
+                            "1) It is surrounded by brighter stars"
+                        ],
+                        "explanation": "The Andromeda Galaxy is positioned higher in the sky during the fall, making it more accessible for stargazers.",
+                        "answer": "2) It is higher in the sky at that time"
+                    },
+                    {
+                        "question": "What is a significant impact of weather on stargazing?",
+                        "options": [
+                            "4) Weather only matters during summer months",
+                            "2) Weather can enhance the brightness of stars",
+                            "1) Weather does not affect visibility",
+                            "3) Clear skies improve visibility, while clouds can obstruct it"
+                        ],
+                        "explanation": "Clear skies allow for better visibility of celestial objects, while clouds and light pollution can hinder observation of the night sky.",
+                        "answer": "3) Clear skies improve visibility, while clouds can obstruct it"
+                    },
+                    {
+                        "question": "What is the primary reason for differences in seasonal constellations?",
+                        "options": [
+                            "1) The rotation of the Earth",
+                            "4) The brightness of stars",
+                            "2) The gravitational pull of the Sun",
+                            "3) The Earth's axial tilt and its orbit around the Sun"
+                        ],
+                        "explanation": "The Earth's axial tilt and its orbit around the Sun influence which constellations are visible during different seasons.",
+                        "answer": "3) The Earth's axial tilt and its orbit around the Sun"
+                    },
+                    {
+                        "question": "Which of the following describes the path the Sun appears to follow through the stars?",
+                        "options": [
+                            "1) The horizon",
+                            "4) The equator",
+                            "2) The ecliptic",
+                            "3) The celestial sphere"
+                        ],
+                        "explanation": "The ecliptic is the path that the Sun appears to follow through the stars across the sky throughout the year.",
+                        "answer": "2) The ecliptic"
+                    },
+                    {
+                        "question": "What benefit do planetarium apps provide to stargazers?",
+                        "options": [
+                            "4) They can predict future comet appearances",
+                            "3) They provide live data on visible celestial bodies",
+                            "2) They show potential star formations",
+                            "1) They can change the weather"
+                        ],
+                        "explanation": "Planetarium apps provide real-time information about which celestial bodies are visible, enhancing the stargazing experience.",
+                        "answer": "3) They provide live data on visible celestial bodies"
+                    },
+                    {
+                        "question": "Which star is often referred to as the 'Evening Star' or 'Morning Star'?",
+                        "options": [
+                            "1) Mars",
+                            "4) Jupiter",
+                            "3) Venus",
+                            "2) Saturn"
+                        ],
+                        "explanation": "Venus is commonly referred to as the 'Evening Star' or 'Morning Star' depending on its position in relation to the Earth and the Sun.",
+                        "answer": "3) Venus"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    4
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "Which factor primarily affects the visibility of constellations in the night sky throughout the year?",
+                        "options": [
+                            "1) Moon phases",
+                            "4) Space weather",
+                            "3) Star brightness",
+                            "2) Earth's orbit around the Sun"
+                        ],
+                        "explanation": "The Earth's orbit around the Sun changes our perspective on the stars, leading to different constellations being visible during different seasons.",
+                        "answer": "2) Earth's orbit around the Sun"
+                    },
+                    {
+                        "question": "What is the primary effect of the Earth's axial tilt on the seasonal changes in the night sky?",
+                        "options": [
+                            "3) It causes varying sunlight exposure on Earth",
+                            "1) It changes the color of stars",
+                            "2) It alters the path of the Moon",
+                            "4) It affects the gravity of celestial bodies"
+                        ],
+                        "explanation": "The axial tilt affects how much sunlight different parts of the Earth receive throughout the year, which influences what stars and constellations are visible.",
+                        "answer": "3) It causes varying sunlight exposure on Earth"
+                    },
+                    {
+                        "question": "Which collection of stars is represented by the Summer Triangle?",
+                        "options": [
+                            "2) Lyra, Cygnus, and Aquila",
+                            "1) Orion, Canis Major, and Ursa Major",
+                            "4) Virgo, Libra, and Scorpio",
+                            "3) Cassiopeia, Perseus, and Taurus"
+                        ],
+                        "explanation": "The Summer Triangle is comprised of three bright stars from the constellations Lyra, Cygnus, and Aquila, recognizable during the summer months.",
+                        "answer": "2) Lyra, Cygnus, and Aquila"
+                    },
+                    {
+                        "question": "What are zodiac constellations primarily associated with in relation to the night sky?",
+                        "options": [
+                            "1) Moon locations",
+                            "3) The phases of stars",
+                            "4) Planet movements",
+                            "2) Seasonal changes"
+                        ],
+                        "explanation": "Zodiac constellations mark divisions along the ecliptic and are visible at different times of the year as seasons change.",
+                        "answer": "2) Seasonal changes"
+                    },
+                    {
+                        "question": "Why is the Andromeda Galaxy particularly favorable for viewing during the fall?",
+                        "options": [
+                            "3) It's the closest galaxy to Earth",
+                            "2) It is higher in the sky at that time",
+                            "4) It's only visible in clear weather",
+                            "1) It is surrounded by brighter stars"
+                        ],
+                        "explanation": "The Andromeda Galaxy is positioned higher in the sky during the fall, making it more accessible for stargazers.",
+                        "answer": "2) It is higher in the sky at that time"
+                    },
+                    {
+                        "question": "What is a significant impact of weather on stargazing?",
+                        "options": [
+                            "4) Weather only matters during summer months",
+                            "2) Weather can enhance the brightness of stars",
+                            "1) Weather does not affect visibility",
+                            "3) Clear skies improve visibility, while clouds can obstruct it"
+                        ],
+                        "explanation": "Clear skies allow for better visibility of celestial objects, while clouds and light pollution can hinder observation of the night sky.",
+                        "answer": "3) Clear skies improve visibility, while clouds can obstruct it"
+                    },
+                    {
+                        "question": "What is the primary reason for differences in seasonal constellations?",
+                        "options": [
+                            "1) The rotation of the Earth",
+                            "4) The brightness of stars",
+                            "2) The gravitational pull of the Sun",
+                            "3) The Earth's axial tilt and its orbit around the Sun"
+                        ],
+                        "explanation": "The Earth's axial tilt and its orbit around the Sun influence which constellations are visible during different seasons.",
+                        "answer": "3) The Earth's axial tilt and its orbit around the Sun"
+                    },
+                    {
+                        "question": "Which of the following describes the path the Sun appears to follow through the stars?",
+                        "options": [
+                            "1) The horizon",
+                            "4) The equator",
+                            "2) The ecliptic",
+                            "3) The celestial sphere"
+                        ],
+                        "explanation": "The ecliptic is the path that the Sun appears to follow through the stars across the sky throughout the year.",
+                        "answer": "2) The ecliptic"
+                    },
+                    {
+                        "question": "What benefit do planetarium apps provide to stargazers?",
+                        "options": [
+                            "4) They can predict future comet appearances",
+                            "3) They provide live data on visible celestial bodies",
+                            "2) They show potential star formations",
+                            "1) They can change the weather"
+                        ],
+                        "explanation": "Planetarium apps provide real-time information about which celestial bodies are visible, enhancing the stargazing experience.",
+                        "answer": "3) They provide live data on visible celestial bodies"
+                    },
+                    {
+                        "question": "Which star is often referred to as the 'Evening Star' or 'Morning Star'?",
+                        "options": [
+                            "1) Mars",
+                            "4) Jupiter",
+                            "3) Venus",
+                            "2) Saturn"
+                        ],
+                        "explanation": "Venus is commonly referred to as the 'Evening Star' or 'Morning Star' depending on its position in relation to the Earth and the Sun.",
+                        "answer": "3) Venus"
+                    }
+                ]
+            }
+        ],
+        "Computer Science": [
+            {
+                "quiz_grade": 40.0,
+                "wrong_answers": [
+                    0,
+                    2,
+                    3,
+                    7,
+                    8,
+                    9
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What characterizes Sequential Control Structures?",
+                        "options": [
+                            "1) They execute statements in the order they appear.",
+                            "2) They allow for multiple branching paths based on conditions.",
+                            "4) They create loops that repeat code until conditions are met.",
+                            "3) They only execute code if a certain condition is true."
+                        ],
+                        "explanation": "Sequential Control Structures execute statements in the exact order they appear in the code, making them the most straightforward control structure.",
+                        "answer": "1) They execute statements in the order they appear."
+                    },
+                    {
+                        "question": "In Selection Control Structures, what do 'if' statements typically do?",
+                        "options": [
+                            "2) Execute a code block for every condition without stopping.",
+                            "4) Define variables to store values.",
+                            "1) Run code based on the time of day.",
+                            "3) Make decisions and execute code based on whether conditions are true or false."
+                        ],
+                        "explanation": "'If' statements in Selection Control Structures check conditions and execute specific code blocks based on whether those conditions are true or false.",
+                        "answer": "3) Make decisions and execute code based on whether conditions are true or false."
+                    },
+                    {
+                        "question": "What is the structure used to handle multiple conditions more neatly instead of using multiple if statements?",
+                        "options": [
+                            "4) For Loops",
+                            "2) If-Else Statements",
+                            "3) Switch Statements",
+                            "1) Conditional Statements"
+                        ],
+                        "explanation": "Switch Statements provide a cleaner and more organized way to handle multiple conditions by allowing the selection of one among many code blocks.",
+                        "answer": "3) Switch Statements"
+                    },
+                    {
+                        "question": "Which of the following describes a 'while loop'?",
+                        "options": [
+                            "1) It executes a block of code a fixed number of times.",
+                            "3) It is used for iterating through a list or a range.",
+                            "4) It skips the execution of code under certain conditions.",
+                            "2) It repeats as long as a given condition remains true."
+                        ],
+                        "explanation": "A 'while loop' continues to execute a block of code as long as its condition remains true, allowing for indefinite iterations based on conditions.",
+                        "answer": "2) It repeats as long as a given condition remains true."
+                    },
+                    {
+                        "question": "What happens when a condition in a nested if statement evaluates to false?",
+                        "options": [
+                            "2) The nested if statements are ignored completely.",
+                            "3) The next condition in the outer if statement is evaluated.",
+                            "1) The entire program stops executing.",
+                            "4) The program loops back to the start of the nested ifs."
+                        ],
+                        "explanation": "When a condition in a nested if statement evaluates to false, the program evaluates the next condition in the outer if statement and continues execution from there.",
+                        "answer": "3) The next condition in the outer if statement is evaluated."
+                    },
+                    {
+                        "question": "What is the primary function of a 'for loop'?",
+                        "options": [
+                            "3) To conditionally execute code.",
+                            "1) To validate user input.",
+                            "2) To iterate over a collection of items.",
+                            "4) To define static variables."
+                        ],
+                        "explanation": "A 'for loop' is primarily used to iterate over a sequence, executing a block of code for each item in that sequence.",
+                        "answer": "2) To iterate over a collection of items."
+                    },
+                    {
+                        "question": "Which of the following is true about Sequential Control Structures?",
+                        "options": [
+                            "1) They only allow single lines of code to be executed.",
+                            "2) They rely on user input for execution order.",
+                            "4) They are only used in complex programs.",
+                            "3) They execute statements one after another without interruption."
+                        ],
+                        "explanation": "Sequential Control Structures execute each statement in the order they are written, allowing multiple lines of code to be executed one after another without interruption.",
+                        "answer": "3) They execute statements one after another without interruption."
+                    },
+                    {
+                        "question": "In what scenario would you likely prefer using a switch statement?",
+                        "options": [
+                            "2) When there are multiple discrete values to evaluate.",
+                            "4) When you want to repeat a code block until a condition is false.",
+                            "1) When you have only two conditions to check.",
+                            "3) When you need to execute a simple sequence of operations."
+                        ],
+                        "explanation": "Switch statements are preferred when there are many discrete values to evaluate, providing a more organized way to handle multiple conditions than multiple if statements.",
+                        "answer": "2) When there are multiple discrete values to evaluate."
+                    },
+                    {
+                        "question": "When does a 'for loop' terminate?",
+                        "options": [
+                            "1) Once it has iterated through all items in its sequence.",
+                            "3) When it reaches a predefined variable limit defined within an if statement.",
+                            "4) It runs indefinitely until manually stopped.",
+                            "2) As soon as the condition within the loop becomes false."
+                        ],
+                        "explanation": "A 'for loop' terminates once it has iterated through all items in the specified range, allowing for controlled repetition based on a sequence.",
+                        "answer": "1) Once it has iterated through all items in its sequence."
+                    },
+                    {
+                        "question": "Which of the following best describes the use of Nested Ifs?",
+                        "options": [
+                            "3) To replace the need for loops in programming.",
+                            "1) To execute one set of statements without evaluating any condition.",
+                            "4) To define sequences of actions that always execute.",
+                            "2) To place one 'if' statement inside another to evaluate complex conditions."
+                        ],
+                        "explanation": "Nested Ifs allow for more complex decision-making by enabling one 'if' statement to reside within another, enabling multiple layers of condition evaluation.",
+                        "answer": "2) To place one 'if' statement inside another to evaluate complex conditions."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 50.0,
+                "wrong_answers": [
+                    0,
+                    2,
+                    3,
+                    7,
+                    8
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What characterizes Sequential Control Structures?",
+                        "options": [
+                            "1) They execute statements in the order they appear.",
+                            "2) They allow for multiple branching paths based on conditions.",
+                            "4) They create loops that repeat code until conditions are met.",
+                            "3) They only execute code if a certain condition is true."
+                        ],
+                        "explanation": "Sequential Control Structures execute statements in the exact order they appear in the code, making them the most straightforward control structure.",
+                        "answer": "1) They execute statements in the order they appear."
+                    },
+                    {
+                        "question": "In Selection Control Structures, what do 'if' statements typically do?",
+                        "options": [
+                            "2) Execute a code block for every condition without stopping.",
+                            "4) Define variables to store values.",
+                            "1) Run code based on the time of day.",
+                            "3) Make decisions and execute code based on whether conditions are true or false."
+                        ],
+                        "explanation": "'If' statements in Selection Control Structures check conditions and execute specific code blocks based on whether those conditions are true or false.",
+                        "answer": "3) Make decisions and execute code based on whether conditions are true or false."
+                    },
+                    {
+                        "question": "What is the structure used to handle multiple conditions more neatly instead of using multiple if statements?",
+                        "options": [
+                            "4) For Loops",
+                            "2) If-Else Statements",
+                            "3) Switch Statements",
+                            "1) Conditional Statements"
+                        ],
+                        "explanation": "Switch Statements provide a cleaner and more organized way to handle multiple conditions by allowing the selection of one among many code blocks.",
+                        "answer": "3) Switch Statements"
+                    },
+                    {
+                        "question": "Which of the following describes a 'while loop'?",
+                        "options": [
+                            "1) It executes a block of code a fixed number of times.",
+                            "3) It is used for iterating through a list or a range.",
+                            "4) It skips the execution of code under certain conditions.",
+                            "2) It repeats as long as a given condition remains true."
+                        ],
+                        "explanation": "A 'while loop' continues to execute a block of code as long as its condition remains true, allowing for indefinite iterations based on conditions.",
+                        "answer": "2) It repeats as long as a given condition remains true."
+                    },
+                    {
+                        "question": "What happens when a condition in a nested if statement evaluates to false?",
+                        "options": [
+                            "2) The nested if statements are ignored completely.",
+                            "3) The next condition in the outer if statement is evaluated.",
+                            "1) The entire program stops executing.",
+                            "4) The program loops back to the start of the nested ifs."
+                        ],
+                        "explanation": "When a condition in a nested if statement evaluates to false, the program evaluates the next condition in the outer if statement and continues execution from there.",
+                        "answer": "3) The next condition in the outer if statement is evaluated."
+                    },
+                    {
+                        "question": "What is the primary function of a 'for loop'?",
+                        "options": [
+                            "3) To conditionally execute code.",
+                            "1) To validate user input.",
+                            "2) To iterate over a collection of items.",
+                            "4) To define static variables."
+                        ],
+                        "explanation": "A 'for loop' is primarily used to iterate over a sequence, executing a block of code for each item in that sequence.",
+                        "answer": "2) To iterate over a collection of items."
+                    },
+                    {
+                        "question": "Which of the following is true about Sequential Control Structures?",
+                        "options": [
+                            "1) They only allow single lines of code to be executed.",
+                            "2) They rely on user input for execution order.",
+                            "4) They are only used in complex programs.",
+                            "3) They execute statements one after another without interruption."
+                        ],
+                        "explanation": "Sequential Control Structures execute each statement in the order they are written, allowing multiple lines of code to be executed one after another without interruption.",
+                        "answer": "3) They execute statements one after another without interruption."
+                    },
+                    {
+                        "question": "In what scenario would you likely prefer using a switch statement?",
+                        "options": [
+                            "2) When there are multiple discrete values to evaluate.",
+                            "4) When you want to repeat a code block until a condition is false.",
+                            "1) When you have only two conditions to check.",
+                            "3) When you need to execute a simple sequence of operations."
+                        ],
+                        "explanation": "Switch statements are preferred when there are many discrete values to evaluate, providing a more organized way to handle multiple conditions than multiple if statements.",
+                        "answer": "2) When there are multiple discrete values to evaluate."
+                    },
+                    {
+                        "question": "When does a 'for loop' terminate?",
+                        "options": [
+                            "1) Once it has iterated through all items in its sequence.",
+                            "3) When it reaches a predefined variable limit defined within an if statement.",
+                            "4) It runs indefinitely until manually stopped.",
+                            "2) As soon as the condition within the loop becomes false."
+                        ],
+                        "explanation": "A 'for loop' terminates once it has iterated through all items in the specified range, allowing for controlled repetition based on a sequence.",
+                        "answer": "1) Once it has iterated through all items in its sequence."
+                    },
+                    {
+                        "question": "Which of the following best describes the use of Nested Ifs?",
+                        "options": [
+                            "3) To replace the need for loops in programming.",
+                            "1) To execute one set of statements without evaluating any condition.",
+                            "4) To define sequences of actions that always execute.",
+                            "2) To place one 'if' statement inside another to evaluate complex conditions."
+                        ],
+                        "explanation": "Nested Ifs allow for more complex decision-making by enabling one 'if' statement to reside within another, enabling multiple layers of condition evaluation.",
+                        "answer": "2) To place one 'if' statement inside another to evaluate complex conditions."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 40.0,
+                "wrong_answers": [
+                    0,
+                    2,
+                    3,
+                    5,
+                    7,
+                    8
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What characterizes Sequential Control Structures?",
+                        "options": [
+                            "1) They execute statements in the order they appear.",
+                            "2) They allow for multiple branching paths based on conditions.",
+                            "4) They create loops that repeat code until conditions are met.",
+                            "3) They only execute code if a certain condition is true."
+                        ],
+                        "explanation": "Sequential Control Structures execute statements in the exact order they appear in the code, making them the most straightforward control structure.",
+                        "answer": "1) They execute statements in the order they appear."
+                    },
+                    {
+                        "question": "In Selection Control Structures, what do 'if' statements typically do?",
+                        "options": [
+                            "2) Execute a code block for every condition without stopping.",
+                            "4) Define variables to store values.",
+                            "1) Run code based on the time of day.",
+                            "3) Make decisions and execute code based on whether conditions are true or false."
+                        ],
+                        "explanation": "'If' statements in Selection Control Structures check conditions and execute specific code blocks based on whether those conditions are true or false.",
+                        "answer": "3) Make decisions and execute code based on whether conditions are true or false."
+                    },
+                    {
+                        "question": "What is the structure used to handle multiple conditions more neatly instead of using multiple if statements?",
+                        "options": [
+                            "4) For Loops",
+                            "2) If-Else Statements",
+                            "3) Switch Statements",
+                            "1) Conditional Statements"
+                        ],
+                        "explanation": "Switch Statements provide a cleaner and more organized way to handle multiple conditions by allowing the selection of one among many code blocks.",
+                        "answer": "3) Switch Statements"
+                    },
+                    {
+                        "question": "Which of the following describes a 'while loop'?",
+                        "options": [
+                            "1) It executes a block of code a fixed number of times.",
+                            "3) It is used for iterating through a list or a range.",
+                            "4) It skips the execution of code under certain conditions.",
+                            "2) It repeats as long as a given condition remains true."
+                        ],
+                        "explanation": "A 'while loop' continues to execute a block of code as long as its condition remains true, allowing for indefinite iterations based on conditions.",
+                        "answer": "2) It repeats as long as a given condition remains true."
+                    },
+                    {
+                        "question": "What happens when a condition in a nested if statement evaluates to false?",
+                        "options": [
+                            "2) The nested if statements are ignored completely.",
+                            "3) The next condition in the outer if statement is evaluated.",
+                            "1) The entire program stops executing.",
+                            "4) The program loops back to the start of the nested ifs."
+                        ],
+                        "explanation": "When a condition in a nested if statement evaluates to false, the program evaluates the next condition in the outer if statement and continues execution from there.",
+                        "answer": "3) The next condition in the outer if statement is evaluated."
+                    },
+                    {
+                        "question": "What is the primary function of a 'for loop'?",
+                        "options": [
+                            "3) To conditionally execute code.",
+                            "1) To validate user input.",
+                            "2) To iterate over a collection of items.",
+                            "4) To define static variables."
+                        ],
+                        "explanation": "A 'for loop' is primarily used to iterate over a sequence, executing a block of code for each item in that sequence.",
+                        "answer": "2) To iterate over a collection of items."
+                    },
+                    {
+                        "question": "Which of the following is true about Sequential Control Structures?",
+                        "options": [
+                            "1) They only allow single lines of code to be executed.",
+                            "2) They rely on user input for execution order.",
+                            "4) They are only used in complex programs.",
+                            "3) They execute statements one after another without interruption."
+                        ],
+                        "explanation": "Sequential Control Structures execute each statement in the order they are written, allowing multiple lines of code to be executed one after another without interruption.",
+                        "answer": "3) They execute statements one after another without interruption."
+                    },
+                    {
+                        "question": "In what scenario would you likely prefer using a switch statement?",
+                        "options": [
+                            "2) When there are multiple discrete values to evaluate.",
+                            "4) When you want to repeat a code block until a condition is false.",
+                            "1) When you have only two conditions to check.",
+                            "3) When you need to execute a simple sequence of operations."
+                        ],
+                        "explanation": "Switch statements are preferred when there are many discrete values to evaluate, providing a more organized way to handle multiple conditions than multiple if statements.",
+                        "answer": "2) When there are multiple discrete values to evaluate."
+                    },
+                    {
+                        "question": "When does a 'for loop' terminate?",
+                        "options": [
+                            "1) Once it has iterated through all items in its sequence.",
+                            "3) When it reaches a predefined variable limit defined within an if statement.",
+                            "4) It runs indefinitely until manually stopped.",
+                            "2) As soon as the condition within the loop becomes false."
+                        ],
+                        "explanation": "A 'for loop' terminates once it has iterated through all items in the specified range, allowing for controlled repetition based on a sequence.",
+                        "answer": "1) Once it has iterated through all items in its sequence."
+                    },
+                    {
+                        "question": "Which of the following best describes the use of Nested Ifs?",
+                        "options": [
+                            "3) To replace the need for loops in programming.",
+                            "1) To execute one set of statements without evaluating any condition.",
+                            "4) To define sequences of actions that always execute.",
+                            "2) To place one 'if' statement inside another to evaluate complex conditions."
+                        ],
+                        "explanation": "Nested Ifs allow for more complex decision-making by enabling one 'if' statement to reside within another, enabling multiple layers of condition evaluation.",
+                        "answer": "2) To place one 'if' statement inside another to evaluate complex conditions."
+                    }
+                ]
+            }
+        ],
+        "English": [
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    5
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What are the two types of themes mentioned in the lecture?",
+                        "options": [
+                            "4) Realistic and fantastical",
+                            "2) Major and minor",
+                            "1) Explicit and implicit",
+                            "3) Primary and secondary"
+                        ],
+                        "explanation": "The lecture discusses 'explicit' and 'implicit' themes as the two types of themes in literature, where explicit themes are clearly stated, while implicit themes require interpretation.",
+                        "answer": "1) Explicit and implicit"
+                    },
+                    {
+                        "question": "In the context of literature, how can understanding themes be beneficial?",
+                        "options": [
+                            "2) It helps relate stories to personal human experiences",
+                            "3) It clarifies the plot structure",
+                            "1) It enhances vocabulary knowledge",
+                            "4) It focuses solely on character development"
+                        ],
+                        "explanation": "The lecture emphasizes that understanding themes helps readers understand the human experience and analyze the author's perspective and societal context.",
+                        "answer": "2) It helps relate stories to personal human experiences"
+                    },
+                    {
+                        "question": "Which of the following best describes the role of the setting in a narrative?",
+                        "options": [
+                            "4) It determines the genre of the work",
+                            "2) It creates conflicts",
+                            "3) It influences the mood and tone of the story",
+                            "1) It introduces characters"
+                        ],
+                        "explanation": "The setting plays a crucial role in establishing the mood and tone of the work, influencing how characters interact and face challenges.",
+                        "answer": "3) It influences the mood and tone of the story"
+                    },
+                    {
+                        "question": "How does the setting relate to the theme of a story according to the lecture?",
+                        "options": [
+                            "4) The setting provides the plot's resolution",
+                            "3) The setting is independent of the theme",
+                            "1) The setting develops characters",
+                            "2) The setting and theme are often interrelated and can complement each other"
+                        ],
+                        "explanation": "The lecture highlights that the setting and theme are interconnected; for instance, a theme of isolation is reinforced by a desolate setting.",
+                        "answer": "2) The setting and theme are often interrelated and can complement each other"
+                    },
+                    {
+                        "question": "Which theme is associated with 'The Great Gatsby' as described in the lecture?",
+                        "options": [
+                            "2) American Dream",
+                            "4) Loyalty",
+                            "3) Friendship",
+                            "1) Isolation"
+                        ],
+                        "explanation": "The lecture references 'The Great Gatsby' in context with themes like the American Dream and disillusionment that emerge from the characters' experiences within the setting.",
+                        "answer": "2) American Dream"
+                    },
+                    {
+                        "question": "What literary device did the lecture mention in terms of revealing themes within a story?",
+                        "options": [
+                            "2) Dialogue",
+                            "1) Foreshadowing",
+                            "3) Metaphor",
+                            "4) Irony"
+                        ],
+                        "explanation": "The lecture indicates that literary symbolism introduces deeper themes tied to objects or actions within a story's setting.",
+                        "answer": "2) Dialogue"
+                    },
+                    {
+                        "question": "Why is it important to take notes while reading a literary work?",
+                        "options": [
+                            "4) To critique the author's writing style",
+                            "1) To summarize the plot",
+                            "2) To prioritize character analysis",
+                            "3) To identify the central message and setting"
+                        ],
+                        "explanation": "Taking notes helps in identifying the story\u2019s central message (theme) and its physical and temporal aspects (setting), aiding deeper literary analysis.",
+                        "answer": "3) To identify the central message and setting"
+                    },
+                    {
+                        "question": "How do authors use imagery according to the lecture?",
+                        "options": [
+                            "1) To create characters",
+                            "4) To establish narrative voice",
+                            "2) To develop themes",
+                            "3) To enhance the setting of a literary work"
+                        ],
+                        "explanation": "Imagery is used by authors to create vivid sensory experiences that enhance the reader's understanding of the setting in a work of literature.",
+                        "answer": "3) To enhance the setting of a literary work"
+                    },
+                    {
+                        "question": "What should readers pay attention to when identifying themes in literature?",
+                        "options": [
+                            "3) Relationship between literary devices and themes",
+                            "2) Cultural symbols",
+                            "1) Published reviews",
+                            "4) Character backgrounds"
+                        ],
+                        "explanation": "The lecture stresses the importance of noticing how literary devices contribute to revealing themes, which leads readers towards a richer interpretation.",
+                        "answer": "3) Relationship between literary devices and themes"
+                    },
+                    {
+                        "question": "What significant aspect does the setting provide in a narrative?",
+                        "options": [
+                            "3) Creates an emotional resolution",
+                            "4) Introduces primary conflict",
+                            "1) Determines character fates",
+                            "2) Sets the backdrop for character actions and influences plot progression"
+                        ],
+                        "explanation": "The setting establishes a backdrop for character actions, significantly influencing the overall plot progression and clarity of the narrative.",
+                        "answer": "2) Sets the backdrop for character actions and influences plot progression"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What are the two types of themes mentioned in the lecture?",
+                        "options": [
+                            "4) Realistic and fantastical",
+                            "2) Major and minor",
+                            "1) Explicit and implicit",
+                            "3) Primary and secondary"
+                        ],
+                        "explanation": "The lecture discusses 'explicit' and 'implicit' themes as the two types of themes in literature, where explicit themes are clearly stated, while implicit themes require interpretation.",
+                        "answer": "1) Explicit and implicit"
+                    },
+                    {
+                        "question": "In the context of literature, how can understanding themes be beneficial?",
+                        "options": [
+                            "2) It helps relate stories to personal human experiences",
+                            "3) It clarifies the plot structure",
+                            "1) It enhances vocabulary knowledge",
+                            "4) It focuses solely on character development"
+                        ],
+                        "explanation": "The lecture emphasizes that understanding themes helps readers understand the human experience and analyze the author's perspective and societal context.",
+                        "answer": "2) It helps relate stories to personal human experiences"
+                    },
+                    {
+                        "question": "Which of the following best describes the role of the setting in a narrative?",
+                        "options": [
+                            "4) It determines the genre of the work",
+                            "2) It creates conflicts",
+                            "3) It influences the mood and tone of the story",
+                            "1) It introduces characters"
+                        ],
+                        "explanation": "The setting plays a crucial role in establishing the mood and tone of the work, influencing how characters interact and face challenges.",
+                        "answer": "3) It influences the mood and tone of the story"
+                    },
+                    {
+                        "question": "How does the setting relate to the theme of a story according to the lecture?",
+                        "options": [
+                            "4) The setting provides the plot's resolution",
+                            "3) The setting is independent of the theme",
+                            "1) The setting develops characters",
+                            "2) The setting and theme are often interrelated and can complement each other"
+                        ],
+                        "explanation": "The lecture highlights that the setting and theme are interconnected; for instance, a theme of isolation is reinforced by a desolate setting.",
+                        "answer": "2) The setting and theme are often interrelated and can complement each other"
+                    },
+                    {
+                        "question": "Which theme is associated with 'The Great Gatsby' as described in the lecture?",
+                        "options": [
+                            "2) American Dream",
+                            "4) Loyalty",
+                            "3) Friendship",
+                            "1) Isolation"
+                        ],
+                        "explanation": "The lecture references 'The Great Gatsby' in context with themes like the American Dream and disillusionment that emerge from the characters' experiences within the setting.",
+                        "answer": "2) American Dream"
+                    },
+                    {
+                        "question": "What literary device did the lecture mention in terms of revealing themes within a story?",
+                        "options": [
+                            "2) Dialogue",
+                            "1) Foreshadowing",
+                            "3) Metaphor",
+                            "4) Irony"
+                        ],
+                        "explanation": "The lecture indicates that literary symbolism introduces deeper themes tied to objects or actions within a story's setting.",
+                        "answer": "2) Dialogue"
+                    },
+                    {
+                        "question": "Why is it important to take notes while reading a literary work?",
+                        "options": [
+                            "4) To critique the author's writing style",
+                            "1) To summarize the plot",
+                            "2) To prioritize character analysis",
+                            "3) To identify the central message and setting"
+                        ],
+                        "explanation": "Taking notes helps in identifying the story\u2019s central message (theme) and its physical and temporal aspects (setting), aiding deeper literary analysis.",
+                        "answer": "3) To identify the central message and setting"
+                    },
+                    {
+                        "question": "How do authors use imagery according to the lecture?",
+                        "options": [
+                            "1) To create characters",
+                            "4) To establish narrative voice",
+                            "2) To develop themes",
+                            "3) To enhance the setting of a literary work"
+                        ],
+                        "explanation": "Imagery is used by authors to create vivid sensory experiences that enhance the reader's understanding of the setting in a work of literature.",
+                        "answer": "3) To enhance the setting of a literary work"
+                    },
+                    {
+                        "question": "What should readers pay attention to when identifying themes in literature?",
+                        "options": [
+                            "3) Relationship between literary devices and themes",
+                            "2) Cultural symbols",
+                            "1) Published reviews",
+                            "4) Character backgrounds"
+                        ],
+                        "explanation": "The lecture stresses the importance of noticing how literary devices contribute to revealing themes, which leads readers towards a richer interpretation.",
+                        "answer": "3) Relationship between literary devices and themes"
+                    },
+                    {
+                        "question": "What significant aspect does the setting provide in a narrative?",
+                        "options": [
+                            "3) Creates an emotional resolution",
+                            "4) Introduces primary conflict",
+                            "1) Determines character fates",
+                            "2) Sets the backdrop for character actions and influences plot progression"
+                        ],
+                        "explanation": "The setting establishes a backdrop for character actions, significantly influencing the overall plot progression and clarity of the narrative.",
+                        "answer": "2) Sets the backdrop for character actions and influences plot progression"
+                    }
+                ]
+            }
+        ],
+        "Science": [
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    0,
+                    3,
+                    5,
+                    9
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What does the atomic number of an element correspond to?",
+                        "options": [
+                            "4) The atomic weight",
+                            "3) The number of electrons",
+                            "1) The number of neutrons",
+                            "2) The number of protons"
+                        ],
+                        "explanation": "The atomic number signifies the number of protons in an element's nucleus and determines its identity.",
+                        "answer": "2) The number of protons"
+                    },
+                    {
+                        "question": "In which group of the periodic table are noble gases found?",
+                        "options": [
+                            "4) Group 18",
+                            "3) Group 17",
+                            "1) Group 1",
+                            "2) Group 2"
+                        ],
+                        "explanation": "Noble gases are located in Group 18 of the periodic table, known for their full outer electron shells and low reactivity.",
+                        "answer": "4) Group 18"
+                    },
+                    {
+                        "question": "What is one of the characteristics of alkali metals found in Group 1?",
+                        "options": [
+                            "4) They are noble gases",
+                            "1) They are highly stable",
+                            "3) They are highly reactive",
+                            "2) They have two electrons in their outer shell"
+                        ],
+                        "explanation": "Alkali metals, which are found in Group 1, are known for being highly reactive due to having one electron in their outer shell.",
+                        "answer": "3) They are highly reactive"
+                    },
+                    {
+                        "question": "How does electronegativity change as you move across a period in the periodic table?",
+                        "options": [
+                            "2) It remains constant",
+                            "1) It decreases",
+                            "3) It increases",
+                            "4) There is no trend"
+                        ],
+                        "explanation": "Electronegativity generally increases across a period due to the increasing nuclear charge which attracts the electrons more strongly.",
+                        "answer": "3) It increases"
+                    },
+                    {
+                        "question": "What occurs when an element gains electrons?",
+                        "options": [
+                            "3) It interacts violently",
+                            "1) It forms a cation",
+                            "2) It forms an anion",
+                            "4) It becomes a noble gas"
+                        ],
+                        "explanation": "When an element gains electrons, it becomes negatively charged and forms an anion.",
+                        "answer": "2) It forms an anion"
+                    },
+                    {
+                        "question": "Which statement is correct regarding atomic size trends in the periodic table?",
+                        "options": [
+                            "3) Atomic size decreases across a period",
+                            "2) Atomic size increases across a period",
+                            "4) Atomic size remains unchanged",
+                            "1) Atomic size decreases down a group"
+                        ],
+                        "explanation": "Atomic size decreases across a period due to increased nuclear charge pulling electrons closer to the nucleus.",
+                        "answer": "3) Atomic size decreases across a period"
+                    },
+                    {
+                        "question": "Which block of the periodic table contains the transition metals?",
+                        "options": [
+                            "3) d-block",
+                            "1) s-block",
+                            "4) f-block",
+                            "2) p-block"
+                        ],
+                        "explanation": "The transition metals are found in the d-block of the periodic table, characterized by varying oxidation states.",
+                        "answer": "3) d-block"
+                    },
+                    {
+                        "question": "What does the concept of reactivity mainly describe in the context of elements?",
+                        "options": [
+                            "1) The ability to form ions",
+                            "4) The order of elements in the table",
+                            "2) The ability to attract electrons",
+                            "3) The tendency to undergo chemical reactions"
+                        ],
+                        "explanation": "Reactivity refers to how likely an element is to participate in chemical reactions, influenced by its electron configuration.",
+                        "answer": "3) The tendency to undergo chemical reactions"
+                    },
+                    {
+                        "question": "Which of the following elements has the highest electronegativity?",
+                        "options": [
+                            "3) Oxygen",
+                            "2) Cesium",
+                            "4) Sodium",
+                            "1) Fluorine"
+                        ],
+                        "explanation": "Fluorine is the most electronegative element, making it very efficient at attracting electrons from other atoms.",
+                        "answer": "1) Fluorine"
+                    },
+                    {
+                        "question": "What is the main characteristic of the f-block elements?",
+                        "options": [
+                            "4) They display no oxidation states",
+                            "2) They include the lanthanides and actinides",
+                            "3) They have full outer electron shells",
+                            "1) They are located at the top of the periodic table"
+                        ],
+                        "explanation": "The f-block elements consist of the lanthanides and actinides, which usually appear below the main body of the periodic table.",
+                        "answer": "2) They include the lanthanides and actinides"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 70.0,
+                "wrong_answers": [
+                    0,
+                    3,
+                    5
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What does the atomic number of an element correspond to?",
+                        "options": [
+                            "4) The atomic weight",
+                            "3) The number of electrons",
+                            "1) The number of neutrons",
+                            "2) The number of protons"
+                        ],
+                        "explanation": "The atomic number signifies the number of protons in an element's nucleus and determines its identity.",
+                        "answer": "2) The number of protons"
+                    },
+                    {
+                        "question": "In which group of the periodic table are noble gases found?",
+                        "options": [
+                            "4) Group 18",
+                            "3) Group 17",
+                            "1) Group 1",
+                            "2) Group 2"
+                        ],
+                        "explanation": "Noble gases are located in Group 18 of the periodic table, known for their full outer electron shells and low reactivity.",
+                        "answer": "4) Group 18"
+                    },
+                    {
+                        "question": "What is one of the characteristics of alkali metals found in Group 1?",
+                        "options": [
+                            "4) They are noble gases",
+                            "1) They are highly stable",
+                            "3) They are highly reactive",
+                            "2) They have two electrons in their outer shell"
+                        ],
+                        "explanation": "Alkali metals, which are found in Group 1, are known for being highly reactive due to having one electron in their outer shell.",
+                        "answer": "3) They are highly reactive"
+                    },
+                    {
+                        "question": "How does electronegativity change as you move across a period in the periodic table?",
+                        "options": [
+                            "2) It remains constant",
+                            "1) It decreases",
+                            "3) It increases",
+                            "4) There is no trend"
+                        ],
+                        "explanation": "Electronegativity generally increases across a period due to the increasing nuclear charge which attracts the electrons more strongly.",
+                        "answer": "3) It increases"
+                    },
+                    {
+                        "question": "What occurs when an element gains electrons?",
+                        "options": [
+                            "3) It interacts violently",
+                            "1) It forms a cation",
+                            "2) It forms an anion",
+                            "4) It becomes a noble gas"
+                        ],
+                        "explanation": "When an element gains electrons, it becomes negatively charged and forms an anion.",
+                        "answer": "2) It forms an anion"
+                    },
+                    {
+                        "question": "Which statement is correct regarding atomic size trends in the periodic table?",
+                        "options": [
+                            "3) Atomic size decreases across a period",
+                            "2) Atomic size increases across a period",
+                            "4) Atomic size remains unchanged",
+                            "1) Atomic size decreases down a group"
+                        ],
+                        "explanation": "Atomic size decreases across a period due to increased nuclear charge pulling electrons closer to the nucleus.",
+                        "answer": "3) Atomic size decreases across a period"
+                    },
+                    {
+                        "question": "Which block of the periodic table contains the transition metals?",
+                        "options": [
+                            "3) d-block",
+                            "1) s-block",
+                            "4) f-block",
+                            "2) p-block"
+                        ],
+                        "explanation": "The transition metals are found in the d-block of the periodic table, characterized by varying oxidation states.",
+                        "answer": "3) d-block"
+                    },
+                    {
+                        "question": "What does the concept of reactivity mainly describe in the context of elements?",
+                        "options": [
+                            "1) The ability to form ions",
+                            "4) The order of elements in the table",
+                            "2) The ability to attract electrons",
+                            "3) The tendency to undergo chemical reactions"
+                        ],
+                        "explanation": "Reactivity refers to how likely an element is to participate in chemical reactions, influenced by its electron configuration.",
+                        "answer": "3) The tendency to undergo chemical reactions"
+                    },
+                    {
+                        "question": "Which of the following elements has the highest electronegativity?",
+                        "options": [
+                            "3) Oxygen",
+                            "2) Cesium",
+                            "4) Sodium",
+                            "1) Fluorine"
+                        ],
+                        "explanation": "Fluorine is the most electronegative element, making it very efficient at attracting electrons from other atoms.",
+                        "answer": "1) Fluorine"
+                    },
+                    {
+                        "question": "What is the main characteristic of the f-block elements?",
+                        "options": [
+                            "4) They display no oxidation states",
+                            "2) They include the lanthanides and actinides",
+                            "3) They have full outer electron shells",
+                            "1) They are located at the top of the periodic table"
+                        ],
+                        "explanation": "The f-block elements consist of the lanthanides and actinides, which usually appear below the main body of the periodic table.",
+                        "answer": "2) They include the lanthanides and actinides"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    0,
+                    3
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What does the atomic number of an element correspond to?",
+                        "options": [
+                            "4) The atomic weight",
+                            "3) The number of electrons",
+                            "1) The number of neutrons",
+                            "2) The number of protons"
+                        ],
+                        "explanation": "The atomic number signifies the number of protons in an element's nucleus and determines its identity.",
+                        "answer": "2) The number of protons"
+                    },
+                    {
+                        "question": "In which group of the periodic table are noble gases found?",
+                        "options": [
+                            "4) Group 18",
+                            "3) Group 17",
+                            "1) Group 1",
+                            "2) Group 2"
+                        ],
+                        "explanation": "Noble gases are located in Group 18 of the periodic table, known for their full outer electron shells and low reactivity.",
+                        "answer": "4) Group 18"
+                    },
+                    {
+                        "question": "What is one of the characteristics of alkali metals found in Group 1?",
+                        "options": [
+                            "4) They are noble gases",
+                            "1) They are highly stable",
+                            "3) They are highly reactive",
+                            "2) They have two electrons in their outer shell"
+                        ],
+                        "explanation": "Alkali metals, which are found in Group 1, are known for being highly reactive due to having one electron in their outer shell.",
+                        "answer": "3) They are highly reactive"
+                    },
+                    {
+                        "question": "How does electronegativity change as you move across a period in the periodic table?",
+                        "options": [
+                            "2) It remains constant",
+                            "1) It decreases",
+                            "3) It increases",
+                            "4) There is no trend"
+                        ],
+                        "explanation": "Electronegativity generally increases across a period due to the increasing nuclear charge which attracts the electrons more strongly.",
+                        "answer": "3) It increases"
+                    },
+                    {
+                        "question": "What occurs when an element gains electrons?",
+                        "options": [
+                            "3) It interacts violently",
+                            "1) It forms a cation",
+                            "2) It forms an anion",
+                            "4) It becomes a noble gas"
+                        ],
+                        "explanation": "When an element gains electrons, it becomes negatively charged and forms an anion.",
+                        "answer": "2) It forms an anion"
+                    },
+                    {
+                        "question": "Which statement is correct regarding atomic size trends in the periodic table?",
+                        "options": [
+                            "3) Atomic size decreases across a period",
+                            "2) Atomic size increases across a period",
+                            "4) Atomic size remains unchanged",
+                            "1) Atomic size decreases down a group"
+                        ],
+                        "explanation": "Atomic size decreases across a period due to increased nuclear charge pulling electrons closer to the nucleus.",
+                        "answer": "3) Atomic size decreases across a period"
+                    },
+                    {
+                        "question": "Which block of the periodic table contains the transition metals?",
+                        "options": [
+                            "3) d-block",
+                            "1) s-block",
+                            "4) f-block",
+                            "2) p-block"
+                        ],
+                        "explanation": "The transition metals are found in the d-block of the periodic table, characterized by varying oxidation states.",
+                        "answer": "3) d-block"
+                    },
+                    {
+                        "question": "What does the concept of reactivity mainly describe in the context of elements?",
+                        "options": [
+                            "1) The ability to form ions",
+                            "4) The order of elements in the table",
+                            "2) The ability to attract electrons",
+                            "3) The tendency to undergo chemical reactions"
+                        ],
+                        "explanation": "Reactivity refers to how likely an element is to participate in chemical reactions, influenced by its electron configuration.",
+                        "answer": "3) The tendency to undergo chemical reactions"
+                    },
+                    {
+                        "question": "Which of the following elements has the highest electronegativity?",
+                        "options": [
+                            "3) Oxygen",
+                            "2) Cesium",
+                            "4) Sodium",
+                            "1) Fluorine"
+                        ],
+                        "explanation": "Fluorine is the most electronegative element, making it very efficient at attracting electrons from other atoms.",
+                        "answer": "1) Fluorine"
+                    },
+                    {
+                        "question": "What is the main characteristic of the f-block elements?",
+                        "options": [
+                            "4) They display no oxidation states",
+                            "2) They include the lanthanides and actinides",
+                            "3) They have full outer electron shells",
+                            "1) They are located at the top of the periodic table"
+                        ],
+                        "explanation": "The f-block elements consist of the lanthanides and actinides, which usually appear below the main body of the periodic table.",
+                        "answer": "2) They include the lanthanides and actinides"
+                    }
+                ]
+            }
+        ],
+        "Texas History": [
+            {
+                "quiz_grade": 40.0,
+                "wrong_answers": [
+                    0,
+                    2,
+                    6,
+                    7,
+                    8,
+                    9
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What was one of the main Native American tribes known for resisting European encroachment in Texas?",
+                        "options": [
+                            "3) Sioux",
+                            "4) Navajo",
+                            "1) Apache",
+                            "2) Cherokee"
+                        ],
+                        "explanation": "The Apache tribe was one of the primary groups known for their resistance against European settlers in Texas, exhibiting fierce opposition to encroachments on their territory.",
+                        "answer": "1) Apache"
+                    },
+                    {
+                        "question": "Which European nation was the first to explore Texas in the 18th century?",
+                        "options": [
+                            "1) France",
+                            "2) Spain",
+                            "3) Portugal",
+                            "4) England"
+                        ],
+                        "explanation": "Spain was the first European nation to explore Texas, establishing missions and settlements that aimed to convert Native Americans.",
+                        "answer": "2) Spain"
+                    },
+                    {
+                        "question": "What event led to a Texian response involving a militia against the Comanche?",
+                        "options": [
+                            "4) The establishment of reservations",
+                            "2) The Battle of Medina",
+                            "3) Indian raids on Texian settlements",
+                            "1) The Texas Revolution"
+                        ],
+                        "explanation": "The Texas settlers organized a militia in response to raids by the Comanche on Texian settlements, which led to the Battle of Plum Creek.",
+                        "answer": "3) Indian raids on Texian settlements"
+                    },
+                    {
+                        "question": "During what conflict did U.S. Army General William Tecumseh Sherman lead campaigns against the Southern Plains tribes?",
+                        "options": [
+                            "4) The War of 1812",
+                            "2) The Texas Revolution",
+                            "3) The Red River War",
+                            "1) The Battle of Adobe Walls"
+                        ],
+                        "explanation": "The Red River War was the conflict during which General Sherman led campaigns against Southern Plains tribes, aimed at suppressing their resistance.",
+                        "answer": "3) The Red River War"
+                    },
+                    {
+                        "question": "What was the primary effect of U.S. government policies on Native American tribes after the annexation of Texas?",
+                        "options": [
+                            "4) Strengthening of tribal governments",
+                            "3) Forced relocations and establishment of reservations",
+                            "1) Preservation of their territories",
+                            "2) Establishment of treaties with tribes"
+                        ],
+                        "explanation": "U.S. government policies after the annexation often resulted in forced relocations and the establishment of reservations, drastically affecting Native American populations.",
+                        "answer": "3) Forced relocations and establishment of reservations"
+                    },
+                    {
+                        "question": "What pivotal role did the concept of Manifest Destiny play in the expansion into Texas?",
+                        "options": [
+                            "2) It justified territorial expansion at the expense of Native populations",
+                            "3) It promoted economic independence for Native Americans",
+                            "4) It led to the preservation of Native American culture",
+                            "1) It encouraged international treaties with Native tribes"
+                        ],
+                        "explanation": "Manifest Destiny was a doctrine that justified the expansion of the United States across the continent, often disregarding the rights of indigenous peoples.",
+                        "answer": "2) It justified territorial expansion at the expense of Native populations"
+                    },
+                    {
+                        "question": "What did the Battle of Plum Creek exemplify in terms of Texas history?",
+                        "options": [
+                            "4) The economic benefits of alliances",
+                            "2) The tension between settlers and Comanche",
+                            "1) The start of Texas independence",
+                            "3) The establishment of peace between tribes and settlers"
+                        ],
+                        "explanation": "The Battle of Plum Creek exemplified the ongoing tensions and conflicts between Texian settlers and the Comanche during the settlement period.",
+                        "answer": "2) The tension between settlers and Comanche"
+                    },
+                    {
+                        "question": "Which event highlighted the complexities of Native American tribes' allegiances during the Texas Revolution?",
+                        "options": [
+                            "1) The Battle of San Jacinto",
+                            "2) The Red River War",
+                            "3) The establishment of Texas as a republic",
+                            "4) The growing number of Anglo settlers"
+                        ],
+                        "explanation": "During the Texas Revolution, Native American tribes had to navigate their allegiances between the revolutionaries and Spanish authorities, showcasing their complex positioning.",
+                        "answer": "3) The establishment of Texas as a republic"
+                    },
+                    {
+                        "question": "What ongoing issue is related to the historical context of Native American conflicts in Texas?",
+                        "options": [
+                            "1) Economic prosperity of settlers",
+                            "4) Abandonment of traditional hunting practices",
+                            "2) Cultural preservation for Native communities",
+                            "3) International treaties with foreign countries"
+                        ],
+                        "explanation": "The historical conflicts and struggles faced by Native Americans in Texas continue to resonate today, particularly in their fight for cultural preservation and recognition.",
+                        "answer": "2) Cultural preservation for Native communities"
+                    },
+                    {
+                        "question": "What lasting impact did the westward expansion have on Native American communities in Texas?",
+                        "options": [
+                            "3) Strengthening of tribal sovereignty",
+                            "1) Enhancement of trading relationships",
+                            "4) Increased political power",
+                            "2) Loss of life, culture, and territory"
+                        ],
+                        "explanation": "The westward expansion led to a significant loss of life, culture, and territory for many Native American tribes, deeply affecting their communities.",
+                        "answer": "2) Loss of life, culture, and territory"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 50.0,
+                "wrong_answers": [
+                    0,
+                    2,
+                    6,
+                    7,
+                    8
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What was one of the main Native American tribes known for resisting European encroachment in Texas?",
+                        "options": [
+                            "3) Sioux",
+                            "4) Navajo",
+                            "1) Apache",
+                            "2) Cherokee"
+                        ],
+                        "explanation": "The Apache tribe was one of the primary groups known for their resistance against European settlers in Texas, exhibiting fierce opposition to encroachments on their territory.",
+                        "answer": "1) Apache"
+                    },
+                    {
+                        "question": "Which European nation was the first to explore Texas in the 18th century?",
+                        "options": [
+                            "1) France",
+                            "2) Spain",
+                            "3) Portugal",
+                            "4) England"
+                        ],
+                        "explanation": "Spain was the first European nation to explore Texas, establishing missions and settlements that aimed to convert Native Americans.",
+                        "answer": "2) Spain"
+                    },
+                    {
+                        "question": "What event led to a Texian response involving a militia against the Comanche?",
+                        "options": [
+                            "4) The establishment of reservations",
+                            "2) The Battle of Medina",
+                            "3) Indian raids on Texian settlements",
+                            "1) The Texas Revolution"
+                        ],
+                        "explanation": "The Texas settlers organized a militia in response to raids by the Comanche on Texian settlements, which led to the Battle of Plum Creek.",
+                        "answer": "3) Indian raids on Texian settlements"
+                    },
+                    {
+                        "question": "During what conflict did U.S. Army General William Tecumseh Sherman lead campaigns against the Southern Plains tribes?",
+                        "options": [
+                            "4) The War of 1812",
+                            "2) The Texas Revolution",
+                            "3) The Red River War",
+                            "1) The Battle of Adobe Walls"
+                        ],
+                        "explanation": "The Red River War was the conflict during which General Sherman led campaigns against Southern Plains tribes, aimed at suppressing their resistance.",
+                        "answer": "3) The Red River War"
+                    },
+                    {
+                        "question": "What was the primary effect of U.S. government policies on Native American tribes after the annexation of Texas?",
+                        "options": [
+                            "4) Strengthening of tribal governments",
+                            "3) Forced relocations and establishment of reservations",
+                            "1) Preservation of their territories",
+                            "2) Establishment of treaties with tribes"
+                        ],
+                        "explanation": "U.S. government policies after the annexation often resulted in forced relocations and the establishment of reservations, drastically affecting Native American populations.",
+                        "answer": "3) Forced relocations and establishment of reservations"
+                    },
+                    {
+                        "question": "What pivotal role did the concept of Manifest Destiny play in the expansion into Texas?",
+                        "options": [
+                            "2) It justified territorial expansion at the expense of Native populations",
+                            "3) It promoted economic independence for Native Americans",
+                            "4) It led to the preservation of Native American culture",
+                            "1) It encouraged international treaties with Native tribes"
+                        ],
+                        "explanation": "Manifest Destiny was a doctrine that justified the expansion of the United States across the continent, often disregarding the rights of indigenous peoples.",
+                        "answer": "2) It justified territorial expansion at the expense of Native populations"
+                    },
+                    {
+                        "question": "What did the Battle of Plum Creek exemplify in terms of Texas history?",
+                        "options": [
+                            "4) The economic benefits of alliances",
+                            "2) The tension between settlers and Comanche",
+                            "1) The start of Texas independence",
+                            "3) The establishment of peace between tribes and settlers"
+                        ],
+                        "explanation": "The Battle of Plum Creek exemplified the ongoing tensions and conflicts between Texian settlers and the Comanche during the settlement period.",
+                        "answer": "2) The tension between settlers and Comanche"
+                    },
+                    {
+                        "question": "Which event highlighted the complexities of Native American tribes' allegiances during the Texas Revolution?",
+                        "options": [
+                            "1) The Battle of San Jacinto",
+                            "2) The Red River War",
+                            "3) The establishment of Texas as a republic",
+                            "4) The growing number of Anglo settlers"
+                        ],
+                        "explanation": "During the Texas Revolution, Native American tribes had to navigate their allegiances between the revolutionaries and Spanish authorities, showcasing their complex positioning.",
+                        "answer": "3) The establishment of Texas as a republic"
+                    },
+                    {
+                        "question": "What ongoing issue is related to the historical context of Native American conflicts in Texas?",
+                        "options": [
+                            "1) Economic prosperity of settlers",
+                            "4) Abandonment of traditional hunting practices",
+                            "2) Cultural preservation for Native communities",
+                            "3) International treaties with foreign countries"
+                        ],
+                        "explanation": "The historical conflicts and struggles faced by Native Americans in Texas continue to resonate today, particularly in their fight for cultural preservation and recognition.",
+                        "answer": "2) Cultural preservation for Native communities"
+                    },
+                    {
+                        "question": "What lasting impact did the westward expansion have on Native American communities in Texas?",
+                        "options": [
+                            "3) Strengthening of tribal sovereignty",
+                            "1) Enhancement of trading relationships",
+                            "4) Increased political power",
+                            "2) Loss of life, culture, and territory"
+                        ],
+                        "explanation": "The westward expansion led to a significant loss of life, culture, and territory for many Native American tribes, deeply affecting their communities.",
+                        "answer": "2) Loss of life, culture, and territory"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    0,
+                    5,
+                    7,
+                    8
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What was one of the main Native American tribes known for resisting European encroachment in Texas?",
+                        "options": [
+                            "3) Sioux",
+                            "4) Navajo",
+                            "1) Apache",
+                            "2) Cherokee"
+                        ],
+                        "explanation": "The Apache tribe was one of the primary groups known for their resistance against European settlers in Texas, exhibiting fierce opposition to encroachments on their territory.",
+                        "answer": "1) Apache"
+                    },
+                    {
+                        "question": "Which European nation was the first to explore Texas in the 18th century?",
+                        "options": [
+                            "1) France",
+                            "2) Spain",
+                            "3) Portugal",
+                            "4) England"
+                        ],
+                        "explanation": "Spain was the first European nation to explore Texas, establishing missions and settlements that aimed to convert Native Americans.",
+                        "answer": "2) Spain"
+                    },
+                    {
+                        "question": "What event led to a Texian response involving a militia against the Comanche?",
+                        "options": [
+                            "4) The establishment of reservations",
+                            "2) The Battle of Medina",
+                            "3) Indian raids on Texian settlements",
+                            "1) The Texas Revolution"
+                        ],
+                        "explanation": "The Texas settlers organized a militia in response to raids by the Comanche on Texian settlements, which led to the Battle of Plum Creek.",
+                        "answer": "3) Indian raids on Texian settlements"
+                    },
+                    {
+                        "question": "During what conflict did U.S. Army General William Tecumseh Sherman lead campaigns against the Southern Plains tribes?",
+                        "options": [
+                            "4) The War of 1812",
+                            "2) The Texas Revolution",
+                            "3) The Red River War",
+                            "1) The Battle of Adobe Walls"
+                        ],
+                        "explanation": "The Red River War was the conflict during which General Sherman led campaigns against Southern Plains tribes, aimed at suppressing their resistance.",
+                        "answer": "3) The Red River War"
+                    },
+                    {
+                        "question": "What was the primary effect of U.S. government policies on Native American tribes after the annexation of Texas?",
+                        "options": [
+                            "4) Strengthening of tribal governments",
+                            "3) Forced relocations and establishment of reservations",
+                            "1) Preservation of their territories",
+                            "2) Establishment of treaties with tribes"
+                        ],
+                        "explanation": "U.S. government policies after the annexation often resulted in forced relocations and the establishment of reservations, drastically affecting Native American populations.",
+                        "answer": "3) Forced relocations and establishment of reservations"
+                    },
+                    {
+                        "question": "What pivotal role did the concept of Manifest Destiny play in the expansion into Texas?",
+                        "options": [
+                            "2) It justified territorial expansion at the expense of Native populations",
+                            "3) It promoted economic independence for Native Americans",
+                            "4) It led to the preservation of Native American culture",
+                            "1) It encouraged international treaties with Native tribes"
+                        ],
+                        "explanation": "Manifest Destiny was a doctrine that justified the expansion of the United States across the continent, often disregarding the rights of indigenous peoples.",
+                        "answer": "2) It justified territorial expansion at the expense of Native populations"
+                    },
+                    {
+                        "question": "What did the Battle of Plum Creek exemplify in terms of Texas history?",
+                        "options": [
+                            "4) The economic benefits of alliances",
+                            "2) The tension between settlers and Comanche",
+                            "1) The start of Texas independence",
+                            "3) The establishment of peace between tribes and settlers"
+                        ],
+                        "explanation": "The Battle of Plum Creek exemplified the ongoing tensions and conflicts between Texian settlers and the Comanche during the settlement period.",
+                        "answer": "2) The tension between settlers and Comanche"
+                    },
+                    {
+                        "question": "Which event highlighted the complexities of Native American tribes' allegiances during the Texas Revolution?",
+                        "options": [
+                            "1) The Battle of San Jacinto",
+                            "2) The Red River War",
+                            "3) The establishment of Texas as a republic",
+                            "4) The growing number of Anglo settlers"
+                        ],
+                        "explanation": "During the Texas Revolution, Native American tribes had to navigate their allegiances between the revolutionaries and Spanish authorities, showcasing their complex positioning.",
+                        "answer": "3) The establishment of Texas as a republic"
+                    },
+                    {
+                        "question": "What ongoing issue is related to the historical context of Native American conflicts in Texas?",
+                        "options": [
+                            "1) Economic prosperity of settlers",
+                            "4) Abandonment of traditional hunting practices",
+                            "2) Cultural preservation for Native communities",
+                            "3) International treaties with foreign countries"
+                        ],
+                        "explanation": "The historical conflicts and struggles faced by Native Americans in Texas continue to resonate today, particularly in their fight for cultural preservation and recognition.",
+                        "answer": "2) Cultural preservation for Native communities"
+                    },
+                    {
+                        "question": "What lasting impact did the westward expansion have on Native American communities in Texas?",
+                        "options": [
+                            "3) Strengthening of tribal sovereignty",
+                            "1) Enhancement of trading relationships",
+                            "4) Increased political power",
+                            "2) Loss of life, culture, and territory"
+                        ],
+                        "explanation": "The westward expansion led to a significant loss of life, culture, and territory for many Native American tribes, deeply affecting their communities.",
+                        "answer": "2) Loss of life, culture, and territory"
+                    }
+                ]
+            }
+        ],
+        "The Evolution of Faith": [
+            {
+                "quiz_grade": 70.0,
+                "wrong_answers": [
+                    1,
+                    4,
+                    9
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "Which ancient civilization is known for its polytheistic beliefs with deities such as Ra and Isis?",
+                        "options": [
+                            "1) Ancient Greece",
+                            "3) Zoroastrianism",
+                            "4) Hinduism",
+                            "2) Ancient Egypt"
+                        ],
+                        "explanation": "Ancient Egypt had a rich tradition of polytheism with a pantheon of gods, each overseeing different aspects of life and nature like Ra, Osiris, and Isis.",
+                        "answer": "2) Ancient Egypt"
+                    },
+                    {
+                        "question": "What is the Rigveda known for in the context of ancient religions?",
+                        "options": [
+                            "2) It is one of the oldest sacred texts of Hinduism.",
+                            "1) It is a sacred text of Ancient Greek Religion.",
+                            "4) It outlines Zoroastrian teachings on good and evil.",
+                            "3) It is a compilation of myths and stories in Egyptian religion."
+                        ],
+                        "explanation": "The Rigveda is one of the oldest known sacred texts in Hinduism, containing hymns and philosophical discussions that reflect early spiritual traditions.",
+                        "answer": "2) It is one of the oldest sacred texts of Hinduism."
+                    },
+                    {
+                        "question": "What aspect of rituals did the Ancient Greeks incorporate into events like the Olympics?",
+                        "options": [
+                            "3) They discouraged public gatherings.",
+                            "1) They were solely for athletic competition.",
+                            "2) They honored the gods during religious festivals.",
+                            "4) They were entirely separate from religious practices."
+                        ],
+                        "explanation": "The Ancient Greeks used the Olympics as not just sports events but also as religious festivals honoring their gods, blending sport and spirituality.",
+                        "answer": "2) They honored the gods during religious festivals."
+                    },
+                    {
+                        "question": "What type of writing is the Torah associated with in ancient religions?",
+                        "options": [
+                            "1) It contains laws, ethics, and teachings influential in Western civilization.",
+                            "2) It is a mythological poem about creation.",
+                            "3) It is a historical account of ancient kings.",
+                            "4) It consists of hymns celebrating nature."
+                        ],
+                        "explanation": "The Torah is a foundational sacred text in Judaism that includes laws and ethical teachings that have significantly influenced the course of Western civilization.",
+                        "answer": "1) It contains laws, ethics, and teachings influential in Western civilization."
+                    },
+                    {
+                        "question": "In ancient Egyptian beliefs about the afterlife, who judged the dead?",
+                        "options": [
+                            "2) Ra",
+                            "4) Hades",
+                            "1) Anubis",
+                            "3) Osiris"
+                        ],
+                        "explanation": "In ancient Egyptian beliefs, Osiris was the deity who judged the deceased, weighing their hearts against a feather to determine their fate in the afterlife.",
+                        "answer": "3) Osiris"
+                    },
+                    {
+                        "question": "Which ancient religion emphasized a dualistic view of good and evil?",
+                        "options": [
+                            "4) Ancient Egyptian Religion",
+                            "2) Ancient Greek Religion",
+                            "3) Zoroastrianism",
+                            "1) Hinduism"
+                        ],
+                        "explanation": "Zoroastrianism is known for its dualistic approach, personifying good and evil through the conflict between Ahura Mazda and Angra Mainyu.",
+                        "answer": "3) Zoroastrianism"
+                    },
+                    {
+                        "question": "What does the concept of Dharma in Hinduism relate to?",
+                        "options": [
+                            "4) Economic systems and governance.",
+                            "3) The worship of multiple deities.",
+                            "1) The cycle of rebirth.",
+                            "2) Righteous living and moral duty."
+                        ],
+                        "explanation": "Dharma in Hinduism refers to the principles of righteous living and moral duty, emphasizing a person's role in societal and cosmic order.",
+                        "answer": "2) Righteous living and moral duty."
+                    },
+                    {
+                        "question": "The Epic of Gilgamesh is primarily known for exploring which aspect of human experience?",
+                        "options": [
+                            "4) Agricultural practices of ancient civilizations.",
+                            "1) Economic trade routes in Mesopotamia.",
+                            "3) Laws governing everyday life.",
+                            "2) Humanity's quest for meaning and immortality."
+                        ],
+                        "explanation": "The Epic of Gilgamesh captures humanity's quest for meaning and explores themes of heroism, friendship, and mortality in ancient culture.",
+                        "answer": "2) Humanity's quest for meaning and immortality."
+                    },
+                    {
+                        "question": "In the context of temples in ancient religions, what was one of their main purposes?",
+                        "options": [
+                            "3) To serve as places of worship and community gathering.",
+                            "2) To function as educational institutions.",
+                            "4) To promote political agendas.",
+                            "1) To serve as marketplaces."
+                        ],
+                        "explanation": "Temples were central places of worship that also acted as communal gathering spaces, helping to merge religious and societal life.",
+                        "answer": "3) To serve as places of worship and community gathering."
+                    },
+                    {
+                        "question": "What was a significant characteristic of the Afterlife belief in Ancient Egypt?",
+                        "options": [
+                            "1) It was only for kings and the wealthy.",
+                            "4) There was no belief in an afterlife. ",
+                            "3) Souls were believed to be reincarnated immediately.",
+                            "2) It involved weighing the heart against a feather."
+                        ],
+                        "explanation": "The belief in the afterlife in Ancient Egypt involved the judgment of one's heart against a feather, determining the person's fate in the afterlife.",
+                        "answer": "2) It involved weighing the heart against a feather."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 70.0,
+                "wrong_answers": [
+                    1,
+                    4,
+                    9
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "Which ancient civilization is known for its polytheistic beliefs with deities such as Ra and Isis?",
+                        "options": [
+                            "1) Ancient Greece",
+                            "3) Zoroastrianism",
+                            "4) Hinduism",
+                            "2) Ancient Egypt"
+                        ],
+                        "explanation": "Ancient Egypt had a rich tradition of polytheism with a pantheon of gods, each overseeing different aspects of life and nature like Ra, Osiris, and Isis.",
+                        "answer": "2) Ancient Egypt"
+                    },
+                    {
+                        "question": "What is the Rigveda known for in the context of ancient religions?",
+                        "options": [
+                            "2) It is one of the oldest sacred texts of Hinduism.",
+                            "1) It is a sacred text of Ancient Greek Religion.",
+                            "4) It outlines Zoroastrian teachings on good and evil.",
+                            "3) It is a compilation of myths and stories in Egyptian religion."
+                        ],
+                        "explanation": "The Rigveda is one of the oldest known sacred texts in Hinduism, containing hymns and philosophical discussions that reflect early spiritual traditions.",
+                        "answer": "2) It is one of the oldest sacred texts of Hinduism."
+                    },
+                    {
+                        "question": "What aspect of rituals did the Ancient Greeks incorporate into events like the Olympics?",
+                        "options": [
+                            "3) They discouraged public gatherings.",
+                            "1) They were solely for athletic competition.",
+                            "2) They honored the gods during religious festivals.",
+                            "4) They were entirely separate from religious practices."
+                        ],
+                        "explanation": "The Ancient Greeks used the Olympics as not just sports events but also as religious festivals honoring their gods, blending sport and spirituality.",
+                        "answer": "2) They honored the gods during religious festivals."
+                    },
+                    {
+                        "question": "What type of writing is the Torah associated with in ancient religions?",
+                        "options": [
+                            "1) It contains laws, ethics, and teachings influential in Western civilization.",
+                            "2) It is a mythological poem about creation.",
+                            "3) It is a historical account of ancient kings.",
+                            "4) It consists of hymns celebrating nature."
+                        ],
+                        "explanation": "The Torah is a foundational sacred text in Judaism that includes laws and ethical teachings that have significantly influenced the course of Western civilization.",
+                        "answer": "1) It contains laws, ethics, and teachings influential in Western civilization."
+                    },
+                    {
+                        "question": "In ancient Egyptian beliefs about the afterlife, who judged the dead?",
+                        "options": [
+                            "2) Ra",
+                            "4) Hades",
+                            "1) Anubis",
+                            "3) Osiris"
+                        ],
+                        "explanation": "In ancient Egyptian beliefs, Osiris was the deity who judged the deceased, weighing their hearts against a feather to determine their fate in the afterlife.",
+                        "answer": "3) Osiris"
+                    },
+                    {
+                        "question": "Which ancient religion emphasized a dualistic view of good and evil?",
+                        "options": [
+                            "4) Ancient Egyptian Religion",
+                            "2) Ancient Greek Religion",
+                            "3) Zoroastrianism",
+                            "1) Hinduism"
+                        ],
+                        "explanation": "Zoroastrianism is known for its dualistic approach, personifying good and evil through the conflict between Ahura Mazda and Angra Mainyu.",
+                        "answer": "3) Zoroastrianism"
+                    },
+                    {
+                        "question": "What does the concept of Dharma in Hinduism relate to?",
+                        "options": [
+                            "4) Economic systems and governance.",
+                            "3) The worship of multiple deities.",
+                            "1) The cycle of rebirth.",
+                            "2) Righteous living and moral duty."
+                        ],
+                        "explanation": "Dharma in Hinduism refers to the principles of righteous living and moral duty, emphasizing a person's role in societal and cosmic order.",
+                        "answer": "2) Righteous living and moral duty."
+                    },
+                    {
+                        "question": "The Epic of Gilgamesh is primarily known for exploring which aspect of human experience?",
+                        "options": [
+                            "4) Agricultural practices of ancient civilizations.",
+                            "1) Economic trade routes in Mesopotamia.",
+                            "3) Laws governing everyday life.",
+                            "2) Humanity's quest for meaning and immortality."
+                        ],
+                        "explanation": "The Epic of Gilgamesh captures humanity's quest for meaning and explores themes of heroism, friendship, and mortality in ancient culture.",
+                        "answer": "2) Humanity's quest for meaning and immortality."
+                    },
+                    {
+                        "question": "In the context of temples in ancient religions, what was one of their main purposes?",
+                        "options": [
+                            "3) To serve as places of worship and community gathering.",
+                            "2) To function as educational institutions.",
+                            "4) To promote political agendas.",
+                            "1) To serve as marketplaces."
+                        ],
+                        "explanation": "Temples were central places of worship that also acted as communal gathering spaces, helping to merge religious and societal life.",
+                        "answer": "3) To serve as places of worship and community gathering."
+                    },
+                    {
+                        "question": "What was a significant characteristic of the Afterlife belief in Ancient Egypt?",
+                        "options": [
+                            "1) It was only for kings and the wealthy.",
+                            "4) There was no belief in an afterlife. ",
+                            "3) Souls were believed to be reincarnated immediately.",
+                            "2) It involved weighing the heart against a feather."
+                        ],
+                        "explanation": "The belief in the afterlife in Ancient Egypt involved the judgment of one's heart against a feather, determining the person's fate in the afterlife.",
+                        "answer": "2) It involved weighing the heart against a feather."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    4
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "Which ancient civilization is known for its polytheistic beliefs with deities such as Ra and Isis?",
+                        "options": [
+                            "1) Ancient Greece",
+                            "3) Zoroastrianism",
+                            "4) Hinduism",
+                            "2) Ancient Egypt"
+                        ],
+                        "explanation": "Ancient Egypt had a rich tradition of polytheism with a pantheon of gods, each overseeing different aspects of life and nature like Ra, Osiris, and Isis.",
+                        "answer": "2) Ancient Egypt"
+                    },
+                    {
+                        "question": "What is the Rigveda known for in the context of ancient religions?",
+                        "options": [
+                            "2) It is one of the oldest sacred texts of Hinduism.",
+                            "1) It is a sacred text of Ancient Greek Religion.",
+                            "4) It outlines Zoroastrian teachings on good and evil.",
+                            "3) It is a compilation of myths and stories in Egyptian religion."
+                        ],
+                        "explanation": "The Rigveda is one of the oldest known sacred texts in Hinduism, containing hymns and philosophical discussions that reflect early spiritual traditions.",
+                        "answer": "2) It is one of the oldest sacred texts of Hinduism."
+                    },
+                    {
+                        "question": "What aspect of rituals did the Ancient Greeks incorporate into events like the Olympics?",
+                        "options": [
+                            "3) They discouraged public gatherings.",
+                            "1) They were solely for athletic competition.",
+                            "2) They honored the gods during religious festivals.",
+                            "4) They were entirely separate from religious practices."
+                        ],
+                        "explanation": "The Ancient Greeks used the Olympics as not just sports events but also as religious festivals honoring their gods, blending sport and spirituality.",
+                        "answer": "2) They honored the gods during religious festivals."
+                    },
+                    {
+                        "question": "What type of writing is the Torah associated with in ancient religions?",
+                        "options": [
+                            "1) It contains laws, ethics, and teachings influential in Western civilization.",
+                            "2) It is a mythological poem about creation.",
+                            "3) It is a historical account of ancient kings.",
+                            "4) It consists of hymns celebrating nature."
+                        ],
+                        "explanation": "The Torah is a foundational sacred text in Judaism that includes laws and ethical teachings that have significantly influenced the course of Western civilization.",
+                        "answer": "1) It contains laws, ethics, and teachings influential in Western civilization."
+                    },
+                    {
+                        "question": "In ancient Egyptian beliefs about the afterlife, who judged the dead?",
+                        "options": [
+                            "2) Ra",
+                            "4) Hades",
+                            "1) Anubis",
+                            "3) Osiris"
+                        ],
+                        "explanation": "In ancient Egyptian beliefs, Osiris was the deity who judged the deceased, weighing their hearts against a feather to determine their fate in the afterlife.",
+                        "answer": "3) Osiris"
+                    },
+                    {
+                        "question": "Which ancient religion emphasized a dualistic view of good and evil?",
+                        "options": [
+                            "4) Ancient Egyptian Religion",
+                            "2) Ancient Greek Religion",
+                            "3) Zoroastrianism",
+                            "1) Hinduism"
+                        ],
+                        "explanation": "Zoroastrianism is known for its dualistic approach, personifying good and evil through the conflict between Ahura Mazda and Angra Mainyu.",
+                        "answer": "3) Zoroastrianism"
+                    },
+                    {
+                        "question": "What does the concept of Dharma in Hinduism relate to?",
+                        "options": [
+                            "4) Economic systems and governance.",
+                            "3) The worship of multiple deities.",
+                            "1) The cycle of rebirth.",
+                            "2) Righteous living and moral duty."
+                        ],
+                        "explanation": "Dharma in Hinduism refers to the principles of righteous living and moral duty, emphasizing a person's role in societal and cosmic order.",
+                        "answer": "2) Righteous living and moral duty."
+                    },
+                    {
+                        "question": "The Epic of Gilgamesh is primarily known for exploring which aspect of human experience?",
+                        "options": [
+                            "4) Agricultural practices of ancient civilizations.",
+                            "1) Economic trade routes in Mesopotamia.",
+                            "3) Laws governing everyday life.",
+                            "2) Humanity's quest for meaning and immortality."
+                        ],
+                        "explanation": "The Epic of Gilgamesh captures humanity's quest for meaning and explores themes of heroism, friendship, and mortality in ancient culture.",
+                        "answer": "2) Humanity's quest for meaning and immortality."
+                    },
+                    {
+                        "question": "In the context of temples in ancient religions, what was one of their main purposes?",
+                        "options": [
+                            "3) To serve as places of worship and community gathering.",
+                            "2) To function as educational institutions.",
+                            "4) To promote political agendas.",
+                            "1) To serve as marketplaces."
+                        ],
+                        "explanation": "Temples were central places of worship that also acted as communal gathering spaces, helping to merge religious and societal life.",
+                        "answer": "3) To serve as places of worship and community gathering."
+                    },
+                    {
+                        "question": "What was a significant characteristic of the Afterlife belief in Ancient Egypt?",
+                        "options": [
+                            "1) It was only for kings and the wealthy.",
+                            "4) There was no belief in an afterlife. ",
+                            "3) Souls were believed to be reincarnated immediately.",
+                            "2) It involved weighing the heart against a feather."
+                        ],
+                        "explanation": "The belief in the afterlife in Ancient Egypt involved the judgment of one's heart against a feather, determining the person's fate in the afterlife.",
+                        "answer": "2) It involved weighing the heart against a feather."
+                    }
+                ]
+            }
+        ]
+    },
+    "Friday": {}
+}

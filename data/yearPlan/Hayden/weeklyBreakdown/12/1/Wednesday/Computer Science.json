@@ -1,0 +1,252 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "HTML Basics: Creating Your First Webpage",
+                "lecture": "Hello, and welcome to today\u2019s lecture on HTML Basics! I\u2019m excited to guide you through the fundamental elements of HTML, which is the foundation for building web pages. In today\u2019s class, we will create a simple webpage using the HTML you\u2019ve learned so far. Let\u2019s dive in!\n\nHTML, or HyperText Markup Language, is the standard markup language used to create web pages. It provides the basic structure for a webpage, which is then typically enhanced by CSS for styling and JavaScript for interactivity. Knowing HTML is essential for anyone interested in web development. [p]\n\n**1. Understanding HTML Structure**\nTo begin our journey, let\u2019s look at the fundamental structure of an HTML document. Every HTML document starts with a \u2018<!DOCTYPE html>\u2019 declaration, which tells the browser that this document is an HTML5 document. Following this, you'll find the `<html>` element that wraps the entire content of your webpage. Within the `<html>` tag, we have two main sections: the `<head>` and the `<body>`. [p]\n\nThe `<head>` section contains metadata about the page, such as its title and links to stylesheets. The `<body>` section is where the content of the webpage resides, including text, images, links, and other media.\n\nFor example:\n```html\n<!DOCTYPE html>\n<html>\n<head>\n    <title>My First Webpage</title>\n</head>\n<body>\n    <h1>Welcome to My Webpage</h1>\n    <p>This is a paragraph of text.</p>\n</body>\n</html>\n```  [p]\n\nThis simple structure will ensure that your webpage is displayed correctly by web browsers. Now that we understand the basic structure, let\u2019s explore the importance of the `<head>` and `<body>` sections. [p]\n\n**2. The `<head>` Section**\nThe `<head>` section provides essential metadata that helps both browsers and search engines understand your webpage. For example, the `<title>` tag defines the title of the page, which appears on the browser tab and in search results. [p] You can also link CSS stylesheets here using the `<link>` tag, which allows you to control the appearance of your content.\n\nLet\u2019s consider a more detailed example of the `<head>` section:\n```html\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"styles.css\">\n    <title>My First Webpage</title>\n</head>\n``` [p]\n\nHere, we\u2019ve added a `<meta>` tag that specifies the character set as UTF-8, ensuring that the webpage supports various characters and symbols. The viewport meta tag makes your page responsive on different devices. [p] These small additions can significantly enhance your webpage's performance and accessibility.\n\n**3. The `<body>` Section**\nMoving to the `<body>` section, this is where the magic happens! All visible content like headings, paragraphs, images, and links are placed here. [p]  HTML uses a variety of tags to define different types of content: \n- Headings: `<h1>` to `<h6>`\n- Paragraphs: `<p>`\n- Links: `<a>`\n- Images: `<img>`\n- Lists: `<ul>` for unordered and `<ol>` for ordered lists. [p]\n\nLet\u2019s take a closer look at how to use these tags:\n```html\n<body>\n    <h1>Welcome to My Webpage</h1>\n    <p>This is a simple webpage created using HTML.</p>\n    <a href=\"https://www.example.com\">Visit Example.com</a>\n</body>\n```  [p]\n\nHere we have a heading, a paragraph explaining what the webpage is about, and a link that directs users to another site. Using these simple elements, you can begin to build your own webpage. [p]\n\n**4. Adding Images**\nImages can enhance your webpage by providing visual interest. The `<img>` tag is used to embed images. It requires a `src` attribute that points to the location of the image file and an `alt` attribute that provides alternative text for the image. [p] Here\u2019s an example:\n```html\n<img src=\"image.jpg\" alt=\"A descriptive text for the image\">\n```  [p]\n\n**5. Lists**\nLists are quite useful for presenting information in an organized way. You can create an unordered list with bullet points using the `<ul>` tag, or an ordered list with numbers using the `<ol>` tag. [p] Here\u2019s how to create a simple list:\n```html\n<ul>\n    <li>Item One</li>\n    <li>Item Two</li>\n    <li>Item Three</li>\n</ul>\n``` [p]\n\nBy using lists, you can make your content easier to read and navigate for users. [p]\n\n**6. Links**\nLinks are crucial for navigation. The `<a>` tag is what you use for hyperlinks. You can link to external websites, or create links that navigate within your own webpage. [p] Here\u2019s another usage:\n```html\n<a href=\"#section1\">Go to Section 1</a>\n```  [p]\n\nIn this case, if there\u2019s a section with the ID `section1`, clicking this link would take the user there, demonstrating how links can effectively create navigable content within a single page. [p]\n\n**7. Introduction to Semantic HTML**\nAs we explore further, let\u2019s introduce semantic HTML. Semantic HTML uses tags that have meaning and provide context to the web content. For example, using `<header>`, `<main>`, `<footer>`, `<article>`, and `<section>` elements can help search engines understand your page\u2019s structure better. [p]\n\nHere\u2019s an example of a semantic HTML document structure:\n```html\n<body>\n    <header>\n        <h1>Website Title</h1>\n    </header>\n    <main>\n        <article>\n            <h2>Article Title</h2>\n            <p>Content of the article.</p>\n        </article>\n    </main>\n    <footer>\n        <p>\u00a9 2023 My Website</p>\n    </footer>\n</body>\n``` [p]\n\nUsing semantic HTML not only helps with organization but also improves accessibility for users with disabilities. [p]\n\n**8. Conclusion**\nIn summary, we have covered the basics of HTML, including the overall structure of an HTML document, the purpose of the `<head>` and `<body>` sections, and key tags such as headings, paragraphs, images, and links. We\u2019ve also touched on the concept of semantic HTML, which aids in creating more meaningful web content. [p]\n\nAs you continue to practice HTML, remember that every webpage starts with this foundational knowledge that you've gained today. You can always enhance it with CSS for styling and JavaScript for added functionality. [p] The web is an exciting space, and with your new skills, you can begin to create your own unique websites! \n\n**What You Learned**:  \n- Understanding HTML and its structure  \n- The significance of `<head>` and `<body>` sections  \n- How to use basic HTML tags like headings, paragraphs, lists, images, and links  \n- Introduction to semantic HTML and its importance  \n\n**Main Topic**: HTML Basics  \n**Sub Topics**: Understanding HTML Structure, The `<head>` Section, The `<body>` Section, Adding Images, Lists, Links, Introduction to Semantic HTML  \n\nThank you for joining me today, and I look forward to our next class where we\u2019ll expand on these concepts!",
+                "summary": "In this lecture, you learned the foundational aspects of HTML, including its structure with the `<head>` and `<body>` sections, how to use fundamental HTML tags, the importance of semantic HTML, and how to create simple web pages. You gained insights into organizing content through headings, paragraphs, links, lists, and images, thereby laying the groundwork for your continued learning in web development.",
+                "subject": "Computer Science",
+                "main_topic": "HTML Basics",
+                "sub_topics": [
+                    "Understanding HTML Structure",
+                    "The `<head>` Section",
+                    "The `<body>` Section",
+                    "Adding Images",
+                    "Lists",
+                    "Links",
+                    "Introduction to Semantic HTML"
+                ],
+                "wikipedia_refrences": [
+                    "https://en.wikipedia.org/wiki/HTML",
+                    "https://en.wikipedia.org/wiki/HTML_element",
+                    "https://en.wikipedia.org/wiki/Semantic_HTML"
+                ],
+                "quiz": [
+                    {
+                        "question": "What is the first declaration that every HTML document should start with?",
+                        "options": [
+                            "3) <head>",
+                            "1) <!DOCTYPE html>",
+                            "2) <html>",
+                            "4) <body>"
+                        ],
+                        "explanation": "The correct answer is <!DOCTYPE html>, which informs the web browser that the document is HTML5.",
+                        "answer": "1) <!DOCTYPE html>"
+                    },
+                    {
+                        "question": "Which HTML element contains the visible content of the webpage?",
+                        "options": [
+                            "3) <body>",
+                            "1) <head>",
+                            "2) <html>",
+                            "4) <title>"
+                        ],
+                        "explanation": "The <body> element contains all the visible content of the webpage such as text, images, and links.",
+                        "answer": "3) <body>"
+                    },
+                    {
+                        "question": "What is the purpose of the <title> tag in the <head> section?",
+                        "options": [
+                            "1) It defines the main content of the web page",
+                            "4) It specifies the character set for the webpage",
+                            "3) It links to external style sheets",
+                            "2) It provides the title for the webpage that appears on the browser tab"
+                        ],
+                        "explanation": "The <title> tag specifies the title of the webpage, which is visible on the browser tab and in search results.",
+                        "answer": "2) It provides the title for the webpage that appears on the browser tab"
+                    },
+                    {
+                        "question": "What tag is used to add an image to an HTML document?",
+                        "options": [
+                            "2) <image>",
+                            "3) <img>",
+                            "1) <link>",
+                            "4) <picture>"
+                        ],
+                        "explanation": "The <img> tag is used for embedding images in HTML documents and requires a src attribute to specify the image's path.",
+                        "answer": "3) <img>"
+                    },
+                    {
+                        "question": "What do you use to create an unordered list in HTML?",
+                        "options": [
+                            "1) <ul>",
+                            "4) <li>",
+                            "3) <list>",
+                            "2) <ol>"
+                        ],
+                        "explanation": "To create an unordered list, you use the <ul> tag, and each item within the list is wrapped in <li> tags.",
+                        "answer": "1) <ul>"
+                    },
+                    {
+                        "question": "Which tag is used to define a link in HTML?",
+                        "options": [
+                            "4) <url>",
+                            "3) <a>",
+                            "2) <href>",
+                            "1) <link>"
+                        ],
+                        "explanation": "The correct tag to define a hyperlink in HTML is <a>, which is often referred to as the anchor tag.",
+                        "answer": "3) <a>"
+                    },
+                    {
+                        "question": "How does a viewport meta tag affect a webpage?",
+                        "options": [
+                            "3) It makes the webpage responsive on different devices",
+                            "1) It determines the character set",
+                            "2) It enhances the webpage's SEO",
+                            "4) It specifies the webpage's title"
+                        ],
+                        "explanation": "The viewport meta tag allows the webpage to be responsive, meaning it will adjust to various screen sizes and devices.",
+                        "answer": "3) It makes the webpage responsive on different devices"
+                    },
+                    {
+                        "question": "What is the correct syntax to create a simple paragraph in HTML?",
+                        "options": [
+                            "4) <body>This is a paragraph.</body>",
+                            "2) <paragraph>This is a paragraph.</paragraph>",
+                            "1) <p>This is a paragraph.</p>",
+                            "3) <text>This is a paragraph.</text>"
+                        ],
+                        "explanation": "The correct syntax for a paragraph is <p>This is a paragraph.</p> where the content is wrapped in <p> tags.",
+                        "answer": "1) <p>This is a paragraph.</p>"
+                    },
+                    {
+                        "question": "What is the main advantage of using semantic HTML tags according to the lecture?",
+                        "options": [
+                            "4) They increase page loading speed",
+                            "2) They help search engines understand your webpage structure better",
+                            "3) They are mandatory for all websites",
+                            "1) They are visually appealing"
+                        ],
+                        "explanation": "Semantic HTML tags provide meaning and context to the content, helping search engines to better understand the structure of your webpage.",
+                        "answer": "2) They help search engines understand your webpage structure better"
+                    },
+                    {
+                        "question": "What type of list uses numbers to present items in HTML?",
+                        "options": [
+                            "4) <ol>",
+                            "3) <li>",
+                            "2) <order>",
+                            "1) <ul>"
+                        ],
+                        "explanation": "An ordered list is created using the <ol> tag, which displays items in a numbered format.",
+                        "answer": "4) <ol>"
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What does HTML stand for?",
+                        "options": [
+                            "1) HyperText Markup Language",
+                            "4) Hyperlink Text Marking Language",
+                            "2) Hyperlink and Text Markup Language",
+                            "3) HyperText Markup Logic"
+                        ],
+                        "explanation": "HTML stands for HyperText Markup Language, which is the standard markup language used to create and structure content on the web.",
+                        "answer": "1) HyperText Markup Language"
+                    },
+                    {
+                        "question": "What is the purpose of the `<head>` section in an HTML document?",
+                        "options": [
+                            "2) To hold metadata about the page",
+                            "3) To display images and text",
+                            "1) To contain the main content of the webpage",
+                            "4) To create links to other websites"
+                        ],
+                        "explanation": "The `<head>` section contains metadata about the webpage, such as its title and links to stylesheets, which helps the browser and search engines understand the content of the page. It does not display any content to the users directly.",
+                        "answer": "2) To hold metadata about the page"
+                    },
+                    {
+                        "question": "What does the `<link>` tag in the `<head>` section of an HTML document do?",
+                        "options": [
+                            "2) It links to a CSS stylesheet to control the appearance of the webpage.",
+                            "1) It provides a title for the webpage.",
+                            "4) It specifies the viewport settings for responsive design.",
+                            "3) It defines the character set for the webpage."
+                        ],
+                        "explanation": "The `<link>` tag in the `<head>` section is used to link external resources, such as CSS stylesheets. This allows you to define the styles and layout of your content in a separate file, making it easier to manage and update the appearance of your webpage.",
+                        "answer": "2) It links to a CSS stylesheet to control the appearance of the webpage."
+                    },
+                    {
+                        "question": "Which HTML tag is used for creating a hyperlink?",
+                        "options": [
+                            "4) <ul>",
+                            "2) <a>",
+                            "3) <p>",
+                            "1) <h1>"
+                        ],
+                        "explanation": "The <a> tag in HTML is specifically designed to define hyperlinks. It allows users to click through to another webpage or resource.",
+                        "answer": "2) <a>"
+                    },
+                    {
+                        "question": "What is the purpose of the `alt` attribute in the `<img>` tag?",
+                        "options": [
+                            "4) To add a border around the image",
+                            "1) To provide a link to the image file",
+                            "3) To specify the dimensions of the image",
+                            "2) To provide alternative text for the image"
+                        ],
+                        "explanation": "The `alt` attribute is used to provide alternative text for the image, which is important for accessibility purposes and is displayed if the image cannot be loaded.",
+                        "answer": "2) To provide alternative text for the image"
+                    },
+                    {
+                        "question": "What is the main benefit of using lists in content creation according to the lecture?",
+                        "options": [
+                            "4) They eliminate the need for headings.",
+                            "2) They help users navigate and understand the content more easily.",
+                            "3) They decrease user engagement.",
+                            "1) They make the content harder to read."
+                        ],
+                        "explanation": "Using lists helps to present information in a clear and concise manner, which enhances readability and assists users in navigating the content more efficiently.",
+                        "answer": "2) They help users navigate and understand the content more easily."
+                    },
+                    {
+                        "question": "What is the purpose of using semantic HTML tags like <header>, <main>, and <footer>?",
+                        "options": [
+                            "2) To provide meaningful structure and context to web content",
+                            "1) To improve the visual style of a webpage",
+                            "3) To reduce the loading time of a webpage",
+                            "4) To increase the number of elements on a page"
+                        ],
+                        "explanation": "Semantic HTML tags are designed to give meaning and structure to the content of a webpage, making it easier for search engines to understand and index the information. This helps in enhancing accessibility and improving the overall SEO of the site.",
+                        "answer": "2) To provide meaningful structure and context to web content"
+                    },
+                    {
+                        "question": "What is the purpose of the `<header>` element in a semantic HTML document?",
+                        "options": [
+                            "4) To wrap up the document and provide closure.",
+                            "1) To define the main content of the webpage.",
+                            "3) To display the copyright information of the website.",
+                            "2) To contain introductory content or navigational links."
+                        ],
+                        "explanation": "The `<header>` element is used to contain introductory content or navigational links for a document. It typically includes items like the site title, logo, or a navigation menu, and is key for organizing the structure of a webpage semantically.",
+                        "answer": "2) To contain introductory content or navigational links."
+                    },
+                    {
+                        "question": "What do you add to an HTML webpage to enhance its visual styling?",
+                        "options": [
+                            "3) PHP",
+                            "1) CSS",
+                            "4) Python",
+                            "2) JavaScript"
+                        ],
+                        "explanation": "CSS (Cascading Style Sheets) is the language used to style HTML elements on a webpage, allowing for design choices such as colors, fonts, and layouts.",
+                        "answer": "1) CSS"
+                    },
+                    {
+                        "question": "What is the purpose of the `<head>` section in an HTML document?",
+                        "options": [
+                            "2) To specify metadata, links to style sheets, and scripts",
+                            "4) To create lists and headings",
+                            "3) To add images and links to the page",
+                            "1) To define the main content of the webpage"
+                        ],
+                        "explanation": "The `<head>` section is used to contain metadata, links to CSS or JavaScript files, and titles for the document, which are crucial for how the page is presented and behaves. It does not contain the main content of the page, which is located in the `<body>` section.",
+                        "answer": "2) To specify metadata, links to style sheets, and scripts"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

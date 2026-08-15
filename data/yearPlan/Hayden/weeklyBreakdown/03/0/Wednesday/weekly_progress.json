@@ -1,0 +1,2326 @@
+{
+    "Monday": {},
+    "Tuesday": {},
+    "Wednesday": {
+        "Algebra": [
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    0,
+                    2,
+                    3,
+                    9
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What does the variable 'a' represent in the exponential growth function f(x) = a * b^x?",
+                        "options": [
+                            "2) The initial quantity",
+                            "4) The exponent",
+                            "3) The base of the exponential function",
+                            "1) The decay constant"
+                        ],
+                        "explanation": "In the exponential growth function, 'a' represents the initial quantity or starting value of the population or substance being measured.",
+                        "answer": "2) The initial quantity"
+                    },
+                    {
+                        "question": "Which phenomenon can be modeled as exponential decay?",
+                        "options": [
+                            "3) Gain in bacteria populations",
+                            "1) Population growth of animals",
+                            "2) Decrease in radioactive substance",
+                            "4) Increase in carbon dioxide emissions"
+                        ],
+                        "explanation": "Radioactive decay represents a decrease in quantity over time, making it a perfect example of exponential decay.",
+                        "answer": "2) Decrease in radioactive substance"
+                    },
+                    {
+                        "question": "What type of growth pattern do exponential functions typically show?",
+                        "options": [
+                            "1) Constant growth",
+                            "2) Linear growth",
+                            "4) Increasing growth",
+                            "3) Decreasing growth"
+                        ],
+                        "explanation": "Exponential functions demonstrate increasing growth patterns where the rate of growth accelerates, as opposed to a constant rate seen in linear growth.",
+                        "answer": "4) Increasing growth"
+                    },
+                    {
+                        "question": "What is Euler's number, commonly represented as 'e'?",
+                        "options": [
+                            "1) Approximately 2.71828",
+                            "4) Approximately 0.57721",
+                            "3) Approximately 1.61803",
+                            "2) Approximately 3.14159"
+                        ],
+                        "explanation": "Euler's number 'e' is an important constant in mathematics and is approximately equal to 2.71828, used in the exponential decay models.",
+                        "answer": "1) Approximately 2.71828"
+                    },
+                    {
+                        "question": "In which scenarios might we apply exponential functions beyond mathematics?",
+                        "options": [
+                            "1) Only in physics",
+                            "2) Only in economics",
+                            "4) Only in biology",
+                            "3) In various scientific fields"
+                        ],
+                        "explanation": "Exponential functions have applications across various scientific fields including biology, physics, and environmental science, not limited to just one area.",
+                        "answer": "3) In various scientific fields"
+                    },
+                    {
+                        "question": "If a population is growing exponentially and the growth rate is doubled, which of the following changes?",
+                        "options": [
+                            "1) The growth rate halves",
+                            "2) The base 'b' in the function increases",
+                            "3) The initial population 'a' decreases",
+                            "4) The exponential model remains unchanged"
+                        ],
+                        "explanation": "Doubling the growth rate means that the base 'b' in the exponential function will also change, reflecting a higher growth rate.",
+                        "answer": "2) The base 'b' in the function increases"
+                    },
+                    {
+                        "question": "What would happen to a population exhibiting exponential growth when resources become limited?",
+                        "options": [
+                            "2) It begins logistic growth",
+                            "1) The growth continues indefinitely",
+                            "3) It will decay faster",
+                            "4) It will reach zero immediately"
+                        ],
+                        "explanation": "When resources are limited, the unsustainable exponential growth will lead to logistic growth, where the growth rate will slow down as it approaches carrying capacity.",
+                        "answer": "2) It begins logistic growth"
+                    },
+                    {
+                        "question": "Which of the following statements about exponential functions is true?",
+                        "options": [
+                            "4) They are always linear",
+                            "1) They only increase",
+                            "3) They cannot model real-life situations",
+                            "2) They can describe both growth and decay"
+                        ],
+                        "explanation": "Exponential functions can be used to describe both growth (like population) and decay (like radioactive substances), making them versatile in modeling real-life scenarios.",
+                        "answer": "2) They can describe both growth and decay"
+                    },
+                    {
+                        "question": "What is the relationship between the rate of change in exponential functions and the value of the function?",
+                        "options": [
+                            "1) The rate is constant regardless of the value",
+                            "2) The rate of change decreases with time",
+                            "3) The rate of change increases as the function value increases",
+                            "4) There is no relationship"
+                        ],
+                        "explanation": "In exponential functions, as the value of the function increases, the rate of change also increases, unlike linear functions where the rate remains constant.",
+                        "answer": "3) The rate of change increases as the function value increases"
+                    },
+                    {
+                        "question": "If an exponential growth function starts at 200 and triples every hour, what would be the form of the function?",
+                        "options": [
+                            "3) f(x) = 200 * 2^x",
+                            "2) f(x) = 100 * 3^x",
+                            "1) f(x) = 200 * 3^x",
+                            "4) f(x) = 200 * x^3"
+                        ],
+                        "explanation": "The growth function that starts at 200 and triples can be expressed as f(x) = 200 * 3^x, where '3' is the base representing tripling.",
+                        "answer": "1) f(x) = 200 * 3^x"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 70.0,
+                "wrong_answers": [
+                    0,
+                    2,
+                    3
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What does the variable 'a' represent in the exponential growth function f(x) = a * b^x?",
+                        "options": [
+                            "2) The initial quantity",
+                            "4) The exponent",
+                            "3) The base of the exponential function",
+                            "1) The decay constant"
+                        ],
+                        "explanation": "In the exponential growth function, 'a' represents the initial quantity or starting value of the population or substance being measured.",
+                        "answer": "2) The initial quantity"
+                    },
+                    {
+                        "question": "Which phenomenon can be modeled as exponential decay?",
+                        "options": [
+                            "3) Gain in bacteria populations",
+                            "1) Population growth of animals",
+                            "2) Decrease in radioactive substance",
+                            "4) Increase in carbon dioxide emissions"
+                        ],
+                        "explanation": "Radioactive decay represents a decrease in quantity over time, making it a perfect example of exponential decay.",
+                        "answer": "2) Decrease in radioactive substance"
+                    },
+                    {
+                        "question": "What type of growth pattern do exponential functions typically show?",
+                        "options": [
+                            "1) Constant growth",
+                            "2) Linear growth",
+                            "4) Increasing growth",
+                            "3) Decreasing growth"
+                        ],
+                        "explanation": "Exponential functions demonstrate increasing growth patterns where the rate of growth accelerates, as opposed to a constant rate seen in linear growth.",
+                        "answer": "4) Increasing growth"
+                    },
+                    {
+                        "question": "What is Euler's number, commonly represented as 'e'?",
+                        "options": [
+                            "1) Approximately 2.71828",
+                            "4) Approximately 0.57721",
+                            "3) Approximately 1.61803",
+                            "2) Approximately 3.14159"
+                        ],
+                        "explanation": "Euler's number 'e' is an important constant in mathematics and is approximately equal to 2.71828, used in the exponential decay models.",
+                        "answer": "1) Approximately 2.71828"
+                    },
+                    {
+                        "question": "In which scenarios might we apply exponential functions beyond mathematics?",
+                        "options": [
+                            "1) Only in physics",
+                            "2) Only in economics",
+                            "4) Only in biology",
+                            "3) In various scientific fields"
+                        ],
+                        "explanation": "Exponential functions have applications across various scientific fields including biology, physics, and environmental science, not limited to just one area.",
+                        "answer": "3) In various scientific fields"
+                    },
+                    {
+                        "question": "If a population is growing exponentially and the growth rate is doubled, which of the following changes?",
+                        "options": [
+                            "1) The growth rate halves",
+                            "2) The base 'b' in the function increases",
+                            "3) The initial population 'a' decreases",
+                            "4) The exponential model remains unchanged"
+                        ],
+                        "explanation": "Doubling the growth rate means that the base 'b' in the exponential function will also change, reflecting a higher growth rate.",
+                        "answer": "2) The base 'b' in the function increases"
+                    },
+                    {
+                        "question": "What would happen to a population exhibiting exponential growth when resources become limited?",
+                        "options": [
+                            "2) It begins logistic growth",
+                            "1) The growth continues indefinitely",
+                            "3) It will decay faster",
+                            "4) It will reach zero immediately"
+                        ],
+                        "explanation": "When resources are limited, the unsustainable exponential growth will lead to logistic growth, where the growth rate will slow down as it approaches carrying capacity.",
+                        "answer": "2) It begins logistic growth"
+                    },
+                    {
+                        "question": "Which of the following statements about exponential functions is true?",
+                        "options": [
+                            "4) They are always linear",
+                            "1) They only increase",
+                            "3) They cannot model real-life situations",
+                            "2) They can describe both growth and decay"
+                        ],
+                        "explanation": "Exponential functions can be used to describe both growth (like population) and decay (like radioactive substances), making them versatile in modeling real-life scenarios.",
+                        "answer": "2) They can describe both growth and decay"
+                    },
+                    {
+                        "question": "What is the relationship between the rate of change in exponential functions and the value of the function?",
+                        "options": [
+                            "1) The rate is constant regardless of the value",
+                            "2) The rate of change decreases with time",
+                            "3) The rate of change increases as the function value increases",
+                            "4) There is no relationship"
+                        ],
+                        "explanation": "In exponential functions, as the value of the function increases, the rate of change also increases, unlike linear functions where the rate remains constant.",
+                        "answer": "3) The rate of change increases as the function value increases"
+                    },
+                    {
+                        "question": "If an exponential growth function starts at 200 and triples every hour, what would be the form of the function?",
+                        "options": [
+                            "3) f(x) = 200 * 2^x",
+                            "2) f(x) = 100 * 3^x",
+                            "1) f(x) = 200 * 3^x",
+                            "4) f(x) = 200 * x^3"
+                        ],
+                        "explanation": "The growth function that starts at 200 and triples can be expressed as f(x) = 200 * 3^x, where '3' is the base representing tripling.",
+                        "answer": "1) f(x) = 200 * 3^x"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    2,
+                    3
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What does the variable 'a' represent in the exponential growth function f(x) = a * b^x?",
+                        "options": [
+                            "2) The initial quantity",
+                            "4) The exponent",
+                            "3) The base of the exponential function",
+                            "1) The decay constant"
+                        ],
+                        "explanation": "In the exponential growth function, 'a' represents the initial quantity or starting value of the population or substance being measured.",
+                        "answer": "2) The initial quantity"
+                    },
+                    {
+                        "question": "Which phenomenon can be modeled as exponential decay?",
+                        "options": [
+                            "3) Gain in bacteria populations",
+                            "1) Population growth of animals",
+                            "2) Decrease in radioactive substance",
+                            "4) Increase in carbon dioxide emissions"
+                        ],
+                        "explanation": "Radioactive decay represents a decrease in quantity over time, making it a perfect example of exponential decay.",
+                        "answer": "2) Decrease in radioactive substance"
+                    },
+                    {
+                        "question": "What type of growth pattern do exponential functions typically show?",
+                        "options": [
+                            "1) Constant growth",
+                            "2) Linear growth",
+                            "4) Increasing growth",
+                            "3) Decreasing growth"
+                        ],
+                        "explanation": "Exponential functions demonstrate increasing growth patterns where the rate of growth accelerates, as opposed to a constant rate seen in linear growth.",
+                        "answer": "4) Increasing growth"
+                    },
+                    {
+                        "question": "What is Euler's number, commonly represented as 'e'?",
+                        "options": [
+                            "1) Approximately 2.71828",
+                            "4) Approximately 0.57721",
+                            "3) Approximately 1.61803",
+                            "2) Approximately 3.14159"
+                        ],
+                        "explanation": "Euler's number 'e' is an important constant in mathematics and is approximately equal to 2.71828, used in the exponential decay models.",
+                        "answer": "1) Approximately 2.71828"
+                    },
+                    {
+                        "question": "In which scenarios might we apply exponential functions beyond mathematics?",
+                        "options": [
+                            "1) Only in physics",
+                            "2) Only in economics",
+                            "4) Only in biology",
+                            "3) In various scientific fields"
+                        ],
+                        "explanation": "Exponential functions have applications across various scientific fields including biology, physics, and environmental science, not limited to just one area.",
+                        "answer": "3) In various scientific fields"
+                    },
+                    {
+                        "question": "If a population is growing exponentially and the growth rate is doubled, which of the following changes?",
+                        "options": [
+                            "1) The growth rate halves",
+                            "2) The base 'b' in the function increases",
+                            "3) The initial population 'a' decreases",
+                            "4) The exponential model remains unchanged"
+                        ],
+                        "explanation": "Doubling the growth rate means that the base 'b' in the exponential function will also change, reflecting a higher growth rate.",
+                        "answer": "2) The base 'b' in the function increases"
+                    },
+                    {
+                        "question": "What would happen to a population exhibiting exponential growth when resources become limited?",
+                        "options": [
+                            "2) It begins logistic growth",
+                            "1) The growth continues indefinitely",
+                            "3) It will decay faster",
+                            "4) It will reach zero immediately"
+                        ],
+                        "explanation": "When resources are limited, the unsustainable exponential growth will lead to logistic growth, where the growth rate will slow down as it approaches carrying capacity.",
+                        "answer": "2) It begins logistic growth"
+                    },
+                    {
+                        "question": "Which of the following statements about exponential functions is true?",
+                        "options": [
+                            "4) They are always linear",
+                            "1) They only increase",
+                            "3) They cannot model real-life situations",
+                            "2) They can describe both growth and decay"
+                        ],
+                        "explanation": "Exponential functions can be used to describe both growth (like population) and decay (like radioactive substances), making them versatile in modeling real-life scenarios.",
+                        "answer": "2) They can describe both growth and decay"
+                    },
+                    {
+                        "question": "What is the relationship between the rate of change in exponential functions and the value of the function?",
+                        "options": [
+                            "1) The rate is constant regardless of the value",
+                            "2) The rate of change decreases with time",
+                            "3) The rate of change increases as the function value increases",
+                            "4) There is no relationship"
+                        ],
+                        "explanation": "In exponential functions, as the value of the function increases, the rate of change also increases, unlike linear functions where the rate remains constant.",
+                        "answer": "3) The rate of change increases as the function value increases"
+                    },
+                    {
+                        "question": "If an exponential growth function starts at 200 and triples every hour, what would be the form of the function?",
+                        "options": [
+                            "3) f(x) = 200 * 2^x",
+                            "2) f(x) = 100 * 3^x",
+                            "1) f(x) = 200 * 3^x",
+                            "4) f(x) = 200 * x^3"
+                        ],
+                        "explanation": "The growth function that starts at 200 and triples can be expressed as f(x) = 200 * 3^x, where '3' is the base representing tripling.",
+                        "answer": "1) f(x) = 200 * 3^x"
+                    }
+                ]
+            }
+        ],
+        "Astronomy": [
+            {
+                "quiz_grade": 40.0,
+                "wrong_answers": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    8
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is the largest known galaxy cluster mentioned in the lecture?",
+                        "options": [
+                            "4) Fornax Cluster",
+                            "1) Virgo Cluster",
+                            "2) El Gordo Cluster",
+                            "3) Coma Cluster"
+                        ],
+                        "explanation": "The El Gordo Cluster is noted as the largest known galaxy cluster, showcasing the congregation of galaxies through gravitational forces.",
+                        "answer": "2) El Gordo Cluster"
+                    },
+                    {
+                        "question": "What percentage of the universe's volume is made up of voids?",
+                        "options": [
+                            "4) 80%",
+                            "3) 70%",
+                            "2) 60%",
+                            "1) 50%"
+                        ],
+                        "explanation": "Voids comprise about 80% of the universe's volume, creating large regions with fewer galaxies.",
+                        "answer": "4) 80%"
+                    },
+                    {
+                        "question": "What phenomenon is described that helps astronomers measure the mass of galaxy clusters?",
+                        "options": [
+                            "1) Cosmic Microwave Background Radiation",
+                            "3) Dark Matter Mapping",
+                            "4) Supernova Observations",
+                            "2) Gravitational Lensing"
+                        ],
+                        "explanation": "Gravitational lensing is a phenomenon that allows astronomers to measure the mass of galaxy clusters based on the bending of light from distant sources.",
+                        "answer": "2) Gravitational Lensing"
+                    },
+                    {
+                        "question": "What do astronomers find in voids that challenges their perception of emptiness?",
+                        "options": [
+                            "2) Dark Matter",
+                            "1) Visible Galaxies",
+                            "4) Black Holes",
+                            "3) Cosmic Gas"
+                        ],
+                        "explanation": "Voids may contain dark matter, indicating that they are not entirely empty and play a role in the universe's structure.",
+                        "answer": "2) Dark Matter"
+                    },
+                    {
+                        "question": "What does the gravitational pull of clusters need to account for, as per the lecture?",
+                        "options": [
+                            "1) Visible Stars only",
+                            "3) Dark Matter",
+                            "4) Interstellar Gas",
+                            "2) Cosmic Radiation"
+                        ],
+                        "explanation": "The gravitational pull of galaxy clusters must account for dark matter, as the visible mass does not fully explain the speed of orbiting galaxies.",
+                        "answer": "3) Dark Matter"
+                    },
+                    {
+                        "question": "What critical insight do voids provide regarding the early universe?",
+                        "options": [
+                            "1) The properties of black holes",
+                            "2) Cosmic Density Fluctuations",
+                            "4) The expansion of the universe",
+                            "3) The formation of stars"
+                        ],
+                        "explanation": "Voids help astronomers understand cosmic density fluctuations occurring shortly after the Big Bang, shedding light on matter distribution.",
+                        "answer": "2) Cosmic Density Fluctuations"
+                    },
+                    {
+                        "question": "How does dark matter influence the dynamics of galaxies within clusters?",
+                        "options": [
+                            "2) It makes them invisible",
+                            "1) It slows them down",
+                            "4) It has no effect",
+                            "3) It accelerates their motion"
+                        ],
+                        "explanation": "Dark matter accelerates the motion of galaxies in clusters since the galaxies move faster than what the visible mass alone can account for.",
+                        "answer": "3) It accelerates their motion"
+                    },
+                    {
+                        "question": "Which theory is used to explain the bending of light in gravitational lensing?",
+                        "options": [
+                            "3) General Relativity",
+                            "2) String Theory",
+                            "1) Quantum Mechanics",
+                            "4) Electromagnetic Theory"
+                        ],
+                        "explanation": "Gravitational lensing is explained through Einstein's theory of general relativity, which describes how massive objects bend light.",
+                        "answer": "3) General Relativity"
+                    },
+                    {
+                        "question": "What is the composition of galaxy clusters as mentioned in the lecture?",
+                        "options": [
+                            "1) Stars only",
+                            "3) Galaxies and Hot Gas",
+                            "2) Stars and Dark Matter",
+                            "4) Planets and Asteroids"
+                        ],
+                        "explanation": "Galaxy clusters are made up of many galaxies and vast quantities of hot gas, which can be observed with space telescopes.",
+                        "answer": "3) Galaxies and Hot Gas"
+                    },
+                    {
+                        "question": "What role does gravitational force play in the formation of structures in the universe according to the passage?",
+                        "options": [
+                            "4) It has no role",
+                            "1) It causes expansion",
+                            "2) It pushes matter apart",
+                            "3) It pulls matter together"
+                        ],
+                        "explanation": "Gravitational force pulls matter together, leading to the formation of galaxies and structures in the universe.",
+                        "answer": "3) It pulls matter together"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 30.0,
+                "wrong_answers": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    8,
+                    9
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is the largest known galaxy cluster mentioned in the lecture?",
+                        "options": [
+                            "4) Fornax Cluster",
+                            "1) Virgo Cluster",
+                            "2) El Gordo Cluster",
+                            "3) Coma Cluster"
+                        ],
+                        "explanation": "The El Gordo Cluster is noted as the largest known galaxy cluster, showcasing the congregation of galaxies through gravitational forces.",
+                        "answer": "2) El Gordo Cluster"
+                    },
+                    {
+                        "question": "What percentage of the universe's volume is made up of voids?",
+                        "options": [
+                            "4) 80%",
+                            "3) 70%",
+                            "2) 60%",
+                            "1) 50%"
+                        ],
+                        "explanation": "Voids comprise about 80% of the universe's volume, creating large regions with fewer galaxies.",
+                        "answer": "4) 80%"
+                    },
+                    {
+                        "question": "What phenomenon is described that helps astronomers measure the mass of galaxy clusters?",
+                        "options": [
+                            "1) Cosmic Microwave Background Radiation",
+                            "3) Dark Matter Mapping",
+                            "4) Supernova Observations",
+                            "2) Gravitational Lensing"
+                        ],
+                        "explanation": "Gravitational lensing is a phenomenon that allows astronomers to measure the mass of galaxy clusters based on the bending of light from distant sources.",
+                        "answer": "2) Gravitational Lensing"
+                    },
+                    {
+                        "question": "What do astronomers find in voids that challenges their perception of emptiness?",
+                        "options": [
+                            "2) Dark Matter",
+                            "1) Visible Galaxies",
+                            "4) Black Holes",
+                            "3) Cosmic Gas"
+                        ],
+                        "explanation": "Voids may contain dark matter, indicating that they are not entirely empty and play a role in the universe's structure.",
+                        "answer": "2) Dark Matter"
+                    },
+                    {
+                        "question": "What does the gravitational pull of clusters need to account for, as per the lecture?",
+                        "options": [
+                            "1) Visible Stars only",
+                            "3) Dark Matter",
+                            "4) Interstellar Gas",
+                            "2) Cosmic Radiation"
+                        ],
+                        "explanation": "The gravitational pull of galaxy clusters must account for dark matter, as the visible mass does not fully explain the speed of orbiting galaxies.",
+                        "answer": "3) Dark Matter"
+                    },
+                    {
+                        "question": "What critical insight do voids provide regarding the early universe?",
+                        "options": [
+                            "1) The properties of black holes",
+                            "2) Cosmic Density Fluctuations",
+                            "4) The expansion of the universe",
+                            "3) The formation of stars"
+                        ],
+                        "explanation": "Voids help astronomers understand cosmic density fluctuations occurring shortly after the Big Bang, shedding light on matter distribution.",
+                        "answer": "2) Cosmic Density Fluctuations"
+                    },
+                    {
+                        "question": "How does dark matter influence the dynamics of galaxies within clusters?",
+                        "options": [
+                            "2) It makes them invisible",
+                            "1) It slows them down",
+                            "4) It has no effect",
+                            "3) It accelerates their motion"
+                        ],
+                        "explanation": "Dark matter accelerates the motion of galaxies in clusters since the galaxies move faster than what the visible mass alone can account for.",
+                        "answer": "3) It accelerates their motion"
+                    },
+                    {
+                        "question": "Which theory is used to explain the bending of light in gravitational lensing?",
+                        "options": [
+                            "3) General Relativity",
+                            "2) String Theory",
+                            "1) Quantum Mechanics",
+                            "4) Electromagnetic Theory"
+                        ],
+                        "explanation": "Gravitational lensing is explained through Einstein's theory of general relativity, which describes how massive objects bend light.",
+                        "answer": "3) General Relativity"
+                    },
+                    {
+                        "question": "What is the composition of galaxy clusters as mentioned in the lecture?",
+                        "options": [
+                            "1) Stars only",
+                            "3) Galaxies and Hot Gas",
+                            "2) Stars and Dark Matter",
+                            "4) Planets and Asteroids"
+                        ],
+                        "explanation": "Galaxy clusters are made up of many galaxies and vast quantities of hot gas, which can be observed with space telescopes.",
+                        "answer": "3) Galaxies and Hot Gas"
+                    },
+                    {
+                        "question": "What role does gravitational force play in the formation of structures in the universe according to the passage?",
+                        "options": [
+                            "4) It has no role",
+                            "1) It causes expansion",
+                            "2) It pushes matter apart",
+                            "3) It pulls matter together"
+                        ],
+                        "explanation": "Gravitational force pulls matter together, leading to the formation of galaxies and structures in the universe.",
+                        "answer": "3) It pulls matter together"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 40.0,
+                "wrong_answers": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    8
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What is the largest known galaxy cluster mentioned in the lecture?",
+                        "options": [
+                            "4) Fornax Cluster",
+                            "1) Virgo Cluster",
+                            "2) El Gordo Cluster",
+                            "3) Coma Cluster"
+                        ],
+                        "explanation": "The El Gordo Cluster is noted as the largest known galaxy cluster, showcasing the congregation of galaxies through gravitational forces.",
+                        "answer": "2) El Gordo Cluster"
+                    },
+                    {
+                        "question": "What percentage of the universe's volume is made up of voids?",
+                        "options": [
+                            "4) 80%",
+                            "3) 70%",
+                            "2) 60%",
+                            "1) 50%"
+                        ],
+                        "explanation": "Voids comprise about 80% of the universe's volume, creating large regions with fewer galaxies.",
+                        "answer": "4) 80%"
+                    },
+                    {
+                        "question": "What phenomenon is described that helps astronomers measure the mass of galaxy clusters?",
+                        "options": [
+                            "1) Cosmic Microwave Background Radiation",
+                            "3) Dark Matter Mapping",
+                            "4) Supernova Observations",
+                            "2) Gravitational Lensing"
+                        ],
+                        "explanation": "Gravitational lensing is a phenomenon that allows astronomers to measure the mass of galaxy clusters based on the bending of light from distant sources.",
+                        "answer": "2) Gravitational Lensing"
+                    },
+                    {
+                        "question": "What do astronomers find in voids that challenges their perception of emptiness?",
+                        "options": [
+                            "2) Dark Matter",
+                            "1) Visible Galaxies",
+                            "4) Black Holes",
+                            "3) Cosmic Gas"
+                        ],
+                        "explanation": "Voids may contain dark matter, indicating that they are not entirely empty and play a role in the universe's structure.",
+                        "answer": "2) Dark Matter"
+                    },
+                    {
+                        "question": "What does the gravitational pull of clusters need to account for, as per the lecture?",
+                        "options": [
+                            "1) Visible Stars only",
+                            "3) Dark Matter",
+                            "4) Interstellar Gas",
+                            "2) Cosmic Radiation"
+                        ],
+                        "explanation": "The gravitational pull of galaxy clusters must account for dark matter, as the visible mass does not fully explain the speed of orbiting galaxies.",
+                        "answer": "3) Dark Matter"
+                    },
+                    {
+                        "question": "What critical insight do voids provide regarding the early universe?",
+                        "options": [
+                            "1) The properties of black holes",
+                            "2) Cosmic Density Fluctuations",
+                            "4) The expansion of the universe",
+                            "3) The formation of stars"
+                        ],
+                        "explanation": "Voids help astronomers understand cosmic density fluctuations occurring shortly after the Big Bang, shedding light on matter distribution.",
+                        "answer": "2) Cosmic Density Fluctuations"
+                    },
+                    {
+                        "question": "How does dark matter influence the dynamics of galaxies within clusters?",
+                        "options": [
+                            "2) It makes them invisible",
+                            "1) It slows them down",
+                            "4) It has no effect",
+                            "3) It accelerates their motion"
+                        ],
+                        "explanation": "Dark matter accelerates the motion of galaxies in clusters since the galaxies move faster than what the visible mass alone can account for.",
+                        "answer": "3) It accelerates their motion"
+                    },
+                    {
+                        "question": "Which theory is used to explain the bending of light in gravitational lensing?",
+                        "options": [
+                            "3) General Relativity",
+                            "2) String Theory",
+                            "1) Quantum Mechanics",
+                            "4) Electromagnetic Theory"
+                        ],
+                        "explanation": "Gravitational lensing is explained through Einstein's theory of general relativity, which describes how massive objects bend light.",
+                        "answer": "3) General Relativity"
+                    },
+                    {
+                        "question": "What is the composition of galaxy clusters as mentioned in the lecture?",
+                        "options": [
+                            "1) Stars only",
+                            "3) Galaxies and Hot Gas",
+                            "2) Stars and Dark Matter",
+                            "4) Planets and Asteroids"
+                        ],
+                        "explanation": "Galaxy clusters are made up of many galaxies and vast quantities of hot gas, which can be observed with space telescopes.",
+                        "answer": "3) Galaxies and Hot Gas"
+                    },
+                    {
+                        "question": "What role does gravitational force play in the formation of structures in the universe according to the passage?",
+                        "options": [
+                            "4) It has no role",
+                            "1) It causes expansion",
+                            "2) It pushes matter apart",
+                            "3) It pulls matter together"
+                        ],
+                        "explanation": "Gravitational force pulls matter together, leading to the formation of galaxies and structures in the universe.",
+                        "answer": "3) It pulls matter together"
+                    }
+                ]
+            }
+        ],
+        "Computer Science": [
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    8
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What type of maintenance is focused on fixing defects that were not discovered during the initial development?",
+                        "options": [
+                            "4) Preventive Maintenance",
+                            "3) Perfective Maintenance",
+                            "1) Adaptive Maintenance",
+                            "2) Corrective Maintenance"
+                        ],
+                        "explanation": "Corrective maintenance is needed to address and fix software bugs or defects that may have been missed during development.",
+                        "answer": "2) Corrective Maintenance"
+                    },
+                    {
+                        "question": "What is the goal of adaptive maintenance within software development?",
+                        "options": [
+                            "2) To enhance existing functionalities",
+                            "1) To improve performance",
+                            "3) To ensure compatibility with new systems",
+                            "4) To prevent future problems"
+                        ],
+                        "explanation": "Adaptive maintenance helps to ensure that the software remains functional in changing technological environments by updating it for compatibility.",
+                        "answer": "3) To ensure compatibility with new systems"
+                    },
+                    {
+                        "question": "Which type of maintenance aims to both optimize code and enhance user features?",
+                        "options": [
+                            "3) Corrective Maintenance",
+                            "1) Perfective Maintenance",
+                            "2) Preventive Maintenance",
+                            "4) Adaptive Maintenance"
+                        ],
+                        "explanation": "Perfective maintenance focuses on improving the performance or functionalities of the software while maintaining existing operations.",
+                        "answer": "1) Perfective Maintenance"
+                    },
+                    {
+                        "question": "What type of maintenance is described as proactive, aiming to reduce future issues?",
+                        "options": [
+                            "2) Corrective Maintenance",
+                            "4) Adaptive Maintenance",
+                            "3) Perfective Maintenance",
+                            "1) Preventive Maintenance"
+                        ],
+                        "explanation": "Preventive maintenance involves making decisions and updates to avoid potential future problems in the software's performance.",
+                        "answer": "1) Preventive Maintenance"
+                    },
+                    {
+                        "question": "How can users effectively provide feedback for software improvement?",
+                        "options": [
+                            "4) By avoiding communication",
+                            "2) Only during usability testing phases",
+                            "1) Through increased software prices",
+                            "3) By engaging in surveys and interviews"
+                        ],
+                        "explanation": "Gathering user feedback through surveys and interviews allows developers to identify areas needing improvement within the software.",
+                        "answer": "3) By engaging in surveys and interviews"
+                    },
+                    {
+                        "question": "Why is it important to maintain open communication with users following software deployment?",
+                        "options": [
+                            "2) To ensure user loyalty and gather insights",
+                            "3) To limit updates to a minimum",
+                            "1) To increase software costs",
+                            "4) To eliminate the need for surveys"
+                        ],
+                        "explanation": "Keeping an open line of communication helps developers understand user needs and enhances software loyalty, leading to better overall satisfaction.",
+                        "answer": "2) To ensure user loyalty and gather insights"
+                    },
+                    {
+                        "question": "What is one reason to prioritize maintenance as part of the workflow in software development?",
+                        "options": [
+                            "2) To avoid legal complications",
+                            "3) To improve user satisfaction and software longevity",
+                            "4) To speed up development phases",
+                            "1) To save costs"
+                        ],
+                        "explanation": "Prioritizing maintenance helps to prevent significant problems that can affect performance and user satisfaction, thus ensuring software longevity.",
+                        "answer": "3) To improve user satisfaction and software longevity"
+                    },
+                    {
+                        "question": "What can user feedback inform in the context of software development cycles?",
+                        "options": [
+                            "3) Redundant features",
+                            "4) Team hiring practices",
+                            "1) Updates and necessary changes",
+                            "2) The initial code structure"
+                        ],
+                        "explanation": "User feedback is critical in guiding updates and informing necessary changes to ensure software meets user expectations and needs.",
+                        "answer": "1) Updates and necessary changes"
+                    },
+                    {
+                        "question": "What overall approach does the Software Development Life Cycle illustrate?",
+                        "options": [
+                            "4) Random decision-making",
+                            "2) A linear sequence of steps",
+                            "1) A one-time process",
+                            "3) A cyclical and iterative framework"
+                        ],
+                        "explanation": "The SDLC is best viewed as a cyclical framework that revisits various stages based on user feedback and software performance.",
+                        "answer": "3) A cyclical and iterative framework"
+                    },
+                    {
+                        "question": "Which aspect of software maintenance can lead to enhanced community engagement?",
+                        "options": [
+                            "3) Avoiding new functionalities",
+                            "4) Reducing software costs",
+                            "2) Regular interaction and updates based on user feedback",
+                            "1) Limiting user access"
+                        ],
+                        "explanation": "Engaging users regularly fosters a sense of community and loyalty as they feel their opinions are valued and heard.",
+                        "answer": "2) Regular interaction and updates based on user feedback"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What type of maintenance is focused on fixing defects that were not discovered during the initial development?",
+                        "options": [
+                            "4) Preventive Maintenance",
+                            "3) Perfective Maintenance",
+                            "1) Adaptive Maintenance",
+                            "2) Corrective Maintenance"
+                        ],
+                        "explanation": "Corrective maintenance is needed to address and fix software bugs or defects that may have been missed during development.",
+                        "answer": "2) Corrective Maintenance"
+                    },
+                    {
+                        "question": "What is the goal of adaptive maintenance within software development?",
+                        "options": [
+                            "2) To enhance existing functionalities",
+                            "1) To improve performance",
+                            "3) To ensure compatibility with new systems",
+                            "4) To prevent future problems"
+                        ],
+                        "explanation": "Adaptive maintenance helps to ensure that the software remains functional in changing technological environments by updating it for compatibility.",
+                        "answer": "3) To ensure compatibility with new systems"
+                    },
+                    {
+                        "question": "Which type of maintenance aims to both optimize code and enhance user features?",
+                        "options": [
+                            "3) Corrective Maintenance",
+                            "1) Perfective Maintenance",
+                            "2) Preventive Maintenance",
+                            "4) Adaptive Maintenance"
+                        ],
+                        "explanation": "Perfective maintenance focuses on improving the performance or functionalities of the software while maintaining existing operations.",
+                        "answer": "1) Perfective Maintenance"
+                    },
+                    {
+                        "question": "What type of maintenance is described as proactive, aiming to reduce future issues?",
+                        "options": [
+                            "2) Corrective Maintenance",
+                            "4) Adaptive Maintenance",
+                            "3) Perfective Maintenance",
+                            "1) Preventive Maintenance"
+                        ],
+                        "explanation": "Preventive maintenance involves making decisions and updates to avoid potential future problems in the software's performance.",
+                        "answer": "1) Preventive Maintenance"
+                    },
+                    {
+                        "question": "How can users effectively provide feedback for software improvement?",
+                        "options": [
+                            "4) By avoiding communication",
+                            "2) Only during usability testing phases",
+                            "1) Through increased software prices",
+                            "3) By engaging in surveys and interviews"
+                        ],
+                        "explanation": "Gathering user feedback through surveys and interviews allows developers to identify areas needing improvement within the software.",
+                        "answer": "3) By engaging in surveys and interviews"
+                    },
+                    {
+                        "question": "Why is it important to maintain open communication with users following software deployment?",
+                        "options": [
+                            "2) To ensure user loyalty and gather insights",
+                            "3) To limit updates to a minimum",
+                            "1) To increase software costs",
+                            "4) To eliminate the need for surveys"
+                        ],
+                        "explanation": "Keeping an open line of communication helps developers understand user needs and enhances software loyalty, leading to better overall satisfaction.",
+                        "answer": "2) To ensure user loyalty and gather insights"
+                    },
+                    {
+                        "question": "What is one reason to prioritize maintenance as part of the workflow in software development?",
+                        "options": [
+                            "2) To avoid legal complications",
+                            "3) To improve user satisfaction and software longevity",
+                            "4) To speed up development phases",
+                            "1) To save costs"
+                        ],
+                        "explanation": "Prioritizing maintenance helps to prevent significant problems that can affect performance and user satisfaction, thus ensuring software longevity.",
+                        "answer": "3) To improve user satisfaction and software longevity"
+                    },
+                    {
+                        "question": "What can user feedback inform in the context of software development cycles?",
+                        "options": [
+                            "3) Redundant features",
+                            "4) Team hiring practices",
+                            "1) Updates and necessary changes",
+                            "2) The initial code structure"
+                        ],
+                        "explanation": "User feedback is critical in guiding updates and informing necessary changes to ensure software meets user expectations and needs.",
+                        "answer": "1) Updates and necessary changes"
+                    },
+                    {
+                        "question": "What overall approach does the Software Development Life Cycle illustrate?",
+                        "options": [
+                            "4) Random decision-making",
+                            "2) A linear sequence of steps",
+                            "1) A one-time process",
+                            "3) A cyclical and iterative framework"
+                        ],
+                        "explanation": "The SDLC is best viewed as a cyclical framework that revisits various stages based on user feedback and software performance.",
+                        "answer": "3) A cyclical and iterative framework"
+                    },
+                    {
+                        "question": "Which aspect of software maintenance can lead to enhanced community engagement?",
+                        "options": [
+                            "3) Avoiding new functionalities",
+                            "4) Reducing software costs",
+                            "2) Regular interaction and updates based on user feedback",
+                            "1) Limiting user access"
+                        ],
+                        "explanation": "Engaging users regularly fosters a sense of community and loyalty as they feel their opinions are valued and heard.",
+                        "answer": "2) Regular interaction and updates based on user feedback"
+                    }
+                ]
+            }
+        ],
+        "English": [
+            {
+                "quiz_grade": 50.0,
+                "wrong_answers": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    6
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What do thematic statements help to articulate?",
+                        "options": [
+                            "1) The underlying messages in non-fiction works",
+                            "4) The plot structure of a story",
+                            "2) The theme of a work in a complete thought",
+                            "3) The author's biography"
+                        ],
+                        "explanation": "Thematic statements are specific articulations of a theme in a clear and concise manner, summarizing the essential idea the author is conveying.",
+                        "answer": "2) The theme of a work in a complete thought"
+                    },
+                    {
+                        "question": "Which author's work features the theme of racial injustice prominently?",
+                        "options": [
+                            "3) George Orwell",
+                            "1) F. Scott Fitzgerald",
+                            "2) Harper Lee",
+                            "4) Shakespeare"
+                        ],
+                        "explanation": "Harper Lee's 'To Kill a Mockingbird' prominently explores the theme of racial injustice, particularly in its courtroom scenes.",
+                        "answer": "2) Harper Lee"
+                    },
+                    {
+                        "question": "What do key symbols and motifs in a text often represent?",
+                        "options": [
+                            "3) They can represent larger themes",
+                            "4) They are irrelevant to understanding literature",
+                            "1) They distract from the theme",
+                            "2) They give a literal interpretation of the story"
+                        ],
+                        "explanation": "Key symbols and motifs often illustrate or enhance the larger themes present in a literary work, making them essential for thematic analysis.",
+                        "answer": "3) They can represent larger themes"
+                    },
+                    {
+                        "question": "How can characters contribute to the exploration of themes in a story?",
+                        "options": [
+                            "2) Through character choices and growth",
+                            "3) By remaining static throughout the narrative",
+                            "4) By always embodying moral superiority",
+                            "1) By providing comic relief"
+                        ],
+                        "explanation": "Characters contribute to the unfolding of themes through their choices, growth, and relationships, shedding light on the themes present in the narrative.",
+                        "answer": "2) Through character choices and growth"
+                    },
+                    {
+                        "question": "Which of the following is an example of a universal theme?",
+                        "options": [
+                            "2) The dangers of government control",
+                            "4) The life of a famous author",
+                            "3) Love and conflict",
+                            "1) The importance of a specific historical event"
+                        ],
+                        "explanation": "Love and conflict are considered universal themes because they resonate across cultures and time periods, allowing readers to find personal connections.",
+                        "answer": "3) Love and conflict"
+                    },
+                    {
+                        "question": "What is an essential aspect of theme analysis in literature?",
+                        "options": [
+                            "1) Ignoring context",
+                            "2) Focusing solely on the author\u2019s quotes",
+                            "4) Limiting to one theme per work",
+                            "3) Engaging with different perspectives"
+                        ],
+                        "explanation": "Engaging with different perspectives allows for a richer understanding of the multiple themes that might be present in a literary work.",
+                        "answer": "3) Engaging with different perspectives"
+                    },
+                    {
+                        "question": "What kind of theme is clearly stated within the text?",
+                        "options": [
+                            "4) Explicit theme",
+                            "2) Symbolic theme",
+                            "1) Implicit theme",
+                            "3) Ambiguous theme"
+                        ],
+                        "explanation": "An explicit theme is clearly stated within the text and is often directly related to the overall plot, making it easier to identify than implicit themes.",
+                        "answer": "4) Explicit theme"
+                    },
+                    {
+                        "question": "In addition to themes, what else can literature reveal through careful analysis?",
+                        "options": [
+                            "2) Insights into the human experience",
+                            "3) How to write proficiently",
+                            "1) Historical fact-checking",
+                            "4) The author's personal life"
+                        ],
+                        "explanation": "Through careful analysis of themes, literature can reveal deep insights into the human experience, society, and moral questions.",
+                        "answer": "2) Insights into the human experience"
+                    },
+                    {
+                        "question": "What does identifying multiple themes in a work help with?",
+                        "options": [
+                            "3) It deepens appreciation for the text",
+                            "4) It detracts from the main idea",
+                            "2) It limits interpretation",
+                            "1) It confuses the reader"
+                        ],
+                        "explanation": "Identifying multiple themes can enhance one's understanding and appreciation for a text, allowing for a more comprehensive reading experience.",
+                        "answer": "3) It deepens appreciation for the text"
+                    },
+                    {
+                        "question": "Who wrote '1984' and what is one of its prominent themes?",
+                        "options": [
+                            "4) Shakespeare; Love and loss",
+                            "3) George Orwell; Dangers of totalitarianism",
+                            "1) Harper Lee; Coming of Age",
+                            "2) F. Scott Fitzgerald; The American Dream"
+                        ],
+                        "explanation": "George Orwell wrote '1984', which prominently explores the dangers of totalitarianism, showcasing the oppressive control of government.",
+                        "answer": "3) George Orwell; Dangers of totalitarianism"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 40.0,
+                "wrong_answers": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    6,
+                    9
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What do thematic statements help to articulate?",
+                        "options": [
+                            "1) The underlying messages in non-fiction works",
+                            "4) The plot structure of a story",
+                            "2) The theme of a work in a complete thought",
+                            "3) The author's biography"
+                        ],
+                        "explanation": "Thematic statements are specific articulations of a theme in a clear and concise manner, summarizing the essential idea the author is conveying.",
+                        "answer": "2) The theme of a work in a complete thought"
+                    },
+                    {
+                        "question": "Which author's work features the theme of racial injustice prominently?",
+                        "options": [
+                            "3) George Orwell",
+                            "1) F. Scott Fitzgerald",
+                            "2) Harper Lee",
+                            "4) Shakespeare"
+                        ],
+                        "explanation": "Harper Lee's 'To Kill a Mockingbird' prominently explores the theme of racial injustice, particularly in its courtroom scenes.",
+                        "answer": "2) Harper Lee"
+                    },
+                    {
+                        "question": "What do key symbols and motifs in a text often represent?",
+                        "options": [
+                            "3) They can represent larger themes",
+                            "4) They are irrelevant to understanding literature",
+                            "1) They distract from the theme",
+                            "2) They give a literal interpretation of the story"
+                        ],
+                        "explanation": "Key symbols and motifs often illustrate or enhance the larger themes present in a literary work, making them essential for thematic analysis.",
+                        "answer": "3) They can represent larger themes"
+                    },
+                    {
+                        "question": "How can characters contribute to the exploration of themes in a story?",
+                        "options": [
+                            "2) Through character choices and growth",
+                            "3) By remaining static throughout the narrative",
+                            "4) By always embodying moral superiority",
+                            "1) By providing comic relief"
+                        ],
+                        "explanation": "Characters contribute to the unfolding of themes through their choices, growth, and relationships, shedding light on the themes present in the narrative.",
+                        "answer": "2) Through character choices and growth"
+                    },
+                    {
+                        "question": "Which of the following is an example of a universal theme?",
+                        "options": [
+                            "2) The dangers of government control",
+                            "4) The life of a famous author",
+                            "3) Love and conflict",
+                            "1) The importance of a specific historical event"
+                        ],
+                        "explanation": "Love and conflict are considered universal themes because they resonate across cultures and time periods, allowing readers to find personal connections.",
+                        "answer": "3) Love and conflict"
+                    },
+                    {
+                        "question": "What is an essential aspect of theme analysis in literature?",
+                        "options": [
+                            "1) Ignoring context",
+                            "2) Focusing solely on the author\u2019s quotes",
+                            "4) Limiting to one theme per work",
+                            "3) Engaging with different perspectives"
+                        ],
+                        "explanation": "Engaging with different perspectives allows for a richer understanding of the multiple themes that might be present in a literary work.",
+                        "answer": "3) Engaging with different perspectives"
+                    },
+                    {
+                        "question": "What kind of theme is clearly stated within the text?",
+                        "options": [
+                            "4) Explicit theme",
+                            "2) Symbolic theme",
+                            "1) Implicit theme",
+                            "3) Ambiguous theme"
+                        ],
+                        "explanation": "An explicit theme is clearly stated within the text and is often directly related to the overall plot, making it easier to identify than implicit themes.",
+                        "answer": "4) Explicit theme"
+                    },
+                    {
+                        "question": "In addition to themes, what else can literature reveal through careful analysis?",
+                        "options": [
+                            "2) Insights into the human experience",
+                            "3) How to write proficiently",
+                            "1) Historical fact-checking",
+                            "4) The author's personal life"
+                        ],
+                        "explanation": "Through careful analysis of themes, literature can reveal deep insights into the human experience, society, and moral questions.",
+                        "answer": "2) Insights into the human experience"
+                    },
+                    {
+                        "question": "What does identifying multiple themes in a work help with?",
+                        "options": [
+                            "3) It deepens appreciation for the text",
+                            "4) It detracts from the main idea",
+                            "2) It limits interpretation",
+                            "1) It confuses the reader"
+                        ],
+                        "explanation": "Identifying multiple themes can enhance one's understanding and appreciation for a text, allowing for a more comprehensive reading experience.",
+                        "answer": "3) It deepens appreciation for the text"
+                    },
+                    {
+                        "question": "Who wrote '1984' and what is one of its prominent themes?",
+                        "options": [
+                            "4) Shakespeare; Love and loss",
+                            "3) George Orwell; Dangers of totalitarianism",
+                            "1) Harper Lee; Coming of Age",
+                            "2) F. Scott Fitzgerald; The American Dream"
+                        ],
+                        "explanation": "George Orwell wrote '1984', which prominently explores the dangers of totalitarianism, showcasing the oppressive control of government.",
+                        "answer": "3) George Orwell; Dangers of totalitarianism"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    0,
+                    1,
+                    6,
+                    9
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What do thematic statements help to articulate?",
+                        "options": [
+                            "1) The underlying messages in non-fiction works",
+                            "4) The plot structure of a story",
+                            "2) The theme of a work in a complete thought",
+                            "3) The author's biography"
+                        ],
+                        "explanation": "Thematic statements are specific articulations of a theme in a clear and concise manner, summarizing the essential idea the author is conveying.",
+                        "answer": "2) The theme of a work in a complete thought"
+                    },
+                    {
+                        "question": "Which author's work features the theme of racial injustice prominently?",
+                        "options": [
+                            "3) George Orwell",
+                            "1) F. Scott Fitzgerald",
+                            "2) Harper Lee",
+                            "4) Shakespeare"
+                        ],
+                        "explanation": "Harper Lee's 'To Kill a Mockingbird' prominently explores the theme of racial injustice, particularly in its courtroom scenes.",
+                        "answer": "2) Harper Lee"
+                    },
+                    {
+                        "question": "What do key symbols and motifs in a text often represent?",
+                        "options": [
+                            "3) They can represent larger themes",
+                            "4) They are irrelevant to understanding literature",
+                            "1) They distract from the theme",
+                            "2) They give a literal interpretation of the story"
+                        ],
+                        "explanation": "Key symbols and motifs often illustrate or enhance the larger themes present in a literary work, making them essential for thematic analysis.",
+                        "answer": "3) They can represent larger themes"
+                    },
+                    {
+                        "question": "How can characters contribute to the exploration of themes in a story?",
+                        "options": [
+                            "2) Through character choices and growth",
+                            "3) By remaining static throughout the narrative",
+                            "4) By always embodying moral superiority",
+                            "1) By providing comic relief"
+                        ],
+                        "explanation": "Characters contribute to the unfolding of themes through their choices, growth, and relationships, shedding light on the themes present in the narrative.",
+                        "answer": "2) Through character choices and growth"
+                    },
+                    {
+                        "question": "Which of the following is an example of a universal theme?",
+                        "options": [
+                            "2) The dangers of government control",
+                            "4) The life of a famous author",
+                            "3) Love and conflict",
+                            "1) The importance of a specific historical event"
+                        ],
+                        "explanation": "Love and conflict are considered universal themes because they resonate across cultures and time periods, allowing readers to find personal connections.",
+                        "answer": "3) Love and conflict"
+                    },
+                    {
+                        "question": "What is an essential aspect of theme analysis in literature?",
+                        "options": [
+                            "1) Ignoring context",
+                            "2) Focusing solely on the author\u2019s quotes",
+                            "4) Limiting to one theme per work",
+                            "3) Engaging with different perspectives"
+                        ],
+                        "explanation": "Engaging with different perspectives allows for a richer understanding of the multiple themes that might be present in a literary work.",
+                        "answer": "3) Engaging with different perspectives"
+                    },
+                    {
+                        "question": "What kind of theme is clearly stated within the text?",
+                        "options": [
+                            "4) Explicit theme",
+                            "2) Symbolic theme",
+                            "1) Implicit theme",
+                            "3) Ambiguous theme"
+                        ],
+                        "explanation": "An explicit theme is clearly stated within the text and is often directly related to the overall plot, making it easier to identify than implicit themes.",
+                        "answer": "4) Explicit theme"
+                    },
+                    {
+                        "question": "In addition to themes, what else can literature reveal through careful analysis?",
+                        "options": [
+                            "2) Insights into the human experience",
+                            "3) How to write proficiently",
+                            "1) Historical fact-checking",
+                            "4) The author's personal life"
+                        ],
+                        "explanation": "Through careful analysis of themes, literature can reveal deep insights into the human experience, society, and moral questions.",
+                        "answer": "2) Insights into the human experience"
+                    },
+                    {
+                        "question": "What does identifying multiple themes in a work help with?",
+                        "options": [
+                            "3) It deepens appreciation for the text",
+                            "4) It detracts from the main idea",
+                            "2) It limits interpretation",
+                            "1) It confuses the reader"
+                        ],
+                        "explanation": "Identifying multiple themes can enhance one's understanding and appreciation for a text, allowing for a more comprehensive reading experience.",
+                        "answer": "3) It deepens appreciation for the text"
+                    },
+                    {
+                        "question": "Who wrote '1984' and what is one of its prominent themes?",
+                        "options": [
+                            "4) Shakespeare; Love and loss",
+                            "3) George Orwell; Dangers of totalitarianism",
+                            "1) Harper Lee; Coming of Age",
+                            "2) F. Scott Fitzgerald; The American Dream"
+                        ],
+                        "explanation": "George Orwell wrote '1984', which prominently explores the dangers of totalitarianism, showcasing the oppressive control of government.",
+                        "answer": "3) George Orwell; Dangers of totalitarianism"
+                    }
+                ]
+            }
+        ],
+        "Science": [
+            {
+                "quiz_grade": 50.0,
+                "wrong_answers": [
+                    0,
+                    1,
+                    3,
+                    4,
+                    9
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "Which of the following types of motion occurs when an object moves in a straight line?",
+                        "options": [
+                            "2) Oscillatory motion",
+                            "1) Rotational motion",
+                            "3) Linear motion",
+                            "4) Circular motion"
+                        ],
+                        "explanation": "Linear motion is defined as the motion of an object in a straight path, contrasting with rotational or oscillatory motion. A car driving on a highway exemplifies linear motion.",
+                        "answer": "3) Linear motion"
+                    },
+                    {
+                        "question": "What does Newton's second law of motion establish the relationship between?",
+                        "options": [
+                            "2) Force, mass, and acceleration",
+                            "1) Weight, volume, and temperature",
+                            "3) Speed, distance, and time",
+                            "4) Pressure, area, and force"
+                        ],
+                        "explanation": "Newton's second law of motion establishes the relationship between force, mass, and acceleration. It is expressed through the formula F=ma, which summarizes how force (F) influences motion based on mass (m) and acceleration (a).",
+                        "answer": "2) Force, mass, and acceleration"
+                    },
+                    {
+                        "question": "In the context of automobiles, what role does friction play in vehicle safety?",
+                        "options": [
+                            "4) Decreases tire wear",
+                            "3) Increases fuel consumption",
+                            "2) Allows for steering and braking control",
+                            "1) Enhances speed"
+                        ],
+                        "explanation": "Friction between the tires and the road allows cars to grip the surface, crucial for steering and braking control, thereby enhancing vehicle safety.",
+                        "answer": "2) Allows for steering and braking control"
+                    },
+                    {
+                        "question": "When a basketball player takes a jump shot, what concept must they consider to ensure the ball arcs properly into the basket?",
+                        "options": [
+                            "4) The speed of other players",
+                            "2) The angle and force of their shot",
+                            "3) The mass of the basketball",
+                            "1) Friction between their shoes and the floor"
+                        ],
+                        "explanation": "To score in a jump shot, the player must calculate the appropriate angle and the force of their shot to ensure the basketball follows a proper arc and successfully reaches the basket.",
+                        "answer": "2) The angle and force of their shot"
+                    },
+                    {
+                        "question": "What happens to the kinetic energy of a car if its speed is doubled?",
+                        "options": [
+                            "1) Kinetic energy remains the same",
+                            "3) Kinetic energy quadruples",
+                            "2) Kinetic energy decreases by half",
+                            "4) Kinetic energy doubles"
+                        ],
+                        "explanation": "The formula for kinetic energy (KE) is KE = 1/2 mv\u00b2. Therefore, if the speed (v) is doubled, the kinetic energy increases by a factor of four (since 2\u00b2=4).",
+                        "answer": "3) Kinetic energy quadruples"
+                    },
+                    {
+                        "question": "How does the concept of energy transformation apply to an automobile's engine?",
+                        "options": [
+                            "2) It transforms kinetic energy into sound energy",
+                            "4) It creates energy from nothing",
+                            "3) It changes chemical energy into mechanical energy",
+                            "1) It converts mechanical energy into chemical energy"
+                        ],
+                        "explanation": "An automobile's engine converts chemical energy from fuel into mechanical energy to power the vehicle, as per the principle of energy transformation.",
+                        "answer": "3) It changes chemical energy into mechanical energy"
+                    },
+                    {
+                        "question": "Which of the following is an example of rotational motion?",
+                        "options": [
+                            "1) A soccer ball flying in the air",
+                            "4) A pendulum swinging",
+                            "3) A train moving down a track",
+                            "2) A bicycle wheel spinning"
+                        ],
+                        "explanation": "Rotational motion refers to when an object spins around an axis. A bicycle wheel spinning is a perfect example of rotational motion.",
+                        "answer": "2) A bicycle wheel spinning"
+                    },
+                    {
+                        "question": "In the context of Newton's laws, what must happen for a car to accelerate?",
+                        "options": [
+                            "2) There must be an external force applied",
+                            "3) The car must increase its mass",
+                            "1) The car must be downhill",
+                            "4) The car must have stable friction"
+                        ],
+                        "explanation": "For a car to accelerate, an external force must act on it, such as the force produced by the engine, as described in Newton's second law of motion.",
+                        "answer": "2) There must be an external force applied"
+                    },
+                    {
+                        "question": "What is the outcome when there is too little friction between athletes' shoes and the playing surface?",
+                        "options": [
+                            "1) Improved speed",
+                            "3) Loss of control and traction",
+                            "4) Higher energy efficiency",
+                            "2) Enhanced stability"
+                        ],
+                        "explanation": "Too little friction can result in athletes struggling to maintain traction and control, which negatively impacts their performance in sports.",
+                        "answer": "3) Loss of control and traction"
+                    },
+                    {
+                        "question": "What term describes the downward force acting on objects in motion due to gravity, affecting their trajectory?",
+                        "options": [
+                            "4) Weight",
+                            "1) Acceleration",
+                            "3) Inertia",
+                            "2) Friction"
+                        ],
+                        "explanation": "Weight is the force acting downwards on objects due to gravity, which affects their motion and trajectory, as seen in the parabolic path of a kicked soccer ball.",
+                        "answer": "4) Weight"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 50.0,
+                "wrong_answers": [
+                    0,
+                    1,
+                    3,
+                    4,
+                    9
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "Which of the following types of motion occurs when an object moves in a straight line?",
+                        "options": [
+                            "2) Oscillatory motion",
+                            "1) Rotational motion",
+                            "3) Linear motion",
+                            "4) Circular motion"
+                        ],
+                        "explanation": "Linear motion is defined as the motion of an object in a straight path, contrasting with rotational or oscillatory motion. A car driving on a highway exemplifies linear motion.",
+                        "answer": "3) Linear motion"
+                    },
+                    {
+                        "question": "What does Newton's second law of motion establish the relationship between?",
+                        "options": [
+                            "2) Force, mass, and acceleration",
+                            "1) Weight, volume, and temperature",
+                            "3) Speed, distance, and time",
+                            "4) Pressure, area, and force"
+                        ],
+                        "explanation": "Newton's second law of motion establishes the relationship between force, mass, and acceleration. It is expressed through the formula F=ma, which summarizes how force (F) influences motion based on mass (m) and acceleration (a).",
+                        "answer": "2) Force, mass, and acceleration"
+                    },
+                    {
+                        "question": "In the context of automobiles, what role does friction play in vehicle safety?",
+                        "options": [
+                            "4) Decreases tire wear",
+                            "3) Increases fuel consumption",
+                            "2) Allows for steering and braking control",
+                            "1) Enhances speed"
+                        ],
+                        "explanation": "Friction between the tires and the road allows cars to grip the surface, crucial for steering and braking control, thereby enhancing vehicle safety.",
+                        "answer": "2) Allows for steering and braking control"
+                    },
+                    {
+                        "question": "When a basketball player takes a jump shot, what concept must they consider to ensure the ball arcs properly into the basket?",
+                        "options": [
+                            "4) The speed of other players",
+                            "2) The angle and force of their shot",
+                            "3) The mass of the basketball",
+                            "1) Friction between their shoes and the floor"
+                        ],
+                        "explanation": "To score in a jump shot, the player must calculate the appropriate angle and the force of their shot to ensure the basketball follows a proper arc and successfully reaches the basket.",
+                        "answer": "2) The angle and force of their shot"
+                    },
+                    {
+                        "question": "What happens to the kinetic energy of a car if its speed is doubled?",
+                        "options": [
+                            "1) Kinetic energy remains the same",
+                            "3) Kinetic energy quadruples",
+                            "2) Kinetic energy decreases by half",
+                            "4) Kinetic energy doubles"
+                        ],
+                        "explanation": "The formula for kinetic energy (KE) is KE = 1/2 mv\u00b2. Therefore, if the speed (v) is doubled, the kinetic energy increases by a factor of four (since 2\u00b2=4).",
+                        "answer": "3) Kinetic energy quadruples"
+                    },
+                    {
+                        "question": "How does the concept of energy transformation apply to an automobile's engine?",
+                        "options": [
+                            "2) It transforms kinetic energy into sound energy",
+                            "4) It creates energy from nothing",
+                            "3) It changes chemical energy into mechanical energy",
+                            "1) It converts mechanical energy into chemical energy"
+                        ],
+                        "explanation": "An automobile's engine converts chemical energy from fuel into mechanical energy to power the vehicle, as per the principle of energy transformation.",
+                        "answer": "3) It changes chemical energy into mechanical energy"
+                    },
+                    {
+                        "question": "Which of the following is an example of rotational motion?",
+                        "options": [
+                            "1) A soccer ball flying in the air",
+                            "4) A pendulum swinging",
+                            "3) A train moving down a track",
+                            "2) A bicycle wheel spinning"
+                        ],
+                        "explanation": "Rotational motion refers to when an object spins around an axis. A bicycle wheel spinning is a perfect example of rotational motion.",
+                        "answer": "2) A bicycle wheel spinning"
+                    },
+                    {
+                        "question": "In the context of Newton's laws, what must happen for a car to accelerate?",
+                        "options": [
+                            "2) There must be an external force applied",
+                            "3) The car must increase its mass",
+                            "1) The car must be downhill",
+                            "4) The car must have stable friction"
+                        ],
+                        "explanation": "For a car to accelerate, an external force must act on it, such as the force produced by the engine, as described in Newton's second law of motion.",
+                        "answer": "2) There must be an external force applied"
+                    },
+                    {
+                        "question": "What is the outcome when there is too little friction between athletes' shoes and the playing surface?",
+                        "options": [
+                            "1) Improved speed",
+                            "3) Loss of control and traction",
+                            "4) Higher energy efficiency",
+                            "2) Enhanced stability"
+                        ],
+                        "explanation": "Too little friction can result in athletes struggling to maintain traction and control, which negatively impacts their performance in sports.",
+                        "answer": "3) Loss of control and traction"
+                    },
+                    {
+                        "question": "What term describes the downward force acting on objects in motion due to gravity, affecting their trajectory?",
+                        "options": [
+                            "4) Weight",
+                            "1) Acceleration",
+                            "3) Inertia",
+                            "2) Friction"
+                        ],
+                        "explanation": "Weight is the force acting downwards on objects due to gravity, which affects their motion and trajectory, as seen in the parabolic path of a kicked soccer ball.",
+                        "answer": "4) Weight"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    0,
+                    3,
+                    4,
+                    9
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "Which of the following types of motion occurs when an object moves in a straight line?",
+                        "options": [
+                            "2) Oscillatory motion",
+                            "1) Rotational motion",
+                            "3) Linear motion",
+                            "4) Circular motion"
+                        ],
+                        "explanation": "Linear motion is defined as the motion of an object in a straight path, contrasting with rotational or oscillatory motion. A car driving on a highway exemplifies linear motion.",
+                        "answer": "3) Linear motion"
+                    },
+                    {
+                        "question": "What does Newton's second law of motion establish the relationship between?",
+                        "options": [
+                            "2) Force, mass, and acceleration",
+                            "1) Weight, volume, and temperature",
+                            "3) Speed, distance, and time",
+                            "4) Pressure, area, and force"
+                        ],
+                        "explanation": "Newton's second law of motion establishes the relationship between force, mass, and acceleration. It is expressed through the formula F=ma, which summarizes how force (F) influences motion based on mass (m) and acceleration (a).",
+                        "answer": "2) Force, mass, and acceleration"
+                    },
+                    {
+                        "question": "In the context of automobiles, what role does friction play in vehicle safety?",
+                        "options": [
+                            "4) Decreases tire wear",
+                            "3) Increases fuel consumption",
+                            "2) Allows for steering and braking control",
+                            "1) Enhances speed"
+                        ],
+                        "explanation": "Friction between the tires and the road allows cars to grip the surface, crucial for steering and braking control, thereby enhancing vehicle safety.",
+                        "answer": "2) Allows for steering and braking control"
+                    },
+                    {
+                        "question": "When a basketball player takes a jump shot, what concept must they consider to ensure the ball arcs properly into the basket?",
+                        "options": [
+                            "4) The speed of other players",
+                            "2) The angle and force of their shot",
+                            "3) The mass of the basketball",
+                            "1) Friction between their shoes and the floor"
+                        ],
+                        "explanation": "To score in a jump shot, the player must calculate the appropriate angle and the force of their shot to ensure the basketball follows a proper arc and successfully reaches the basket.",
+                        "answer": "2) The angle and force of their shot"
+                    },
+                    {
+                        "question": "What happens to the kinetic energy of a car if its speed is doubled?",
+                        "options": [
+                            "1) Kinetic energy remains the same",
+                            "3) Kinetic energy quadruples",
+                            "2) Kinetic energy decreases by half",
+                            "4) Kinetic energy doubles"
+                        ],
+                        "explanation": "The formula for kinetic energy (KE) is KE = 1/2 mv\u00b2. Therefore, if the speed (v) is doubled, the kinetic energy increases by a factor of four (since 2\u00b2=4).",
+                        "answer": "3) Kinetic energy quadruples"
+                    },
+                    {
+                        "question": "How does the concept of energy transformation apply to an automobile's engine?",
+                        "options": [
+                            "2) It transforms kinetic energy into sound energy",
+                            "4) It creates energy from nothing",
+                            "3) It changes chemical energy into mechanical energy",
+                            "1) It converts mechanical energy into chemical energy"
+                        ],
+                        "explanation": "An automobile's engine converts chemical energy from fuel into mechanical energy to power the vehicle, as per the principle of energy transformation.",
+                        "answer": "3) It changes chemical energy into mechanical energy"
+                    },
+                    {
+                        "question": "Which of the following is an example of rotational motion?",
+                        "options": [
+                            "1) A soccer ball flying in the air",
+                            "4) A pendulum swinging",
+                            "3) A train moving down a track",
+                            "2) A bicycle wheel spinning"
+                        ],
+                        "explanation": "Rotational motion refers to when an object spins around an axis. A bicycle wheel spinning is a perfect example of rotational motion.",
+                        "answer": "2) A bicycle wheel spinning"
+                    },
+                    {
+                        "question": "In the context of Newton's laws, what must happen for a car to accelerate?",
+                        "options": [
+                            "2) There must be an external force applied",
+                            "3) The car must increase its mass",
+                            "1) The car must be downhill",
+                            "4) The car must have stable friction"
+                        ],
+                        "explanation": "For a car to accelerate, an external force must act on it, such as the force produced by the engine, as described in Newton's second law of motion.",
+                        "answer": "2) There must be an external force applied"
+                    },
+                    {
+                        "question": "What is the outcome when there is too little friction between athletes' shoes and the playing surface?",
+                        "options": [
+                            "1) Improved speed",
+                            "3) Loss of control and traction",
+                            "4) Higher energy efficiency",
+                            "2) Enhanced stability"
+                        ],
+                        "explanation": "Too little friction can result in athletes struggling to maintain traction and control, which negatively impacts their performance in sports.",
+                        "answer": "3) Loss of control and traction"
+                    },
+                    {
+                        "question": "What term describes the downward force acting on objects in motion due to gravity, affecting their trajectory?",
+                        "options": [
+                            "4) Weight",
+                            "1) Acceleration",
+                            "3) Inertia",
+                            "2) Friction"
+                        ],
+                        "explanation": "Weight is the force acting downwards on objects due to gravity, which affects their motion and trajectory, as seen in the parabolic path of a kicked soccer ball.",
+                        "answer": "4) Weight"
+                    }
+                ]
+            }
+        ],
+        "Texas History": [
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    7,
+                    8
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "How many Texans served in the armed forces during World War I?",
+                        "options": [
+                            "4) 250,000",
+                            "1) 197,000",
+                            "2) 150,000",
+                            "3) 300,000"
+                        ],
+                        "explanation": "More than 197,000 Texans served in the armed forces during World War I, making significant contributions to the war effort.",
+                        "answer": "1) 197,000"
+                    },
+                    {
+                        "question": "What was the name of the military training camp located in San Antonio, Texas?",
+                        "options": [
+                            "1) Camp Travis",
+                            "2) Camp McCoy",
+                            "3) Camp Code",
+                            "4) Camp Houston"
+                        ],
+                        "explanation": "Camp Travis in San Antonio served as a significant military training camp that trained thousands of soldiers during World War I.",
+                        "answer": "1) Camp Travis"
+                    },
+                    {
+                        "question": "Which industry experienced significant growth in Texas during the 1920s?",
+                        "options": [
+                            "1) Agriculture",
+                            "2) Technology",
+                            "3) Oil",
+                            "4) Automotive"
+                        ],
+                        "explanation": "The oil industry boomed in Texas during the 1920s, particularly following the discovery of oil at Spindletop in 1901.",
+                        "answer": "3) Oil"
+                    },
+                    {
+                        "question": "In what way did the end of World War I change the cultural landscape of Texas?",
+                        "options": [
+                            "4) It had no effect on the culture.",
+                            "2) It caused a reduction in population.",
+                            "3) It sparked new ideas and perspectives in the community.",
+                            "1) It led to a decline in artistic expression."
+                        ],
+                        "explanation": "After World War I, many Texans returned home with new ideas and experiences, leading to significant cultural shifts in the state.",
+                        "answer": "3) It sparked new ideas and perspectives in the community."
+                    },
+                    {
+                        "question": "Which art forms became popular in Texas cities like Austin and Fort Worth during the 1920s?",
+                        "options": [
+                            "2) Country music",
+                            "1) Classical music",
+                            "4) Rock and roll",
+                            "3) Jazz and blues"
+                        ],
+                        "explanation": "The 1920s saw Texas becoming a hub for jazz and blues, with Austin and Fort Worth thriving in these genres due to increased cultural expression.",
+                        "answer": "3) Jazz and blues"
+                    },
+                    {
+                        "question": "What social movement gained momentum among African American veterans after World War I?",
+                        "options": [
+                            "1) Labor rights movement",
+                            "3) Environmental movement",
+                            "4) Women's suffrage movement",
+                            "2) Civil rights movement"
+                        ],
+                        "explanation": "African American veterans returned from the war with a renewed sense of pride and demanded civil rights, contributing to the civil rights movement.",
+                        "answer": "2) Civil rights movement"
+                    },
+                    {
+                        "question": "What issue did rural Texans face during the economic boom of the 1920s?",
+                        "options": [
+                            "1) Food shortages",
+                            "3) Overcrowding in cities",
+                            "2) Agricultural struggles",
+                            "4) High unemployment"
+                        ],
+                        "explanation": "While urban areas thrived, many rural Texans struggled due to agricultural issues, exacerbated by droughts, leading to movements advocating for farmers' rights.",
+                        "answer": "2) Agricultural struggles"
+                    },
+                    {
+                        "question": "What new technology in the 1920s helped spread musical genres across Texas?",
+                        "options": [
+                            "1) Television",
+                            "3) Radio",
+                            "4) Cinemas",
+                            "2) Online streaming"
+                        ],
+                        "explanation": "The rise of radio during the 1920s enabled the spread of jazz, blues, and other musical genres across Texas, uniting communities through music.",
+                        "answer": "3) Radio"
+                    },
+                    {
+                        "question": "Post-war literature often reflected themes related to what?",
+                        "options": [
+                            "4) Historical accounts",
+                            "3) Resilience and recovery",
+                            "1) Adventure and exploration",
+                            "2) Romance"
+                        ],
+                        "explanation": "Post-war literature frequently captured the experiences and hardships of those who served, focusing on themes of resilience and recovery.",
+                        "answer": "3) Resilience and recovery"
+                    },
+                    {
+                        "question": "What type of drives did communities in Texas organize to support the war effort during World War I?",
+                        "options": [
+                            "3) Job fairs",
+                            "4) Food drives",
+                            "1) Fundraising drives",
+                            "2) Liberty Loan drives"
+                        ],
+                        "explanation": "Liberty Loan drives were organized by communities to raise funds for the war effort, demonstrating local support for the troops.",
+                        "answer": "2) Liberty Loan drives"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "How many Texans served in the armed forces during World War I?",
+                        "options": [
+                            "4) 250,000",
+                            "1) 197,000",
+                            "2) 150,000",
+                            "3) 300,000"
+                        ],
+                        "explanation": "More than 197,000 Texans served in the armed forces during World War I, making significant contributions to the war effort.",
+                        "answer": "1) 197,000"
+                    },
+                    {
+                        "question": "What was the name of the military training camp located in San Antonio, Texas?",
+                        "options": [
+                            "1) Camp Travis",
+                            "2) Camp McCoy",
+                            "3) Camp Code",
+                            "4) Camp Houston"
+                        ],
+                        "explanation": "Camp Travis in San Antonio served as a significant military training camp that trained thousands of soldiers during World War I.",
+                        "answer": "1) Camp Travis"
+                    },
+                    {
+                        "question": "Which industry experienced significant growth in Texas during the 1920s?",
+                        "options": [
+                            "1) Agriculture",
+                            "2) Technology",
+                            "3) Oil",
+                            "4) Automotive"
+                        ],
+                        "explanation": "The oil industry boomed in Texas during the 1920s, particularly following the discovery of oil at Spindletop in 1901.",
+                        "answer": "3) Oil"
+                    },
+                    {
+                        "question": "In what way did the end of World War I change the cultural landscape of Texas?",
+                        "options": [
+                            "4) It had no effect on the culture.",
+                            "2) It caused a reduction in population.",
+                            "3) It sparked new ideas and perspectives in the community.",
+                            "1) It led to a decline in artistic expression."
+                        ],
+                        "explanation": "After World War I, many Texans returned home with new ideas and experiences, leading to significant cultural shifts in the state.",
+                        "answer": "3) It sparked new ideas and perspectives in the community."
+                    },
+                    {
+                        "question": "Which art forms became popular in Texas cities like Austin and Fort Worth during the 1920s?",
+                        "options": [
+                            "2) Country music",
+                            "1) Classical music",
+                            "4) Rock and roll",
+                            "3) Jazz and blues"
+                        ],
+                        "explanation": "The 1920s saw Texas becoming a hub for jazz and blues, with Austin and Fort Worth thriving in these genres due to increased cultural expression.",
+                        "answer": "3) Jazz and blues"
+                    },
+                    {
+                        "question": "What social movement gained momentum among African American veterans after World War I?",
+                        "options": [
+                            "1) Labor rights movement",
+                            "3) Environmental movement",
+                            "4) Women's suffrage movement",
+                            "2) Civil rights movement"
+                        ],
+                        "explanation": "African American veterans returned from the war with a renewed sense of pride and demanded civil rights, contributing to the civil rights movement.",
+                        "answer": "2) Civil rights movement"
+                    },
+                    {
+                        "question": "What issue did rural Texans face during the economic boom of the 1920s?",
+                        "options": [
+                            "1) Food shortages",
+                            "3) Overcrowding in cities",
+                            "2) Agricultural struggles",
+                            "4) High unemployment"
+                        ],
+                        "explanation": "While urban areas thrived, many rural Texans struggled due to agricultural issues, exacerbated by droughts, leading to movements advocating for farmers' rights.",
+                        "answer": "2) Agricultural struggles"
+                    },
+                    {
+                        "question": "What new technology in the 1920s helped spread musical genres across Texas?",
+                        "options": [
+                            "1) Television",
+                            "3) Radio",
+                            "4) Cinemas",
+                            "2) Online streaming"
+                        ],
+                        "explanation": "The rise of radio during the 1920s enabled the spread of jazz, blues, and other musical genres across Texas, uniting communities through music.",
+                        "answer": "3) Radio"
+                    },
+                    {
+                        "question": "Post-war literature often reflected themes related to what?",
+                        "options": [
+                            "4) Historical accounts",
+                            "3) Resilience and recovery",
+                            "1) Adventure and exploration",
+                            "2) Romance"
+                        ],
+                        "explanation": "Post-war literature frequently captured the experiences and hardships of those who served, focusing on themes of resilience and recovery.",
+                        "answer": "3) Resilience and recovery"
+                    },
+                    {
+                        "question": "What type of drives did communities in Texas organize to support the war effort during World War I?",
+                        "options": [
+                            "3) Job fairs",
+                            "4) Food drives",
+                            "1) Fundraising drives",
+                            "2) Liberty Loan drives"
+                        ],
+                        "explanation": "Liberty Loan drives were organized by communities to raise funds for the war effort, demonstrating local support for the troops.",
+                        "answer": "2) Liberty Loan drives"
+                    }
+                ]
+            }
+        ],
+        "The Evolution of Faith": [
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    1,
+                    3
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is the central theme discussed in the lecture regarding faith in a changing world?",
+                        "options": [
+                            "2) The importance of shared values among different faiths",
+                            "4) The need for faith-based education",
+                            "3) The decline of religious practices globally",
+                            "1) The challenges of maintaining faith"
+                        ],
+                        "explanation": "The lecture discusses how shared values across different faiths can create a unifying force in a changing society.",
+                        "answer": "2) The importance of shared values among different faiths"
+                    },
+                    {
+                        "question": "Which shared value is highlighted as essential for fostering community support among faith groups?",
+                        "options": [
+                            "2) Justice",
+                            "3) Compassion",
+                            "1) Forgiveness",
+                            "4) Truth"
+                        ],
+                        "explanation": "Compassion is emphasized in the lecture as a key value that fosters community support during times of crisis.",
+                        "answer": "3) Compassion"
+                    },
+                    {
+                        "question": "What principle does Tikkun Olam represent, as mentioned in the lecture?",
+                        "options": [
+                            "4) The importance of personal faith",
+                            "1) A call for reconciliation",
+                            "2) The pursuit of individual success",
+                            "3) The ethical responsibility towards community"
+                        ],
+                        "explanation": "Tikkun Olam is mentioned in relation to social justice and the ethical responsibility individuals have for their communities.",
+                        "answer": "3) The ethical responsibility towards community"
+                    },
+                    {
+                        "question": "According to the lecture, how does forgiveness contribute to conflict resolution across faiths?",
+                        "options": [
+                            "2) It is a tool for healing divisions",
+                            "4) It promotes isolation",
+                            "3) It strengthens individual beliefs",
+                            "1) It stops further conflict"
+                        ],
+                        "explanation": "The lecture states that forgiveness serves as a crucial element in healing divisions and resolving conflicts among different faith groups.",
+                        "answer": "2) It is a tool for healing divisions"
+                    },
+                    {
+                        "question": "What does the pursuit of truth encourage among different faith traditions, as mentioned in the lecture?",
+                        "options": [
+                            "1) Isolation from other beliefs",
+                            "3) Open dialogue and questioning of assumptions",
+                            "4) Adherence to dogmatic beliefs",
+                            "2) An understanding of one\u2019s own tradition only"
+                        ],
+                        "explanation": "The pursuit of truth is described as encouraging followers to seek knowledge and engage in dialogue to understand both their own and others' beliefs.",
+                        "answer": "3) Open dialogue and questioning of assumptions"
+                    },
+                    {
+                        "question": "Which value is expected to gain renewed attention in faith communities as individuals seek connection, according to the lecture?",
+                        "options": [
+                            "4) Exclusivity",
+                            "1) Individualism",
+                            "2) Financial success",
+                            "3) Community"
+                        ],
+                        "explanation": "The lecture discusses how community becomes increasingly important as individuals feel isolated and seek shared purpose.",
+                        "answer": "3) Community"
+                    },
+                    {
+                        "question": "What is highlighted as a necessary response from faith communities regarding contemporary ethical dilemmas?",
+                        "options": [
+                            "2) To apply shared values",
+                            "1) To remain silent",
+                            "4) To prioritize individual beliefs over communal ones",
+                            "3) To isolate themselves from societal issues"
+                        ],
+                        "explanation": "The lecture emphasizes that faith communities need to engage proactively and apply shared values to address pressing societal issues.",
+                        "answer": "2) To apply shared values"
+                    },
+                    {
+                        "question": "In discussing the centrality of love, how is it perceived across many religions, as noted in the lecture?",
+                        "options": [
+                            "2) As a guiding principle for kindness and connection",
+                            "1) As a lesser virtue",
+                            "4) Only as a concept in Christianity",
+                            "3) As irrelevant to modern life"
+                        ],
+                        "explanation": "The lecture presents love as a foundational value in many religions, promoting kindness and connection among different groups.",
+                        "answer": "2) As a guiding principle for kindness and connection"
+                    },
+                    {
+                        "question": "What role do faith leaders and communities play in the context of shared values, based on the lecture\u2019s insights?",
+                        "options": [
+                            "4) They avoid engagement with societal changes.",
+                            "2) They maintain exclusivity over their practices.",
+                            "1) They challenge existing beliefs.",
+                            "3) They foster interfaith conversations and collaborations."
+                        ],
+                        "explanation": "The lecture points out that faith leaders and communities should work collaboratively, using shared values to positively impact societal change.",
+                        "answer": "3) They foster interfaith conversations and collaborations."
+                    },
+                    {
+                        "question": "What does the lecture suggest about the future of faith in relation to systemic issues?",
+                        "options": [
+                            "4) It will increasingly collaborate with diverse groups to address social justice.",
+                            "2) It will face decline and irrelevance.",
+                            "1) It will focus only on traditional practices.",
+                            "3) It will prioritize financial gain."
+                        ],
+                        "explanation": "The lecture notes that faith communities may partner with diverse groups to address critical social justice issues, highlighting collaboration.",
+                        "answer": "4) It will increasingly collaborate with diverse groups to address social justice."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    1
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is the central theme discussed in the lecture regarding faith in a changing world?",
+                        "options": [
+                            "2) The importance of shared values among different faiths",
+                            "4) The need for faith-based education",
+                            "3) The decline of religious practices globally",
+                            "1) The challenges of maintaining faith"
+                        ],
+                        "explanation": "The lecture discusses how shared values across different faiths can create a unifying force in a changing society.",
+                        "answer": "2) The importance of shared values among different faiths"
+                    },
+                    {
+                        "question": "Which shared value is highlighted as essential for fostering community support among faith groups?",
+                        "options": [
+                            "2) Justice",
+                            "3) Compassion",
+                            "1) Forgiveness",
+                            "4) Truth"
+                        ],
+                        "explanation": "Compassion is emphasized in the lecture as a key value that fosters community support during times of crisis.",
+                        "answer": "3) Compassion"
+                    },
+                    {
+                        "question": "What principle does Tikkun Olam represent, as mentioned in the lecture?",
+                        "options": [
+                            "4) The importance of personal faith",
+                            "1) A call for reconciliation",
+                            "2) The pursuit of individual success",
+                            "3) The ethical responsibility towards community"
+                        ],
+                        "explanation": "Tikkun Olam is mentioned in relation to social justice and the ethical responsibility individuals have for their communities.",
+                        "answer": "3) The ethical responsibility towards community"
+                    },
+                    {
+                        "question": "According to the lecture, how does forgiveness contribute to conflict resolution across faiths?",
+                        "options": [
+                            "2) It is a tool for healing divisions",
+                            "4) It promotes isolation",
+                            "3) It strengthens individual beliefs",
+                            "1) It stops further conflict"
+                        ],
+                        "explanation": "The lecture states that forgiveness serves as a crucial element in healing divisions and resolving conflicts among different faith groups.",
+                        "answer": "2) It is a tool for healing divisions"
+                    },
+                    {
+                        "question": "What does the pursuit of truth encourage among different faith traditions, as mentioned in the lecture?",
+                        "options": [
+                            "1) Isolation from other beliefs",
+                            "3) Open dialogue and questioning of assumptions",
+                            "4) Adherence to dogmatic beliefs",
+                            "2) An understanding of one\u2019s own tradition only"
+                        ],
+                        "explanation": "The pursuit of truth is described as encouraging followers to seek knowledge and engage in dialogue to understand both their own and others' beliefs.",
+                        "answer": "3) Open dialogue and questioning of assumptions"
+                    },
+                    {
+                        "question": "Which value is expected to gain renewed attention in faith communities as individuals seek connection, according to the lecture?",
+                        "options": [
+                            "4) Exclusivity",
+                            "1) Individualism",
+                            "2) Financial success",
+                            "3) Community"
+                        ],
+                        "explanation": "The lecture discusses how community becomes increasingly important as individuals feel isolated and seek shared purpose.",
+                        "answer": "3) Community"
+                    },
+                    {
+                        "question": "What is highlighted as a necessary response from faith communities regarding contemporary ethical dilemmas?",
+                        "options": [
+                            "2) To apply shared values",
+                            "1) To remain silent",
+                            "4) To prioritize individual beliefs over communal ones",
+                            "3) To isolate themselves from societal issues"
+                        ],
+                        "explanation": "The lecture emphasizes that faith communities need to engage proactively and apply shared values to address pressing societal issues.",
+                        "answer": "2) To apply shared values"
+                    },
+                    {
+                        "question": "In discussing the centrality of love, how is it perceived across many religions, as noted in the lecture?",
+                        "options": [
+                            "2) As a guiding principle for kindness and connection",
+                            "1) As a lesser virtue",
+                            "4) Only as a concept in Christianity",
+                            "3) As irrelevant to modern life"
+                        ],
+                        "explanation": "The lecture presents love as a foundational value in many religions, promoting kindness and connection among different groups.",
+                        "answer": "2) As a guiding principle for kindness and connection"
+                    },
+                    {
+                        "question": "What role do faith leaders and communities play in the context of shared values, based on the lecture\u2019s insights?",
+                        "options": [
+                            "4) They avoid engagement with societal changes.",
+                            "2) They maintain exclusivity over their practices.",
+                            "1) They challenge existing beliefs.",
+                            "3) They foster interfaith conversations and collaborations."
+                        ],
+                        "explanation": "The lecture points out that faith leaders and communities should work collaboratively, using shared values to positively impact societal change.",
+                        "answer": "3) They foster interfaith conversations and collaborations."
+                    },
+                    {
+                        "question": "What does the lecture suggest about the future of faith in relation to systemic issues?",
+                        "options": [
+                            "4) It will increasingly collaborate with diverse groups to address social justice.",
+                            "2) It will face decline and irrelevance.",
+                            "1) It will focus only on traditional practices.",
+                            "3) It will prioritize financial gain."
+                        ],
+                        "explanation": "The lecture notes that faith communities may partner with diverse groups to address critical social justice issues, highlighting collaboration.",
+                        "answer": "4) It will increasingly collaborate with diverse groups to address social justice."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    1
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What is the central theme discussed in the lecture regarding faith in a changing world?",
+                        "options": [
+                            "2) The importance of shared values among different faiths",
+                            "4) The need for faith-based education",
+                            "3) The decline of religious practices globally",
+                            "1) The challenges of maintaining faith"
+                        ],
+                        "explanation": "The lecture discusses how shared values across different faiths can create a unifying force in a changing society.",
+                        "answer": "2) The importance of shared values among different faiths"
+                    },
+                    {
+                        "question": "Which shared value is highlighted as essential for fostering community support among faith groups?",
+                        "options": [
+                            "2) Justice",
+                            "3) Compassion",
+                            "1) Forgiveness",
+                            "4) Truth"
+                        ],
+                        "explanation": "Compassion is emphasized in the lecture as a key value that fosters community support during times of crisis.",
+                        "answer": "3) Compassion"
+                    },
+                    {
+                        "question": "What principle does Tikkun Olam represent, as mentioned in the lecture?",
+                        "options": [
+                            "4) The importance of personal faith",
+                            "1) A call for reconciliation",
+                            "2) The pursuit of individual success",
+                            "3) The ethical responsibility towards community"
+                        ],
+                        "explanation": "Tikkun Olam is mentioned in relation to social justice and the ethical responsibility individuals have for their communities.",
+                        "answer": "3) The ethical responsibility towards community"
+                    },
+                    {
+                        "question": "According to the lecture, how does forgiveness contribute to conflict resolution across faiths?",
+                        "options": [
+                            "2) It is a tool for healing divisions",
+                            "4) It promotes isolation",
+                            "3) It strengthens individual beliefs",
+                            "1) It stops further conflict"
+                        ],
+                        "explanation": "The lecture states that forgiveness serves as a crucial element in healing divisions and resolving conflicts among different faith groups.",
+                        "answer": "2) It is a tool for healing divisions"
+                    },
+                    {
+                        "question": "What does the pursuit of truth encourage among different faith traditions, as mentioned in the lecture?",
+                        "options": [
+                            "1) Isolation from other beliefs",
+                            "3) Open dialogue and questioning of assumptions",
+                            "4) Adherence to dogmatic beliefs",
+                            "2) An understanding of one\u2019s own tradition only"
+                        ],
+                        "explanation": "The pursuit of truth is described as encouraging followers to seek knowledge and engage in dialogue to understand both their own and others' beliefs.",
+                        "answer": "3) Open dialogue and questioning of assumptions"
+                    },
+                    {
+                        "question": "Which value is expected to gain renewed attention in faith communities as individuals seek connection, according to the lecture?",
+                        "options": [
+                            "4) Exclusivity",
+                            "1) Individualism",
+                            "2) Financial success",
+                            "3) Community"
+                        ],
+                        "explanation": "The lecture discusses how community becomes increasingly important as individuals feel isolated and seek shared purpose.",
+                        "answer": "3) Community"
+                    },
+                    {
+                        "question": "What is highlighted as a necessary response from faith communities regarding contemporary ethical dilemmas?",
+                        "options": [
+                            "2) To apply shared values",
+                            "1) To remain silent",
+                            "4) To prioritize individual beliefs over communal ones",
+                            "3) To isolate themselves from societal issues"
+                        ],
+                        "explanation": "The lecture emphasizes that faith communities need to engage proactively and apply shared values to address pressing societal issues.",
+                        "answer": "2) To apply shared values"
+                    },
+                    {
+                        "question": "In discussing the centrality of love, how is it perceived across many religions, as noted in the lecture?",
+                        "options": [
+                            "2) As a guiding principle for kindness and connection",
+                            "1) As a lesser virtue",
+                            "4) Only as a concept in Christianity",
+                            "3) As irrelevant to modern life"
+                        ],
+                        "explanation": "The lecture presents love as a foundational value in many religions, promoting kindness and connection among different groups.",
+                        "answer": "2) As a guiding principle for kindness and connection"
+                    },
+                    {
+                        "question": "What role do faith leaders and communities play in the context of shared values, based on the lecture\u2019s insights?",
+                        "options": [
+                            "4) They avoid engagement with societal changes.",
+                            "2) They maintain exclusivity over their practices.",
+                            "1) They challenge existing beliefs.",
+                            "3) They foster interfaith conversations and collaborations."
+                        ],
+                        "explanation": "The lecture points out that faith leaders and communities should work collaboratively, using shared values to positively impact societal change.",
+                        "answer": "3) They foster interfaith conversations and collaborations."
+                    },
+                    {
+                        "question": "What does the lecture suggest about the future of faith in relation to systemic issues?",
+                        "options": [
+                            "4) It will increasingly collaborate with diverse groups to address social justice.",
+                            "2) It will face decline and irrelevance.",
+                            "1) It will focus only on traditional practices.",
+                            "3) It will prioritize financial gain."
+                        ],
+                        "explanation": "The lecture notes that faith communities may partner with diverse groups to address critical social justice issues, highlighting collaboration.",
+                        "answer": "4) It will increasingly collaborate with diverse groups to address social justice."
+                    }
+                ]
+            }
+        ]
+    },
+    "Thursday": {},
+    "Friday": {}
+}

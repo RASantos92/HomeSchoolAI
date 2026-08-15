@@ -1,0 +1,182 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Review of Rational Expressions and Equations",
+                "lecture": "Hello! Today, we will dive into rational expressions and equations, focusing on how to simplify, multiply, divide, add, and subtract them. This foundational concept will be vital for your understanding of more complex algebraic topics later on.\n\nLet\u2019s start with simplifying rational expressions. A rational expression is a fraction where both the numerator and the denominator are polynomials. The first step in simplifying a rational expression is to factor both the numerator and the denominator completely. By doing this, we can identify common factors that can be canceled out.\n\nFor example, consider the expression \\( \\frac{x^2 - 9}{x^2 - 6x + 9} \\). The numerator can be factored as \\( (x - 3)(x + 3) \\) and the denominator can be factored as \\( (x - 3)(x - 3) \\) or \\( (x - 3)^2 \\). After factoring, we can see that the common factor of \\( (x - 3) \\) can be canceled, giving us \\( \\frac{x + 3}{x - 3} \\) when \\( x \\neq 3 \\).\n\nThis process of simplification will help you when working with rational expressions, so make sure you practice this step! [p]\n\nNext, let\u2019s talk about operations with rational expressions. We can perform four operations: addition, subtraction, multiplication, and division. Starting with addition and subtraction, remember that you need a common denominator to combine the expressions. For instance, if we have \\( \\frac{a}{b} + \\frac{c}{d} \\), we need to find a common denominator, which would be \\( bd \\). The expression would then become \\( \\frac{a\\cdot d}{b\\cdot d} + \\frac{c\\cdot b}{d\\cdot b} = \\frac{ad + bc}{bd} \\).  Always ensure you perform these steps carefully.\n\nWith multiplication, it's much simpler! You multiply the numerators together and the denominators together. So, \\( \\frac{a}{b} \\cdot \\frac{c}{d} \\) equals \\( \\frac{a \times c}{b \times d} \\). Remember that you can simplify before multiplying. For example, if you see a factor that appears in both a numerator and a denominator across the fractions, you can cancel it before multiplying, simplifying your calculations.\n\nFor division, it\u2019s just like multiplying by the reciprocal. If you have \\( \\frac{a}{b} \\div \\frac{c}{d} \\), you can rewrite it as \\( \\frac{a}{b} \\cdot \\frac{d}{c} \\). This keeps the process straightforward. [p]\n\nNow, let's move on to solving rational equations. A rational equation is where we have a variable in the denominator. To solve it, we want to eliminate the denominators first. We can do this by multiplying both sides of the equation by the least common denominator (LCD) of all the fractions in the equation. This will allow us to eliminate the fractions altogether, simplifying our equation to a polynomial equation.\n\nOnce the fractions are eliminated, you can solve the resulting polynomial equation using methods such as factoring, or using the quadratic formula if necessary. Always remember to check your final solutions back in the original equation to ensure they don\u2019t make any denominators equal to zero, as this would render the original equation undefined.\n\nFor example, given the equation \\( \\frac{1}{x} + \\frac{2}{x - 1} = 3 \\), we would multiply through by the LCD, which is \\( x(x - 1) \\). This gives you an equation that you can simplify, solve, and ultimately find x, remembering to check that x cannot be 0 or 1, as those would make the denominators zero. [p]\n\nToday, you\u2019ve learned the fundamentals of rational expressions and equations. You\u2019ve learned how to simplify rational expressions by factoring, perform operations on them by finding common denominators or multiplying by reciprocals, and solve rational equations by eliminating denominators and ensuring no zero denominators remain in your solutions. These skills will be critical for more complex applications of algebra in future lessons.\n\nIn summary, mastering rational expressions and equations provides you with the tools to tackle more advanced algebraic concepts. You should practice these processes until they feel second nature, as they will aid you significantly in everything from polynomials to rational functions.\n\nWikipedia References:  \n1. Simplifying Rational Expressions: [Wikipedia - Rational Expression](https://en.wikipedia.org/wiki/Rational_expression)  \n2. Operations with Rational Expressions: [Wikipedia - Rational Functions](https://en.wikipedia.org/wiki/Rational_function)  \n3. Solving Rational Equations: [Wikipedia - Equation](https://en.wikipedia.org/wiki/Equation)  \n\nMain Topic: Review of Rational Expressions and Equations  \nSub Topics: Simplifying rational expressions, Operations with rational expressions, Solving rational equations",
+                "summary": "Today, you\u2019ve learned the fundamentals of rational expressions and equations. You\u2019ve learned how to simplify rational expressions by factoring, perform operations on them by finding common denominators or multiplying by reciprocals, and solve rational equations by eliminating denominators and ensuring no zero denominators remain in your solutions.",
+                "subject": "Algebra",
+                "main_topic": "Review of Rational Expressions and Equations",
+                "sub_topics": [
+                    "Simplifying rational expressions",
+                    "Operations with rational expressions",
+                    "Solving rational equations"
+                ],
+                "wikipedia_refrences": [
+                    "https://en.wikipedia.org/wiki/Rational_expression",
+                    "https://en.wikipedia.org/wiki/Rational_function",
+                    "https://en.wikipedia.org/wiki/Equation"
+                ],
+                "quiz": [
+                    {
+                        "question": "What is a rational expression?",
+                        "options": [
+                            "3) A decimal that can be expressed as a fraction.",
+                            "1) A fraction where both the numerator and the denominator are constants.",
+                            "2) A fraction where both the numerator and the denominator are polynomials.",
+                            "4) A fraction with only integers in the numerator and denominator."
+                        ],
+                        "explanation": "A rational expression is specifically defined as a fraction where both the numerator and the denominator are polynomials.",
+                        "answer": "2) A fraction where both the numerator and the denominator are polynomials."
+                    },
+                    {
+                        "question": "What is the common factor to be canceled in the expression \\( \\frac{x^2 - 9}{x^2 - 6x + 9} \\) after factoring?",
+                        "options": [
+                            "4) \\( (x - 6) \\)",
+                            "1) \\( (x + 3) \\)",
+                            "3) \\( (x + 6) \\)",
+                            "2) \\( (x - 3) \\)"
+                        ],
+                        "explanation": "After factoring both the numerator and denominator, the common factor is \\( (x - 3) \\), which is canceled to simplify the expression.",
+                        "answer": "2) \\( (x - 3) \\)"
+                    },
+                    {
+                        "question": "Which operation requires a common denominator to combine rational expressions?",
+                        "options": [
+                            "2) Subtraction",
+                            "3) Multiplication",
+                            "4) Both Addition and Subtraction",
+                            "1) Addition"
+                        ],
+                        "explanation": "Both addition and subtraction of rational expressions require finding a common denominator to correctly combine them.",
+                        "answer": "4) Both Addition and Subtraction"
+                    },
+                    {
+                        "question": "When multiplying two rational expressions, how do you simplify before multiplying?",
+                        "options": [
+                            "3) You cancel any common factors from the numerators and denominators.",
+                            "1) You add the numerators and denominators first.",
+                            "2) You find a common denominator.",
+                            "4) You make all terms positive."
+                        ],
+                        "explanation": "Before multiplying, cancelling any common factors between the numerators and denominators simplifies the calculation.",
+                        "answer": "3) You cancel any common factors from the numerators and denominators."
+                    },
+                    {
+                        "question": "In dividing rational expressions, what operation does it equate to?",
+                        "options": [
+                            "3) Substract the denominators",
+                            "2) Adding the numerators",
+                            "1) Multiplying by the reciprocal",
+                            "4) Finding a common denominator"
+                        ],
+                        "explanation": "Dividing one rational expression by another is the same as multiplying by the reciprocal of the second expression.",
+                        "answer": "1) Multiplying by the reciprocal"
+                    },
+                    {
+                        "question": "To solve a rational equation, what is the first action you should take?",
+                        "options": [
+                            "2) Eliminate the fractions by multiplying through by the least common denominator (LCD).",
+                            "3) Factor any polynomials involved.",
+                            "4) Check for any zero denominators.",
+                            "1) Isolate the variable on one side."
+                        ],
+                        "explanation": "The first step to solving a rational equation effectively is to multiply through by the least common denominator (LCD) to eliminate the fractions.",
+                        "answer": "2) Eliminate the fractions by multiplying through by the least common denominator (LCD)."
+                    },
+                    {
+                        "question": "What happens to the denominators in the rational equation \\( \\frac{1}{x} + \\frac{2}{x - 1} = 3 \\) after multiplying by the LCD?",
+                        "options": [
+                            "2) They are eliminated.",
+                            "3) They become factors of the solution.",
+                            "1) They become numerators.",
+                            "4) They remain unchanged."
+                        ],
+                        "explanation": "Multiplying by the LCD eliminates the denominators, simplifying the equation to a polynomial form that can be solved more easily.",
+                        "answer": "2) They are eliminated."
+                    },
+                    {
+                        "question": "What must you check after solving a rational equation?",
+                        "options": [
+                            "1) That the equation has a solution in real numbers.",
+                            "3) That the solution is an integer.",
+                            "4) That you have used the quadratic formula.",
+                            "2) That no denominators in the original equation are zero."
+                        ],
+                        "explanation": "It is crucial to check that the solutions do not make any denominators zero, as this would render the original equation undefined.",
+                        "answer": "2) That no denominators in the original equation are zero."
+                    },
+                    {
+                        "question": "What is the result when simplifying the expression \\( \\frac{1}{x} + \\frac{2}{x - 1} \\) after finding the common denominator?",
+                        "options": [
+                            "1) \\( \\frac{2x + 2}{x(x - 1)} \\)",
+                            "3) \\( \\frac{3}{x(x - 1)} \\)",
+                            "2) \\( \\frac{1}{x} \\)",
+                            "4) \\( \\frac{2x + 1}{x(x-1)} \\)"
+                        ],
+                        "explanation": "After finding the common denominator and adding, the result is \\( \\frac{2x + 2}{x(x - 1)} \\).",
+                        "answer": "1) \\( \\frac{2x + 2}{x(x - 1)} \\)"
+                    },
+                    {
+                        "question": "If \\( x = 0 \\) is a solution to a rational equation, what does that imply?",
+                        "options": [
+                            "3) It must be checked against the original equation.",
+                            "4) It is a polynomial solution.",
+                            "1) It is always a valid solution.",
+                            "2) The original equation is undefined for that value."
+                        ],
+                        "explanation": "If \\( x = 0 \\) results in a zero denominator in the original equation, then it is not a valid solution, as it renders the equation undefined.",
+                        "answer": "2) The original equation is undefined for that value."
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What is the first step to simplify the rational expression \\( \\frac{x^2 - 9}{x^2 - 6x + 9} \\)?",
+                        "options": [
+                            "4) Multiply the numerator by the denominator.",
+                            "3) Add the numerator and denominator.",
+                            "1) Factor the numerator and denominator completely.",
+                            "2) Cancel out the denominator."
+                        ],
+                        "explanation": "The first step in simplifying a rational expression is to factor both the numerator and the denominator completely. This allows us to identify common factors that can be canceled out, simplifying the expression effectively.",
+                        "answer": "1) Factor the numerator and denominator completely."
+                    },
+                    {
+                        "question": "What is the first step when adding two rational expressions with different denominators, such as \\( \\frac{a}{b} + \\frac{c}{d} \\)?",
+                        "options": [
+                            "3) Simplify both expressions first.",
+                            "4) Add the numerators directly.",
+                            "1) Multiply the numerators together.",
+                            "2) Find a common denominator."
+                        ],
+                        "explanation": "To add two rational expressions with different denominators, you must first find a common denominator. This allows you to rewrite each fraction so that they can be combined correctly into one single rational expression.",
+                        "answer": "2) Find a common denominator."
+                    },
+                    {
+                        "question": "What is the purpose of multiplying both sides of a rational equation by the least common denominator (LCD)?",
+                        "options": [
+                            "1) To eliminate the variables from the equation.",
+                            "3) To make the equation harder to solve.",
+                            "4) To create more fractions in the equation.",
+                            "2) To simplify the equation by eliminating the denominators."
+                        ],
+                        "explanation": "Multiplying both sides of a rational equation by the least common denominator (LCD) serves to eliminate all fractions from the equation. This simplifies the equation to a polynomial format, making it easier to solve. Without this step, the fractions would remain, complicating the process of finding the solution.",
+                        "answer": "2) To simplify the equation by eliminating the denominators."
+                    },
+                    {
+                        "question": "Which of the following is the correct first step when solving a rational equation?",
+                        "options": [
+                            "2) Factor the numerator and the denominator",
+                            "3) Add the fractions on one side",
+                            "1) Multiply both sides by the common denominator",
+                            "4) Set the equation equal to zero"
+                        ],
+                        "explanation": "The correct first step in solving a rational equation is to eliminate the denominators by multiplying both sides of the equation by the least common denominator (LCD) to simplify the equation and avoid dealing with fractions. This allows you to solve the equation more easily without the risk of having any zero denominators in your solutions.",
+                        "answer": "1) Multiply both sides by the common denominator"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

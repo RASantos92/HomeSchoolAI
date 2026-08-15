@@ -1,0 +1,182 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Web Development Review: Building Simple Web Pages and CSS Layout Techniques",
+                "lecture": "Hello! Today, we will delve deeper into web development with an emphasis on practical exercises involving HTML and CSS. Web development is a crucial skill in today's digital age, and understanding how to create web pages is foundational for many other topics in this field. \n\nLet\u2019s start with the first sub-topic: **Building a Simple Web Page**. \n\nA simple web page can be structured using HTML, which stands for HyperText Markup Language. HTML is the backbone of any website and allows us to create the content and structure. Every web page consists of various elements, such as headings, paragraphs, images, and links, all formatted using specific HTML tags. The basic structure of an HTML document includes the `<!DOCTYPE html>` declaration, followed by an `<html>` opening tag that defines the document type. Within the `<html>` tags, we have two main sections: the `<head>` and the `<body>`. The `<head>` contains information about the document, such as the title and links to CSS stylesheets, while the `<body>` contains the actual content displayed on the web page. \n\nLet\u2019s look at an example of a basic HTML structure:\n\n```html\n<!DOCTYPE html>\n<html>\n<head>\n    <title>My First Web Page</title>\n</head>\n<body>\n    <h1>Welcome to My First Web Page!</h1>\n    <p>This is my first paragraph on this web page.</p>\n</body>\n</html>\n```\n\nIn this example, we've declared our document type, set the title, and created a heading and a paragraph. This is the starting point for any web page you create. [p]  \n\nNow, let's move on to the next important concept in web development: **CSS Layout Techniques**. CSS, or Cascading Style Sheets, is used in conjunction with HTML to define the look and formatting of a web page. The exciting part about CSS is that it allows you to turn a simple HTML structure into a visually appealing web page through styles.\n\nThere are several methods for applying CSS to your HTML; you can use inline styles, internal stylesheets, or external stylesheets. An inline style is applied directly in an HTML element using the `style` attribute. An internal stylesheet is included within the `<head>` section of the HTML document, while an external stylesheet is a separate CSS file linked to the HTML file.\n\nAn example of an external CSS file might look like this:\n\n```css\nbody {\n    background-color: lightblue;\n}\nh1 {\n    color: white;\n    text-align: center;\n}\np {\n    font-family: \"Arial\";\n}\n```\n\nTo link this CSS file to your HTML, you would add a link element in the `<head>`:\n\n```html\n<link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\">\n```\n\nUsing CSS, you can manipulate various aspects of an element including color, size, margins, and padding. This control allows for complex layouts and designs. For example, a commonly used layout technique in modern web development is using the CSS Flexbox or Grid system. With Flexbox, you can arrange items in a one-dimensional row or column layout, giving you control over alignment, spacing, and distribution. The CSS Grid, on the other hand, allows for a two-dimensional layout, where you can specify the size and positioning of grid items across both axes.\n\nLet\u2019s take a moment to understand how to implement a basic Flexbox layout.\n\nHere\u2019s how you can establish a simple flex container:\n\n```css\n.container {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    height: 100vh;\n}\n.item {\n    padding: 20px;\n    background-color: coral;\n}\n```\n\nAnd then in your HTML, you can create a container that uses these styles:\n\n```html\n<div class=\"container\">\n    <div class=\"item\">Item 1</div>\n    <div class=\"item\">Item 2</div>\n    <div class=\"item\">Item 3</div>\n</div>\n```\n\nThis setup allows items to be centered within the container, giving you responsive layout capabilities. CSS Grid offers even more versatility once you become comfortable with basic layouts. [p] \n\nThe beauty of web development lies in the myriad of possibilities and the freedom to experiment with your designs. As you build your skills in HTML and CSS, you\u2019ll find that you can create not just simple pages, but fully functioning sites with rich content and engaging interfaces.\n\nRemember, practice is key. Trying to recreate different layouts will help solidify your understanding. Today\u2019s lecture introduced the basic structure of an HTML document, as well as fundamental CSS positioning techniques. [p]  \n\n### Summary \nIn summary, you have learned how to build a simple web page using HTML and apply CSS styling for enhanced layout techniques. With this knowledge, you can create a visually appealing, structured web experience. Be sure to explore more about HTML elements and CSS techniques to further enhance your web development skills.\n\n### Wikipedia References\n- [HTML](https://en.wikipedia.org/wiki/HTML)\n- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)\n- [CSS Flexbox](https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout)\n- [CSS Grid](https://en.wikipedia.org/wiki/CSS_Grid_Layout)\n\n**Main Topic:** Web Development Review  \n**Sub Topics:** Building a Simple Web Page, CSS Layout Techniques.",
+                "summary": "Today, you have learned how to build a simple web page using HTML and apply CSS styling for enhanced layout techniques. With this knowledge, you can create a visually appealing, structured web experience.",
+                "subject": "Computer Science",
+                "main_topic": "Web Development Review",
+                "sub_topics": [
+                    "Building a Simple Web Page",
+                    "CSS Layout Techniques"
+                ],
+                "wikipedia_refrences": [
+                    "HTML",
+                    "CSS",
+                    "CSS Flexbox",
+                    "CSS Grid"
+                ],
+                "quiz": [
+                    {
+                        "question": "What does HTML stand for?",
+                        "options": [
+                            "3) HyperText Makeup Language",
+                            "1) HyperText Markup Language",
+                            "4) Hypertext Multi Language",
+                            "2) HyperText Markup Link"
+                        ],
+                        "explanation": "HTML stands for HyperText Markup Language, which is the standard markup language used to create web pages.",
+                        "answer": "1) HyperText Markup Language"
+                    },
+                    {
+                        "question": "Which tag is used to create a heading in HTML?",
+                        "options": [
+                            "2) <head>",
+                            "4) <h2>",
+                            "3) <header>",
+                            "1) <h1>"
+                        ],
+                        "explanation": "The <h1> tag is used to define the most important heading in HTML.",
+                        "answer": "1) <h1>"
+                    },
+                    {
+                        "question": "What is the purpose of the <body> tag in an HTML document?",
+                        "options": [
+                            "1) To contain the actual content displayed on the web page",
+                            "4) To declare the document type",
+                            "3) To link external stylesheets",
+                            "2) To define the metadata of the webpage"
+                        ],
+                        "explanation": "The <body> tag is used to contain the actual content that is rendered on the web page.",
+                        "answer": "1) To contain the actual content displayed on the web page"
+                    },
+                    {
+                        "question": "How do you link an external CSS file to an HTML document?",
+                        "options": [
+                            "2) <style src='styles.css'>",
+                            "3) <script src='styles.css'>",
+                            "1) <link rel='stylesheet' href='styles.css'>",
+                            "4) <css link='styles.css'>"
+                        ],
+                        "explanation": "To link an external CSS file, you use the <link> element with the rel attribute set to 'stylesheet'.",
+                        "answer": "1) <link rel='stylesheet' href='styles.css'>"
+                    },
+                    {
+                        "question": "Which CSS property is used to change the background color of an element?",
+                        "options": [
+                            "3) text-color",
+                            "1) background-color",
+                            "2) color",
+                            "4) background-image"
+                        ],
+                        "explanation": "The background-color property in CSS is used to set the background color of an element.",
+                        "answer": "1) background-color"
+                    },
+                    {
+                        "question": "What does the display: flex property do in a CSS rule?",
+                        "options": [
+                            "2) It centers the element on the page",
+                            "4) It changes the text color",
+                            "1) It sets the element as a flex container",
+                            "3) It creates a grid layout"
+                        ],
+                        "explanation": "The display: flex property makes the element a flex container, allowing for flexible layout arrangements within its children.",
+                        "answer": "1) It sets the element as a flex container"
+                    },
+                    {
+                        "question": "In CSS, which of the following properties is used to control an element's text alignment?",
+                        "options": [
+                            "4) vertical-align",
+                            "1) text-align",
+                            "2) align-text",
+                            "3) text-position"
+                        ],
+                        "explanation": "The text-align property is used in CSS to set the horizontal alignment of text within an element.",
+                        "answer": "1) text-align"
+                    },
+                    {
+                        "question": "What HTML tag is used to define an external stylesheet in the <head> section?",
+                        "options": [
+                            "3) <css>",
+                            "2) <style>",
+                            "1) <link>",
+                            "4) <script>"
+                        ],
+                        "explanation": "The <link> tag is used to define a link to an external stylesheet within the <head> section of an HTML document.",
+                        "answer": "1) <link>"
+                    },
+                    {
+                        "question": "How can items be arranged and aligned using Flexbox?",
+                        "options": [
+                            "2) By positioning elements in absolute coordinates",
+                            "1) Using properties like justify-content and align-items",
+                            "3) By using floats and margins",
+                            "4) Only in a vertical manner"
+                        ],
+                        "explanation": "Flexbox allows for flexible item arrangement and alignment using properties like justify-content and align-items.",
+                        "answer": "1) Using properties like justify-content and align-items"
+                    },
+                    {
+                        "question": "Which of the following is a benefit of using CSS Grid over Flexbox?",
+                        "options": [
+                            "2) It is easier to learn",
+                            "4) It requires less code",
+                            "1) It allows for two-dimensional layouts",
+                            "3) It automatically adjusts the size of text"
+                        ],
+                        "explanation": "CSS Grid provides a powerful way to create two-dimensional layouts, unlike Flexbox which is primarily one-dimensional.",
+                        "answer": "1) It allows for two-dimensional layouts"
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What is the correct HTML element used to define the title of a web page?",
+                        "options": [
+                            "4) <h1>",
+                            "2) <head>",
+                            "1) <title>",
+                            "3) <body>"
+                        ],
+                        "explanation": "The <title> element is used in the <head> section of an HTML document to define the title that appears in the browser tab and is also used by search engines to understand the page's content.",
+                        "answer": "1) The <title>"
+                    },
+                    {
+                        "question": "What is the purpose of CSS in web development?",
+                        "options": [
+                            "1) To define the structure of a web page",
+                            "2) To style and format the appearance of a web page",
+                            "3) To create server-side applications",
+                            "4) To manage web page security"
+                        ],
+                        "explanation": "CSS, or Cascading Style Sheets, is primarily used to control the presentation, formatting, and layout of HTML elements on a web page. It enhances the visual appeal of web pages by allowing developers to apply styles like colors, fonts, and layouts.",
+                        "answer": "2) To style and format the appearance of a web page"
+                    },
+                    {
+                        "question": "What is the fundamental structure of an HTML document?",
+                        "options": [
+                            "1) A single line of text",
+                            "3) A visual representation of a website",
+                            "2) A series of nested elements and tags",
+                            "4) A collection of CSS styles"
+                        ],
+                        "explanation": "The fundamental structure of an HTML document consists of a series of nested elements and tags, which define the building blocks of the webpage's content and organization.",
+                        "answer": "2) A series of nested elements and tags"
+                    },
+                    {
+                        "question": "What is the purpose of CSS in web development?",
+                        "options": [
+                            "2) To add styling and layout to a web page.",
+                            "4) To provide interactive features like JavaScript.",
+                            "1) To create the structure of a web page.",
+                            "3) To store data on the server."
+                        ],
+                        "explanation": "CSS, or Cascading Style Sheets, is specifically designed to control the presentation, formatting, and layout of HTML elements. Thus, its primary function in web development is to enhance the aesthetic side of a website.",
+                        "answer": "2) To add styling and layout to a web page."
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

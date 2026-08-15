@@ -1,0 +1,182 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Introduction to Database Management",
+                "lecture": "Hello and welcome to today\u2019s lecture on Database Management. We are diving into an essential area of Computer Science that enables us to store, manage, and interact with data through what is known as a database. As we go through this session, remember that effective database management is crucial for ensuring data integrity, security, and accessibility.\n\nContinuing on database management, we\u2019ll explore SQL basics, which is a powerful tool for managing and querying databases. SQL, or Structured Query Language, is the standard programming language used to communicate with databases. It can perform various tasks including database creation, handling data, and managing database schemas. Now, let\u2019s break this down further.\n\nFirst, let\u2019s discuss the main components of SQL with our first subtopic: Introduction to SQL commands. SQL commands can be categorized into different types such as Data Query Language (DQL), Data Definition Language (DDL), Data Manipulation Language (DML), and Data Control Language (DCL). Each plays a unique role in database management. \n\nDQL is synonymous with the SELECT statement, which is used to retrieve data from a database. DDL includes commands like CREATE, DROP, and ALTER, which deal with the structure of the database. DML involves commands like INSERT, UPDATE, and DELETE, which manipulate the data contained in the tables, while DCL involves commands that control access to data, such as GRANT and REVOKE.\n\nUnderstanding these types of commands is fundamental as they guide how we interact with the database. Each command serves a specific purpose, and learning when and how to use them is essential.\n[p]\n\nNow, let\u2019s move on to our next subtopic: Creating a database. In SQL, creating a database is an essential first step for any task involving data storage. The command you will use is CREATE DATABASE followed by the name you wish to give your database. For example, we would use the command `CREATE DATABASE my_database;`. This simple command establishes a new space for us to store data.\n\nOnce we have created a database, we often need to define its structure through tables. Tables are the building blocks of a database, and they help us organize the data efficiently. A table consists of rows and columns; each row is a record, and each column is a property of that record. You can create a table using the `CREATE TABLE` command, specifying each column and the data type it will hold.\n\nFor instance, to create a table for storing user information, you might use:\n```\nCREATE TABLE users (\n    user_id INT PRIMARY KEY,\n    username VARCHAR(50),\n    email VARCHAR(50)\n);\n```\n\nIn this command, `user_id` is defined as an integer that serves as the primary key, while `username` and `email` are variable character strings. Having this structure in place is crucial to maintaining organized and accessible data within the database.\n[p]\n\nNow, let\u2019s pause here and reflect. Once the database and its tables are in place, what comes next? That leads us into our final subtopic: Retrieving data. Data retrieval is one of the primary functions of a database. The focus here is on the SELECT statement. This command allows us to query the database and pull data according to specific conditions. \n\nA basic SELECT command looks like this:\n```\nSELECT * FROM users;\n```\n\nThis command retrieves all data from the `users` table. However, in most applications, you\u2019ll want to be more specific, filtering the data by criteria. For example:\n```\nSELECT username, email FROM users WHERE user_id = 1;\n```\n\nThis command will fetch only the username and email of the user with an ID of 1. You can also combine multiple conditions and sort the data. SQL provides powerful capabilities for data retrieval using JOINs, GROUP BYs, and ORDER BY clauses, enabling you to get exactly the information you need, in the structure you want. \n[p]\n\nAdditionally, learning how to effectively retrieve data is paramount; it makes your applications more efficient and your queries more manageable. As you practice retrieving data, remember that SQL can manage large datasets effectively when used properly.\n[p]\n\nIn summary, today we have covered the fundamentals of Database Management focusing on SQL. You learned about the various types of SQL commands, how to create a database and its tables, and how to retrieve data using SELECT statements. This knowledge will serve as a foundation as you further explore the world of databases and data management.\n\nIn this lecture, we discussed:\n- **Main Topic**: Database Management\n- **Sub Topics**: Introduction to SQL commands, Creating a database, Retrieving data\n\nRemember, with these basic tools, you are now well-equipped to start building and managing your own databases. Until next time, happy coding!",
+                "summary": "In this lecture, the student learned the fundamentals of Database Management, focusing specifically on SQL commands. They now understand the various types of SQL commands, how to create a database and its tables, and how to retrieve data using SELECT statements. This foundational knowledge is essential for further exploration in the field of data management and database design.",
+                "subject": "Computer Science",
+                "main_topic": "Database Management",
+                "sub_topics": [
+                    "Introduction to SQL commands",
+                    "Creating a database",
+                    "Retrieving data"
+                ],
+                "wikipedia_refrences": [
+                    "https://en.wikipedia.org/wiki/SQL",
+                    "https://en.wikipedia.org/wiki/Database",
+                    "https://en.wikipedia.org/wiki/Database_management_system"
+                ],
+                "quiz": [
+                    {
+                        "question": "Which of the following SQL commands is used to change the structure of a database, such as adding or modifying a table?",
+                        "options": [
+                            "3) DROP",
+                            "2) SELECT",
+                            "4) INSERT",
+                            "1) ALTER"
+                        ],
+                        "explanation": "The ALTER command allows you to change the existing structure of a database, such as modifying table definitions.",
+                        "answer": "1) ALTER"
+                    },
+                    {
+                        "question": "What SQL command is used to add new data into a table?",
+                        "options": [
+                            "2) UPDATE",
+                            "4) DELETE",
+                            "1) INSERT",
+                            "3) SELECT"
+                        ],
+                        "explanation": "The INSERT command is specifically designed to add new records to a table in a database.",
+                        "answer": "1) INSERT"
+                    },
+                    {
+                        "question": "Which type of SQL command includes GRANT and REVOKE for controlling access to database data?",
+                        "options": [
+                            "4) Data Manipulation Language",
+                            "3) Data Definition Language",
+                            "1) Data Control Language",
+                            "2) Data Query Language"
+                        ],
+                        "explanation": "Data Control Language (DCL) includes commands that manage user permissions and access controls in a database.",
+                        "answer": "1) Data Control Language"
+                    },
+                    {
+                        "question": "What command would you use to delete a table from a database?",
+                        "options": [
+                            "2) REMOVE TABLE",
+                            "3) DROP TABLE",
+                            "4) CLEAR TABLE",
+                            "1) DELETE TABLE"
+                        ],
+                        "explanation": "The DROP TABLE command removes an entire table from a database, including all of its data.",
+                        "answer": "3) DROP TABLE"
+                    },
+                    {
+                        "question": "When retrieving data, what does the WHERE clause do in a SELECT statement?",
+                        "options": [
+                            "1) It defines the database name",
+                            "3) It sorts the results",
+                            "4) It limits the columns retrieved",
+                            "2) It specifies conditions for filtering records"
+                        ],
+                        "explanation": "The WHERE clause is used to filter records based on specified conditions in a SQL query.",
+                        "answer": "2) It specifies conditions for filtering records"
+                    },
+                    {
+                        "question": "Which component of SQL is specifically focused on defining the structure of database objects?",
+                        "options": [
+                            "3) Data Query Language",
+                            "1) Data Manipulation Language",
+                            "4) Data Definition Language",
+                            "2) Data Control Language"
+                        ],
+                        "explanation": "Data Definition Language (DDL) is concerned with defining the structure of database objects such as tables and schemas.",
+                        "answer": "4) Data Definition Language"
+                    },
+                    {
+                        "question": "What is the primary purpose of the SELECT * command in SQL?",
+                        "options": [
+                            "4) To delete certain records",
+                            "1) To count records in a table",
+                            "2) To create a new database",
+                            "3) To retrieve all data from a table"
+                        ],
+                        "explanation": "The SELECT * command retrieves all columns and records from a specified table in the database.",
+                        "answer": "3) To retrieve all data from a table"
+                    },
+                    {
+                        "question": "Which SQL command would you use to modify existing records in a database table?",
+                        "options": [
+                            "1) CHANGE",
+                            "4) INSERT",
+                            "3) UPDATE",
+                            "2) MODIFY"
+                        ],
+                        "explanation": "The UPDATE command is used to modify existing records in a database table.",
+                        "answer": "3) UPDATE"
+                    },
+                    {
+                        "question": "In SQL, what does the primary key do in a table structure?",
+                        "options": [
+                            "4) Organizes data in a sorted order",
+                            "1) Provides a unique identifier for each record",
+                            "3) Defines data types for the columns",
+                            "2) Holds multiple values per record"
+                        ],
+                        "explanation": "The primary key uniquely identifies each record in a table, ensuring no duplicate records are present based on that column.",
+                        "answer": "1) Provides a unique identifier for each record"
+                    },
+                    {
+                        "question": "If you wanted to allow a user access to perform certain operations on a database, which SQL command would you use?",
+                        "options": [
+                            "2) REVOKE",
+                            "4) CREATE",
+                            "3) SELECT",
+                            "1) GRANT"
+                        ],
+                        "explanation": "The GRANT command is used to give specific permissions to users for certain operations on database objects.",
+                        "answer": "1) GRANT"
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "Which type of SQL commands is used specifically for retrieving data from a database?",
+                        "options": [
+                            "3) Data Query Language (DQL)",
+                            "1) Data Definition Language (DDL)",
+                            "2) Data Manipulation Language (DML)",
+                            "4) Data Control Language (DCL)"
+                        ],
+                        "explanation": "Data Query Language (DQL) is specifically designed for retrieving data from a database, primarily using the SELECT statement. The other options serve different purposes; DDL is for defining database schema, DML is for manipulating data, and DCL is for controlling access to data.",
+                        "answer": "3) Data Query Language (DQL)"
+                    },
+                    {
+                        "question": "What SQL command is used to create a new database?",
+                        "options": [
+                            "1) CREATE TABLE",
+                            "3) INSERT INTO",
+                            "4) DEFINE DATABASE",
+                            "2) CREATE DATABASE"
+                        ],
+                        "explanation": "The command used to create a new database in SQL is 'CREATE DATABASE', which establishes a space to store data.",
+                        "answer": "2) CREATE DATABASE"
+                    },
+                    {
+                        "question": "What does the SELECT statement do in a SQL database?",
+                        "options": [
+                            "3) It deletes data from a database.",
+                            "2) It updates existing data in a database.",
+                            "4) It creates a new table in a database.",
+                            "1) It retrieves data from a database."
+                        ],
+                        "explanation": "The SELECT statement is crucial in SQL as it retrieves specific data from database tables based on defined criteria, enabling users to query information effectively.",
+                        "answer": "1) It retrieves data from a database."
+                    },
+                    {
+                        "question": "What SQL command is primarily used to retrieve data from a database?",
+                        "options": [
+                            "1) INSERT",
+                            "2) UPDATE",
+                            "4) DELETE",
+                            "3) SELECT"
+                        ],
+                        "explanation": "The SELECT command is the primary SQL command used to extract data from a database. It allows you to specify which data you want, from which tables, and under what conditions.",
+                        "answer": "3) SELECT"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

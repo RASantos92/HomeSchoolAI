@@ -1,0 +1,205 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "SQL Basics: Hands-On Query Practice",
+                "lecture": "Welcome to today's lecture on SQL Basics! I'm excited to share with you some fundamental concepts in SQL that will help you navigate and manipulate databases effectively.\n\nSQL, or Structured Query Language, is the standard programming language used for managing and manipulating relational databases. Today, we will focus on practical applications through hands-on query practice, beginning with some common SQL queries that form the backbone of data retrieval.\n\nLet's start by exploring what a query is. A query is simply a request for data or information from a database. Using SQL, you can retrieve, insert, update, or delete data in a database. The ability to write queries effectively is a key skill in data management.\n\nNow, to begin our exploration, one of the most fundamental SQL commands is the `SELECT` statement. This command is used to fetch data from a database and is arguably one of the most utilized commands in SQL. For example, a simple `SELECT` statement to retrieve all entries from a table named 'Students' would look like this:\n\n```sql\nSELECT * FROM Students;\n```\n\nThis query retrieves all the fields for every record in the 'Students' table. The asterisk (`*`) is a wildcard that signifies all fields. [p] \n\nNext, let\u2019s explore how to filter results using the `WHERE` clause. The `WHERE` clause is added to a `SELECT` statement to specify conditions for the data selection. Suppose you only want to find students who are in a specific grade, say '10'. The query would look like this:\n\n```sql\nSELECT * FROM Students WHERE Grade = '10';\n```\n\nIn this example, only records that meet the condition specified in the `WHERE` clause will be returned. Filtering data helps make your queries more precise and useful. [p] \n\nNow, let\u2019s practice a bit of hands-on querying. Imagine you have a database with a 'Courses' table. Can you write a SQL command to retrieve the names of all courses but exclude online courses? You can try using the `WHERE` clause with a condition that excludes courses labeled 'Online'. [p]\n\nAnother very useful SQL command is `ORDER BY`. This command allows you to sort the results returned by your query. For instance, if we wanted to list all students in ascending order of their last names, you would write:\n\n```sql\nSELECT * FROM Students ORDER BY LastName ASC;\n```\n\nHere, `ORDER BY LastName` sorts the results based on the `LastName` column in ascending order. For descending order, you would simply replace `ASC` with `DESC`. [p] \n\nTo further refine our results, we can also use the `LIMIT` clause to control how many records are displayed. This is particularly useful when dealing with large datasets. For example:\n\n```sql\nSELECT * FROM Students ORDER BY LastName ASC LIMIT 10;\n```\n\nThis query would return only the first 10 students in alphabetical order by last name. [p] \n\nNow let\u2019s move on to more complex queries, particularly using `JOIN`. The `JOIN` operation is crucial for working with related tables in a database. It allows us to combine rows from two or more tables based on a related column.\n\nFor instance, if we have a 'Students' table and a 'Grades' table, you can join these two tables using a common field, such as `StudentID`. Here\u2019s how you might do that:\n\n```sql\nSELECT Students.FirstName, Students.LastName, Grades.Grade \nFROM Students \nJOIN Grades ON Students.StudentID = Grades.StudentID;\n```\n\nThis SQL statement retrieves the first and last names of students alongside their grades from the respective tables. Understanding how to use `JOIN` effectively opens up many possibilities for data analysis and is essential for anyone working with relational databases.  [p] \n\nNext, let's look at some aggregate functions such as `COUNT`, `SUM`, `AVG`, `MIN`, and `MAX`. These functions allow you to perform calculations on your data and are often used in combination with the `GROUP BY` clause to group results. For example:\n\n```sql\nSELECT COUNT(*) FROM Students;\n```\n\nThis simple query counts the total number of students in the 'Students' table. You could also retrieve the average grade like so:\n\n```sql\nSELECT AVG(Grade) FROM Grades;\n```\n\nIn this query, `AVG()` calculates the average from the `Grade` column. These functions are powerful tools for obtaining summary statistics directly from your data. [p] \n\nTo round off our lecture today, let\u2019s practice writing a few more queries. Think of scenarios where you might need to retrieve specific data. How about writing a query that finds the names of students who have received a grade higher than 90? You would use:\n\n```sql\nSELECT FirstName, LastName FROM Students WHERE Grades > 90;\n```\n\nThis simple exercise helps you understand data retrieval based on conditions better. [p]\n\nIn summary, today we\u2019ve covered several foundational concepts in SQL, including the `SELECT` statement, filtering results with `WHERE`, sorting data with `ORDER BY`, limiting results, and combining data from tables using `JOIN`. We also touched on the importance of aggregation functions such as `COUNT` and `AVG`. Remember, practicing these queries will build your confidence and proficiency with SQL.\n\nRemember to explore further using the Wikipedia references provided as a follow-up to your practice. Engaging with the material and continuously practicing your querying skills is the best way to master SQL!\n\n### Summary\nIn today's session, you learned about fundamental SQL concepts, including how to write basic queries, filter and sort data, and join tables. You also practiced creating aggregate functions to analyze your datasets. SQL is a vital skill in today's data-driven world, and understanding these basics will help you as you delve deeper into database management.\n\n### Main Topic\nSQL Basics  \n### Sub Topics\nHands-on SQL Query Practice, Common Queries",
+                "summary": "In today's session, you learned about fundamental SQL concepts, including how to write basic queries, filter and sort data, and join tables. You also practiced creating aggregate functions to analyze your datasets. SQL is a vital skill in today's data-driven world, and understanding these basics will help you as you delve deeper into database management.",
+                "subject": "Computer Science",
+                "main_topic": "SQL Basics",
+                "sub_topics": [
+                    "Hands-on SQL Query Practice",
+                    "Common Queries"
+                ],
+                "wikipedia_refrences": [
+                    "https://en.wikipedia.org/wiki/SQL",
+                    "https://en.wikipedia.org/wiki/SELECT",
+                    "https://en.wikipedia.org/wiki/JOIN",
+                    "https://en.wikipedia.org/wiki/Aggregate_function",
+                    "https://en.wikipedia.org/wiki/WHERE_clause"
+                ],
+                "quiz": [
+                    {
+                        "question": "What SQL command would you use to limit the number of records returned in a query?",
+                        "options": [
+                            "1) LIMIT",
+                            "4) WHERE",
+                            "2) COUNT",
+                            "3) SELECT"
+                        ],
+                        "explanation": "The `LIMIT` command is used to specify the maximum number of records to return in a query result.",
+                        "answer": "1) LIMIT"
+                    },
+                    {
+                        "question": "What will be the result of the following query: `SELECT * FROM Students ORDER BY LastName DESC;`?",
+                        "options": [
+                            "1) It will return students sorted by first name in descending order.",
+                            "4) It will cause an error.",
+                            "3) It will return a random selection of students.",
+                            "2) It will return students sorted by last name in descending order."
+                        ],
+                        "explanation": "The query sorts the students by their last names in descending order, indicating option 2 is correct.",
+                        "answer": "2) It will return students sorted by last name in descending order."
+                    },
+                    {
+                        "question": "In SQL, what does the `COUNT()` function do?",
+                        "options": [
+                            "4) It filters records based on conditions.",
+                            "2) It counts the number of records in a table or group.",
+                            "3) It calculates the sum of a specific column.",
+                            "1) It retrieves all the records in the table."
+                        ],
+                        "explanation": "The `COUNT()` function is used to count the number of records that match a specific condition or that are in a table.",
+                        "answer": "2) It counts the number of records in a table or group."
+                    },
+                    {
+                        "question": "Which SQL statement retrieves student names who have received a grade above 90?",
+                        "options": [
+                            "4) SELECT FirstName, LastName FROM Students ORDER BY Grade;",
+                            "3) SELECT * FROM Students WHERE Grade >= 90;",
+                            "2) SELECT FirstName, LastName FROM Students WHERE Grade > 90;",
+                            "1) SELECT * FROM Students WHERE Grade < 90;"
+                        ],
+                        "explanation": "The correct SQL query to retrieve names of students with grades above 90 is option 2.",
+                        "answer": "2) SELECT FirstName, LastName FROM Students WHERE Grade > 90;."
+                    },
+                    {
+                        "question": "If you have a database table named 'Courses', what SQL command will you write to retrieve all courses that are not online?",
+                        "options": [
+                            "1) SELECT * FROM Courses WHERE Type != 'Online';",
+                            "4) SELECT * FROM Courses;",
+                            "2) SELECT * FROM Courses WHERE Type = 'Online';",
+                            "3) SELECT Name FROM Courses WHERE Type = 'Online';"
+                        ],
+                        "explanation": "To exclude online courses, you would use the `!=` condition in the `WHERE` clause, option 1 is correct.",
+                        "answer": "1) SELECT * FROM Courses WHERE Type != 'Online';"
+                    },
+                    {
+                        "question": "What does the `JOIN` command do in SQL?",
+                        "options": [
+                            "2) It combines rows from two or more tables based on a related column.",
+                            "4) It updates data within a table.",
+                            "3) It retrieves records from a single table only.",
+                            "1) It deletes records from a table."
+                        ],
+                        "explanation": "The `JOIN` command is used to combine rows from different tables based on a common field, so option 2 is correct.",
+                        "answer": "2) It combines rows from two or more tables based on a related column."
+                    },
+                    {
+                        "question": "What effect does using the `ORDER BY` clause in a query have?",
+                        "options": [
+                            "4) It counts the total number of records.",
+                            "3) It filters the records returned.",
+                            "1) It limits the amount of data retrieved.",
+                            "2) It sorts the results of a query based on a specified column."
+                        ],
+                        "explanation": "`ORDER BY` is specifically used to sort the results of a query, making option 2 the correct answer.",
+                        "answer": "2) It sorts the results of a query based on a specified column."
+                    },
+                    {
+                        "question": "If you want to find the average grade in the 'Grades' table, which SQL function would you use?",
+                        "options": [
+                            "4) MAX()",
+                            "2) SUM()",
+                            "1) COUNT()",
+                            "3) AVG()"
+                        ],
+                        "explanation": "The `AVG()` function is designed to calculate the average value of a specific column, in this case, the grades.",
+                        "answer": "3) AVG()"
+                    },
+                    {
+                        "question": "Which command would you use to display the first 10 records from the 'Students' table sorted by last name?",
+                        "options": [
+                            "2) SELECT * FROM Students ORDER BY LastName ASC LIMIT 10;",
+                            "1) SELECT * FROM Students LIMIT 10 ORDER BY LastName;",
+                            "3) SELECT * FROM Students ORDER BY LastName LIMIT 10;",
+                            "4) SELECT LIMIT 10 FROM Students ORDER BY LastName;"
+                        ],
+                        "explanation": "The correct syntax combines `ORDER BY` and `LIMIT` as shown in option 2 is accurate for this request.",
+                        "answer": "2) SELECT * FROM Students ORDER BY LastName ASC LIMIT 10;"
+                    },
+                    {
+                        "question": "To get both first names and last names of students along with their grades, which SQL command would you employ involving `JOIN`?",
+                        "options": [
+                            "4) SELECT FirstName, LastName, Grade FROM Students INNER JOIN Grades ON Students.ID = Grades.ID;",
+                            "1) SELECT FirstName, LastName FROM Students;",
+                            "3) SELECT FirstName, LastName, Grade FROM Students JOIN Grades ON Students.ID = Grades.ID;",
+                            "2) SELECT Students.FirstName, Students.LastName, Grades.Grade FROM Students JOIN Grades;"
+                        ],
+                        "explanation": "To retrieve required fields from two tables, you utilize `JOIN` with correct syntax, making option 4 the best choice here.",
+                        "answer": "4) SELECT FirstName, LastName, Grade FROM Students INNER JOIN Grades ON Students.ID = Grades.ID."
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What is the purpose of the `SELECT` statement in SQL?",
+                        "options": [
+                            "2) To delete data from a database",
+                            "4) To update existing data in a database",
+                            "1) To insert new data into a database",
+                            "3) To retrieve data from a database"
+                        ],
+                        "explanation": "The `SELECT` statement is specifically used to fetch or retrieve data from a database. It is one of the most essential commands in SQL, making option 3 the correct choice.",
+                        "answer": "3) To retrieve data from a database"
+                    },
+                    {
+                        "question": "What is the purpose of the `WHERE` clause in a SQL `SELECT` statement?",
+                        "options": [
+                            "1) To update records in a table",
+                            "3) To specify conditions for data selection",
+                            "2) To delete records from a database",
+                            "4) To create new tables"
+                        ],
+                        "explanation": "The `WHERE` clause is used in a `SELECT` statement to filter the results based on specified conditions, ensuring only records that meet certain criteria are returned.",
+                        "answer": "3) To specify conditions for data selection"
+                    },
+                    {
+                        "question": "What SQL command is used to sort the results of a query?",
+                        "options": [
+                            "3) SORT BY",
+                            "2) ORDER BY",
+                            "4) FILTER BY",
+                            "1) GROUP BY"
+                        ],
+                        "explanation": "The command used to sort the results returned by a query is `ORDER BY`. This command allows you to specify a column to order the results by, either in ascending or descending order.",
+                        "answer": "2) ORDER BY"
+                    },
+                    {
+                        "question": "What is the purpose of the `JOIN` operation in SQL?",
+                        "options": [
+                            "4) To update existing records in a table.",
+                            "3) To delete records from a table.",
+                            "2) To combine rows from two or more tables based on a related column.",
+                            "1) To retrieve data from a single table."
+                        ],
+                        "explanation": "The `JOIN` operation is used to combine rows from two or more tables based on a related column, which allows for more complex queries and relational data analysis.",
+                        "answer": "2) To combine rows from two or more tables based on a related column."
+                    },
+                    {
+                        "question": "What does the `AVG()` function do in SQL?",
+                        "options": [
+                            "4) Finds the maximum value in a specified column",
+                            "1) Counts the total number of records",
+                            "2) Calculates the average value of a specified column",
+                            "3) Finds the minimum value in a specified column"
+                        ],
+                        "explanation": "The `AVG()` function is used to calculate the average value (mean) from a specific column in a table, such as the average grade from the Grades table. This is distinct from `COUNT()`, which counts rows, `MIN()`, which finds the smallest value, and `MAX()`, which finds the largest value.",
+                        "answer": "2) Calculates the average value of a specified column"
+                    },
+                    {
+                        "question": "What SQL statement is used to filter records based on a specified condition?",
+                        "options": [
+                            "2) ORDER BY",
+                            "1) SELECT",
+                            "3) WHERE",
+                            "4) JOIN"
+                        ],
+                        "explanation": "The WHERE clause is used to filter records in SQL. It allows you to specify a condition that must be met for records to be included in the query results. For example, SELECT * FROM table_name WHERE condition; will only return records that meet the specified condition.",
+                        "answer": "3) WHERE"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

@@ -1,0 +1,204 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Introduction to CSS Styling",
+                "lecture": "Welcome to Computer Science! Today, we will learn about CSS (Cascading Style Sheets), which can make your web pages look visually appealing through style. CSS is a powerful tool that allows you to separate the style and layout of your web page from the actual content. By using CSS, you can enhance the presentation of your HTML elements and create a more engaging experience for users. Let\u2019s delve deeper into this fascinating topic! \n\nFirst, let\u2019s discuss the concept of selectors and properties. Selectors are the elements that you want to style. They allow you to target HTML elements based on their name, ID, class, and other attributes. CSS uses a simple syntax to define these selections. For example, if you want to target a paragraph, you would use the `p` selector. If you want to select a specific paragraph with an ID of \"intro\", you would use `#intro` as your selector. Similarly, for classes, you would use \".classname\" where \"classname\" is the name of your class.\n[p] \nAn important aspect of selectors is specificity, which determines which CSS rule is applied when there are conflicting styles. Specificity is calculated based on the types of selectors used. Inline styles have the highest specificity, followed by IDs, classes, and then element selectors. By understanding this hierarchy, you can effectively manage which styles are applied to your elements.\n[p] \nNext, let\u2019s explore CSS properties. Properties are the aspects of the styled element that you want to change. Some common CSS properties include `color`, `font-size`, `background-color`, and `margin`. When you write a CSS rule, you assign values to these properties. For example, if you want to change the text color of a paragraph to blue, you would write `color: blue;` within the rule set for that selector. \n[p] \nNow, let's talk about how to create style rules. A style rule in CSS is made up of a selector followed by a set of properties enclosed in curly braces. For example:\n```\np {\n  color: blue;\n  font-size: 16px;\n}\n```\nThis rule targets all paragraph elements and applies the specified styles. It is crucial to use proper syntax when creating style rules. Each property should end with a semicolon, and the rule must be enclosed in curly braces. This structure allows the browser to understand and apply your styles correctly.\n[p] \nCSS also allows for grouping selectors. If multiple selectors share the same styles, you can group them to keep your stylesheet organized and reduce repetition. For example:\n```\nh1, h2, h3 {\n  font-family: Arial, sans-serif;\n}\n```\nIn this case, headers h1, h2, and h3 will all use the same font family.\n[p]\nAnother powerful feature of CSS is the ability to use classes to apply styles to multiple elements. By assigning the same class name to different elements, you can easily apply bundled styles to all of them. This is particularly useful for styling elements like buttons, cards, or any repeated components on your webpage.\n[p]\nAdditionally, we must mention how CSS supports responsive design. Responsive design ensures that your web page looks good on all devices, whether it's a desktop, tablet, or smartphone. You can achieve responsive design using media queries, which apply styles based on the screen size or device orientation. Here's a simple example:\n```\n@media (max-width: 600px) {\n  body {\n    background-color: lightblue;\n  }\n}\n```\nThis media query changes the background color to light blue for devices with a screen width of 600 pixels or less. [p]\nAs we wrap up our discussion on CSS styling, it\u2019s important to remember that practice is key. The best way to solidify your understanding of CSS is to apply it in real projects. Experimenting with different selectors, properties, and styling techniques will help you become more comfortable with CSS.\n[p]\nIn summary, today you learned about the fundamentals of CSS styling. We discussed how to use selectors to target elements in your HTML, and how to apply various properties to enhance their appearance. You also learned how to create style rules, apply specificity, and use classes for consistent styling. Finally, we touched on responsive design techniques to ensure your web pages are visually accessible across different devices.\n[p]\nWith this foundation, you\u2019ll be ready to create beautiful web pages that not only display content but also engage and attract your audience! Keep exploring and practicing your CSS skills, and you\u2019ll see your web design abilities flourish!",
+                "summary": "In summary, today you learned about the fundamentals of CSS styling. We discussed how to use selectors to target elements in your HTML, and how to apply various properties to enhance their appearance. You also learned how to create style rules, apply specificity, and use classes for consistent styling. Finally, we touched on responsive design techniques to ensure your web pages are visually accessible across different devices.",
+                "subject": "Computer Science",
+                "main_topic": "CSS Styling",
+                "sub_topics": [
+                    "Selectors and properties",
+                    "Creating style rules"
+                ],
+                "wikipedia_refrences": [
+                    "https://en.wikipedia.org/wiki/Cascading_Style_Sheets",
+                    "https://en.wikipedia.org/wiki/CSS_selectors",
+                    "https://en.wikipedia.org/wiki/CSS_syntax",
+                    "https://en.wikipedia.org/wiki/Responsive_web_design"
+                ],
+                "quiz": [
+                    {
+                        "question": "What does specificity in CSS determine?",
+                        "options": [
+                            "3) The size of the font",
+                            "1) The color of the text",
+                            "4) The background color of an element",
+                            "2) Which CSS rule is applied when styles conflict"
+                        ],
+                        "explanation": "Specificity is a way to determine which style rule is applied to an element when multiple rules target it. Each type of selector has a different level of specificity.",
+                        "answer": "2) Which CSS rule is applied when styles conflict"
+                    },
+                    {
+                        "question": "What symbol is used to group multiple selectors in CSS?",
+                        "options": [
+                            "2) :",
+                            "1) ;",
+                            "3) ,",
+                            "4) {"
+                        ],
+                        "explanation": "The comma (,) is used to separate multiple selectors when they should be styled the same way, allowing for cleaner and more organized CSS code.",
+                        "answer": "3) ,"
+                    },
+                    {
+                        "question": "Which selector would you use to target a specific paragraph with an ID of 'intro'?",
+                        "options": [
+                            "2) .intro",
+                            "4) p.intro",
+                            "3) p#intro",
+                            "1) #intro"
+                        ],
+                        "explanation": "The '#' symbol is used to target an element by its ID; therefore, '#intro' will select the specific paragraph with that ID.",
+                        "answer": "1) #intro"
+                    },
+                    {
+                        "question": "What type of CSS property is 'margin'?",
+                        "options": [
+                            "3) A layout property",
+                            "2) A positioning property",
+                            "4) A color property",
+                            "1) A visual property"
+                        ],
+                        "explanation": "'Margin' is a layout property that defines space around elements, separating them from others. It contributes to positioning elements on the page.",
+                        "answer": "3) A layout property"
+                    },
+                    {
+                        "question": "In the CSS rule `h1, h2, h3 { font-family: Arial, sans-serif; }`, what is being achieved?",
+                        "options": [
+                            "3) Creating a new class",
+                            "2) Applying the same style to multiple selectors",
+                            "1) Applying different fonts to h1 and h2",
+                            "4) Setting a different size for each header"
+                        ],
+                        "explanation": "Multiple selectors (h1, h2, h3) are grouped to apply the same property (font-family) to them, which reduces repetition in the CSS.",
+                        "answer": "2) Applying the same style to multiple selectors"
+                    },
+                    {
+                        "question": "What does the CSS property `background-color` do?",
+                        "options": [
+                            "2) Changes the color of the element's border",
+                            "4) Changes the font style",
+                            "1) Changes text color",
+                            "3) Changes the background color of the element"
+                        ],
+                        "explanation": "The `background-color` property specifies the background color of an element, enhancing its visual appearance.",
+                        "answer": "3) Changes the background color of the element"
+                    },
+                    {
+                        "question": "What syntax is used to end a CSS property declaration?",
+                        "options": [
+                            "4) {",
+                            "3) ;",
+                            "1) ,",
+                            "2) :"
+                        ],
+                        "explanation": "Each property in a CSS rule must end with a semicolon (;) to indicate the end of that property declaration.",
+                        "answer": "3) ;"
+                    },
+                    {
+                        "question": "What is the result of the following media query: `@media (max-width: 600px) { body { background-color: lightblue; } }`?",
+                        "options": [
+                            "3) It applies styles when the screen width is 600px or less",
+                            "4) It applies styles exclusively to desktop devices",
+                            "1) It applies styles to all devices",
+                            "2) It applies styles to devices wider than 600px"
+                        ],
+                        "explanation": "The media query targets devices that have a screen width of 600 pixels or less, applying the defined background color in that case.",
+                        "answer": "3) It applies styles when the screen width is 600px or less"
+                    },
+                    {
+                        "question": "Which of the following correctly describes the use of a class selector in CSS?",
+                        "options": [
+                            "1) A class can only be used once in a document",
+                            "2) A class can be used multiple times on different elements",
+                            "3) Class selectors cannot group multiple elements",
+                            "4) Class selectors are always more specific than ID selectors"
+                        ],
+                        "explanation": "A class can be applied to multiple elements in a document, allowing for consistent styling across them.",
+                        "answer": "2) A class can be used multiple times on different elements"
+                    },
+                    {
+                        "question": "What does the `color: blue;` CSS rule do when applied to a paragraph?",
+                        "options": [
+                            "1) Makes the paragraph bold",
+                            "4) Sets the entire paragraph in uppercase",
+                            "2) Sets the paragraph's text color to blue",
+                            "3) Changes the background color to blue"
+                        ],
+                        "explanation": "The `color` property specifies the text color of an element, in this case, changing it to blue for the paragraph it's applied to.",
+                        "answer": "2) Sets the paragraph's text color to blue"
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What is the purpose of selectors in CSS?",
+                        "options": [
+                            "4) To enhance the performance of the web page.",
+                            "1) To define the content of the web page.",
+                            "2) To target HTML elements for styling.",
+                            "3) To create new HTML tags."
+                        ],
+                        "explanation": "Selectors in CSS are used to target specific HTML elements for styling. They allow you to apply styles to elements based on their name, ID, class, or other attributes, enabling the separation of content and presentation.",
+                        "answer": "2) To target HTML elements for styling."
+                    },
+                    {
+                        "question": "What is the correct CSS property to change the text color of an element?",
+                        "options": [
+                            "2) background-color",
+                            "1) font-size",
+                            "4) color",
+                            "3) margin"
+                        ],
+                        "explanation": "The 'color' property is specifically used to set the text color of an element in CSS. Other properties listed adjust different aspects, such as size and spacing.",
+                        "answer": "4) color"
+                    },
+                    {
+                        "question": "What are the key components of a style rule in CSS?",
+                        "options": [
+                            "1) Selector, properties, semicolons",
+                            "2) Elements, classes, attributes",
+                            "3) Selectors, tags, braces",
+                            "4) Properties, values, commas"
+                        ],
+                        "explanation": "The key components of a style rule in CSS include the selector, which specifies the HTML element to be styled, the properties that define what styles to apply (like color and font-size), and semicolons which are used to separate multiple properties within the rule. Each rule is enclosed in curly braces.",
+                        "answer": "1) Selector, properties, semicolons"
+                    },
+                    {
+                        "question": "What is a key benefit of using classes in CSS?",
+                        "options": [
+                            "3) They automatically optimize images on a webpage.",
+                            "2) They help to reduce the size of HTML files.",
+                            "4) They can only be applied to paragraph elements.",
+                            "1) They allow you to group styles and apply them to multiple elements."
+                        ],
+                        "explanation": "Using classes in CSS enables you to bundle styles and apply them across multiple elements, which streamlines the design process and encourages reuse of styles for components like buttons and cards.",
+                        "answer": "1) They allow you to group styles and apply them to multiple elements."
+                    },
+                    {
+                        "question": "What is the primary purpose of using media queries in CSS?",
+                        "options": [
+                            "1) To apply styles based on the device's screen size or orientation",
+                            "4) To optimize images for web pages",
+                            "3) To create animations and transitions",
+                            "2) To define global styles for all devices"
+                        ],
+                        "explanation": "Media queries are a fundamental part of responsive design, allowing developers to apply different styles based on conditions such as screen size or orientation. This enables web pages to adapt their layout and appearance to suit various devices, enhancing user experience across desktop, tablet, and smartphone screens.",
+                        "answer": "1) To apply styles based on the device's screen size or orientation"
+                    },
+                    {
+                        "question": "What is the purpose of using selectors in CSS?",
+                        "options": [
+                            "3) To structure the HTML document",
+                            "2) To target and apply styles to specific HTML elements",
+                            "1) To add animations to an HTML page",
+                            "4) To link external style sheets to an HTML page"
+                        ],
+                        "explanation": "Selectors are a fundamental aspect of CSS, enabling you to choose which elements on your web page should receive specific styles. By targeting these elements, you can effectively apply various CSS properties to enhance their appearance and maintain consistent styling throughout your document.",
+                        "answer": "2) To target and apply styles to specific HTML elements"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

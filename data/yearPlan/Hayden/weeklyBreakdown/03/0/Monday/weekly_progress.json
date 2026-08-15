@@ -1,0 +1,2178 @@
+{
+    "Monday": {
+        "Algebra": [
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    0,
+                    1,
+                    2,
+                    6
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is the general form of an exponential function?",
+                        "options": [
+                            "4) f(x) = a / b^x",
+                            "1) f(x) = a + b^x",
+                            "3) f(x) = a * b^x",
+                            "2) f(x) = a - b^x"
+                        ],
+                        "explanation": "The general form of an exponential function is f(x) = a * b^x, where a is a constant and b is the base of the exponential.",
+                        "answer": "3) f(x) = a * b^x"
+                    },
+                    {
+                        "question": "What does the constant 'a' represent in the function f(x) = a * b^x?",
+                        "options": [
+                            "3) The base of the exponential",
+                            "1) The rate of growth",
+                            "2) The initial value when x is 0",
+                            "4) The exponent"
+                        ],
+                        "explanation": "'a' represents the initial value of the function, which is the value of f(x) when x = 0.",
+                        "answer": "2) The initial value when x is 0"
+                    },
+                    {
+                        "question": "If an exponential function has a base 'b' that is between 0 and 1, what type of behavior does it exhibit?",
+                        "options": [
+                            "1) Linear growth",
+                            "2) Exponential decay",
+                            "4) Constant value",
+                            "3) Quadratic growth"
+                        ],
+                        "explanation": "When 'b' is between 0 and 1, the function exhibits exponential decay, meaning it decreases rapidly as x increases.",
+                        "answer": "2) Exponential decay"
+                    },
+                    {
+                        "question": "In the exponential function f(x) = 2^x, what happens to the value of f(x) as x becomes larger?",
+                        "options": [
+                            "3) It remains constant",
+                            "1) It decreases steadily",
+                            "2) It approaches zero",
+                            "4) It increases rapidly"
+                        ],
+                        "explanation": "As x increases in the function f(x) = 2^x, the value of f(x) increases rapidly since the base 2 is greater than 1, indicating exponential growth.",
+                        "answer": "4) It increases rapidly"
+                    },
+                    {
+                        "question": "Why is the number 'e' commonly used as the base for exponential functions?",
+                        "options": [
+                            "1) It is the only number that can be squared",
+                            "4) It is less than 1",
+                            "2) It has unique properties in calculus",
+                            "3) It is always greater than 1"
+                        ],
+                        "explanation": "'e' is approximately 2.71828 and is used in exponential functions because it has unique mathematical properties, especially in calculus, making it important for growth models.",
+                        "answer": "2) It has unique properties in calculus"
+                    },
+                    {
+                        "question": "In which scenario is exponential growth commonly observed?",
+                        "options": [
+                            "1) Linear increase in temperature",
+                            "2) Steady decrease in population",
+                            "4) Decrease in investment",
+                            "3) Compound interest in finance"
+                        ],
+                        "explanation": "Exponential growth is commonly observed in financial scenarios such as compound interest, where the amount of money grows exponentially over time due to interest being calculated on previously earned interest.",
+                        "answer": "3) Compound interest in finance"
+                    },
+                    {
+                        "question": "Which of the following accurately describes the graph of an exponential function?",
+                        "options": [
+                            "3) It approaches an asymptote",
+                            "2) It has a maximum point",
+                            "1) It is a straight line",
+                            "4) It oscillates between two values"
+                        ],
+                        "explanation": "The graph of an exponential function approaches an asymptote, which is the x-axis (y=0), but it never actually touches it.",
+                        "answer": "3) It approaches an asymptote"
+                    },
+                    {
+                        "question": "What can be inferred about the growth of a population modeled by an exponential function?",
+                        "options": [
+                            "4) It will grow in a linear fashion",
+                            "1) It will always decrease",
+                            "3) It can grow very rapidly under the right conditions",
+                            "2) It will stop growing"
+                        ],
+                        "explanation": "In an exponential function modeling population growth, the population can grow very rapidly under ideal conditions, especially when there are no limiting factors.",
+                        "answer": "3) It can grow very rapidly under the right conditions"
+                    },
+                    {
+                        "question": "In biological contexts, how does exponential growth manifest during a disease outbreak?",
+                        "options": [
+                            "3) It initially starts small and grows rapidly",
+                            "1) It remains constant",
+                            "4) It grows in a stepwise manner",
+                            "2) It declines immediately"
+                        ],
+                        "explanation": "During a disease outbreak, the number of infections typically starts small and can increase rapidly due to each infected person potentially infecting others, demonstrating exponential growth.",
+                        "answer": "3) It initially starts small and grows rapidly"
+                    },
+                    {
+                        "question": "What concept does Moore's Law exemplify in technology?",
+                        "options": [
+                            "1) Exponential decay",
+                            "2) Linear growth",
+                            "4) Constant value",
+                            "3) Exponential growth"
+                        ],
+                        "explanation": "Moore's Law predicts the doubling of transistors on microchips approximately every two years, indicating exponential growth in technology and computing power.",
+                        "answer": "3) Exponential growth"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    0,
+                    1,
+                    2,
+                    6
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is the general form of an exponential function?",
+                        "options": [
+                            "4) f(x) = a / b^x",
+                            "1) f(x) = a + b^x",
+                            "3) f(x) = a * b^x",
+                            "2) f(x) = a - b^x"
+                        ],
+                        "explanation": "The general form of an exponential function is f(x) = a * b^x, where a is a constant and b is the base of the exponential.",
+                        "answer": "3) f(x) = a * b^x"
+                    },
+                    {
+                        "question": "What does the constant 'a' represent in the function f(x) = a * b^x?",
+                        "options": [
+                            "3) The base of the exponential",
+                            "1) The rate of growth",
+                            "2) The initial value when x is 0",
+                            "4) The exponent"
+                        ],
+                        "explanation": "'a' represents the initial value of the function, which is the value of f(x) when x = 0.",
+                        "answer": "2) The initial value when x is 0"
+                    },
+                    {
+                        "question": "If an exponential function has a base 'b' that is between 0 and 1, what type of behavior does it exhibit?",
+                        "options": [
+                            "1) Linear growth",
+                            "2) Exponential decay",
+                            "4) Constant value",
+                            "3) Quadratic growth"
+                        ],
+                        "explanation": "When 'b' is between 0 and 1, the function exhibits exponential decay, meaning it decreases rapidly as x increases.",
+                        "answer": "2) Exponential decay"
+                    },
+                    {
+                        "question": "In the exponential function f(x) = 2^x, what happens to the value of f(x) as x becomes larger?",
+                        "options": [
+                            "3) It remains constant",
+                            "1) It decreases steadily",
+                            "2) It approaches zero",
+                            "4) It increases rapidly"
+                        ],
+                        "explanation": "As x increases in the function f(x) = 2^x, the value of f(x) increases rapidly since the base 2 is greater than 1, indicating exponential growth.",
+                        "answer": "4) It increases rapidly"
+                    },
+                    {
+                        "question": "Why is the number 'e' commonly used as the base for exponential functions?",
+                        "options": [
+                            "1) It is the only number that can be squared",
+                            "4) It is less than 1",
+                            "2) It has unique properties in calculus",
+                            "3) It is always greater than 1"
+                        ],
+                        "explanation": "'e' is approximately 2.71828 and is used in exponential functions because it has unique mathematical properties, especially in calculus, making it important for growth models.",
+                        "answer": "2) It has unique properties in calculus"
+                    },
+                    {
+                        "question": "In which scenario is exponential growth commonly observed?",
+                        "options": [
+                            "1) Linear increase in temperature",
+                            "2) Steady decrease in population",
+                            "4) Decrease in investment",
+                            "3) Compound interest in finance"
+                        ],
+                        "explanation": "Exponential growth is commonly observed in financial scenarios such as compound interest, where the amount of money grows exponentially over time due to interest being calculated on previously earned interest.",
+                        "answer": "3) Compound interest in finance"
+                    },
+                    {
+                        "question": "Which of the following accurately describes the graph of an exponential function?",
+                        "options": [
+                            "3) It approaches an asymptote",
+                            "2) It has a maximum point",
+                            "1) It is a straight line",
+                            "4) It oscillates between two values"
+                        ],
+                        "explanation": "The graph of an exponential function approaches an asymptote, which is the x-axis (y=0), but it never actually touches it.",
+                        "answer": "3) It approaches an asymptote"
+                    },
+                    {
+                        "question": "What can be inferred about the growth of a population modeled by an exponential function?",
+                        "options": [
+                            "4) It will grow in a linear fashion",
+                            "1) It will always decrease",
+                            "3) It can grow very rapidly under the right conditions",
+                            "2) It will stop growing"
+                        ],
+                        "explanation": "In an exponential function modeling population growth, the population can grow very rapidly under ideal conditions, especially when there are no limiting factors.",
+                        "answer": "3) It can grow very rapidly under the right conditions"
+                    },
+                    {
+                        "question": "In biological contexts, how does exponential growth manifest during a disease outbreak?",
+                        "options": [
+                            "3) It initially starts small and grows rapidly",
+                            "1) It remains constant",
+                            "4) It grows in a stepwise manner",
+                            "2) It declines immediately"
+                        ],
+                        "explanation": "During a disease outbreak, the number of infections typically starts small and can increase rapidly due to each infected person potentially infecting others, demonstrating exponential growth.",
+                        "answer": "3) It initially starts small and grows rapidly"
+                    },
+                    {
+                        "question": "What concept does Moore's Law exemplify in technology?",
+                        "options": [
+                            "1) Exponential decay",
+                            "2) Linear growth",
+                            "4) Constant value",
+                            "3) Exponential growth"
+                        ],
+                        "explanation": "Moore's Law predicts the doubling of transistors on microchips approximately every two years, indicating exponential growth in technology and computing power.",
+                        "answer": "3) Exponential growth"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    0,
+                    1,
+                    2,
+                    6
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What is the general form of an exponential function?",
+                        "options": [
+                            "4) f(x) = a / b^x",
+                            "1) f(x) = a + b^x",
+                            "3) f(x) = a * b^x",
+                            "2) f(x) = a - b^x"
+                        ],
+                        "explanation": "The general form of an exponential function is f(x) = a * b^x, where a is a constant and b is the base of the exponential.",
+                        "answer": "3) f(x) = a * b^x"
+                    },
+                    {
+                        "question": "What does the constant 'a' represent in the function f(x) = a * b^x?",
+                        "options": [
+                            "3) The base of the exponential",
+                            "1) The rate of growth",
+                            "2) The initial value when x is 0",
+                            "4) The exponent"
+                        ],
+                        "explanation": "'a' represents the initial value of the function, which is the value of f(x) when x = 0.",
+                        "answer": "2) The initial value when x is 0"
+                    },
+                    {
+                        "question": "If an exponential function has a base 'b' that is between 0 and 1, what type of behavior does it exhibit?",
+                        "options": [
+                            "1) Linear growth",
+                            "2) Exponential decay",
+                            "4) Constant value",
+                            "3) Quadratic growth"
+                        ],
+                        "explanation": "When 'b' is between 0 and 1, the function exhibits exponential decay, meaning it decreases rapidly as x increases.",
+                        "answer": "2) Exponential decay"
+                    },
+                    {
+                        "question": "In the exponential function f(x) = 2^x, what happens to the value of f(x) as x becomes larger?",
+                        "options": [
+                            "3) It remains constant",
+                            "1) It decreases steadily",
+                            "2) It approaches zero",
+                            "4) It increases rapidly"
+                        ],
+                        "explanation": "As x increases in the function f(x) = 2^x, the value of f(x) increases rapidly since the base 2 is greater than 1, indicating exponential growth.",
+                        "answer": "4) It increases rapidly"
+                    },
+                    {
+                        "question": "Why is the number 'e' commonly used as the base for exponential functions?",
+                        "options": [
+                            "1) It is the only number that can be squared",
+                            "4) It is less than 1",
+                            "2) It has unique properties in calculus",
+                            "3) It is always greater than 1"
+                        ],
+                        "explanation": "'e' is approximately 2.71828 and is used in exponential functions because it has unique mathematical properties, especially in calculus, making it important for growth models.",
+                        "answer": "2) It has unique properties in calculus"
+                    },
+                    {
+                        "question": "In which scenario is exponential growth commonly observed?",
+                        "options": [
+                            "1) Linear increase in temperature",
+                            "2) Steady decrease in population",
+                            "4) Decrease in investment",
+                            "3) Compound interest in finance"
+                        ],
+                        "explanation": "Exponential growth is commonly observed in financial scenarios such as compound interest, where the amount of money grows exponentially over time due to interest being calculated on previously earned interest.",
+                        "answer": "3) Compound interest in finance"
+                    },
+                    {
+                        "question": "Which of the following accurately describes the graph of an exponential function?",
+                        "options": [
+                            "3) It approaches an asymptote",
+                            "2) It has a maximum point",
+                            "1) It is a straight line",
+                            "4) It oscillates between two values"
+                        ],
+                        "explanation": "The graph of an exponential function approaches an asymptote, which is the x-axis (y=0), but it never actually touches it.",
+                        "answer": "3) It approaches an asymptote"
+                    },
+                    {
+                        "question": "What can be inferred about the growth of a population modeled by an exponential function?",
+                        "options": [
+                            "4) It will grow in a linear fashion",
+                            "1) It will always decrease",
+                            "3) It can grow very rapidly under the right conditions",
+                            "2) It will stop growing"
+                        ],
+                        "explanation": "In an exponential function modeling population growth, the population can grow very rapidly under ideal conditions, especially when there are no limiting factors.",
+                        "answer": "3) It can grow very rapidly under the right conditions"
+                    },
+                    {
+                        "question": "In biological contexts, how does exponential growth manifest during a disease outbreak?",
+                        "options": [
+                            "3) It initially starts small and grows rapidly",
+                            "1) It remains constant",
+                            "4) It grows in a stepwise manner",
+                            "2) It declines immediately"
+                        ],
+                        "explanation": "During a disease outbreak, the number of infections typically starts small and can increase rapidly due to each infected person potentially infecting others, demonstrating exponential growth.",
+                        "answer": "3) It initially starts small and grows rapidly"
+                    },
+                    {
+                        "question": "What concept does Moore's Law exemplify in technology?",
+                        "options": [
+                            "1) Exponential decay",
+                            "2) Linear growth",
+                            "4) Constant value",
+                            "3) Exponential growth"
+                        ],
+                        "explanation": "Moore's Law predicts the doubling of transistors on microchips approximately every two years, indicating exponential growth in technology and computing power.",
+                        "answer": "3) Exponential growth"
+                    }
+                ]
+            }
+        ],
+        "Astronomy": [
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    7
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What are galaxy clusters primarily composed of?",
+                        "options": [
+                            "4) Gas and dark energy",
+                            "1) Only galaxies",
+                            "3) Galaxies, gas, and dark matter",
+                            "2) Stars and planets"
+                        ],
+                        "explanation": "Galaxy clusters are massive structures that contain hundreds to thousands of galaxies along with vast amounts of gas and dark matter, making option 3) the most accurate answer.",
+                        "answer": "3) Galaxies, gas, and dark matter"
+                    },
+                    {
+                        "question": "What characterizes a cosmic void?",
+                        "options": [
+                            "2) A region filled with dark matter",
+                            "4) An area with high dark energy",
+                            "3) A relatively empty region of space with few galaxies",
+                            "1) A high concentration of galaxies"
+                        ],
+                        "explanation": "A cosmic void is a large region of space that is relatively empty, featuring very few galaxies, which aligns with option 3) as the correct answer.",
+                        "answer": "3) A relatively empty region of space with few galaxies"
+                    },
+                    {
+                        "question": "How does dark matter affect galaxy clusters?",
+                        "options": [
+                            "3) It helps hold galaxies together through its gravitational pull",
+                            "4) It accelerates the expansion of the universe",
+                            "2) It enhances the size of galaxies",
+                            "1) It emits a large amount of observable light"
+                        ],
+                        "explanation": "Dark matter's gravitational effects are crucial for holding galaxies within clusters together, making option 3) the right choice.",
+                        "answer": "3) It helps hold galaxies together through its gravitational pull"
+                    },
+                    {
+                        "question": "What did the early universe resemble shortly after the Big Bang?",
+                        "options": [
+                            "3) Filled with dense matter only",
+                            "2) Almost uniform in temperature and density",
+                            "1) Highly structured with clusters and voids",
+                            "4) An empty void with no features"
+                        ],
+                        "explanation": "The early universe was nearly uniform in both temperature and density right after the Big Bang, thus option 2) is the correct response.",
+                        "answer": "2) Almost uniform in temperature and density"
+                    },
+                    {
+                        "question": "What happens as density fluctuations grow in the universe?",
+                        "options": [
+                            "4) They eliminate empty regions in space",
+                            "1) They cause galaxies to merge instantaneously",
+                            "2) They lead to the stability of the universe",
+                            "3) They lead to the formation of clusters and voids"
+                        ],
+                        "explanation": "As density fluctuations increase due to gravitational attraction, they eventually result in cosmic structures, including clusters and voids, confirming that option 3) is accurate.",
+                        "answer": "3) They lead to the formation of clusters and voids"
+                    },
+                    {
+                        "question": "What interaction primarily influences the growth of galaxy clusters over time?",
+                        "options": [
+                            "4) Thermal radiation from stars",
+                            "2) Gravitational attraction pulling matter together",
+                            "1) Dark energy pushing galaxies apart",
+                            "3) The explosion of supernovae"
+                        ],
+                        "explanation": "The formation and growth of galaxy clusters is greatly influenced by gravitational attraction, making option 2) the right answer.",
+                        "answer": "2) Gravitational attraction pulling matter together"
+                    },
+                    {
+                        "question": "In what way do voids contribute to the structure of the universe?",
+                        "options": [
+                            "4) They decrease the overall mass of the universe",
+                            "3) They are responsible for the creation of dark matter",
+                            "2) They act as connections between clusters in a web-like structure",
+                            "1) They increase the density of nearby galaxies"
+                        ],
+                        "explanation": "Voids are important as they represent the spaces connecting clusters, forming a large-scale web structure in the universe, hence option 2) is correct.",
+                        "answer": "2) They act as connections between clusters in a web-like structure"
+                    },
+                    {
+                        "question": "How long did it take for density fluctuations to gradually lead to the formation of clusters?",
+                        "options": [
+                            "2) Roughly billions of years",
+                            "1) A few months after the Big Bang",
+                            "3) Only a couple of years",
+                            "4) Several trillion years"
+                        ],
+                        "explanation": "The gradual development of density fluctuations into the structures we observe took billions of years, thus option 2) accurately reflects this time frame.",
+                        "answer": "2) Roughly billions of years"
+                    },
+                    {
+                        "question": "What type of matter is dark matter classified as?",
+                        "options": [
+                            "3) Liquid matter in cosmic clouds",
+                            "4) Matter that absorbs all light",
+                            "2) Unseen and detectable only through gravity",
+                            "1) Visible and luminous matter"
+                        ],
+                        "explanation": "Dark matter is defined as an unseen form of matter, detected primarily through its gravitational effects, confirming option 2) as true.",
+                        "answer": "2) Unseen and detectable only through gravity"
+                    },
+                    {
+                        "question": "Which phenomenon illustrates the evolution of cosmic structures over time?",
+                        "options": [
+                            "4) Gravitational interactions leading to galaxy mergers",
+                            "3) Interactions between galaxies and dark energy",
+                            "1) Rapid condensation of stars",
+                            "2) The merging of planets"
+                        ],
+                        "explanation": "Cosmic structures evolve primarily through gravitational interactions, including mergers between galaxies, so option 4) represents the correct idea.",
+                        "answer": "4) Gravitational interactions leading to galaxy mergers"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What are galaxy clusters primarily composed of?",
+                        "options": [
+                            "4) Gas and dark energy",
+                            "1) Only galaxies",
+                            "3) Galaxies, gas, and dark matter",
+                            "2) Stars and planets"
+                        ],
+                        "explanation": "Galaxy clusters are massive structures that contain hundreds to thousands of galaxies along with vast amounts of gas and dark matter, making option 3) the most accurate answer.",
+                        "answer": "3) Galaxies, gas, and dark matter"
+                    },
+                    {
+                        "question": "What characterizes a cosmic void?",
+                        "options": [
+                            "2) A region filled with dark matter",
+                            "4) An area with high dark energy",
+                            "3) A relatively empty region of space with few galaxies",
+                            "1) A high concentration of galaxies"
+                        ],
+                        "explanation": "A cosmic void is a large region of space that is relatively empty, featuring very few galaxies, which aligns with option 3) as the correct answer.",
+                        "answer": "3) A relatively empty region of space with few galaxies"
+                    },
+                    {
+                        "question": "How does dark matter affect galaxy clusters?",
+                        "options": [
+                            "3) It helps hold galaxies together through its gravitational pull",
+                            "4) It accelerates the expansion of the universe",
+                            "2) It enhances the size of galaxies",
+                            "1) It emits a large amount of observable light"
+                        ],
+                        "explanation": "Dark matter's gravitational effects are crucial for holding galaxies within clusters together, making option 3) the right choice.",
+                        "answer": "3) It helps hold galaxies together through its gravitational pull"
+                    },
+                    {
+                        "question": "What did the early universe resemble shortly after the Big Bang?",
+                        "options": [
+                            "3) Filled with dense matter only",
+                            "2) Almost uniform in temperature and density",
+                            "1) Highly structured with clusters and voids",
+                            "4) An empty void with no features"
+                        ],
+                        "explanation": "The early universe was nearly uniform in both temperature and density right after the Big Bang, thus option 2) is the correct response.",
+                        "answer": "2) Almost uniform in temperature and density"
+                    },
+                    {
+                        "question": "What happens as density fluctuations grow in the universe?",
+                        "options": [
+                            "4) They eliminate empty regions in space",
+                            "1) They cause galaxies to merge instantaneously",
+                            "2) They lead to the stability of the universe",
+                            "3) They lead to the formation of clusters and voids"
+                        ],
+                        "explanation": "As density fluctuations increase due to gravitational attraction, they eventually result in cosmic structures, including clusters and voids, confirming that option 3) is accurate.",
+                        "answer": "3) They lead to the formation of clusters and voids"
+                    },
+                    {
+                        "question": "What interaction primarily influences the growth of galaxy clusters over time?",
+                        "options": [
+                            "4) Thermal radiation from stars",
+                            "2) Gravitational attraction pulling matter together",
+                            "1) Dark energy pushing galaxies apart",
+                            "3) The explosion of supernovae"
+                        ],
+                        "explanation": "The formation and growth of galaxy clusters is greatly influenced by gravitational attraction, making option 2) the right answer.",
+                        "answer": "2) Gravitational attraction pulling matter together"
+                    },
+                    {
+                        "question": "In what way do voids contribute to the structure of the universe?",
+                        "options": [
+                            "4) They decrease the overall mass of the universe",
+                            "3) They are responsible for the creation of dark matter",
+                            "2) They act as connections between clusters in a web-like structure",
+                            "1) They increase the density of nearby galaxies"
+                        ],
+                        "explanation": "Voids are important as they represent the spaces connecting clusters, forming a large-scale web structure in the universe, hence option 2) is correct.",
+                        "answer": "2) They act as connections between clusters in a web-like structure"
+                    },
+                    {
+                        "question": "How long did it take for density fluctuations to gradually lead to the formation of clusters?",
+                        "options": [
+                            "2) Roughly billions of years",
+                            "1) A few months after the Big Bang",
+                            "3) Only a couple of years",
+                            "4) Several trillion years"
+                        ],
+                        "explanation": "The gradual development of density fluctuations into the structures we observe took billions of years, thus option 2) accurately reflects this time frame.",
+                        "answer": "2) Roughly billions of years"
+                    },
+                    {
+                        "question": "What type of matter is dark matter classified as?",
+                        "options": [
+                            "3) Liquid matter in cosmic clouds",
+                            "4) Matter that absorbs all light",
+                            "2) Unseen and detectable only through gravity",
+                            "1) Visible and luminous matter"
+                        ],
+                        "explanation": "Dark matter is defined as an unseen form of matter, detected primarily through its gravitational effects, confirming option 2) as true.",
+                        "answer": "2) Unseen and detectable only through gravity"
+                    },
+                    {
+                        "question": "Which phenomenon illustrates the evolution of cosmic structures over time?",
+                        "options": [
+                            "4) Gravitational interactions leading to galaxy mergers",
+                            "3) Interactions between galaxies and dark energy",
+                            "1) Rapid condensation of stars",
+                            "2) The merging of planets"
+                        ],
+                        "explanation": "Cosmic structures evolve primarily through gravitational interactions, including mergers between galaxies, so option 4) represents the correct idea.",
+                        "answer": "4) Gravitational interactions leading to galaxy mergers"
+                    }
+                ]
+            }
+        ],
+        "Computer Science": [
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    2,
+                    7
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "Which stage of the Software Development Life Cycle (SDLC) involves gathering requirements from stakeholders?",
+                        "options": [
+                            "1) Development",
+                            "4) Deployment",
+                            "2) Testing",
+                            "3) Planning"
+                        ],
+                        "explanation": "The Planning stage is where requirements from stakeholders are gathered to define the purpose and goals of the project.",
+                        "answer": "3) Planning"
+                    },
+                    {
+                        "question": "What is the longest phase of the Software Development Life Cycle (SDLC)?",
+                        "options": [
+                            "3) Planning",
+                            "2) Testing",
+                            "4) Development",
+                            "1) Deployment"
+                        ],
+                        "explanation": "The Development stage is typically the longest, as it involves writing code based on the gathered requirements.",
+                        "answer": "4) Development"
+                    },
+                    {
+                        "question": "In which phase of the SDLC are quality assurance teams most active?",
+                        "options": [
+                            "3) Planning",
+                            "1) Testing",
+                            "2) Development",
+                            "4) Deployment"
+                        ],
+                        "explanation": "Quality assurance teams are most active during the Testing phase to identify and fix bugs in the software.",
+                        "answer": "1) Testing"
+                    },
+                    {
+                        "question": "What is a significant benefit of proper documentation in SDLC?",
+                        "options": [
+                            "4) It eliminates the need for testing",
+                            "2) It helps in user training only",
+                            "1) It increases development time",
+                            "3) It improves communication and consistency"
+                        ],
+                        "explanation": "Good documentation improves communication and consistency, serving as a guide for future maintenance and onboarding new team members.",
+                        "answer": "3) It improves communication and consistency"
+                    },
+                    {
+                        "question": "What does the Deployment stage mainly focus on?",
+                        "options": [
+                            "3) Rolling out the software to users",
+                            "4) Fixing bugs and issues",
+                            "1) Gathering project requirements",
+                            "2) Writing and coding the software"
+                        ],
+                        "explanation": "The Deployment stage involves rolling out the software to users and includes tasks such as installation and providing documentation.",
+                        "answer": "3) Rolling out the software to users"
+                    },
+                    {
+                        "question": "What type of methodology is characterized by an iterative approach?",
+                        "options": [
+                            "1) Waterfall",
+                            "2) Linear",
+                            "4) Sequential",
+                            "3) Agile"
+                        ],
+                        "explanation": "Agile methodology is characterized by its iterative approach that allows for flexibility and frequent reassessment of plans.",
+                        "answer": "3) Agile"
+                    },
+                    {
+                        "question": "Which approach to SDLC is known for its rigid structure, where each stage must be completed before the next begins?",
+                        "options": [
+                            "4) Spiral",
+                            "2) Agile",
+                            "1) Waterfall",
+                            "3) Incremental"
+                        ],
+                        "explanation": "The Waterfall methodology follows a rigid structure where each phase must be completed before moving to the next stage.",
+                        "answer": "1) Waterfall"
+                    },
+                    {
+                        "question": "What aspect of the SDLC helps in analyzing the feasibility of a project?",
+                        "options": [
+                            "3) Testing",
+                            "1) Development",
+                            "4) Deployment",
+                            "2) Planning"
+                        ],
+                        "explanation": "During the Planning stage, the feasibility of the project is assessed along with setting the project's goals.",
+                        "answer": "2) Planning"
+                    },
+                    {
+                        "question": "Which method of SDLC allows for user feedback leading to further improvements after initial software release?",
+                        "options": [
+                            "2) Planning",
+                            "4) Waterfall",
+                            "3) Agile",
+                            "1) Testing"
+                        ],
+                        "explanation": "In Agile methodology, users can provide feedback after deployment, resulting in further iterations and improvements to the software.",
+                        "answer": "3) Agile"
+                    },
+                    {
+                        "question": "What is a common disadvantage of the Waterfall methodology?",
+                        "options": [
+                            "2) It is very flexible",
+                            "1) It allows for frequent changes",
+                            "4) It has no documentation",
+                            "3) Changes in requirements are challenging to implement"
+                        ],
+                        "explanation": "A common disadvantage of the Waterfall methodology is that changes in requirements are challenging to implement once development has begun.",
+                        "answer": "3) Changes in requirements are challenging to implement"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    2,
+                    7
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "Which stage of the Software Development Life Cycle (SDLC) involves gathering requirements from stakeholders?",
+                        "options": [
+                            "1) Development",
+                            "4) Deployment",
+                            "2) Testing",
+                            "3) Planning"
+                        ],
+                        "explanation": "The Planning stage is where requirements from stakeholders are gathered to define the purpose and goals of the project.",
+                        "answer": "3) Planning"
+                    },
+                    {
+                        "question": "What is the longest phase of the Software Development Life Cycle (SDLC)?",
+                        "options": [
+                            "3) Planning",
+                            "2) Testing",
+                            "4) Development",
+                            "1) Deployment"
+                        ],
+                        "explanation": "The Development stage is typically the longest, as it involves writing code based on the gathered requirements.",
+                        "answer": "4) Development"
+                    },
+                    {
+                        "question": "In which phase of the SDLC are quality assurance teams most active?",
+                        "options": [
+                            "3) Planning",
+                            "1) Testing",
+                            "2) Development",
+                            "4) Deployment"
+                        ],
+                        "explanation": "Quality assurance teams are most active during the Testing phase to identify and fix bugs in the software.",
+                        "answer": "1) Testing"
+                    },
+                    {
+                        "question": "What is a significant benefit of proper documentation in SDLC?",
+                        "options": [
+                            "4) It eliminates the need for testing",
+                            "2) It helps in user training only",
+                            "1) It increases development time",
+                            "3) It improves communication and consistency"
+                        ],
+                        "explanation": "Good documentation improves communication and consistency, serving as a guide for future maintenance and onboarding new team members.",
+                        "answer": "3) It improves communication and consistency"
+                    },
+                    {
+                        "question": "What does the Deployment stage mainly focus on?",
+                        "options": [
+                            "3) Rolling out the software to users",
+                            "4) Fixing bugs and issues",
+                            "1) Gathering project requirements",
+                            "2) Writing and coding the software"
+                        ],
+                        "explanation": "The Deployment stage involves rolling out the software to users and includes tasks such as installation and providing documentation.",
+                        "answer": "3) Rolling out the software to users"
+                    },
+                    {
+                        "question": "What type of methodology is characterized by an iterative approach?",
+                        "options": [
+                            "1) Waterfall",
+                            "2) Linear",
+                            "4) Sequential",
+                            "3) Agile"
+                        ],
+                        "explanation": "Agile methodology is characterized by its iterative approach that allows for flexibility and frequent reassessment of plans.",
+                        "answer": "3) Agile"
+                    },
+                    {
+                        "question": "Which approach to SDLC is known for its rigid structure, where each stage must be completed before the next begins?",
+                        "options": [
+                            "4) Spiral",
+                            "2) Agile",
+                            "1) Waterfall",
+                            "3) Incremental"
+                        ],
+                        "explanation": "The Waterfall methodology follows a rigid structure where each phase must be completed before moving to the next stage.",
+                        "answer": "1) Waterfall"
+                    },
+                    {
+                        "question": "What aspect of the SDLC helps in analyzing the feasibility of a project?",
+                        "options": [
+                            "3) Testing",
+                            "1) Development",
+                            "4) Deployment",
+                            "2) Planning"
+                        ],
+                        "explanation": "During the Planning stage, the feasibility of the project is assessed along with setting the project's goals.",
+                        "answer": "2) Planning"
+                    },
+                    {
+                        "question": "Which method of SDLC allows for user feedback leading to further improvements after initial software release?",
+                        "options": [
+                            "2) Planning",
+                            "4) Waterfall",
+                            "3) Agile",
+                            "1) Testing"
+                        ],
+                        "explanation": "In Agile methodology, users can provide feedback after deployment, resulting in further iterations and improvements to the software.",
+                        "answer": "3) Agile"
+                    },
+                    {
+                        "question": "What is a common disadvantage of the Waterfall methodology?",
+                        "options": [
+                            "2) It is very flexible",
+                            "1) It allows for frequent changes",
+                            "4) It has no documentation",
+                            "3) Changes in requirements are challenging to implement"
+                        ],
+                        "explanation": "A common disadvantage of the Waterfall methodology is that changes in requirements are challenging to implement once development has begun.",
+                        "answer": "3) Changes in requirements are challenging to implement"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    2,
+                    7
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "Which stage of the Software Development Life Cycle (SDLC) involves gathering requirements from stakeholders?",
+                        "options": [
+                            "1) Development",
+                            "4) Deployment",
+                            "2) Testing",
+                            "3) Planning"
+                        ],
+                        "explanation": "The Planning stage is where requirements from stakeholders are gathered to define the purpose and goals of the project.",
+                        "answer": "3) Planning"
+                    },
+                    {
+                        "question": "What is the longest phase of the Software Development Life Cycle (SDLC)?",
+                        "options": [
+                            "3) Planning",
+                            "2) Testing",
+                            "4) Development",
+                            "1) Deployment"
+                        ],
+                        "explanation": "The Development stage is typically the longest, as it involves writing code based on the gathered requirements.",
+                        "answer": "4) Development"
+                    },
+                    {
+                        "question": "In which phase of the SDLC are quality assurance teams most active?",
+                        "options": [
+                            "3) Planning",
+                            "1) Testing",
+                            "2) Development",
+                            "4) Deployment"
+                        ],
+                        "explanation": "Quality assurance teams are most active during the Testing phase to identify and fix bugs in the software.",
+                        "answer": "1) Testing"
+                    },
+                    {
+                        "question": "What is a significant benefit of proper documentation in SDLC?",
+                        "options": [
+                            "4) It eliminates the need for testing",
+                            "2) It helps in user training only",
+                            "1) It increases development time",
+                            "3) It improves communication and consistency"
+                        ],
+                        "explanation": "Good documentation improves communication and consistency, serving as a guide for future maintenance and onboarding new team members.",
+                        "answer": "3) It improves communication and consistency"
+                    },
+                    {
+                        "question": "What does the Deployment stage mainly focus on?",
+                        "options": [
+                            "3) Rolling out the software to users",
+                            "4) Fixing bugs and issues",
+                            "1) Gathering project requirements",
+                            "2) Writing and coding the software"
+                        ],
+                        "explanation": "The Deployment stage involves rolling out the software to users and includes tasks such as installation and providing documentation.",
+                        "answer": "3) Rolling out the software to users"
+                    },
+                    {
+                        "question": "What type of methodology is characterized by an iterative approach?",
+                        "options": [
+                            "1) Waterfall",
+                            "2) Linear",
+                            "4) Sequential",
+                            "3) Agile"
+                        ],
+                        "explanation": "Agile methodology is characterized by its iterative approach that allows for flexibility and frequent reassessment of plans.",
+                        "answer": "3) Agile"
+                    },
+                    {
+                        "question": "Which approach to SDLC is known for its rigid structure, where each stage must be completed before the next begins?",
+                        "options": [
+                            "4) Spiral",
+                            "2) Agile",
+                            "1) Waterfall",
+                            "3) Incremental"
+                        ],
+                        "explanation": "The Waterfall methodology follows a rigid structure where each phase must be completed before moving to the next stage.",
+                        "answer": "1) Waterfall"
+                    },
+                    {
+                        "question": "What aspect of the SDLC helps in analyzing the feasibility of a project?",
+                        "options": [
+                            "3) Testing",
+                            "1) Development",
+                            "4) Deployment",
+                            "2) Planning"
+                        ],
+                        "explanation": "During the Planning stage, the feasibility of the project is assessed along with setting the project's goals.",
+                        "answer": "2) Planning"
+                    },
+                    {
+                        "question": "Which method of SDLC allows for user feedback leading to further improvements after initial software release?",
+                        "options": [
+                            "2) Planning",
+                            "4) Waterfall",
+                            "3) Agile",
+                            "1) Testing"
+                        ],
+                        "explanation": "In Agile methodology, users can provide feedback after deployment, resulting in further iterations and improvements to the software.",
+                        "answer": "3) Agile"
+                    },
+                    {
+                        "question": "What is a common disadvantage of the Waterfall methodology?",
+                        "options": [
+                            "2) It is very flexible",
+                            "1) It allows for frequent changes",
+                            "4) It has no documentation",
+                            "3) Changes in requirements are challenging to implement"
+                        ],
+                        "explanation": "A common disadvantage of the Waterfall methodology is that changes in requirements are challenging to implement once development has begun.",
+                        "answer": "3) Changes in requirements are challenging to implement"
+                    }
+                ]
+            }
+        ],
+        "English": [
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    4,
+                    8
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What type of themes resonate with people regardless of their background?",
+                        "options": [
+                            "2) Specific themes",
+                            "1) Cultural themes",
+                            "3) Universal themes",
+                            "4) Social themes"
+                        ],
+                        "explanation": "Universal themes are those that resonate with everyone regardless of cultural or societal differences; they encompass experiences that are common to all human beings.",
+                        "answer": "3) Universal themes"
+                    },
+                    {
+                        "question": "Which theme is primarily explored in African American literature according to the lecture?",
+                        "options": [
+                            "3) Love",
+                            "1) Survival",
+                            "2) Identity",
+                            "4) Betrayal"
+                        ],
+                        "explanation": "African American literature often explores themes of identity, resilience, and community, reflecting the specific cultural struggles and values of that group.",
+                        "answer": "2) Identity"
+                    },
+                    {
+                        "question": "In 'To Kill a Mockingbird' by Harper Lee, which theme is prominently tackled?",
+                        "options": [
+                            "2) Totalitarianism",
+                            "1) Racial injustice",
+                            "4) Love",
+                            "3) Class status"
+                        ],
+                        "explanation": "'To Kill a Mockingbird' addresses themes of racial injustice and moral development, focusing on the perspective of a child as these harsh realities unfold.",
+                        "answer": "1) Racial injustice"
+                    },
+                    {
+                        "question": "What is the significance of a theme in literature?",
+                        "options": [
+                            "3) It conveys larger ideas and messages",
+                            "1) It builds character development",
+                            "4) It sets the plot pacing",
+                            "2) It provides entertainment"
+                        ],
+                        "explanation": "Themes convey larger ideas and messages that resonate with readers, offering deeper insights into the human experience and the context of the story.",
+                        "answer": "3) It conveys larger ideas and messages"
+                    },
+                    {
+                        "question": "Which of the following novels illustrates the theme of totalitarianism?",
+                        "options": [
+                            "1) 'Pride and Prejudice'",
+                            "2) '1984'",
+                            "3) 'Hatchet'",
+                            "4) 'The Hunger Games'"
+                        ],
+                        "explanation": "George Orwell's '1984' explores themes of totalitarianism and the loss of individuality, serving as a cautionary tale against oppressive governance.",
+                        "answer": "2) '1984'"
+                    },
+                    {
+                        "question": "What type of theme is characterized by reflecting the values and struggles of specific cultures?",
+                        "options": [
+                            "1) Universal themes",
+                            "2) Cultural themes",
+                            "4) Historical themes",
+                            "3) Literary themes"
+                        ],
+                        "explanation": "Cultural themes reflect the values, traditions, and struggles of specific groups or societies, offering insights into the unique experiences of those cultures.",
+                        "answer": "2) Cultural themes"
+                    },
+                    {
+                        "question": "In Jane Austen's 'Pride and Prejudice', what theme is portrayed through the characters' relationships?",
+                        "options": [
+                            "2) Class and social status",
+                            "1) Love",
+                            "4) Betrayal",
+                            "3) Friendship"
+                        ],
+                        "explanation": "'Pride and Prejudice' portrays the theme of class and social status, illustrating how these factors impact relationships and societal expectations.",
+                        "answer": "2) Class and social status"
+                    },
+                    {
+                        "question": "What is a common technique authors use to develop themes in their works?",
+                        "options": [
+                            "2) Vivid imagery",
+                            "4) Alliteration",
+                            "3) Symbolism",
+                            "1) Character development"
+                        ],
+                        "explanation": "Authors often use symbolism and character development to enhance the themes within their stories, allowing readers to grasp deeper meanings.",
+                        "answer": "1) Character development"
+                    },
+                    {
+                        "question": "Which of the following represents a universal theme mentioned in the lecture?",
+                        "options": [
+                            "4) Daily life observations",
+                            "1) Love and conflict",
+                            "3) Specific cultural experiences",
+                            "2) Historical events"
+                        ],
+                        "explanation": "Love and conflict are universal themes found in countless literary works that resonate across different cultures and generations.",
+                        "answer": "1) Love and conflict"
+                    },
+                    {
+                        "question": "How do themes enhance a reader\u2019s engagement with a text?",
+                        "options": [
+                            "1) They simplify complex plots",
+                            "4) They distract from the main story",
+                            "3) They connect readers to deeper insights",
+                            "2) They add humor to the story"
+                        ],
+                        "explanation": "Themes enhance a reader's engagement with a text by providing deeper insights and understanding of the human experiences reflected in the story.",
+                        "answer": "3) They connect readers to deeper insights"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What type of themes resonate with people regardless of their background?",
+                        "options": [
+                            "2) Specific themes",
+                            "1) Cultural themes",
+                            "3) Universal themes",
+                            "4) Social themes"
+                        ],
+                        "explanation": "Universal themes are those that resonate with everyone regardless of cultural or societal differences; they encompass experiences that are common to all human beings.",
+                        "answer": "3) Universal themes"
+                    },
+                    {
+                        "question": "Which theme is primarily explored in African American literature according to the lecture?",
+                        "options": [
+                            "3) Love",
+                            "1) Survival",
+                            "2) Identity",
+                            "4) Betrayal"
+                        ],
+                        "explanation": "African American literature often explores themes of identity, resilience, and community, reflecting the specific cultural struggles and values of that group.",
+                        "answer": "2) Identity"
+                    },
+                    {
+                        "question": "In 'To Kill a Mockingbird' by Harper Lee, which theme is prominently tackled?",
+                        "options": [
+                            "2) Totalitarianism",
+                            "1) Racial injustice",
+                            "4) Love",
+                            "3) Class status"
+                        ],
+                        "explanation": "'To Kill a Mockingbird' addresses themes of racial injustice and moral development, focusing on the perspective of a child as these harsh realities unfold.",
+                        "answer": "1) Racial injustice"
+                    },
+                    {
+                        "question": "What is the significance of a theme in literature?",
+                        "options": [
+                            "3) It conveys larger ideas and messages",
+                            "1) It builds character development",
+                            "4) It sets the plot pacing",
+                            "2) It provides entertainment"
+                        ],
+                        "explanation": "Themes convey larger ideas and messages that resonate with readers, offering deeper insights into the human experience and the context of the story.",
+                        "answer": "3) It conveys larger ideas and messages"
+                    },
+                    {
+                        "question": "Which of the following novels illustrates the theme of totalitarianism?",
+                        "options": [
+                            "1) 'Pride and Prejudice'",
+                            "2) '1984'",
+                            "3) 'Hatchet'",
+                            "4) 'The Hunger Games'"
+                        ],
+                        "explanation": "George Orwell's '1984' explores themes of totalitarianism and the loss of individuality, serving as a cautionary tale against oppressive governance.",
+                        "answer": "2) '1984'"
+                    },
+                    {
+                        "question": "What type of theme is characterized by reflecting the values and struggles of specific cultures?",
+                        "options": [
+                            "1) Universal themes",
+                            "2) Cultural themes",
+                            "4) Historical themes",
+                            "3) Literary themes"
+                        ],
+                        "explanation": "Cultural themes reflect the values, traditions, and struggles of specific groups or societies, offering insights into the unique experiences of those cultures.",
+                        "answer": "2) Cultural themes"
+                    },
+                    {
+                        "question": "In Jane Austen's 'Pride and Prejudice', what theme is portrayed through the characters' relationships?",
+                        "options": [
+                            "2) Class and social status",
+                            "1) Love",
+                            "4) Betrayal",
+                            "3) Friendship"
+                        ],
+                        "explanation": "'Pride and Prejudice' portrays the theme of class and social status, illustrating how these factors impact relationships and societal expectations.",
+                        "answer": "2) Class and social status"
+                    },
+                    {
+                        "question": "What is a common technique authors use to develop themes in their works?",
+                        "options": [
+                            "2) Vivid imagery",
+                            "4) Alliteration",
+                            "3) Symbolism",
+                            "1) Character development"
+                        ],
+                        "explanation": "Authors often use symbolism and character development to enhance the themes within their stories, allowing readers to grasp deeper meanings.",
+                        "answer": "1) Character development"
+                    },
+                    {
+                        "question": "Which of the following represents a universal theme mentioned in the lecture?",
+                        "options": [
+                            "4) Daily life observations",
+                            "1) Love and conflict",
+                            "3) Specific cultural experiences",
+                            "2) Historical events"
+                        ],
+                        "explanation": "Love and conflict are universal themes found in countless literary works that resonate across different cultures and generations.",
+                        "answer": "1) Love and conflict"
+                    },
+                    {
+                        "question": "How do themes enhance a reader\u2019s engagement with a text?",
+                        "options": [
+                            "1) They simplify complex plots",
+                            "4) They distract from the main story",
+                            "3) They connect readers to deeper insights",
+                            "2) They add humor to the story"
+                        ],
+                        "explanation": "Themes enhance a reader's engagement with a text by providing deeper insights and understanding of the human experiences reflected in the story.",
+                        "answer": "3) They connect readers to deeper insights"
+                    }
+                ]
+            }
+        ],
+        "Science": [
+            {
+                "quiz_grade": 70.0,
+                "wrong_answers": [
+                    5,
+                    6,
+                    7
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is the main focus of Newton's Third Law of Motion?",
+                        "options": [
+                            "3) The force is equal to mass times acceleration.",
+                            "2) An object at rest stays at rest unless acted upon.",
+                            "1) For every action, there is an equal and opposite reaction.",
+                            "4) Energy cannot be created or destroyed."
+                        ],
+                        "explanation": "Newton's Third Law of Motion states that every action has an equal and opposite reaction, meaning forces occur in pairs.",
+                        "answer": "1) For every action, there is an equal and opposite reaction."
+                    },
+                    {
+                        "question": "In terms of motion, what does inertia refer to?",
+                        "options": [
+                            "4) The energy of an object in motion.",
+                            "1) The tendency of an object to change its state of motion.",
+                            "3) The force required to stop an object.",
+                            "2) The measure of an object's mass."
+                        ],
+                        "explanation": "Inertia is the property of an object to resist changes in its state of motion; objects at rest stay at rest and objects in motion stay in motion.",
+                        "answer": "1) The tendency of an object to change its state of motion."
+                    },
+                    {
+                        "question": "Which type of potential energy is described by an object's height relative to the ground?",
+                        "options": [
+                            "4) Electrical potential energy.",
+                            "2) Gravitational potential energy.",
+                            "3) Elastic potential energy.",
+                            "1) Kinetic energy."
+                        ],
+                        "explanation": "Gravitational potential energy is energy stored in an object due to its height above the ground; the higher it is, the more potential energy it has.",
+                        "answer": "2) Gravitational potential energy."
+                    },
+                    {
+                        "question": "What happens to the kinetic energy of an object when its speed doubles?",
+                        "options": [
+                            "4) It decreases by half.",
+                            "1) It doubles.",
+                            "3) It remains the same.",
+                            "2) It increases by four times."
+                        ],
+                        "explanation": "Kinetic energy increases by a factor of four when speed doubles because KE = 1/2 mv\u00b2, making the speed squared a significant factor.",
+                        "answer": "2) It increases by four times."
+                    },
+                    {
+                        "question": "Which force acts against the motion of a sliding object?",
+                        "options": [
+                            "1) Gravitational force.",
+                            "4) Tension force.",
+                            "3) Normal force.",
+                            "2) Frictional force."
+                        ],
+                        "explanation": "Frictional force works against the direction of motion, resisting the movement of sliding objects.",
+                        "answer": "2) Frictional force."
+                    },
+                    {
+                        "question": "When observing motion, what does acceleration indicate?",
+                        "options": [
+                            "1) A change in speed or direction of an object.",
+                            "4) The distance traveled by an object.",
+                            "3) The energy an object possesses.",
+                            "2) The mass of an object in motion."
+                        ],
+                        "explanation": "Acceleration is defined as any change in the velocity of an object, which includes changes in speed or direction.",
+                        "answer": "1) A change in speed or direction of an object."
+                    },
+                    {
+                        "question": "Which of the following describes periodic motion?",
+                        "options": [
+                            "4) A movement that occurs without friction.",
+                            "1) A straight line movement at constant speed.",
+                            "3) Any change of speed in circular motion.",
+                            "2) A motion that repeats at regular intervals."
+                        ],
+                        "explanation": "Periodic motion is movement that repeats itself in regular intervals, such as a pendulum swinging back and forth.",
+                        "answer": "2) A motion that repeats at regular intervals."
+                    },
+                    {
+                        "question": "In the context of physics, what does energy primarily represent?",
+                        "options": [
+                            "2) The measurement of force acting on an object.",
+                            "4) The resistance an object has to changes in motion.",
+                            "3) The capacity to do work.",
+                            "1) The ability to change an object's position."
+                        ],
+                        "explanation": "Energy is defined as the capacity to do work, coming in forms such as kinetic and potential energy.",
+                        "answer": "3) The capacity to do work."
+                    },
+                    {
+                        "question": "Which scenario best illustrates Newton's Second Law of Motion?",
+                        "options": [
+                            "3) A ball resting on the ground remains there until kicked.",
+                            "4) A rocket propels upward, pushing exhaust downward.",
+                            "2) A heavier box requires more force to push than a lighter box.",
+                            "1) A stationary car begins to roll down a hill."
+                        ],
+                        "explanation": "Newton's Second Law states that the amount of force needed to accelerate an object is based on its mass and acceleration required. Thus, heavier objects need more force.",
+                        "answer": "2) A heavier box requires more force to push than a lighter box."
+                    },
+                    {
+                        "question": "What is a key concept of energy transformation in physics?",
+                        "options": [
+                            "2) Energy changes between kinetic and potential forms.",
+                            "3) Energy is never lost, only gained.",
+                            "1) Energy can be created in different forms.",
+                            "4) Motion is the only form of energy."
+                        ],
+                        "explanation": "Energy transformation refers to the ability of energy to change from one form to another, such as potential energy converting to kinetic energy.",
+                        "answer": "2) Energy changes between kinetic and potential forms."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    6,
+                    7
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is the main focus of Newton's Third Law of Motion?",
+                        "options": [
+                            "3) The force is equal to mass times acceleration.",
+                            "2) An object at rest stays at rest unless acted upon.",
+                            "1) For every action, there is an equal and opposite reaction.",
+                            "4) Energy cannot be created or destroyed."
+                        ],
+                        "explanation": "Newton's Third Law of Motion states that every action has an equal and opposite reaction, meaning forces occur in pairs.",
+                        "answer": "1) For every action, there is an equal and opposite reaction."
+                    },
+                    {
+                        "question": "In terms of motion, what does inertia refer to?",
+                        "options": [
+                            "4) The energy of an object in motion.",
+                            "1) The tendency of an object to change its state of motion.",
+                            "3) The force required to stop an object.",
+                            "2) The measure of an object's mass."
+                        ],
+                        "explanation": "Inertia is the property of an object to resist changes in its state of motion; objects at rest stay at rest and objects in motion stay in motion.",
+                        "answer": "1) The tendency of an object to change its state of motion."
+                    },
+                    {
+                        "question": "Which type of potential energy is described by an object's height relative to the ground?",
+                        "options": [
+                            "4) Electrical potential energy.",
+                            "2) Gravitational potential energy.",
+                            "3) Elastic potential energy.",
+                            "1) Kinetic energy."
+                        ],
+                        "explanation": "Gravitational potential energy is energy stored in an object due to its height above the ground; the higher it is, the more potential energy it has.",
+                        "answer": "2) Gravitational potential energy."
+                    },
+                    {
+                        "question": "What happens to the kinetic energy of an object when its speed doubles?",
+                        "options": [
+                            "4) It decreases by half.",
+                            "1) It doubles.",
+                            "3) It remains the same.",
+                            "2) It increases by four times."
+                        ],
+                        "explanation": "Kinetic energy increases by a factor of four when speed doubles because KE = 1/2 mv\u00b2, making the speed squared a significant factor.",
+                        "answer": "2) It increases by four times."
+                    },
+                    {
+                        "question": "Which force acts against the motion of a sliding object?",
+                        "options": [
+                            "1) Gravitational force.",
+                            "4) Tension force.",
+                            "3) Normal force.",
+                            "2) Frictional force."
+                        ],
+                        "explanation": "Frictional force works against the direction of motion, resisting the movement of sliding objects.",
+                        "answer": "2) Frictional force."
+                    },
+                    {
+                        "question": "When observing motion, what does acceleration indicate?",
+                        "options": [
+                            "1) A change in speed or direction of an object.",
+                            "4) The distance traveled by an object.",
+                            "3) The energy an object possesses.",
+                            "2) The mass of an object in motion."
+                        ],
+                        "explanation": "Acceleration is defined as any change in the velocity of an object, which includes changes in speed or direction.",
+                        "answer": "1) A change in speed or direction of an object."
+                    },
+                    {
+                        "question": "Which of the following describes periodic motion?",
+                        "options": [
+                            "4) A movement that occurs without friction.",
+                            "1) A straight line movement at constant speed.",
+                            "3) Any change of speed in circular motion.",
+                            "2) A motion that repeats at regular intervals."
+                        ],
+                        "explanation": "Periodic motion is movement that repeats itself in regular intervals, such as a pendulum swinging back and forth.",
+                        "answer": "2) A motion that repeats at regular intervals."
+                    },
+                    {
+                        "question": "In the context of physics, what does energy primarily represent?",
+                        "options": [
+                            "2) The measurement of force acting on an object.",
+                            "4) The resistance an object has to changes in motion.",
+                            "3) The capacity to do work.",
+                            "1) The ability to change an object's position."
+                        ],
+                        "explanation": "Energy is defined as the capacity to do work, coming in forms such as kinetic and potential energy.",
+                        "answer": "3) The capacity to do work."
+                    },
+                    {
+                        "question": "Which scenario best illustrates Newton's Second Law of Motion?",
+                        "options": [
+                            "3) A ball resting on the ground remains there until kicked.",
+                            "4) A rocket propels upward, pushing exhaust downward.",
+                            "2) A heavier box requires more force to push than a lighter box.",
+                            "1) A stationary car begins to roll down a hill."
+                        ],
+                        "explanation": "Newton's Second Law states that the amount of force needed to accelerate an object is based on its mass and acceleration required. Thus, heavier objects need more force.",
+                        "answer": "2) A heavier box requires more force to push than a lighter box."
+                    },
+                    {
+                        "question": "What is a key concept of energy transformation in physics?",
+                        "options": [
+                            "2) Energy changes between kinetic and potential forms.",
+                            "3) Energy is never lost, only gained.",
+                            "1) Energy can be created in different forms.",
+                            "4) Motion is the only form of energy."
+                        ],
+                        "explanation": "Energy transformation refers to the ability of energy to change from one form to another, such as potential energy converting to kinetic energy.",
+                        "answer": "2) Energy changes between kinetic and potential forms."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    6,
+                    7
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What is the main focus of Newton's Third Law of Motion?",
+                        "options": [
+                            "3) The force is equal to mass times acceleration.",
+                            "2) An object at rest stays at rest unless acted upon.",
+                            "1) For every action, there is an equal and opposite reaction.",
+                            "4) Energy cannot be created or destroyed."
+                        ],
+                        "explanation": "Newton's Third Law of Motion states that every action has an equal and opposite reaction, meaning forces occur in pairs.",
+                        "answer": "1) For every action, there is an equal and opposite reaction."
+                    },
+                    {
+                        "question": "In terms of motion, what does inertia refer to?",
+                        "options": [
+                            "4) The energy of an object in motion.",
+                            "1) The tendency of an object to change its state of motion.",
+                            "3) The force required to stop an object.",
+                            "2) The measure of an object's mass."
+                        ],
+                        "explanation": "Inertia is the property of an object to resist changes in its state of motion; objects at rest stay at rest and objects in motion stay in motion.",
+                        "answer": "1) The tendency of an object to change its state of motion."
+                    },
+                    {
+                        "question": "Which type of potential energy is described by an object's height relative to the ground?",
+                        "options": [
+                            "4) Electrical potential energy.",
+                            "2) Gravitational potential energy.",
+                            "3) Elastic potential energy.",
+                            "1) Kinetic energy."
+                        ],
+                        "explanation": "Gravitational potential energy is energy stored in an object due to its height above the ground; the higher it is, the more potential energy it has.",
+                        "answer": "2) Gravitational potential energy."
+                    },
+                    {
+                        "question": "What happens to the kinetic energy of an object when its speed doubles?",
+                        "options": [
+                            "4) It decreases by half.",
+                            "1) It doubles.",
+                            "3) It remains the same.",
+                            "2) It increases by four times."
+                        ],
+                        "explanation": "Kinetic energy increases by a factor of four when speed doubles because KE = 1/2 mv\u00b2, making the speed squared a significant factor.",
+                        "answer": "2) It increases by four times."
+                    },
+                    {
+                        "question": "Which force acts against the motion of a sliding object?",
+                        "options": [
+                            "1) Gravitational force.",
+                            "4) Tension force.",
+                            "3) Normal force.",
+                            "2) Frictional force."
+                        ],
+                        "explanation": "Frictional force works against the direction of motion, resisting the movement of sliding objects.",
+                        "answer": "2) Frictional force."
+                    },
+                    {
+                        "question": "When observing motion, what does acceleration indicate?",
+                        "options": [
+                            "1) A change in speed or direction of an object.",
+                            "4) The distance traveled by an object.",
+                            "3) The energy an object possesses.",
+                            "2) The mass of an object in motion."
+                        ],
+                        "explanation": "Acceleration is defined as any change in the velocity of an object, which includes changes in speed or direction.",
+                        "answer": "1) A change in speed or direction of an object."
+                    },
+                    {
+                        "question": "Which of the following describes periodic motion?",
+                        "options": [
+                            "4) A movement that occurs without friction.",
+                            "1) A straight line movement at constant speed.",
+                            "3) Any change of speed in circular motion.",
+                            "2) A motion that repeats at regular intervals."
+                        ],
+                        "explanation": "Periodic motion is movement that repeats itself in regular intervals, such as a pendulum swinging back and forth.",
+                        "answer": "2) A motion that repeats at regular intervals."
+                    },
+                    {
+                        "question": "In the context of physics, what does energy primarily represent?",
+                        "options": [
+                            "2) The measurement of force acting on an object.",
+                            "4) The resistance an object has to changes in motion.",
+                            "3) The capacity to do work.",
+                            "1) The ability to change an object's position."
+                        ],
+                        "explanation": "Energy is defined as the capacity to do work, coming in forms such as kinetic and potential energy.",
+                        "answer": "3) The capacity to do work."
+                    },
+                    {
+                        "question": "Which scenario best illustrates Newton's Second Law of Motion?",
+                        "options": [
+                            "3) A ball resting on the ground remains there until kicked.",
+                            "4) A rocket propels upward, pushing exhaust downward.",
+                            "2) A heavier box requires more force to push than a lighter box.",
+                            "1) A stationary car begins to roll down a hill."
+                        ],
+                        "explanation": "Newton's Second Law states that the amount of force needed to accelerate an object is based on its mass and acceleration required. Thus, heavier objects need more force.",
+                        "answer": "2) A heavier box requires more force to push than a lighter box."
+                    },
+                    {
+                        "question": "What is a key concept of energy transformation in physics?",
+                        "options": [
+                            "2) Energy changes between kinetic and potential forms.",
+                            "3) Energy is never lost, only gained.",
+                            "1) Energy can be created in different forms.",
+                            "4) Motion is the only form of energy."
+                        ],
+                        "explanation": "Energy transformation refers to the ability of energy to change from one form to another, such as potential energy converting to kinetic energy.",
+                        "answer": "2) Energy changes between kinetic and potential forms."
+                    }
+                ]
+            }
+        ],
+        "Texas History": [
+            {
+                "quiz_grade": 70.0,
+                "wrong_answers": [
+                    2,
+                    6,
+                    7
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "Which division was primarily composed of soldiers from Texas and Oklahoma during World War I?",
+                        "options": [
+                            "2) 42nd Infantry Division",
+                            "1) 36th Infantry Division",
+                            "3) 1st Cavalry Division",
+                            "4) 4th Infantry Division"
+                        ],
+                        "explanation": "The 36th Infantry Division, known as the Texas Division, was primarily composed of soldiers from Texas and Oklahoma.",
+                        "answer": "1) 36th Infantry Division"
+                    },
+                    {
+                        "question": "What role did women in Texas play during World War I?",
+                        "options": [
+                            "4) They recruited soldiers",
+                            "1) They were only involved in nursing roles",
+                            "2) They took on roles in factories and supporting services",
+                            "3) They did not participate in war efforts"
+                        ],
+                        "explanation": "Women in Texas stepped up by taking on important roles in factories, nursing, and other essential services, showcasing resilience and capability during the war.",
+                        "answer": "2) They took on roles in factories and supporting services"
+                    },
+                    {
+                        "question": "What was one of the military training camps located in Texas during World War I?",
+                        "options": [
+                            "2) Camp Travis",
+                            "4) Camp Austin",
+                            "3) Camp Houston",
+                            "1) Camp San Diego"
+                        ],
+                        "explanation": "Camp Travis, located in San Antonio, was one of the military training camps in Texas during World War I that prepared soldiers for battle.",
+                        "answer": "2) Camp Travis"
+                    },
+                    {
+                        "question": "Which notable figure commanded the 36th Infantry Division during significant operations in World War I?",
+                        "options": [
+                            "1) Captain William E. McCulloch",
+                            "2) Lieutenant Colonel George E. Stewart",
+                            "3) Colonel John D. McCoy",
+                            "4) Major Albert L. Draper"
+                        ],
+                        "explanation": "Lieutenant Colonel George E. Stewart commanded the 36th Infantry Division, providing crucial leadership for many operations.",
+                        "answer": "2) Lieutenant Colonel George E. Stewart"
+                    },
+                    {
+                        "question": "What symbol did the soldiers of the 36th Infantry Division wear to represent Texas?",
+                        "options": [
+                            "3) A yellow triangle",
+                            "1) A blue star",
+                            "4) A green circle",
+                            "2) A red cross"
+                        ],
+                        "explanation": "The soldiers of the 36th Infantry Division wore a patch featuring a yellow triangle, which symbolized the state of Texas.",
+                        "answer": "3) A yellow triangle"
+                    },
+                    {
+                        "question": "How did the discovery of oil in Spindletop in 1901 impact Texas during World War I?",
+                        "options": [
+                            "4) It limited economic growth in Texas.",
+                            "2) It led to a surge in the oil industry, supplying the Allies.",
+                            "3) It caused significant inflation in Texas.",
+                            "1) It decreased the need for agriculture."
+                        ],
+                        "explanation": "The discovery of oil in Spindletop set the stage for a surge in the oil industry, making Texas a key supplier for the Allies during World War I.",
+                        "answer": "2) It led to a surge in the oil industry, supplying the Allies."
+                    },
+                    {
+                        "question": "What type of supplies saw an increase in production due to World War I efforts in Texas?",
+                        "options": [
+                            "2) Luxury goods",
+                            "3) Munitions and textiles",
+                            "4) Technology products",
+                            "1) Agricultural products only"
+                        ],
+                        "explanation": "The demand for military supplies, including munitions and textiles, increased significantly as soldiers were trained and shipped off to war.",
+                        "answer": "3) Munitions and textiles"
+                    },
+                    {
+                        "question": "What was one reported consequence of the economic changes in Texas due to World War I?",
+                        "options": [
+                            "4) Closure of oil refineries",
+                            "3) Stabilization of the job market",
+                            "1) Decrease in agricultural demand",
+                            "2) Rise in inflation rates"
+                        ],
+                        "explanation": "With the economic boom from war production, Texas experienced rising inflation rates, impacting various sectors including agriculture.",
+                        "answer": "2) Rise in inflation rates"
+                    },
+                    {
+                        "question": "Which military camp was located in Waco, Texas, during World War I?",
+                        "options": [
+                            "2) Camp Pershing",
+                            "4) Camp McArthur",
+                            "1) Camp MacArthur",
+                            "3) Camp Baer"
+                        ],
+                        "explanation": "Camp MacArthur, located in Waco, was one of the military camps in Texas during World War I that trained soldiers.",
+                        "answer": "1) Camp MacArthur"
+                    },
+                    {
+                        "question": "What was one challenge faced by Texas farmers during World War I?",
+                        "options": [
+                            "2) They struggled to meet the surging demand for crops.",
+                            "4) They faced no challenges during this period.",
+                            "3) They found it easy to maintain their livelihoods.",
+                            "1) They benefited greatly from increased crop prices."
+                        ],
+                        "explanation": "Texas farmers struggled with the surging demand for crops that they could not keep up with, causing tension in rural areas during the war.",
+                        "answer": "2) They struggled to meet the surging demand for crops."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    7
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "Which division was primarily composed of soldiers from Texas and Oklahoma during World War I?",
+                        "options": [
+                            "2) 42nd Infantry Division",
+                            "1) 36th Infantry Division",
+                            "3) 1st Cavalry Division",
+                            "4) 4th Infantry Division"
+                        ],
+                        "explanation": "The 36th Infantry Division, known as the Texas Division, was primarily composed of soldiers from Texas and Oklahoma.",
+                        "answer": "1) 36th Infantry Division"
+                    },
+                    {
+                        "question": "What role did women in Texas play during World War I?",
+                        "options": [
+                            "4) They recruited soldiers",
+                            "1) They were only involved in nursing roles",
+                            "2) They took on roles in factories and supporting services",
+                            "3) They did not participate in war efforts"
+                        ],
+                        "explanation": "Women in Texas stepped up by taking on important roles in factories, nursing, and other essential services, showcasing resilience and capability during the war.",
+                        "answer": "2) They took on roles in factories and supporting services"
+                    },
+                    {
+                        "question": "What was one of the military training camps located in Texas during World War I?",
+                        "options": [
+                            "2) Camp Travis",
+                            "4) Camp Austin",
+                            "3) Camp Houston",
+                            "1) Camp San Diego"
+                        ],
+                        "explanation": "Camp Travis, located in San Antonio, was one of the military training camps in Texas during World War I that prepared soldiers for battle.",
+                        "answer": "2) Camp Travis"
+                    },
+                    {
+                        "question": "Which notable figure commanded the 36th Infantry Division during significant operations in World War I?",
+                        "options": [
+                            "1) Captain William E. McCulloch",
+                            "2) Lieutenant Colonel George E. Stewart",
+                            "3) Colonel John D. McCoy",
+                            "4) Major Albert L. Draper"
+                        ],
+                        "explanation": "Lieutenant Colonel George E. Stewart commanded the 36th Infantry Division, providing crucial leadership for many operations.",
+                        "answer": "2) Lieutenant Colonel George E. Stewart"
+                    },
+                    {
+                        "question": "What symbol did the soldiers of the 36th Infantry Division wear to represent Texas?",
+                        "options": [
+                            "3) A yellow triangle",
+                            "1) A blue star",
+                            "4) A green circle",
+                            "2) A red cross"
+                        ],
+                        "explanation": "The soldiers of the 36th Infantry Division wore a patch featuring a yellow triangle, which symbolized the state of Texas.",
+                        "answer": "3) A yellow triangle"
+                    },
+                    {
+                        "question": "How did the discovery of oil in Spindletop in 1901 impact Texas during World War I?",
+                        "options": [
+                            "4) It limited economic growth in Texas.",
+                            "2) It led to a surge in the oil industry, supplying the Allies.",
+                            "3) It caused significant inflation in Texas.",
+                            "1) It decreased the need for agriculture."
+                        ],
+                        "explanation": "The discovery of oil in Spindletop set the stage for a surge in the oil industry, making Texas a key supplier for the Allies during World War I.",
+                        "answer": "2) It led to a surge in the oil industry, supplying the Allies."
+                    },
+                    {
+                        "question": "What type of supplies saw an increase in production due to World War I efforts in Texas?",
+                        "options": [
+                            "2) Luxury goods",
+                            "3) Munitions and textiles",
+                            "4) Technology products",
+                            "1) Agricultural products only"
+                        ],
+                        "explanation": "The demand for military supplies, including munitions and textiles, increased significantly as soldiers were trained and shipped off to war.",
+                        "answer": "3) Munitions and textiles"
+                    },
+                    {
+                        "question": "What was one reported consequence of the economic changes in Texas due to World War I?",
+                        "options": [
+                            "4) Closure of oil refineries",
+                            "3) Stabilization of the job market",
+                            "1) Decrease in agricultural demand",
+                            "2) Rise in inflation rates"
+                        ],
+                        "explanation": "With the economic boom from war production, Texas experienced rising inflation rates, impacting various sectors including agriculture.",
+                        "answer": "2) Rise in inflation rates"
+                    },
+                    {
+                        "question": "Which military camp was located in Waco, Texas, during World War I?",
+                        "options": [
+                            "2) Camp Pershing",
+                            "4) Camp McArthur",
+                            "1) Camp MacArthur",
+                            "3) Camp Baer"
+                        ],
+                        "explanation": "Camp MacArthur, located in Waco, was one of the military camps in Texas during World War I that trained soldiers.",
+                        "answer": "1) Camp MacArthur"
+                    },
+                    {
+                        "question": "What was one challenge faced by Texas farmers during World War I?",
+                        "options": [
+                            "2) They struggled to meet the surging demand for crops.",
+                            "4) They faced no challenges during this period.",
+                            "3) They found it easy to maintain their livelihoods.",
+                            "1) They benefited greatly from increased crop prices."
+                        ],
+                        "explanation": "Texas farmers struggled with the surging demand for crops that they could not keep up with, causing tension in rural areas during the war.",
+                        "answer": "2) They struggled to meet the surging demand for crops."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    7,
+                    9
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "Which division was primarily composed of soldiers from Texas and Oklahoma during World War I?",
+                        "options": [
+                            "2) 42nd Infantry Division",
+                            "1) 36th Infantry Division",
+                            "3) 1st Cavalry Division",
+                            "4) 4th Infantry Division"
+                        ],
+                        "explanation": "The 36th Infantry Division, known as the Texas Division, was primarily composed of soldiers from Texas and Oklahoma.",
+                        "answer": "1) 36th Infantry Division"
+                    },
+                    {
+                        "question": "What role did women in Texas play during World War I?",
+                        "options": [
+                            "4) They recruited soldiers",
+                            "1) They were only involved in nursing roles",
+                            "2) They took on roles in factories and supporting services",
+                            "3) They did not participate in war efforts"
+                        ],
+                        "explanation": "Women in Texas stepped up by taking on important roles in factories, nursing, and other essential services, showcasing resilience and capability during the war.",
+                        "answer": "2) They took on roles in factories and supporting services"
+                    },
+                    {
+                        "question": "What was one of the military training camps located in Texas during World War I?",
+                        "options": [
+                            "2) Camp Travis",
+                            "4) Camp Austin",
+                            "3) Camp Houston",
+                            "1) Camp San Diego"
+                        ],
+                        "explanation": "Camp Travis, located in San Antonio, was one of the military training camps in Texas during World War I that prepared soldiers for battle.",
+                        "answer": "2) Camp Travis"
+                    },
+                    {
+                        "question": "Which notable figure commanded the 36th Infantry Division during significant operations in World War I?",
+                        "options": [
+                            "1) Captain William E. McCulloch",
+                            "2) Lieutenant Colonel George E. Stewart",
+                            "3) Colonel John D. McCoy",
+                            "4) Major Albert L. Draper"
+                        ],
+                        "explanation": "Lieutenant Colonel George E. Stewart commanded the 36th Infantry Division, providing crucial leadership for many operations.",
+                        "answer": "2) Lieutenant Colonel George E. Stewart"
+                    },
+                    {
+                        "question": "What symbol did the soldiers of the 36th Infantry Division wear to represent Texas?",
+                        "options": [
+                            "3) A yellow triangle",
+                            "1) A blue star",
+                            "4) A green circle",
+                            "2) A red cross"
+                        ],
+                        "explanation": "The soldiers of the 36th Infantry Division wore a patch featuring a yellow triangle, which symbolized the state of Texas.",
+                        "answer": "3) A yellow triangle"
+                    },
+                    {
+                        "question": "How did the discovery of oil in Spindletop in 1901 impact Texas during World War I?",
+                        "options": [
+                            "4) It limited economic growth in Texas.",
+                            "2) It led to a surge in the oil industry, supplying the Allies.",
+                            "3) It caused significant inflation in Texas.",
+                            "1) It decreased the need for agriculture."
+                        ],
+                        "explanation": "The discovery of oil in Spindletop set the stage for a surge in the oil industry, making Texas a key supplier for the Allies during World War I.",
+                        "answer": "2) It led to a surge in the oil industry, supplying the Allies."
+                    },
+                    {
+                        "question": "What type of supplies saw an increase in production due to World War I efforts in Texas?",
+                        "options": [
+                            "2) Luxury goods",
+                            "3) Munitions and textiles",
+                            "4) Technology products",
+                            "1) Agricultural products only"
+                        ],
+                        "explanation": "The demand for military supplies, including munitions and textiles, increased significantly as soldiers were trained and shipped off to war.",
+                        "answer": "3) Munitions and textiles"
+                    },
+                    {
+                        "question": "What was one reported consequence of the economic changes in Texas due to World War I?",
+                        "options": [
+                            "4) Closure of oil refineries",
+                            "3) Stabilization of the job market",
+                            "1) Decrease in agricultural demand",
+                            "2) Rise in inflation rates"
+                        ],
+                        "explanation": "With the economic boom from war production, Texas experienced rising inflation rates, impacting various sectors including agriculture.",
+                        "answer": "2) Rise in inflation rates"
+                    },
+                    {
+                        "question": "Which military camp was located in Waco, Texas, during World War I?",
+                        "options": [
+                            "2) Camp Pershing",
+                            "4) Camp McArthur",
+                            "1) Camp MacArthur",
+                            "3) Camp Baer"
+                        ],
+                        "explanation": "Camp MacArthur, located in Waco, was one of the military camps in Texas during World War I that trained soldiers.",
+                        "answer": "1) Camp MacArthur"
+                    },
+                    {
+                        "question": "What was one challenge faced by Texas farmers during World War I?",
+                        "options": [
+                            "2) They struggled to meet the surging demand for crops.",
+                            "4) They faced no challenges during this period.",
+                            "3) They found it easy to maintain their livelihoods.",
+                            "1) They benefited greatly from increased crop prices."
+                        ],
+                        "explanation": "Texas farmers struggled with the surging demand for crops that they could not keep up with, causing tension in rural areas during the war.",
+                        "answer": "2) They struggled to meet the surging demand for crops."
+                    }
+                ]
+            }
+        ],
+        "The Evolution of Faith": [
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    2
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What was one significant adaptation of faith practices during the COVID-19 pandemic?",
+                        "options": [
+                            "4) People converted to new faiths",
+                            "2) All religious services were canceled",
+                            "1) Online platforms were used for services",
+                            "3) Attendance at churches increased"
+                        ],
+                        "explanation": "During the COVID-19 pandemic, many faith leaders used online platforms to hold services and provide pastoral care, illustrating an adaptation of faith practices.",
+                        "answer": "1) Online platforms were used for services"
+                    },
+                    {
+                        "question": "Which of the following is a focus of interfaith dialogue discussed in the lecture?",
+                        "options": [
+                            "3) Promoting one religion over others",
+                            "2) Understanding and collaboration among different faiths",
+                            "1) Competitive debates between religions",
+                            "4) Isolating faith groups from each other"
+                        ],
+                        "explanation": "Interfaith dialogue encourages understanding, respect, and collaboration among various religious groups, fostering peaceful coexistence.",
+                        "answer": "2) Understanding and collaboration among different faiths"
+                    },
+                    {
+                        "question": "How does globalization challenge religious traditions according to the lecture?",
+                        "options": [
+                            "4) By raising concerns about cultural identities",
+                            "1) By causing all faiths to merge into one",
+                            "3) By leading to the preservation of local traditions",
+                            "2) By spreading cultural exchange and interaction"
+                        ],
+                        "explanation": "Globalization raises concerns about the preservation of cultural and religious identities, as local traditions may dilute in favor of global trends.",
+                        "answer": "4) By raising concerns about cultural identities"
+                    },
+                    {
+                        "question": "What type of social actions do interfaith initiatives often focus on?",
+                        "options": [
+                            "1) Individual belief strengthening",
+                            "2) Collaborative social actions for societal issues",
+                            "4) Isolation of religious communities",
+                            "3) Rejection of different faiths"
+                        ],
+                        "explanation": "Interfaith initiatives often focus on collaborative social actions aimed at addressing pressing societal concerns such as poverty and climate change.",
+                        "answer": "2) Collaborative social actions for societal issues"
+                    },
+                    {
+                        "question": "What is one benefit of technology on faith communities mentioned in the lecture?",
+                        "options": [
+                            "2) It enhances access to religious materials",
+                            "3) It discourages online connections",
+                            "1) It limits the number of followers",
+                            "4) It complicates faith practices"
+                        ],
+                        "explanation": "Technological innovations such as mobile apps and online platforms enhance the accessibility of religious materials and community interactions.",
+                        "answer": "2) It enhances access to religious materials"
+                    },
+                    {
+                        "question": "Which aspect of globalization fosters the emergence of global faith movements?",
+                        "options": [
+                            "4) Limiting cultural interactions",
+                            "3) Restricting the exchange of ideas",
+                            "2) Promoting universal values across faiths",
+                            "1) Encouraging isolation of local traditions"
+                        ],
+                        "explanation": "Globalization fosters the emergence of global faith movements by promoting universal values such as love and compassion that resonate across different cultures.",
+                        "answer": "2) Promoting universal values across faiths"
+                    },
+                    {
+                        "question": "What did the lecture suggest about online interactions in faith communities?",
+                        "options": [
+                            "3) They completely replace in-person gatherings",
+                            "2) They may raise questions about authenticity",
+                            "1) They are always superficial and lacking meaning",
+                            "4) They are less popular than traditional gatherings"
+                        ],
+                        "explanation": "Online interactions may raise questions about authenticity and the meaningfulness of participation in faith communities compared to in-person experiences.",
+                        "answer": "2) They may raise questions about authenticity"
+                    },
+                    {
+                        "question": "According to the lecture, how does interfaith dialogue help in times of conflict?",
+                        "options": [
+                            "4) It encourages blind acceptance of religious norms",
+                            "2) It helps in dispelling stereotypes",
+                            "3) It promotes rivalry among belief systems",
+                            "1) It enforces division among religions"
+                        ],
+                        "explanation": "Interfaith dialogue fosters understanding and can contribute to peace by dispelling stereotypes and encouraging respect for different beliefs.",
+                        "answer": "2) It helps in dispelling stereotypes"
+                    },
+                    {
+                        "question": "What role does digital technology play in spiritual exploration according to the lecture?",
+                        "options": [
+                            "1) It confines spirituality to physical spaces",
+                            "3) It connects individuals to broader faith communities",
+                            "4) It discourages the use of scripture",
+                            "2) It removes spiritual exploration altogether"
+                        ],
+                        "explanation": "Digital technology connects individuals with broader faith communities, facilitating spiritual exploration across geographical boundaries.",
+                        "answer": "3) It connects individuals to broader faith communities"
+                    },
+                    {
+                        "question": "How is the future of faith characterized in connection with modernization, as per the lecture?",
+                        "options": [
+                            "1) By resistance to change",
+                            "3) By strict adherence to traditional practices",
+                            "4) By isolation of faith groups",
+                            "2) By adaptability and interconnectedness"
+                        ],
+                        "explanation": "The future of faith is characterized by adaptability, dialogue, and interconnectedness, reflecting the changing dynamics of society.",
+                        "answer": "2) By adaptability and interconnectedness"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What was one significant adaptation of faith practices during the COVID-19 pandemic?",
+                        "options": [
+                            "4) People converted to new faiths",
+                            "2) All religious services were canceled",
+                            "1) Online platforms were used for services",
+                            "3) Attendance at churches increased"
+                        ],
+                        "explanation": "During the COVID-19 pandemic, many faith leaders used online platforms to hold services and provide pastoral care, illustrating an adaptation of faith practices.",
+                        "answer": "1) Online platforms were used for services"
+                    },
+                    {
+                        "question": "Which of the following is a focus of interfaith dialogue discussed in the lecture?",
+                        "options": [
+                            "3) Promoting one religion over others",
+                            "2) Understanding and collaboration among different faiths",
+                            "1) Competitive debates between religions",
+                            "4) Isolating faith groups from each other"
+                        ],
+                        "explanation": "Interfaith dialogue encourages understanding, respect, and collaboration among various religious groups, fostering peaceful coexistence.",
+                        "answer": "2) Understanding and collaboration among different faiths"
+                    },
+                    {
+                        "question": "How does globalization challenge religious traditions according to the lecture?",
+                        "options": [
+                            "4) By raising concerns about cultural identities",
+                            "1) By causing all faiths to merge into one",
+                            "3) By leading to the preservation of local traditions",
+                            "2) By spreading cultural exchange and interaction"
+                        ],
+                        "explanation": "Globalization raises concerns about the preservation of cultural and religious identities, as local traditions may dilute in favor of global trends.",
+                        "answer": "4) By raising concerns about cultural identities"
+                    },
+                    {
+                        "question": "What type of social actions do interfaith initiatives often focus on?",
+                        "options": [
+                            "1) Individual belief strengthening",
+                            "2) Collaborative social actions for societal issues",
+                            "4) Isolation of religious communities",
+                            "3) Rejection of different faiths"
+                        ],
+                        "explanation": "Interfaith initiatives often focus on collaborative social actions aimed at addressing pressing societal concerns such as poverty and climate change.",
+                        "answer": "2) Collaborative social actions for societal issues"
+                    },
+                    {
+                        "question": "What is one benefit of technology on faith communities mentioned in the lecture?",
+                        "options": [
+                            "2) It enhances access to religious materials",
+                            "3) It discourages online connections",
+                            "1) It limits the number of followers",
+                            "4) It complicates faith practices"
+                        ],
+                        "explanation": "Technological innovations such as mobile apps and online platforms enhance the accessibility of religious materials and community interactions.",
+                        "answer": "2) It enhances access to religious materials"
+                    },
+                    {
+                        "question": "Which aspect of globalization fosters the emergence of global faith movements?",
+                        "options": [
+                            "4) Limiting cultural interactions",
+                            "3) Restricting the exchange of ideas",
+                            "2) Promoting universal values across faiths",
+                            "1) Encouraging isolation of local traditions"
+                        ],
+                        "explanation": "Globalization fosters the emergence of global faith movements by promoting universal values such as love and compassion that resonate across different cultures.",
+                        "answer": "2) Promoting universal values across faiths"
+                    },
+                    {
+                        "question": "What did the lecture suggest about online interactions in faith communities?",
+                        "options": [
+                            "3) They completely replace in-person gatherings",
+                            "2) They may raise questions about authenticity",
+                            "1) They are always superficial and lacking meaning",
+                            "4) They are less popular than traditional gatherings"
+                        ],
+                        "explanation": "Online interactions may raise questions about authenticity and the meaningfulness of participation in faith communities compared to in-person experiences.",
+                        "answer": "2) They may raise questions about authenticity"
+                    },
+                    {
+                        "question": "According to the lecture, how does interfaith dialogue help in times of conflict?",
+                        "options": [
+                            "4) It encourages blind acceptance of religious norms",
+                            "2) It helps in dispelling stereotypes",
+                            "3) It promotes rivalry among belief systems",
+                            "1) It enforces division among religions"
+                        ],
+                        "explanation": "Interfaith dialogue fosters understanding and can contribute to peace by dispelling stereotypes and encouraging respect for different beliefs.",
+                        "answer": "2) It helps in dispelling stereotypes"
+                    },
+                    {
+                        "question": "What role does digital technology play in spiritual exploration according to the lecture?",
+                        "options": [
+                            "1) It confines spirituality to physical spaces",
+                            "3) It connects individuals to broader faith communities",
+                            "4) It discourages the use of scripture",
+                            "2) It removes spiritual exploration altogether"
+                        ],
+                        "explanation": "Digital technology connects individuals with broader faith communities, facilitating spiritual exploration across geographical boundaries.",
+                        "answer": "3) It connects individuals to broader faith communities"
+                    },
+                    {
+                        "question": "How is the future of faith characterized in connection with modernization, as per the lecture?",
+                        "options": [
+                            "1) By resistance to change",
+                            "3) By strict adherence to traditional practices",
+                            "4) By isolation of faith groups",
+                            "2) By adaptability and interconnectedness"
+                        ],
+                        "explanation": "The future of faith is characterized by adaptability, dialogue, and interconnectedness, reflecting the changing dynamics of society.",
+                        "answer": "2) By adaptability and interconnectedness"
+                    }
+                ]
+            }
+        ]
+    },
+    "Tuesday": {},
+    "Wednesday": {},
+    "Thursday": {},
+    "Friday": {}
+}

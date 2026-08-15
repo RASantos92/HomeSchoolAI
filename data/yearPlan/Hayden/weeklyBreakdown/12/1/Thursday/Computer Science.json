@@ -1,0 +1,218 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Introduction to HTML Basics",
+                "lecture": "Welcome to today\u2019s lecture on HTML Basics! In this session, we will review basic HTML and troubleshoot any common issues that might arise while coding. HTML, or Hypertext Markup Language, is the standard language for creating web pages and applications. It is the backbone of your website and is essential for web development. Let\u2019s dive into the fundamental concepts of HTML together!\n\nTo begin, let\u2019s talk about what HTML is. HTML stands for Hypertext Markup Language, and it consists of a series of elements or tags that tell a web browser how to display content. Every web page you\u2019ve ever visited is likely structured with HTML at its core. HTML is not a programming language; rather, it is a markup language that annotates text and other content so a browser can render it onto your screen. The basic structure of any HTML document includes the doctype declaration, the HTML element, the head, and the body. \n\n[p]\n\nThe doctype declaration is the very first line of your HTML file. It tells the browser what version of HTML you're using. For example, for HTML5, the doctype is simply `<!DOCTYPE html>`. After the doctype, we have the `<html>` tag, which wraps all the content of an HTML document. Following the `<html>` tag, we have the `<head>` section, which is essential for meta information, links to stylesheets, and scripts. Within the `<head>`, you will typically include the `<title>` tag, which sets the title of your webpage that appears in the browser tab.\n\n[p]\n\nThen, we have the `<body>` section, which is where all the visible content goes. This includes headings, paragraphs, images, links, and other elements that users interact with. The body of the HTML document is wrapped in `<body>` and `</body>` tags. \n\n[p]\n\nNow let's explore some basic HTML elements. One of the fundamental elements is the heading tag. HTML supports six levels of headings, which are represented by `<h1>` to `<h6>`. The `<h1>` tag defines the most important heading and is generally used for titles, while `<h6>` is the least important. Remember that search engines also pay attention to headings, so it's advisable to use them correctly.\n\n[p]\n\nNext, let's talk about paragraphs. To create a paragraph in HTML, you use the `<p>` tag. This tag automatically includes space above and below the paragraph. For example, `<p>This is a paragraph.</p>` will create a new paragraph on your web page.\n\n[p]\n\nAnother essential HTML element is the anchor tag `<a>`, which allows you to create hyperlinks. Hyperlinks are crucial for connecting different web pages or resources. The basic syntax is `<a href='URL'>Link Text</a>`. The `href` attribute specifies the URL you want the link to point to. If you intend to open the link in a new tab, you can add the attribute `target='_blank'` to the anchor tag.  \n\n[p]\n\nImages are another critical element in web development. You can embed images into your HTML document using the `<img>` tag. Unlike other elements, the `<img>` tag is self-closing and requires the `src` and `alt` attributes. For example, `<img src='imageurl.jpg' alt='description of the image'/>` will display an image on your webpage. The `alt` attribute is essential for accessibility and provides a text alternative for those who may not be able to see the image.\n\n[p]\n\nLet's cover lists now! HTML provides two types of lists: ordered and unordered. An unordered list is created with `<ul>` tags, where each list item is wrapped in `<li>` tags. For an ordered list, you would use `<ol>` instead. For example:\n\n```html\n<ul>\n    <li>First item</li>\n    <li>Second item</li>\n</ul>\n``` \n\n<p>Your browser will display this unordered list with bullet points. Using ordered lists works similarly but numbers the items instead.\n\n[p]\n\nNow, let\u2019s talk about attributes! Attributes provide additional information about HTML elements. Attributes are always specified in the opening tag, and they consist of a name and a value. For example, in `<a href='URL'>Link Text</a>`, `href` is the attribute name, and 'URL' is its value. Attributes have categories like global attributes that can be used with any HTML element, such as `class`, `id`, and `style`.\n\n[p]\n\nIn addition to elements, you may encounter form elements in HTML as well. Forms allow users to submit data to a server. The `<form>` tag wraps all the input elements. Inside a form, you can include various input types such as text, radio buttons, checkboxes, and more. The essential attributes of a form element include `action`, which defines where to send the form data upon submission, and `method`, which can be set to `GET` or `POST`.\n\n[p]\n\nNow, troubleshooting common issues you may face in HTML will be helpful. First, remember to check for unclosed tags. Leaving any tag unclosed can lead to unexpected results in how your elements are displayed. Second, ensure your attributes are correct and properly spelled. Typos can easily lead to broken links or non-functioning scripts. Finally, using a validator tool can point you to errors in your code, ensuring your HTML is compliant with current standards.\n\n[p]\n\nIn summary, today we covered the basics of HTML, focusing on its structure, important tags, attributes, and common troubleshooting tips. You learned how to create headings, paragraphs, lists, links, images, and forms in HTML. You now have a foundational understanding, which you can build on as you continue your journey in web development.\n\nI encourage you to practice coding HTML on your own, whether by creating a simple web page or by using an online HTML editor to experiment with different elements and structures. Don\u2019t hesitate to ask me any questions if you need clarification on anything we've covered!",
+                "summary": "In this session, you learned the basics of HTML, including the important elements and structure such as headings, paragraphs, links, images, and lists. You also gained knowledge about attributes, forms, and common troubleshooting tips for coding in HTML. You now have the foundational understanding necessary to pursue web development further.",
+                "subject": "Computer Science",
+                "main_topic": "HTML Basics",
+                "sub_topics": [
+                    "HTML Structure",
+                    "Basic HTML Elements",
+                    "Attributes in HTML",
+                    "Common HTML Tags",
+                    "Troubleshooting HTML Issues"
+                ],
+                "wikipedia_refrences": [
+                    "https://en.wikipedia.org/wiki/HTML",
+                    "https://en.wikipedia.org/wiki/HTML_element",
+                    "https://en.wikipedia.org/wiki/HTML5",
+                    "https://en.wikipedia.org/wiki/Hypertext_markup_language"
+                ],
+                "quiz": [
+                    {
+                        "question": "What tag wraps all the content of an HTML document?",
+                        "options": [
+                            "4) <!DOCTYPE html>",
+                            "3) <head>",
+                            "1) <html>",
+                            "2) <body>"
+                        ],
+                        "explanation": "The <html> tag wraps all the content of an HTML document, marking the beginning and end of the HTML structure.",
+                        "answer": "1) The <html> tag wraps all the content of an HTML document."
+                    },
+                    {
+                        "question": "Which HTML element is used to display images?",
+                        "options": [
+                            "1) <img>",
+                            "4) <photo>",
+                            "2) <image>",
+                            "3) <picture>"
+                        ],
+                        "explanation": "The <img> tag is used to display an image in an HTML document and is a self-closing tag that requires src and alt attributes.",
+                        "answer": "1) The <img> tag is used to display images."
+                    },
+                    {
+                        "question": "What type of list does the <ol> tag create?",
+                        "options": [
+                            "3) Description list",
+                            "2) Ordered list",
+                            "4) Bullet list",
+                            "1) Unordered list"
+                        ],
+                        "explanation": "The <ol> tag creates an ordered list, where each item is numbered in succession.",
+                        "answer": "2) The <ol> tag creates an ordered list."
+                    },
+                    {
+                        "question": "What is required in the <img> tag for accessibility?",
+                        "options": [
+                            "2) href attribute",
+                            "4) title attribute",
+                            "1) src attribute",
+                            "3) alt attribute"
+                        ],
+                        "explanation": "The alt attribute in the <img> tag provides an alternative text description for accessibility, helping users who cannot see the image.",
+                        "answer": "3) The alt attribute is required in the <img> tag for accessibility."
+                    },
+                    {
+                        "question": "How do you create a new paragraph in HTML?",
+                        "options": [
+                            "3) <paragraph>",
+                            "2) <p>",
+                            "4) <text>",
+                            "1) <new>"
+                        ],
+                        "explanation": "To create a new paragraph in HTML, you use the <p> tag, which automatically includes spacing above and below the paragraph.",
+                        "answer": "2) You create a new paragraph in HTML using the <p> tag."
+                    },
+                    {
+                        "question": "What attribute allows an anchor tag to open a link in a new tab?",
+                        "options": [
+                            "3) href='_new'",
+                            "1) open='_new'",
+                            "2) target='_blank'",
+                            "4) link='_blank'"
+                        ],
+                        "explanation": "To open a link in a new tab using an anchor tag, you add the attribute target='_blank'.",
+                        "answer": "2) The target='_blank' attribute allows an anchor tag to open a link in a new tab."
+                    },
+                    {
+                        "question": "Which of the following is a global attribute for HTML elements?",
+                        "options": [
+                            "1) class",
+                            "2) style",
+                            "4) All of the above",
+                            "3) id"
+                        ],
+                        "explanation": "class, style, and id are all global attributes that can be used with any HTML element to provide additional information or styling.",
+                        "answer": "4) All of the above are global attributes for HTML elements."
+                    },
+                    {
+                        "question": "What should you check for to troubleshoot common issues in HTML?",
+                        "options": [
+                            "3) Correct attribute spelling",
+                            "4) All of the above",
+                            "2) Syntax errors",
+                            "1) Unclosed tags"
+                        ],
+                        "explanation": "To troubleshoot common issues in HTML, you should check for unclosed tags, ensure syntax is correct, and verify that attributes are spelled correctly.",
+                        "answer": "4) All of the above are things to check for to troubleshoot issues in HTML."
+                    },
+                    {
+                        "question": "What does the <body> section contain in an HTML document?",
+                        "options": [
+                            "3) Scripts and styles",
+                            "1) Meta information",
+                            "2) Visible content",
+                            "4) None of the above"
+                        ],
+                        "explanation": "The <body> section of an HTML document contains all the visible content that users interact with, such as text, images, and links.",
+                        "answer": "2) The <body> section contains visible content in an HTML document."
+                    },
+                    {
+                        "question": "What is the primary function of HTML tags?",
+                        "options": [
+                            "4) To encrypt information",
+                            "2) To store data",
+                            "3) To create functions",
+                            "1) To tell the browser how to display content"
+                        ],
+                        "explanation": "HTML tags serve to annotate text and content, informing the web browser how to render it for display on the screen.",
+                        "answer": "1) HTML tags tell the browser how to display content."
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What does HTML stand for?",
+                        "options": [
+                            "4) Hypertext Multi-language",
+                            "3) Hightext Markup Language",
+                            "1) Hypertext Markup Language",
+                            "2) Hyperlink and Text Markup Language"
+                        ],
+                        "explanation": "HTML stands for Hypertext Markup Language, which is the standard language used to create web pages and applications. It is not a programming language, but rather a markup language that structures content for rendering by web browsers.",
+                        "answer": "1) Hypertext Markup Language"
+                    },
+                    {
+                        "question": "What is the purpose of the doctype declaration in an HTML document?",
+                        "options": [
+                            "4) To define the structure of the HTML document",
+                            "1) To specify the language used in the document",
+                            "2) To indicate the version of HTML being used",
+                            "3) To link external CSS stylesheets"
+                        ],
+                        "explanation": "The doctype declaration is essential because it tells the browser what version of HTML is being used, ensuring the document is rendered correctly. For HTML5, the doctype is simply `<!DOCTYPE html>`. It does not specify language or link stylesheets.",
+                        "answer": "2) To indicate the version of HTML being used"
+                    },
+                    {
+                        "question": "Which HTML tag represents the most important heading?",
+                        "options": [
+                            "4) <h6>",
+                            "3) <h5>",
+                            "1) <h1>",
+                            "2) <h2>"
+                        ],
+                        "explanation": "The <h1> tag is used for the most important heading in HTML. It is often used for titles and indicates the primary topic of a webpage, making it crucial for both users and search engines.",
+                        "answer": "1) <h1>"
+                    },
+                    {
+                        "question": "What is the purpose of the `href` attribute in an anchor tag (`<a>`)?",
+                        "options": [
+                            "2) It determines how the link is styled with CSS.",
+                            "1) It specifies the text that will be displayed for the link.",
+                            "4) It sets the background color of the link.",
+                            "3) It specifies the URL the link points to."
+                        ],
+                        "explanation": "The `href` attribute in an anchor tag specifies the URL that the link should point to, making it essential for creating effective hyperlinks.",
+                        "answer": "3) It specifies the URL the link points to."
+                    },
+                    {
+                        "question": "What HTML tag is used to create an unordered list?",
+                        "options": [
+                            "1) <ol>",
+                            "3) <li>",
+                            "4) <list>",
+                            "2) <ul>"
+                        ],
+                        "explanation": "The <ul> tag is specifically used to create unordered lists in HTML, where each item is wrapped in <li> tags. In contrast, the <ol> tag is used for ordered lists, and <li> tags are used for list items in both types of lists.",
+                        "answer": "2) <ul>"
+                    },
+                    {
+                        "question": "What attribute of the `<form>` element specifies the destination for the form data after submission?",
+                        "options": [
+                            "2) method",
+                            "1) type",
+                            "4) enctype",
+                            "3) action"
+                        ],
+                        "explanation": "The `action` attribute defines the URL to which the form data will be sent when the form is submitted. It is essential for determining where the data goes.",
+                        "answer": "3) action"
+                    },
+                    {
+                        "question": "What is the primary purpose of the <head> tag in an HTML document?",
+                        "options": [
+                            "3) To display images and multimedia within the body",
+                            "1) To define the main content of the document",
+                            "2) To link external resources such as CSS and JavaScript",
+                            "4) To format text as headings or paragraphs"
+                        ],
+                        "explanation": "The <head> tag is used to contain meta-information about the HTML document, including links to external resources like CSS stylesheets and JavaScript files, along with the title of the document. It does not contain the main content displayed to users.",
+                        "answer": "2) To link external resources such as CSS and JavaScript"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

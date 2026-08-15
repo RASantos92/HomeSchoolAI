@@ -1,0 +1,2561 @@
+{
+    "Monday": {},
+    "Tuesday": {},
+    "Wednesday": {},
+    "Thursday": {},
+    "Friday": {
+        "Algebra": [
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    0,
+                    1,
+                    4,
+                    5
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is the simplified form of the expression \\( \\frac{2x^2 - 8}{x^2 - 4} \\)?",
+                        "options": [
+                            "4) \\( \\frac{x}{2} \\)",
+                            "1) \\( \\frac{2(x - 2)(x + 2)}{(x - 2)(x + 2)} \\)",
+                            "2) \\( 2(x + 2) \\)",
+                            "3) \\( \\frac{2}{1} \\)"
+                        ],
+                        "explanation": "Factoring the numerator and denominator gives us \\( \\frac{2(x - 2)(x + 2)}{(x - 2)(x + 2)} \\) which simplifies to 2, provided \\( x \\neq 2 \\).",
+                        "answer": "2) 2"
+                    },
+                    {
+                        "question": "What is the final solution for the equation \\( \\frac{x + 5}{2} = \\frac{x - 1}{3} \\)?",
+                        "options": [
+                            "1) 1",
+                            "4) 4",
+                            "3) 3",
+                            "2) 2"
+                        ],
+                        "explanation": "Cross multiplying gives us \\( 3(x + 5) = 2(x - 1) \\). Solving this yields \\( x = 1 \\).",
+                        "answer": "1) 1"
+                    },
+                    {
+                        "question": "When adding the rational expressions \\( \\frac{1}{x - 2} + \\frac{2}{x + 2} \\), what is the easiest method to combine them?",
+                        "options": [
+                            "3) Simplify the expressions separately",
+                            "4) Use the lowest common multiple of both denominators",
+                            "1) Find a common denominator and add the numerators",
+                            "2) Multiply the denominators together"
+                        ],
+                        "explanation": "You need to find a common denominator to combine the numerators, which is a fundamental step in adding fractions.",
+                        "answer": "1) Find a common denominator and add the numerators"
+                    },
+                    {
+                        "question": "What expression results from multiplying \\( \\frac{3x}{x^2 - 1} \\) and \\( \\frac{x - 2}{3} \\)?",
+                        "options": [
+                            "3) \\( \\frac{x(x - 2)}{x^2 - 1} \\)",
+                            "1) \\( x - 2 \\)",
+                            "2) \\( \\frac{x(x - 2)}{x + 1} \\)",
+                            "4) \\( \\frac{x^2 - 2x}{3} \\)"
+                        ],
+                        "explanation": "Multiplying gives \\( \\frac{3x(x - 2)}{3(x^2 - 1)} \\) which simplifies to \\( \\frac{x(x - 2)}{x^2 - 1} \\) after cancelling the 3's.",
+                        "answer": "3) \\( \\frac{x(x - 2)}{x^2 - 1} \\)"
+                    },
+                    {
+                        "question": "What steps should you take first when dividing the rational expressions \\( \\frac{5}{x + 2} \\) by \\( \\frac{3}{x} \\)?",
+                        "options": [
+                            "3) Simplify both fractions first",
+                            "1) Flip the second fraction and multiply",
+                            "4) Find a common denominator",
+                            "2) Add both fractions together"
+                        ],
+                        "explanation": "To divide fractions, the first step is to multiply by the reciprocal of the second fraction.",
+                        "answer": "1) Flip the second fraction and multiply"
+                    },
+                    {
+                        "question": "In which scenario would you need to cross-multiply when solving a rational equation?",
+                        "options": [
+                            "1) When both sides are single fractions",
+                            "3) When there\u2019s a variable in only the denominator",
+                            "2) When both sides are equal numbers",
+                            "4) When the denominators are polynomials"
+                        ],
+                        "explanation": "Cross-multiplication is used when both sides of the equation consist of two fractions, to eliminate the fractions.",
+                        "answer": "1) When both sides are single fractions"
+                    },
+                    {
+                        "question": "What should you do after finding a common denominator in the expression \\( \\frac{3}{x - 2} + \\frac{2}{x + 2} \\)?",
+                        "options": [
+                            "1) Combine the denominators",
+                            "2) Add the numerators only",
+                            "3) Simplify the entire expression",
+                            "4) Rewrite the fractions using the common denominator"
+                        ],
+                        "explanation": "After finding a common denominator, you should rewrite the fractions accordingly before adding the numerators.",
+                        "answer": "4) Rewrite the fractions using the common denominator"
+                    },
+                    {
+                        "question": "Which of the following is a restriction for the expression \\( \\frac{1}{x - 1} \\)?",
+                        "options": [
+                            "3) \\( x = -1 \\)",
+                            "2) \\( x = 0 \\)",
+                            "4) There are no restrictions",
+                            "1) \\( x = 1 \\)"
+                        ],
+                        "explanation": "The restriction is determined by making the denominator equal to zero; hence, \\( x \\) cannot be equal to 1.",
+                        "answer": "1) \\( x = 1 \\)"
+                    },
+                    {
+                        "question": "What happens when we simplify the expression \\( \\frac{x^2 - 9}{x^2 - 6x + 9} \\)?",
+                        "options": [
+                            "3) \\( 1 \\)",
+                            "4) No simplification occurs",
+                            "2) \\( x + 3 \\)",
+                            "1) \\( \\frac{(x - 3)(x + 3)}{(x - 3)(x - 3)} \\)"
+                        ],
+                        "explanation": "The expression can be factored, leading to the cancellation of \\( (x - 3) \\), resulting in the simplification to \\( x + 3 \\).",
+                        "answer": "2) \\( x + 3 \\)"
+                    },
+                    {
+                        "question": "In the context of rational equations, what is the role of identifying common factors in the numerator and denominator?",
+                        "options": [
+                            "3) To ensure accuracy",
+                            "2) To simplify the equation",
+                            "1) To find restrictions",
+                            "4) To check for errors"
+                        ],
+                        "explanation": "Identifying common factors helps to simplify the expressions, making solving and understanding the rational equation easier.",
+                        "answer": "2) To simplify the equation"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    0,
+                    1,
+                    4,
+                    5
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is the simplified form of the expression \\( \\frac{2x^2 - 8}{x^2 - 4} \\)?",
+                        "options": [
+                            "4) \\( \\frac{x}{2} \\)",
+                            "1) \\( \\frac{2(x - 2)(x + 2)}{(x - 2)(x + 2)} \\)",
+                            "2) \\( 2(x + 2) \\)",
+                            "3) \\( \\frac{2}{1} \\)"
+                        ],
+                        "explanation": "Factoring the numerator and denominator gives us \\( \\frac{2(x - 2)(x + 2)}{(x - 2)(x + 2)} \\) which simplifies to 2, provided \\( x \\neq 2 \\).",
+                        "answer": "2) 2"
+                    },
+                    {
+                        "question": "What is the final solution for the equation \\( \\frac{x + 5}{2} = \\frac{x - 1}{3} \\)?",
+                        "options": [
+                            "1) 1",
+                            "4) 4",
+                            "3) 3",
+                            "2) 2"
+                        ],
+                        "explanation": "Cross multiplying gives us \\( 3(x + 5) = 2(x - 1) \\). Solving this yields \\( x = 1 \\).",
+                        "answer": "1) 1"
+                    },
+                    {
+                        "question": "When adding the rational expressions \\( \\frac{1}{x - 2} + \\frac{2}{x + 2} \\), what is the easiest method to combine them?",
+                        "options": [
+                            "3) Simplify the expressions separately",
+                            "4) Use the lowest common multiple of both denominators",
+                            "1) Find a common denominator and add the numerators",
+                            "2) Multiply the denominators together"
+                        ],
+                        "explanation": "You need to find a common denominator to combine the numerators, which is a fundamental step in adding fractions.",
+                        "answer": "1) Find a common denominator and add the numerators"
+                    },
+                    {
+                        "question": "What expression results from multiplying \\( \\frac{3x}{x^2 - 1} \\) and \\( \\frac{x - 2}{3} \\)?",
+                        "options": [
+                            "3) \\( \\frac{x(x - 2)}{x^2 - 1} \\)",
+                            "1) \\( x - 2 \\)",
+                            "2) \\( \\frac{x(x - 2)}{x + 1} \\)",
+                            "4) \\( \\frac{x^2 - 2x}{3} \\)"
+                        ],
+                        "explanation": "Multiplying gives \\( \\frac{3x(x - 2)}{3(x^2 - 1)} \\) which simplifies to \\( \\frac{x(x - 2)}{x^2 - 1} \\) after cancelling the 3's.",
+                        "answer": "3) \\( \\frac{x(x - 2)}{x^2 - 1} \\)"
+                    },
+                    {
+                        "question": "What steps should you take first when dividing the rational expressions \\( \\frac{5}{x + 2} \\) by \\( \\frac{3}{x} \\)?",
+                        "options": [
+                            "3) Simplify both fractions first",
+                            "1) Flip the second fraction and multiply",
+                            "4) Find a common denominator",
+                            "2) Add both fractions together"
+                        ],
+                        "explanation": "To divide fractions, the first step is to multiply by the reciprocal of the second fraction.",
+                        "answer": "1) Flip the second fraction and multiply"
+                    },
+                    {
+                        "question": "In which scenario would you need to cross-multiply when solving a rational equation?",
+                        "options": [
+                            "1) When both sides are single fractions",
+                            "3) When there\u2019s a variable in only the denominator",
+                            "2) When both sides are equal numbers",
+                            "4) When the denominators are polynomials"
+                        ],
+                        "explanation": "Cross-multiplication is used when both sides of the equation consist of two fractions, to eliminate the fractions.",
+                        "answer": "1) When both sides are single fractions"
+                    },
+                    {
+                        "question": "What should you do after finding a common denominator in the expression \\( \\frac{3}{x - 2} + \\frac{2}{x + 2} \\)?",
+                        "options": [
+                            "1) Combine the denominators",
+                            "2) Add the numerators only",
+                            "3) Simplify the entire expression",
+                            "4) Rewrite the fractions using the common denominator"
+                        ],
+                        "explanation": "After finding a common denominator, you should rewrite the fractions accordingly before adding the numerators.",
+                        "answer": "4) Rewrite the fractions using the common denominator"
+                    },
+                    {
+                        "question": "Which of the following is a restriction for the expression \\( \\frac{1}{x - 1} \\)?",
+                        "options": [
+                            "3) \\( x = -1 \\)",
+                            "2) \\( x = 0 \\)",
+                            "4) There are no restrictions",
+                            "1) \\( x = 1 \\)"
+                        ],
+                        "explanation": "The restriction is determined by making the denominator equal to zero; hence, \\( x \\) cannot be equal to 1.",
+                        "answer": "1) \\( x = 1 \\)"
+                    },
+                    {
+                        "question": "What happens when we simplify the expression \\( \\frac{x^2 - 9}{x^2 - 6x + 9} \\)?",
+                        "options": [
+                            "3) \\( 1 \\)",
+                            "4) No simplification occurs",
+                            "2) \\( x + 3 \\)",
+                            "1) \\( \\frac{(x - 3)(x + 3)}{(x - 3)(x - 3)} \\)"
+                        ],
+                        "explanation": "The expression can be factored, leading to the cancellation of \\( (x - 3) \\), resulting in the simplification to \\( x + 3 \\).",
+                        "answer": "2) \\( x + 3 \\)"
+                    },
+                    {
+                        "question": "In the context of rational equations, what is the role of identifying common factors in the numerator and denominator?",
+                        "options": [
+                            "3) To ensure accuracy",
+                            "2) To simplify the equation",
+                            "1) To find restrictions",
+                            "4) To check for errors"
+                        ],
+                        "explanation": "Identifying common factors helps to simplify the expressions, making solving and understanding the rational equation easier.",
+                        "answer": "2) To simplify the equation"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    0,
+                    1,
+                    4,
+                    5
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What is the simplified form of the expression \\( \\frac{2x^2 - 8}{x^2 - 4} \\)?",
+                        "options": [
+                            "4) \\( \\frac{x}{2} \\)",
+                            "1) \\( \\frac{2(x - 2)(x + 2)}{(x - 2)(x + 2)} \\)",
+                            "2) \\( 2(x + 2) \\)",
+                            "3) \\( \\frac{2}{1} \\)"
+                        ],
+                        "explanation": "Factoring the numerator and denominator gives us \\( \\frac{2(x - 2)(x + 2)}{(x - 2)(x + 2)} \\) which simplifies to 2, provided \\( x \\neq 2 \\).",
+                        "answer": "2) 2"
+                    },
+                    {
+                        "question": "What is the final solution for the equation \\( \\frac{x + 5}{2} = \\frac{x - 1}{3} \\)?",
+                        "options": [
+                            "1) 1",
+                            "4) 4",
+                            "3) 3",
+                            "2) 2"
+                        ],
+                        "explanation": "Cross multiplying gives us \\( 3(x + 5) = 2(x - 1) \\). Solving this yields \\( x = 1 \\).",
+                        "answer": "1) 1"
+                    },
+                    {
+                        "question": "When adding the rational expressions \\( \\frac{1}{x - 2} + \\frac{2}{x + 2} \\), what is the easiest method to combine them?",
+                        "options": [
+                            "3) Simplify the expressions separately",
+                            "4) Use the lowest common multiple of both denominators",
+                            "1) Find a common denominator and add the numerators",
+                            "2) Multiply the denominators together"
+                        ],
+                        "explanation": "You need to find a common denominator to combine the numerators, which is a fundamental step in adding fractions.",
+                        "answer": "1) Find a common denominator and add the numerators"
+                    },
+                    {
+                        "question": "What expression results from multiplying \\( \\frac{3x}{x^2 - 1} \\) and \\( \\frac{x - 2}{3} \\)?",
+                        "options": [
+                            "3) \\( \\frac{x(x - 2)}{x^2 - 1} \\)",
+                            "1) \\( x - 2 \\)",
+                            "2) \\( \\frac{x(x - 2)}{x + 1} \\)",
+                            "4) \\( \\frac{x^2 - 2x}{3} \\)"
+                        ],
+                        "explanation": "Multiplying gives \\( \\frac{3x(x - 2)}{3(x^2 - 1)} \\) which simplifies to \\( \\frac{x(x - 2)}{x^2 - 1} \\) after cancelling the 3's.",
+                        "answer": "3) \\( \\frac{x(x - 2)}{x^2 - 1} \\)"
+                    },
+                    {
+                        "question": "What steps should you take first when dividing the rational expressions \\( \\frac{5}{x + 2} \\) by \\( \\frac{3}{x} \\)?",
+                        "options": [
+                            "3) Simplify both fractions first",
+                            "1) Flip the second fraction and multiply",
+                            "4) Find a common denominator",
+                            "2) Add both fractions together"
+                        ],
+                        "explanation": "To divide fractions, the first step is to multiply by the reciprocal of the second fraction.",
+                        "answer": "1) Flip the second fraction and multiply"
+                    },
+                    {
+                        "question": "In which scenario would you need to cross-multiply when solving a rational equation?",
+                        "options": [
+                            "1) When both sides are single fractions",
+                            "3) When there\u2019s a variable in only the denominator",
+                            "2) When both sides are equal numbers",
+                            "4) When the denominators are polynomials"
+                        ],
+                        "explanation": "Cross-multiplication is used when both sides of the equation consist of two fractions, to eliminate the fractions.",
+                        "answer": "1) When both sides are single fractions"
+                    },
+                    {
+                        "question": "What should you do after finding a common denominator in the expression \\( \\frac{3}{x - 2} + \\frac{2}{x + 2} \\)?",
+                        "options": [
+                            "1) Combine the denominators",
+                            "2) Add the numerators only",
+                            "3) Simplify the entire expression",
+                            "4) Rewrite the fractions using the common denominator"
+                        ],
+                        "explanation": "After finding a common denominator, you should rewrite the fractions accordingly before adding the numerators.",
+                        "answer": "4) Rewrite the fractions using the common denominator"
+                    },
+                    {
+                        "question": "Which of the following is a restriction for the expression \\( \\frac{1}{x - 1} \\)?",
+                        "options": [
+                            "3) \\( x = -1 \\)",
+                            "2) \\( x = 0 \\)",
+                            "4) There are no restrictions",
+                            "1) \\( x = 1 \\)"
+                        ],
+                        "explanation": "The restriction is determined by making the denominator equal to zero; hence, \\( x \\) cannot be equal to 1.",
+                        "answer": "1) \\( x = 1 \\)"
+                    },
+                    {
+                        "question": "What happens when we simplify the expression \\( \\frac{x^2 - 9}{x^2 - 6x + 9} \\)?",
+                        "options": [
+                            "3) \\( 1 \\)",
+                            "4) No simplification occurs",
+                            "2) \\( x + 3 \\)",
+                            "1) \\( \\frac{(x - 3)(x + 3)}{(x - 3)(x - 3)} \\)"
+                        ],
+                        "explanation": "The expression can be factored, leading to the cancellation of \\( (x - 3) \\), resulting in the simplification to \\( x + 3 \\).",
+                        "answer": "2) \\( x + 3 \\)"
+                    },
+                    {
+                        "question": "In the context of rational equations, what is the role of identifying common factors in the numerator and denominator?",
+                        "options": [
+                            "3) To ensure accuracy",
+                            "2) To simplify the equation",
+                            "1) To find restrictions",
+                            "4) To check for errors"
+                        ],
+                        "explanation": "Identifying common factors helps to simplify the expressions, making solving and understanding the rational equation easier.",
+                        "answer": "2) To simplify the equation"
+                    }
+                ]
+            }
+        ],
+        "Astronomy": [
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    0,
+                    3,
+                    5,
+                    8
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What appears in the sky as a small sliver of light after the New Moon phase?",
+                        "options": [
+                            "1) Waxing Crescent",
+                            "3) Waning Crescent",
+                            "2) First Quarter",
+                            "4) Waxing Gibbous"
+                        ],
+                        "explanation": "In the Waxing Crescent phase, a small sliver of the Moon becomes illuminated as it begins to move in its orbit away from the New Moon phase.",
+                        "answer": "1) Waxing Crescent"
+                    },
+                    {
+                        "question": "During which phase does the Moon appear fully illuminated?",
+                        "options": [
+                            "3) Last Quarter",
+                            "1) New Moon",
+                            "2) Full Moon",
+                            "4) Waning Gibbous"
+                        ],
+                        "explanation": "The Full Moon phase is when the Moon is fully illuminated as it is on the opposite side of Earth from the Sun.",
+                        "answer": "2) Full Moon"
+                    },
+                    {
+                        "question": "What is a characteristic visual effect observed during a total lunar eclipse?",
+                        "options": [
+                            "1) The Moon disappears completely",
+                            "2) The Moon turns blue",
+                            "3) The Moon appears reddish",
+                            "4) The Moon remains the same color"
+                        ],
+                        "explanation": "During a total lunar eclipse, the Moon can take on a reddish hue due to sunlight being refracted through the Earth's atmosphere, often referred to as a 'blood moon'.",
+                        "answer": "3) The Moon appears reddish"
+                    },
+                    {
+                        "question": "In which type of lunar eclipse does the Moon not completely enter the Earth's umbral shadow?",
+                        "options": [
+                            "3) Penumbral lunar eclipse",
+                            "1) Total lunar eclipse",
+                            "4) New Moon eclipse",
+                            "2) Partial lunar eclipse"
+                        ],
+                        "explanation": "A partial lunar eclipse occurs when only a portion of the Moon enters the Earth's umbral shadow, while the rest remains illuminated.",
+                        "answer": "2) Partial lunar eclipse"
+                    },
+                    {
+                        "question": "What can be observed from anywhere on Earth where it is nighttime during a lunar eclipse?",
+                        "options": [
+                            "3) Any type of Lunar Eclipse",
+                            "2) Only the Total Eclipse",
+                            "4) Only the Full Moon",
+                            "1) Only the New Moon"
+                        ],
+                        "explanation": "Lunar eclipses are visible from anywhere on Earth where it is nighttime, unlike solar eclipses which are only visible from specific locations.",
+                        "answer": "3) Any type of Lunar Eclipse"
+                    },
+                    {
+                        "question": "What phase follows the First Quarter phase in the lunar cycle?",
+                        "options": [
+                            "3) Waning Crescent",
+                            "1) Waxing Gibbous",
+                            "4) Last Quarter",
+                            "2) New Moon"
+                        ],
+                        "explanation": "The phase that follows the First Quarter is the Waxing Gibbous, as the Moon continues to be illuminated more until reaching the Full Moon.",
+                        "answer": "1) Waxing Gibbous"
+                    },
+                    {
+                        "question": "What phenomenon occurs when the Earth blocks sunlight from reaching the Moon?",
+                        "options": [
+                            "4) Full Moon",
+                            "3) New Moon",
+                            "2) Lunar eclipse",
+                            "1) Solar eclipse"
+                        ],
+                        "explanation": "A lunar eclipse occurs when the Earth comes between the Sun and the Moon, casting a shadow on the Moon.",
+                        "answer": "2) Lunar eclipse"
+                    },
+                    {
+                        "question": "How long does it take the Moon to complete a cycle of all its phases?",
+                        "options": [
+                            "1) 29.5 days",
+                            "3) 28 days",
+                            "4) 31 days",
+                            "2) 30 days"
+                        ],
+                        "explanation": "The Moon goes through its phases over approximately 29.5 days, which is known as a lunar month.",
+                        "answer": "1) 29.5 days"
+                    },
+                    {
+                        "question": "What does the term 'waxing' indicate in the context of Moon phases?",
+                        "options": [
+                            "4) The Moon is at its peak illumination",
+                            "2) The Moon is becoming less visible",
+                            "3) The Moon is becoming more illuminated",
+                            "1) The Moon is shrinking"
+                        ],
+                        "explanation": "'Waxing' refers to the phases where the Moon is becoming more illuminated, starting from the New Moon to the Full Moon.",
+                        "answer": "3) The Moon is becoming more illuminated"
+                    },
+                    {
+                        "question": "What cultural significance does the Full Moon hold for some Native American tribes?",
+                        "options": [
+                            "3) A time for resting",
+                            "2) A time for hunting",
+                            "1) A time for planting crops",
+                            "4) A time for storytelling"
+                        ],
+                        "explanation": "Some Native American tribes see the Full Moon as a time for hunting, showcasing how lunar cycles influence cultural activities.",
+                        "answer": "2) A time for hunting"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    0,
+                    3,
+                    5,
+                    8
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What appears in the sky as a small sliver of light after the New Moon phase?",
+                        "options": [
+                            "1) Waxing Crescent",
+                            "3) Waning Crescent",
+                            "2) First Quarter",
+                            "4) Waxing Gibbous"
+                        ],
+                        "explanation": "In the Waxing Crescent phase, a small sliver of the Moon becomes illuminated as it begins to move in its orbit away from the New Moon phase.",
+                        "answer": "1) Waxing Crescent"
+                    },
+                    {
+                        "question": "During which phase does the Moon appear fully illuminated?",
+                        "options": [
+                            "3) Last Quarter",
+                            "1) New Moon",
+                            "2) Full Moon",
+                            "4) Waning Gibbous"
+                        ],
+                        "explanation": "The Full Moon phase is when the Moon is fully illuminated as it is on the opposite side of Earth from the Sun.",
+                        "answer": "2) Full Moon"
+                    },
+                    {
+                        "question": "What is a characteristic visual effect observed during a total lunar eclipse?",
+                        "options": [
+                            "1) The Moon disappears completely",
+                            "2) The Moon turns blue",
+                            "3) The Moon appears reddish",
+                            "4) The Moon remains the same color"
+                        ],
+                        "explanation": "During a total lunar eclipse, the Moon can take on a reddish hue due to sunlight being refracted through the Earth's atmosphere, often referred to as a 'blood moon'.",
+                        "answer": "3) The Moon appears reddish"
+                    },
+                    {
+                        "question": "In which type of lunar eclipse does the Moon not completely enter the Earth's umbral shadow?",
+                        "options": [
+                            "3) Penumbral lunar eclipse",
+                            "1) Total lunar eclipse",
+                            "4) New Moon eclipse",
+                            "2) Partial lunar eclipse"
+                        ],
+                        "explanation": "A partial lunar eclipse occurs when only a portion of the Moon enters the Earth's umbral shadow, while the rest remains illuminated.",
+                        "answer": "2) Partial lunar eclipse"
+                    },
+                    {
+                        "question": "What can be observed from anywhere on Earth where it is nighttime during a lunar eclipse?",
+                        "options": [
+                            "3) Any type of Lunar Eclipse",
+                            "2) Only the Total Eclipse",
+                            "4) Only the Full Moon",
+                            "1) Only the New Moon"
+                        ],
+                        "explanation": "Lunar eclipses are visible from anywhere on Earth where it is nighttime, unlike solar eclipses which are only visible from specific locations.",
+                        "answer": "3) Any type of Lunar Eclipse"
+                    },
+                    {
+                        "question": "What phase follows the First Quarter phase in the lunar cycle?",
+                        "options": [
+                            "3) Waning Crescent",
+                            "1) Waxing Gibbous",
+                            "4) Last Quarter",
+                            "2) New Moon"
+                        ],
+                        "explanation": "The phase that follows the First Quarter is the Waxing Gibbous, as the Moon continues to be illuminated more until reaching the Full Moon.",
+                        "answer": "1) Waxing Gibbous"
+                    },
+                    {
+                        "question": "What phenomenon occurs when the Earth blocks sunlight from reaching the Moon?",
+                        "options": [
+                            "4) Full Moon",
+                            "3) New Moon",
+                            "2) Lunar eclipse",
+                            "1) Solar eclipse"
+                        ],
+                        "explanation": "A lunar eclipse occurs when the Earth comes between the Sun and the Moon, casting a shadow on the Moon.",
+                        "answer": "2) Lunar eclipse"
+                    },
+                    {
+                        "question": "How long does it take the Moon to complete a cycle of all its phases?",
+                        "options": [
+                            "1) 29.5 days",
+                            "3) 28 days",
+                            "4) 31 days",
+                            "2) 30 days"
+                        ],
+                        "explanation": "The Moon goes through its phases over approximately 29.5 days, which is known as a lunar month.",
+                        "answer": "1) 29.5 days"
+                    },
+                    {
+                        "question": "What does the term 'waxing' indicate in the context of Moon phases?",
+                        "options": [
+                            "4) The Moon is at its peak illumination",
+                            "2) The Moon is becoming less visible",
+                            "3) The Moon is becoming more illuminated",
+                            "1) The Moon is shrinking"
+                        ],
+                        "explanation": "'Waxing' refers to the phases where the Moon is becoming more illuminated, starting from the New Moon to the Full Moon.",
+                        "answer": "3) The Moon is becoming more illuminated"
+                    },
+                    {
+                        "question": "What cultural significance does the Full Moon hold for some Native American tribes?",
+                        "options": [
+                            "3) A time for resting",
+                            "2) A time for hunting",
+                            "1) A time for planting crops",
+                            "4) A time for storytelling"
+                        ],
+                        "explanation": "Some Native American tribes see the Full Moon as a time for hunting, showcasing how lunar cycles influence cultural activities.",
+                        "answer": "2) A time for hunting"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 70.0,
+                "wrong_answers": [
+                    0,
+                    3,
+                    5
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What appears in the sky as a small sliver of light after the New Moon phase?",
+                        "options": [
+                            "1) Waxing Crescent",
+                            "3) Waning Crescent",
+                            "2) First Quarter",
+                            "4) Waxing Gibbous"
+                        ],
+                        "explanation": "In the Waxing Crescent phase, a small sliver of the Moon becomes illuminated as it begins to move in its orbit away from the New Moon phase.",
+                        "answer": "1) Waxing Crescent"
+                    },
+                    {
+                        "question": "During which phase does the Moon appear fully illuminated?",
+                        "options": [
+                            "3) Last Quarter",
+                            "1) New Moon",
+                            "2) Full Moon",
+                            "4) Waning Gibbous"
+                        ],
+                        "explanation": "The Full Moon phase is when the Moon is fully illuminated as it is on the opposite side of Earth from the Sun.",
+                        "answer": "2) Full Moon"
+                    },
+                    {
+                        "question": "What is a characteristic visual effect observed during a total lunar eclipse?",
+                        "options": [
+                            "1) The Moon disappears completely",
+                            "2) The Moon turns blue",
+                            "3) The Moon appears reddish",
+                            "4) The Moon remains the same color"
+                        ],
+                        "explanation": "During a total lunar eclipse, the Moon can take on a reddish hue due to sunlight being refracted through the Earth's atmosphere, often referred to as a 'blood moon'.",
+                        "answer": "3) The Moon appears reddish"
+                    },
+                    {
+                        "question": "In which type of lunar eclipse does the Moon not completely enter the Earth's umbral shadow?",
+                        "options": [
+                            "3) Penumbral lunar eclipse",
+                            "1) Total lunar eclipse",
+                            "4) New Moon eclipse",
+                            "2) Partial lunar eclipse"
+                        ],
+                        "explanation": "A partial lunar eclipse occurs when only a portion of the Moon enters the Earth's umbral shadow, while the rest remains illuminated.",
+                        "answer": "2) Partial lunar eclipse"
+                    },
+                    {
+                        "question": "What can be observed from anywhere on Earth where it is nighttime during a lunar eclipse?",
+                        "options": [
+                            "3) Any type of Lunar Eclipse",
+                            "2) Only the Total Eclipse",
+                            "4) Only the Full Moon",
+                            "1) Only the New Moon"
+                        ],
+                        "explanation": "Lunar eclipses are visible from anywhere on Earth where it is nighttime, unlike solar eclipses which are only visible from specific locations.",
+                        "answer": "3) Any type of Lunar Eclipse"
+                    },
+                    {
+                        "question": "What phase follows the First Quarter phase in the lunar cycle?",
+                        "options": [
+                            "3) Waning Crescent",
+                            "1) Waxing Gibbous",
+                            "4) Last Quarter",
+                            "2) New Moon"
+                        ],
+                        "explanation": "The phase that follows the First Quarter is the Waxing Gibbous, as the Moon continues to be illuminated more until reaching the Full Moon.",
+                        "answer": "1) Waxing Gibbous"
+                    },
+                    {
+                        "question": "What phenomenon occurs when the Earth blocks sunlight from reaching the Moon?",
+                        "options": [
+                            "4) Full Moon",
+                            "3) New Moon",
+                            "2) Lunar eclipse",
+                            "1) Solar eclipse"
+                        ],
+                        "explanation": "A lunar eclipse occurs when the Earth comes between the Sun and the Moon, casting a shadow on the Moon.",
+                        "answer": "2) Lunar eclipse"
+                    },
+                    {
+                        "question": "How long does it take the Moon to complete a cycle of all its phases?",
+                        "options": [
+                            "1) 29.5 days",
+                            "3) 28 days",
+                            "4) 31 days",
+                            "2) 30 days"
+                        ],
+                        "explanation": "The Moon goes through its phases over approximately 29.5 days, which is known as a lunar month.",
+                        "answer": "1) 29.5 days"
+                    },
+                    {
+                        "question": "What does the term 'waxing' indicate in the context of Moon phases?",
+                        "options": [
+                            "4) The Moon is at its peak illumination",
+                            "2) The Moon is becoming less visible",
+                            "3) The Moon is becoming more illuminated",
+                            "1) The Moon is shrinking"
+                        ],
+                        "explanation": "'Waxing' refers to the phases where the Moon is becoming more illuminated, starting from the New Moon to the Full Moon.",
+                        "answer": "3) The Moon is becoming more illuminated"
+                    },
+                    {
+                        "question": "What cultural significance does the Full Moon hold for some Native American tribes?",
+                        "options": [
+                            "3) A time for resting",
+                            "2) A time for hunting",
+                            "1) A time for planting crops",
+                            "4) A time for storytelling"
+                        ],
+                        "explanation": "Some Native American tribes see the Full Moon as a time for hunting, showcasing how lunar cycles influence cultural activities.",
+                        "answer": "2) A time for hunting"
+                    }
+                ]
+            }
+        ],
+        "Computer Science": [
+            {
+                "quiz_grade": 70.0,
+                "wrong_answers": [
+                    2,
+                    5,
+                    8
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What keyword is used to add an item to the end of a list in Python?",
+                        "options": [
+                            "4) push()",
+                            "3) insert()",
+                            "2) add()",
+                            "1) append()"
+                        ],
+                        "explanation": "The append() method is used to add a new item at the end of an existing list.",
+                        "answer": "1) append()"
+                    },
+                    {
+                        "question": "How do you access the first element of a list in Python?",
+                        "options": [
+                            "2) my_list(0)",
+                            "1) my_list[1]",
+                            "4) my_list.get(1)",
+                            "3) my_list[0]"
+                        ],
+                        "explanation": "List indexing in Python starts from zero, so my_list[0] accesses the first element.",
+                        "answer": "3) my_list[0]"
+                    },
+                    {
+                        "question": "What is the correct way to create an empty dictionary in Python?",
+                        "options": [
+                            "3) []",
+                            "4) ()",
+                            "2) dict()",
+                            "1) {}"
+                        ],
+                        "explanation": "An empty dictionary can be created using either {} or dict() in Python.",
+                        "answer": "1) {}"
+                    },
+                    {
+                        "question": "Which of the following is true about tuples in Python?",
+                        "options": [
+                            "1) Tuples can be changed after creation",
+                            "3) Tuples are immutable",
+                            "4) Tuples cannot contain mixed data types",
+                            "2) Tuples are created with square brackets"
+                        ],
+                        "explanation": "Tuples are immutable, meaning their elements cannot be changed after they have been created.",
+                        "answer": "3) Tuples are immutable"
+                    },
+                    {
+                        "question": "Which of the following methods would be used to remove an item from a list?",
+                        "options": [
+                            "1) delete()",
+                            "2) remove()",
+                            "3) discard()",
+                            "4) clear()"
+                        ],
+                        "explanation": "The remove() method is used in Python to remove the first occurrence of a value from a list.",
+                        "answer": "2) remove()"
+                    },
+                    {
+                        "question": "What symbol is used to create a dictionary in Python?",
+                        "options": [
+                            "1) []",
+                            "2) ()",
+                            "4) <>",
+                            "3) {}"
+                        ],
+                        "explanation": "Dictionaries in Python are created using curly braces {} to hold key-value pairs.",
+                        "answer": "3) {}"
+                    },
+                    {
+                        "question": "In what scenario would you prefer to use a tuple instead of a list?",
+                        "options": [
+                            "3) When the data should remain constant",
+                            "1) When needing to add more items later",
+                            "2) When you need to modify values later",
+                            "4) When you need to store only strings"
+                        ],
+                        "explanation": "Tuples are preferred when the data should remain constant and not be changed after creation.",
+                        "answer": "3) When the data should remain constant"
+                    },
+                    {
+                        "question": "What will my_list[3] return if my_list is defined as my_list = [1, 2, 3, 'apple', 'banana']?",
+                        "options": [
+                            "1) 2",
+                            "3) 3",
+                            "4) 'banana'",
+                            "2) 'apple'"
+                        ],
+                        "explanation": "The indexing starts at 0, so my_list[3] refers to the fourth element, which is 'apple'.",
+                        "answer": "2) 'apple'"
+                    },
+                    {
+                        "question": "How would you retrieve the value associated with the key 'age' from the dictionary my_dict = {'name': 'Alice', 'age': 25}?",
+                        "options": [
+                            "2) my_dict['age']",
+                            "4) Both 2 and 3",
+                            "3) my_dict.get('age')",
+                            "1) my_dict.age"
+                        ],
+                        "explanation": "You can retrieve the value associated with the key by either using my_dict['age'] or my_dict.get('age'). Both are valid methods.",
+                        "answer": "4) Both 2 and 3"
+                    },
+                    {
+                        "question": "Which data structure would you choose if you want to store pairs of related information, like a username and password?",
+                        "options": [
+                            "4) Set",
+                            "2) Tuple",
+                            "3) Dictionary",
+                            "1) List"
+                        ],
+                        "explanation": "Dictionaries are ideal for storing pairs of related information, such as usernames and passwords, as they allow key-value associations.",
+                        "answer": "3) Dictionary"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    8
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What keyword is used to add an item to the end of a list in Python?",
+                        "options": [
+                            "4) push()",
+                            "3) insert()",
+                            "2) add()",
+                            "1) append()"
+                        ],
+                        "explanation": "The append() method is used to add a new item at the end of an existing list.",
+                        "answer": "1) append()"
+                    },
+                    {
+                        "question": "How do you access the first element of a list in Python?",
+                        "options": [
+                            "2) my_list(0)",
+                            "1) my_list[1]",
+                            "4) my_list.get(1)",
+                            "3) my_list[0]"
+                        ],
+                        "explanation": "List indexing in Python starts from zero, so my_list[0] accesses the first element.",
+                        "answer": "3) my_list[0]"
+                    },
+                    {
+                        "question": "What is the correct way to create an empty dictionary in Python?",
+                        "options": [
+                            "3) []",
+                            "4) ()",
+                            "2) dict()",
+                            "1) {}"
+                        ],
+                        "explanation": "An empty dictionary can be created using either {} or dict() in Python.",
+                        "answer": "1) {}"
+                    },
+                    {
+                        "question": "Which of the following is true about tuples in Python?",
+                        "options": [
+                            "1) Tuples can be changed after creation",
+                            "3) Tuples are immutable",
+                            "4) Tuples cannot contain mixed data types",
+                            "2) Tuples are created with square brackets"
+                        ],
+                        "explanation": "Tuples are immutable, meaning their elements cannot be changed after they have been created.",
+                        "answer": "3) Tuples are immutable"
+                    },
+                    {
+                        "question": "Which of the following methods would be used to remove an item from a list?",
+                        "options": [
+                            "1) delete()",
+                            "2) remove()",
+                            "3) discard()",
+                            "4) clear()"
+                        ],
+                        "explanation": "The remove() method is used in Python to remove the first occurrence of a value from a list.",
+                        "answer": "2) remove()"
+                    },
+                    {
+                        "question": "What symbol is used to create a dictionary in Python?",
+                        "options": [
+                            "1) []",
+                            "2) ()",
+                            "4) <>",
+                            "3) {}"
+                        ],
+                        "explanation": "Dictionaries in Python are created using curly braces {} to hold key-value pairs.",
+                        "answer": "3) {}"
+                    },
+                    {
+                        "question": "In what scenario would you prefer to use a tuple instead of a list?",
+                        "options": [
+                            "3) When the data should remain constant",
+                            "1) When needing to add more items later",
+                            "2) When you need to modify values later",
+                            "4) When you need to store only strings"
+                        ],
+                        "explanation": "Tuples are preferred when the data should remain constant and not be changed after creation.",
+                        "answer": "3) When the data should remain constant"
+                    },
+                    {
+                        "question": "What will my_list[3] return if my_list is defined as my_list = [1, 2, 3, 'apple', 'banana']?",
+                        "options": [
+                            "1) 2",
+                            "3) 3",
+                            "4) 'banana'",
+                            "2) 'apple'"
+                        ],
+                        "explanation": "The indexing starts at 0, so my_list[3] refers to the fourth element, which is 'apple'.",
+                        "answer": "2) 'apple'"
+                    },
+                    {
+                        "question": "How would you retrieve the value associated with the key 'age' from the dictionary my_dict = {'name': 'Alice', 'age': 25}?",
+                        "options": [
+                            "2) my_dict['age']",
+                            "4) Both 2 and 3",
+                            "3) my_dict.get('age')",
+                            "1) my_dict.age"
+                        ],
+                        "explanation": "You can retrieve the value associated with the key by either using my_dict['age'] or my_dict.get('age'). Both are valid methods.",
+                        "answer": "4) Both 2 and 3"
+                    },
+                    {
+                        "question": "Which data structure would you choose if you want to store pairs of related information, like a username and password?",
+                        "options": [
+                            "4) Set",
+                            "2) Tuple",
+                            "3) Dictionary",
+                            "1) List"
+                        ],
+                        "explanation": "Dictionaries are ideal for storing pairs of related information, such as usernames and passwords, as they allow key-value associations.",
+                        "answer": "3) Dictionary"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    8
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What keyword is used to add an item to the end of a list in Python?",
+                        "options": [
+                            "4) push()",
+                            "3) insert()",
+                            "2) add()",
+                            "1) append()"
+                        ],
+                        "explanation": "The append() method is used to add a new item at the end of an existing list.",
+                        "answer": "1) append()"
+                    },
+                    {
+                        "question": "How do you access the first element of a list in Python?",
+                        "options": [
+                            "2) my_list(0)",
+                            "1) my_list[1]",
+                            "4) my_list.get(1)",
+                            "3) my_list[0]"
+                        ],
+                        "explanation": "List indexing in Python starts from zero, so my_list[0] accesses the first element.",
+                        "answer": "3) my_list[0]"
+                    },
+                    {
+                        "question": "What is the correct way to create an empty dictionary in Python?",
+                        "options": [
+                            "3) []",
+                            "4) ()",
+                            "2) dict()",
+                            "1) {}"
+                        ],
+                        "explanation": "An empty dictionary can be created using either {} or dict() in Python.",
+                        "answer": "1) {}"
+                    },
+                    {
+                        "question": "Which of the following is true about tuples in Python?",
+                        "options": [
+                            "1) Tuples can be changed after creation",
+                            "3) Tuples are immutable",
+                            "4) Tuples cannot contain mixed data types",
+                            "2) Tuples are created with square brackets"
+                        ],
+                        "explanation": "Tuples are immutable, meaning their elements cannot be changed after they have been created.",
+                        "answer": "3) Tuples are immutable"
+                    },
+                    {
+                        "question": "Which of the following methods would be used to remove an item from a list?",
+                        "options": [
+                            "1) delete()",
+                            "2) remove()",
+                            "3) discard()",
+                            "4) clear()"
+                        ],
+                        "explanation": "The remove() method is used in Python to remove the first occurrence of a value from a list.",
+                        "answer": "2) remove()"
+                    },
+                    {
+                        "question": "What symbol is used to create a dictionary in Python?",
+                        "options": [
+                            "1) []",
+                            "2) ()",
+                            "4) <>",
+                            "3) {}"
+                        ],
+                        "explanation": "Dictionaries in Python are created using curly braces {} to hold key-value pairs.",
+                        "answer": "3) {}"
+                    },
+                    {
+                        "question": "In what scenario would you prefer to use a tuple instead of a list?",
+                        "options": [
+                            "3) When the data should remain constant",
+                            "1) When needing to add more items later",
+                            "2) When you need to modify values later",
+                            "4) When you need to store only strings"
+                        ],
+                        "explanation": "Tuples are preferred when the data should remain constant and not be changed after creation.",
+                        "answer": "3) When the data should remain constant"
+                    },
+                    {
+                        "question": "What will my_list[3] return if my_list is defined as my_list = [1, 2, 3, 'apple', 'banana']?",
+                        "options": [
+                            "1) 2",
+                            "3) 3",
+                            "4) 'banana'",
+                            "2) 'apple'"
+                        ],
+                        "explanation": "The indexing starts at 0, so my_list[3] refers to the fourth element, which is 'apple'.",
+                        "answer": "2) 'apple'"
+                    },
+                    {
+                        "question": "How would you retrieve the value associated with the key 'age' from the dictionary my_dict = {'name': 'Alice', 'age': 25}?",
+                        "options": [
+                            "2) my_dict['age']",
+                            "4) Both 2 and 3",
+                            "3) my_dict.get('age')",
+                            "1) my_dict.age"
+                        ],
+                        "explanation": "You can retrieve the value associated with the key by either using my_dict['age'] or my_dict.get('age'). Both are valid methods.",
+                        "answer": "4) Both 2 and 3"
+                    },
+                    {
+                        "question": "Which data structure would you choose if you want to store pairs of related information, like a username and password?",
+                        "options": [
+                            "4) Set",
+                            "2) Tuple",
+                            "3) Dictionary",
+                            "1) List"
+                        ],
+                        "explanation": "Dictionaries are ideal for storing pairs of related information, such as usernames and passwords, as they allow key-value associations.",
+                        "answer": "3) Dictionary"
+                    }
+                ]
+            }
+        ],
+        "English": [
+            {
+                "quiz_grade": 70.0,
+                "wrong_answers": [
+                    0,
+                    3,
+                    8
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What should you consider when reflecting on your research experiences?",
+                        "options": [
+                            "4) The duration of your research project",
+                            "3) Only the final outcome",
+                            "1) The methods you used",
+                            "2) The time spent researching"
+                        ],
+                        "explanation": "Reflecting on research experiences involves evaluating the methods used, the sources consulted, and the outcomes rather than focusing solely on the final results or time spent on research.",
+                        "answer": "1) The methods you used"
+                    },
+                    {
+                        "question": "What tangible tool is suggested for recording reflections on research efforts?",
+                        "options": [
+                            "3) A calendar",
+                            "1) A research journal",
+                            "2) A digital notebook",
+                            "4) A feedback form"
+                        ],
+                        "explanation": "Keeping a research journal allows you to document reflections and insights about each research project, capturing what you've learned and what you might do differently in the future.",
+                        "answer": "1) A research journal"
+                    },
+                    {
+                        "question": "What does SMART stand for in the context of goal setting?",
+                        "options": [
+                            "3) Specific, Meaningful, Attainable, Relevant, Temporary",
+                            "2) Simple, Meaningful, Actionable, Realistic, Time-sensitive",
+                            "4) Strategic, Measurable, Actionable, Realistic, Targeted",
+                            "1) Specific, Measurable, Achievable, Relevant, Time-bound"
+                        ],
+                        "explanation": "SMART goals are Specific, Measurable, Achievable, Relevant, and Time-bound, providing a structured way to set actionable goals for improvement in research.",
+                        "answer": "1) Specific, Measurable, Achievable, Relevant, Time-bound"
+                    },
+                    {
+                        "question": "How can feedback enhance your research abilities according to the lecture?",
+                        "options": [
+                            "3) By confirming your research sources are credible",
+                            "4) By emphasizing the importance of personal opinions",
+                            "2) By offering opportunities for improvement",
+                            "1) By providing validation for your existing arguments"
+                        ],
+                        "explanation": "Feedback highlights areas for improvement, allowing for refinement of arguments and strengthening of your research process rather than simply validating existing work.",
+                        "answer": "2) By offering opportunities for improvement"
+                    },
+                    {
+                        "question": "What type of learning is emphasized as being critical in the changing landscape of research?",
+                        "options": [
+                            "3) Continuous Learning",
+                            "4) Traditional Learning",
+                            "2) Structured Learning",
+                            "1) Passive Learning"
+                        ],
+                        "explanation": "Continuous learning is vital as new methodologies and technologies are introduced in research, and adapting through ongoing education can enhance research skills.",
+                        "answer": "3) Continuous Learning"
+                    },
+                    {
+                        "question": "What is an important approach towards receiving feedback mentioned in the lecture?",
+                        "options": [
+                            "2) Looking for only positive comments",
+                            "1) Accepting feedback without question",
+                            "4) Ignoring conflicting opinions",
+                            "3) Viewing feedback as a tool for improvement"
+                        ],
+                        "explanation": "Approaching feedback as a tool for improvement, rather than as criticism, allows for constructive growth in research abilities.",
+                        "answer": "3) Viewing feedback as a tool for improvement"
+                    },
+                    {
+                        "question": "Why is it suggested to engage in collaborative research even when working alone?",
+                        "options": [
+                            "4) To work at a faster pace",
+                            "2) To gain insights from different perspectives",
+                            "1) To ensure you don't get sidetracked",
+                            "3) To validate your original ideas"
+                        ],
+                        "explanation": "Collaboration can expose you to new perspectives and methodologies, enriching your understanding and enhancing your research skills.",
+                        "answer": "2) To gain insights from different perspectives"
+                    },
+                    {
+                        "question": "What can regularly reviewing feedback on your work help identify?",
+                        "options": [
+                            "4) The need for citations",
+                            "2) The certainty of your conclusions",
+                            "3) The quality of your arguments",
+                            "1) Patterns that can guide future research efforts"
+                        ],
+                        "explanation": "Regularly reviewing feedback helps you identify patterns and recurring issues, guiding improvements in future research efforts.",
+                        "answer": "1) Patterns that can guide future research efforts"
+                    },
+                    {
+                        "question": "Which of the following is recommended to enhance your research skills through continual learning?",
+                        "options": [
+                            "4) Compiling historical research achievements",
+                            "1) Joining online courses and workshops",
+                            "3) Focusing on a single topic of interest",
+                            "2) Relying only on textbooks"
+                        ],
+                        "explanation": "Engaging in online courses and workshops helps expose you to new techniques and methodologies that can improve your research skills.",
+                        "answer": "1) Joining online courses and workshops"
+                    },
+                    {
+                        "question": "What is noted as a key takeaway when evaluating the sources used in research?",
+                        "options": [
+                            "1) General websites are usually sufficient",
+                            "4) Personal blogs are ideal for research",
+                            "2) Academic journals provide deeper insights",
+                            "3) Only mainstream sources are credible"
+                        ],
+                        "explanation": "Evaluating sources critically shows that academic journals often yield more credible and in-depth information compared to more general types of websites.",
+                        "answer": "2) Academic journals provide deeper insights"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    3
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What should you consider when reflecting on your research experiences?",
+                        "options": [
+                            "4) The duration of your research project",
+                            "3) Only the final outcome",
+                            "1) The methods you used",
+                            "2) The time spent researching"
+                        ],
+                        "explanation": "Reflecting on research experiences involves evaluating the methods used, the sources consulted, and the outcomes rather than focusing solely on the final results or time spent on research.",
+                        "answer": "1) The methods you used"
+                    },
+                    {
+                        "question": "What tangible tool is suggested for recording reflections on research efforts?",
+                        "options": [
+                            "3) A calendar",
+                            "1) A research journal",
+                            "2) A digital notebook",
+                            "4) A feedback form"
+                        ],
+                        "explanation": "Keeping a research journal allows you to document reflections and insights about each research project, capturing what you've learned and what you might do differently in the future.",
+                        "answer": "1) A research journal"
+                    },
+                    {
+                        "question": "What does SMART stand for in the context of goal setting?",
+                        "options": [
+                            "3) Specific, Meaningful, Attainable, Relevant, Temporary",
+                            "2) Simple, Meaningful, Actionable, Realistic, Time-sensitive",
+                            "4) Strategic, Measurable, Actionable, Realistic, Targeted",
+                            "1) Specific, Measurable, Achievable, Relevant, Time-bound"
+                        ],
+                        "explanation": "SMART goals are Specific, Measurable, Achievable, Relevant, and Time-bound, providing a structured way to set actionable goals for improvement in research.",
+                        "answer": "1) Specific, Measurable, Achievable, Relevant, Time-bound"
+                    },
+                    {
+                        "question": "How can feedback enhance your research abilities according to the lecture?",
+                        "options": [
+                            "3) By confirming your research sources are credible",
+                            "4) By emphasizing the importance of personal opinions",
+                            "2) By offering opportunities for improvement",
+                            "1) By providing validation for your existing arguments"
+                        ],
+                        "explanation": "Feedback highlights areas for improvement, allowing for refinement of arguments and strengthening of your research process rather than simply validating existing work.",
+                        "answer": "2) By offering opportunities for improvement"
+                    },
+                    {
+                        "question": "What type of learning is emphasized as being critical in the changing landscape of research?",
+                        "options": [
+                            "3) Continuous Learning",
+                            "4) Traditional Learning",
+                            "2) Structured Learning",
+                            "1) Passive Learning"
+                        ],
+                        "explanation": "Continuous learning is vital as new methodologies and technologies are introduced in research, and adapting through ongoing education can enhance research skills.",
+                        "answer": "3) Continuous Learning"
+                    },
+                    {
+                        "question": "What is an important approach towards receiving feedback mentioned in the lecture?",
+                        "options": [
+                            "2) Looking for only positive comments",
+                            "1) Accepting feedback without question",
+                            "4) Ignoring conflicting opinions",
+                            "3) Viewing feedback as a tool for improvement"
+                        ],
+                        "explanation": "Approaching feedback as a tool for improvement, rather than as criticism, allows for constructive growth in research abilities.",
+                        "answer": "3) Viewing feedback as a tool for improvement"
+                    },
+                    {
+                        "question": "Why is it suggested to engage in collaborative research even when working alone?",
+                        "options": [
+                            "4) To work at a faster pace",
+                            "2) To gain insights from different perspectives",
+                            "1) To ensure you don't get sidetracked",
+                            "3) To validate your original ideas"
+                        ],
+                        "explanation": "Collaboration can expose you to new perspectives and methodologies, enriching your understanding and enhancing your research skills.",
+                        "answer": "2) To gain insights from different perspectives"
+                    },
+                    {
+                        "question": "What can regularly reviewing feedback on your work help identify?",
+                        "options": [
+                            "4) The need for citations",
+                            "2) The certainty of your conclusions",
+                            "3) The quality of your arguments",
+                            "1) Patterns that can guide future research efforts"
+                        ],
+                        "explanation": "Regularly reviewing feedback helps you identify patterns and recurring issues, guiding improvements in future research efforts.",
+                        "answer": "1) Patterns that can guide future research efforts"
+                    },
+                    {
+                        "question": "Which of the following is recommended to enhance your research skills through continual learning?",
+                        "options": [
+                            "4) Compiling historical research achievements",
+                            "1) Joining online courses and workshops",
+                            "3) Focusing on a single topic of interest",
+                            "2) Relying only on textbooks"
+                        ],
+                        "explanation": "Engaging in online courses and workshops helps expose you to new techniques and methodologies that can improve your research skills.",
+                        "answer": "1) Joining online courses and workshops"
+                    },
+                    {
+                        "question": "What is noted as a key takeaway when evaluating the sources used in research?",
+                        "options": [
+                            "1) General websites are usually sufficient",
+                            "4) Personal blogs are ideal for research",
+                            "2) Academic journals provide deeper insights",
+                            "3) Only mainstream sources are credible"
+                        ],
+                        "explanation": "Evaluating sources critically shows that academic journals often yield more credible and in-depth information compared to more general types of websites.",
+                        "answer": "2) Academic journals provide deeper insights"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What should you consider when reflecting on your research experiences?",
+                        "options": [
+                            "4) The duration of your research project",
+                            "3) Only the final outcome",
+                            "1) The methods you used",
+                            "2) The time spent researching"
+                        ],
+                        "explanation": "Reflecting on research experiences involves evaluating the methods used, the sources consulted, and the outcomes rather than focusing solely on the final results or time spent on research.",
+                        "answer": "1) The methods you used"
+                    },
+                    {
+                        "question": "What tangible tool is suggested for recording reflections on research efforts?",
+                        "options": [
+                            "3) A calendar",
+                            "1) A research journal",
+                            "2) A digital notebook",
+                            "4) A feedback form"
+                        ],
+                        "explanation": "Keeping a research journal allows you to document reflections and insights about each research project, capturing what you've learned and what you might do differently in the future.",
+                        "answer": "1) A research journal"
+                    },
+                    {
+                        "question": "What does SMART stand for in the context of goal setting?",
+                        "options": [
+                            "3) Specific, Meaningful, Attainable, Relevant, Temporary",
+                            "2) Simple, Meaningful, Actionable, Realistic, Time-sensitive",
+                            "4) Strategic, Measurable, Actionable, Realistic, Targeted",
+                            "1) Specific, Measurable, Achievable, Relevant, Time-bound"
+                        ],
+                        "explanation": "SMART goals are Specific, Measurable, Achievable, Relevant, and Time-bound, providing a structured way to set actionable goals for improvement in research.",
+                        "answer": "1) Specific, Measurable, Achievable, Relevant, Time-bound"
+                    },
+                    {
+                        "question": "How can feedback enhance your research abilities according to the lecture?",
+                        "options": [
+                            "3) By confirming your research sources are credible",
+                            "4) By emphasizing the importance of personal opinions",
+                            "2) By offering opportunities for improvement",
+                            "1) By providing validation for your existing arguments"
+                        ],
+                        "explanation": "Feedback highlights areas for improvement, allowing for refinement of arguments and strengthening of your research process rather than simply validating existing work.",
+                        "answer": "2) By offering opportunities for improvement"
+                    },
+                    {
+                        "question": "What type of learning is emphasized as being critical in the changing landscape of research?",
+                        "options": [
+                            "3) Continuous Learning",
+                            "4) Traditional Learning",
+                            "2) Structured Learning",
+                            "1) Passive Learning"
+                        ],
+                        "explanation": "Continuous learning is vital as new methodologies and technologies are introduced in research, and adapting through ongoing education can enhance research skills.",
+                        "answer": "3) Continuous Learning"
+                    },
+                    {
+                        "question": "What is an important approach towards receiving feedback mentioned in the lecture?",
+                        "options": [
+                            "2) Looking for only positive comments",
+                            "1) Accepting feedback without question",
+                            "4) Ignoring conflicting opinions",
+                            "3) Viewing feedback as a tool for improvement"
+                        ],
+                        "explanation": "Approaching feedback as a tool for improvement, rather than as criticism, allows for constructive growth in research abilities.",
+                        "answer": "3) Viewing feedback as a tool for improvement"
+                    },
+                    {
+                        "question": "Why is it suggested to engage in collaborative research even when working alone?",
+                        "options": [
+                            "4) To work at a faster pace",
+                            "2) To gain insights from different perspectives",
+                            "1) To ensure you don't get sidetracked",
+                            "3) To validate your original ideas"
+                        ],
+                        "explanation": "Collaboration can expose you to new perspectives and methodologies, enriching your understanding and enhancing your research skills.",
+                        "answer": "2) To gain insights from different perspectives"
+                    },
+                    {
+                        "question": "What can regularly reviewing feedback on your work help identify?",
+                        "options": [
+                            "4) The need for citations",
+                            "2) The certainty of your conclusions",
+                            "3) The quality of your arguments",
+                            "1) Patterns that can guide future research efforts"
+                        ],
+                        "explanation": "Regularly reviewing feedback helps you identify patterns and recurring issues, guiding improvements in future research efforts.",
+                        "answer": "1) Patterns that can guide future research efforts"
+                    },
+                    {
+                        "question": "Which of the following is recommended to enhance your research skills through continual learning?",
+                        "options": [
+                            "4) Compiling historical research achievements",
+                            "1) Joining online courses and workshops",
+                            "3) Focusing on a single topic of interest",
+                            "2) Relying only on textbooks"
+                        ],
+                        "explanation": "Engaging in online courses and workshops helps expose you to new techniques and methodologies that can improve your research skills.",
+                        "answer": "1) Joining online courses and workshops"
+                    },
+                    {
+                        "question": "What is noted as a key takeaway when evaluating the sources used in research?",
+                        "options": [
+                            "1) General websites are usually sufficient",
+                            "4) Personal blogs are ideal for research",
+                            "2) Academic journals provide deeper insights",
+                            "3) Only mainstream sources are credible"
+                        ],
+                        "explanation": "Evaluating sources critically shows that academic journals often yield more credible and in-depth information compared to more general types of websites.",
+                        "answer": "2) Academic journals provide deeper insights"
+                    }
+                ]
+            }
+        ],
+        "Science": [
+            {
+                "quiz_grade": 70.0,
+                "wrong_answers": [
+                    1,
+                    3,
+                    9
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What structure in a cell is often referred to as the control center?",
+                        "options": [
+                            "2) Nucleus",
+                            "1) Ribosomes",
+                            "3) Mitochondria",
+                            "4) Golgi apparatus"
+                        ],
+                        "explanation": "The nucleus houses the cell's DNA, which contains essential genetic information, making it the control center of the cell.",
+                        "answer": "2) Nucleus"
+                    },
+                    {
+                        "question": "Which organelle is involved in producing ribosomes?",
+                        "options": [
+                            "1) Chloroplast",
+                            "4) Lysosome",
+                            "3) Smooth ER",
+                            "2) Nucleus"
+                        ],
+                        "explanation": "The nucleolus, found within the nucleus, is responsible for the production of ribosomes.",
+                        "answer": "2) Nucleus"
+                    },
+                    {
+                        "question": "What do mitochondria produce through cellular respiration?",
+                        "options": [
+                            "4) Proteins",
+                            "2) ATP",
+                            "1) Glucose",
+                            "3) Carbon Dioxide"
+                        ],
+                        "explanation": "Mitochondria produce energy in the form of ATP during the process of cellular respiration.",
+                        "answer": "2) ATP"
+                    },
+                    {
+                        "question": "Which organelle modifies, sorts, and packages proteins and lipids?",
+                        "options": [
+                            "1) Golgi apparatus",
+                            "4) Chloroplast",
+                            "2) Rough ER",
+                            "3) Nucleus"
+                        ],
+                        "explanation": "The Golgi apparatus functions to modify, sort, and package proteins and lipids to be distributed in the cell.",
+                        "answer": "1) Golgi apparatus"
+                    },
+                    {
+                        "question": "What is the function of smooth endoplasmic reticulum?",
+                        "options": [
+                            "3) Energy production",
+                            "4) Waste disposal",
+                            "1) Protein synthesis",
+                            "2) Lipid synthesis and detoxification"
+                        ],
+                        "explanation": "The smooth endoplasmic reticulum is involved in lipid synthesis and detoxifying harmful substances.",
+                        "answer": "2) Lipid synthesis and detoxification"
+                    },
+                    {
+                        "question": "What cellular structure is responsible for breaking down waste and cellular debris?",
+                        "options": [
+                            "4) Plasma membrane",
+                            "2) Chloroplast",
+                            "1) Mitochondria",
+                            "3) Lysosomes"
+                        ],
+                        "explanation": "Lysosomes act as the cell's waste disposal system, containing enzymes that break down waste materials and debris.",
+                        "answer": "3) Lysosomes"
+                    },
+                    {
+                        "question": "Which organelle is known for capturing light energy for photosynthesis?",
+                        "options": [
+                            "1) Mitochondria",
+                            "3) Chloroplast",
+                            "2) Ribosomes",
+                            "4) Nucleus"
+                        ],
+                        "explanation": "Chloroplasts contain chlorophyll, which captures light energy to produce glucose during photosynthesis.",
+                        "answer": "3) Chloroplast"
+                    },
+                    {
+                        "question": "What is the main structural role of the plasma membrane?",
+                        "options": [
+                            "4) Protein modification",
+                            "1) Control center of the cell",
+                            "3) Structural support and protection",
+                            "2) Energy production"
+                        ],
+                        "explanation": "The plasma membrane provides structural support and protects the cell while regulating what enters and exits.",
+                        "answer": "3) Structural support and protection"
+                    },
+                    {
+                        "question": "How are vesicles associated with the Golgi apparatus?",
+                        "options": [
+                            "2) They help in lipid breakdown",
+                            "4) They generate ATP",
+                            "1) They store DNA",
+                            "3) They transport materials within the cell"
+                        ],
+                        "explanation": "Vesicles bud off the Golgi apparatus, carrying modified proteins and lipids to their destinations within or outside the cell.",
+                        "answer": "3) They transport materials within the cell"
+                    },
+                    {
+                        "question": "What is a key feature of the mitochondria that supports the endosymbiotic theory?",
+                        "options": [
+                            "3) They synthesize lipids",
+                            "2) They have their own DNA",
+                            "4) They help in cell division",
+                            "1) They produce proteins"
+                        ],
+                        "explanation": "Mitochondria have their own DNA, which suggests they were once independent bacteria incorporated into cells, supporting the endosymbiotic theory.",
+                        "answer": "2) They have their own DNA"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    1,
+                    9
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What structure in a cell is often referred to as the control center?",
+                        "options": [
+                            "2) Nucleus",
+                            "1) Ribosomes",
+                            "3) Mitochondria",
+                            "4) Golgi apparatus"
+                        ],
+                        "explanation": "The nucleus houses the cell's DNA, which contains essential genetic information, making it the control center of the cell.",
+                        "answer": "2) Nucleus"
+                    },
+                    {
+                        "question": "Which organelle is involved in producing ribosomes?",
+                        "options": [
+                            "1) Chloroplast",
+                            "4) Lysosome",
+                            "3) Smooth ER",
+                            "2) Nucleus"
+                        ],
+                        "explanation": "The nucleolus, found within the nucleus, is responsible for the production of ribosomes.",
+                        "answer": "2) Nucleus"
+                    },
+                    {
+                        "question": "What do mitochondria produce through cellular respiration?",
+                        "options": [
+                            "4) Proteins",
+                            "2) ATP",
+                            "1) Glucose",
+                            "3) Carbon Dioxide"
+                        ],
+                        "explanation": "Mitochondria produce energy in the form of ATP during the process of cellular respiration.",
+                        "answer": "2) ATP"
+                    },
+                    {
+                        "question": "Which organelle modifies, sorts, and packages proteins and lipids?",
+                        "options": [
+                            "1) Golgi apparatus",
+                            "4) Chloroplast",
+                            "2) Rough ER",
+                            "3) Nucleus"
+                        ],
+                        "explanation": "The Golgi apparatus functions to modify, sort, and package proteins and lipids to be distributed in the cell.",
+                        "answer": "1) Golgi apparatus"
+                    },
+                    {
+                        "question": "What is the function of smooth endoplasmic reticulum?",
+                        "options": [
+                            "3) Energy production",
+                            "4) Waste disposal",
+                            "1) Protein synthesis",
+                            "2) Lipid synthesis and detoxification"
+                        ],
+                        "explanation": "The smooth endoplasmic reticulum is involved in lipid synthesis and detoxifying harmful substances.",
+                        "answer": "2) Lipid synthesis and detoxification"
+                    },
+                    {
+                        "question": "What cellular structure is responsible for breaking down waste and cellular debris?",
+                        "options": [
+                            "4) Plasma membrane",
+                            "2) Chloroplast",
+                            "1) Mitochondria",
+                            "3) Lysosomes"
+                        ],
+                        "explanation": "Lysosomes act as the cell's waste disposal system, containing enzymes that break down waste materials and debris.",
+                        "answer": "3) Lysosomes"
+                    },
+                    {
+                        "question": "Which organelle is known for capturing light energy for photosynthesis?",
+                        "options": [
+                            "1) Mitochondria",
+                            "3) Chloroplast",
+                            "2) Ribosomes",
+                            "4) Nucleus"
+                        ],
+                        "explanation": "Chloroplasts contain chlorophyll, which captures light energy to produce glucose during photosynthesis.",
+                        "answer": "3) Chloroplast"
+                    },
+                    {
+                        "question": "What is the main structural role of the plasma membrane?",
+                        "options": [
+                            "4) Protein modification",
+                            "1) Control center of the cell",
+                            "3) Structural support and protection",
+                            "2) Energy production"
+                        ],
+                        "explanation": "The plasma membrane provides structural support and protects the cell while regulating what enters and exits.",
+                        "answer": "3) Structural support and protection"
+                    },
+                    {
+                        "question": "How are vesicles associated with the Golgi apparatus?",
+                        "options": [
+                            "2) They help in lipid breakdown",
+                            "4) They generate ATP",
+                            "1) They store DNA",
+                            "3) They transport materials within the cell"
+                        ],
+                        "explanation": "Vesicles bud off the Golgi apparatus, carrying modified proteins and lipids to their destinations within or outside the cell.",
+                        "answer": "3) They transport materials within the cell"
+                    },
+                    {
+                        "question": "What is a key feature of the mitochondria that supports the endosymbiotic theory?",
+                        "options": [
+                            "3) They synthesize lipids",
+                            "2) They have their own DNA",
+                            "4) They help in cell division",
+                            "1) They produce proteins"
+                        ],
+                        "explanation": "Mitochondria have their own DNA, which suggests they were once independent bacteria incorporated into cells, supporting the endosymbiotic theory.",
+                        "answer": "2) They have their own DNA"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    9
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What structure in a cell is often referred to as the control center?",
+                        "options": [
+                            "2) Nucleus",
+                            "1) Ribosomes",
+                            "3) Mitochondria",
+                            "4) Golgi apparatus"
+                        ],
+                        "explanation": "The nucleus houses the cell's DNA, which contains essential genetic information, making it the control center of the cell.",
+                        "answer": "2) Nucleus"
+                    },
+                    {
+                        "question": "Which organelle is involved in producing ribosomes?",
+                        "options": [
+                            "1) Chloroplast",
+                            "4) Lysosome",
+                            "3) Smooth ER",
+                            "2) Nucleus"
+                        ],
+                        "explanation": "The nucleolus, found within the nucleus, is responsible for the production of ribosomes.",
+                        "answer": "2) Nucleus"
+                    },
+                    {
+                        "question": "What do mitochondria produce through cellular respiration?",
+                        "options": [
+                            "4) Proteins",
+                            "2) ATP",
+                            "1) Glucose",
+                            "3) Carbon Dioxide"
+                        ],
+                        "explanation": "Mitochondria produce energy in the form of ATP during the process of cellular respiration.",
+                        "answer": "2) ATP"
+                    },
+                    {
+                        "question": "Which organelle modifies, sorts, and packages proteins and lipids?",
+                        "options": [
+                            "1) Golgi apparatus",
+                            "4) Chloroplast",
+                            "2) Rough ER",
+                            "3) Nucleus"
+                        ],
+                        "explanation": "The Golgi apparatus functions to modify, sort, and package proteins and lipids to be distributed in the cell.",
+                        "answer": "1) Golgi apparatus"
+                    },
+                    {
+                        "question": "What is the function of smooth endoplasmic reticulum?",
+                        "options": [
+                            "3) Energy production",
+                            "4) Waste disposal",
+                            "1) Protein synthesis",
+                            "2) Lipid synthesis and detoxification"
+                        ],
+                        "explanation": "The smooth endoplasmic reticulum is involved in lipid synthesis and detoxifying harmful substances.",
+                        "answer": "2) Lipid synthesis and detoxification"
+                    },
+                    {
+                        "question": "What cellular structure is responsible for breaking down waste and cellular debris?",
+                        "options": [
+                            "4) Plasma membrane",
+                            "2) Chloroplast",
+                            "1) Mitochondria",
+                            "3) Lysosomes"
+                        ],
+                        "explanation": "Lysosomes act as the cell's waste disposal system, containing enzymes that break down waste materials and debris.",
+                        "answer": "3) Lysosomes"
+                    },
+                    {
+                        "question": "Which organelle is known for capturing light energy for photosynthesis?",
+                        "options": [
+                            "1) Mitochondria",
+                            "3) Chloroplast",
+                            "2) Ribosomes",
+                            "4) Nucleus"
+                        ],
+                        "explanation": "Chloroplasts contain chlorophyll, which captures light energy to produce glucose during photosynthesis.",
+                        "answer": "3) Chloroplast"
+                    },
+                    {
+                        "question": "What is the main structural role of the plasma membrane?",
+                        "options": [
+                            "4) Protein modification",
+                            "1) Control center of the cell",
+                            "3) Structural support and protection",
+                            "2) Energy production"
+                        ],
+                        "explanation": "The plasma membrane provides structural support and protects the cell while regulating what enters and exits.",
+                        "answer": "3) Structural support and protection"
+                    },
+                    {
+                        "question": "How are vesicles associated with the Golgi apparatus?",
+                        "options": [
+                            "2) They help in lipid breakdown",
+                            "4) They generate ATP",
+                            "1) They store DNA",
+                            "3) They transport materials within the cell"
+                        ],
+                        "explanation": "Vesicles bud off the Golgi apparatus, carrying modified proteins and lipids to their destinations within or outside the cell.",
+                        "answer": "3) They transport materials within the cell"
+                    },
+                    {
+                        "question": "What is a key feature of the mitochondria that supports the endosymbiotic theory?",
+                        "options": [
+                            "3) They synthesize lipids",
+                            "2) They have their own DNA",
+                            "4) They help in cell division",
+                            "1) They produce proteins"
+                        ],
+                        "explanation": "Mitochondria have their own DNA, which suggests they were once independent bacteria incorporated into cells, supporting the endosymbiotic theory.",
+                        "answer": "2) They have their own DNA"
+                    }
+                ]
+            }
+        ],
+        "Texas History": [
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    2,
+                    3,
+                    5,
+                    7
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What year did the Texas Revolution begin?",
+                        "options": [
+                            "1) 1830",
+                            "4) 1845",
+                            "3) 1840",
+                            "2) 1835"
+                        ],
+                        "explanation": "The Texas Revolution began in 1835 when Texians revolted against the Mexican government.",
+                        "answer": "2) 1835"
+                    },
+                    {
+                        "question": "Which leader is associated with the historic victory at the Battle of San Jacinto?",
+                        "options": [
+                            "3) Sam Houston",
+                            "2) Stephen F. Austin",
+                            "1) Mirabeau B. Lamar",
+                            "4) Santa Anna"
+                        ],
+                        "explanation": "General Sam Houston led the Texian forces to victory at the Battle of San Jacinto, which was crucial in securing Texas' independence.",
+                        "answer": "3) Sam Houston"
+                    },
+                    {
+                        "question": "What were the Treaties of Velasco?",
+                        "options": [
+                            "3) Land treaties with Native American tribes",
+                            "4) Economic agreements with the U.S.",
+                            "1) Agreements to build railroads",
+                            "2) Treaties granting Texas independence"
+                        ],
+                        "explanation": "The Treaties of Velasco were signed after the Battle of San Jacinto and effectively granted Texas its independence from Mexico.",
+                        "answer": "2) Treaties granting Texas independence"
+                    },
+                    {
+                        "question": "Who took over as president after Sam Houston's administration?",
+                        "options": [
+                            "1) John Tyler",
+                            "2) Mirabeau B. Lamar",
+                            "3) William B. Travis",
+                            "4) David G. Burnet"
+                        ],
+                        "explanation": "Mirabeau B. Lamar became president after Sam Houston and focused on expanding the territory of the Republic of Texas.",
+                        "answer": "2) Mirabeau B. Lamar"
+                    },
+                    {
+                        "question": "What did the Republic of Texas struggle with economically?",
+                        "options": [
+                            "2) Agricultural failure",
+                            "3) Currency establishment and debt management",
+                            "1) High taxes",
+                            "4) Trade agreements"
+                        ],
+                        "explanation": "The Republic faced economic turmoil, attempting to establish a currency and manage debts while navigating a challenging political landscape.",
+                        "answer": "3) Currency establishment and debt management"
+                    },
+                    {
+                        "question": "What did Lamar's Policies focus on during his presidency?",
+                        "options": [
+                            "3) Expanding Republic territory",
+                            "2) Improving education",
+                            "4) Reducing military presence",
+                            "1) Restoring relations with Mexico"
+                        ],
+                        "explanation": "Lamar's Policies were focused on expanding the Republic's territory, but they also led to increased tensions with Native American tribes.",
+                        "answer": "3) Expanding Republic territory"
+                    },
+                    {
+                        "question": "In what year did Texas officially become a state in the United States?",
+                        "options": [
+                            "1) 1840",
+                            "2) 1845",
+                            "4) 1861",
+                            "3) 1850"
+                        ],
+                        "explanation": "Texas was annexed to the United States in 1845, becoming the 28th state, which had lasting implications for both Texas and the U.S.",
+                        "answer": "2) 1845"
+                    },
+                    {
+                        "question": "What significant conflict was linked to Texas' annexation into the United States?",
+                        "options": [
+                            "3) The Mexican-American War",
+                            "4) The Spanish-American War",
+                            "2) The Civil War",
+                            "1) The War of 1812"
+                        ],
+                        "explanation": "The annexation of Texas contributed to the onset of the Mexican-American War in 1846, as tensions over slavery and territorial expansion grew.",
+                        "answer": "3) The Mexican-American War"
+                    },
+                    {
+                        "question": "What major theme is emphasized regarding the identity of Texas today?",
+                        "options": [
+                            "4) The importance of education",
+                            "2) Military excellence",
+                            "3) Texan pride in their revolutionary history",
+                            "1) Economic prosperity"
+                        ],
+                        "explanation": "The era of the Republic of Texas fostered a strong sense of Texan identity and pride, deeply rooted in the struggles and victories of the Texas Revolution.",
+                        "answer": "3) Texan pride in their revolutionary history"
+                    },
+                    {
+                        "question": "What was one of the central challenges during Sam Houston's presidency?",
+                        "options": [
+                            "4) Writing a new constitution",
+                            "3) Dealing with economic difficulties and border disputes",
+                            "2) Overseeing the construction of railroads",
+                            "1) Establishing a colony in California"
+                        ],
+                        "explanation": "Sam Houston's administration faced challenges including economic turmoil, managing border disputes, and handling relations with Native American tribes.",
+                        "answer": "3) Dealing with economic difficulties and border disputes"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    2,
+                    3,
+                    5,
+                    7
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What year did the Texas Revolution begin?",
+                        "options": [
+                            "1) 1830",
+                            "4) 1845",
+                            "3) 1840",
+                            "2) 1835"
+                        ],
+                        "explanation": "The Texas Revolution began in 1835 when Texians revolted against the Mexican government.",
+                        "answer": "2) 1835"
+                    },
+                    {
+                        "question": "Which leader is associated with the historic victory at the Battle of San Jacinto?",
+                        "options": [
+                            "3) Sam Houston",
+                            "2) Stephen F. Austin",
+                            "1) Mirabeau B. Lamar",
+                            "4) Santa Anna"
+                        ],
+                        "explanation": "General Sam Houston led the Texian forces to victory at the Battle of San Jacinto, which was crucial in securing Texas' independence.",
+                        "answer": "3) Sam Houston"
+                    },
+                    {
+                        "question": "What were the Treaties of Velasco?",
+                        "options": [
+                            "3) Land treaties with Native American tribes",
+                            "4) Economic agreements with the U.S.",
+                            "1) Agreements to build railroads",
+                            "2) Treaties granting Texas independence"
+                        ],
+                        "explanation": "The Treaties of Velasco were signed after the Battle of San Jacinto and effectively granted Texas its independence from Mexico.",
+                        "answer": "2) Treaties granting Texas independence"
+                    },
+                    {
+                        "question": "Who took over as president after Sam Houston's administration?",
+                        "options": [
+                            "1) John Tyler",
+                            "2) Mirabeau B. Lamar",
+                            "3) William B. Travis",
+                            "4) David G. Burnet"
+                        ],
+                        "explanation": "Mirabeau B. Lamar became president after Sam Houston and focused on expanding the territory of the Republic of Texas.",
+                        "answer": "2) Mirabeau B. Lamar"
+                    },
+                    {
+                        "question": "What did the Republic of Texas struggle with economically?",
+                        "options": [
+                            "2) Agricultural failure",
+                            "3) Currency establishment and debt management",
+                            "1) High taxes",
+                            "4) Trade agreements"
+                        ],
+                        "explanation": "The Republic faced economic turmoil, attempting to establish a currency and manage debts while navigating a challenging political landscape.",
+                        "answer": "3) Currency establishment and debt management"
+                    },
+                    {
+                        "question": "What did Lamar's Policies focus on during his presidency?",
+                        "options": [
+                            "3) Expanding Republic territory",
+                            "2) Improving education",
+                            "4) Reducing military presence",
+                            "1) Restoring relations with Mexico"
+                        ],
+                        "explanation": "Lamar's Policies were focused on expanding the Republic's territory, but they also led to increased tensions with Native American tribes.",
+                        "answer": "3) Expanding Republic territory"
+                    },
+                    {
+                        "question": "In what year did Texas officially become a state in the United States?",
+                        "options": [
+                            "1) 1840",
+                            "2) 1845",
+                            "4) 1861",
+                            "3) 1850"
+                        ],
+                        "explanation": "Texas was annexed to the United States in 1845, becoming the 28th state, which had lasting implications for both Texas and the U.S.",
+                        "answer": "2) 1845"
+                    },
+                    {
+                        "question": "What significant conflict was linked to Texas' annexation into the United States?",
+                        "options": [
+                            "3) The Mexican-American War",
+                            "4) The Spanish-American War",
+                            "2) The Civil War",
+                            "1) The War of 1812"
+                        ],
+                        "explanation": "The annexation of Texas contributed to the onset of the Mexican-American War in 1846, as tensions over slavery and territorial expansion grew.",
+                        "answer": "3) The Mexican-American War"
+                    },
+                    {
+                        "question": "What major theme is emphasized regarding the identity of Texas today?",
+                        "options": [
+                            "4) The importance of education",
+                            "2) Military excellence",
+                            "3) Texan pride in their revolutionary history",
+                            "1) Economic prosperity"
+                        ],
+                        "explanation": "The era of the Republic of Texas fostered a strong sense of Texan identity and pride, deeply rooted in the struggles and victories of the Texas Revolution.",
+                        "answer": "3) Texan pride in their revolutionary history"
+                    },
+                    {
+                        "question": "What was one of the central challenges during Sam Houston's presidency?",
+                        "options": [
+                            "4) Writing a new constitution",
+                            "3) Dealing with economic difficulties and border disputes",
+                            "2) Overseeing the construction of railroads",
+                            "1) Establishing a colony in California"
+                        ],
+                        "explanation": "Sam Houston's administration faced challenges including economic turmoil, managing border disputes, and handling relations with Native American tribes.",
+                        "answer": "3) Dealing with economic difficulties and border disputes"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    2,
+                    3,
+                    5,
+                    7
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What year did the Texas Revolution begin?",
+                        "options": [
+                            "1) 1830",
+                            "4) 1845",
+                            "3) 1840",
+                            "2) 1835"
+                        ],
+                        "explanation": "The Texas Revolution began in 1835 when Texians revolted against the Mexican government.",
+                        "answer": "2) 1835"
+                    },
+                    {
+                        "question": "Which leader is associated with the historic victory at the Battle of San Jacinto?",
+                        "options": [
+                            "3) Sam Houston",
+                            "2) Stephen F. Austin",
+                            "1) Mirabeau B. Lamar",
+                            "4) Santa Anna"
+                        ],
+                        "explanation": "General Sam Houston led the Texian forces to victory at the Battle of San Jacinto, which was crucial in securing Texas' independence.",
+                        "answer": "3) Sam Houston"
+                    },
+                    {
+                        "question": "What were the Treaties of Velasco?",
+                        "options": [
+                            "3) Land treaties with Native American tribes",
+                            "4) Economic agreements with the U.S.",
+                            "1) Agreements to build railroads",
+                            "2) Treaties granting Texas independence"
+                        ],
+                        "explanation": "The Treaties of Velasco were signed after the Battle of San Jacinto and effectively granted Texas its independence from Mexico.",
+                        "answer": "2) Treaties granting Texas independence"
+                    },
+                    {
+                        "question": "Who took over as president after Sam Houston's administration?",
+                        "options": [
+                            "1) John Tyler",
+                            "2) Mirabeau B. Lamar",
+                            "3) William B. Travis",
+                            "4) David G. Burnet"
+                        ],
+                        "explanation": "Mirabeau B. Lamar became president after Sam Houston and focused on expanding the territory of the Republic of Texas.",
+                        "answer": "2) Mirabeau B. Lamar"
+                    },
+                    {
+                        "question": "What did the Republic of Texas struggle with economically?",
+                        "options": [
+                            "2) Agricultural failure",
+                            "3) Currency establishment and debt management",
+                            "1) High taxes",
+                            "4) Trade agreements"
+                        ],
+                        "explanation": "The Republic faced economic turmoil, attempting to establish a currency and manage debts while navigating a challenging political landscape.",
+                        "answer": "3) Currency establishment and debt management"
+                    },
+                    {
+                        "question": "What did Lamar's Policies focus on during his presidency?",
+                        "options": [
+                            "3) Expanding Republic territory",
+                            "2) Improving education",
+                            "4) Reducing military presence",
+                            "1) Restoring relations with Mexico"
+                        ],
+                        "explanation": "Lamar's Policies were focused on expanding the Republic's territory, but they also led to increased tensions with Native American tribes.",
+                        "answer": "3) Expanding Republic territory"
+                    },
+                    {
+                        "question": "In what year did Texas officially become a state in the United States?",
+                        "options": [
+                            "1) 1840",
+                            "2) 1845",
+                            "4) 1861",
+                            "3) 1850"
+                        ],
+                        "explanation": "Texas was annexed to the United States in 1845, becoming the 28th state, which had lasting implications for both Texas and the U.S.",
+                        "answer": "2) 1845"
+                    },
+                    {
+                        "question": "What significant conflict was linked to Texas' annexation into the United States?",
+                        "options": [
+                            "3) The Mexican-American War",
+                            "4) The Spanish-American War",
+                            "2) The Civil War",
+                            "1) The War of 1812"
+                        ],
+                        "explanation": "The annexation of Texas contributed to the onset of the Mexican-American War in 1846, as tensions over slavery and territorial expansion grew.",
+                        "answer": "3) The Mexican-American War"
+                    },
+                    {
+                        "question": "What major theme is emphasized regarding the identity of Texas today?",
+                        "options": [
+                            "4) The importance of education",
+                            "2) Military excellence",
+                            "3) Texan pride in their revolutionary history",
+                            "1) Economic prosperity"
+                        ],
+                        "explanation": "The era of the Republic of Texas fostered a strong sense of Texan identity and pride, deeply rooted in the struggles and victories of the Texas Revolution.",
+                        "answer": "3) Texan pride in their revolutionary history"
+                    },
+                    {
+                        "question": "What was one of the central challenges during Sam Houston's presidency?",
+                        "options": [
+                            "4) Writing a new constitution",
+                            "3) Dealing with economic difficulties and border disputes",
+                            "2) Overseeing the construction of railroads",
+                            "1) Establishing a colony in California"
+                        ],
+                        "explanation": "Sam Houston's administration faced challenges including economic turmoil, managing border disputes, and handling relations with Native American tribes.",
+                        "answer": "3) Dealing with economic difficulties and border disputes"
+                    }
+                ]
+            }
+        ],
+        "The Evolution of Faith": [
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    1,
+                    2,
+                    7,
+                    8
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "Who was the German monk known for nailing the Ninety-Five Theses to a church door?",
+                        "options": [
+                            "3) King Henry VIII",
+                            "4) Erasmus",
+                            "1) John Calvin",
+                            "2) Martin Luther"
+                        ],
+                        "explanation": "Martin Luther, a pivotal figure in the Reformation, famously challenged the Catholic Church's practices through his Ninety-Five Theses, which he nailed to the church door in Wittenberg in 1517.",
+                        "answer": "2) Martin Luther"
+                    },
+                    {
+                        "question": "What theological concept did John Calvin introduce that differed from Martin Luther's views?",
+                        "options": [
+                            "2) Predestination",
+                            "4) The importance of good works",
+                            "1) Justification by faith alone",
+                            "3) The sale of indulgences"
+                        ],
+                        "explanation": "John Calvin introduced the concept of predestination, which stated that God has already chosen who will be saved and who will not, expanding on Luther's ideas about faith.",
+                        "answer": "2) Predestination"
+                    },
+                    {
+                        "question": "What was one consequence of the Reformation in terms of European wars?",
+                        "options": [
+                            "3) The establishment of the Holy Roman Empire",
+                            "1) Increased cooperation between Catholic and Protestant states",
+                            "4) The end of the Crusades",
+                            "2) The Thirty Years' War"
+                        ],
+                        "explanation": "The rise of Protestantism led to significant conflicts, notably the Thirty Years' War, which deeply affected the political landscape of Europe, showcasing tensions between Catholic and Protestant states.",
+                        "answer": "2) The Thirty Years' War"
+                    },
+                    {
+                        "question": "How did the translation of the Scriptures impact literacy during the Reformation?",
+                        "options": [
+                            "2) It made the Bible more accessible to the masses",
+                            "1) It reduced literacy rates",
+                            "4) It encouraged people to rely only on priests",
+                            "3) It restricted reading to clergy only"
+                        ],
+                        "explanation": "Protestant reformers encouraged individuals to read the Bible themselves, thus fostering the translation of Scriptures into various languages and increasing literacy.",
+                        "answer": "2) It made the Bible more accessible to the masses"
+                    },
+                    {
+                        "question": "What role did the printing press play during the Reformation?",
+                        "options": [
+                            "4) It was used solely for political propaganda",
+                            "1) It delayed the spread of Reformation ideas",
+                            "3) It was banned by the Catholic Church",
+                            "2) It helped distribute Reformation ideas quickly"
+                        ],
+                        "explanation": "The printing press was crucial in the rapid dissemination of Reformation ideas across Europe, allowing for a wide distribution of Martin Luther's writings and other theological works.",
+                        "answer": "2) It helped distribute Reformation ideas quickly"
+                    },
+                    {
+                        "question": "What was a significant social shift resulting from the Reformation regarding individual belief?",
+                        "options": [
+                            "4) A ban on personal interpretations of the Bible",
+                            "2) A rise in communal religious practices",
+                            "1) A return to feudalism",
+                            "3) An emphasis on personal faith and direct relationship with God"
+                        ],
+                        "explanation": "The Reformation emphasized personal relationships with God, allowing individuals to interpret faith on their own rather than relying solely on Church authority, thus fostering individualism.",
+                        "answer": "3) An emphasis on personal faith and direct relationship with God"
+                    },
+                    {
+                        "question": "Which Reformation figure established the Church of England?",
+                        "options": [
+                            "4) Erasmus",
+                            "3) Henry VIII",
+                            "1) Martin Luther",
+                            "2) John Calvin"
+                        ],
+                        "explanation": "King Henry VIII broke from the Roman Catholic Church and established the Church of England primarily driven by personal and political reasons, marking a significant moment in the Reformation.",
+                        "answer": "3) Henry VIII"
+                    },
+                    {
+                        "question": "What was an early form of Protestant church initiated during the Reformation?",
+                        "options": [
+                            "3) The Catholic Church",
+                            "2) The Orthodox Church",
+                            "1) The Anglican Church",
+                            "4) The Lutheran Church"
+                        ],
+                        "explanation": "The Lutheran Church emerged as one of the first Protestant denominations, initiated by Martin Luther's reforms and the emphasis on justification by faith.",
+                        "answer": "4) The Lutheran Church"
+                    },
+                    {
+                        "question": "What document is known for challenging the Catholic Church's practices, specifically the sale of indulgences?",
+                        "options": [
+                            "3) The Institutes of the Christian Religion",
+                            "1) The Act of Supremacy",
+                            "2) The Ninety-Five Theses",
+                            "4) The Church of England's Book of Common Prayer"
+                        ],
+                        "explanation": "Martin Luther's Ninety-Five Theses specifically challenged the corrupt practices of the Catholic Church, notably the sale of indulgences.",
+                        "answer": "2) The Ninety-Five Theses"
+                    },
+                    {
+                        "question": "What movement did the Reformation initiate regarding governance in Europe?",
+                        "options": [
+                            "3) An emphasis on state sovereignty and religious diversity",
+                            "2) The rise of imperialism",
+                            "4) A return to feudal systems",
+                            "1) The absolute power of monarchy"
+                        ],
+                        "explanation": "The Reformation not only brought about religious diversity but also encouraged ideas of state sovereignty, leading to modern concepts of governance and individual rights.",
+                        "answer": "3) An emphasis on state sovereignty and religious diversity"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    1,
+                    2,
+                    7,
+                    8
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "Who was the German monk known for nailing the Ninety-Five Theses to a church door?",
+                        "options": [
+                            "3) King Henry VIII",
+                            "4) Erasmus",
+                            "1) John Calvin",
+                            "2) Martin Luther"
+                        ],
+                        "explanation": "Martin Luther, a pivotal figure in the Reformation, famously challenged the Catholic Church's practices through his Ninety-Five Theses, which he nailed to the church door in Wittenberg in 1517.",
+                        "answer": "2) Martin Luther"
+                    },
+                    {
+                        "question": "What theological concept did John Calvin introduce that differed from Martin Luther's views?",
+                        "options": [
+                            "2) Predestination",
+                            "4) The importance of good works",
+                            "1) Justification by faith alone",
+                            "3) The sale of indulgences"
+                        ],
+                        "explanation": "John Calvin introduced the concept of predestination, which stated that God has already chosen who will be saved and who will not, expanding on Luther's ideas about faith.",
+                        "answer": "2) Predestination"
+                    },
+                    {
+                        "question": "What was one consequence of the Reformation in terms of European wars?",
+                        "options": [
+                            "3) The establishment of the Holy Roman Empire",
+                            "1) Increased cooperation between Catholic and Protestant states",
+                            "4) The end of the Crusades",
+                            "2) The Thirty Years' War"
+                        ],
+                        "explanation": "The rise of Protestantism led to significant conflicts, notably the Thirty Years' War, which deeply affected the political landscape of Europe, showcasing tensions between Catholic and Protestant states.",
+                        "answer": "2) The Thirty Years' War"
+                    },
+                    {
+                        "question": "How did the translation of the Scriptures impact literacy during the Reformation?",
+                        "options": [
+                            "2) It made the Bible more accessible to the masses",
+                            "1) It reduced literacy rates",
+                            "4) It encouraged people to rely only on priests",
+                            "3) It restricted reading to clergy only"
+                        ],
+                        "explanation": "Protestant reformers encouraged individuals to read the Bible themselves, thus fostering the translation of Scriptures into various languages and increasing literacy.",
+                        "answer": "2) It made the Bible more accessible to the masses"
+                    },
+                    {
+                        "question": "What role did the printing press play during the Reformation?",
+                        "options": [
+                            "4) It was used solely for political propaganda",
+                            "1) It delayed the spread of Reformation ideas",
+                            "3) It was banned by the Catholic Church",
+                            "2) It helped distribute Reformation ideas quickly"
+                        ],
+                        "explanation": "The printing press was crucial in the rapid dissemination of Reformation ideas across Europe, allowing for a wide distribution of Martin Luther's writings and other theological works.",
+                        "answer": "2) It helped distribute Reformation ideas quickly"
+                    },
+                    {
+                        "question": "What was a significant social shift resulting from the Reformation regarding individual belief?",
+                        "options": [
+                            "4) A ban on personal interpretations of the Bible",
+                            "2) A rise in communal religious practices",
+                            "1) A return to feudalism",
+                            "3) An emphasis on personal faith and direct relationship with God"
+                        ],
+                        "explanation": "The Reformation emphasized personal relationships with God, allowing individuals to interpret faith on their own rather than relying solely on Church authority, thus fostering individualism.",
+                        "answer": "3) An emphasis on personal faith and direct relationship with God"
+                    },
+                    {
+                        "question": "Which Reformation figure established the Church of England?",
+                        "options": [
+                            "4) Erasmus",
+                            "3) Henry VIII",
+                            "1) Martin Luther",
+                            "2) John Calvin"
+                        ],
+                        "explanation": "King Henry VIII broke from the Roman Catholic Church and established the Church of England primarily driven by personal and political reasons, marking a significant moment in the Reformation.",
+                        "answer": "3) Henry VIII"
+                    },
+                    {
+                        "question": "What was an early form of Protestant church initiated during the Reformation?",
+                        "options": [
+                            "3) The Catholic Church",
+                            "2) The Orthodox Church",
+                            "1) The Anglican Church",
+                            "4) The Lutheran Church"
+                        ],
+                        "explanation": "The Lutheran Church emerged as one of the first Protestant denominations, initiated by Martin Luther's reforms and the emphasis on justification by faith.",
+                        "answer": "4) The Lutheran Church"
+                    },
+                    {
+                        "question": "What document is known for challenging the Catholic Church's practices, specifically the sale of indulgences?",
+                        "options": [
+                            "3) The Institutes of the Christian Religion",
+                            "1) The Act of Supremacy",
+                            "2) The Ninety-Five Theses",
+                            "4) The Church of England's Book of Common Prayer"
+                        ],
+                        "explanation": "Martin Luther's Ninety-Five Theses specifically challenged the corrupt practices of the Catholic Church, notably the sale of indulgences.",
+                        "answer": "2) The Ninety-Five Theses"
+                    },
+                    {
+                        "question": "What movement did the Reformation initiate regarding governance in Europe?",
+                        "options": [
+                            "3) An emphasis on state sovereignty and religious diversity",
+                            "2) The rise of imperialism",
+                            "4) A return to feudal systems",
+                            "1) The absolute power of monarchy"
+                        ],
+                        "explanation": "The Reformation not only brought about religious diversity but also encouraged ideas of state sovereignty, leading to modern concepts of governance and individual rights.",
+                        "answer": "3) An emphasis on state sovereignty and religious diversity"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    1,
+                    2,
+                    7,
+                    8
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "Who was the German monk known for nailing the Ninety-Five Theses to a church door?",
+                        "options": [
+                            "3) King Henry VIII",
+                            "4) Erasmus",
+                            "1) John Calvin",
+                            "2) Martin Luther"
+                        ],
+                        "explanation": "Martin Luther, a pivotal figure in the Reformation, famously challenged the Catholic Church's practices through his Ninety-Five Theses, which he nailed to the church door in Wittenberg in 1517.",
+                        "answer": "2) Martin Luther"
+                    },
+                    {
+                        "question": "What theological concept did John Calvin introduce that differed from Martin Luther's views?",
+                        "options": [
+                            "2) Predestination",
+                            "4) The importance of good works",
+                            "1) Justification by faith alone",
+                            "3) The sale of indulgences"
+                        ],
+                        "explanation": "John Calvin introduced the concept of predestination, which stated that God has already chosen who will be saved and who will not, expanding on Luther's ideas about faith.",
+                        "answer": "2) Predestination"
+                    },
+                    {
+                        "question": "What was one consequence of the Reformation in terms of European wars?",
+                        "options": [
+                            "3) The establishment of the Holy Roman Empire",
+                            "1) Increased cooperation between Catholic and Protestant states",
+                            "4) The end of the Crusades",
+                            "2) The Thirty Years' War"
+                        ],
+                        "explanation": "The rise of Protestantism led to significant conflicts, notably the Thirty Years' War, which deeply affected the political landscape of Europe, showcasing tensions between Catholic and Protestant states.",
+                        "answer": "2) The Thirty Years' War"
+                    },
+                    {
+                        "question": "How did the translation of the Scriptures impact literacy during the Reformation?",
+                        "options": [
+                            "2) It made the Bible more accessible to the masses",
+                            "1) It reduced literacy rates",
+                            "4) It encouraged people to rely only on priests",
+                            "3) It restricted reading to clergy only"
+                        ],
+                        "explanation": "Protestant reformers encouraged individuals to read the Bible themselves, thus fostering the translation of Scriptures into various languages and increasing literacy.",
+                        "answer": "2) It made the Bible more accessible to the masses"
+                    },
+                    {
+                        "question": "What role did the printing press play during the Reformation?",
+                        "options": [
+                            "4) It was used solely for political propaganda",
+                            "1) It delayed the spread of Reformation ideas",
+                            "3) It was banned by the Catholic Church",
+                            "2) It helped distribute Reformation ideas quickly"
+                        ],
+                        "explanation": "The printing press was crucial in the rapid dissemination of Reformation ideas across Europe, allowing for a wide distribution of Martin Luther's writings and other theological works.",
+                        "answer": "2) It helped distribute Reformation ideas quickly"
+                    },
+                    {
+                        "question": "What was a significant social shift resulting from the Reformation regarding individual belief?",
+                        "options": [
+                            "4) A ban on personal interpretations of the Bible",
+                            "2) A rise in communal religious practices",
+                            "1) A return to feudalism",
+                            "3) An emphasis on personal faith and direct relationship with God"
+                        ],
+                        "explanation": "The Reformation emphasized personal relationships with God, allowing individuals to interpret faith on their own rather than relying solely on Church authority, thus fostering individualism.",
+                        "answer": "3) An emphasis on personal faith and direct relationship with God"
+                    },
+                    {
+                        "question": "Which Reformation figure established the Church of England?",
+                        "options": [
+                            "4) Erasmus",
+                            "3) Henry VIII",
+                            "1) Martin Luther",
+                            "2) John Calvin"
+                        ],
+                        "explanation": "King Henry VIII broke from the Roman Catholic Church and established the Church of England primarily driven by personal and political reasons, marking a significant moment in the Reformation.",
+                        "answer": "3) Henry VIII"
+                    },
+                    {
+                        "question": "What was an early form of Protestant church initiated during the Reformation?",
+                        "options": [
+                            "3) The Catholic Church",
+                            "2) The Orthodox Church",
+                            "1) The Anglican Church",
+                            "4) The Lutheran Church"
+                        ],
+                        "explanation": "The Lutheran Church emerged as one of the first Protestant denominations, initiated by Martin Luther's reforms and the emphasis on justification by faith.",
+                        "answer": "4) The Lutheran Church"
+                    },
+                    {
+                        "question": "What document is known for challenging the Catholic Church's practices, specifically the sale of indulgences?",
+                        "options": [
+                            "3) The Institutes of the Christian Religion",
+                            "1) The Act of Supremacy",
+                            "2) The Ninety-Five Theses",
+                            "4) The Church of England's Book of Common Prayer"
+                        ],
+                        "explanation": "Martin Luther's Ninety-Five Theses specifically challenged the corrupt practices of the Catholic Church, notably the sale of indulgences.",
+                        "answer": "2) The Ninety-Five Theses"
+                    },
+                    {
+                        "question": "What movement did the Reformation initiate regarding governance in Europe?",
+                        "options": [
+                            "3) An emphasis on state sovereignty and religious diversity",
+                            "2) The rise of imperialism",
+                            "4) A return to feudal systems",
+                            "1) The absolute power of monarchy"
+                        ],
+                        "explanation": "The Reformation not only brought about religious diversity but also encouraged ideas of state sovereignty, leading to modern concepts of governance and individual rights.",
+                        "answer": "3) An emphasis on state sovereignty and religious diversity"
+                    }
+                ]
+            }
+        ]
+    }
+}

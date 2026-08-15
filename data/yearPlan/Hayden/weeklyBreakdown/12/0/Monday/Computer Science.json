@@ -1,0 +1,204 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Introduction to Web Development",
+                "lecture": "Hello! Today we're going to dive into the basics of web development, focusing on HTML, the foundation of all websites. Web development is a crucial skill in today\u2019s digital world, and understanding HTML is your first step towards creating your own web pages. [p]\n\nSo, what exactly is HTML? HTML stands for HyperText Markup Language. It is the standard markup language used to create web pages. HTML describes the structure of a webpage semantically and includes cues for the appearance of the document, which browsers read to render the page. HTML is composed of elements, which are the building blocks of web pages. Each element is defined by tags, and these tags often come in pairs: an opening tag and a closing tag. [p]\n\nFor example, the `<p>` tag defines a paragraph. When you want to create a paragraph in your webpage, you write `<p>Your paragraph text here.</p>`. This tag tells the browser to treat any text between the opening and closing tags as a distinct paragraph. [p]\n\nNow, let's discuss some Basic HTML Tags that you're likely to use often. One of the most important tags is the `<html>` tag. This tag is used to define the entire HTML document. It goes at the very start and end of your HTML file, enclosing all other elements. Following that, the `<head>` tag contains meta information about the webpage, such as its title, which you define using the `<title>` tag. [p]\n\nAnother critical tag is the `<body>` tag. Everything that you want to display on the webpage goes inside this body tag. Common tags inside the body include headers, paragraphs, images, and links. For instance, the `<h1>` to `<h6>` tags denote headers, with `<h1>` being the largest and `<h6>` the smallest. [p]\n\nNow let's take a moment to look at the image and anchor tags which are essential when it comes to media and navigation in a webpage. The `<img>` tag is used for images. To include an image, you use `<img src='imageURL' alt='description'>`. The `src` attribute indicates the source of the image, and the `alt` attribute provides alternative text description in case the image cannot be displayed. [p]\n\nLinks can be created in HTML using the `<a>` tag. This anchor tag allows you to hyperlink to other web pages. The syntax is `<a href='url'>Link text</a>`. The `href` attribute specifies the target URL the link points to, and the text inside the tags will be what users click on. [p]\n\nSo now that we've covered some basic HTML tags, let\u2019s discuss how to **Create a Simple Webpage**. Creating a webpage is as easy as putting together all the building blocks we just discussed. First, you'll start with the declaration of the document type, which is done with the `<!DOCTYPE html>` declaration, telling the browser it\u2019s an HTML5 document. [p]\n\nHere\u2019s what a very simple HTML document structure looks like:\n\n```html\n<!DOCTYPE html>\n<html>\n<head>\n<title>Your Page Title</title>\n</head>\n<body>\n<h1>Welcome to My Website</h1>\n<p>This is my first webpage!</p>\n<a href='http://example.com'>Visit Example</a>\n<img src='imageURL' alt='My Image'>\n</body>\n</html>\n```\n\nThis structure shows how all the elements are tied together. The `<html>` tag indicates the start and end of the HTML document. The `<head>` section is where you add information that isn\u2019t displayed directly on the page, like the title. [p]\n\nInside the `<body>`, we use a header, a paragraph, a link, and an image. This simple layout can serve as a foundation for more complex and dynamic websites as you continue to learn about CSS (Cascading Style Sheets) and JavaScript, which can further enhance the look and functionality of your webpages. [p]\n\nTo wrap up today's lecture, let\u2019s summarize what you have learned: \n1. You now have an understanding of what HTML is and how it\u2019s essential in web development.\n2. You learned about basic HTML tags, including the important `<html>`, `<head>`, `<body>`, `<h1>` through `<h6>`, `<p>`, `<a>`, and `<img>`.\n3. You explored the structure of a simple webpage and how to piece together elements to create a functioning HTML document. [p]\n\nAs you continue your journey into web development, you will discover more exciting possibilities available through HTML, alongside CSS and JavaScript to enhance your web pages even further!  Remember, practice is key to mastering these concepts, so don\u2019t hesitate to start creating webpages as you go! [p]\n\nHere are some references for further reading:\n- [HTML](https://en.wikipedia.org/wiki/HTML)\n- [HTML Elements](https://en.wikipedia.org/wiki/HTML_element)\n- [HTML Tags](https://en.wikipedia.org/wiki/HTML_element#Block_and_inline_elements)\n\nToday\u2019s main topic: Introduction to Web Development\nSub Topics: ['What is HTML?', 'Basic HTML Tags', 'Creating a Simple Webpage']",
+                "summary": "In this lecture, you have learned the foundational concepts of web development, focusing on HTML. You discovered what HTML is, the basic tags that structure a webpage, and how to create a simple HTML document. These are key skills that will allow you to create your own web pages and enhance your web development journey.",
+                "subject": "Computer Science",
+                "main_topic": "Introduction to Web Development",
+                "sub_topics": [
+                    "What is HTML?",
+                    "Basic HTML Tags",
+                    "Creating a Simple Webpage"
+                ],
+                "wikipedia_refrences": [
+                    "HTML",
+                    "HTML Elements",
+                    "HTML Tags"
+                ],
+                "quiz": [
+                    {
+                        "question": "Which HTML tag is used to define a paragraph?",
+                        "options": [
+                            "4) <head>",
+                            "2) <h1>",
+                            "1) <p>",
+                            "3) <body>"
+                        ],
+                        "explanation": "The <p> tag is specifically designed to create paragraphs in HTML.",
+                        "answer": "1) <p>"
+                    },
+                    {
+                        "question": "What tag is used to hyperlink to another webpage in HTML?",
+                        "options": [
+                            "1) <link>",
+                            "2) <a>",
+                            "3) <href>",
+                            "4) <url>"
+                        ],
+                        "explanation": "The <a> tag is specifically designed for creating hyperlinks in HTML.",
+                        "answer": "2) <a>"
+                    },
+                    {
+                        "question": "Which tag indicates the content that is displayed in the browser window?",
+                        "options": [
+                            "2) <html>",
+                            "3) <body>",
+                            "4) <title>",
+                            "1) <head>"
+                        ],
+                        "explanation": "The <body> tag contains all the visible content of the webpage that is seen in the browser.",
+                        "answer": "3) <body>"
+                    },
+                    {
+                        "question": "What does the <h1> tag represent in terms of headings?",
+                        "options": [
+                            "4) Subheading",
+                            "3) Largest heading",
+                            "1) Smallest heading",
+                            "2) Medium heading"
+                        ],
+                        "explanation": "The <h1> tag represents the largest heading in the HTML document structure.",
+                        "answer": "3) Largest heading"
+                    },
+                    {
+                        "question": "How do you format an image tag to display an image on your webpage?",
+                        "options": [
+                            "3) <img src='imgURL' alt='desc'>",
+                            "4) <img src='desc'>",
+                            "2) <image src='imgURL'>",
+                            "1) <img link='imgURL' text='desc'>"
+                        ],
+                        "explanation": "The correct format for including an image is <img src='imgURL' alt='desc'> where 'src' indicates the image source.",
+                        "answer": "3) <img src='imgURL' alt='desc'>"
+                    },
+                    {
+                        "question": "Which tag is used for the most important title in a webpage?",
+                        "options": [
+                            "1) <h6>",
+                            "4) <h1>",
+                            "2) <title>",
+                            "3) <h4>"
+                        ],
+                        "explanation": "The <h1> tag is used for the most important heading in a webpage, making it the largest and most prominent on the page.",
+                        "answer": "4) <h1>"
+                    },
+                    {
+                        "question": "What type of element is the <head> tag in an HTML document?",
+                        "options": [
+                            "3) Metadata",
+                            "2) Structural element",
+                            "1) Visible content",
+                            "4) Interactive content"
+                        ],
+                        "explanation": "The <head> tag is used to contain meta-information that is not directly displayed on the webpage, thus it is classified as metadata.",
+                        "answer": "3) Metadata"
+                    },
+                    {
+                        "question": "What does the <title> tag do in an HTML document?",
+                        "options": [
+                            "4) Shows images",
+                            "2) Provides webpage title",
+                            "3) Links to CSS",
+                            "1) Displays the header"
+                        ],
+                        "explanation": "The <title> tag provides the title of the webpage which is displayed in the browser's title bar or tab.",
+                        "answer": "2) Provides webpage title"
+                    },
+                    {
+                        "question": "Which of the following attributes is used to specify the destination URL in the <a> tag?",
+                        "options": [
+                            "3) url",
+                            "4) link",
+                            "2) href",
+                            "1) src"
+                        ],
+                        "explanation": "The href attribute specifies the target URL that the hyperlink points to in the <a> tag.",
+                        "answer": "2) href"
+                    },
+                    {
+                        "question": "What is an essential first step when creating a simple webpage?",
+                        "options": [
+                            "1) Use <a> tag first",
+                            "4) Write <!DOCTYPE html> before <head>",
+                            "3) Add images with <img>",
+                            "2) Declare <!DOCTYPE html>"
+                        ],
+                        "explanation": "The essential first step in an HTML document is to declare the document type with <!DOCTYPE html> to inform the browser about the HTML version being used.",
+                        "answer": "2) Declare <!DOCTYPE html>"
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What does HTML stand for?",
+                        "options": [
+                            "4) Hyper Transfer Markup Language",
+                            "2) HyperText Markup Language",
+                            "1) HighText Markup Language",
+                            "3) HyperText Multilayer Language"
+                        ],
+                        "explanation": "HTML stands for HyperText Markup Language, which is the standard markup language used to create web pages, describing their structure and appearance.",
+                        "answer": "2) HyperText Markup Language"
+                    },
+                    {
+                        "question": "What is the purpose of the `<html>` tag in an HTML document?",
+                        "options": [
+                            "1) It defines the entire HTML document.",
+                            "4) It is used to style the appearance of the webpage.",
+                            "3) It contains meta information about the webpage.",
+                            "2) It provides a title for the webpage."
+                        ],
+                        "explanation": "The `<html>` tag is the cornerstone of an HTML document; it enwraps all other content within the document. Without this tag, the web browser will not recognize what's being presented as HTML, which is essential for proper webpage rendering.",
+                        "answer": "1) It defines the entire HTML document."
+                    },
+                    {
+                        "question": "What is the purpose of the `alt` attribute in the `<img>` tag?",
+                        "options": [
+                            "1) It specifies the URL of the image.",
+                            "3) It sets the dimensions of the image on the webpage.",
+                            "4) It links the image to another webpage.",
+                            "2) It provides a description of the image for screen readers and when the image cannot be displayed."
+                        ],
+                        "explanation": "The `alt` attribute provides alternative text description for the image, which is important for accessibility purposes and for users who may not be able to view the image for any reason. This enhances the user experience and ensures information is still conveyed even if the image fails to load.",
+                        "answer": "2) It provides a description of the image for screen readers and when the image cannot be displayed."
+                    },
+                    {
+                        "question": "What is the purpose of the `<!DOCTYPE html>` declaration in an HTML document?",
+                        "options": [
+                            "4) It includes external stylesheets for the webpage.",
+                            "2) It tells the browser to interpret the document as an HTML5 document.",
+                            "1) It specifies the character set used in the document.",
+                            "3) It defines the title of the webpage."
+                        ],
+                        "explanation": "The `<!DOCTYPE html>` declaration is essential because it informs the web browser that this document is an HTML5 document. This helps the browser to render the page correctly according to HTML5 standards.",
+                        "answer": "2) It tells the browser to interpret the document as an HTML5 document."
+                    },
+                    {
+                        "question": "What elements are commonly used to create a basic webpage layout as described in the lecture?",
+                        "options": [
+                            "3) Script, style, link, header",
+                            "1) Header, paragraph, link, image",
+                            "2) Footer, list, table, form",
+                            "4) Article, section, nav, aside"
+                        ],
+                        "explanation": "The lecture mentions that a simple webpage layout includes a header, a paragraph, a link, and an image. These elements provide foundational structure for a website.",
+                        "answer": "1) Header, paragraph, link, image"
+                    },
+                    {
+                        "question": "What are the three core technologies mentioned that are essential for web development?",
+                        "options": [
+                            "4) HTML, C++, Swift",
+                            "2) HTML, PHP, SQL",
+                            "3) CSS, Java, Python",
+                            "1) HTML, CSS, JavaScript"
+                        ],
+                        "explanation": "The correct answer is option 1) HTML, CSS, JavaScript. These three technologies are fundamental for creating and enhancing webpages, as HTML structures the content, CSS styles it, and JavaScript adds interactivity.",
+                        "answer": "1) HTML, CSS, JavaScript"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

@@ -1,0 +1,230 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Introduction to HTML Basics",
+                "lecture": "Hello, Student! Today, we are continuing our journey into the exciting world of HTML. Building upon yesterday\u2019s introduction to HTML, you will learn about different HTML elements and their attributes. HTML, or HyperText Markup Language, is the standard language for creating web pages. It\u2019s composed of a series of elements that define the structure and layout of a web document.\n\nLet\u2019s dive into what elements are. An HTML element is defined by a start tag, content, and an end tag. For example, an element might look like this: <p> This is a paragraph.</p>. The start tag here is <p>, the content is \u201cThis is a paragraph,\u201d and the end tag is </p>. The content of the element is what the browser displays. Each element defines different parts of a web page.\n\nElements can be categorized into two main types \u2013 block-level elements and inline elements. Block-level elements start on a new line and take up the full width available. Common examples include <div>, <h1> to <h6>, <p>, and <ul>. Inline elements, like <span>, <a>, and <strong>, do not start on a new line and only occupy as much width as necessary. This distinction is important as it affects the layout and flow of the content on a webpage. [p]\n\nNow, let\u2019s talk about attributes. Attributes provide additional information about an element. They are always specified in the opening tag and come in name/value pairs like this: <a href='https://example.com'> Example Link </a>. Here, \u2018href\u2019 is an attribute that gives the link\u2019s destination, and \u2018Example Link\u2019 is what will be displayed on the page. There are many attributes that an HTML tag can have, and understanding them will allow you to effectively control how your HTML documents behave and look. [p]\n\nNext, let\u2019s go over some common HTML elements and their attributes. Starting with headings, HTML provides six levels of headings, from <h1> to <h6>. The <h1> tag represents the most important heading, while <h6> represents the least important. Headings help organize the content and make it more readable. [p]\n\nYou can also use the <p> tag for paragraphs, which is essential for separating blocks of text in your document. Each paragraph is contained within <p> tags, helping you maintain a clear structure.  Another crucial tag is the <a> tag, which creates hyperlinks. You will often use this tag to link to other resources or pages on the web. [p]\n\nImages are vital for adding graphical content to your pages. You can use the <img> tag to embed images. The <img> tag has several important attributes, such as \u2018src\u2019 for the image source and \u2018alt\u2019 for alternative text. The alternative text is crucial for accessibility as it provides context for users who might not be able to see the image. [p]\n\nNext, we will discuss lists. There are two main types of lists in HTML: ordered lists (<ol>) and unordered lists (<ul>). Ordered lists are numbered while unordered lists use bullet points. The <li> tag defines each list item within these lists. Using lists is an excellent way to organize information clearly and concisely. [p]\n\nNow, let\u2019s talk about forms. Forms are a critical part of web development as they allow users to input data. You use the <form> tag to create a form in HTML. Inside it, you can use various input elements such as <input>, <textarea>, and <button>. You must get familiar with the attributes for these elements for better control. For example, the \u2018type\u2019 attribute in the <input> tag can be set to various values like \u2018text,\u2019 \u2018email,\u2019 or \u2018submit,\u2019 depending on what kind of data you want to collect from the user. [p]\n\nAnother exciting aspect of HTML is semantic elements. Semantic elements provide meaning to the web content and improve accessibility and search engine optimization. Some examples of semantic elements are <article>, <section>, <footer>, and <header>. Using semantic HTML enhances the clarity of the document structure and helps both browsers and developers understand the content better. [p]\n\nLastly, let\u2019s touch on the importance of proper HTML document structure. An HTML document begins with a <!DOCTYPE html> declaration, indicating the language version. Following this, the <html> tag encompasses all your content. Within this tag, you will have a <head> part for meta-content and a <body> part, where your visible content lives. Proper structure is crucial for rendering the webpage correctly and ensuring that all elements function as intended. [p]\n\nNow let\u2019s summarize what we\u2019ve learned in today's lecture on HTML Basics. You have learned about HTML elements, including their structure and types. You have gained an understanding of attributes and their significance in providing more context to elements. We explored common HTML tags like headings, paragraphs, images, links, and lists, and their respective functions in developing a web page. Furthermore, we discussed forms and their input types, semantic HTML and its advantages, and the overall structure of an HTML document.\n\nThis knowledge forms the foundation of web development and will equip you with the skills needed to create simple yet effective web pages. Today\u2019s lesson provides you with the necessary building blocks to further explore and enhance your HTML skills. Thank you for participating today!\n\nMain Topic: HTML Basics\nSub Topics: HTML Elements, Attributes, Block-Level Elements, Inline Elements, Common HTML Elements, Headings, Paragraphs, Links, Images, Lists, Forms, Semantic HTML, Document Structure",
+                "summary": "In today's lecture on HTML Basics, you learned about the structure of HTML documents, including various elements and their attributes. You gained insights into block-level and inline elements, common HTML elements such as headings, paragraphs, links, images, and lists, as well as the importance of forms and semantic HTML. The understanding of proper document structure was emphasized, laying the groundwork for creating effective web pages.",
+                "subject": "Computer Science",
+                "main_topic": "HTML Basics",
+                "sub_topics": [
+                    "HTML Elements",
+                    "Attributes",
+                    "Block-Level Elements",
+                    "Inline Elements",
+                    "Common HTML Elements",
+                    "Headings",
+                    "Paragraphs",
+                    "Links",
+                    "Images",
+                    "Lists",
+                    "Forms",
+                    "Semantic HTML",
+                    "Document Structure"
+                ],
+                "wikipedia_refrences": [
+                    "https://en.wikipedia.org/wiki/HTML",
+                    "https://en.wikipedia.org/wiki/HTML_element",
+                    "https://en.wikipedia.org/wiki/Block_and_inline",
+                    "https://en.wikipedia.org/wiki/HTML_list",
+                    "https://en.wikipedia.org/wiki/HTML_element#Attributes",
+                    "https://en.wikipedia.org/wiki/HTML#Forms",
+                    "https://en.wikipedia.org/wiki/Semantic_HTML",
+                    "https://en.wikipedia.org/wiki/HTML#Document_structure"
+                ],
+                "quiz": [
+                    {
+                        "question": "What is an HTML element composed of?",
+                        "options": [
+                            "3) Only content",
+                            "1) A start tag, content, and an end tag",
+                            "2) Only a start tag and end tag",
+                            "4) A start tag and attributes"
+                        ],
+                        "explanation": "An HTML element is defined by a start tag, content, and an end tag. For example, <p>This is a paragraph.</p> consists of the <p> start tag, the content 'This is a paragraph', and the </p> end tag.",
+                        "answer": "1) A start tag, content, and an end tag"
+                    },
+                    {
+                        "question": "Which of the following is a semantic element?",
+                        "options": [
+                            "4) <span>",
+                            "1) <section>",
+                            "3) <p>",
+                            "2) <div>"
+                        ],
+                        "explanation": "Semantic elements like <section> provide meaning to the content they encapsulate and improve accessibility, in contrast to non-semantic elements like <div> that do not convey any meaning.",
+                        "answer": "1) <section>"
+                    },
+                    {
+                        "question": "What is the role of the <img> tag in HTML?",
+                        "options": [
+                            "1) To create hyperlinks",
+                            "4) To create divisions in a webpage",
+                            "2) To embed images into a webpage",
+                            "3) To define a list item"
+                        ],
+                        "explanation": "The <img> tag is used to embed images into a webpage. It includes attributes like 'src' for the image source and 'alt' for alternative text, contributing to accessibility.",
+                        "answer": "2) To embed images into a webpage"
+                    },
+                    {
+                        "question": "What are inline elements in HTML?",
+                        "options": [
+                            "1) Elements that start on a new line",
+                            "3) Elements that contain only images",
+                            "2) Elements that do not start on a new line",
+                            "4) Elements that only contain links"
+                        ],
+                        "explanation": "Inline elements, such as <span>, <a>, and <strong>, do not start on a new line and only occupy as much width as necessary, allowing text and other inline elements to flow together.",
+                        "answer": "2) Elements that do not start on a new line"
+                    },
+                    {
+                        "question": "What type of element is <ol> in HTML?",
+                        "options": [
+                            "4) A form element",
+                            "2) An inline element for links",
+                            "1) A block-level element for lists",
+                            "3) A semantic element for articles"
+                        ],
+                        "explanation": "The <ol> tag represents an ordered list; it is a block-level element that contains list items (<li>) that are numbered, indicating the order of items.",
+                        "answer": "1) A block-level element for lists"
+                    },
+                    {
+                        "question": "What is the purpose of the 'type' attribute in the <input> tag?",
+                        "options": [
+                            "1) To define the stylesheet",
+                            "2) To specify the kind of data to input",
+                            "4) To embed an image",
+                            "3) To create a hyperlink"
+                        ],
+                        "explanation": "The 'type' attribute in the <input> tag specifies the kind of data that will be input, such as text, email, or submit, facilitating user interactions in forms.",
+                        "answer": "2) To specify the kind of data to input"
+                    },
+                    {
+                        "question": "Which tag is used to create a bulleted list in HTML?",
+                        "options": [
+                            "1) <ol>",
+                            "3) <li>",
+                            "4) <list>",
+                            "2) <ul>"
+                        ],
+                        "explanation": "The <ul> tag is used to create an unordered list, which features bulleted items, while <ol> is used for ordered lists that are numbered.",
+                        "answer": "2) <ul>"
+                    },
+                    {
+                        "question": "What does the <a> tag do in HTML?",
+                        "options": [
+                            "2) Creates hyperlinks",
+                            "1) Defines a paragraph",
+                            "3) Embeds images",
+                            "4) Creates a header"
+                        ],
+                        "explanation": "The <a> tag is utilized to create hyperlinks, allowing users to navigate to different pages or resources by clicking on the defined link.",
+                        "answer": "2) Creates hyperlinks"
+                    },
+                    {
+                        "question": "Which of the following is NOT a heading tag in HTML?",
+                        "options": [
+                            "4) <h6>",
+                            "1) <h1>",
+                            "2) <h3>",
+                            "3) <h7>"
+                        ],
+                        "explanation": "HTML provides heading tags from <h1> to <h6>, where <h7> does not exist and thus is not a valid heading tag in HTML.",
+                        "answer": "3) <h7>"
+                    },
+                    {
+                        "question": "Why is the 'alt' attribute important in the <img> tag?",
+                        "options": [
+                            "4) It links to another webpage",
+                            "3) It defines how the image should be displayed",
+                            "2) It provides context for accessibility",
+                            "1) It specifies the source of the image"
+                        ],
+                        "explanation": "The 'alt' attribute provides alternative text for images, which is crucial for accessibility as it gives context to users who cannot see the image.",
+                        "answer": "2) It provides context for accessibility"
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What type of HTML element starts on a new line and takes up the full width available?",
+                        "options": [
+                            "4) Attribute elements",
+                            "3) Text elements",
+                            "2) Block-level elements",
+                            "1) Inline elements"
+                        ],
+                        "explanation": "Block-level elements, such as <div>, <h1> to <h6>, <p>, and <ul>, start on a new line and take up the full width of their parent container, while inline elements do not start on a new line and only take up as much width as necessary.",
+                        "answer": "2) Block-level elements"
+                    },
+                    {
+                        "question": "What does the 'href' attribute in the HTML tag <a href='https://example.com'> Example Link </a> specify?",
+                        "options": [
+                            "1) The text displayed on the page",
+                            "2) The destination URL the link points to",
+                            "3) The color of the link",
+                            "4) The size of the link text"
+                        ],
+                        "explanation": "The 'href' attribute specifies the destination URL that the link points to. In this case, it leads to 'https://example.com'. Understanding attributes is crucial for controlling how elements behave and are presented in HTML.",
+                        "answer": "2) The destination URL the link points to"
+                    },
+                    {
+                        "question": "What is the purpose of the <p> tag in HTML?",
+                        "options": [
+                            "4) To insert images into a document",
+                            "3) To define the document's title",
+                            "1) To create hyperlinks to other web pages",
+                            "2) To separate blocks of text into paragraphs"
+                        ],
+                        "explanation": "The <p> tag is specifically used to define paragraphs in HTML, helping to separate blocks of text and maintain a clear structure in the document.",
+                        "answer": "2) To separate blocks of text into paragraphs"
+                    },
+                    {
+                        "question": "What is the main difference between ordered lists and unordered lists in HTML?",
+                        "options": [
+                            "4) Ordered lists can only contain text items, while unordered lists can contain images.",
+                            "2) Ordered lists are numbered, while unordered lists use bullet points.",
+                            "3) Both ordered and unordered lists use the <li> tag.",
+                            "1) Ordered lists use bullet points, while unordered lists are numbered."
+                        ],
+                        "explanation": "Ordered lists (<ol>) are used for items that require a specific sequence and are numbered. Unordered lists (<ul>) are used for items that do not require a specific sequence and are presented with bullet points. The <li> tag is utilized in both types of lists to define individual items.",
+                        "answer": "2) Ordered lists are numbered, while unordered lists use bullet points."
+                    },
+                    {
+                        "question": "What HTML tag is used to create a form that allows users to input data?",
+                        "options": [
+                            "2) <input>",
+                            "1) <form>",
+                            "4) <button>",
+                            "3) <textarea>"
+                        ],
+                        "explanation": "The <form> tag is essential for creating a form in HTML. It serves as a container for various input elements that collect user data.",
+                        "answer": "1) <form>"
+                    },
+                    {
+                        "question": "What is the purpose of the <!DOCTYPE html> declaration in an HTML document?",
+                        "options": [
+                            "1) To define the visible content of the webpage.",
+                            "2) To indicate the language version of the document.",
+                            "3) To structure the styling of the webpage.",
+                            "4) To include external scripts."
+                        ],
+                        "explanation": "The <!DOCTYPE html> declaration is crucial as it specifies the version of HTML being used in the document. This helps the web browser to render the webpage correctly by understanding the rules and standards applicable to that version.",
+                        "answer": "2) To indicate the language version of the document."
+                    },
+                    {
+                        "question": "What is the purpose of attributes in HTML elements?",
+                        "options": [
+                            "1) To provide additional context or settings to the elements",
+                            "2) To define the types of elements used",
+                            "4) To create links between different web pages",
+                            "3) To separate the content of the web page from its style"
+                        ],
+                        "explanation": "Attributes in HTML elements are used to provide additional context or settings that define the behavior or properties of the element. For example, the 'src' attribute in an 'img' tag specifies the source of the image.",
+                        "answer": "1) To provide additional context or settings to the elements"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Web Development Review: JavaScript Basics",
+                "lecture": "Welcome to our lecture on Web Development Review, where we'll dive into the important role of JavaScript in creating interactive websites and enhancing user experiences. Today, we will cover the basic syntax of JavaScript and explore how it can be used to create interactive features that engage users.\n\nLet's start with the first sub-topic: **JavaScript Basic Syntax**. \n\nJavaScript is a high-level, dynamic, untyped, and interpreted programming language, which is part of the core technologies of the World Wide Web, alongside HTML and CSS. Understanding the basic syntax of JavaScript is essential because it forms the foundations upon which interactive features are built.\n\nIn JavaScript, we primarily work with variables, which are named containers for storing data values. You can declare variables using `var`, `let`, or `const`. \n\n- `var` is used to declare a variable that can be re-assigned.\n- `let` is also used for variables that need to be re-assigned, but it has a block scope.\n- `const` is used for variables that won't change or be reassigned after their initial value is set.\n\nFor example, to declare a variable that holds the value of a number, you can write:\n```javascript\nlet number = 10;\n```\nThis line of code declares a variable named `number` and assigns the value `10` to it. \n\nAdditionally, JavaScript uses operators such as arithmetic operators for mathematical calculations, comparison operators to compare values, and assignment operators to assign values to variables. \n\nAn essential aspect of JavaScript is its ability to use functions. Functions are reusable blocks of code that perform specific tasks. For instance:\n```javascript\nfunction greet(name) {\n    return 'Hello, ' + name + '!';\n}\n```\nThis function will take a parameter `name` and return a greeting. You can call this function by passing in an argument:\n```javascript\nconsole.log(greet('Alice'));\n```\nThis will display `Hello, Alice!` in the console. [p]\n\nNow that you've had an introduction to JavaScript's basic syntax, let\u2019s move on to the second sub-topic: **Creating Interactive Features**.\n\nInteractive features are what engage users and enhance their experience on a webpage. With JavaScript, you can create these features by responding to user inputs such as clicks, movements, or key presses.\n\nOne way to create interactive features is by manipulating the Document Object Model (DOM). The DOM represents the HTML structure of your web page as a tree of objects. With JavaScript, you can modify these objects, which in turn updates the view in real time.\n\nFor instance, to change the content of an HTML element, you can use the following code:\n```javascript\ndocument.getElementById('myElement').innerHTML = 'New Content';\n```\nThis code will find the HTML element with the `id` of `myElement` and update its content to `New Content`. \n\nAnother important aspect of creating interactive features is handling events. An event can be anything like a user clicking a button or hovering over an element. To respond to an event, you can use event listeners. Here\u2019s how it looks:\n```javascript\ndocument.getElementById('myButton').addEventListener('click', function() {\n    alert('Button was clicked!');\n});\n```\nIn this example, when the button is clicked, an alert box will appear saying, \"Button was clicked!\" This is a simple yet effective way to provide feedback to users and make interactions with the webpage more engaging. [p]\n\nMoreover, if you want to make a feature like a form that collects user input, you can combine the use of JavaScript with HTML elements. For example:\n```html\n<form id='myForm'>\n    <input type='text' id='username' />\n    <button type='submit'>Submit</button>\n</form>\n```\nYou can listen for the form submission and prevent the default behavior using JavaScript:\n```javascript\ndocument.getElementById('myForm').addEventListener('submit', function(e) {\n    e.preventDefault(); // Prevent form submission\n    let username = document.getElementById('username').value;\n    alert('Welcome, ' + username + '!');\n});\n```\nThis will alert the user with a welcome message when they submit their name through the form instead of submitting the form to another page, enhancing the user experience while keeping them engaged on the current page. [p]\n\nAs we wrap up this lecture, let\u2019s summarize what you have learned today. You have explored the basics of JavaScript syntax, including how to declare variables, creating functions, and using operators. Furthermore, you learned how to create interactive features through manipulating the DOM and handling events which allow users to interact with your website effectively.\n\nUnderstanding these concepts is foundational for developing web applications that are both functional and user-friendly. As you continue your journey in web development, make sure to practice these concepts regularly to become proficient in creating engaging interactive features. [p]\n\nIn this lecture, we covered the following main topics:\n- **Main Topic**: Web Development Review\n- **Sub Topics**:  \n  1. JavaScript Basic Syntax  \n  2. Creating Interactive Features\n\nI encourage you to explore further on these concepts on Wikipedia and other resources to deepen your understanding and keep practicing coding. Let\u2019s get excited about building interactive websites!",
+                "summary": "In this lecture, the student learned the basics of JavaScript syntax and the importance of interactive features in web development. They gained insights into variable declaration, functions, use of operators, and how to manipulate the DOM. Additionally, they explored event handling, which allows for a responsive user experience. Overall, the student now has foundational knowledge necessary for creating dynamic and interactive web pages.",
+                "subject": "Computer Science",
+                "main_topic": "Web Development Review",
+                "sub_topics": [
+                    "JavaScript Basic Syntax",
+                    "Creating Interactive Features"
+                ],
+                "wikipedia_refrences": [
+                    "JavaScript",
+                    "Document_Object_Model",
+                    "Event_handling",
+                    "Function_(JavaScript)"
+                ],
+                "quiz": [
+                    {
+                        "question": "What will be the value of the variable 'number' after the following code is executed: `let number = 10;`?",
+                        "options": [
+                            "1) 10",
+                            "2) undefined",
+                            "3) null",
+                            "4) 0"
+                        ],
+                        "explanation": "The variable 'number' is assigned the value 10, so its value after execution will be 10.",
+                        "answer": "1) 10"
+                    },
+                    {
+                        "question": "Which keyword is used for declaring a variable that cannot be reassigned?",
+                        "options": [
+                            "4) function",
+                            "1) let",
+                            "2) var",
+                            "3) const"
+                        ],
+                        "explanation": "The 'const' keyword is used for declaring variables that cannot be reassigned after their initial value is set.",
+                        "answer": "3) const"
+                    },
+                    {
+                        "question": "What is the result of calling the function `greet('Alice')` in the example provided?",
+                        "options": [
+                            "2) greet('Alice')",
+                            "3) undefined",
+                            "1) Hello, Alice!",
+                            "4) Error: greet is not a function"
+                        ],
+                        "explanation": "The function greet takes a name as a parameter and returns 'Hello, ' followed by the name, so the output will be 'Hello, Alice!'.",
+                        "answer": "1) Hello, Alice!"
+                    },
+                    {
+                        "question": "What type of scope does the 'let' keyword define for variables?",
+                        "options": [
+                            "2) Function scope",
+                            "4) No scope",
+                            "1) Global scope",
+                            "3) Block scope"
+                        ],
+                        "explanation": "The 'let' keyword defines a block scope, meaning the variable is only accessible within the nearest enclosing block.",
+                        "answer": "3) Block scope"
+                    },
+                    {
+                        "question": "How can you listen for a button click event in JavaScript, based on the lecture?",
+                        "options": [
+                            "3) `document.getElementById('myButton').click()`",
+                            "1) `document.getElementById('myButton').onClick`",
+                            "4) `document.addEventListener('myButton click', function() {})`",
+                            "2) `document.getElementById('myButton').addEventListener('click', function() {})`"
+                        ],
+                        "explanation": "To listen for a button click event, you can use the addEventListener method with the appropriate event type.",
+                        "answer": "2) document.getElementById('myButton').addEventListener('click', function() {})"
+                    },
+                    {
+                        "question": "What does the following line do? `alert('Button was clicked!');`",
+                        "options": [
+                            "2) Changes the content of the button",
+                            "3) Submits a form",
+                            "1) Displays a message to the user",
+                            "4) Initializes a variable"
+                        ],
+                        "explanation": "The alert function displays a message in a dialog box to the user, indicating that the button was clicked.",
+                        "answer": "1) Displays a message to the user"
+                    },
+                    {
+                        "question": "In the context of JavaScript, what is a 'function'?",
+                        "options": [
+                            "1) A method to store variables",
+                            "4) A way to create HTML elements",
+                            "2) A reusable block of code that performs a specific task",
+                            "3) A type of variable"
+                        ],
+                        "explanation": "A function in JavaScript is a reusable block of code that can be called to perform a specific task.",
+                        "answer": "2) A reusable block of code that performs a specific task"
+                    },
+                    {
+                        "question": "When you change an HTML element's content using `innerHTML`, what happens to the webpage?",
+                        "options": [
+                            "2) The webpage reloads",
+                            "4) An error message is displayed",
+                            "3) Nothing happens",
+                            "1) The content of the webpage updates in real time"
+                        ],
+                        "explanation": "Using innerHTML updates the content of the specified HTML element, reflecting the changes on the webpage immediately.",
+                        "answer": "1) The content of the webpage updates in real time"
+                    },
+                    {
+                        "question": "Which operator would you use to perform mathematical addition in JavaScript?",
+                        "options": [
+                            "2) /",
+                            "1) -",
+                            "3) +",
+                            "4) *"
+                        ],
+                        "explanation": "The '+' operator is used for performing addition in JavaScript.",
+                        "answer": "3) +"
+                    },
+                    {
+                        "question": "What will be alerted when the form is submitted with `username` filled out?",
+                        "options": [
+                            "3) 'Input accepted.'",
+                            "2) 'Welcome, ' + username + '!'",
+                            "4) 'Error in submission!'",
+                            "1) 'Form submitted!'"
+                        ],
+                        "explanation": "When the form is submitted, the JavaScript code retrieves the value of the username and alerts 'Welcome, ' followed by the username.",
+                        "answer": "2) 'Welcome, ' + username + '!'"
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What is the purpose of the `const` keyword in JavaScript?",
+                        "options": [
+                            "2) To declare a variable that cannot be changed after its initial assignment",
+                            "3) To declare a variable with global scope",
+                            "4) To declare a variable that can only hold string values",
+                            "1) To declare a variable that can be re-assigned"
+                        ],
+                        "explanation": "The `const` keyword is used for declaring a variable that should not be re-assigned after its initial value is set. It helps to create constants that maintain their value throughout the code execution.",
+                        "answer": "2) To declare a variable that cannot be changed after its initial assignment"
+                    },
+                    {
+                        "question": "What method would you use to change the content of an HTML element in JavaScript?",
+                        "options": [
+                            "1) document.getElementById('myElement').changeContent('New Content');",
+                            "3) document.getElementById('myElement').innerHTML = 'New Content';",
+                            "2) document.getElementById('myElement').setContent('New Content');",
+                            "4) document.getElementById('myElement').content = 'New Content';"
+                        ],
+                        "explanation": "The correct method to change the content of an HTML element is to use the innerHTML property, as shown in option 3. This property allows you to set or get the inner HTML of an element, effectively updating its displayed content.",
+                        "answer": "3) document.getElementById('myElement').innerHTML = 'New Content';"
+                    },
+                    {
+                        "question": "What is the purpose of using 'e.preventDefault()' in the form submission handler?",
+                        "options": [
+                            "4) To change the form's HTML structure",
+                            "2) To display an alert with the username",
+                            "3) To prevent the default form submission behavior",
+                            "1) To allow the form to be submitted to another page"
+                        ],
+                        "explanation": "Using 'e.preventDefault()' prevents the default action of the form, which is to submit the data to another page. This allows you to control the action that takes place, such as displaying a custom alert with the entered username, while keeping the user on the same page.",
+                        "answer": "3) To prevent the default form submission behavior"
+                    },
+                    {
+                        "question": "What is the primary purpose of manipulating the DOM in web development?",
+                        "options": [
+                            "1) To handle backend database connections",
+                            "4) To optimize website loading speed",
+                            "3) To allow user interaction with the webpage",
+                            "2) To create and manage stylesheets"
+                        ],
+                        "explanation": "Manipulating the Document Object Model (DOM) allows developers to dynamically change the content and structure of a webpage in response to user actions, which enhances user interactivity and engagement.",
+                        "answer": "3) To allow user interaction with the webpage"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

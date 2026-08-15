@@ -1,0 +1,193 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Introduction to Web Development",
+                "lecture": "Welcome to your lecture on Introduction to Web Development! Today, we're going to dive into the exciting world of creating websites. We're going to put your skills to use by creating a simple webpage that combines the HTML and CSS concepts we've previously learned. This will be a hands-on session where you will get a feel for how websites are constructed. Let's begin!\n\nThe first step in web development is understanding HTML, which stands for Hypertext Markup Language. HTML is the backbone of any website. It's used to create the structure and content of a webpage. Everything you see on the web starts with HTML. Each webpage is made up of different HTML elements, which you can think of as building blocks. For instance, paragraphs, headings, lists, and images are all created using various HTML tags. \n\nWhen you create a webpage, you start with the basic structure, which includes a doctype, html tag, head section, and body section. The `<!DOCTYPE html>` tag tells the browser that this document is an HTML5 document. The `<html>` tags denote the beginning and end of an HTML document. Inside the `<head>` section, you can include meta tags, links to stylesheets, and the title of your webpage. It is important because it provides information about the webpage to search engines and browsers. On the other hand, the `<body>` section contains all the content that will be visible to visitors.\n\nYou should now have a grasp of the foundational structure of HTML. Let's pause for a moment to absorb this information. [p]\n\nNow let\u2019s move on to the first sub-topic: Building a Personal Website. Consider what a personal website means to you. It can serve many purposes, such as showcasing your interests, sharing your portfolio, or even documenting your learning journey.\n\nWhen you create your personal website, you will want to think about the content you want to showcase. This includes your biography, your academic projects, and perhaps a blog where you can share insights or tutorials. Think about how you want to organize this content. You might want to create different sections for Each component you include should have its own distinct area on the page.\n\nTo gather your content, make a list of what is essential for your website and decide how you want to present it. This can help with the layout as you structure your HTML. Remember, your personal website is your creative space on the internet; it\u2019s an opportunity to express who you are. [p]\n\nNext, let\u2019s talk about using images and links on your website, which are crucial for making it visually appealing and interactive. Images can help illustrate your points and bring your content to life. You can include images using the `<img>` tag in HTML. Make sure to use attributes such as `src` to specify the image\u2019s URL and `alt` to describe the image. The `alt` attribute is vital for accessibility, as it provides text for screen readers.\n\nLinks are equally important because they allow navigation between different webpages. You can create links using the `<a>` tag, which requires the `href` attribute that points to the page URL. When embedding links, you can also use attributes like `target` to specify whether the link opens in the same tab or a new one. Incorporating these elements boosts user engagement and overall experience on your site. [p]\n\nNow, we move to the topic of basic formatting techniques. While HTML structures your content, CSS, or Cascading Style Sheets, is what you will use to style your website. CSS allows you to control the layout, colors, fonts, and even animations on your page. It\u2019s how you dress up your content to make it more visually appealing. \n\nYou can include CSS in three different ways: inline, internal, and external. For our purposes, we will focus on internal CSS. You include it in the `<head>` section of your HTML document using a `<style>` tag. This is where you will define your styles. For example, you might want to change the background color of your webpage or the font color of your headings. Each CSS rule you write will have a selector and declarations, where the selector targets the HTML element and the declarations define the styles you want to apply.\n\nA crucial aspect of CSS is understanding the box model, which includes the content area, padding, border, and margin. These properties interact to give each element on your webpage a defined space and help with the layout. You can use properties like `width`, `height`, `padding`, `border`, and `margin` to adjust how various elements appear on the page. [p]\n\nAs we bring this lecture to a close, let\u2019s discuss what you\u2019ve learned today. You now have a solid understanding of the foundations of web development. You learned about the structure of HTML and created a basic understanding of what a personal website entails. You explored how to incorporate images and links to make your website lively and engaging. Finally, you now have insight into basic formatting techniques using CSS, which allows you to style your webpage and improve its layout. \n\nThis lecture has prepared you to take your first steps in developing a simple webpage combined with all the HTML and CSS concepts you've learned.\n\nI encourage you to start building your website; use what you\u2019ve learned today, keep experimenting, and enjoy the process of creation! Remember, the more you practice, the better you will become. Feel free to reach out with any questions as you start this exciting journey!\n\nTo recap, here are the main topics we covered today:\n\n- Main Topic: Introduction to Web Development\n- Sub Topics: Building a Personal Website, Using Images and Links, Basic Formatting Techniques",
+                "summary": "Today you learned the fundamentals of web development by understanding HTML and CSS, allowing you to create a simple webpage. You explored how to build a personal website, incorporate images and links for interactivity, and apply basic formatting techniques, equipping you with the foundational skills needed to further your web development journey.",
+                "subject": "Computer Science",
+                "main_topic": "Introduction to Web Development",
+                "sub_topics": [
+                    "Building a Personal Website",
+                    "Using Images and Links",
+                    "Basic Formatting Techniques"
+                ],
+                "wikipedia_refrences": [
+                    "https://en.wikipedia.org/wiki/HTML",
+                    "https://en.wikipedia.org/wiki/Cascading_Style_Sheets",
+                    "https://en.wikipedia.org/wiki/Web_development"
+                ],
+                "quiz": [
+                    {
+                        "question": "What does HTML stand for?",
+                        "options": [
+                            "3) Hyperlink and Text Markup Language",
+                            "2) Hypertext Markup Language",
+                            "1) High Text Markup Language",
+                            "4) Hypertext Management Language"
+                        ],
+                        "explanation": "HTML stands for Hypertext Markup Language, which is the standard language for creating web pages.",
+                        "answer": "2) Hypertext Markup Language"
+                    },
+                    {
+                        "question": "In which section of an HTML document do you include the CSS style tags?",
+                        "options": [
+                            "1) Body",
+                            "4) Footer",
+                            "3) Title",
+                            "2) Head"
+                        ],
+                        "explanation": "CSS style tags are included in the `<head>` section of an HTML document to apply styles throughout the page.",
+                        "answer": "2) Head"
+                    },
+                    {
+                        "question": "What is the function of the `<body>` section in an HTML document?",
+                        "options": [
+                            "2) To link to external stylesheets",
+                            "3) To display visible content to users",
+                            "1) To contain metadata about the document",
+                            "4) To define the character set"
+                        ],
+                        "explanation": "The `<body>` section of an HTML document contains the content that will be visible to the website visitors.",
+                        "answer": "3) To display visible content to users"
+                    },
+                    {
+                        "question": "Which HTML tag is used to create hyperlinks?",
+                        "options": [
+                            "1) <link>",
+                            "4) <url>",
+                            "2) <hyperlink>",
+                            "3) <a>"
+                        ],
+                        "explanation": "The `<a>` tag is used to create hyperlinks in HTML, allowing users to navigate to different web pages.",
+                        "answer": "3) <a>"
+                    },
+                    {
+                        "question": "What aspect of CSS does the box model define?",
+                        "options": [
+                            "1) The types of HTML tags",
+                            "2) The interaction of padding, margin, and borders",
+                            "4) The function of JavaScript",
+                            "3) The speed of page loading"
+                        ],
+                        "explanation": "The box model in CSS describes how elements interact through properties like content area, padding, border, and margin for layout purposes.",
+                        "answer": "2) The interaction of padding, margin, and borders"
+                    },
+                    {
+                        "question": "Which declaration is needed to change the background color of a webpage in CSS?",
+                        "options": [
+                            "4) bgcolor: blue;",
+                            "1) background-color: blue;",
+                            "3) bg-color: blue;",
+                            "2) color: blue;"
+                        ],
+                        "explanation": "To change the background color, you would use the CSS declaration 'background-color', followed by the desired color.",
+                        "answer": "1) background-color: blue;"
+                    },
+                    {
+                        "question": "What is one of the main benefits of incorporating images on a webpage?",
+                        "options": [
+                            "2) They can complicate the design",
+                            "4) They take up unnecessary space",
+                            "3) They make visual points more engaging",
+                            "1) They slow down the loading time"
+                        ],
+                        "explanation": "Images enhance the visual aspects of a webpage and help illustrate content, making it more engaging for users.",
+                        "answer": "3) They make visual points more engaging"
+                    },
+                    {
+                        "question": "When using links in HTML, which attribute is necessary for specifying the destination URL?",
+                        "options": [
+                            "1) src",
+                            "3) link",
+                            "4) target",
+                            "2) href"
+                        ],
+                        "explanation": "The 'href' attribute in the `<a>` tag is essential for specifying the URL that the link points to.",
+                        "answer": "2) href"
+                    },
+                    {
+                        "question": "Which method is the recommended approach for styling written in internal CSS?",
+                        "options": [
+                            "4) Use a <style> tag within the <head> section",
+                            "2) Write CSS in separate files only",
+                            "3) Use inline styles throughout the document",
+                            "1) Write CSS in the <body> section"
+                        ],
+                        "explanation": "Internal CSS is defined using a `<style>` tag within the `<head>` section of your HTML document, allowing centralized styling.",
+                        "answer": "4) Use a <style> tag within the <head> section"
+                    },
+                    {
+                        "question": "What is a key takeaway about the purpose of a personal website?",
+                        "options": [
+                            "1) It should only focus on your images",
+                            "4) It contains no interactive features",
+                            "3) It is meant to replicate other websites",
+                            "2) It serves as a platform for self-expression"
+                        ],
+                        "explanation": "A personal website serves as a creative platform for individuals to express themselves and showcase their interests or work.",
+                        "answer": "2) It serves as a platform for self-expression"
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What does the `<!DOCTYPE html>` tag signify in an HTML document?",
+                        "options": [
+                            "1) It specifies the title of the webpage.",
+                            "4) It closes the HTML document.",
+                            "2) It indicates the start of an HTML document.",
+                            "3) It tells the browser that this document is an HTML5 document."
+                        ],
+                        "explanation": "The `<!DOCTYPE html>` tag tells the browser that the document is written in HTML5. It is an important declaration that should be the first line in any HTML file, so that the browser interprets the HTML correctly.",
+                        "answer": "3) It tells the browser that this document is an HTML5 document."
+                    },
+                    {
+                        "question": "What is one key purpose of a personal website according to the lecture?",
+                        "options": [
+                            "1) To showcase academic grades only",
+                            "4) To serve as a business advertisement",
+                            "3) To create a social media profile",
+                            "2) To document learning journey and express personal interests"
+                        ],
+                        "explanation": "A personal website is primarily a platform for individuals to showcase their interests, portfolios, and share their learning journeys, offering a creative space for personal expression.",
+                        "answer": "2) To document learning journey and express personal interests"
+                    },
+                    {
+                        "question": "What is the purpose of the `alt` attribute in the `<img>` tag in HTML?",
+                        "options": [
+                            "1) To define the size of the image",
+                            "4) To link the image to another webpage",
+                            "2) To provide accessibility text for screen readers",
+                            "3) To specify the image's format"
+                        ],
+                        "explanation": "The `alt` attribute is used to describe the image, providing crucial information for users who rely on screen readers, thereby enhancing accessibility for all users.",
+                        "answer": "2) To provide accessibility text for screen readers"
+                    },
+                    {
+                        "question": "What is the primary purpose of CSS in web development?",
+                        "options": [
+                            "4) To create server-side scripts",
+                            "1) To define the structure of a webpage",
+                            "3) To store data for a website",
+                            "2) To style the visual presentation of a webpage"
+                        ],
+                        "explanation": "CSS, or Cascading Style Sheets, is specifically designed for styling content on webpages, including changing colors, fonts, layouts, and more, making option 2 the correct answer.",
+                        "answer": "2) To style the visual presentation of a webpage"
+                    },
+                    {
+                        "question": "What is the purpose of using CSS in web development as discussed in the lecture?",
+                        "options": [
+                            "4) To manage server-side scripting",
+                            "2) To add interactivity to the web page",
+                            "1) To structure the content of the web page",
+                            "3) To style and format the layout of the web page"
+                        ],
+                        "explanation": "CSS, or Cascading Style Sheets, is primarily used for styling and formatting the appearance of a web page. It helps in enhancing the layout by allowing developers to apply styles such as colors, fonts, and spacing, making the pages visually appealing.",
+                        "answer": "3) To style and format the layout of the web page"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

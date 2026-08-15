@@ -1,0 +1,192 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Introduction to SQL Basics",
+                "lecture": "Hello! Today we will dive into SQL, the language used for managing and querying relational databases. SQL stands for Structured Query Language, and it is the standard language for interacting with relational database management systems (RDBMS). In this lecture, we will explore fundamental concepts that you need to know as you begin your journey with SQL. We'll cover data types and the basic syntax of SQL. So let\u2019s jump right in! \n\n### Data Types in SQL\n\nFirst, let\u2019s look at data types in SQL. Just like in programming, data types define what kind of data you're working with and how you can manipulate that data. SQL provides several different types of data types, which can be grouped into a few categories. \n\n1. **Numeric Data Types**: These are used for numerical values. Common numeric types include `INT`, which represents integers; `FLOAT`, for floating-point numbers; and `DECIMAL`, which is used for exact numeric values, often for financial calculations.\n\n2. **String Data Types**: These types hold text values. The commonly used ones are `CHAR`, which is fixed-length, and `VARCHAR`, which is variable-length. There is also `TEXT`, which can store larger strings. For instance, if you're storing a name, you might use `VARCHAR` with a specified length.\n\n3. **Date and Time Data Types**: SQL has several types to handle date and time values. `DATE` stores dates, `TIME` stores time, and `TIMESTAMP` combines both date and time. This is particularly useful for tracking events like when records were created or modified.\n\n4. **Boolean Data Types**: Many databases also support a Boolean data type, which can only have two values \u2013 true or false. This type is often used in cases where you want to store conditions, such as whether a user is active or inactive.\n\nUnderstanding these data types is crucial because they help you choose the right type of data to store in each column of your database tables. When defining a table, you specify what data type each column holds, which enforces validation and optimizes storage.\n\n[p] \nNow that we have a good understanding of SQL data types, let\u2019s proceed to the next subtopic. \n\n### Basic SQL Syntax\n\nNext, we'll discuss the basic syntax of SQL. This is essential as it defines how you write your SQL statements.\n\nSQL commands are generally classified into different categories based on their purpose. The primary categories we will focus on today are **Data Query Language (DQL)**, **Data Definition Language (DDL)**, and **Data Manipulation Language (DML)**.\n\n1. **Data Query Language (DQL)**: This is mainly about querying data. The most common command is `SELECT`. The `SELECT` statement is used to select data from a database. Here\u2019s a simple example:\n   ```sql\n   SELECT * FROM students;\n   ```\n   This command retrieves all columns from the `students` table. The `*` symbol means that you want to select all columns.\n\n2. **Data Definition Language (DDL)**: This category includes commands that define the structure of the database, such as creating, altering, and dropping tables. The primary command we\u2019ll use is `CREATE TABLE`. For instance:\n   ```sql\n   CREATE TABLE students (\n       id INT,\n       name VARCHAR(100),\n       enrollment_date DATE\n   );\n   ```\n   This command creates a new table named `students` with three columns, each assigned a specific data type we discussed earlier.\n\n3. **Data Manipulation Language (DML)**: This set includes commands for managing data within tables. The main commands are `INSERT`, `UPDATE`, and `DELETE`. For example, to insert a new student into our `students` table, we use:\n   ```sql\n   INSERT INTO students (id, name, enrollment_date)\n   VALUES (1, 'John Doe', '2021-09-01');\n   ```\n   Here we are adding a student with an ID of 1, the name 'John Doe', and the enrollment date.\n\n[p] \nSimilarly, to update a record, we would use:\n   ```sql\n   UPDATE students\n   SET name = 'Jane Doe'\n   WHERE id = 1;\n   ```\n   This command updates the name of the student with ID 1 to 'Jane Doe'. \n\nTo remove a record, you\u2019d use the `DELETE` command like this:\n   ```sql\n   DELETE FROM students WHERE id = 1;\n   ```\n   This tells the database to delete the student with an ID of 1.\n\nNow that we covered these fundamental SQL commands, let\u2019s take a moment to digest this information before proceeding.\n\n[p]\n### Combining SQL Commands\n\nYou can also combine different SQL commands to perform complex operations. For instance, joining tables allows you to retrieve data from two or more tables based on a related column. Here\u2019s an essential command you might encounter frequently:\n   ```sql\n   SELECT students.name, courses.course_name\n   FROM students\n   JOIN course_enrollments ON students.id = course_enrollments.student_id\n   JOIN courses ON course_enrollments.course_id = courses.id;\n   ```\nThis query selects student names alongside their associated courses, showing how SQL can link data across multiple tables, enhancing the power of your queries.\n\n[p]\n### Summary\n\nTo summarize today\u2019s lecture, we\u2019ve covered the basics of SQL, including the various data types\u2014like numeric, string, date, and Boolean types\u2014that help structure your database. We also explored the foundational syntax of SQL, including DQL for querying data through commands like `SELECT`, DDL for defining database structures with commands like `CREATE TABLE`, and DML for manipulating data within the tables using commands like `INSERT`, `UPDATE`, and `DELETE`. \n\nYou should now have a foundational understanding of SQL and feel comfortable exploring more advanced concepts in database management.\n\n### Main Topic and Sub Topics\n\nMain Topic: SQL Basics\nSub Topics: [\"Data Types in SQL\", \"Basic SQL Syntax\"]",
+                "summary": "In this lecture, you learned the basics of SQL, including various data types like numeric, string, date, and Boolean. You also explored SQL's fundamental syntax, covering Data Query Language (DQL), Data Definition Language (DDL), and Data Manipulation Language (DML) commands. This foundational knowledge will serve you as you advance in database management.",
+                "subject": "Computer Science",
+                "main_topic": "SQL Basics",
+                "sub_topics": [
+                    "Data Types in SQL",
+                    "Basic SQL Syntax"
+                ],
+                "wikipedia_refrences": [
+                    "https://en.wikipedia.org/wiki/SQL",
+                    "https://en.wikipedia.org/wiki/Data_type",
+                    "https://en.wikipedia.org/wiki/SQL_syntax"
+                ],
+                "quiz": [
+                    {
+                        "question": "Which SQL data type is best suited for storing precise financial values?",
+                        "options": [
+                            "2) FLOAT",
+                            "4) VARCHAR",
+                            "3) DECIMAL",
+                            "1) INT"
+                        ],
+                        "explanation": "The DECIMAL data type is designed for precise values, especially useful in financial calculations where rounding errors are not acceptable.",
+                        "answer": "3) DECIMAL"
+                    },
+                    {
+                        "question": "What is the primary command used in Data Definition Language (DDL) to create a new table in SQL?",
+                        "options": [
+                            "1) INSERT TABLE",
+                            "2) CREATE TABLE",
+                            "4) DROP TABLE",
+                            "3) UPDATE TABLE"
+                        ],
+                        "explanation": "The CREATE TABLE command is used to define a new table and its structure in the database.",
+                        "answer": "2) CREATE TABLE"
+                    },
+                    {
+                        "question": "Which of the following SQL data types can store text of variable length?",
+                        "options": [
+                            "3) VARCHAR",
+                            "2) TEXT",
+                            "4) INT",
+                            "1) CHAR"
+                        ],
+                        "explanation": "VARCHAR is specifically designed for variable-length strings, allowing more efficient storage of text data compared to CHAR, which is fixed-length.",
+                        "answer": "3) VARCHAR"
+                    },
+                    {
+                        "question": "In the SQL statement 'DELETE FROM students WHERE id = 1;', what action is performed?",
+                        "options": [
+                            "3) Updates a student's information.",
+                            "1) Inserts a new student record.",
+                            "2) Deletes a student with ID 1.",
+                            "4) Selects data from the students table."
+                        ],
+                        "explanation": "This command instructs the database to remove the record of the student with ID 1 from the students table.",
+                        "answer": "2) Deletes a student with ID 1."
+                    },
+                    {
+                        "question": "What is contained in the basic structure of a SQL table as defined using 'CREATE TABLE'?",
+                        "options": [
+                            "3) Only data records.",
+                            "2) The table name and the data types of columns.",
+                            "4) Only primary keys.",
+                            "1) Only the table name."
+                        ],
+                        "explanation": "The CREATE TABLE command defines both the name of the table and the data types of its columns, which outlines the structure of the table.",
+                        "answer": "2) The table name and the data types of columns."
+                    },
+                    {
+                        "question": "Which command would you use to add a new student record into the 'students' table?",
+                        "options": [
+                            "1) UPDATE",
+                            "4) SELECT",
+                            "3) DELETE",
+                            "2) INSERT"
+                        ],
+                        "explanation": "The INSERT command is used to add new records to a table in SQL.",
+                        "answer": "2) INSERT"
+                    },
+                    {
+                        "question": "Which SQL data type would you choose to store a date of birth?",
+                        "options": [
+                            "2) DATE",
+                            "4) BOOLEAN",
+                            "1) VARCHAR",
+                            "3) INT"
+                        ],
+                        "explanation": "The DATE data type is specifically designed to store date values, including dates of birth.",
+                        "answer": "2) DATE"
+                    },
+                    {
+                        "question": "What command would you use to modify an existing record in the database?",
+                        "options": [
+                            "1) ADD",
+                            "3) UPDATE",
+                            "4) MODIFY",
+                            "2) CHANGE"
+                        ],
+                        "explanation": "The UPDATE command is the correct SQL command for modifying existing records in a table.",
+                        "answer": "3) UPDATE"
+                    },
+                    {
+                        "question": "What does the Wildcard ' * ' in a SQL SELECT statement signify?",
+                        "options": [
+                            "2) It selects all columns.",
+                            "1) It selects specific columns.",
+                            "3) It selects no columns.",
+                            "4) It selects a random column."
+                        ],
+                        "explanation": "The asterisk ' * ' is a wildcard used to specify that all columns from the table should be selected in a query.",
+                        "answer": "2) It selects all columns."
+                    },
+                    {
+                        "question": "In SQL, what is the purpose of the JOIN operation?",
+                        "options": [
+                            "1) To delete records from one table.",
+                            "4) To update records in a table.",
+                            "2) To combine rows from two or more tables based on related columns.",
+                            "3) To create a new table."
+                        ],
+                        "explanation": "The JOIN operation is used to retrieve data from multiple tables by combining rows based on related columns, enhancing data retrieval capabilities.",
+                        "answer": "2) To combine rows from two or more tables based on related columns."
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "Which of the following data types is best suited for storing a user\u2019s login status, such as whether they are active or inactive?",
+                        "options": [
+                            "3) BOOLEAN",
+                            "4) DATE",
+                            "2) VARCHAR",
+                            "1) INT"
+                        ],
+                        "explanation": "The BOOLEAN data type is best suited for storing binary states like a user's login status. It represents two values: true (active) and false (inactive).",
+                        "answer": "3) BOOLEAN"
+                    },
+                    {
+                        "question": "What is the purpose of the `SELECT` statement in SQL?",
+                        "options": [
+                            "2) To define the structure of the database",
+                            "1) To insert new data into a table",
+                            "4) To delete data from a table",
+                            "3) To query and retrieve data from a database"
+                        ],
+                        "explanation": "The `SELECT` statement is part of the Data Query Language (DQL) and is specifically used to query and retrieve data from a database.",
+                        "answer": "3) To query and retrieve data from a database"
+                    },
+                    {
+                        "question": "What SQL command is used to change an existing record in the database?",
+                        "options": [
+                            "4) DELETE",
+                            "2) INSERT",
+                            "3) UPDATE",
+                            "1) SELECT"
+                        ],
+                        "explanation": "The UPDATE command is specifically designed to modify existing records in a table. It allows you to set new values for specific fields based on a condition specified in the WHERE clause.",
+                        "answer": "3) UPDATE"
+                    },
+                    {
+                        "question": "What SQL command is used to retrieve student names along with their associated course names from multiple tables?",
+                        "options": [
+                            "3) DELETE",
+                            "2) INSERT",
+                            "1) SELECT",
+                            "4) UPDATE"
+                        ],
+                        "explanation": "The correct command to retrieve data from multiple tables and display specific fields is the SELECT command. In this context, it is used in conjunction with JOINs to link the 'students' and 'courses' tables via 'course_enrollments'.",
+                        "answer": "1) SELECT"
+                    },
+                    {
+                        "question": "Which of the following SQL commands is used to retrieve data from a database?",
+                        "options": [
+                            "1) INSERT",
+                            "4) UPDATE",
+                            "3) CREATE TABLE",
+                            "2) SELECT"
+                        ],
+                        "explanation": "The correct command to retrieve data from a database is the SELECT statement. The INSERT command is used to add data, CREATE TABLE is for defining database structures, and UPDATE is for modifying existing data.",
+                        "answer": "2) SELECT"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

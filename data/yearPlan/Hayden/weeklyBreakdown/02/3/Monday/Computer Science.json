@@ -1,0 +1,215 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Advanced SQL Queries",
+                "lecture": "Hello and welcome! Today, we will advance our skills in SQL by learning how to write complex queries, which are essential when working with databases. We'll cover three essential subtopics: Joins in SQL, Subqueries, and Aggregate Functions. Let's start with our first subtopic.\n\n[p]\n\n**Joins in SQL**\nJoins are a fundamental aspect of SQL. A Join allows you to combine records from two or more tables in a database based on related columns between them. There are several types of Joins, but we will focus on the most common ones: Inner Join, Left Join, Right Join, and Full Outer Join.\n\nAn **Inner Join** retrieves only the rows where there is a match in both tables. This is the most common type of Join. For instance, if you have a table of `Customers` and a table of `Orders`, an Inner Join would return only the customers who have placed orders.\n\n[p]\n\nNext, we have the **Left Join** (or Left Outer Join), which returns all the rows from the left table and the matching rows from the right table. If there is no match, the result is NULL on the right side. This is particularly useful if you want to see all records from one table, regardless of whether there is a matching record in the other.\n\n[p]\n\nThe **Right Join** functions similarly but returns all records from the right table and the matched records from the left table. If there\u2019s no match, it shows NULL on the left side.\n\n[p]\n\nLastly, there's the **Full Outer Join**, which combines the results of both Left and Right Joins. It returns all rows from both tables, filled with NULLs where there is no match.\n\nFor example, consider employee details stored in one table and department details in another. If you wish to view all employees alongside their department details, you would use a Join.\n\n[p]\n\nNow that we've gone through Joins and how they work, let\u2019s move on to our next subtopic.\n\n[p]\n\n**Subqueries**\nA Subquery is a SQL query nested inside another query. Subqueries are useful when you want to perform an operation using the result of another query. You can use them in various places, such as the SELECT, FROM, or WHERE clause. \n\nAn example of a Subquery is when you want to find customers who placed orders over a specific amount. You can first create a Subquery that identifies those orders and then use it in your main query to filter out the customers.\n\n[p]\n\nSubqueries can be categorized as correlated and non-correlated. A **Non-Correlated Subquery** can be executed independently of the outer query, while a **Correlated Subquery** relies on values from the outer query to execute.\n\nFor example, think about a scenario where you have a table of `Employees` and another of `Salaries`. A non-correlated Subquery might return a list of salaries above a certain value that would feed into a larger query asking for employee names. Meanwhile, a correlated Subquery would return employee names based on specific conditions related to their salaries.\n\n[p]\n\nUnderstanding how to implement Subqueries can greatly enhance your ability to write complex SQL queries. It provides a powerful way to interactively retrieve multiple levels of data.\n\n[p]\n\nNow that we've delved into Subqueries, we\u2019ll move on to our final subtopic.\n\n[p]\n\n**Aggregate Functions**\nAggregate Functions are critical in SQL for performing calculations across multiple rows of a table, returning a single value for each group of rows. Common Aggregate Functions include `COUNT()`, `SUM()`, `AVG()`, `MIN()`, and `MAX()`. \n\nLet\u2019s break these down:\n- `COUNT()` counts the number of rows. It can be used with or without a specific column.\n- `SUM()` adds up all the total values in a specific column, such as summing up all sales amounts in a `Sales` table, providing the total sales figure.\n- `AVG()` calculates the average value of a numeric column.\n- `MIN()` and `MAX()` return the smallest and largest values in a column, respectively.\n\n[p]\n\nWhen using Aggregate Functions, you often combine them with the `GROUP BY` clause to group rows sharing a property. For example, you can group sales by product type and find the total sales for each product. \n\nBy effectively utilizing Aggregate Functions, you can generate valuable insights from your data, like total revenue, average customer spend, or the highest selling product.\n\n[p]\n\nNow, let\u2019s take a moment to summarize what we've covered today.\n\n[p]\n\n**Summary**\nIn today\u2019s lecture, you learned about Advanced SQL Queries, focusing on Joins, Subqueries, and Aggregate Functions. You explored how to combine multiple tables using various Join types, retrieve data through Subqueries, and perform calculations utilizing Aggregate Functions. Understanding these concepts will greatly enhance your database querying skills and enable you to interact more efficiently with complex data sets.\n\n[p]\n\nTo continue your learning, here are some valuable Wikipedia references for each topic:\n- Joins in SQL: https://en.wikipedia.org/wiki/Join_(SQL)\n- Subqueries: https://en.wikipedia.org/wiki/Subquery\n- Aggregate Functions: https://en.wikipedia.org/wiki/Aggregate_function\n\n[p]\n\n**Main Topic: Advanced SQL Queries**  \n**Sub Topics: Joins in SQL, Subqueries, Aggregate Functions**",
+                "summary": "In today\u2019s lecture, you learned about Advanced SQL Queries, focusing on Joins, Subqueries, and Aggregate Functions. You explored how to combine multiple tables using various Join types, retrieve data through Subqueries, and perform calculations utilizing Aggregate Functions. Understanding these concepts will greatly enhance your database querying skills and enable you to interact more efficiently with complex data sets.",
+                "subject": "Computer Science",
+                "main_topic": "Advanced SQL Queries",
+                "sub_topics": [
+                    "Joins in SQL",
+                    "Subqueries",
+                    "Aggregate Functions"
+                ],
+                "wikipedia_refrences": [
+                    "https://en.wikipedia.org/wiki/Join_(SQL)",
+                    "https://en.wikipedia.org/wiki/Subquery",
+                    "https://en.wikipedia.org/wiki/Aggregate_function"
+                ],
+                "quiz": [
+                    {
+                        "question": "What type of Join in SQL returns all the records from the left table and the matching records from the right table?",
+                        "options": [
+                            "2) Left Join",
+                            "3) Right Join",
+                            "1) Inner Join",
+                            "4) Full Outer Join"
+                        ],
+                        "explanation": "A Left Join returns all records from the left table and matching records from the right, filling NULL where there are no matches.",
+                        "answer": "2) Left Join"
+                    },
+                    {
+                        "question": "Which SQL command is used to calculate the average of a numeric column?",
+                        "options": [
+                            "3) SUM()",
+                            "4) MIN()",
+                            "1) AVG()",
+                            "2) COUNT()"
+                        ],
+                        "explanation": "The AVG() function is specifically designed to calculate the average value of a numeric column in SQL.",
+                        "answer": "1) AVG()"
+                    },
+                    {
+                        "question": "What is combined with Aggregate Functions to group rows that share a specific property?",
+                        "options": [
+                            "4) HAVING",
+                            "2) JOIN",
+                            "3) GROUP BY",
+                            "1) ORDER BY"
+                        ],
+                        "explanation": "The GROUP BY clause is used in conjunction with Aggregate Functions to group rows that have the same values in specified columns.",
+                        "answer": "3) GROUP BY"
+                    },
+                    {
+                        "question": "What does a Full Outer Join return?",
+                        "options": [
+                            "2) All rows from the right table",
+                            "4) Only non-matching rows from both tables",
+                            "1) Only matching rows from both tables",
+                            "3) All rows from both tables with NULLs where there are no matches"
+                        ],
+                        "explanation": "A Full Outer Join combines the results of both left and right joins, returning all rows from both tables, and NULLs for non-matching records.",
+                        "answer": "3) All rows from both tables with NULLs where there are no matches"
+                    },
+                    {
+                        "question": "Where can a Subquery be used in a SQL statement?",
+                        "options": [
+                            "1) Only in the SELECT clause",
+                            "4) Only in the WHERE clause",
+                            "2) Only in the FROM clause",
+                            "3) In the SELECT, FROM, or WHERE clause"
+                        ],
+                        "explanation": "A Subquery can be employed in various parts of a SQL statement, including SELECT, FROM, or WHERE clauses, enhancing flexibility.",
+                        "answer": "3) In the SELECT, FROM, or WHERE clause"
+                    },
+                    {
+                        "question": "Which SQL function counts the number of rows in a result set?",
+                        "options": [
+                            "4) MAX()",
+                            "2) SUM()",
+                            "1) COUNT()",
+                            "3) AVG()"
+                        ],
+                        "explanation": "The COUNT() function is specifically designed to count the number of rows returned by a query.",
+                        "answer": "1) COUNT()"
+                    },
+                    {
+                        "question": "In a correlated Subquery, what does it rely on for execution?",
+                        "options": [
+                            "2) The inner query",
+                            "3) A temporary table",
+                            "4) Previous query results",
+                            "1) The outer query"
+                        ],
+                        "explanation": "A correlated Subquery relies on values from the outer query to execute, making it dependently executed together with the outer query.",
+                        "answer": "1) The outer query"
+                    },
+                    {
+                        "question": "What does the MIN() function return?",
+                        "options": [
+                            "4) The total number of records",
+                            "2) The maximum value of a column",
+                            "3) The smallest value in a column",
+                            "1) The average value of a column"
+                        ],
+                        "explanation": "The MIN() function is used to find the smallest value in a specified column of a SQL database.",
+                        "answer": "3) The smallest value in a column"
+                    },
+                    {
+                        "question": "What is the main use of Subqueries in SQL?",
+                        "options": [
+                            "2) To perform additional selections within a query",
+                            "3) To create tables",
+                            "4) To manage permissions",
+                            "1) To improve database speed"
+                        ],
+                        "explanation": "Subqueries are primarily used to perform operations using results from another query, allowing multi-level querying.",
+                        "answer": "2) To perform additional selections within a query"
+                    },
+                    {
+                        "question": "What does the `MAX()` function do in SQL?",
+                        "options": [
+                            "1) Counts the number of records",
+                            "2) Returns the largest value in a column",
+                            "3) Calculates the average of a column",
+                            "4) Returns the sum of values in a column"
+                        ],
+                        "explanation": "The MAX() function is used to find the largest value in a specified column in SQL.",
+                        "answer": "2) Returns the largest value in a column"
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What type of Join in SQL retrieves only the rows where there is a match in both tables?",
+                        "options": [
+                            "3) Right Join",
+                            "1) Inner Join",
+                            "2) Left Join",
+                            "4) Full Outer Join"
+                        ],
+                        "explanation": "An Inner Join is specifically designed to return only those records that have matching values in both tables involved in the join. This means only customers who have placed orders would be retrieved when performing an Inner Join between the Customers and Orders tables.",
+                        "answer": "1) Inner Join"
+                    },
+                    {
+                        "question": "What does a Right Join return when there is no matching record from the left table?",
+                        "options": [
+                            "1) The matching records from both tables",
+                            "2) An error message",
+                            "4) All records from the left table",
+                            "3) NULL values from the left table"
+                        ],
+                        "explanation": "In a Right Join, when there is no matching record from the left table, it returns NULL values for the fields of the left table, while including all records from the right table.",
+                        "answer": "3) NULL values from the left table"
+                    },
+                    {
+                        "question": "What is the primary purpose of using Joins in SQL?",
+                        "options": [
+                            "3) To create a new table based on the results of a query.",
+                            "1) To combine rows from two or more tables based on a related column between them.",
+                            "2) To perform calculations on numeric data within a table.",
+                            "4) To define the structure of the database schema."
+                        ],
+                        "explanation": "Joins are used in SQL to combine rows from two or more tables based on a related column between them. This allows for more complex queries that can pull relevant data from multiple sources within a database, enhancing data retrieval and analysis.",
+                        "answer": "1) To combine rows from two or more tables based on a related column between them."
+                    },
+                    {
+                        "question": "What is a subquery in SQL?",
+                        "options": [
+                            "4) A script written in a programming language other than SQL.",
+                            "1) A SQL query that runs independently of another query.",
+                            "2) A SQL query nested inside another query.",
+                            "3) A method to directly update a database without a query."
+                        ],
+                        "explanation": "A subquery is specifically defined as a SQL query that is nested within another query. This allows for using the result of one query as a parameter for another, which enhances the complexity and functionality of SQL operations.",
+                        "answer": "2) A SQL query nested inside another query."
+                    },
+                    {
+                        "question": "What is a key difference between a Non-Correlated Subquery and a Correlated Subquery?",
+                        "options": [
+                            "4) A Non-Correlated Subquery and a Correlated Subquery are identical in function.",
+                            "1) A Non-Correlated Subquery relies on values from the outer query, while a Correlated Subquery can be executed independently.",
+                            "2) A Non-Correlated Subquery can be executed independently of the outer query, while a Correlated Subquery relies on values from the outer query.",
+                            "3) A Non-Correlated Subquery always returns all results, while a Correlated Subquery returns selective results based on conditions."
+                        ],
+                        "explanation": "The key difference lies in their dependency on the outer query. A Non-Correlated Subquery can operate on its own and doesn't rely on the outer query's values, whereas a Correlated Subquery cannot function without having values from the outer query to execute successfully.",
+                        "answer": "2) A Non-Correlated Subquery can be executed independently of the outer query, while a Correlated Subquery relies on values from the outer query."
+                    },
+                    {
+                        "question": "What does the `SUM()` function do in SQL?",
+                        "options": [
+                            "2) Returns the smallest value in a numeric column.",
+                            "1) Counts the number of rows in a table.",
+                            "3) Calculates the average value of a numeric column.",
+                            "4) Adds up all the total values in a specific column."
+                        ],
+                        "explanation": "The `SUM()` function is an aggregate function used in SQL to calculate the total sum of numeric values in a specified column. It returns a single value that represents the total of all entries in that column.",
+                        "answer": "4) Adds up all the total values in a specific column."
+                    },
+                    {
+                        "question": "What is the purpose of using Joins in SQL queries?",
+                        "options": [
+                            "2) To restrict the result set based on specific conditions",
+                            "4) To organize data into hierarchical structures",
+                            "3) To perform calculations on numeric data",
+                            "1) To combine multiple tables based on a related column"
+                        ],
+                        "explanation": "Joins are used in SQL to combine rows from two or more tables based on a related column. This allows for retrieving comprehensive datasets that draw information from different tables, thereby providing a more complete view of the data.",
+                        "answer": "1) To combine multiple tables based on a related column"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

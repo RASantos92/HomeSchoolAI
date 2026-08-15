@@ -1,0 +1,2542 @@
+{
+    "Monday": {},
+    "Tuesday": {},
+    "Wednesday": {
+        "Algebra": [
+            {
+                "quiz_grade": 40.0,
+                "wrong_answers": [
+                    0,
+                    2,
+                    5,
+                    6,
+                    7,
+                    9
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is a root of a polynomial?",
+                        "options": [
+                            "2) A value that makes the polynomial equal to zero",
+                            "4) The highest degree of a polynomial",
+                            "1) A point where the polynomial reaches its maximum value",
+                            "3) A coefficient in the polynomial expression"
+                        ],
+                        "explanation": "A root of a polynomial is a value of the variable that makes the polynomial equal to zero.",
+                        "answer": "2) A value that makes the polynomial equal to zero"
+                    },
+                    {
+                        "question": "If a polynomial is defined as P(x) = x^2 - 5x + 6, what are the roots of this polynomial?",
+                        "options": [
+                            "2) 2 and 3",
+                            "3) 0 and 6",
+                            "4) 5 and 5",
+                            "1) 1 and 6"
+                        ],
+                        "explanation": "The polynomial can be factored as (x - 2)(x - 3) = 0, giving the roots x = 2 and x = 3.",
+                        "answer": "2) 2 and 3"
+                    },
+                    {
+                        "question": "What method can you use to find roots if factoring is not feasible for a quadratic polynomial?",
+                        "options": [
+                            "3) Completing the square",
+                            "1) Graphing the polynomial",
+                            "4) Guessing values",
+                            "2) Using the quadratic formula"
+                        ],
+                        "explanation": "When factoring is not possible, you can use the quadratic formula: x = (-b \u00b1 \u221a(b\u00b2 - 4ac)) / (2a) to find the roots.",
+                        "answer": "2) Using the quadratic formula"
+                    },
+                    {
+                        "question": "What do you call the highest exponent in a polynomial?",
+                        "options": [
+                            "4) The constant term",
+                            "2) The leading coefficient",
+                            "1) The degree of the polynomial",
+                            "3) The root"
+                        ],
+                        "explanation": "The highest exponent in a polynomial is referred to as the degree of the polynomial.",
+                        "answer": "1) The degree of the polynomial"
+                    },
+                    {
+                        "question": "What characteristic distinguishes the graph of an odd-degree polynomial?",
+                        "options": [
+                            "1) It has an even number of turning points",
+                            "2) It approaches the same direction on both ends",
+                            "3) It descends to the left and ascends to the right",
+                            "4) It only touches the x-axis at one point"
+                        ],
+                        "explanation": "An odd-degree polynomial with a positive leading coefficient descends to the left and ascends to the right, indicating a change in direction at the zeros.",
+                        "answer": "3) It descends to the left and ascends to the right"
+                    },
+                    {
+                        "question": "In the polynomial P(x) = x^3 - 4x, what is the first step to find the critical points?",
+                        "options": [
+                            "4) Factor the polynomial",
+                            "2) Find the first derivative",
+                            "3) Graph the polynomial",
+                            "1) Set P(x) = 0"
+                        ],
+                        "explanation": "To find critical points, the first step is to take the derivative of the polynomial and set it to zero: P\u2019(x) = 3x^2 - 4.",
+                        "answer": "2) Find the first derivative"
+                    },
+                    {
+                        "question": "When graphing a polynomial, what does a positive leading coefficient and even degree indicate about end behavior?",
+                        "options": [
+                            "1) Both ends of the graph ascend",
+                            "4) One end ascends and the other descends",
+                            "3) The graph crosses the x-axis",
+                            "2) Both ends descend"
+                        ],
+                        "explanation": "A polynomial with a positive leading coefficient and even degree means both ends of the graph will ascend toward positive infinity.",
+                        "answer": "1) Both ends of the graph ascend"
+                    },
+                    {
+                        "question": "Which of the following is a real-world application of polynomial equations?",
+                        "options": [
+                            "4) Creating graphic designs",
+                            "1) Predicting weather patterns",
+                            "3) Enhancing data security",
+                            "2) Describing projectile motion"
+                        ],
+                        "explanation": "Polynomials can model equations that describe motion, such as projectile paths, making them applicable in physics.",
+                        "answer": "2) Describing projectile motion"
+                    },
+                    {
+                        "question": "In the context of a revenue model, what is the significance of polynomial functions?",
+                        "options": [
+                            "2) They simplify complex equations into linear functions",
+                            "1) They help in calculating the mean value of a dataset",
+                            "4) They measure statistical variance in data",
+                            "3) They model the relationship between production and revenue"
+                        ],
+                        "explanation": "Polynomial functions in revenue models can show how changes in production levels affect revenue, allowing for predictions and analysis.",
+                        "answer": "3) They model the relationship between production and revenue"
+                    },
+                    {
+                        "question": "What does graphing a polynomial help to visualize?",
+                        "options": [
+                            "3) The coefficients only",
+                            "2) The roots and end behavior",
+                            "1) The factors of the polynomial",
+                            "4) The constant term"
+                        ],
+                        "explanation": "Graphing a polynomial allows us to visualize its roots (where it intersects the x-axis) and its end behavior as x approaches \u00b1\u221e.",
+                        "answer": "2) The roots and end behavior"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 50.0,
+                "wrong_answers": [
+                    0,
+                    2,
+                    5,
+                    6,
+                    7
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is a root of a polynomial?",
+                        "options": [
+                            "2) A value that makes the polynomial equal to zero",
+                            "4) The highest degree of a polynomial",
+                            "1) A point where the polynomial reaches its maximum value",
+                            "3) A coefficient in the polynomial expression"
+                        ],
+                        "explanation": "A root of a polynomial is a value of the variable that makes the polynomial equal to zero.",
+                        "answer": "2) A value that makes the polynomial equal to zero"
+                    },
+                    {
+                        "question": "If a polynomial is defined as P(x) = x^2 - 5x + 6, what are the roots of this polynomial?",
+                        "options": [
+                            "2) 2 and 3",
+                            "3) 0 and 6",
+                            "4) 5 and 5",
+                            "1) 1 and 6"
+                        ],
+                        "explanation": "The polynomial can be factored as (x - 2)(x - 3) = 0, giving the roots x = 2 and x = 3.",
+                        "answer": "2) 2 and 3"
+                    },
+                    {
+                        "question": "What method can you use to find roots if factoring is not feasible for a quadratic polynomial?",
+                        "options": [
+                            "3) Completing the square",
+                            "1) Graphing the polynomial",
+                            "4) Guessing values",
+                            "2) Using the quadratic formula"
+                        ],
+                        "explanation": "When factoring is not possible, you can use the quadratic formula: x = (-b \u00b1 \u221a(b\u00b2 - 4ac)) / (2a) to find the roots.",
+                        "answer": "2) Using the quadratic formula"
+                    },
+                    {
+                        "question": "What do you call the highest exponent in a polynomial?",
+                        "options": [
+                            "4) The constant term",
+                            "2) The leading coefficient",
+                            "1) The degree of the polynomial",
+                            "3) The root"
+                        ],
+                        "explanation": "The highest exponent in a polynomial is referred to as the degree of the polynomial.",
+                        "answer": "1) The degree of the polynomial"
+                    },
+                    {
+                        "question": "What characteristic distinguishes the graph of an odd-degree polynomial?",
+                        "options": [
+                            "1) It has an even number of turning points",
+                            "2) It approaches the same direction on both ends",
+                            "3) It descends to the left and ascends to the right",
+                            "4) It only touches the x-axis at one point"
+                        ],
+                        "explanation": "An odd-degree polynomial with a positive leading coefficient descends to the left and ascends to the right, indicating a change in direction at the zeros.",
+                        "answer": "3) It descends to the left and ascends to the right"
+                    },
+                    {
+                        "question": "In the polynomial P(x) = x^3 - 4x, what is the first step to find the critical points?",
+                        "options": [
+                            "4) Factor the polynomial",
+                            "2) Find the first derivative",
+                            "3) Graph the polynomial",
+                            "1) Set P(x) = 0"
+                        ],
+                        "explanation": "To find critical points, the first step is to take the derivative of the polynomial and set it to zero: P\u2019(x) = 3x^2 - 4.",
+                        "answer": "2) Find the first derivative"
+                    },
+                    {
+                        "question": "When graphing a polynomial, what does a positive leading coefficient and even degree indicate about end behavior?",
+                        "options": [
+                            "1) Both ends of the graph ascend",
+                            "4) One end ascends and the other descends",
+                            "3) The graph crosses the x-axis",
+                            "2) Both ends descend"
+                        ],
+                        "explanation": "A polynomial with a positive leading coefficient and even degree means both ends of the graph will ascend toward positive infinity.",
+                        "answer": "1) Both ends of the graph ascend"
+                    },
+                    {
+                        "question": "Which of the following is a real-world application of polynomial equations?",
+                        "options": [
+                            "4) Creating graphic designs",
+                            "1) Predicting weather patterns",
+                            "3) Enhancing data security",
+                            "2) Describing projectile motion"
+                        ],
+                        "explanation": "Polynomials can model equations that describe motion, such as projectile paths, making them applicable in physics.",
+                        "answer": "2) Describing projectile motion"
+                    },
+                    {
+                        "question": "In the context of a revenue model, what is the significance of polynomial functions?",
+                        "options": [
+                            "2) They simplify complex equations into linear functions",
+                            "1) They help in calculating the mean value of a dataset",
+                            "4) They measure statistical variance in data",
+                            "3) They model the relationship between production and revenue"
+                        ],
+                        "explanation": "Polynomial functions in revenue models can show how changes in production levels affect revenue, allowing for predictions and analysis.",
+                        "answer": "3) They model the relationship between production and revenue"
+                    },
+                    {
+                        "question": "What does graphing a polynomial help to visualize?",
+                        "options": [
+                            "3) The coefficients only",
+                            "2) The roots and end behavior",
+                            "1) The factors of the polynomial",
+                            "4) The constant term"
+                        ],
+                        "explanation": "Graphing a polynomial allows us to visualize its roots (where it intersects the x-axis) and its end behavior as x approaches \u00b1\u221e.",
+                        "answer": "2) The roots and end behavior"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 40.0,
+                "wrong_answers": [
+                    0,
+                    2,
+                    5,
+                    6,
+                    7,
+                    8
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What is a root of a polynomial?",
+                        "options": [
+                            "2) A value that makes the polynomial equal to zero",
+                            "4) The highest degree of a polynomial",
+                            "1) A point where the polynomial reaches its maximum value",
+                            "3) A coefficient in the polynomial expression"
+                        ],
+                        "explanation": "A root of a polynomial is a value of the variable that makes the polynomial equal to zero.",
+                        "answer": "2) A value that makes the polynomial equal to zero"
+                    },
+                    {
+                        "question": "If a polynomial is defined as P(x) = x^2 - 5x + 6, what are the roots of this polynomial?",
+                        "options": [
+                            "2) 2 and 3",
+                            "3) 0 and 6",
+                            "4) 5 and 5",
+                            "1) 1 and 6"
+                        ],
+                        "explanation": "The polynomial can be factored as (x - 2)(x - 3) = 0, giving the roots x = 2 and x = 3.",
+                        "answer": "2) 2 and 3"
+                    },
+                    {
+                        "question": "What method can you use to find roots if factoring is not feasible for a quadratic polynomial?",
+                        "options": [
+                            "3) Completing the square",
+                            "1) Graphing the polynomial",
+                            "4) Guessing values",
+                            "2) Using the quadratic formula"
+                        ],
+                        "explanation": "When factoring is not possible, you can use the quadratic formula: x = (-b \u00b1 \u221a(b\u00b2 - 4ac)) / (2a) to find the roots.",
+                        "answer": "2) Using the quadratic formula"
+                    },
+                    {
+                        "question": "What do you call the highest exponent in a polynomial?",
+                        "options": [
+                            "4) The constant term",
+                            "2) The leading coefficient",
+                            "1) The degree of the polynomial",
+                            "3) The root"
+                        ],
+                        "explanation": "The highest exponent in a polynomial is referred to as the degree of the polynomial.",
+                        "answer": "1) The degree of the polynomial"
+                    },
+                    {
+                        "question": "What characteristic distinguishes the graph of an odd-degree polynomial?",
+                        "options": [
+                            "1) It has an even number of turning points",
+                            "2) It approaches the same direction on both ends",
+                            "3) It descends to the left and ascends to the right",
+                            "4) It only touches the x-axis at one point"
+                        ],
+                        "explanation": "An odd-degree polynomial with a positive leading coefficient descends to the left and ascends to the right, indicating a change in direction at the zeros.",
+                        "answer": "3) It descends to the left and ascends to the right"
+                    },
+                    {
+                        "question": "In the polynomial P(x) = x^3 - 4x, what is the first step to find the critical points?",
+                        "options": [
+                            "4) Factor the polynomial",
+                            "2) Find the first derivative",
+                            "3) Graph the polynomial",
+                            "1) Set P(x) = 0"
+                        ],
+                        "explanation": "To find critical points, the first step is to take the derivative of the polynomial and set it to zero: P\u2019(x) = 3x^2 - 4.",
+                        "answer": "2) Find the first derivative"
+                    },
+                    {
+                        "question": "When graphing a polynomial, what does a positive leading coefficient and even degree indicate about end behavior?",
+                        "options": [
+                            "1) Both ends of the graph ascend",
+                            "4) One end ascends and the other descends",
+                            "3) The graph crosses the x-axis",
+                            "2) Both ends descend"
+                        ],
+                        "explanation": "A polynomial with a positive leading coefficient and even degree means both ends of the graph will ascend toward positive infinity.",
+                        "answer": "1) Both ends of the graph ascend"
+                    },
+                    {
+                        "question": "Which of the following is a real-world application of polynomial equations?",
+                        "options": [
+                            "4) Creating graphic designs",
+                            "1) Predicting weather patterns",
+                            "3) Enhancing data security",
+                            "2) Describing projectile motion"
+                        ],
+                        "explanation": "Polynomials can model equations that describe motion, such as projectile paths, making them applicable in physics.",
+                        "answer": "2) Describing projectile motion"
+                    },
+                    {
+                        "question": "In the context of a revenue model, what is the significance of polynomial functions?",
+                        "options": [
+                            "2) They simplify complex equations into linear functions",
+                            "1) They help in calculating the mean value of a dataset",
+                            "4) They measure statistical variance in data",
+                            "3) They model the relationship between production and revenue"
+                        ],
+                        "explanation": "Polynomial functions in revenue models can show how changes in production levels affect revenue, allowing for predictions and analysis.",
+                        "answer": "3) They model the relationship between production and revenue"
+                    },
+                    {
+                        "question": "What does graphing a polynomial help to visualize?",
+                        "options": [
+                            "3) The coefficients only",
+                            "2) The roots and end behavior",
+                            "1) The factors of the polynomial",
+                            "4) The constant term"
+                        ],
+                        "explanation": "Graphing a polynomial allows us to visualize its roots (where it intersects the x-axis) and its end behavior as x approaches \u00b1\u221e.",
+                        "answer": "2) The roots and end behavior"
+                    }
+                ]
+            }
+        ],
+        "Astronomy": [
+            {
+                "quiz_grade": 70.0,
+                "wrong_answers": [
+                    2,
+                    7,
+                    8
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What term is often used to describe comets due to their composition?",
+                        "options": [
+                            "2) Dirty snowballs",
+                            "4) Frozen asteroids",
+                            "1) Icy rocks",
+                            "3) Cosmic icebergs"
+                        ],
+                        "explanation": "Comets are colloquially referred to as 'dirty snowballs' because they consist of ice, dust, and rocky material.",
+                        "answer": "2) Dirty snowballs"
+                    },
+                    {
+                        "question": "Where are most asteroids found in the Solar System?",
+                        "options": [
+                            "2) In the Kuiper Belt",
+                            "1) Between Earth and Mars",
+                            "3) In the asteroid belt between Mars and Jupiter",
+                            "4) Around Saturn"
+                        ],
+                        "explanation": "Most asteroids are located in the asteroid belt, which lies between Mars and Jupiter.",
+                        "answer": "3) In the asteroid belt between Mars and Jupiter"
+                    },
+                    {
+                        "question": "What two detection methods have been pivotal in discovering exoplanets?",
+                        "options": [
+                            "1) Hubble Method and Jet Method",
+                            "2) Transit Method and Radial Velocity Method",
+                            "4) Stellar Evolution Method and Solar Flare Method",
+                            "3) Gravitational Lens Method and Astrometric Method"
+                        ],
+                        "explanation": "The transit method and radial velocity method are key techniques used in the detection of exoplanets.",
+                        "answer": "2) Transit Method and Radial Velocity Method"
+                    },
+                    {
+                        "question": "What is the main reason for studying the atmospheres of exoplanets?",
+                        "options": [
+                            "4) To find out their exact distance from their star",
+                            "3) To search for chemical signatures indicating habitability",
+                            "2) To identify their color",
+                            "1) To learn about their gravitational pull"
+                        ],
+                        "explanation": "Studying exoplanet atmospheres helps scientists look for chemical signatures that might indicate the presence of life or habitability.",
+                        "answer": "3) To search for chemical signatures indicating habitability"
+                    },
+                    {
+                        "question": "What is the shape of the orbits of planets as discovered by Kepler?",
+                        "options": [
+                            "3) Square",
+                            "1) Circular",
+                            "2) Elliptical",
+                            "4) Random"
+                        ],
+                        "explanation": "Kepler discovered that planets follow elliptical orbits, a shape that varies in dimensions rather than being perfect circles.",
+                        "answer": "2) Elliptical"
+                    },
+                    {
+                        "question": "What motivates NASA's monitoring of Near-Earth Objects (NEOs)?",
+                        "options": [
+                            "1) To study their color variations",
+                            "2) To assess potential threats they might pose to Earth",
+                            "3) To analyze their gravitational effects",
+                            "4) To locate them for future missions"
+                        ],
+                        "explanation": "NASA monitors NEOs to evaluate any risks they may present to Earth, especially if their orbits intersect with our planet's.",
+                        "answer": "2) To assess potential threats they might pose to Earth"
+                    },
+                    {
+                        "question": "What region is believed to be the birthplace of comets?",
+                        "options": [
+                            "4) The Milky Way Galaxy",
+                            "3) The inner Solar System",
+                            "2) The Kuiper Belt and the Oort Cloud",
+                            "1) The asteroid belt"
+                        ],
+                        "explanation": "Comets are believed to originate from the Kuiper Belt and the Oort Cloud, areas filled with icy bodies beyond Neptune.",
+                        "answer": "2) The Kuiper Belt and the Oort Cloud"
+                    },
+                    {
+                        "question": "Which celestial phenomenon is responsible for creating ocean tides on Earth?",
+                        "options": [
+                            "4) Cometary passages",
+                            "1) The Sun's gravity",
+                            "3) Asteroid interactions",
+                            "2) The gravitational pull of the Moon"
+                        ],
+                        "explanation": "The ocean tides on Earth are created primarily due to the gravitational pull exerted by the Moon on our planet.",
+                        "answer": "2) The gravitational pull of the Moon"
+                    },
+                    {
+                        "question": "What has the discovery of exoplanets helped scientists to understand better?",
+                        "options": [
+                            "3) The characteristics of moons in our Solar System",
+                            "2) The speed of light",
+                            "4) The color changes of stars",
+                            "1) Planetary formations and their atmospheres"
+                        ],
+                        "explanation": "The discovery of exoplanets has broadened our understanding of planet formation, evolution, and potential for life beyond our Solar System.",
+                        "answer": "1) Planetary formations and their atmospheres"
+                    },
+                    {
+                        "question": "What is the key player in the cosmic interactions of celestial bodies?",
+                        "options": [
+                            "4) Light",
+                            "3) Gravity",
+                            "1) Solar winds",
+                            "2) Black holes"
+                        ],
+                        "explanation": "Gravity is the fundamental force responsible for the movement and interaction of celestial bodies in the universe, governing orbits and formations.",
+                        "answer": "3) Gravity"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    1,
+                    2
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What term is often used to describe comets due to their composition?",
+                        "options": [
+                            "2) Dirty snowballs",
+                            "4) Frozen asteroids",
+                            "1) Icy rocks",
+                            "3) Cosmic icebergs"
+                        ],
+                        "explanation": "Comets are colloquially referred to as 'dirty snowballs' because they consist of ice, dust, and rocky material.",
+                        "answer": "2) Dirty snowballs"
+                    },
+                    {
+                        "question": "Where are most asteroids found in the Solar System?",
+                        "options": [
+                            "2) In the Kuiper Belt",
+                            "1) Between Earth and Mars",
+                            "3) In the asteroid belt between Mars and Jupiter",
+                            "4) Around Saturn"
+                        ],
+                        "explanation": "Most asteroids are located in the asteroid belt, which lies between Mars and Jupiter.",
+                        "answer": "3) In the asteroid belt between Mars and Jupiter"
+                    },
+                    {
+                        "question": "What two detection methods have been pivotal in discovering exoplanets?",
+                        "options": [
+                            "1) Hubble Method and Jet Method",
+                            "2) Transit Method and Radial Velocity Method",
+                            "4) Stellar Evolution Method and Solar Flare Method",
+                            "3) Gravitational Lens Method and Astrometric Method"
+                        ],
+                        "explanation": "The transit method and radial velocity method are key techniques used in the detection of exoplanets.",
+                        "answer": "2) Transit Method and Radial Velocity Method"
+                    },
+                    {
+                        "question": "What is the main reason for studying the atmospheres of exoplanets?",
+                        "options": [
+                            "4) To find out their exact distance from their star",
+                            "3) To search for chemical signatures indicating habitability",
+                            "2) To identify their color",
+                            "1) To learn about their gravitational pull"
+                        ],
+                        "explanation": "Studying exoplanet atmospheres helps scientists look for chemical signatures that might indicate the presence of life or habitability.",
+                        "answer": "3) To search for chemical signatures indicating habitability"
+                    },
+                    {
+                        "question": "What is the shape of the orbits of planets as discovered by Kepler?",
+                        "options": [
+                            "3) Square",
+                            "1) Circular",
+                            "2) Elliptical",
+                            "4) Random"
+                        ],
+                        "explanation": "Kepler discovered that planets follow elliptical orbits, a shape that varies in dimensions rather than being perfect circles.",
+                        "answer": "2) Elliptical"
+                    },
+                    {
+                        "question": "What motivates NASA's monitoring of Near-Earth Objects (NEOs)?",
+                        "options": [
+                            "1) To study their color variations",
+                            "2) To assess potential threats they might pose to Earth",
+                            "3) To analyze their gravitational effects",
+                            "4) To locate them for future missions"
+                        ],
+                        "explanation": "NASA monitors NEOs to evaluate any risks they may present to Earth, especially if their orbits intersect with our planet's.",
+                        "answer": "2) To assess potential threats they might pose to Earth"
+                    },
+                    {
+                        "question": "What region is believed to be the birthplace of comets?",
+                        "options": [
+                            "4) The Milky Way Galaxy",
+                            "3) The inner Solar System",
+                            "2) The Kuiper Belt and the Oort Cloud",
+                            "1) The asteroid belt"
+                        ],
+                        "explanation": "Comets are believed to originate from the Kuiper Belt and the Oort Cloud, areas filled with icy bodies beyond Neptune.",
+                        "answer": "2) The Kuiper Belt and the Oort Cloud"
+                    },
+                    {
+                        "question": "Which celestial phenomenon is responsible for creating ocean tides on Earth?",
+                        "options": [
+                            "4) Cometary passages",
+                            "1) The Sun's gravity",
+                            "3) Asteroid interactions",
+                            "2) The gravitational pull of the Moon"
+                        ],
+                        "explanation": "The ocean tides on Earth are created primarily due to the gravitational pull exerted by the Moon on our planet.",
+                        "answer": "2) The gravitational pull of the Moon"
+                    },
+                    {
+                        "question": "What has the discovery of exoplanets helped scientists to understand better?",
+                        "options": [
+                            "3) The characteristics of moons in our Solar System",
+                            "2) The speed of light",
+                            "4) The color changes of stars",
+                            "1) Planetary formations and their atmospheres"
+                        ],
+                        "explanation": "The discovery of exoplanets has broadened our understanding of planet formation, evolution, and potential for life beyond our Solar System.",
+                        "answer": "1) Planetary formations and their atmospheres"
+                    },
+                    {
+                        "question": "What is the key player in the cosmic interactions of celestial bodies?",
+                        "options": [
+                            "4) Light",
+                            "3) Gravity",
+                            "1) Solar winds",
+                            "2) Black holes"
+                        ],
+                        "explanation": "Gravity is the fundamental force responsible for the movement and interaction of celestial bodies in the universe, governing orbits and formations.",
+                        "answer": "3) Gravity"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    1,
+                    2
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What term is often used to describe comets due to their composition?",
+                        "options": [
+                            "2) Dirty snowballs",
+                            "4) Frozen asteroids",
+                            "1) Icy rocks",
+                            "3) Cosmic icebergs"
+                        ],
+                        "explanation": "Comets are colloquially referred to as 'dirty snowballs' because they consist of ice, dust, and rocky material.",
+                        "answer": "2) Dirty snowballs"
+                    },
+                    {
+                        "question": "Where are most asteroids found in the Solar System?",
+                        "options": [
+                            "2) In the Kuiper Belt",
+                            "1) Between Earth and Mars",
+                            "3) In the asteroid belt between Mars and Jupiter",
+                            "4) Around Saturn"
+                        ],
+                        "explanation": "Most asteroids are located in the asteroid belt, which lies between Mars and Jupiter.",
+                        "answer": "3) In the asteroid belt between Mars and Jupiter"
+                    },
+                    {
+                        "question": "What two detection methods have been pivotal in discovering exoplanets?",
+                        "options": [
+                            "1) Hubble Method and Jet Method",
+                            "2) Transit Method and Radial Velocity Method",
+                            "4) Stellar Evolution Method and Solar Flare Method",
+                            "3) Gravitational Lens Method and Astrometric Method"
+                        ],
+                        "explanation": "The transit method and radial velocity method are key techniques used in the detection of exoplanets.",
+                        "answer": "2) Transit Method and Radial Velocity Method"
+                    },
+                    {
+                        "question": "What is the main reason for studying the atmospheres of exoplanets?",
+                        "options": [
+                            "4) To find out their exact distance from their star",
+                            "3) To search for chemical signatures indicating habitability",
+                            "2) To identify their color",
+                            "1) To learn about their gravitational pull"
+                        ],
+                        "explanation": "Studying exoplanet atmospheres helps scientists look for chemical signatures that might indicate the presence of life or habitability.",
+                        "answer": "3) To search for chemical signatures indicating habitability"
+                    },
+                    {
+                        "question": "What is the shape of the orbits of planets as discovered by Kepler?",
+                        "options": [
+                            "3) Square",
+                            "1) Circular",
+                            "2) Elliptical",
+                            "4) Random"
+                        ],
+                        "explanation": "Kepler discovered that planets follow elliptical orbits, a shape that varies in dimensions rather than being perfect circles.",
+                        "answer": "2) Elliptical"
+                    },
+                    {
+                        "question": "What motivates NASA's monitoring of Near-Earth Objects (NEOs)?",
+                        "options": [
+                            "1) To study their color variations",
+                            "2) To assess potential threats they might pose to Earth",
+                            "3) To analyze their gravitational effects",
+                            "4) To locate them for future missions"
+                        ],
+                        "explanation": "NASA monitors NEOs to evaluate any risks they may present to Earth, especially if their orbits intersect with our planet's.",
+                        "answer": "2) To assess potential threats they might pose to Earth"
+                    },
+                    {
+                        "question": "What region is believed to be the birthplace of comets?",
+                        "options": [
+                            "4) The Milky Way Galaxy",
+                            "3) The inner Solar System",
+                            "2) The Kuiper Belt and the Oort Cloud",
+                            "1) The asteroid belt"
+                        ],
+                        "explanation": "Comets are believed to originate from the Kuiper Belt and the Oort Cloud, areas filled with icy bodies beyond Neptune.",
+                        "answer": "2) The Kuiper Belt and the Oort Cloud"
+                    },
+                    {
+                        "question": "Which celestial phenomenon is responsible for creating ocean tides on Earth?",
+                        "options": [
+                            "4) Cometary passages",
+                            "1) The Sun's gravity",
+                            "3) Asteroid interactions",
+                            "2) The gravitational pull of the Moon"
+                        ],
+                        "explanation": "The ocean tides on Earth are created primarily due to the gravitational pull exerted by the Moon on our planet.",
+                        "answer": "2) The gravitational pull of the Moon"
+                    },
+                    {
+                        "question": "What has the discovery of exoplanets helped scientists to understand better?",
+                        "options": [
+                            "3) The characteristics of moons in our Solar System",
+                            "2) The speed of light",
+                            "4) The color changes of stars",
+                            "1) Planetary formations and their atmospheres"
+                        ],
+                        "explanation": "The discovery of exoplanets has broadened our understanding of planet formation, evolution, and potential for life beyond our Solar System.",
+                        "answer": "1) Planetary formations and their atmospheres"
+                    },
+                    {
+                        "question": "What is the key player in the cosmic interactions of celestial bodies?",
+                        "options": [
+                            "4) Light",
+                            "3) Gravity",
+                            "1) Solar winds",
+                            "2) Black holes"
+                        ],
+                        "explanation": "Gravity is the fundamental force responsible for the movement and interaction of celestial bodies in the universe, governing orbits and formations.",
+                        "answer": "3) Gravity"
+                    }
+                ]
+            }
+        ],
+        "Computer Science": [
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    1
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is one of the key benefits of using functions in programming?",
+                        "options": [
+                            "1) They make code less readable",
+                            "2) They promote code reuse and simplify debugging",
+                            "3) They are only useful for small programs",
+                            "4) They increase the execution time of programs"
+                        ],
+                        "explanation": "Functions allow developers to organize code into reusable blocks, which leads to more efficient coding and easier debugging.",
+                        "answer": "2) They promote code reuse and simplify debugging"
+                    },
+                    {
+                        "question": "What type of error might occur if a variable does not exist when it is referenced in the code?",
+                        "options": [
+                            "4) Attribute Error",
+                            "1) Logical Error",
+                            "3) Syntax Error",
+                            "2) Runtime Error"
+                        ],
+                        "explanation": "A runtime error occurs when the program tries to use a variable that has not been defined or initialized, leading to an exception.",
+                        "answer": "2) Runtime Error"
+                    },
+                    {
+                        "question": "Which of the following best defines a logical error?",
+                        "options": [
+                            "1) An error that causes the program to crash",
+                            "2) An error that occurs when the logic of the code is flawed",
+                            "3) An error caused by incorrect syntax",
+                            "4) An error that occurs during compilation"
+                        ],
+                        "explanation": "Logical errors arise from incorrect logic that leads to unexpected or unintended results, without causing the program to crash.",
+                        "answer": "2) An error that occurs when the logic of the code is flawed"
+                    },
+                    {
+                        "question": "In Python, what does the `unittest` module allow you to do?",
+                        "options": [
+                            "1) Import external libraries",
+                            "3) Handle file operations",
+                            "2) Define and run tests for your code",
+                            "4) Create visual user interfaces"
+                        ],
+                        "explanation": "The `unittest` module provides a framework for writing and executing tests to check if individual units of code function as expected.",
+                        "answer": "2) Define and run tests for your code"
+                    },
+                    {
+                        "question": "What is the effect of using assertions in Python code?",
+                        "options": [
+                            "1) To ignore errors in the code",
+                            "2) To verify assumptions and catch null values",
+                            "3) To delay program execution",
+                            "4) To improve program speed"
+                        ],
+                        "explanation": "Assertions allow you to test assumptions, and if they fail, an `AssertionError` is raised, which helps identify issues during development.",
+                        "answer": "2) To verify assumptions and catch null values"
+                    },
+                    {
+                        "question": "Why is it important to understand error messages in Python?",
+                        "options": [
+                            "4) They are merely log entries",
+                            "1) They are used for styling the output",
+                            "2) They help in debugging by indicating what went wrong",
+                            "3) They only clutter the terminal"
+                        ],
+                        "explanation": "Understanding error messages allows developers to identify the source of problems in their code and correct them effectively.",
+                        "answer": "2) They help in debugging by indicating what went wrong"
+                    },
+                    {
+                        "question": "What is the benefit of logging in error handling?",
+                        "options": [
+                            "3) It slows down the performance of the program",
+                            "4) It prevents compilation errors",
+                            "2) It captures errors without cluttering the output screen",
+                            "1) It increases the size of the program unnecessarily"
+                        ],
+                        "explanation": "Logging effectively captures error events that can be reviewed later, making it easier to analyze and debug without interrupting the program flow.",
+                        "answer": "2) It captures errors without cluttering the output screen"
+                    },
+                    {
+                        "question": "What type of error would you encounter if you try to divide by zero in Python?",
+                        "options": [
+                            "4) Runtime Error",
+                            "2) Logic Error",
+                            "1) Syntax Error",
+                            "3) ZeroDivisionError"
+                        ],
+                        "explanation": "A divide by zero operation results in a `ZeroDivisionError`, which is a type of runtime error occurring during execution of the program.",
+                        "answer": "3) ZeroDivisionError"
+                    },
+                    {
+                        "question": "Which coding practice is similar to maintaining a vehicle to prevent breakdowns?",
+                        "options": [
+                            "2) Refactoring code",
+                            "1) Writing comments",
+                            "3) Unit testing",
+                            "4) Using single-line statements"
+                        ],
+                        "explanation": "Unit testing, like regular vehicle maintenance, helps ensure that each part of your program works correctly, preventing small issues from escalating into major problems.",
+                        "answer": "3) Unit testing"
+                    },
+                    {
+                        "question": "What does a try and except block do when an error occurs?",
+                        "options": [
+                            "3) Ignores the error and continues execution",
+                            "2) Catches the error and executes alternative code",
+                            "4) Compiles the code again",
+                            "1) Allows the program to crash"
+                        ],
+                        "explanation": "A try and except block allows you to anticipate potential issues and handle errors gracefully by executing an alternative code path instead of crashing.",
+                        "answer": "2) Catches the error and executes alternative code"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    1
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is one of the key benefits of using functions in programming?",
+                        "options": [
+                            "1) They make code less readable",
+                            "2) They promote code reuse and simplify debugging",
+                            "3) They are only useful for small programs",
+                            "4) They increase the execution time of programs"
+                        ],
+                        "explanation": "Functions allow developers to organize code into reusable blocks, which leads to more efficient coding and easier debugging.",
+                        "answer": "2) They promote code reuse and simplify debugging"
+                    },
+                    {
+                        "question": "What type of error might occur if a variable does not exist when it is referenced in the code?",
+                        "options": [
+                            "4) Attribute Error",
+                            "1) Logical Error",
+                            "3) Syntax Error",
+                            "2) Runtime Error"
+                        ],
+                        "explanation": "A runtime error occurs when the program tries to use a variable that has not been defined or initialized, leading to an exception.",
+                        "answer": "2) Runtime Error"
+                    },
+                    {
+                        "question": "Which of the following best defines a logical error?",
+                        "options": [
+                            "1) An error that causes the program to crash",
+                            "2) An error that occurs when the logic of the code is flawed",
+                            "3) An error caused by incorrect syntax",
+                            "4) An error that occurs during compilation"
+                        ],
+                        "explanation": "Logical errors arise from incorrect logic that leads to unexpected or unintended results, without causing the program to crash.",
+                        "answer": "2) An error that occurs when the logic of the code is flawed"
+                    },
+                    {
+                        "question": "In Python, what does the `unittest` module allow you to do?",
+                        "options": [
+                            "1) Import external libraries",
+                            "3) Handle file operations",
+                            "2) Define and run tests for your code",
+                            "4) Create visual user interfaces"
+                        ],
+                        "explanation": "The `unittest` module provides a framework for writing and executing tests to check if individual units of code function as expected.",
+                        "answer": "2) Define and run tests for your code"
+                    },
+                    {
+                        "question": "What is the effect of using assertions in Python code?",
+                        "options": [
+                            "1) To ignore errors in the code",
+                            "2) To verify assumptions and catch null values",
+                            "3) To delay program execution",
+                            "4) To improve program speed"
+                        ],
+                        "explanation": "Assertions allow you to test assumptions, and if they fail, an `AssertionError` is raised, which helps identify issues during development.",
+                        "answer": "2) To verify assumptions and catch null values"
+                    },
+                    {
+                        "question": "Why is it important to understand error messages in Python?",
+                        "options": [
+                            "4) They are merely log entries",
+                            "1) They are used for styling the output",
+                            "2) They help in debugging by indicating what went wrong",
+                            "3) They only clutter the terminal"
+                        ],
+                        "explanation": "Understanding error messages allows developers to identify the source of problems in their code and correct them effectively.",
+                        "answer": "2) They help in debugging by indicating what went wrong"
+                    },
+                    {
+                        "question": "What is the benefit of logging in error handling?",
+                        "options": [
+                            "3) It slows down the performance of the program",
+                            "4) It prevents compilation errors",
+                            "2) It captures errors without cluttering the output screen",
+                            "1) It increases the size of the program unnecessarily"
+                        ],
+                        "explanation": "Logging effectively captures error events that can be reviewed later, making it easier to analyze and debug without interrupting the program flow.",
+                        "answer": "2) It captures errors without cluttering the output screen"
+                    },
+                    {
+                        "question": "What type of error would you encounter if you try to divide by zero in Python?",
+                        "options": [
+                            "4) Runtime Error",
+                            "2) Logic Error",
+                            "1) Syntax Error",
+                            "3) ZeroDivisionError"
+                        ],
+                        "explanation": "A divide by zero operation results in a `ZeroDivisionError`, which is a type of runtime error occurring during execution of the program.",
+                        "answer": "3) ZeroDivisionError"
+                    },
+                    {
+                        "question": "Which coding practice is similar to maintaining a vehicle to prevent breakdowns?",
+                        "options": [
+                            "2) Refactoring code",
+                            "1) Writing comments",
+                            "3) Unit testing",
+                            "4) Using single-line statements"
+                        ],
+                        "explanation": "Unit testing, like regular vehicle maintenance, helps ensure that each part of your program works correctly, preventing small issues from escalating into major problems.",
+                        "answer": "3) Unit testing"
+                    },
+                    {
+                        "question": "What does a try and except block do when an error occurs?",
+                        "options": [
+                            "3) Ignores the error and continues execution",
+                            "2) Catches the error and executes alternative code",
+                            "4) Compiles the code again",
+                            "1) Allows the program to crash"
+                        ],
+                        "explanation": "A try and except block allows you to anticipate potential issues and handle errors gracefully by executing an alternative code path instead of crashing.",
+                        "answer": "2) Catches the error and executes alternative code"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What is one of the key benefits of using functions in programming?",
+                        "options": [
+                            "1) They make code less readable",
+                            "2) They promote code reuse and simplify debugging",
+                            "3) They are only useful for small programs",
+                            "4) They increase the execution time of programs"
+                        ],
+                        "explanation": "Functions allow developers to organize code into reusable blocks, which leads to more efficient coding and easier debugging.",
+                        "answer": "2) They promote code reuse and simplify debugging"
+                    },
+                    {
+                        "question": "What type of error might occur if a variable does not exist when it is referenced in the code?",
+                        "options": [
+                            "4) Attribute Error",
+                            "1) Logical Error",
+                            "3) Syntax Error",
+                            "2) Runtime Error"
+                        ],
+                        "explanation": "A runtime error occurs when the program tries to use a variable that has not been defined or initialized, leading to an exception.",
+                        "answer": "2) Runtime Error"
+                    },
+                    {
+                        "question": "Which of the following best defines a logical error?",
+                        "options": [
+                            "1) An error that causes the program to crash",
+                            "2) An error that occurs when the logic of the code is flawed",
+                            "3) An error caused by incorrect syntax",
+                            "4) An error that occurs during compilation"
+                        ],
+                        "explanation": "Logical errors arise from incorrect logic that leads to unexpected or unintended results, without causing the program to crash.",
+                        "answer": "2) An error that occurs when the logic of the code is flawed"
+                    },
+                    {
+                        "question": "In Python, what does the `unittest` module allow you to do?",
+                        "options": [
+                            "1) Import external libraries",
+                            "3) Handle file operations",
+                            "2) Define and run tests for your code",
+                            "4) Create visual user interfaces"
+                        ],
+                        "explanation": "The `unittest` module provides a framework for writing and executing tests to check if individual units of code function as expected.",
+                        "answer": "2) Define and run tests for your code"
+                    },
+                    {
+                        "question": "What is the effect of using assertions in Python code?",
+                        "options": [
+                            "1) To ignore errors in the code",
+                            "2) To verify assumptions and catch null values",
+                            "3) To delay program execution",
+                            "4) To improve program speed"
+                        ],
+                        "explanation": "Assertions allow you to test assumptions, and if they fail, an `AssertionError` is raised, which helps identify issues during development.",
+                        "answer": "2) To verify assumptions and catch null values"
+                    },
+                    {
+                        "question": "Why is it important to understand error messages in Python?",
+                        "options": [
+                            "4) They are merely log entries",
+                            "1) They are used for styling the output",
+                            "2) They help in debugging by indicating what went wrong",
+                            "3) They only clutter the terminal"
+                        ],
+                        "explanation": "Understanding error messages allows developers to identify the source of problems in their code and correct them effectively.",
+                        "answer": "2) They help in debugging by indicating what went wrong"
+                    },
+                    {
+                        "question": "What is the benefit of logging in error handling?",
+                        "options": [
+                            "3) It slows down the performance of the program",
+                            "4) It prevents compilation errors",
+                            "2) It captures errors without cluttering the output screen",
+                            "1) It increases the size of the program unnecessarily"
+                        ],
+                        "explanation": "Logging effectively captures error events that can be reviewed later, making it easier to analyze and debug without interrupting the program flow.",
+                        "answer": "2) It captures errors without cluttering the output screen"
+                    },
+                    {
+                        "question": "What type of error would you encounter if you try to divide by zero in Python?",
+                        "options": [
+                            "4) Runtime Error",
+                            "2) Logic Error",
+                            "1) Syntax Error",
+                            "3) ZeroDivisionError"
+                        ],
+                        "explanation": "A divide by zero operation results in a `ZeroDivisionError`, which is a type of runtime error occurring during execution of the program.",
+                        "answer": "3) ZeroDivisionError"
+                    },
+                    {
+                        "question": "Which coding practice is similar to maintaining a vehicle to prevent breakdowns?",
+                        "options": [
+                            "2) Refactoring code",
+                            "1) Writing comments",
+                            "3) Unit testing",
+                            "4) Using single-line statements"
+                        ],
+                        "explanation": "Unit testing, like regular vehicle maintenance, helps ensure that each part of your program works correctly, preventing small issues from escalating into major problems.",
+                        "answer": "3) Unit testing"
+                    },
+                    {
+                        "question": "What does a try and except block do when an error occurs?",
+                        "options": [
+                            "3) Ignores the error and continues execution",
+                            "2) Catches the error and executes alternative code",
+                            "4) Compiles the code again",
+                            "1) Allows the program to crash"
+                        ],
+                        "explanation": "A try and except block allows you to anticipate potential issues and handle errors gracefully by executing an alternative code path instead of crashing.",
+                        "answer": "2) Catches the error and executes alternative code"
+                    }
+                ]
+            }
+        ],
+        "English": [
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    6,
+                    8
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is the primary purpose of peer review in argumentative writing as discussed in the lecture?",
+                        "options": [
+                            "3) To rewrite the essay for the writer",
+                            "4) To summarize the essay's main points",
+                            "2) To provide constructive feedback for improvement",
+                            "1) To check for spelling and grammar errors"
+                        ],
+                        "explanation": "Peer review serves to provide constructive feedback on strengths and areas for improvement in the argument, helping to strengthen the overall writing.",
+                        "answer": "2) To provide constructive feedback for improvement"
+                    },
+                    {
+                        "question": "Which of the following best describes a crucial aspect of a thesis statement in argumentative writing?",
+                        "options": [
+                            "1) It should be vague to allow for multiple interpretations",
+                            "4) It should include irrelevant details to engage readers",
+                            "3) It should be as long and complex as possible",
+                            "2) It should present the writer\u2019s position clearly and concisely"
+                        ],
+                        "explanation": "A strong thesis statement clearly and concisely outlines the writer's stance, making it easier for readers to understand the main argument.",
+                        "answer": "2) It should present the writer\u2019s position clearly and concisely"
+                    },
+                    {
+                        "question": "How should the evidence in an argumentative essay be presented according to the lecture?",
+                        "options": [
+                            "4) Provided only in the conclusion",
+                            "1) Simply stated without explanation",
+                            "2) Analyzed and linked to the argument",
+                            "3) Left to the reader\u2019s interpretation"
+                        ],
+                        "explanation": "Evidence must be analyzed and linked to the claim, explaining its significance in the context of the argument.",
+                        "answer": "2) Analyzed and linked to the argument"
+                    },
+                    {
+                        "question": "What is suggested for improving the transition between ideas in an argumentative essay?",
+                        "options": [
+                            "2) Ensure each idea flows logically to the next",
+                            "3) Keep ideas independent with no connections",
+                            "1) Use unrelated examples to distract the reader",
+                            "4) Repeat previous arguments for emphasis"
+                        ],
+                        "explanation": "Smooth transitions and logical flow are essential for guiding the reader through the argument and ensuring coherence.",
+                        "answer": "2) Ensure each idea flows logically to the next"
+                    },
+                    {
+                        "question": "Why is it important to consider your audience when presenting an argument?",
+                        "options": [
+                            "4) To present a one-size-fits-all argument",
+                            "3) To avoid engaging them at all",
+                            "2) To tailor language and examples to their interests",
+                            "1) To use technical jargon that confuses them"
+                        ],
+                        "explanation": "Understanding your audience allows you to tailor the presentation to their maturity and interests, enhancing engagement.",
+                        "answer": "2) To tailor language and examples to their interests"
+                    },
+                    {
+                        "question": "What should the conclusion of an argumentative essay achieve, as mentioned in the lecture?",
+                        "options": [
+                            "3) It should summarize key points and highlight significance",
+                            "2) It should simply repeat the thesis",
+                            "4) It should leave the topic unresolved",
+                            "1) It should introduce new arguments"
+                        ],
+                        "explanation": "A strong conclusion summarizes key points and reiterates the significance of the argument, leaving a lasting impression on the reader.",
+                        "answer": "3) It should summarize key points and highlight significance"
+                    },
+                    {
+                        "question": "What is one characteristic of a well-organized argumentative essay based on the lecture?",
+                        "options": [
+                            "3) Includes all opinions, regardless of relevance",
+                            "1) Disorganized with random ideas",
+                            "2) Follows a logical progression of points",
+                            "4) Features excessively lengthy paragraphs"
+                        ],
+                        "explanation": "A well-organized argumentative essay follows a logical progression of points, ensuring clarity and coherence.",
+                        "answer": "2) Follows a logical progression of points"
+                    },
+                    {
+                        "question": "How can storytelling enhance an argumentative presentation?",
+                        "options": [
+                            "2) It makes the argument more relatable and memorable",
+                            "4) It is irrelevant to effective argumentation",
+                            "1) It distracts from the argument",
+                            "3) It complicates the message"
+                        ],
+                        "explanation": "Storytelling can illustrate arguments more effectively, making them more relatable and engaging for the audience.",
+                        "answer": "2) It makes the argument more relatable and memorable"
+                    },
+                    {
+                        "question": "What should a writer avoid when selecting sources for their argumentative essay?",
+                        "options": [
+                            "3) Citing unreliable or biased sources",
+                            "4) Including evidence from personal anecdotes",
+                            "2) Engaging with a variety of viewpoints",
+                            "1) Using reputable academic sources"
+                        ],
+                        "explanation": "Using unreliable sources can undermine the credibility of the argument, so it\u2019s essential to engage with reputable materials.",
+                        "answer": "3) Citing unreliable or biased sources"
+                    },
+                    {
+                        "question": "What type of feedback should a writer seek during the peer review process?",
+                        "options": [
+                            "1) Unconstructive criticism",
+                            "2) Feedback focused solely on grammatical errors",
+                            "3) Constructive feedback on strengths and weaknesses",
+                            "4) Personal opinions irrelevant to the argument"
+                        ],
+                        "explanation": "Constructive feedback helps identify both strengths and areas for improvement, vital for refining the writing.",
+                        "answer": "3) Constructive feedback on strengths and weaknesses"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    8
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is the primary purpose of peer review in argumentative writing as discussed in the lecture?",
+                        "options": [
+                            "3) To rewrite the essay for the writer",
+                            "4) To summarize the essay's main points",
+                            "2) To provide constructive feedback for improvement",
+                            "1) To check for spelling and grammar errors"
+                        ],
+                        "explanation": "Peer review serves to provide constructive feedback on strengths and areas for improvement in the argument, helping to strengthen the overall writing.",
+                        "answer": "2) To provide constructive feedback for improvement"
+                    },
+                    {
+                        "question": "Which of the following best describes a crucial aspect of a thesis statement in argumentative writing?",
+                        "options": [
+                            "1) It should be vague to allow for multiple interpretations",
+                            "4) It should include irrelevant details to engage readers",
+                            "3) It should be as long and complex as possible",
+                            "2) It should present the writer\u2019s position clearly and concisely"
+                        ],
+                        "explanation": "A strong thesis statement clearly and concisely outlines the writer's stance, making it easier for readers to understand the main argument.",
+                        "answer": "2) It should present the writer\u2019s position clearly and concisely"
+                    },
+                    {
+                        "question": "How should the evidence in an argumentative essay be presented according to the lecture?",
+                        "options": [
+                            "4) Provided only in the conclusion",
+                            "1) Simply stated without explanation",
+                            "2) Analyzed and linked to the argument",
+                            "3) Left to the reader\u2019s interpretation"
+                        ],
+                        "explanation": "Evidence must be analyzed and linked to the claim, explaining its significance in the context of the argument.",
+                        "answer": "2) Analyzed and linked to the argument"
+                    },
+                    {
+                        "question": "What is suggested for improving the transition between ideas in an argumentative essay?",
+                        "options": [
+                            "2) Ensure each idea flows logically to the next",
+                            "3) Keep ideas independent with no connections",
+                            "1) Use unrelated examples to distract the reader",
+                            "4) Repeat previous arguments for emphasis"
+                        ],
+                        "explanation": "Smooth transitions and logical flow are essential for guiding the reader through the argument and ensuring coherence.",
+                        "answer": "2) Ensure each idea flows logically to the next"
+                    },
+                    {
+                        "question": "Why is it important to consider your audience when presenting an argument?",
+                        "options": [
+                            "4) To present a one-size-fits-all argument",
+                            "3) To avoid engaging them at all",
+                            "2) To tailor language and examples to their interests",
+                            "1) To use technical jargon that confuses them"
+                        ],
+                        "explanation": "Understanding your audience allows you to tailor the presentation to their maturity and interests, enhancing engagement.",
+                        "answer": "2) To tailor language and examples to their interests"
+                    },
+                    {
+                        "question": "What should the conclusion of an argumentative essay achieve, as mentioned in the lecture?",
+                        "options": [
+                            "3) It should summarize key points and highlight significance",
+                            "2) It should simply repeat the thesis",
+                            "4) It should leave the topic unresolved",
+                            "1) It should introduce new arguments"
+                        ],
+                        "explanation": "A strong conclusion summarizes key points and reiterates the significance of the argument, leaving a lasting impression on the reader.",
+                        "answer": "3) It should summarize key points and highlight significance"
+                    },
+                    {
+                        "question": "What is one characteristic of a well-organized argumentative essay based on the lecture?",
+                        "options": [
+                            "3) Includes all opinions, regardless of relevance",
+                            "1) Disorganized with random ideas",
+                            "2) Follows a logical progression of points",
+                            "4) Features excessively lengthy paragraphs"
+                        ],
+                        "explanation": "A well-organized argumentative essay follows a logical progression of points, ensuring clarity and coherence.",
+                        "answer": "2) Follows a logical progression of points"
+                    },
+                    {
+                        "question": "How can storytelling enhance an argumentative presentation?",
+                        "options": [
+                            "2) It makes the argument more relatable and memorable",
+                            "4) It is irrelevant to effective argumentation",
+                            "1) It distracts from the argument",
+                            "3) It complicates the message"
+                        ],
+                        "explanation": "Storytelling can illustrate arguments more effectively, making them more relatable and engaging for the audience.",
+                        "answer": "2) It makes the argument more relatable and memorable"
+                    },
+                    {
+                        "question": "What should a writer avoid when selecting sources for their argumentative essay?",
+                        "options": [
+                            "3) Citing unreliable or biased sources",
+                            "4) Including evidence from personal anecdotes",
+                            "2) Engaging with a variety of viewpoints",
+                            "1) Using reputable academic sources"
+                        ],
+                        "explanation": "Using unreliable sources can undermine the credibility of the argument, so it\u2019s essential to engage with reputable materials.",
+                        "answer": "3) Citing unreliable or biased sources"
+                    },
+                    {
+                        "question": "What type of feedback should a writer seek during the peer review process?",
+                        "options": [
+                            "1) Unconstructive criticism",
+                            "2) Feedback focused solely on grammatical errors",
+                            "3) Constructive feedback on strengths and weaknesses",
+                            "4) Personal opinions irrelevant to the argument"
+                        ],
+                        "explanation": "Constructive feedback helps identify both strengths and areas for improvement, vital for refining the writing.",
+                        "answer": "3) Constructive feedback on strengths and weaknesses"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    8
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What is the primary purpose of peer review in argumentative writing as discussed in the lecture?",
+                        "options": [
+                            "3) To rewrite the essay for the writer",
+                            "4) To summarize the essay's main points",
+                            "2) To provide constructive feedback for improvement",
+                            "1) To check for spelling and grammar errors"
+                        ],
+                        "explanation": "Peer review serves to provide constructive feedback on strengths and areas for improvement in the argument, helping to strengthen the overall writing.",
+                        "answer": "2) To provide constructive feedback for improvement"
+                    },
+                    {
+                        "question": "Which of the following best describes a crucial aspect of a thesis statement in argumentative writing?",
+                        "options": [
+                            "1) It should be vague to allow for multiple interpretations",
+                            "4) It should include irrelevant details to engage readers",
+                            "3) It should be as long and complex as possible",
+                            "2) It should present the writer\u2019s position clearly and concisely"
+                        ],
+                        "explanation": "A strong thesis statement clearly and concisely outlines the writer's stance, making it easier for readers to understand the main argument.",
+                        "answer": "2) It should present the writer\u2019s position clearly and concisely"
+                    },
+                    {
+                        "question": "How should the evidence in an argumentative essay be presented according to the lecture?",
+                        "options": [
+                            "4) Provided only in the conclusion",
+                            "1) Simply stated without explanation",
+                            "2) Analyzed and linked to the argument",
+                            "3) Left to the reader\u2019s interpretation"
+                        ],
+                        "explanation": "Evidence must be analyzed and linked to the claim, explaining its significance in the context of the argument.",
+                        "answer": "2) Analyzed and linked to the argument"
+                    },
+                    {
+                        "question": "What is suggested for improving the transition between ideas in an argumentative essay?",
+                        "options": [
+                            "2) Ensure each idea flows logically to the next",
+                            "3) Keep ideas independent with no connections",
+                            "1) Use unrelated examples to distract the reader",
+                            "4) Repeat previous arguments for emphasis"
+                        ],
+                        "explanation": "Smooth transitions and logical flow are essential for guiding the reader through the argument and ensuring coherence.",
+                        "answer": "2) Ensure each idea flows logically to the next"
+                    },
+                    {
+                        "question": "Why is it important to consider your audience when presenting an argument?",
+                        "options": [
+                            "4) To present a one-size-fits-all argument",
+                            "3) To avoid engaging them at all",
+                            "2) To tailor language and examples to their interests",
+                            "1) To use technical jargon that confuses them"
+                        ],
+                        "explanation": "Understanding your audience allows you to tailor the presentation to their maturity and interests, enhancing engagement.",
+                        "answer": "2) To tailor language and examples to their interests"
+                    },
+                    {
+                        "question": "What should the conclusion of an argumentative essay achieve, as mentioned in the lecture?",
+                        "options": [
+                            "3) It should summarize key points and highlight significance",
+                            "2) It should simply repeat the thesis",
+                            "4) It should leave the topic unresolved",
+                            "1) It should introduce new arguments"
+                        ],
+                        "explanation": "A strong conclusion summarizes key points and reiterates the significance of the argument, leaving a lasting impression on the reader.",
+                        "answer": "3) It should summarize key points and highlight significance"
+                    },
+                    {
+                        "question": "What is one characteristic of a well-organized argumentative essay based on the lecture?",
+                        "options": [
+                            "3) Includes all opinions, regardless of relevance",
+                            "1) Disorganized with random ideas",
+                            "2) Follows a logical progression of points",
+                            "4) Features excessively lengthy paragraphs"
+                        ],
+                        "explanation": "A well-organized argumentative essay follows a logical progression of points, ensuring clarity and coherence.",
+                        "answer": "2) Follows a logical progression of points"
+                    },
+                    {
+                        "question": "How can storytelling enhance an argumentative presentation?",
+                        "options": [
+                            "2) It makes the argument more relatable and memorable",
+                            "4) It is irrelevant to effective argumentation",
+                            "1) It distracts from the argument",
+                            "3) It complicates the message"
+                        ],
+                        "explanation": "Storytelling can illustrate arguments more effectively, making them more relatable and engaging for the audience.",
+                        "answer": "2) It makes the argument more relatable and memorable"
+                    },
+                    {
+                        "question": "What should a writer avoid when selecting sources for their argumentative essay?",
+                        "options": [
+                            "3) Citing unreliable or biased sources",
+                            "4) Including evidence from personal anecdotes",
+                            "2) Engaging with a variety of viewpoints",
+                            "1) Using reputable academic sources"
+                        ],
+                        "explanation": "Using unreliable sources can undermine the credibility of the argument, so it\u2019s essential to engage with reputable materials.",
+                        "answer": "3) Citing unreliable or biased sources"
+                    },
+                    {
+                        "question": "What type of feedback should a writer seek during the peer review process?",
+                        "options": [
+                            "1) Unconstructive criticism",
+                            "2) Feedback focused solely on grammatical errors",
+                            "3) Constructive feedback on strengths and weaknesses",
+                            "4) Personal opinions irrelevant to the argument"
+                        ],
+                        "explanation": "Constructive feedback helps identify both strengths and areas for improvement, vital for refining the writing.",
+                        "answer": "3) Constructive feedback on strengths and weaknesses"
+                    }
+                ]
+            }
+        ],
+        "Science": [
+            {
+                "quiz_grade": 70.0,
+                "wrong_answers": [
+                    1,
+                    3,
+                    9
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What occurs during a decomposition reaction?",
+                        "options": [
+                            "3) An acid neutralizes a base",
+                            "1) A single compound breaks down into simpler substances",
+                            "2) Two or more reactants combine to form one product",
+                            "4) An element replaces another in a compound"
+                        ],
+                        "explanation": "During a decomposition reaction, a single compound breaks down into two or more simpler substances, demonstrating how compounds can be transformed into simpler forms.",
+                        "answer": "1) A single compound breaks down into simpler substances"
+                    },
+                    {
+                        "question": "Which statement best describes an acid?",
+                        "options": [
+                            "2) A substance that can donate a proton",
+                            "3) A substance with a pH higher than 7",
+                            "4) A substance that is always harmful",
+                            "1) A substance that can accept a proton"
+                        ],
+                        "explanation": "An acid is defined as a substance that can donate a proton (H+) in a solution, which is fundamental to various chemical reactions including neutralization.",
+                        "answer": "2) A substance that can donate a proton"
+                    },
+                    {
+                        "question": "What role does pH play in agriculture?",
+                        "options": [
+                            "2) It affects nutrient availability in the soil",
+                            "1) It determines the color of plants",
+                            "4) It has no impact on agriculture",
+                            "3) It influences plant growth patterns"
+                        ],
+                        "explanation": "The pH level in the soil determines the availability of certain nutrients to plants, essential for their growth and overall health.",
+                        "answer": "2) It affects nutrient availability in the soil"
+                    },
+                    {
+                        "question": "What type of reaction is commonly used in metal extraction processes?",
+                        "options": [
+                            "3) Single displacement reaction",
+                            "4) Decomposition reaction",
+                            "1) Synthesis reaction",
+                            "2) Double replacement reaction"
+                        ],
+                        "explanation": "Single displacement reactions are often used in metal extraction processes, involving one element replacing another within a compound.",
+                        "answer": "3) Single displacement reaction"
+                    },
+                    {
+                        "question": "Why is it crucial to understand Material Safety Data Sheets (MSDS)?",
+                        "options": [
+                            "4) To memorize chemical formulas",
+                            "1) To perform mathematical calculations",
+                            "2) To ensure proper chemical handling and safety",
+                            "3) To identify the color of chemicals"
+                        ],
+                        "explanation": "Material Safety Data Sheets (MSDS) provide essential information about the properties of chemicals and safety guidelines, making it crucial for safe handling and environmental protection.",
+                        "answer": "2) To ensure proper chemical handling and safety"
+                    },
+                    {
+                        "question": "Which of the following is true about a neutral pH?",
+                        "options": [
+                            "3) It is around 7 on the pH scale",
+                            "1) It indicates an acidic solution",
+                            "2) It is always dangerous to handle",
+                            "4) It only occurs in organic solutions"
+                        ],
+                        "explanation": "A neutral pH, which is around 7 on the pH scale, indicates a balance between acidity and basicity, meaning the solution is neither acidic nor basic.",
+                        "answer": "3) It is around 7 on the pH scale"
+                    },
+                    {
+                        "question": "Acid rain occurs due to what environmental factor?",
+                        "options": [
+                            "2) Dissolved natural minerals in rainwater",
+                            "3) Pollutants like sulfur dioxide and nitrogen oxides",
+                            "4) High humidity levels",
+                            "1) High levels of oxygen in the atmosphere"
+                        ],
+                        "explanation": "Acid rain results from pollutants, such as sulfur dioxide and nitrogen oxides, which lower the pH of rainwater below the natural level of around 5.6, impacting ecosystems.",
+                        "answer": "3) Pollutants like sulfur dioxide and nitrogen oxides"
+                    },
+                    {
+                        "question": "Chemical spills pose a risk to which of the following?",
+                        "options": [
+                            "1) Only human health",
+                            "2) Only wildlife",
+                            "4) Only industrial settings",
+                            "3) Soil and water sources"
+                        ],
+                        "explanation": "Chemical spills have the potential to contaminate soil and water sources, posing risks not just to wildlife but also to human health and the environment.",
+                        "answer": "3) Soil and water sources"
+                    },
+                    {
+                        "question": "Which type of reaction can often be related to the process of photosynthesis?",
+                        "options": [
+                            "4) Single displacement reaction",
+                            "2) Synthesis reaction",
+                            "3) Double replacement reaction",
+                            "1) Decomposition reaction"
+                        ],
+                        "explanation": "Photosynthesis is an example of a synthesis reaction, where multiple reactants combine to form one or more products, primarily oxygen and glucose.",
+                        "answer": "2) Synthesis reaction"
+                    },
+                    {
+                        "question": "Why is understanding the environmental impacts of chemical reactions vital?",
+                        "options": [
+                            "4) To increase the rate of chemical reactions",
+                            "2) To ensure adherence to color coding in laboratories",
+                            "3) To minimize harmful effects on ecosystems",
+                            "1) To reduce the cost of chemicals"
+                        ],
+                        "explanation": "It is vital to understand the environmental impacts of chemical reactions to minimize harmful effects on ecosystems and ensure responsible chemical practices.",
+                        "answer": "3) To minimize harmful effects on ecosystems"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    3
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What occurs during a decomposition reaction?",
+                        "options": [
+                            "3) An acid neutralizes a base",
+                            "1) A single compound breaks down into simpler substances",
+                            "2) Two or more reactants combine to form one product",
+                            "4) An element replaces another in a compound"
+                        ],
+                        "explanation": "During a decomposition reaction, a single compound breaks down into two or more simpler substances, demonstrating how compounds can be transformed into simpler forms.",
+                        "answer": "1) A single compound breaks down into simpler substances"
+                    },
+                    {
+                        "question": "Which statement best describes an acid?",
+                        "options": [
+                            "2) A substance that can donate a proton",
+                            "3) A substance with a pH higher than 7",
+                            "4) A substance that is always harmful",
+                            "1) A substance that can accept a proton"
+                        ],
+                        "explanation": "An acid is defined as a substance that can donate a proton (H+) in a solution, which is fundamental to various chemical reactions including neutralization.",
+                        "answer": "2) A substance that can donate a proton"
+                    },
+                    {
+                        "question": "What role does pH play in agriculture?",
+                        "options": [
+                            "2) It affects nutrient availability in the soil",
+                            "1) It determines the color of plants",
+                            "4) It has no impact on agriculture",
+                            "3) It influences plant growth patterns"
+                        ],
+                        "explanation": "The pH level in the soil determines the availability of certain nutrients to plants, essential for their growth and overall health.",
+                        "answer": "2) It affects nutrient availability in the soil"
+                    },
+                    {
+                        "question": "What type of reaction is commonly used in metal extraction processes?",
+                        "options": [
+                            "3) Single displacement reaction",
+                            "4) Decomposition reaction",
+                            "1) Synthesis reaction",
+                            "2) Double replacement reaction"
+                        ],
+                        "explanation": "Single displacement reactions are often used in metal extraction processes, involving one element replacing another within a compound.",
+                        "answer": "3) Single displacement reaction"
+                    },
+                    {
+                        "question": "Why is it crucial to understand Material Safety Data Sheets (MSDS)?",
+                        "options": [
+                            "4) To memorize chemical formulas",
+                            "1) To perform mathematical calculations",
+                            "2) To ensure proper chemical handling and safety",
+                            "3) To identify the color of chemicals"
+                        ],
+                        "explanation": "Material Safety Data Sheets (MSDS) provide essential information about the properties of chemicals and safety guidelines, making it crucial for safe handling and environmental protection.",
+                        "answer": "2) To ensure proper chemical handling and safety"
+                    },
+                    {
+                        "question": "Which of the following is true about a neutral pH?",
+                        "options": [
+                            "3) It is around 7 on the pH scale",
+                            "1) It indicates an acidic solution",
+                            "2) It is always dangerous to handle",
+                            "4) It only occurs in organic solutions"
+                        ],
+                        "explanation": "A neutral pH, which is around 7 on the pH scale, indicates a balance between acidity and basicity, meaning the solution is neither acidic nor basic.",
+                        "answer": "3) It is around 7 on the pH scale"
+                    },
+                    {
+                        "question": "Acid rain occurs due to what environmental factor?",
+                        "options": [
+                            "2) Dissolved natural minerals in rainwater",
+                            "3) Pollutants like sulfur dioxide and nitrogen oxides",
+                            "4) High humidity levels",
+                            "1) High levels of oxygen in the atmosphere"
+                        ],
+                        "explanation": "Acid rain results from pollutants, such as sulfur dioxide and nitrogen oxides, which lower the pH of rainwater below the natural level of around 5.6, impacting ecosystems.",
+                        "answer": "3) Pollutants like sulfur dioxide and nitrogen oxides"
+                    },
+                    {
+                        "question": "Chemical spills pose a risk to which of the following?",
+                        "options": [
+                            "1) Only human health",
+                            "2) Only wildlife",
+                            "4) Only industrial settings",
+                            "3) Soil and water sources"
+                        ],
+                        "explanation": "Chemical spills have the potential to contaminate soil and water sources, posing risks not just to wildlife but also to human health and the environment.",
+                        "answer": "3) Soil and water sources"
+                    },
+                    {
+                        "question": "Which type of reaction can often be related to the process of photosynthesis?",
+                        "options": [
+                            "4) Single displacement reaction",
+                            "2) Synthesis reaction",
+                            "3) Double replacement reaction",
+                            "1) Decomposition reaction"
+                        ],
+                        "explanation": "Photosynthesis is an example of a synthesis reaction, where multiple reactants combine to form one or more products, primarily oxygen and glucose.",
+                        "answer": "2) Synthesis reaction"
+                    },
+                    {
+                        "question": "Why is understanding the environmental impacts of chemical reactions vital?",
+                        "options": [
+                            "4) To increase the rate of chemical reactions",
+                            "2) To ensure adherence to color coding in laboratories",
+                            "3) To minimize harmful effects on ecosystems",
+                            "1) To reduce the cost of chemicals"
+                        ],
+                        "explanation": "It is vital to understand the environmental impacts of chemical reactions to minimize harmful effects on ecosystems and ensure responsible chemical practices.",
+                        "answer": "3) To minimize harmful effects on ecosystems"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    3
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What occurs during a decomposition reaction?",
+                        "options": [
+                            "3) An acid neutralizes a base",
+                            "1) A single compound breaks down into simpler substances",
+                            "2) Two or more reactants combine to form one product",
+                            "4) An element replaces another in a compound"
+                        ],
+                        "explanation": "During a decomposition reaction, a single compound breaks down into two or more simpler substances, demonstrating how compounds can be transformed into simpler forms.",
+                        "answer": "1) A single compound breaks down into simpler substances"
+                    },
+                    {
+                        "question": "Which statement best describes an acid?",
+                        "options": [
+                            "2) A substance that can donate a proton",
+                            "3) A substance with a pH higher than 7",
+                            "4) A substance that is always harmful",
+                            "1) A substance that can accept a proton"
+                        ],
+                        "explanation": "An acid is defined as a substance that can donate a proton (H+) in a solution, which is fundamental to various chemical reactions including neutralization.",
+                        "answer": "2) A substance that can donate a proton"
+                    },
+                    {
+                        "question": "What role does pH play in agriculture?",
+                        "options": [
+                            "2) It affects nutrient availability in the soil",
+                            "1) It determines the color of plants",
+                            "4) It has no impact on agriculture",
+                            "3) It influences plant growth patterns"
+                        ],
+                        "explanation": "The pH level in the soil determines the availability of certain nutrients to plants, essential for their growth and overall health.",
+                        "answer": "2) It affects nutrient availability in the soil"
+                    },
+                    {
+                        "question": "What type of reaction is commonly used in metal extraction processes?",
+                        "options": [
+                            "3) Single displacement reaction",
+                            "4) Decomposition reaction",
+                            "1) Synthesis reaction",
+                            "2) Double replacement reaction"
+                        ],
+                        "explanation": "Single displacement reactions are often used in metal extraction processes, involving one element replacing another within a compound.",
+                        "answer": "3) Single displacement reaction"
+                    },
+                    {
+                        "question": "Why is it crucial to understand Material Safety Data Sheets (MSDS)?",
+                        "options": [
+                            "4) To memorize chemical formulas",
+                            "1) To perform mathematical calculations",
+                            "2) To ensure proper chemical handling and safety",
+                            "3) To identify the color of chemicals"
+                        ],
+                        "explanation": "Material Safety Data Sheets (MSDS) provide essential information about the properties of chemicals and safety guidelines, making it crucial for safe handling and environmental protection.",
+                        "answer": "2) To ensure proper chemical handling and safety"
+                    },
+                    {
+                        "question": "Which of the following is true about a neutral pH?",
+                        "options": [
+                            "3) It is around 7 on the pH scale",
+                            "1) It indicates an acidic solution",
+                            "2) It is always dangerous to handle",
+                            "4) It only occurs in organic solutions"
+                        ],
+                        "explanation": "A neutral pH, which is around 7 on the pH scale, indicates a balance between acidity and basicity, meaning the solution is neither acidic nor basic.",
+                        "answer": "3) It is around 7 on the pH scale"
+                    },
+                    {
+                        "question": "Acid rain occurs due to what environmental factor?",
+                        "options": [
+                            "2) Dissolved natural minerals in rainwater",
+                            "3) Pollutants like sulfur dioxide and nitrogen oxides",
+                            "4) High humidity levels",
+                            "1) High levels of oxygen in the atmosphere"
+                        ],
+                        "explanation": "Acid rain results from pollutants, such as sulfur dioxide and nitrogen oxides, which lower the pH of rainwater below the natural level of around 5.6, impacting ecosystems.",
+                        "answer": "3) Pollutants like sulfur dioxide and nitrogen oxides"
+                    },
+                    {
+                        "question": "Chemical spills pose a risk to which of the following?",
+                        "options": [
+                            "1) Only human health",
+                            "2) Only wildlife",
+                            "4) Only industrial settings",
+                            "3) Soil and water sources"
+                        ],
+                        "explanation": "Chemical spills have the potential to contaminate soil and water sources, posing risks not just to wildlife but also to human health and the environment.",
+                        "answer": "3) Soil and water sources"
+                    },
+                    {
+                        "question": "Which type of reaction can often be related to the process of photosynthesis?",
+                        "options": [
+                            "4) Single displacement reaction",
+                            "2) Synthesis reaction",
+                            "3) Double replacement reaction",
+                            "1) Decomposition reaction"
+                        ],
+                        "explanation": "Photosynthesis is an example of a synthesis reaction, where multiple reactants combine to form one or more products, primarily oxygen and glucose.",
+                        "answer": "2) Synthesis reaction"
+                    },
+                    {
+                        "question": "Why is understanding the environmental impacts of chemical reactions vital?",
+                        "options": [
+                            "4) To increase the rate of chemical reactions",
+                            "2) To ensure adherence to color coding in laboratories",
+                            "3) To minimize harmful effects on ecosystems",
+                            "1) To reduce the cost of chemicals"
+                        ],
+                        "explanation": "It is vital to understand the environmental impacts of chemical reactions to minimize harmful effects on ecosystems and ensure responsible chemical practices.",
+                        "answer": "3) To minimize harmful effects on ecosystems"
+                    }
+                ]
+            }
+        ],
+        "Texas History": [
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    7,
+                    9
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What was the primary reason for the dissatisfaction of Texans under Mexican rule that led to the Texas Revolution?",
+                        "options": [
+                            "4) Support from Native American tribes",
+                            "3) Access to public education",
+                            "1) Economic incentives provided by the Mexican government",
+                            "2) Cultural differences and lack of political representation"
+                        ],
+                        "explanation": "Many Texians felt oppressed by the Mexican government due to cultural differences and a lack of political representation, which led to their desire for independence.",
+                        "answer": "2) Cultural differences and lack of political representation"
+                    },
+                    {
+                        "question": "What event concluded the Texas Revolution with a decisive victory for the Texian forces?",
+                        "options": [
+                            "2) The Battle of Gonzales",
+                            "1) The Battle of the Alamo",
+                            "4) The Siege of Bexar",
+                            "3) The Battle of San Jacinto"
+                        ],
+                        "explanation": "The Battle of San Jacinto was the decisive victory for Texian forces which led to their independence from Mexico.",
+                        "answer": "3) The Battle of San Jacinto"
+                    },
+                    {
+                        "question": "What form of government was established in Texas after the Revolution?",
+                        "options": [
+                            "1) A monarchy",
+                            "3) The Republic of Texas",
+                            "2) A dictatorship",
+                            "4) A parliamentary democracy"
+                        ],
+                        "explanation": "After the Texas Revolution, the Republic of Texas was established, marking Texas' independence from Mexico.",
+                        "answer": "3) The Republic of Texas"
+                    },
+                    {
+                        "question": "How did the Texas Revolution impact U.S.-Mexico relations post-war?",
+                        "options": [
+                            "3) It caused increased tensions leading to the Mexican-American War",
+                            "1) It resulted in a treaty of friendship between the two nations",
+                            "2) It improved trade relations",
+                            "4) It had no significant impact on relations"
+                        ],
+                        "explanation": "The aftermath of the Texas Revolution led to increased tensions between the U.S. and Mexico, eventually resulting in the Mexican-American War.",
+                        "answer": "3) It caused increased tensions leading to the Mexican-American War"
+                    },
+                    {
+                        "question": "Which figure is referred to as the 'Father of Texas'?",
+                        "options": [
+                            "2) Stephen F. Austin",
+                            "1) Sam Houston",
+                            "3) Santa Anna",
+                            "4) James Fannin"
+                        ],
+                        "explanation": "Stephen F. Austin is often called the 'Father of Texas' due to his role in colonization and advocacy for Texan identity.",
+                        "answer": "2) Stephen F. Austin"
+                    },
+                    {
+                        "question": "What was one internal struggle faced by the Republic of Texas after gaining independence?",
+                        "options": [
+                            "2) Economic prosperity without challenges",
+                            "1) Disputes with Spain",
+                            "4) Lack of land for expansion",
+                            "3) disagreements on governance and leadership"
+                        ],
+                        "explanation": "The Republic of Texas faced significant internal strife, including disagreements among leaders regarding governance and relationships with others.",
+                        "answer": "3) disagreements on governance and leadership"
+                    },
+                    {
+                        "question": "Who was the Mexican general whose defeat significantly impacted Mexican authority over Texas?",
+                        "options": [
+                            "4) General Urrea",
+                            "1) General Santa Anna",
+                            "3) General Filisola",
+                            "2) General Antonio L\u00f3pez de Santa Anna"
+                        ],
+                        "explanation": "General Santa Anna was the Mexican general defeated at San Jacinto, which effectively ended Mexican authority in Texas.",
+                        "answer": "1) General Santa Anna"
+                    },
+                    {
+                        "question": "What was a common aspiration among Texians fighting for independence?",
+                        "options": [
+                            "1) Expansion of trade with Mexico",
+                            "2) Cultural assimilation into Mexican society",
+                            "3) The pursuit of freedom and autonomy",
+                            "4) Strengthening ties with Native American tribes"
+                        ],
+                        "explanation": "The quest for freedom and autonomy was a common rallying cry among Texians during the revolution against Mexican rule.",
+                        "answer": "3) The pursuit of freedom and autonomy"
+                    },
+                    {
+                        "question": "What issue became increasingly contentious as Texas welcomed settlers from the Southern United States?",
+                        "options": [
+                            "4) Relations with Native Americans",
+                            "2) The debate over land ownership",
+                            "1) The establishment of public education",
+                            "3) The implications of slavery"
+                        ],
+                        "explanation": "As Texas welcomed Southern settlers, debates over slavery and its implications became a contentious issue, impacting future policies.",
+                        "answer": "3) The implications of slavery"
+                    },
+                    {
+                        "question": "Which aspect of governance was a challenge for the leaders in the Republic of Texas?",
+                        "options": [
+                            "1) Unity among factions",
+                            "2) International recognition",
+                            "4) Economic stability",
+                            "3) Military presence"
+                        ],
+                        "explanation": "Leaders of the Republic struggled to maintain unity among various factions, an ongoing challenge for the new government.",
+                        "answer": "1) Unity among factions"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    9
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What was the primary reason for the dissatisfaction of Texans under Mexican rule that led to the Texas Revolution?",
+                        "options": [
+                            "4) Support from Native American tribes",
+                            "3) Access to public education",
+                            "1) Economic incentives provided by the Mexican government",
+                            "2) Cultural differences and lack of political representation"
+                        ],
+                        "explanation": "Many Texians felt oppressed by the Mexican government due to cultural differences and a lack of political representation, which led to their desire for independence.",
+                        "answer": "2) Cultural differences and lack of political representation"
+                    },
+                    {
+                        "question": "What event concluded the Texas Revolution with a decisive victory for the Texian forces?",
+                        "options": [
+                            "2) The Battle of Gonzales",
+                            "1) The Battle of the Alamo",
+                            "4) The Siege of Bexar",
+                            "3) The Battle of San Jacinto"
+                        ],
+                        "explanation": "The Battle of San Jacinto was the decisive victory for Texian forces which led to their independence from Mexico.",
+                        "answer": "3) The Battle of San Jacinto"
+                    },
+                    {
+                        "question": "What form of government was established in Texas after the Revolution?",
+                        "options": [
+                            "1) A monarchy",
+                            "3) The Republic of Texas",
+                            "2) A dictatorship",
+                            "4) A parliamentary democracy"
+                        ],
+                        "explanation": "After the Texas Revolution, the Republic of Texas was established, marking Texas' independence from Mexico.",
+                        "answer": "3) The Republic of Texas"
+                    },
+                    {
+                        "question": "How did the Texas Revolution impact U.S.-Mexico relations post-war?",
+                        "options": [
+                            "3) It caused increased tensions leading to the Mexican-American War",
+                            "1) It resulted in a treaty of friendship between the two nations",
+                            "2) It improved trade relations",
+                            "4) It had no significant impact on relations"
+                        ],
+                        "explanation": "The aftermath of the Texas Revolution led to increased tensions between the U.S. and Mexico, eventually resulting in the Mexican-American War.",
+                        "answer": "3) It caused increased tensions leading to the Mexican-American War"
+                    },
+                    {
+                        "question": "Which figure is referred to as the 'Father of Texas'?",
+                        "options": [
+                            "2) Stephen F. Austin",
+                            "1) Sam Houston",
+                            "3) Santa Anna",
+                            "4) James Fannin"
+                        ],
+                        "explanation": "Stephen F. Austin is often called the 'Father of Texas' due to his role in colonization and advocacy for Texan identity.",
+                        "answer": "2) Stephen F. Austin"
+                    },
+                    {
+                        "question": "What was one internal struggle faced by the Republic of Texas after gaining independence?",
+                        "options": [
+                            "2) Economic prosperity without challenges",
+                            "1) Disputes with Spain",
+                            "4) Lack of land for expansion",
+                            "3) disagreements on governance and leadership"
+                        ],
+                        "explanation": "The Republic of Texas faced significant internal strife, including disagreements among leaders regarding governance and relationships with others.",
+                        "answer": "3) disagreements on governance and leadership"
+                    },
+                    {
+                        "question": "Who was the Mexican general whose defeat significantly impacted Mexican authority over Texas?",
+                        "options": [
+                            "4) General Urrea",
+                            "1) General Santa Anna",
+                            "3) General Filisola",
+                            "2) General Antonio L\u00f3pez de Santa Anna"
+                        ],
+                        "explanation": "General Santa Anna was the Mexican general defeated at San Jacinto, which effectively ended Mexican authority in Texas.",
+                        "answer": "1) General Santa Anna"
+                    },
+                    {
+                        "question": "What was a common aspiration among Texians fighting for independence?",
+                        "options": [
+                            "1) Expansion of trade with Mexico",
+                            "2) Cultural assimilation into Mexican society",
+                            "3) The pursuit of freedom and autonomy",
+                            "4) Strengthening ties with Native American tribes"
+                        ],
+                        "explanation": "The quest for freedom and autonomy was a common rallying cry among Texians during the revolution against Mexican rule.",
+                        "answer": "3) The pursuit of freedom and autonomy"
+                    },
+                    {
+                        "question": "What issue became increasingly contentious as Texas welcomed settlers from the Southern United States?",
+                        "options": [
+                            "4) Relations with Native Americans",
+                            "2) The debate over land ownership",
+                            "1) The establishment of public education",
+                            "3) The implications of slavery"
+                        ],
+                        "explanation": "As Texas welcomed Southern settlers, debates over slavery and its implications became a contentious issue, impacting future policies.",
+                        "answer": "3) The implications of slavery"
+                    },
+                    {
+                        "question": "Which aspect of governance was a challenge for the leaders in the Republic of Texas?",
+                        "options": [
+                            "1) Unity among factions",
+                            "2) International recognition",
+                            "4) Economic stability",
+                            "3) Military presence"
+                        ],
+                        "explanation": "Leaders of the Republic struggled to maintain unity among various factions, an ongoing challenge for the new government.",
+                        "answer": "1) Unity among factions"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    9
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What was the primary reason for the dissatisfaction of Texans under Mexican rule that led to the Texas Revolution?",
+                        "options": [
+                            "4) Support from Native American tribes",
+                            "3) Access to public education",
+                            "1) Economic incentives provided by the Mexican government",
+                            "2) Cultural differences and lack of political representation"
+                        ],
+                        "explanation": "Many Texians felt oppressed by the Mexican government due to cultural differences and a lack of political representation, which led to their desire for independence.",
+                        "answer": "2) Cultural differences and lack of political representation"
+                    },
+                    {
+                        "question": "What event concluded the Texas Revolution with a decisive victory for the Texian forces?",
+                        "options": [
+                            "2) The Battle of Gonzales",
+                            "1) The Battle of the Alamo",
+                            "4) The Siege of Bexar",
+                            "3) The Battle of San Jacinto"
+                        ],
+                        "explanation": "The Battle of San Jacinto was the decisive victory for Texian forces which led to their independence from Mexico.",
+                        "answer": "3) The Battle of San Jacinto"
+                    },
+                    {
+                        "question": "What form of government was established in Texas after the Revolution?",
+                        "options": [
+                            "1) A monarchy",
+                            "3) The Republic of Texas",
+                            "2) A dictatorship",
+                            "4) A parliamentary democracy"
+                        ],
+                        "explanation": "After the Texas Revolution, the Republic of Texas was established, marking Texas' independence from Mexico.",
+                        "answer": "3) The Republic of Texas"
+                    },
+                    {
+                        "question": "How did the Texas Revolution impact U.S.-Mexico relations post-war?",
+                        "options": [
+                            "3) It caused increased tensions leading to the Mexican-American War",
+                            "1) It resulted in a treaty of friendship between the two nations",
+                            "2) It improved trade relations",
+                            "4) It had no significant impact on relations"
+                        ],
+                        "explanation": "The aftermath of the Texas Revolution led to increased tensions between the U.S. and Mexico, eventually resulting in the Mexican-American War.",
+                        "answer": "3) It caused increased tensions leading to the Mexican-American War"
+                    },
+                    {
+                        "question": "Which figure is referred to as the 'Father of Texas'?",
+                        "options": [
+                            "2) Stephen F. Austin",
+                            "1) Sam Houston",
+                            "3) Santa Anna",
+                            "4) James Fannin"
+                        ],
+                        "explanation": "Stephen F. Austin is often called the 'Father of Texas' due to his role in colonization and advocacy for Texan identity.",
+                        "answer": "2) Stephen F. Austin"
+                    },
+                    {
+                        "question": "What was one internal struggle faced by the Republic of Texas after gaining independence?",
+                        "options": [
+                            "2) Economic prosperity without challenges",
+                            "1) Disputes with Spain",
+                            "4) Lack of land for expansion",
+                            "3) disagreements on governance and leadership"
+                        ],
+                        "explanation": "The Republic of Texas faced significant internal strife, including disagreements among leaders regarding governance and relationships with others.",
+                        "answer": "3) disagreements on governance and leadership"
+                    },
+                    {
+                        "question": "Who was the Mexican general whose defeat significantly impacted Mexican authority over Texas?",
+                        "options": [
+                            "4) General Urrea",
+                            "1) General Santa Anna",
+                            "3) General Filisola",
+                            "2) General Antonio L\u00f3pez de Santa Anna"
+                        ],
+                        "explanation": "General Santa Anna was the Mexican general defeated at San Jacinto, which effectively ended Mexican authority in Texas.",
+                        "answer": "1) General Santa Anna"
+                    },
+                    {
+                        "question": "What was a common aspiration among Texians fighting for independence?",
+                        "options": [
+                            "1) Expansion of trade with Mexico",
+                            "2) Cultural assimilation into Mexican society",
+                            "3) The pursuit of freedom and autonomy",
+                            "4) Strengthening ties with Native American tribes"
+                        ],
+                        "explanation": "The quest for freedom and autonomy was a common rallying cry among Texians during the revolution against Mexican rule.",
+                        "answer": "3) The pursuit of freedom and autonomy"
+                    },
+                    {
+                        "question": "What issue became increasingly contentious as Texas welcomed settlers from the Southern United States?",
+                        "options": [
+                            "4) Relations with Native Americans",
+                            "2) The debate over land ownership",
+                            "1) The establishment of public education",
+                            "3) The implications of slavery"
+                        ],
+                        "explanation": "As Texas welcomed Southern settlers, debates over slavery and its implications became a contentious issue, impacting future policies.",
+                        "answer": "3) The implications of slavery"
+                    },
+                    {
+                        "question": "Which aspect of governance was a challenge for the leaders in the Republic of Texas?",
+                        "options": [
+                            "1) Unity among factions",
+                            "2) International recognition",
+                            "4) Economic stability",
+                            "3) Military presence"
+                        ],
+                        "explanation": "Leaders of the Republic struggled to maintain unity among various factions, an ongoing challenge for the new government.",
+                        "answer": "1) Unity among factions"
+                    }
+                ]
+            }
+        ],
+        "The Evolution of Faith": [
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    1,
+                    6
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "How has globalization affected Christianity according to the lecture?",
+                        "options": [
+                            "3) It has reduced the number of followers.",
+                            "2) It has diversified practices and interpretations.",
+                            "1) It has remained static and unchanged.",
+                            "4) It has led to the decline of all denominations."
+                        ],
+                        "explanation": "Globalization has caused Christianity to diversify, leading to a wide variety of practices and interpretations across different denominations.",
+                        "answer": "2) It has diversified practices and interpretations."
+                    },
+                    {
+                        "question": "What initiative aims to promote dialogue between Christianity and Islam?",
+                        "options": [
+                            "2) Common Ground Initiative",
+                            "1) Mahmoud's Pact",
+                            "4) The Interfaith Outreach Project",
+                            "3) The Common Word document"
+                        ],
+                        "explanation": "The 'Common Word' document is a notable example of an initiative aimed at fostering dialogue between Christian and Muslim leaders, highlighting shared values.",
+                        "answer": "3) The Common Word document."
+                    },
+                    {
+                        "question": "In the context of Judaism, how do communities react to secularism according to the lecture?",
+                        "options": [
+                            "3) They strive to completely isolate from secular influences.",
+                            "1) They universally reject secular ideas.",
+                            "2) They embrace it and engage in cultural dialogue.",
+                            "4) They do not consider secularism relevant."
+                        ],
+                        "explanation": "Some Jewish communities embrace secularism and engage in dialogue with culture, demonstrating adaptability to modern challenges.",
+                        "answer": "2) They embrace it and engage in cultural dialogue."
+                    },
+                    {
+                        "question": "Which issue is highlighted as causing tension within monotheistic communities today?",
+                        "options": [
+                            "2) Traditional music practices",
+                            "4) LGBTQ+ acceptance",
+                            "1) Economic disparity",
+                            "3) Contentious sports rivalries"
+                        ],
+                        "explanation": "Debates surrounding LGBTQ+ acceptance within religious communities illustrate how differing interpretations of sacred texts can lead to conflict and division.",
+                        "answer": "4) LGBTQ+ acceptance."
+                    },
+                    {
+                        "question": "What effect can secularism have on individuals regarding their faith as mentioned in the lecture?",
+                        "options": [
+                            "2) It encourages unwavering adherence to traditions.",
+                            "4) It has no significant impact.",
+                            "1) It strengthens their faith.",
+                            "3) It leads to questioning and redefining of belief systems."
+                        ],
+                        "explanation": "Secularism and scientific rationalism can lead individuals to question and possibly redefine their traditional belief systems, creating a crisis of faith.",
+                        "answer": "3) It leads to questioning and redefining of belief systems."
+                    },
+                    {
+                        "question": "How do monotheistic faiths generally interact in response to shared issues, according to the lecture?",
+                        "options": [
+                            "2) They seek to isolate from one another.",
+                            "4) They ignore each other completely.",
+                            "1) They compete for followers.",
+                            "3) They come together for cooperation and community service."
+                        ],
+                        "explanation": "Interfaith interactions often lead to cooperation and community service as different faiths come together to address shared human challenges such as poverty and injustice.",
+                        "answer": "3) They come together for cooperation and community service."
+                    },
+                    {
+                        "question": "According to the lecture, what is a notable outcome of crisis of faith?",
+                        "options": [
+                            "4) Absolute acceptance of all beliefs.",
+                            "2) Increased engagement in religious rituals.",
+                            "1) Strengthening of religious dogma.",
+                            "3) Disenchantment with traditional religious frameworks."
+                        ],
+                        "explanation": "The crisis of faith has led many individuals to feel disenchantment with traditional religious frameworks, causing them to rethink or leave their faith.",
+                        "answer": "3) Disenchantment with traditional religious frameworks."
+                    },
+                    {
+                        "question": "What are monotheistic religions trying to achieve through interfaith dialogue?",
+                        "options": [
+                            "1) Establish dominance over each other.",
+                            "2) Promote understanding, respect, and cooperation.",
+                            "4) Isolate their beliefs from other faiths.",
+                            "3) Clarify their differences as much as possible."
+                        ],
+                        "explanation": "The primary aim of interfaith dialogue is to promote understanding, respect, and cooperation amongst different faith traditions, minimizing conflict.",
+                        "answer": "2) Promote understanding, respect, and cooperation."
+                    },
+                    {
+                        "question": "Which statement best reflects the contemporary challenges Judaism faces?",
+                        "options": [
+                            "3) It engages with and adapts to modern challenges while retaining core beliefs.",
+                            "1) It completely rejects modern cultural influences.",
+                            "4) It only focuses on traditional practices.",
+                            "2) It promotes a single interpretation of religious texts."
+                        ],
+                        "explanation": "Judaism demonstrates resilience by engaging with modern challenges alongside maintaining its core beliefs, showcasing adaptability.",
+                        "answer": "3) It engages with and adapts to modern challenges while retaining core beliefs."
+                    },
+                    {
+                        "question": "What kind of interpretations are evolving within contemporary Islam as noted in the lecture?",
+                        "options": [
+                            "2) A total rejection of all traditional beliefs.",
+                            "4) Uniform interpretations across the globe.",
+                            "3) Varied interpretations incorporating contemporary ideals.",
+                            "1) Strict adherence to traditional practices only."
+                        ],
+                        "explanation": "Contemporary Islam exhibits varied interpretations worldwide, with some adherents finding ways to incorporate modern ideals like gender equality into their faith.",
+                        "answer": "3) Varied interpretations incorporating contemporary ideals."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    1
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "How has globalization affected Christianity according to the lecture?",
+                        "options": [
+                            "3) It has reduced the number of followers.",
+                            "2) It has diversified practices and interpretations.",
+                            "1) It has remained static and unchanged.",
+                            "4) It has led to the decline of all denominations."
+                        ],
+                        "explanation": "Globalization has caused Christianity to diversify, leading to a wide variety of practices and interpretations across different denominations.",
+                        "answer": "2) It has diversified practices and interpretations."
+                    },
+                    {
+                        "question": "What initiative aims to promote dialogue between Christianity and Islam?",
+                        "options": [
+                            "2) Common Ground Initiative",
+                            "1) Mahmoud's Pact",
+                            "4) The Interfaith Outreach Project",
+                            "3) The Common Word document"
+                        ],
+                        "explanation": "The 'Common Word' document is a notable example of an initiative aimed at fostering dialogue between Christian and Muslim leaders, highlighting shared values.",
+                        "answer": "3) The Common Word document."
+                    },
+                    {
+                        "question": "In the context of Judaism, how do communities react to secularism according to the lecture?",
+                        "options": [
+                            "3) They strive to completely isolate from secular influences.",
+                            "1) They universally reject secular ideas.",
+                            "2) They embrace it and engage in cultural dialogue.",
+                            "4) They do not consider secularism relevant."
+                        ],
+                        "explanation": "Some Jewish communities embrace secularism and engage in dialogue with culture, demonstrating adaptability to modern challenges.",
+                        "answer": "2) They embrace it and engage in cultural dialogue."
+                    },
+                    {
+                        "question": "Which issue is highlighted as causing tension within monotheistic communities today?",
+                        "options": [
+                            "2) Traditional music practices",
+                            "4) LGBTQ+ acceptance",
+                            "1) Economic disparity",
+                            "3) Contentious sports rivalries"
+                        ],
+                        "explanation": "Debates surrounding LGBTQ+ acceptance within religious communities illustrate how differing interpretations of sacred texts can lead to conflict and division.",
+                        "answer": "4) LGBTQ+ acceptance."
+                    },
+                    {
+                        "question": "What effect can secularism have on individuals regarding their faith as mentioned in the lecture?",
+                        "options": [
+                            "2) It encourages unwavering adherence to traditions.",
+                            "4) It has no significant impact.",
+                            "1) It strengthens their faith.",
+                            "3) It leads to questioning and redefining of belief systems."
+                        ],
+                        "explanation": "Secularism and scientific rationalism can lead individuals to question and possibly redefine their traditional belief systems, creating a crisis of faith.",
+                        "answer": "3) It leads to questioning and redefining of belief systems."
+                    },
+                    {
+                        "question": "How do monotheistic faiths generally interact in response to shared issues, according to the lecture?",
+                        "options": [
+                            "2) They seek to isolate from one another.",
+                            "4) They ignore each other completely.",
+                            "1) They compete for followers.",
+                            "3) They come together for cooperation and community service."
+                        ],
+                        "explanation": "Interfaith interactions often lead to cooperation and community service as different faiths come together to address shared human challenges such as poverty and injustice.",
+                        "answer": "3) They come together for cooperation and community service."
+                    },
+                    {
+                        "question": "According to the lecture, what is a notable outcome of crisis of faith?",
+                        "options": [
+                            "4) Absolute acceptance of all beliefs.",
+                            "2) Increased engagement in religious rituals.",
+                            "1) Strengthening of religious dogma.",
+                            "3) Disenchantment with traditional religious frameworks."
+                        ],
+                        "explanation": "The crisis of faith has led many individuals to feel disenchantment with traditional religious frameworks, causing them to rethink or leave their faith.",
+                        "answer": "3) Disenchantment with traditional religious frameworks."
+                    },
+                    {
+                        "question": "What are monotheistic religions trying to achieve through interfaith dialogue?",
+                        "options": [
+                            "1) Establish dominance over each other.",
+                            "2) Promote understanding, respect, and cooperation.",
+                            "4) Isolate their beliefs from other faiths.",
+                            "3) Clarify their differences as much as possible."
+                        ],
+                        "explanation": "The primary aim of interfaith dialogue is to promote understanding, respect, and cooperation amongst different faith traditions, minimizing conflict.",
+                        "answer": "2) Promote understanding, respect, and cooperation."
+                    },
+                    {
+                        "question": "Which statement best reflects the contemporary challenges Judaism faces?",
+                        "options": [
+                            "3) It engages with and adapts to modern challenges while retaining core beliefs.",
+                            "1) It completely rejects modern cultural influences.",
+                            "4) It only focuses on traditional practices.",
+                            "2) It promotes a single interpretation of religious texts."
+                        ],
+                        "explanation": "Judaism demonstrates resilience by engaging with modern challenges alongside maintaining its core beliefs, showcasing adaptability.",
+                        "answer": "3) It engages with and adapts to modern challenges while retaining core beliefs."
+                    },
+                    {
+                        "question": "What kind of interpretations are evolving within contemporary Islam as noted in the lecture?",
+                        "options": [
+                            "2) A total rejection of all traditional beliefs.",
+                            "4) Uniform interpretations across the globe.",
+                            "3) Varied interpretations incorporating contemporary ideals.",
+                            "1) Strict adherence to traditional practices only."
+                        ],
+                        "explanation": "Contemporary Islam exhibits varied interpretations worldwide, with some adherents finding ways to incorporate modern ideals like gender equality into their faith.",
+                        "answer": "3) Varied interpretations incorporating contemporary ideals."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    1
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "How has globalization affected Christianity according to the lecture?",
+                        "options": [
+                            "3) It has reduced the number of followers.",
+                            "2) It has diversified practices and interpretations.",
+                            "1) It has remained static and unchanged.",
+                            "4) It has led to the decline of all denominations."
+                        ],
+                        "explanation": "Globalization has caused Christianity to diversify, leading to a wide variety of practices and interpretations across different denominations.",
+                        "answer": "2) It has diversified practices and interpretations."
+                    },
+                    {
+                        "question": "What initiative aims to promote dialogue between Christianity and Islam?",
+                        "options": [
+                            "2) Common Ground Initiative",
+                            "1) Mahmoud's Pact",
+                            "4) The Interfaith Outreach Project",
+                            "3) The Common Word document"
+                        ],
+                        "explanation": "The 'Common Word' document is a notable example of an initiative aimed at fostering dialogue between Christian and Muslim leaders, highlighting shared values.",
+                        "answer": "3) The Common Word document."
+                    },
+                    {
+                        "question": "In the context of Judaism, how do communities react to secularism according to the lecture?",
+                        "options": [
+                            "3) They strive to completely isolate from secular influences.",
+                            "1) They universally reject secular ideas.",
+                            "2) They embrace it and engage in cultural dialogue.",
+                            "4) They do not consider secularism relevant."
+                        ],
+                        "explanation": "Some Jewish communities embrace secularism and engage in dialogue with culture, demonstrating adaptability to modern challenges.",
+                        "answer": "2) They embrace it and engage in cultural dialogue."
+                    },
+                    {
+                        "question": "Which issue is highlighted as causing tension within monotheistic communities today?",
+                        "options": [
+                            "2) Traditional music practices",
+                            "4) LGBTQ+ acceptance",
+                            "1) Economic disparity",
+                            "3) Contentious sports rivalries"
+                        ],
+                        "explanation": "Debates surrounding LGBTQ+ acceptance within religious communities illustrate how differing interpretations of sacred texts can lead to conflict and division.",
+                        "answer": "4) LGBTQ+ acceptance."
+                    },
+                    {
+                        "question": "What effect can secularism have on individuals regarding their faith as mentioned in the lecture?",
+                        "options": [
+                            "2) It encourages unwavering adherence to traditions.",
+                            "4) It has no significant impact.",
+                            "1) It strengthens their faith.",
+                            "3) It leads to questioning and redefining of belief systems."
+                        ],
+                        "explanation": "Secularism and scientific rationalism can lead individuals to question and possibly redefine their traditional belief systems, creating a crisis of faith.",
+                        "answer": "3) It leads to questioning and redefining of belief systems."
+                    },
+                    {
+                        "question": "How do monotheistic faiths generally interact in response to shared issues, according to the lecture?",
+                        "options": [
+                            "2) They seek to isolate from one another.",
+                            "4) They ignore each other completely.",
+                            "1) They compete for followers.",
+                            "3) They come together for cooperation and community service."
+                        ],
+                        "explanation": "Interfaith interactions often lead to cooperation and community service as different faiths come together to address shared human challenges such as poverty and injustice.",
+                        "answer": "3) They come together for cooperation and community service."
+                    },
+                    {
+                        "question": "According to the lecture, what is a notable outcome of crisis of faith?",
+                        "options": [
+                            "4) Absolute acceptance of all beliefs.",
+                            "2) Increased engagement in religious rituals.",
+                            "1) Strengthening of religious dogma.",
+                            "3) Disenchantment with traditional religious frameworks."
+                        ],
+                        "explanation": "The crisis of faith has led many individuals to feel disenchantment with traditional religious frameworks, causing them to rethink or leave their faith.",
+                        "answer": "3) Disenchantment with traditional religious frameworks."
+                    },
+                    {
+                        "question": "What are monotheistic religions trying to achieve through interfaith dialogue?",
+                        "options": [
+                            "1) Establish dominance over each other.",
+                            "2) Promote understanding, respect, and cooperation.",
+                            "4) Isolate their beliefs from other faiths.",
+                            "3) Clarify their differences as much as possible."
+                        ],
+                        "explanation": "The primary aim of interfaith dialogue is to promote understanding, respect, and cooperation amongst different faith traditions, minimizing conflict.",
+                        "answer": "2) Promote understanding, respect, and cooperation."
+                    },
+                    {
+                        "question": "Which statement best reflects the contemporary challenges Judaism faces?",
+                        "options": [
+                            "3) It engages with and adapts to modern challenges while retaining core beliefs.",
+                            "1) It completely rejects modern cultural influences.",
+                            "4) It only focuses on traditional practices.",
+                            "2) It promotes a single interpretation of religious texts."
+                        ],
+                        "explanation": "Judaism demonstrates resilience by engaging with modern challenges alongside maintaining its core beliefs, showcasing adaptability.",
+                        "answer": "3) It engages with and adapts to modern challenges while retaining core beliefs."
+                    },
+                    {
+                        "question": "What kind of interpretations are evolving within contemporary Islam as noted in the lecture?",
+                        "options": [
+                            "2) A total rejection of all traditional beliefs.",
+                            "4) Uniform interpretations across the globe.",
+                            "3) Varied interpretations incorporating contemporary ideals.",
+                            "1) Strict adherence to traditional practices only."
+                        ],
+                        "explanation": "Contemporary Islam exhibits varied interpretations worldwide, with some adherents finding ways to incorporate modern ideals like gender equality into their faith.",
+                        "answer": "3) Varied interpretations incorporating contemporary ideals."
+                    }
+                ]
+            }
+        ]
+    },
+    "Thursday": {},
+    "Friday": {}
+}

@@ -1,0 +1,182 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "CSS Styling: Responsive Design",
+                "lecture": "Welcome to today\u2019s Computer Science session. We will explore responsive design and how to make your web pages look good on all devices using CSS. \n\nLet\u2019s start with the concept of responsive design. Responsive design means creating web pages that look good and function well on all devices, whether it\u2019s a desktop computer, tablet, or smartphone. With the ever-growing variety of devices, it\u2019s essential to ensure that your web applications provide a consistent and enjoyable user experience across the board. \n\nTo achieve this, we often use CSS, or Cascading Style Sheets, which enables us to control the layout and styling of our web pages. One of the powerful techniques we use in responsive design is media queries.  \n\nMedia queries allow you to apply different styles for different device characteristics, such as screen width, height, and orientation. For instance, you might want a layout with three columns on larger screens but switch to a single column for mobile devices. This is where media queries come into play. \n\nLet\u2019s break down how media queries work. You can define them in your CSS file by using the `@media` rule. Here's an example:\n\n```css\n@media screen and (max-width: 600px) {\n    body {\n        background-color: lightblue;\n    }\n}\n```\n\nIn this case, when the screen size is 600 pixels or less, the background color of the body will change to light blue. You can apply other CSS properties similarly, adjusting layouts, fonts, colors, and more based on the device being used to view the page. \n\nNow, let\u2019s pause for a moment to think about how you might use media queries in your projects. [p] \n\nWhen working with media queries, you might find multiple conditions useful. For example, if you're working with a tablet, you might want to adjust styles differently than on a mobile phone or desktop. You can combine media queries using the `and` keyword:\n```css\n@media screen and (min-width: 600px) and (max-width: 900px) {\n    body {\n        background-color: lightcoral;\n    }\n}\n```\n\nThis code means that if your screen width is between 600 and 900 pixels, the background color will be light coral. Adjusting styles based on various screen sizes allows you to enhance the usability of your website tremendously. \n\nNext, let\u2019s talk about responsive images. Images often take up a lot of space and can greatly affect how a page is displayed on different devices. To ensure images are responsive, we can use the `max-width` property in CSS. This allows images to scale down if the screen is smaller than the image.\n\nHere's a simple implementation:\n```css\nimg {\n    max-width: 100%;\n    height: auto;\n}\n```\n\nBy setting the `max-width` to 100%, we ensure that the image cannot exceed the width of its parent container. Setting `height` to `auto` keeps the aspect ratio intact, so the image doesn\u2019t get distorted. This is particularly important in responsive design where maintaining the visual integrity of images can improve the user experience. [p] \n\nAdditionally, HTML5 introduced the `<picture>` element, giving developers more control over responsive images. This allows you to define sources for different resolutions and screen sizes. For example:\n```html\n<picture>\n    <source media=\"(min-width: 800px)\" srcset=\"large-image.jpg\">\n    <source media=\"(min-width: 400px)\" srcset=\"medium-image.jpg\">\n    <img src=\"small-image.jpg\" alt=\"Sample Image\">\n</picture>\n```\n\nIn this code, depending on the viewport size, the browser will load the specified image source. This ensures that users download only the appropriate image size, leading to faster loading times and less data use on mobile devices. [p] \n\nNow that we\u2019ve discussed media queries and responsive images, let\u2019s summarize what you\u2019ve learned today. You\u2019ve explored the concept of responsive design and its importance in today\u2019s multi-device world. You\u2019ve learned how to use media queries to create styles for different screen sizes, and you\u2019ve seen how to manage and implement responsive images using CSS properties and the HTML `<picture>` element. \n\nBy employing these techniques, you will be able to build websites that adapt beautifully across devices, providing users with a seamless and engaging experience. Remember, responsive design is not just about making things fit on smaller screens; it's about creating a more accessible Web.\n\nFeel free to ask questions about any of the topics we covered today. Let\u2019s make sure you\u2019ve grasped these important concepts before we wrap up this session.",
+                "summary": "In today's lecture, you learned the essential aspects of CSS styling for responsive design. We discussed media queries and how to implement them to create responsive layouts that adapt to various device sizes. Additionally, we examined responsive images and techniques to ensure they display correctly and efficiently across all platforms. Overall, these skills will help you build better, more user-friendly web pages.",
+                "subject": "Computer Science",
+                "main_topic": "CSS Styling",
+                "sub_topics": [
+                    "Media queries",
+                    "Responsive images"
+                ],
+                "wikipedia_refrences": [
+                    "https://en.wikipedia.org/wiki/Cascading_Style_Sheets",
+                    "https://en.wikipedia.org/wiki/Responsive_web_design",
+                    "https://en.wikipedia.org/wiki/Media_queries",
+                    "https://en.wikipedia.org/wiki/HTML5#<picture>_element"
+                ],
+                "quiz": [
+                    {
+                        "question": "What does responsive design aim to achieve for web pages?",
+                        "options": [
+                            "2) Making all websites look the same",
+                            "3) Reducing the size of web pages",
+                            "1) Ensuring consistent user experience across devices",
+                            "4) Improving search engine ranking"
+                        ],
+                        "explanation": "Responsive design focuses on ensuring that web pages adapt to different screen sizes and devices, providing a consistent and enjoyable experience for users regardless of how they access the web.",
+                        "answer": "1) Ensuring consistent user experience across devices"
+                    },
+                    {
+                        "question": "What CSS rule is needed to start a media query?",
+                        "options": [
+                            "2) @query",
+                            "4) @style",
+                            "3) @responsive",
+                            "1) @media"
+                        ],
+                        "explanation": "The correct rule to start a media query in CSS is '@media'. This rule allows you to apply different styles based on specific conditions such as screen size.",
+                        "answer": "1) @media"
+                    },
+                    {
+                        "question": "How does the '@media screen and (max-width: 600px)' function in CSS?",
+                        "options": [
+                            "1) Applies styles to all devices regardless of width",
+                            "3) Applies styles on devices 600 pixels wide or smaller",
+                            "4) Applies styles only on printers",
+                            "2) Applies styles on devices wider than 600 pixels"
+                        ],
+                        "explanation": "The '@media screen and (max-width: 600px)' applies the specified styles only to devices that are 600 pixels wide or smaller, allowing for responsive styles tailored for mobile viewing.",
+                        "answer": "3) Applies styles on devices 600 pixels wide or smaller"
+                    },
+                    {
+                        "question": "What does the 'and' keyword do in media queries?",
+                        "options": [
+                            "3) Ends the media query",
+                            "2) Applies styles for any condition",
+                            "1) Combines multiple conditions",
+                            "4) Creates an error when used"
+                        ],
+                        "explanation": "The 'and' keyword combines multiple conditions in a media query, allowing for more specific styling rules based on various characteristics of the device.",
+                        "answer": "1) Combines multiple conditions"
+                    },
+                    {
+                        "question": "Why is it important to ensure images are responsive in web design?",
+                        "options": [
+                            "3) To make them pixelated",
+                            "1) To make them larger on desktop",
+                            "2) To improve loading speeds and maintain aspect ratio",
+                            "4) To use more data for mobile users"
+                        ],
+                        "explanation": "Making images responsive allows them to scale properly on different devices, which helps improve loading speeds and ensures that the aspect ratio remains intact, providing a better user experience.",
+                        "answer": "2) To improve loading speeds and maintain aspect ratio"
+                    },
+                    {
+                        "question": "What visual change does applying 'max-width: 100%' have on images?",
+                        "options": [
+                            "2) They can grow beyond their parent element",
+                            "4) They will disappear on small screens",
+                            "1) They will be larger than their container",
+                            "3) They will not exceed the width of their parent container"
+                        ],
+                        "explanation": "Setting 'max-width: 100%' prevents images from exceeding the width of their parent container, allowing them to scale down as needed on smaller screens.",
+                        "answer": "3) They will not exceed the width of their parent container"
+                    },
+                    {
+                        "question": "What does the HTML `<picture>` element allow developers to control?",
+                        "options": [
+                            "4) The security of the webpage",
+                            "1) The text alignment in a webpage",
+                            "3) Responsive images for different resolutions and sizes",
+                            "2) The scope of JavaScript functions"
+                        ],
+                        "explanation": "The `<picture>` element allows developers to define sources for different image resolutions and sizes, enabling better handling of responsive images across varied devices.",
+                        "answer": "3) Responsive images for different resolutions and sizes"
+                    },
+                    {
+                        "question": "Which of the following is an example of a responsive CSS rule?",
+                        "options": [
+                            "3) .container { padding: 20px; }",
+                            "4) img { width: 500px; }",
+                            "1) body { background-color: blue; }",
+                            "2) @media screen and (max-width: 500px) { body { color: red; } }"
+                        ],
+                        "explanation": "The example '@media screen and (max-width: 500px) { body { color: red; } }' shows a media query that changes the styles based on screen size, thus making it responsive.",
+                        "answer": "2) @media screen and (max-width: 500px) { body { color: red; } }"
+                    },
+                    {
+                        "question": "How do you ensure an image retains its aspect ratio when making it responsive?",
+                        "options": [
+                            "3) Set height to 0 and width to auto",
+                            "1) Set width to 150% and height to auto",
+                            "4) Set height to auto",
+                            "2) Set max-height to 100%"
+                        ],
+                        "explanation": "Setting height to 'auto' ensures that the image retains its original aspect ratio when scaling, preventing distortion as the width changes.",
+                        "answer": "4) Set height to auto"
+                    },
+                    {
+                        "question": "What is a key benefit of using responsive design techniques for modern web applications?",
+                        "options": [
+                            "3) It creates a consistent user experience across devices",
+                            "1) It simplifies writing HTML code",
+                            "2) It guarantees higher search engine rankings",
+                            "4) It eliminates the need for CSS"
+                        ],
+                        "explanation": "Responsive design techniques provide a consistent user experience across devices by adapting the layout and content to fit various screen sizes and resolutions effectively.",
+                        "answer": "3) It creates a consistent user experience across devices"
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What is the primary purpose of media queries in responsive design?",
+                        "options": [
+                            "2) To apply different styles based on device characteristics.",
+                            "1) To change the content of the webpage entirely.",
+                            "3) To ensure all web pages load faster on different devices.",
+                            "4) To increase the number of columns on all devices."
+                        ],
+                        "explanation": "Media queries are specifically designed to apply different styles depending on the characteristics of the device being used, such as screen size or orientation. This allows designers to customize the user interface for optimal viewing experiences across various devices.",
+                        "answer": "2) To apply different styles based on device characteristics."
+                    },
+                    {
+                        "question": "What does the CSS code 'max-width: 100%; height: auto;' do for images in responsive design?",
+                        "options": [
+                            "1) It makes images maintain their aspect ratio without exceeding the width of their parent container.",
+                            "2) It enlarges images to fill the entire screen regardless of the container.",
+                            "3) It removes the images from the layout entirely.",
+                            "4) It converts images into a different format for better performance."
+                        ],
+                        "explanation": "Setting 'max-width: 100%' ensures that images scale down to fit within their parent containers, while 'height: auto' keeps their aspect ratio, preventing distortion. This is essential for responsive design as it helps maintain visual consistency across different screen sizes.",
+                        "answer": "1) It makes images maintain their aspect ratio without exceeding the width of their parent container."
+                    },
+                    {
+                        "question": "What is the purpose of the `<picture>` element in HTML5?",
+                        "options": [
+                            "2) To define sources for responsive images based on screen size",
+                            "3) To create a multi-column layout",
+                            "1) To provide audio support in webpages",
+                            "4) To embed video content directly into the page"
+                        ],
+                        "explanation": "The `<picture>` element is used to provide different image sources for varying resolutions and screen sizes, enabling responsive image loading in web design. This helps optimize loading times and reduce data usage on mobile devices.",
+                        "answer": "2) To define sources for responsive images based on screen size"
+                    },
+                    {
+                        "question": "What is the primary purpose of using media queries in responsive web design?",
+                        "options": [
+                            "4) To restrict website access on mobile devices.",
+                            "2) To create styles for different screen sizes and improve user experience across devices.",
+                            "3) To eliminate the need for images on websites altogether.",
+                            "1) To ensure that websites are visually appealing only on large screens."
+                        ],
+                        "explanation": "Media queries allow developers to apply different style rules based on the characteristics of the device (primarily the viewport size), which is essential for creating a responsive web design that adapts to various screen sizes, enhancing the overall user experience.",
+                        "answer": "2) To create styles for different screen sizes and improve user experience across devices."
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

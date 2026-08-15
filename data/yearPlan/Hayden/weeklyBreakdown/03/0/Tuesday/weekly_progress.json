@@ -1,0 +1,1841 @@
+{
+    "Monday": {},
+    "Tuesday": {
+        "Algebra": [
+            {
+                "quiz_grade": 50.0,
+                "wrong_answers": [
+                    1,
+                    2,
+                    4,
+                    6,
+                    8
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is the primary difference between exponential growth and exponential decay as discussed in the lecture?",
+                        "options": [
+                            "1) Exponential growth decreases over time while exponential decay increases.",
+                            "3) Both increase over time but at different rates.",
+                            "4) Exponential growth and decay are essentially the same.",
+                            "2) Exponential growth increases over time whereas exponential decay decreases."
+                        ],
+                        "explanation": "Exponential growth refers to quantities that increase over time at a rate proportional to their current value, while exponential decay refers to quantities that decrease over time at a rate proportional to their current value. Hence, the primary difference is that one represents growth and the other decay.",
+                        "answer": "2) Exponential growth increases over time whereas exponential decay decreases."
+                    },
+                    {
+                        "question": "In which situation did the lecture illustrate the concept of exponential decay?",
+                        "options": [
+                            "4) Compound interest in finance",
+                            "1) Spread of diseases",
+                            "2) Radioactive substances",
+                            "3) Population growth"
+                        ],
+                        "explanation": "The lecture provided the example of the decay of radioactive substances as a classic illustration of exponential decay, where the quantity decreases rapidly at first, then slows down over time.",
+                        "answer": "2) Radioactive substances."
+                    },
+                    {
+                        "question": "What does the variable 'k' represent in the exponential growth equation y = a * e^(kt)?",
+                        "options": [
+                            "3) The growth rate",
+                            "4) The constant rate of decay",
+                            "2) The time variable",
+                            "1) The initial amount"
+                        ],
+                        "explanation": "In the exponential growth equation, 'k' represents the growth rate, which determines how quickly the quantity increases over time.",
+                        "answer": "3) The growth rate."
+                    },
+                    {
+                        "question": "Which of the following scenarios is an example of exponential growth discussed in the lecture?",
+                        "options": [
+                            "3) The slowing down of radioactive decay",
+                            "1) Decreasing bank savings",
+                            "2) The increase in storage capacity of technology",
+                            "4) A fixed amount of interest in a bank account"
+                        ],
+                        "explanation": "The lecture highlighted that the increase in storage capacity of technology is an example of exponential growth, as capabilities have expanded rapidly over time.",
+                        "answer": "2) The increase in storage capacity of technology."
+                    },
+                    {
+                        "question": "How do we often express exponential decay mathematically?",
+                        "options": [
+                            "2) y = a * e^(-kt)",
+                            "1) y = a * e^(kt)",
+                            "3) y = a * ln(kt)",
+                            "4) y = a * kt"
+                        ],
+                        "explanation": "Exponential decay is mathematically expressed as y = a * e^(-kt), where the negative sign indicates a decrease in the quantity over time.",
+                        "answer": "2) y = a * e^(-kt)."
+                    },
+                    {
+                        "question": "What relationship between quantities is essential to both exponential growth and decay?",
+                        "options": [
+                            "4) They are fixed values.",
+                            "2) The rate of change is proportional to the current value of the quantity.",
+                            "1) They both depend on time only.",
+                            "3) They do not change over time."
+                        ],
+                        "explanation": "Both exponential growth and decay exhibit a rate of change that is proportional to the current value of the quantity, which is a defining characteristic of these functions.",
+                        "answer": "2) The rate of change is proportional to the current value of the quantity."
+                    },
+                    {
+                        "question": "Which method is recommended for solving exponential equations, as mentioned in the lecture?",
+                        "options": [
+                            "1) Subtracting each side by a constant",
+                            "3) Adding both sides together",
+                            "4) Graphing the equations.",
+                            "2) Taking the logarithm of both sides"
+                        ],
+                        "explanation": "The lecture emphasized that taking the logarithm of both sides is a common and effective method for solving exponential equations, especially when isolating the variable in the exponent.",
+                        "answer": "2) Taking the logarithm of both sides."
+                    },
+                    {
+                        "question": "What is an example of a phenomenon that can be modeled using an exponential function in finance?",
+                        "options": [
+                            "2) Depreciation of a car",
+                            "1) Simple interest",
+                            "4) Fixed deposits",
+                            "3) Compound interest"
+                        ],
+                        "explanation": "The lecture explained that compound interest is an example of an exponential function where the interest earned builds upon itself, resulting in exponential growth of savings.",
+                        "answer": "3) Compound interest."
+                    },
+                    {
+                        "question": "If the equation 5^(2x) = 20 is given, what is the first step to solve for x?",
+                        "options": [
+                            "3) Rewrite in exponential form",
+                            "1) Divide both sides by log(20)",
+                            "2) Take logarithm of both sides",
+                            "4) Subtract 20 from both sides"
+                        ],
+                        "explanation": "According to the lecture, the first step for solving the equation 5^(2x) = 20 would be to take the logarithm of both sides, allowing further simplifications and isolating the variable.",
+                        "answer": "2) Take logarithm of both sides."
+                    },
+                    {
+                        "question": "What is the mathematical base of natural logarithms used in exponential functions as discussed?",
+                        "options": [
+                            "2) 2.71828",
+                            "4) 10",
+                            "3) 1.61803",
+                            "1) 3.14159"
+                        ],
+                        "explanation": "The base of natural logarithms, denoted as 'e', is approximately equal to 2.71828, and it is essential in the formulation of exponential functions and equations.",
+                        "answer": "2) 2.71828."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 50.0,
+                "wrong_answers": [
+                    1,
+                    2,
+                    4,
+                    6,
+                    8
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is the primary difference between exponential growth and exponential decay as discussed in the lecture?",
+                        "options": [
+                            "1) Exponential growth decreases over time while exponential decay increases.",
+                            "3) Both increase over time but at different rates.",
+                            "4) Exponential growth and decay are essentially the same.",
+                            "2) Exponential growth increases over time whereas exponential decay decreases."
+                        ],
+                        "explanation": "Exponential growth refers to quantities that increase over time at a rate proportional to their current value, while exponential decay refers to quantities that decrease over time at a rate proportional to their current value. Hence, the primary difference is that one represents growth and the other decay.",
+                        "answer": "2) Exponential growth increases over time whereas exponential decay decreases."
+                    },
+                    {
+                        "question": "In which situation did the lecture illustrate the concept of exponential decay?",
+                        "options": [
+                            "4) Compound interest in finance",
+                            "1) Spread of diseases",
+                            "2) Radioactive substances",
+                            "3) Population growth"
+                        ],
+                        "explanation": "The lecture provided the example of the decay of radioactive substances as a classic illustration of exponential decay, where the quantity decreases rapidly at first, then slows down over time.",
+                        "answer": "2) Radioactive substances."
+                    },
+                    {
+                        "question": "What does the variable 'k' represent in the exponential growth equation y = a * e^(kt)?",
+                        "options": [
+                            "3) The growth rate",
+                            "4) The constant rate of decay",
+                            "2) The time variable",
+                            "1) The initial amount"
+                        ],
+                        "explanation": "In the exponential growth equation, 'k' represents the growth rate, which determines how quickly the quantity increases over time.",
+                        "answer": "3) The growth rate."
+                    },
+                    {
+                        "question": "Which of the following scenarios is an example of exponential growth discussed in the lecture?",
+                        "options": [
+                            "3) The slowing down of radioactive decay",
+                            "1) Decreasing bank savings",
+                            "2) The increase in storage capacity of technology",
+                            "4) A fixed amount of interest in a bank account"
+                        ],
+                        "explanation": "The lecture highlighted that the increase in storage capacity of technology is an example of exponential growth, as capabilities have expanded rapidly over time.",
+                        "answer": "2) The increase in storage capacity of technology."
+                    },
+                    {
+                        "question": "How do we often express exponential decay mathematically?",
+                        "options": [
+                            "2) y = a * e^(-kt)",
+                            "1) y = a * e^(kt)",
+                            "3) y = a * ln(kt)",
+                            "4) y = a * kt"
+                        ],
+                        "explanation": "Exponential decay is mathematically expressed as y = a * e^(-kt), where the negative sign indicates a decrease in the quantity over time.",
+                        "answer": "2) y = a * e^(-kt)."
+                    },
+                    {
+                        "question": "What relationship between quantities is essential to both exponential growth and decay?",
+                        "options": [
+                            "4) They are fixed values.",
+                            "2) The rate of change is proportional to the current value of the quantity.",
+                            "1) They both depend on time only.",
+                            "3) They do not change over time."
+                        ],
+                        "explanation": "Both exponential growth and decay exhibit a rate of change that is proportional to the current value of the quantity, which is a defining characteristic of these functions.",
+                        "answer": "2) The rate of change is proportional to the current value of the quantity."
+                    },
+                    {
+                        "question": "Which method is recommended for solving exponential equations, as mentioned in the lecture?",
+                        "options": [
+                            "1) Subtracting each side by a constant",
+                            "3) Adding both sides together",
+                            "4) Graphing the equations.",
+                            "2) Taking the logarithm of both sides"
+                        ],
+                        "explanation": "The lecture emphasized that taking the logarithm of both sides is a common and effective method for solving exponential equations, especially when isolating the variable in the exponent.",
+                        "answer": "2) Taking the logarithm of both sides."
+                    },
+                    {
+                        "question": "What is an example of a phenomenon that can be modeled using an exponential function in finance?",
+                        "options": [
+                            "2) Depreciation of a car",
+                            "1) Simple interest",
+                            "4) Fixed deposits",
+                            "3) Compound interest"
+                        ],
+                        "explanation": "The lecture explained that compound interest is an example of an exponential function where the interest earned builds upon itself, resulting in exponential growth of savings.",
+                        "answer": "3) Compound interest."
+                    },
+                    {
+                        "question": "If the equation 5^(2x) = 20 is given, what is the first step to solve for x?",
+                        "options": [
+                            "3) Rewrite in exponential form",
+                            "1) Divide both sides by log(20)",
+                            "2) Take logarithm of both sides",
+                            "4) Subtract 20 from both sides"
+                        ],
+                        "explanation": "According to the lecture, the first step for solving the equation 5^(2x) = 20 would be to take the logarithm of both sides, allowing further simplifications and isolating the variable.",
+                        "answer": "2) Take logarithm of both sides."
+                    },
+                    {
+                        "question": "What is the mathematical base of natural logarithms used in exponential functions as discussed?",
+                        "options": [
+                            "2) 2.71828",
+                            "4) 10",
+                            "3) 1.61803",
+                            "1) 3.14159"
+                        ],
+                        "explanation": "The base of natural logarithms, denoted as 'e', is approximately equal to 2.71828, and it is essential in the formulation of exponential functions and equations.",
+                        "answer": "2) 2.71828."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 50.0,
+                "wrong_answers": [
+                    1,
+                    2,
+                    4,
+                    6,
+                    8
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What is the primary difference between exponential growth and exponential decay as discussed in the lecture?",
+                        "options": [
+                            "1) Exponential growth decreases over time while exponential decay increases.",
+                            "3) Both increase over time but at different rates.",
+                            "4) Exponential growth and decay are essentially the same.",
+                            "2) Exponential growth increases over time whereas exponential decay decreases."
+                        ],
+                        "explanation": "Exponential growth refers to quantities that increase over time at a rate proportional to their current value, while exponential decay refers to quantities that decrease over time at a rate proportional to their current value. Hence, the primary difference is that one represents growth and the other decay.",
+                        "answer": "2) Exponential growth increases over time whereas exponential decay decreases."
+                    },
+                    {
+                        "question": "In which situation did the lecture illustrate the concept of exponential decay?",
+                        "options": [
+                            "4) Compound interest in finance",
+                            "1) Spread of diseases",
+                            "2) Radioactive substances",
+                            "3) Population growth"
+                        ],
+                        "explanation": "The lecture provided the example of the decay of radioactive substances as a classic illustration of exponential decay, where the quantity decreases rapidly at first, then slows down over time.",
+                        "answer": "2) Radioactive substances."
+                    },
+                    {
+                        "question": "What does the variable 'k' represent in the exponential growth equation y = a * e^(kt)?",
+                        "options": [
+                            "3) The growth rate",
+                            "4) The constant rate of decay",
+                            "2) The time variable",
+                            "1) The initial amount"
+                        ],
+                        "explanation": "In the exponential growth equation, 'k' represents the growth rate, which determines how quickly the quantity increases over time.",
+                        "answer": "3) The growth rate."
+                    },
+                    {
+                        "question": "Which of the following scenarios is an example of exponential growth discussed in the lecture?",
+                        "options": [
+                            "3) The slowing down of radioactive decay",
+                            "1) Decreasing bank savings",
+                            "2) The increase in storage capacity of technology",
+                            "4) A fixed amount of interest in a bank account"
+                        ],
+                        "explanation": "The lecture highlighted that the increase in storage capacity of technology is an example of exponential growth, as capabilities have expanded rapidly over time.",
+                        "answer": "2) The increase in storage capacity of technology."
+                    },
+                    {
+                        "question": "How do we often express exponential decay mathematically?",
+                        "options": [
+                            "2) y = a * e^(-kt)",
+                            "1) y = a * e^(kt)",
+                            "3) y = a * ln(kt)",
+                            "4) y = a * kt"
+                        ],
+                        "explanation": "Exponential decay is mathematically expressed as y = a * e^(-kt), where the negative sign indicates a decrease in the quantity over time.",
+                        "answer": "2) y = a * e^(-kt)."
+                    },
+                    {
+                        "question": "What relationship between quantities is essential to both exponential growth and decay?",
+                        "options": [
+                            "4) They are fixed values.",
+                            "2) The rate of change is proportional to the current value of the quantity.",
+                            "1) They both depend on time only.",
+                            "3) They do not change over time."
+                        ],
+                        "explanation": "Both exponential growth and decay exhibit a rate of change that is proportional to the current value of the quantity, which is a defining characteristic of these functions.",
+                        "answer": "2) The rate of change is proportional to the current value of the quantity."
+                    },
+                    {
+                        "question": "Which method is recommended for solving exponential equations, as mentioned in the lecture?",
+                        "options": [
+                            "1) Subtracting each side by a constant",
+                            "3) Adding both sides together",
+                            "4) Graphing the equations.",
+                            "2) Taking the logarithm of both sides"
+                        ],
+                        "explanation": "The lecture emphasized that taking the logarithm of both sides is a common and effective method for solving exponential equations, especially when isolating the variable in the exponent.",
+                        "answer": "2) Taking the logarithm of both sides."
+                    },
+                    {
+                        "question": "What is an example of a phenomenon that can be modeled using an exponential function in finance?",
+                        "options": [
+                            "2) Depreciation of a car",
+                            "1) Simple interest",
+                            "4) Fixed deposits",
+                            "3) Compound interest"
+                        ],
+                        "explanation": "The lecture explained that compound interest is an example of an exponential function where the interest earned builds upon itself, resulting in exponential growth of savings.",
+                        "answer": "3) Compound interest."
+                    },
+                    {
+                        "question": "If the equation 5^(2x) = 20 is given, what is the first step to solve for x?",
+                        "options": [
+                            "3) Rewrite in exponential form",
+                            "1) Divide both sides by log(20)",
+                            "2) Take logarithm of both sides",
+                            "4) Subtract 20 from both sides"
+                        ],
+                        "explanation": "According to the lecture, the first step for solving the equation 5^(2x) = 20 would be to take the logarithm of both sides, allowing further simplifications and isolating the variable.",
+                        "answer": "2) Take logarithm of both sides."
+                    },
+                    {
+                        "question": "What is the mathematical base of natural logarithms used in exponential functions as discussed?",
+                        "options": [
+                            "2) 2.71828",
+                            "4) 10",
+                            "3) 1.61803",
+                            "1) 3.14159"
+                        ],
+                        "explanation": "The base of natural logarithms, denoted as 'e', is approximately equal to 2.71828, and it is essential in the formulation of exponential functions and equations.",
+                        "answer": "2) 2.71828."
+                    }
+                ]
+            }
+        ],
+        "Astronomy": [
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    0,
+                    2
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is one of the primary observational techniques used to study galaxy clusters?",
+                        "options": [
+                            "1) Radio telescopes",
+                            "4) Ultra-violet observatories",
+                            "3) Infrared sensors",
+                            "2) Optical telescopes"
+                        ],
+                        "explanation": "Optical telescopes capture light emitted from galaxies in clusters, helping astronomers study their composition and behavior.",
+                        "answer": "2) Optical telescopes"
+                    },
+                    {
+                        "question": "How do astronomers gather information about the mass of a galaxy cluster using gravitational lensing?",
+                        "options": [
+                            "3) By counting the number of galaxies",
+                            "2) By observing the bending of light around the cluster",
+                            "4) By analyzing the temperature of the gas",
+                            "1) By measuring the light's speed"
+                        ],
+                        "explanation": "Gravitational lensing occurs when light from a background object gets bent around a massive foreground object, which allows researchers to infer the mass of the cluster.",
+                        "answer": "2) By observing the bending of light around the cluster"
+                    },
+                    {
+                        "question": "What is the typical mass range of galaxy clusters mentioned in the lecture?",
+                        "options": [
+                            "2) Hundreds to thousands of solar masses",
+                            "3) From millions to billions of solar masses",
+                            "1) Thousands of solar masses",
+                            "4) From a few trillion to over a quadrillion solar masses"
+                        ],
+                        "explanation": "The lecture states that galaxy clusters can have masses ranging from a few trillion to over a quadrillion solar masses, indicating their enormous size.",
+                        "answer": "4) From a few trillion to over a quadrillion solar masses"
+                    },
+                    {
+                        "question": "What is a significant characteristic of voids in the cosmic structure?",
+                        "options": [
+                            "3) They can be hundreds of millions of light-years across",
+                            "4) They are primarily composed of galaxies",
+                            "1) They contain a dense concentration of matter",
+                            "2) They are filled with dark energy"
+                        ],
+                        "explanation": "Voids are described as vast, empty spaces between clusters, often measuring hundreds of millions of light-years across and containing very few galaxies.",
+                        "answer": "3) They can be hundreds of millions of light-years across"
+                    },
+                    {
+                        "question": "What does the presence of voids imply about the universe's matter distribution?",
+                        "options": [
+                            "1) Matter is uniformly distributed",
+                            "2) There are large gaps between clusters of galaxies",
+                            "4) The universe is static and unchanging",
+                            "3) Matter only exists within clusters"
+                        ],
+                        "explanation": "The lecture notes that voids challenge the notion of a uniform distribution of matter, showing that the universe has a structured layout.",
+                        "answer": "2) There are large gaps between clusters of galaxies"
+                    },
+                    {
+                        "question": "What do X-ray observations reveal about galaxy clusters?",
+                        "options": [
+                            "1) The color of the galaxies within",
+                            "2) The gravitational pull of the cluster",
+                            "3) The temperature and distribution of hot gas",
+                            "4) The number of black holes present"
+                        ],
+                        "explanation": "X-ray observations enable astronomers to measure the temperature and distribution of the hot gas found in galaxy clusters, providing essential data for understanding cluster mass.",
+                        "answer": "3) The temperature and distribution of hot gas"
+                    },
+                    {
+                        "question": "What concept links the study of clusters and voids to the understanding of dark energy?",
+                        "options": [
+                            "1) Clusters indicate dark matter presence only",
+                            "2) The existence of voids reflects cosmic expansion",
+                            "3) Dark energy only affects voids",
+                            "4) There is no relation between them"
+                        ],
+                        "explanation": "The lecture explains how voids hint at the influence of dark energy in cosmic evolution by suggesting a structured hollow distribution of galaxies and clusters.",
+                        "answer": "2) The existence of voids reflects cosmic expansion"
+                    },
+                    {
+                        "question": "How do astronomers primarily learn about the composition of galaxies within a cluster?",
+                        "options": [
+                            "3) Using radio frequencies",
+                            "4) By dark matter simulations",
+                            "2) Through optical observations",
+                            "1) By analyzing gravitational waves"
+                        ],
+                        "explanation": "Optical observations allow astronomers to study the light emitted from galaxies, which provides information about their composition.",
+                        "answer": "2) Through optical observations"
+                    },
+                    {
+                        "question": "What is the significance of the mass concentration in galaxy clusters according to the lecture?",
+                        "options": [
+                            "1) It helps determine the universe's age",
+                            "4) It relates to the temperature of cosmic background radiation",
+                            "3) It dictates the number of galaxies present",
+                            "2) It allows researchers to understand gravitational dynamics"
+                        ],
+                        "explanation": "Understanding the mass concentration in galaxy clusters is crucial for grasping the gravitational dynamics that govern their formation and evolution.",
+                        "answer": "2) It allows researchers to understand gravitational dynamics"
+                    },
+                    {
+                        "question": "Which research method provides essential data on a cluster's total mass, primarily held in dark matter?",
+                        "options": [
+                            "3) X-ray observations",
+                            "4) Thermal infrared imaging",
+                            "1) Optical spectrum analysis",
+                            "2) Radio imaging"
+                        ],
+                        "explanation": "X-ray observations reveal properties of hot gas in clusters, helping astronomers deduce the total mass, which is predominantly dark matter.",
+                        "answer": "3) X-ray observations"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is one of the primary observational techniques used to study galaxy clusters?",
+                        "options": [
+                            "1) Radio telescopes",
+                            "4) Ultra-violet observatories",
+                            "3) Infrared sensors",
+                            "2) Optical telescopes"
+                        ],
+                        "explanation": "Optical telescopes capture light emitted from galaxies in clusters, helping astronomers study their composition and behavior.",
+                        "answer": "2) Optical telescopes"
+                    },
+                    {
+                        "question": "How do astronomers gather information about the mass of a galaxy cluster using gravitational lensing?",
+                        "options": [
+                            "3) By counting the number of galaxies",
+                            "2) By observing the bending of light around the cluster",
+                            "4) By analyzing the temperature of the gas",
+                            "1) By measuring the light's speed"
+                        ],
+                        "explanation": "Gravitational lensing occurs when light from a background object gets bent around a massive foreground object, which allows researchers to infer the mass of the cluster.",
+                        "answer": "2) By observing the bending of light around the cluster"
+                    },
+                    {
+                        "question": "What is the typical mass range of galaxy clusters mentioned in the lecture?",
+                        "options": [
+                            "2) Hundreds to thousands of solar masses",
+                            "3) From millions to billions of solar masses",
+                            "1) Thousands of solar masses",
+                            "4) From a few trillion to over a quadrillion solar masses"
+                        ],
+                        "explanation": "The lecture states that galaxy clusters can have masses ranging from a few trillion to over a quadrillion solar masses, indicating their enormous size.",
+                        "answer": "4) From a few trillion to over a quadrillion solar masses"
+                    },
+                    {
+                        "question": "What is a significant characteristic of voids in the cosmic structure?",
+                        "options": [
+                            "3) They can be hundreds of millions of light-years across",
+                            "4) They are primarily composed of galaxies",
+                            "1) They contain a dense concentration of matter",
+                            "2) They are filled with dark energy"
+                        ],
+                        "explanation": "Voids are described as vast, empty spaces between clusters, often measuring hundreds of millions of light-years across and containing very few galaxies.",
+                        "answer": "3) They can be hundreds of millions of light-years across"
+                    },
+                    {
+                        "question": "What does the presence of voids imply about the universe's matter distribution?",
+                        "options": [
+                            "1) Matter is uniformly distributed",
+                            "2) There are large gaps between clusters of galaxies",
+                            "4) The universe is static and unchanging",
+                            "3) Matter only exists within clusters"
+                        ],
+                        "explanation": "The lecture notes that voids challenge the notion of a uniform distribution of matter, showing that the universe has a structured layout.",
+                        "answer": "2) There are large gaps between clusters of galaxies"
+                    },
+                    {
+                        "question": "What do X-ray observations reveal about galaxy clusters?",
+                        "options": [
+                            "1) The color of the galaxies within",
+                            "2) The gravitational pull of the cluster",
+                            "3) The temperature and distribution of hot gas",
+                            "4) The number of black holes present"
+                        ],
+                        "explanation": "X-ray observations enable astronomers to measure the temperature and distribution of the hot gas found in galaxy clusters, providing essential data for understanding cluster mass.",
+                        "answer": "3) The temperature and distribution of hot gas"
+                    },
+                    {
+                        "question": "What concept links the study of clusters and voids to the understanding of dark energy?",
+                        "options": [
+                            "1) Clusters indicate dark matter presence only",
+                            "2) The existence of voids reflects cosmic expansion",
+                            "3) Dark energy only affects voids",
+                            "4) There is no relation between them"
+                        ],
+                        "explanation": "The lecture explains how voids hint at the influence of dark energy in cosmic evolution by suggesting a structured hollow distribution of galaxies and clusters.",
+                        "answer": "2) The existence of voids reflects cosmic expansion"
+                    },
+                    {
+                        "question": "How do astronomers primarily learn about the composition of galaxies within a cluster?",
+                        "options": [
+                            "3) Using radio frequencies",
+                            "4) By dark matter simulations",
+                            "2) Through optical observations",
+                            "1) By analyzing gravitational waves"
+                        ],
+                        "explanation": "Optical observations allow astronomers to study the light emitted from galaxies, which provides information about their composition.",
+                        "answer": "2) Through optical observations"
+                    },
+                    {
+                        "question": "What is the significance of the mass concentration in galaxy clusters according to the lecture?",
+                        "options": [
+                            "1) It helps determine the universe's age",
+                            "4) It relates to the temperature of cosmic background radiation",
+                            "3) It dictates the number of galaxies present",
+                            "2) It allows researchers to understand gravitational dynamics"
+                        ],
+                        "explanation": "Understanding the mass concentration in galaxy clusters is crucial for grasping the gravitational dynamics that govern their formation and evolution.",
+                        "answer": "2) It allows researchers to understand gravitational dynamics"
+                    },
+                    {
+                        "question": "Which research method provides essential data on a cluster's total mass, primarily held in dark matter?",
+                        "options": [
+                            "3) X-ray observations",
+                            "4) Thermal infrared imaging",
+                            "1) Optical spectrum analysis",
+                            "2) Radio imaging"
+                        ],
+                        "explanation": "X-ray observations reveal properties of hot gas in clusters, helping astronomers deduce the total mass, which is predominantly dark matter.",
+                        "answer": "3) X-ray observations"
+                    }
+                ]
+            }
+        ],
+        "Computer Science": [
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    0,
+                    2,
+                    5,
+                    7
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What phase comes directly after unit testing in the Software Development Life Cycle?",
+                        "options": [
+                            "2) Integration Testing",
+                            "4) Deployment",
+                            "3) User Acceptance Testing",
+                            "1) System Testing"
+                        ],
+                        "explanation": "Integration Testing follows unit testing and focuses on the interaction between individual units to ensure they work together as expected.",
+                        "answer": "2) Integration Testing"
+                    },
+                    {
+                        "question": "What does User Acceptance Testing (UAT) primarily involve?",
+                        "options": [
+                            "4) Performing security tests on the software",
+                            "3) Automated testing of all software components",
+                            "2) Users testing the software in a production-like environment",
+                            "1) Testing software functionalities exclusively by developers"
+                        ],
+                        "explanation": "UAT involves real users testing the software to confirm it meets their needs and performs as expected before release.",
+                        "answer": "2) Users testing the software in a production-like environment"
+                    },
+                    {
+                        "question": "Which deployment strategy involves rolling out the software in stages?",
+                        "options": [
+                            "2) Blue-Green Deployment",
+                            "3) Phased Deployment",
+                            "4) Continuous Deployment",
+                            "1) Big Bang Deployment"
+                        ],
+                        "explanation": "Phased Deployment allows software to be released in stages, reducing risk by limiting the number of users affected at any one time.",
+                        "answer": "3) Phased Deployment"
+                    },
+                    {
+                        "question": "Why is unit testing performed during the development phase of the SDLC?",
+                        "options": [
+                            "2) To validate that individual components function correctly",
+                            "1) To finalize the software for release",
+                            "4) To test the overall system performance",
+                            "3) To collect user feedback on the application"
+                        ],
+                        "explanation": "Unit testing is done to ensure that each individual module or component of the software behaves as expected before integration with other modules.",
+                        "answer": "2) To validate that individual components function correctly"
+                    },
+                    {
+                        "question": "What is one primary benefit of implementing User Acceptance Testing (UAT)?",
+                        "options": [
+                            "1) It eliminates the need for earlier testing phases",
+                            "4) It ensures that all unit tests pass",
+                            "3) It focuses solely on automated test cases",
+                            "2) It collects feedback from actual users for improvements"
+                        ],
+                        "explanation": "UAT collects real user feedback that can lead to changes and improvements, helping to ensure user satisfaction with the software.",
+                        "answer": "2) It collects feedback from actual users for improvements"
+                    },
+                    {
+                        "question": "What is the goal of integration testing in the SDLC?",
+                        "options": [
+                            "2) To confirm that individual components meet the requirements",
+                            "3) To detect interface defects between combined modules",
+                            "4) To perform load testing on the complete system",
+                            "1) To validate the aesthetic design of the software"
+                        ],
+                        "explanation": "Integration testing aims to ensure that different modules work together correctly and to identify any interface defects after they are combined.",
+                        "answer": "3) To detect interface defects between combined modules"
+                    },
+                    {
+                        "question": "Which testing strategy is characterized by having two identical environments where one is live and the other is a new version?",
+                        "options": [
+                            "4) Parallel Deployment",
+                            "3) A/B Testing",
+                            "1) Rolling Deployment",
+                            "2) Blue-Green Deployment"
+                        ],
+                        "explanation": "Blue-Green Deployment is a strategy where one environment (blue) remains live while changes are deployed to another (green), allowing for quick switches and testing.",
+                        "answer": "2) Blue-Green Deployment"
+                    },
+                    {
+                        "question": "During which phase of the SDLC is User Acceptance Testing typically conducted?",
+                        "options": [
+                            "3) During Design Phase",
+                            "1) After Integration Testing",
+                            "2) Before Deployment",
+                            "4) After Production Launch"
+                        ],
+                        "explanation": "User Acceptance Testing is typically conducted just before deployment, ensuring that the software meets user needs prior to its release.",
+                        "answer": "2) Before Deployment"
+                    },
+                    {
+                        "question": "What is a distinct advantage of conducting unit tests during the development phase?",
+                        "options": [
+                            "4) They provide aesthetic feedback from users",
+                            "1) They ensure user requirements are documented",
+                            "2) They help catch errors early in the development process",
+                            "3) They replace the need for integration testing"
+                        ],
+                        "explanation": "Conducting unit tests helps to catch errors early, making the debugging process more manageable and improving overall software quality.",
+                        "answer": "2) They help catch errors early in the development process"
+                    },
+                    {
+                        "question": "What is the primary focus of testing after integration testing has been performed?",
+                        "options": [
+                            "2) Security Testing to identify vulnerabilities",
+                            "4) System Testing to ensure all modules work under load",
+                            "1) User Acceptance Testing to confirm software meets user needs",
+                            "3) Performance Testing to measure speed and efficiency"
+                        ],
+                        "explanation": "After integration testing, the focus shifts to User Acceptance Testing, ensuring the software meets real user needs before release.",
+                        "answer": "1) User Acceptance Testing to confirm software meets user needs"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 50.0,
+                "wrong_answers": [
+                    0,
+                    2,
+                    5,
+                    7,
+                    9
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What phase comes directly after unit testing in the Software Development Life Cycle?",
+                        "options": [
+                            "2) Integration Testing",
+                            "4) Deployment",
+                            "3) User Acceptance Testing",
+                            "1) System Testing"
+                        ],
+                        "explanation": "Integration Testing follows unit testing and focuses on the interaction between individual units to ensure they work together as expected.",
+                        "answer": "2) Integration Testing"
+                    },
+                    {
+                        "question": "What does User Acceptance Testing (UAT) primarily involve?",
+                        "options": [
+                            "4) Performing security tests on the software",
+                            "3) Automated testing of all software components",
+                            "2) Users testing the software in a production-like environment",
+                            "1) Testing software functionalities exclusively by developers"
+                        ],
+                        "explanation": "UAT involves real users testing the software to confirm it meets their needs and performs as expected before release.",
+                        "answer": "2) Users testing the software in a production-like environment"
+                    },
+                    {
+                        "question": "Which deployment strategy involves rolling out the software in stages?",
+                        "options": [
+                            "2) Blue-Green Deployment",
+                            "3) Phased Deployment",
+                            "4) Continuous Deployment",
+                            "1) Big Bang Deployment"
+                        ],
+                        "explanation": "Phased Deployment allows software to be released in stages, reducing risk by limiting the number of users affected at any one time.",
+                        "answer": "3) Phased Deployment"
+                    },
+                    {
+                        "question": "Why is unit testing performed during the development phase of the SDLC?",
+                        "options": [
+                            "2) To validate that individual components function correctly",
+                            "1) To finalize the software for release",
+                            "4) To test the overall system performance",
+                            "3) To collect user feedback on the application"
+                        ],
+                        "explanation": "Unit testing is done to ensure that each individual module or component of the software behaves as expected before integration with other modules.",
+                        "answer": "2) To validate that individual components function correctly"
+                    },
+                    {
+                        "question": "What is one primary benefit of implementing User Acceptance Testing (UAT)?",
+                        "options": [
+                            "1) It eliminates the need for earlier testing phases",
+                            "4) It ensures that all unit tests pass",
+                            "3) It focuses solely on automated test cases",
+                            "2) It collects feedback from actual users for improvements"
+                        ],
+                        "explanation": "UAT collects real user feedback that can lead to changes and improvements, helping to ensure user satisfaction with the software.",
+                        "answer": "2) It collects feedback from actual users for improvements"
+                    },
+                    {
+                        "question": "What is the goal of integration testing in the SDLC?",
+                        "options": [
+                            "2) To confirm that individual components meet the requirements",
+                            "3) To detect interface defects between combined modules",
+                            "4) To perform load testing on the complete system",
+                            "1) To validate the aesthetic design of the software"
+                        ],
+                        "explanation": "Integration testing aims to ensure that different modules work together correctly and to identify any interface defects after they are combined.",
+                        "answer": "3) To detect interface defects between combined modules"
+                    },
+                    {
+                        "question": "Which testing strategy is characterized by having two identical environments where one is live and the other is a new version?",
+                        "options": [
+                            "4) Parallel Deployment",
+                            "3) A/B Testing",
+                            "1) Rolling Deployment",
+                            "2) Blue-Green Deployment"
+                        ],
+                        "explanation": "Blue-Green Deployment is a strategy where one environment (blue) remains live while changes are deployed to another (green), allowing for quick switches and testing.",
+                        "answer": "2) Blue-Green Deployment"
+                    },
+                    {
+                        "question": "During which phase of the SDLC is User Acceptance Testing typically conducted?",
+                        "options": [
+                            "3) During Design Phase",
+                            "1) After Integration Testing",
+                            "2) Before Deployment",
+                            "4) After Production Launch"
+                        ],
+                        "explanation": "User Acceptance Testing is typically conducted just before deployment, ensuring that the software meets user needs prior to its release.",
+                        "answer": "2) Before Deployment"
+                    },
+                    {
+                        "question": "What is a distinct advantage of conducting unit tests during the development phase?",
+                        "options": [
+                            "4) They provide aesthetic feedback from users",
+                            "1) They ensure user requirements are documented",
+                            "2) They help catch errors early in the development process",
+                            "3) They replace the need for integration testing"
+                        ],
+                        "explanation": "Conducting unit tests helps to catch errors early, making the debugging process more manageable and improving overall software quality.",
+                        "answer": "2) They help catch errors early in the development process"
+                    },
+                    {
+                        "question": "What is the primary focus of testing after integration testing has been performed?",
+                        "options": [
+                            "2) Security Testing to identify vulnerabilities",
+                            "4) System Testing to ensure all modules work under load",
+                            "1) User Acceptance Testing to confirm software meets user needs",
+                            "3) Performance Testing to measure speed and efficiency"
+                        ],
+                        "explanation": "After integration testing, the focus shifts to User Acceptance Testing, ensuring the software meets real user needs before release.",
+                        "answer": "1) User Acceptance Testing to confirm software meets user needs"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 40.0,
+                "wrong_answers": [
+                    0,
+                    2,
+                    5,
+                    6,
+                    7,
+                    9
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What phase comes directly after unit testing in the Software Development Life Cycle?",
+                        "options": [
+                            "2) Integration Testing",
+                            "4) Deployment",
+                            "3) User Acceptance Testing",
+                            "1) System Testing"
+                        ],
+                        "explanation": "Integration Testing follows unit testing and focuses on the interaction between individual units to ensure they work together as expected.",
+                        "answer": "2) Integration Testing"
+                    },
+                    {
+                        "question": "What does User Acceptance Testing (UAT) primarily involve?",
+                        "options": [
+                            "4) Performing security tests on the software",
+                            "3) Automated testing of all software components",
+                            "2) Users testing the software in a production-like environment",
+                            "1) Testing software functionalities exclusively by developers"
+                        ],
+                        "explanation": "UAT involves real users testing the software to confirm it meets their needs and performs as expected before release.",
+                        "answer": "2) Users testing the software in a production-like environment"
+                    },
+                    {
+                        "question": "Which deployment strategy involves rolling out the software in stages?",
+                        "options": [
+                            "2) Blue-Green Deployment",
+                            "3) Phased Deployment",
+                            "4) Continuous Deployment",
+                            "1) Big Bang Deployment"
+                        ],
+                        "explanation": "Phased Deployment allows software to be released in stages, reducing risk by limiting the number of users affected at any one time.",
+                        "answer": "3) Phased Deployment"
+                    },
+                    {
+                        "question": "Why is unit testing performed during the development phase of the SDLC?",
+                        "options": [
+                            "2) To validate that individual components function correctly",
+                            "1) To finalize the software for release",
+                            "4) To test the overall system performance",
+                            "3) To collect user feedback on the application"
+                        ],
+                        "explanation": "Unit testing is done to ensure that each individual module or component of the software behaves as expected before integration with other modules.",
+                        "answer": "2) To validate that individual components function correctly"
+                    },
+                    {
+                        "question": "What is one primary benefit of implementing User Acceptance Testing (UAT)?",
+                        "options": [
+                            "1) It eliminates the need for earlier testing phases",
+                            "4) It ensures that all unit tests pass",
+                            "3) It focuses solely on automated test cases",
+                            "2) It collects feedback from actual users for improvements"
+                        ],
+                        "explanation": "UAT collects real user feedback that can lead to changes and improvements, helping to ensure user satisfaction with the software.",
+                        "answer": "2) It collects feedback from actual users for improvements"
+                    },
+                    {
+                        "question": "What is the goal of integration testing in the SDLC?",
+                        "options": [
+                            "2) To confirm that individual components meet the requirements",
+                            "3) To detect interface defects between combined modules",
+                            "4) To perform load testing on the complete system",
+                            "1) To validate the aesthetic design of the software"
+                        ],
+                        "explanation": "Integration testing aims to ensure that different modules work together correctly and to identify any interface defects after they are combined.",
+                        "answer": "3) To detect interface defects between combined modules"
+                    },
+                    {
+                        "question": "Which testing strategy is characterized by having two identical environments where one is live and the other is a new version?",
+                        "options": [
+                            "4) Parallel Deployment",
+                            "3) A/B Testing",
+                            "1) Rolling Deployment",
+                            "2) Blue-Green Deployment"
+                        ],
+                        "explanation": "Blue-Green Deployment is a strategy where one environment (blue) remains live while changes are deployed to another (green), allowing for quick switches and testing.",
+                        "answer": "2) Blue-Green Deployment"
+                    },
+                    {
+                        "question": "During which phase of the SDLC is User Acceptance Testing typically conducted?",
+                        "options": [
+                            "3) During Design Phase",
+                            "1) After Integration Testing",
+                            "2) Before Deployment",
+                            "4) After Production Launch"
+                        ],
+                        "explanation": "User Acceptance Testing is typically conducted just before deployment, ensuring that the software meets user needs prior to its release.",
+                        "answer": "2) Before Deployment"
+                    },
+                    {
+                        "question": "What is a distinct advantage of conducting unit tests during the development phase?",
+                        "options": [
+                            "4) They provide aesthetic feedback from users",
+                            "1) They ensure user requirements are documented",
+                            "2) They help catch errors early in the development process",
+                            "3) They replace the need for integration testing"
+                        ],
+                        "explanation": "Conducting unit tests helps to catch errors early, making the debugging process more manageable and improving overall software quality.",
+                        "answer": "2) They help catch errors early in the development process"
+                    },
+                    {
+                        "question": "What is the primary focus of testing after integration testing has been performed?",
+                        "options": [
+                            "2) Security Testing to identify vulnerabilities",
+                            "4) System Testing to ensure all modules work under load",
+                            "1) User Acceptance Testing to confirm software meets user needs",
+                            "3) Performance Testing to measure speed and efficiency"
+                        ],
+                        "explanation": "After integration testing, the focus shifts to User Acceptance Testing, ensuring the software meets real user needs before release.",
+                        "answer": "1) User Acceptance Testing to confirm software meets user needs"
+                    }
+                ]
+            }
+        ],
+        "English": [
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    7
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "How would you best describe a theme in literature?",
+                        "options": [
+                            "3) The central idea or message that the author wants to convey",
+                            "1) A character in the story",
+                            "2) The setting of the story",
+                            "4) A plot twist that occurs later in the story"
+                        ],
+                        "explanation": "A theme refers to the central idea or message that the author wants to convey, making option 3 the correct choice.",
+                        "answer": "3) The central idea or message that the author wants to convey."
+                    },
+                    {
+                        "question": "What literary form is described as having concentrated language and often conveys themes through emotions and imagery?",
+                        "options": [
+                            "2) Prose",
+                            "1) Fiction",
+                            "4) Drama",
+                            "3) Poetry"
+                        ],
+                        "explanation": "Poetry is known for its concentrated language and emotional depth, making option 3 the correct choice.",
+                        "answer": "3) Poetry."
+                    },
+                    {
+                        "question": "Why are themes considered important in literature?",
+                        "options": [
+                            "2) They enhance our understanding and appreciation of the literature",
+                            "1) They help us identify characters",
+                            "3) They provide a summary of the plot",
+                            "4) They suggest multiple endings"
+                        ],
+                        "explanation": "Themes help readers connect to the characters and their experiences, enhancing overall understanding and appreciation, so option 2 is correct.",
+                        "answer": "2) They enhance our understanding and appreciation of the literature."
+                    },
+                    {
+                        "question": "Which of the following is NOT an example of a theme in literature?",
+                        "options": [
+                            "3) Wednesday",
+                            "2) Courage",
+                            "1) Love",
+                            "4) Conflict"
+                        ],
+                        "explanation": "Wednesday is a specific day and does not convey a central idea or message like the other options, making option 3 the correct answer.",
+                        "answer": "3) Wednesday."
+                    },
+                    {
+                        "question": "What do poets typically use to explore themes such as love?",
+                        "options": [
+                            "4) Mathematical formulas",
+                            "3) Non-linear narratives",
+                            "1) Exposition",
+                            "2) Imagery and stylistic devices"
+                        ],
+                        "explanation": "Poets often use imagery and stylistic devices to explore themes, so option 2 is correct.",
+                        "answer": "2) Imagery and stylistic devices."
+                    },
+                    {
+                        "question": "In comparing themes in poetry and prose, which statement is true?",
+                        "options": [
+                            "3) Both forms use the same techniques",
+                            "1) Prose lacks themes entirely",
+                            "4) Themes are only found in novels",
+                            "2) Poetry often uses more concentrated language"
+                        ],
+                        "explanation": "Poetry is known for its concentrated language which allows for deeper exploration of themes, making option 2 the accurate choice.",
+                        "answer": "2) Poetry often uses more concentrated language."
+                    },
+                    {
+                        "question": "What can a theme typically be expressed as?",
+                        "options": [
+                            "1) In a single word or phrase",
+                            "2) A detailed plot summary",
+                            "4) Lengthy descriptions",
+                            "3) Character dialogues"
+                        ],
+                        "explanation": "Themes are often expressed in a single word or phrase, so option 1 is correct.",
+                        "answer": "1) In a single word or phrase."
+                    },
+                    {
+                        "question": "How does identifying themes affect a reader's experience?",
+                        "options": [
+                            "3) It allows for a deeper understanding and emotional connection",
+                            "4) It simplifies the narrative structure",
+                            "1) It confuses their understanding",
+                            "2) It creates a distance between the reader and the text"
+                        ],
+                        "explanation": "Identifying themes allows readers to connect more deeply and understand the text better, so option 3 is correct.",
+                        "answer": "3) It allows for a deeper understanding and emotional connection."
+                    },
+                    {
+                        "question": "Which of the following is a common theme in poetry?",
+                        "options": [
+                            "2) Mystery",
+                            "3) Love",
+                            "1) Conflict",
+                            "4) Adventure"
+                        ],
+                        "explanation": "Love is a widely explored theme in poetry, making option 3 the correct answer.",
+                        "answer": "3) Love."
+                    },
+                    {
+                        "question": "What can help readers make sense of a story?",
+                        "options": [
+                            "1) Plot twists",
+                            "3) Character names",
+                            "2) Themes",
+                            "4) Chapter titles"
+                        ],
+                        "explanation": "Themes aid readers in making sense of a story by reflecting the underlying messages and ideas presented in the text, so option 2 is correct.",
+                        "answer": "2) Themes."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "How would you best describe a theme in literature?",
+                        "options": [
+                            "3) The central idea or message that the author wants to convey",
+                            "1) A character in the story",
+                            "2) The setting of the story",
+                            "4) A plot twist that occurs later in the story"
+                        ],
+                        "explanation": "A theme refers to the central idea or message that the author wants to convey, making option 3 the correct choice.",
+                        "answer": "3) The central idea or message that the author wants to convey."
+                    },
+                    {
+                        "question": "What literary form is described as having concentrated language and often conveys themes through emotions and imagery?",
+                        "options": [
+                            "2) Prose",
+                            "1) Fiction",
+                            "4) Drama",
+                            "3) Poetry"
+                        ],
+                        "explanation": "Poetry is known for its concentrated language and emotional depth, making option 3 the correct choice.",
+                        "answer": "3) Poetry."
+                    },
+                    {
+                        "question": "Why are themes considered important in literature?",
+                        "options": [
+                            "2) They enhance our understanding and appreciation of the literature",
+                            "1) They help us identify characters",
+                            "3) They provide a summary of the plot",
+                            "4) They suggest multiple endings"
+                        ],
+                        "explanation": "Themes help readers connect to the characters and their experiences, enhancing overall understanding and appreciation, so option 2 is correct.",
+                        "answer": "2) They enhance our understanding and appreciation of the literature."
+                    },
+                    {
+                        "question": "Which of the following is NOT an example of a theme in literature?",
+                        "options": [
+                            "3) Wednesday",
+                            "2) Courage",
+                            "1) Love",
+                            "4) Conflict"
+                        ],
+                        "explanation": "Wednesday is a specific day and does not convey a central idea or message like the other options, making option 3 the correct answer.",
+                        "answer": "3) Wednesday."
+                    },
+                    {
+                        "question": "What do poets typically use to explore themes such as love?",
+                        "options": [
+                            "4) Mathematical formulas",
+                            "3) Non-linear narratives",
+                            "1) Exposition",
+                            "2) Imagery and stylistic devices"
+                        ],
+                        "explanation": "Poets often use imagery and stylistic devices to explore themes, so option 2 is correct.",
+                        "answer": "2) Imagery and stylistic devices."
+                    },
+                    {
+                        "question": "In comparing themes in poetry and prose, which statement is true?",
+                        "options": [
+                            "3) Both forms use the same techniques",
+                            "1) Prose lacks themes entirely",
+                            "4) Themes are only found in novels",
+                            "2) Poetry often uses more concentrated language"
+                        ],
+                        "explanation": "Poetry is known for its concentrated language which allows for deeper exploration of themes, making option 2 the accurate choice.",
+                        "answer": "2) Poetry often uses more concentrated language."
+                    },
+                    {
+                        "question": "What can a theme typically be expressed as?",
+                        "options": [
+                            "1) In a single word or phrase",
+                            "2) A detailed plot summary",
+                            "4) Lengthy descriptions",
+                            "3) Character dialogues"
+                        ],
+                        "explanation": "Themes are often expressed in a single word or phrase, so option 1 is correct.",
+                        "answer": "1) In a single word or phrase."
+                    },
+                    {
+                        "question": "How does identifying themes affect a reader's experience?",
+                        "options": [
+                            "3) It allows for a deeper understanding and emotional connection",
+                            "4) It simplifies the narrative structure",
+                            "1) It confuses their understanding",
+                            "2) It creates a distance between the reader and the text"
+                        ],
+                        "explanation": "Identifying themes allows readers to connect more deeply and understand the text better, so option 3 is correct.",
+                        "answer": "3) It allows for a deeper understanding and emotional connection."
+                    },
+                    {
+                        "question": "Which of the following is a common theme in poetry?",
+                        "options": [
+                            "2) Mystery",
+                            "3) Love",
+                            "1) Conflict",
+                            "4) Adventure"
+                        ],
+                        "explanation": "Love is a widely explored theme in poetry, making option 3 the correct answer.",
+                        "answer": "3) Love."
+                    },
+                    {
+                        "question": "What can help readers make sense of a story?",
+                        "options": [
+                            "1) Plot twists",
+                            "3) Character names",
+                            "2) Themes",
+                            "4) Chapter titles"
+                        ],
+                        "explanation": "Themes aid readers in making sense of a story by reflecting the underlying messages and ideas presented in the text, so option 2 is correct.",
+                        "answer": "2) Themes."
+                    }
+                ]
+            }
+        ],
+        "Texas History": [
+            {
+                "quiz_grade": 40.0,
+                "wrong_answers": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    7
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What type of jobs did women take on in Texas during World War I due to the absence of men?",
+                        "options": [
+                            "3) Administrative positions",
+                            "2) Factory jobs and munitions production",
+                            "4) Teaching positions",
+                            "1) Agricultural work only"
+                        ],
+                        "explanation": "Women filled many roles traditionally held by men, stepping into factory jobs, working in munitions production, and contributing to the economy during the war.",
+                        "answer": "2) Factory jobs and munitions production"
+                    },
+                    {
+                        "question": "What organization did many Texas women join during World War I to support soldiers and their families?",
+                        "options": [
+                            "3) The Labor Union",
+                            "2) The Women's Suffrage Association",
+                            "1) The Red Cross",
+                            "4) The Texas Brigade"
+                        ],
+                        "explanation": "Many women joined the Red Cross as part of their efforts to support soldiers and provide aid during the war, showcasing their active participation in the war efforts.",
+                        "answer": "1) The Red Cross"
+                    },
+                    {
+                        "question": "What was one negative effect faced by the agricultural sector in Texas after World War I?",
+                        "options": [
+                            "1) Increased crop production",
+                            "3) More demand for cotton",
+                            "4) Expansion of farm sizes",
+                            "2) Decreased prices for crops"
+                        ],
+                        "explanation": "After the war, Texas agriculture faced difficulties, particularly with decreasing prices for crops as demands shifted, leading many farmers into debt.",
+                        "answer": "2) Decreased prices for crops"
+                    },
+                    {
+                        "question": "Which industry began to expand significantly in Texas during and after World War I?",
+                        "options": [
+                            "1) Cotton industry",
+                            "2) Textile industry",
+                            "3) Oil industry",
+                            "4) Automotive industry"
+                        ],
+                        "explanation": "The oil industry began to grow substantially after World War I, largely due to the discovery of new oil reserves, shaping Texas's economy.",
+                        "answer": "3) Oil industry"
+                    },
+                    {
+                        "question": "What was one outcome of women entering the workforce during World War I?",
+                        "options": [
+                            "3) Greater advocacy for women's rights",
+                            "1) Increased workforce competition",
+                            "2) Enhanced job training opportunities",
+                            "4) A decrease in community support efforts"
+                        ],
+                        "explanation": "Women taking jobs in various sectors during the war led to increased advocacy for women's rights and suffrage movements, marking significant social change.",
+                        "answer": "3) Greater advocacy for women's rights"
+                    },
+                    {
+                        "question": "What factor contributed to the migration from rural to urban areas in Texas after World War I?",
+                        "options": [
+                            "2) The decline of cotton production",
+                            "4) A focus on agricultural education",
+                            "1) A rise in oil drilling jobs",
+                            "3) An increase in military enlistment"
+                        ],
+                        "explanation": "Economic challenges in agriculture prompted many individuals to move to urban areas seeking better job opportunities in expanding industries, especially oil.",
+                        "answer": "2) The decline of cotton production"
+                    },
+                    {
+                        "question": "How did the war effort impact the perceptions of women's roles in society in Texas?",
+                        "options": [
+                            "1) It diminished the roles of women",
+                            "2) It reinforced traditional gender roles",
+                            "3) It expanded the visibility of women in public roles",
+                            "4) It discouraged women from working"
+                        ],
+                        "explanation": "The war provided women with the opportunity to work in roles typically held by men, significantly changing societal perceptions regarding women's contributions.",
+                        "answer": "3) It expanded the visibility of women in public roles"
+                    },
+                    {
+                        "question": "What significant right was granted to women in Texas by 1920?",
+                        "options": [
+                            "4) The right to own property",
+                            "1) The right to work in factories",
+                            "2) The right to higher education",
+                            "3) The right to vote"
+                        ],
+                        "explanation": "In 1920, the passage of the 19th Amendment granted women the right to vote, representing a key victory in the women's rights movement.",
+                        "answer": "3) The right to vote"
+                    },
+                    {
+                        "question": "What economic shift occurred in Texas as soldiers returned home from World War I?",
+                        "options": [
+                            "3) Growth in import and export businesses",
+                            "1) Increase in agricultural production",
+                            "2) Economic downturn and industrial adjustment",
+                            "4) Expansion of public services"
+                        ],
+                        "explanation": "As soldiers returned and wartime production decreased, Texas experienced an economic downturn which led to adjustments in various industries, especially agriculture.",
+                        "answer": "2) Economic downturn and industrial adjustment"
+                    },
+                    {
+                        "question": "What role did volunteer organizations play for women during and after World War I?",
+                        "options": [
+                            "4) They facilitated community support efforts",
+                            "2) They provided a platform for lobbying",
+                            "3) They offered social gatherings",
+                            "1) They restricted women's activities"
+                        ],
+                        "explanation": "Organizations like the Red Cross allowed women to engage in community service and provide essential support to those affected by the war, enhancing their public roles.",
+                        "answer": "4) They facilitated community support efforts"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 30.0,
+                "wrong_answers": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    7,
+                    8
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What type of jobs did women take on in Texas during World War I due to the absence of men?",
+                        "options": [
+                            "3) Administrative positions",
+                            "2) Factory jobs and munitions production",
+                            "4) Teaching positions",
+                            "1) Agricultural work only"
+                        ],
+                        "explanation": "Women filled many roles traditionally held by men, stepping into factory jobs, working in munitions production, and contributing to the economy during the war.",
+                        "answer": "2) Factory jobs and munitions production"
+                    },
+                    {
+                        "question": "What organization did many Texas women join during World War I to support soldiers and their families?",
+                        "options": [
+                            "3) The Labor Union",
+                            "2) The Women's Suffrage Association",
+                            "1) The Red Cross",
+                            "4) The Texas Brigade"
+                        ],
+                        "explanation": "Many women joined the Red Cross as part of their efforts to support soldiers and provide aid during the war, showcasing their active participation in the war efforts.",
+                        "answer": "1) The Red Cross"
+                    },
+                    {
+                        "question": "What was one negative effect faced by the agricultural sector in Texas after World War I?",
+                        "options": [
+                            "1) Increased crop production",
+                            "3) More demand for cotton",
+                            "4) Expansion of farm sizes",
+                            "2) Decreased prices for crops"
+                        ],
+                        "explanation": "After the war, Texas agriculture faced difficulties, particularly with decreasing prices for crops as demands shifted, leading many farmers into debt.",
+                        "answer": "2) Decreased prices for crops"
+                    },
+                    {
+                        "question": "Which industry began to expand significantly in Texas during and after World War I?",
+                        "options": [
+                            "1) Cotton industry",
+                            "2) Textile industry",
+                            "3) Oil industry",
+                            "4) Automotive industry"
+                        ],
+                        "explanation": "The oil industry began to grow substantially after World War I, largely due to the discovery of new oil reserves, shaping Texas's economy.",
+                        "answer": "3) Oil industry"
+                    },
+                    {
+                        "question": "What was one outcome of women entering the workforce during World War I?",
+                        "options": [
+                            "3) Greater advocacy for women's rights",
+                            "1) Increased workforce competition",
+                            "2) Enhanced job training opportunities",
+                            "4) A decrease in community support efforts"
+                        ],
+                        "explanation": "Women taking jobs in various sectors during the war led to increased advocacy for women's rights and suffrage movements, marking significant social change.",
+                        "answer": "3) Greater advocacy for women's rights"
+                    },
+                    {
+                        "question": "What factor contributed to the migration from rural to urban areas in Texas after World War I?",
+                        "options": [
+                            "2) The decline of cotton production",
+                            "4) A focus on agricultural education",
+                            "1) A rise in oil drilling jobs",
+                            "3) An increase in military enlistment"
+                        ],
+                        "explanation": "Economic challenges in agriculture prompted many individuals to move to urban areas seeking better job opportunities in expanding industries, especially oil.",
+                        "answer": "2) The decline of cotton production"
+                    },
+                    {
+                        "question": "How did the war effort impact the perceptions of women's roles in society in Texas?",
+                        "options": [
+                            "1) It diminished the roles of women",
+                            "2) It reinforced traditional gender roles",
+                            "3) It expanded the visibility of women in public roles",
+                            "4) It discouraged women from working"
+                        ],
+                        "explanation": "The war provided women with the opportunity to work in roles typically held by men, significantly changing societal perceptions regarding women's contributions.",
+                        "answer": "3) It expanded the visibility of women in public roles"
+                    },
+                    {
+                        "question": "What significant right was granted to women in Texas by 1920?",
+                        "options": [
+                            "4) The right to own property",
+                            "1) The right to work in factories",
+                            "2) The right to higher education",
+                            "3) The right to vote"
+                        ],
+                        "explanation": "In 1920, the passage of the 19th Amendment granted women the right to vote, representing a key victory in the women's rights movement.",
+                        "answer": "3) The right to vote"
+                    },
+                    {
+                        "question": "What economic shift occurred in Texas as soldiers returned home from World War I?",
+                        "options": [
+                            "3) Growth in import and export businesses",
+                            "1) Increase in agricultural production",
+                            "2) Economic downturn and industrial adjustment",
+                            "4) Expansion of public services"
+                        ],
+                        "explanation": "As soldiers returned and wartime production decreased, Texas experienced an economic downturn which led to adjustments in various industries, especially agriculture.",
+                        "answer": "2) Economic downturn and industrial adjustment"
+                    },
+                    {
+                        "question": "What role did volunteer organizations play for women during and after World War I?",
+                        "options": [
+                            "4) They facilitated community support efforts",
+                            "2) They provided a platform for lobbying",
+                            "3) They offered social gatherings",
+                            "1) They restricted women's activities"
+                        ],
+                        "explanation": "Organizations like the Red Cross allowed women to engage in community service and provide essential support to those affected by the war, enhancing their public roles.",
+                        "answer": "4) They facilitated community support efforts"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 30.0,
+                "wrong_answers": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    7,
+                    8
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What type of jobs did women take on in Texas during World War I due to the absence of men?",
+                        "options": [
+                            "3) Administrative positions",
+                            "2) Factory jobs and munitions production",
+                            "4) Teaching positions",
+                            "1) Agricultural work only"
+                        ],
+                        "explanation": "Women filled many roles traditionally held by men, stepping into factory jobs, working in munitions production, and contributing to the economy during the war.",
+                        "answer": "2) Factory jobs and munitions production"
+                    },
+                    {
+                        "question": "What organization did many Texas women join during World War I to support soldiers and their families?",
+                        "options": [
+                            "3) The Labor Union",
+                            "2) The Women's Suffrage Association",
+                            "1) The Red Cross",
+                            "4) The Texas Brigade"
+                        ],
+                        "explanation": "Many women joined the Red Cross as part of their efforts to support soldiers and provide aid during the war, showcasing their active participation in the war efforts.",
+                        "answer": "1) The Red Cross"
+                    },
+                    {
+                        "question": "What was one negative effect faced by the agricultural sector in Texas after World War I?",
+                        "options": [
+                            "1) Increased crop production",
+                            "3) More demand for cotton",
+                            "4) Expansion of farm sizes",
+                            "2) Decreased prices for crops"
+                        ],
+                        "explanation": "After the war, Texas agriculture faced difficulties, particularly with decreasing prices for crops as demands shifted, leading many farmers into debt.",
+                        "answer": "2) Decreased prices for crops"
+                    },
+                    {
+                        "question": "Which industry began to expand significantly in Texas during and after World War I?",
+                        "options": [
+                            "1) Cotton industry",
+                            "2) Textile industry",
+                            "3) Oil industry",
+                            "4) Automotive industry"
+                        ],
+                        "explanation": "The oil industry began to grow substantially after World War I, largely due to the discovery of new oil reserves, shaping Texas's economy.",
+                        "answer": "3) Oil industry"
+                    },
+                    {
+                        "question": "What was one outcome of women entering the workforce during World War I?",
+                        "options": [
+                            "3) Greater advocacy for women's rights",
+                            "1) Increased workforce competition",
+                            "2) Enhanced job training opportunities",
+                            "4) A decrease in community support efforts"
+                        ],
+                        "explanation": "Women taking jobs in various sectors during the war led to increased advocacy for women's rights and suffrage movements, marking significant social change.",
+                        "answer": "3) Greater advocacy for women's rights"
+                    },
+                    {
+                        "question": "What factor contributed to the migration from rural to urban areas in Texas after World War I?",
+                        "options": [
+                            "2) The decline of cotton production",
+                            "4) A focus on agricultural education",
+                            "1) A rise in oil drilling jobs",
+                            "3) An increase in military enlistment"
+                        ],
+                        "explanation": "Economic challenges in agriculture prompted many individuals to move to urban areas seeking better job opportunities in expanding industries, especially oil.",
+                        "answer": "2) The decline of cotton production"
+                    },
+                    {
+                        "question": "How did the war effort impact the perceptions of women's roles in society in Texas?",
+                        "options": [
+                            "1) It diminished the roles of women",
+                            "2) It reinforced traditional gender roles",
+                            "3) It expanded the visibility of women in public roles",
+                            "4) It discouraged women from working"
+                        ],
+                        "explanation": "The war provided women with the opportunity to work in roles typically held by men, significantly changing societal perceptions regarding women's contributions.",
+                        "answer": "3) It expanded the visibility of women in public roles"
+                    },
+                    {
+                        "question": "What significant right was granted to women in Texas by 1920?",
+                        "options": [
+                            "4) The right to own property",
+                            "1) The right to work in factories",
+                            "2) The right to higher education",
+                            "3) The right to vote"
+                        ],
+                        "explanation": "In 1920, the passage of the 19th Amendment granted women the right to vote, representing a key victory in the women's rights movement.",
+                        "answer": "3) The right to vote"
+                    },
+                    {
+                        "question": "What economic shift occurred in Texas as soldiers returned home from World War I?",
+                        "options": [
+                            "3) Growth in import and export businesses",
+                            "1) Increase in agricultural production",
+                            "2) Economic downturn and industrial adjustment",
+                            "4) Expansion of public services"
+                        ],
+                        "explanation": "As soldiers returned and wartime production decreased, Texas experienced an economic downturn which led to adjustments in various industries, especially agriculture.",
+                        "answer": "2) Economic downturn and industrial adjustment"
+                    },
+                    {
+                        "question": "What role did volunteer organizations play for women during and after World War I?",
+                        "options": [
+                            "4) They facilitated community support efforts",
+                            "2) They provided a platform for lobbying",
+                            "3) They offered social gatherings",
+                            "1) They restricted women's activities"
+                        ],
+                        "explanation": "Organizations like the Red Cross allowed women to engage in community service and provide essential support to those affected by the war, enhancing their public roles.",
+                        "answer": "4) They facilitated community support efforts"
+                    }
+                ]
+            }
+        ],
+        "The Evolution of Faith": [
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    3
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What was a significant change in how faith communities conducted services during the pandemic?",
+                        "options": [
+                            "1) They stopped holding services altogether.",
+                            "4) They reduced the number of services offered.",
+                            "3) They required in-person attendance.",
+                            "2) They switched to virtual platforms."
+                        ],
+                        "explanation": "The pandemic forced many faith communities to adapt to virtual platforms for their services, allowing them to continue while maintaining safety protocols.",
+                        "answer": "2) They switched to virtual platforms."
+                    },
+                    {
+                        "question": "How has virtual worship impacted the geographical limitations previously faced by congregations?",
+                        "options": [
+                            "2) It allowed congregations to include diverse international participants.",
+                            "4) It eliminated the need for any kind of service.",
+                            "3) It focused only on local attendees.",
+                            "1) It increased the number of services held."
+                        ],
+                        "explanation": "Virtual worship has enabled congregations to reach individuals from multiple continents, overcoming the geographical boundaries that restricted attendance.",
+                        "answer": "2) It allowed congregations to include diverse international participants."
+                    },
+                    {
+                        "question": "What role has social media played in reshaping interactions within faith communities?",
+                        "options": [
+                            "3) It has replaced traditional texts in worship.",
+                            "4) It has discouraged discussions on faith matters.",
+                            "1) It has reduced the interactions among members.",
+                            "2) It has become a platform for sharing beliefs and doubts."
+                        ],
+                        "explanation": "Social media serves as a platform for individuals to share their beliefs, experiences, and questions, thereby enhancing interactions within faith communities.",
+                        "answer": "2) It has become a platform for sharing beliefs and doubts."
+                    },
+                    {
+                        "question": "In what way can social media serve as a tool for outreach for faith organizations?",
+                        "options": [
+                            "4) By ignoring the younger generations.",
+                            "1) By restricting messages to local congregations only.",
+                            "3) By promoting misunderstandings about faith.",
+                            "2) By allowing for live streaming of services and events."
+                        ],
+                        "explanation": "Social media enables faith organizations to reach a wider audience through live streams and digital content, effectively engaging individuals beyond their local community.",
+                        "answer": "2) By allowing for live streaming of services and events."
+                    },
+                    {
+                        "question": "What potential challenge does social media present for faith communities?",
+                        "options": [
+                            "2) It allows misleading information to spread quickly.",
+                            "1) It creates a stronger narrative about faith.",
+                            "3) It limits the discussion to a single viewpoint.",
+                            "4) It eliminates the use of other forms of communication."
+                        ],
+                        "explanation": "One major challenge of social media is the rapid spread of misleading information related to religious beliefs and practices, which can create confusion and discord within communities.",
+                        "answer": "2) It allows misleading information to spread quickly."
+                    },
+                    {
+                        "question": "How has online support within faith communities changed according to the lecture?",
+                        "options": [
+                            "3) It focuses only on traditional support groups.",
+                            "4) It has restricted support to only experienced leaders.",
+                            "1) It has become less important than in-person support.",
+                            "2) It allows for individuals to connect across different backgrounds."
+                        ],
+                        "explanation": "Online support groups enable individuals from diverse backgrounds to connect, share struggles, and provide encouragement, fostering a sense of belonging.",
+                        "answer": "2) It allows for individuals to connect across different backgrounds."
+                    },
+                    {
+                        "question": "What might be a future application of technology in faith practices as discussed in the lecture?",
+                        "options": [
+                            "2) Using artificial intelligence to guide worship decisions.",
+                            "4) Limiting access to religious teachings to print only.",
+                            "3) Developing tools for virtual reality experiences of biblical events.",
+                            "1) A return to completely physical gatherings only."
+                        ],
+                        "explanation": "The lecture suggests that emerging technologies, such as virtual reality, could offer immersive experiences of significant religious events or locations, enriching individuals' spiritual experiences.",
+                        "answer": "3) Developing tools for virtual reality experiences of biblical events."
+                    },
+                    {
+                        "question": "What does the lecture indicate about personalization in virtual worship?",
+                        "options": [
+                            "1) It restricts individual engagement with their faith.",
+                            "4) It reduces the role of personal reflection.",
+                            "3) It only benefits a select few members.",
+                            "2) It allows individuals to curate their worship experiences."
+                        ],
+                        "explanation": "Personalization in virtual worship enables individuals to select their preferred services and music, allowing for a more tailored and meaningful worship experience.",
+                        "answer": "2) It allows individuals to curate their worship experiences."
+                    },
+                    {
+                        "question": "What impact does the lecture suggest technology will have on the sense of community in faith?",
+                        "options": [
+                            "1) It will dissolve all community ties.",
+                            "4) It will make in-person gatherings obsolete.",
+                            "3) It will redefine how community and connection are understood in spirituality.",
+                            "2) It will only impact those who are tech-savvy."
+                        ],
+                        "explanation": "The lecture highlights that technology is redefining community and connection, suggesting that spiritual engagement will evolve while preserving meaningful experiences.",
+                        "answer": "3) It will redefine how community and connection are understood in spirituality."
+                    },
+                    {
+                        "question": "What potential future advancements in technology regarding faith does the lecture explore?",
+                        "options": [
+                            "3) Integrating artificial intelligence in spiritual guidance.",
+                            "2) Enhancing community roles through artificial limitations.",
+                            "4) Exploring more engaging technological experiences for worshippers.",
+                            "1) Reverting to traditional worship only."
+                        ],
+                        "explanation": "The lecture posits that technological advancements could lead to even more engaging experiences, enhancing the ways individuals relate to their faith.",
+                        "answer": "4) Exploring more engaging technological experiences for worshippers."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What was a significant change in how faith communities conducted services during the pandemic?",
+                        "options": [
+                            "1) They stopped holding services altogether.",
+                            "4) They reduced the number of services offered.",
+                            "3) They required in-person attendance.",
+                            "2) They switched to virtual platforms."
+                        ],
+                        "explanation": "The pandemic forced many faith communities to adapt to virtual platforms for their services, allowing them to continue while maintaining safety protocols.",
+                        "answer": "2) They switched to virtual platforms."
+                    },
+                    {
+                        "question": "How has virtual worship impacted the geographical limitations previously faced by congregations?",
+                        "options": [
+                            "2) It allowed congregations to include diverse international participants.",
+                            "4) It eliminated the need for any kind of service.",
+                            "3) It focused only on local attendees.",
+                            "1) It increased the number of services held."
+                        ],
+                        "explanation": "Virtual worship has enabled congregations to reach individuals from multiple continents, overcoming the geographical boundaries that restricted attendance.",
+                        "answer": "2) It allowed congregations to include diverse international participants."
+                    },
+                    {
+                        "question": "What role has social media played in reshaping interactions within faith communities?",
+                        "options": [
+                            "3) It has replaced traditional texts in worship.",
+                            "4) It has discouraged discussions on faith matters.",
+                            "1) It has reduced the interactions among members.",
+                            "2) It has become a platform for sharing beliefs and doubts."
+                        ],
+                        "explanation": "Social media serves as a platform for individuals to share their beliefs, experiences, and questions, thereby enhancing interactions within faith communities.",
+                        "answer": "2) It has become a platform for sharing beliefs and doubts."
+                    },
+                    {
+                        "question": "In what way can social media serve as a tool for outreach for faith organizations?",
+                        "options": [
+                            "4) By ignoring the younger generations.",
+                            "1) By restricting messages to local congregations only.",
+                            "3) By promoting misunderstandings about faith.",
+                            "2) By allowing for live streaming of services and events."
+                        ],
+                        "explanation": "Social media enables faith organizations to reach a wider audience through live streams and digital content, effectively engaging individuals beyond their local community.",
+                        "answer": "2) By allowing for live streaming of services and events."
+                    },
+                    {
+                        "question": "What potential challenge does social media present for faith communities?",
+                        "options": [
+                            "2) It allows misleading information to spread quickly.",
+                            "1) It creates a stronger narrative about faith.",
+                            "3) It limits the discussion to a single viewpoint.",
+                            "4) It eliminates the use of other forms of communication."
+                        ],
+                        "explanation": "One major challenge of social media is the rapid spread of misleading information related to religious beliefs and practices, which can create confusion and discord within communities.",
+                        "answer": "2) It allows misleading information to spread quickly."
+                    },
+                    {
+                        "question": "How has online support within faith communities changed according to the lecture?",
+                        "options": [
+                            "3) It focuses only on traditional support groups.",
+                            "4) It has restricted support to only experienced leaders.",
+                            "1) It has become less important than in-person support.",
+                            "2) It allows for individuals to connect across different backgrounds."
+                        ],
+                        "explanation": "Online support groups enable individuals from diverse backgrounds to connect, share struggles, and provide encouragement, fostering a sense of belonging.",
+                        "answer": "2) It allows for individuals to connect across different backgrounds."
+                    },
+                    {
+                        "question": "What might be a future application of technology in faith practices as discussed in the lecture?",
+                        "options": [
+                            "2) Using artificial intelligence to guide worship decisions.",
+                            "4) Limiting access to religious teachings to print only.",
+                            "3) Developing tools for virtual reality experiences of biblical events.",
+                            "1) A return to completely physical gatherings only."
+                        ],
+                        "explanation": "The lecture suggests that emerging technologies, such as virtual reality, could offer immersive experiences of significant religious events or locations, enriching individuals' spiritual experiences.",
+                        "answer": "3) Developing tools for virtual reality experiences of biblical events."
+                    },
+                    {
+                        "question": "What does the lecture indicate about personalization in virtual worship?",
+                        "options": [
+                            "1) It restricts individual engagement with their faith.",
+                            "4) It reduces the role of personal reflection.",
+                            "3) It only benefits a select few members.",
+                            "2) It allows individuals to curate their worship experiences."
+                        ],
+                        "explanation": "Personalization in virtual worship enables individuals to select their preferred services and music, allowing for a more tailored and meaningful worship experience.",
+                        "answer": "2) It allows individuals to curate their worship experiences."
+                    },
+                    {
+                        "question": "What impact does the lecture suggest technology will have on the sense of community in faith?",
+                        "options": [
+                            "1) It will dissolve all community ties.",
+                            "4) It will make in-person gatherings obsolete.",
+                            "3) It will redefine how community and connection are understood in spirituality.",
+                            "2) It will only impact those who are tech-savvy."
+                        ],
+                        "explanation": "The lecture highlights that technology is redefining community and connection, suggesting that spiritual engagement will evolve while preserving meaningful experiences.",
+                        "answer": "3) It will redefine how community and connection are understood in spirituality."
+                    },
+                    {
+                        "question": "What potential future advancements in technology regarding faith does the lecture explore?",
+                        "options": [
+                            "3) Integrating artificial intelligence in spiritual guidance.",
+                            "2) Enhancing community roles through artificial limitations.",
+                            "4) Exploring more engaging technological experiences for worshippers.",
+                            "1) Reverting to traditional worship only."
+                        ],
+                        "explanation": "The lecture posits that technological advancements could lead to even more engaging experiences, enhancing the ways individuals relate to their faith.",
+                        "answer": "4) Exploring more engaging technological experiences for worshippers."
+                    }
+                ]
+            }
+        ]
+    },
+    "Wednesday": {},
+    "Thursday": {},
+    "Friday": {}
+}

@@ -1,0 +1,182 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Data Structures: Lists, Tuples, Dictionaries",
+                "lecture": "Hello! Today, we will continue to practice manipulating data structures through real-life scenarios and coding challenges. We\u2019ll focus on three core data structures: lists, tuples, and dictionaries, and we\u2019ll dive deep into how they operate and how you can get the most out of them in your coding journey.\n\n### Understanding Lists\nLet\u2019s start with **lists**. A list in Python is a collection of items, which can be of different types. For example, you can have integers, strings, or even other lists as elements in a list. Lists are mutable, meaning you can change their content without changing their id. You can add, remove, or modify items after the list has been created.\n\nTo create a list, you can do the following:\n```python\nmy_list = [1, 2, 3, 'apple']\n```\nYou can access elements using their index, which starts at 0. For instance, `my_list[0]` returns `1`. Lists support a variety of operations, such as concatenation and slicing.\n\nNow, let\u2019s look at some **advanced operations on lists**. One powerful technique is list comprehension, which allows for creating new lists by applying an expression to each item in an existing list. For example:\n```python\nsquares = [x**2 for x in range(10)]  # This creates a list of squares from 0 to 9.\n```\nThis one-liner is efficient and often more readable than using a traditional for-loop.\n\nAnother advanced operation is sorting lists. You can sort a list in ascending or descending order using the `sort()` method or the `sorted()` function. For example:\n```python\nmy_list.sort()  # This sorts the list in place.\n```\nLists also provide several built-in methods like `append()`, `remove()`, and `insert()` that enable you to manipulate the list easily.\n[p]\n\n### Exploring Tuples\nNow, let's move on to **tuples**. Tuples are similar to lists in that they can hold a collection of items. However, tuples are immutable, which means once a tuple is created, you cannot change its content. This characteristic makes tuples a great choice for fixed collections of items.\n\nTo create a tuple, you can use parentheses:\n```python\ntuple_example = (1, 2, 3, 'banana')\n```\nYou can still access elements in a tuple similarly to lists using indexing. For example, `tuple_example[1]` returns `2`.\n\nTuples can be used to hold data that should not change, like coordinates. A common use case is when you want to return multiple values from a function. For instance:\n```python\ndef get_position():\n    return (42, 73)\n```\nThis function returns a tuple containing two values that can be unpacked easily during function calls. The immutability of tuples also makes them hashable, allowing them to be used as keys in dictionaries.\n[p]\n\n### Diving into Dictionaries\nNext, let\u2019s discuss **dictionaries**. A dictionary is a collection of key-value pairs, where each key must be unique. You create a dictionary using curly braces:\n```python\ndictionary_example = {'name': 'John', 'age': 30}\n```\nYou can access values using their corresponding keys. For example, `dictionary_example['name']` returns `John`. This makes dictionaries incredibly useful for situations where you want to retrieve data based on a unique identifier.\n\nOne powerful feature of dictionaries is their ability to combine with lists and other structures. You can have lists of dictionaries, or dictionaries of lists, allowing for complex data representations. \nFor instance:\n```python\nemployees = [{'name': 'Alice', 'age': 28}, {'name': 'Bob', 'age': 24}]\n```\nThis creates a list of dictionaries, each holding information about an employee.\n\nNow, let's consider **combining data structures**. This means taking lists, tuples, and dictionaries and using them together to solve problems effectively. For example, you may have a list of students where each student is represented by a dictionary containing their ID and name. When you need to find a student\u2019s details based on their ID, this combination allows for efficient searching and organization.\nConsider the following illustration:\n```python\nstudents = [\n    {'id': 1, 'name': 'John'},\n    {'id': 2, 'name': 'Maria'},\n]\n```\nYou can create functions to search for students by iterating over the list, checking each dictionary\u2019s ID with the ID you\u2019re looking for:\n```python\ndef find_student(students, student_id):\n    for student in students:\n        if student['id'] == student_id:\n            return student\n    return None  # if the student isn't found\n```\nThis shows how data structures interact and leverage each other's strengths.\n[p] \n\nIn conclusion, today we covered three important data structures \u2013 lists, tuples, and dictionaries. You learned the unique characteristics of each and explored advanced operations on lists, how to leverage tuples and the power of dictionaries in combining data. With these structures, you can organize and manage your data efficiently in your programming projects. Don\u2019t forget to practice using them in real-life coding challenges to reinforce these concepts! \n\n### Summary\nIn today\u2019s lecture, you learned:\n- What lists, tuples, and dictionaries are in Python\n- How to perform advanced operations on lists, such as list comprehensions and sorting\n- The immutability of tuples and their applications\n- The significance of dictionaries in storing key-value pairs and how to combine different data structures for efficient data organization. \n\nKeep practicing these concepts, and soon, they will become second nature to you! Feel free to explore further through the relevant Wikipedia pages or ask me any questions if something was unclear!\n\n### References\n1. [List (Python)](https://en.wikipedia.org/wiki/List_(Python))\n2. [Tuple (Python)](https://en.wikipedia.org/wiki/Tuple)\n3. [Dictionary (Python)](https://en.wikipedia.org/wiki/Dictionary_(computer_science))\n4. [Data Structures](https://en.wikipedia.org/wiki/Data_structure)",
+                "summary": "In today\u2019s lecture, you learned about lists, tuples, and dictionaries in Python. You explored advanced operations on lists, discovered the immutability of tuples, and gained insight into dictionaries as key-value stores. You also learned how to combine these data structures for efficient data management and coding practices.",
+                "subject": "Computer Science",
+                "main_topic": "Data Structures: Lists, Tuples, Dictionaries",
+                "sub_topics": [
+                    "Advanced Operations on Lists",
+                    "Combining Data Structures"
+                ],
+                "wikipedia_refrences": [
+                    "https://en.wikipedia.org/wiki/List_(Python)",
+                    "https://en.wikipedia.org/wiki/Tuple",
+                    "https://en.wikipedia.org/wiki/Dictionary_(computer_science)",
+                    "https://en.wikipedia.org/wiki/Data_structure"
+                ],
+                "quiz": [
+                    {
+                        "question": "What is the syntax to create an empty list in Python?",
+                        "options": [
+                            "1) my_list = []",
+                            "4) my_list = None",
+                            "2) my_list = ()",
+                            "3) my_list = {}"
+                        ],
+                        "explanation": "An empty list can be created using square brackets in Python, as in `my_list = []`.",
+                        "answer": "1) my_list = []"
+                    },
+                    {
+                        "question": "Which of the following methods can be used to add an item to the end of a list in Python?",
+                        "options": [
+                            "4) push()",
+                            "3) add()",
+                            "2) insert()",
+                            "1) append()"
+                        ],
+                        "explanation": "The `append()` method is specifically designed to add an item to the end of a list in Python.",
+                        "answer": "1) append()"
+                    },
+                    {
+                        "question": "How do you access the first element of a tuple called 'tuple_example'?",
+                        "options": [
+                            "3) first(tuple_example)",
+                            "2) tuple_example[1]",
+                            "1) tuple_example[0]",
+                            "4) tuple_example.first()"
+                        ],
+                        "explanation": "In Python, indexing starts at 0, so you use `tuple_example[0]` to access the first element of a tuple.",
+                        "answer": "1) tuple_example[0]"
+                    },
+                    {
+                        "question": "What type of data structure is best used when you want to store a collection of items that can change?",
+                        "options": [
+                            "1) Tuple",
+                            "4) Set",
+                            "3) Dictionary",
+                            "2) List"
+                        ],
+                        "explanation": "A list is mutable and allows you to store a collection of items that can be changed, making it the best choice for a collection that can change.",
+                        "answer": "2) List"
+                    },
+                    {
+                        "question": "Given the statement 'dictionary_example = {'name': 'John', 'age': 30}', what would 'dictionary_example['age']' return?",
+                        "options": [
+                            "2) 30",
+                            "3) age",
+                            "4) None",
+                            "1) John"
+                        ],
+                        "explanation": "Using the key 'age' in the dictionary returns its corresponding value, which is 30.",
+                        "answer": "2) 30"
+                    },
+                    {
+                        "question": "In which scenario would you typically use a tuple instead of a list?",
+                        "options": [
+                            "2) When the data should remain unchanged",
+                            "4) When you need to sort items",
+                            "3) When you need to store only strings",
+                            "1) When you need to modify the data"
+                        ],
+                        "explanation": "Tuples are immutable, which means they are best used when the data should remain unchanged, such as coordinates or fixed records.",
+                        "answer": "2) When the data should remain unchanged"
+                    },
+                    {
+                        "question": "Which method can be used to remove an item from a specific index in a list?",
+                        "options": [
+                            "2) remove()",
+                            "1) delete()",
+                            "3) pop()",
+                            "4) discard()"
+                        ],
+                        "explanation": "The `pop()` method is used to remove an item at a specific index from a list and returns it.",
+                        "answer": "3) pop()"
+                    },
+                    {
+                        "question": "If you have a list of dictionaries, how would you describe this structure?",
+                        "options": [
+                            "4) A set of dictionaries",
+                            "2) A tuple of lists",
+                            "3) A list of dictionaries",
+                            "1) A dictionary of lists"
+                        ],
+                        "explanation": "When you have a list containing dictionaries, it is referred to as a list of dictionaries, which allows for structured data representations.",
+                        "answer": "3) A list of dictionaries"
+                    },
+                    {
+                        "question": "What happens if you try to change an element in a tuple?",
+                        "options": [
+                            "1) The tuple gets updated",
+                            "2) The program throws an error",
+                            "4) It alters the original list",
+                            "3) It creates a new tuple"
+                        ],
+                        "explanation": "Since tuples are immutable, trying to change an element will result in a TypeError, indicating that the tuple cannot be modified.",
+                        "answer": "2) The program throws an error"
+                    },
+                    {
+                        "question": "How can you create a new list that contains the squares of numbers from 1 to 5?",
+                        "options": [
+                            "2) squares = [x^2 for x in range(1, 6)]",
+                            "1) squares = [x**2 for x in range(5)]",
+                            "4) squares = list(x**2 for x in range(5))",
+                            "3) squares = (x**2 for x in range(1, 6))"
+                        ],
+                        "explanation": "The correct syntax is `squares = [x**2 for x in range(1, 6)]` which uses list comprehension to easily create a list of squares.",
+                        "answer": "1) squares = [x**2 for x in range(5)]"
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What method would you use to permanently change the order of elements in a list in Python?",
+                        "options": [
+                            "1) sorted()",
+                            "3) reverse()",
+                            "4) order()",
+                            "2) sort()"
+                        ],
+                        "explanation": "The `sort()` method is used to sort a list in place, meaning it modifies the original list instead of returning a new sorted list like `sorted()`. Therefore, if you want to change the order of elements in the existing list, you should use `sort()`.",
+                        "answer": "2) sort()"
+                    },
+                    {
+                        "question": "What is a key characteristic of tuples that distinguishes them from lists?",
+                        "options": [
+                            "4) Tuples can only hold numerical data.",
+                            "2) Tuples are mutable, allowing changes to their content.",
+                            "3) Tuples are immutable, meaning their content cannot be changed after creation.",
+                            "1) Tuples can contain only strings."
+                        ],
+                        "explanation": "Tuples are described as immutable, which means once a tuple is created, you cannot change its content. This is a fundamental difference from lists, which are mutable and can be changed.",
+                        "answer": "3) Tuples are immutable, meaning their content cannot be changed after creation."
+                    },
+                    {
+                        "question": "What is a dictionary in Python used for?",
+                        "options": [
+                            "3) Defining a structured format for functions",
+                            "2) Representing ordered items in a sequence",
+                            "1) Storing multiple values under a unique identifier",
+                            "4) Creating visual graphics in programming"
+                        ],
+                        "explanation": "A dictionary in Python is used for storing collections of key-value pairs, where each key must be unique, making it ideal for storing multiple values under a unique identifier. This allows for efficient data retrieval based on the key.",
+                        "answer": "1) Storing multiple values under a unique identifier"
+                    },
+                    {
+                        "question": "Which data structure in Python is immutable and is often used to store a collection of related data that should not change?",
+                        "options": [
+                            "2) Tuple",
+                            "3) Dictionary",
+                            "4) Set",
+                            "1) List"
+                        ],
+                        "explanation": "A tuple is an immutable sequence type in Python. Once a tuple is created, its contents cannot be modified, making it suitable for storing fixed collections of items. In contrast, lists and dictionaries are mutable and can be modified after their creation.",
+                        "answer": "2) Tuple"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

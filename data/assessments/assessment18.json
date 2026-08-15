@@ -1,0 +1,622 @@
+[
+    {
+        "assesment_test_number": 1,
+        "subjects": [
+            {
+                "questionNumber": 1,
+                "question": "What is the value of x in the equation 2x + 3 = 11?",
+                "options": [
+                    "1) 2",
+                    "2) 3",
+                    "3) 4",
+                    "4) 5"
+                ],
+                "explanation": "To find x, first subtract 3 from both sides to get 2x = 8. Then divide both sides by 2 to find x = 4.",
+                "answer": "3) 4",
+                "grade_level": "9",
+                "subject": "Mathematics",
+                "subject_topic": "Algebra"
+            },
+            {
+                "questionNumber": 2,
+                "question": "Which of the following is the solution to the inequality 5x - 7 < 3?",
+                "options": [
+                    "1) x < 2",
+                    "2) x < 3",
+                    "3) x > 2",
+                    "4) x > 3"
+                ],
+                "explanation": "First, add 7 to both sides to obtain 5x < 10. Dividing both sides by 5 gives x < 2.",
+                "answer": "1) x < 2",
+                "grade_level": "9",
+                "subject": "Mathematics",
+                "subject_topic": "Algebra"
+            },
+            {
+                "questionNumber": 3,
+                "question": "What is the area of a triangle with a base of 10 units and a height of 5 units?",
+                "options": [
+                    "1) 15 square units",
+                    "2) 25 square units",
+                    "3) 50 square units",
+                    "4) 75 square units"
+                ],
+                "explanation": "Area of a triangle is given by (base * height) / 2. Therefore, (10 * 5) / 2 = 25 square units.",
+                "answer": "2) 25 square units",
+                "grade_level": "9",
+                "subject": "Mathematics",
+                "subject_topic": "Geometry"
+            },
+            {
+                "questionNumber": 4,
+                "question": "If the diameter of a circle is 14 cm, what is its radius?",
+                "options": [
+                    "1) 7 cm",
+                    "2) 14 cm",
+                    "3) 21 cm",
+                    "4) 28 cm"
+                ],
+                "explanation": "The radius is half of the diameter, therefore the radius is 14 cm / 2 = 7 cm.",
+                "answer": "1) 7 cm",
+                "grade_level": "9",
+                "subject": "Mathematics",
+                "subject_topic": "Geometry"
+            },
+            {
+                "questionNumber": 5,
+                "question": "What is the value of 3^2 + 4^2?",
+                "options": [
+                    "1) 12",
+                    "2) 15",
+                    "3) 25",
+                    "4) 32"
+                ],
+                "explanation": "Calculating 3^2 gives 9 and 4^2 gives 16. Adding these gives 9 + 16 = 25.",
+                "answer": "3) 25",
+                "grade_level": "9",
+                "subject": "Mathematics",
+                "subject_topic": "Exponents"
+            },
+            {
+                "questionNumber": 6,
+                "question": "What is the slope of the line represented by the equation y = 2x + 5?",
+                "options": [
+                    "1) 2",
+                    "2) 5",
+                    "3) -2",
+                    "4) -5"
+                ],
+                "explanation": "The slope-intercept form of a line is y = mx + b, where m is the slope. Here, m = 2.",
+                "answer": "1) 2",
+                "grade_level": "9",
+                "subject": "Mathematics",
+                "subject_topic": "Linear Equations"
+            },
+            {
+                "questionNumber": 7,
+                "question": "If a rectangle has a perimeter of 30 cm and a length of 10 cm, what is its width?",
+                "options": [
+                    "1) 5 cm",
+                    "2) 10 cm",
+                    "3) 15 cm",
+                    "4) 20 cm"
+                ],
+                "explanation": "The perimeter P = 2(length + width). Substituting gives 30 = 2(10 + width), thus width = 5 cm.",
+                "answer": "1) 5 cm",
+                "grade_level": "9",
+                "subject": "Mathematics",
+                "subject_topic": "Geometry"
+            },
+            {
+                "questionNumber": 8,
+                "question": "Which of the following fractions is equivalent to 0.75?",
+                "options": [
+                    "1) 3/4",
+                    "2) 1/2",
+                    "3) 5/6",
+                    "4) 2/3"
+                ],
+                "explanation": "0.75 can be expressed as the fraction 75/100, which simplifies to 3/4.",
+                "answer": "1) 3/4",
+                "grade_level": "9",
+                "subject": "Mathematics",
+                "subject_topic": "Fractions"
+            },
+            {
+                "questionNumber": 9,
+                "question": "What is the solution set for the equation x^2 - 4 = 0?",
+                "options": [
+                    "1) {2, -2}",
+                    "2) {0}",
+                    "3) {4}",
+                    "4) {2, 4}"
+                ],
+                "explanation": "Factoring gives (x - 2)(x + 2) = 0, so the solutions are x = 2 and x = -2.",
+                "answer": "1) {2, -2}",
+                "grade_level": "9",
+                "subject": "Mathematics",
+                "subject_topic": "Quadratic Equations"
+            },
+            {
+                "questionNumber": 10,
+                "question": "Which of these is a prime number?",
+                "options": [
+                    "1) 9",
+                    "2) 11",
+                    "3) 15",
+                    "4) 21"
+                ],
+                "explanation": "A prime number is a number greater than 1 with no divisors other than 1 and itself. 11 is prime.",
+                "answer": "2) 11",
+                "grade_level": "9",
+                "subject": "Mathematics",
+                "subject_topic": "Number Theory"
+            }
+        ]
+    },
+    {
+        "assesment_test_number": 1,
+        "subjects": [
+            {
+                "questionNumber": 1,
+                "question": "What is the main theme of Shakespeare's play 'Romeo and Juliet'?",
+                "options": [
+                    "1) The consequences of hatred",
+                    "2) The importance of friendship",
+                    "3) The value of wealth",
+                    "4) The journey of self-discovery"
+                ],
+                "explanation": "The main theme of 'Romeo and Juliet' is the consequences of hatred, particularly how family feuds can lead to tragedy.",
+                "answer": "1) The consequences of hatred",
+                "grade_level": "9",
+                "subject": "Language Arts",
+                "subject_topic": "Literary Themes"
+            },
+            {
+                "questionNumber": 2,
+                "question": "Which sentence is an example of a simile?",
+                "options": [
+                    "1) The clouds danced across the sky.",
+                    "2) Her smile was like sunshine.",
+                    "3) The wind whispered through the trees.",
+                    "4) He is the star of the team."
+                ],
+                "explanation": "A simile is a figure of speech comparing two different things using 'like' or 'as'. The sentence 'Her smile was like sunshine.' uses 'like' to draw a comparison.",
+                "answer": "2) Her smile was like sunshine.",
+                "grade_level": "9",
+                "subject": "Language Arts",
+                "subject_topic": "Figurative Language"
+            },
+            {
+                "questionNumber": 3,
+                "question": "What is the purpose of a thesis statement in an essay?",
+                "options": [
+                    "1) To introduce a story's characters",
+                    "2) To summarize the conclusion",
+                    "3) To present the main argument or claim",
+                    "4) To provide background information"
+                ],
+                "explanation": "A thesis statement presents the main argument or claim of an essay, guiding the direction of the writing.",
+                "answer": "3) To present the main argument or claim",
+                "grade_level": "9",
+                "subject": "Language Arts",
+                "subject_topic": "Essay Writing"
+            },
+            {
+                "questionNumber": 4,
+                "question": "Identify the mood established in the first paragraph of 'The Tell-Tale Heart' by Edgar Allan Poe.",
+                "options": [
+                    "1) Joyful",
+                    "2) Fearful",
+                    "3) Melancholic",
+                    "4) Indifferent"
+                ],
+                "explanation": "The mood established in the opening of 'The Tell-Tale Heart' is fearful; the narrator's intense emotions and description create a sense of unease.",
+                "answer": "2) Fearful",
+                "grade_level": "9",
+                "subject": "Language Arts",
+                "subject_topic": "Mood and Tone"
+            },
+            {
+                "questionNumber": 5,
+                "question": "Which of the following is an example of personification?",
+                "options": [
+                    "1) The thunder roared in anger.",
+                    "2) She sings beautifully.",
+                    "3) He runs fast.",
+                    "4) The cat slept on the sofa."
+                ],
+                "explanation": "Personification gives human traits to non-human entities. 'The thunder roared in anger.' describes thunder with human emotion.",
+                "answer": "1) The thunder roared in anger.",
+                "grade_level": "9",
+                "subject": "Language Arts",
+                "subject_topic": "Figurative Language"
+            },
+            {
+                "questionNumber": 6,
+                "question": "What literary device is used in the sentence, 'The wind howled like a wolf'?",
+                "options": [
+                    "1) Hyperbole",
+                    "2) Alliteration",
+                    "3) Simile",
+                    "4) Metaphor"
+                ],
+                "explanation": "The phrase compares the wind to a wolf using 'like', which is characteristic of a simile, a literary device.",
+                "answer": "3) Simile",
+                "grade_level": "9",
+                "subject": "Language Arts",
+                "subject_topic": "Literary Devices"
+            },
+            {
+                "questionNumber": 7,
+                "question": "In which part of a story do you typically find the climax?",
+                "options": [
+                    "1) At the beginning",
+                    "2) At the end",
+                    "3) In the middle",
+                    "4) After the resolution"
+                ],
+                "explanation": "The climax is usually found in the middle of a story; it is the point of highest tension where the main conflict reaches its peak.",
+                "answer": "3) In the middle",
+                "grade_level": "9",
+                "subject": "Language Arts",
+                "subject_topic": "Plot Structure"
+            },
+            {
+                "questionNumber": 8,
+                "question": "What does the term 'antagonist' refer to in literature?",
+                "options": [
+                    "1) The main character",
+                    "2) A character who opposes the protagonist",
+                    "3) The narrator",
+                    "4) A minor character"
+                ],
+                "explanation": "An antagonist is a character that opposes the protagonist, creating conflict and driving the plot forward.",
+                "answer": "2) A character who opposes the protagonist",
+                "grade_level": "9",
+                "subject": "Language Arts",
+                "subject_topic": "Character Analysis"
+            },
+            {
+                "questionNumber": 9,
+                "question": "What is the primary purpose of a conclusion in an essay?",
+                "options": [
+                    "1) To provide new information",
+                    "2) To restate the thesis and summarize key points",
+                    "3) To introduce the main idea",
+                    "4) To discuss counterarguments"
+                ],
+                "explanation": "The conclusion serves to restate the thesis and summarize key points made in the essay, bringing closure to the argument.",
+                "answer": "2) To restate the thesis and summarize key points",
+                "grade_level": "9",
+                "subject": "Language Arts",
+                "subject_topic": "Essay Writing"
+            },
+            {
+                "questionNumber": 10,
+                "question": "Which of the following sentences uses correct parallel structure?",
+                "options": [
+                    "1) She likes reading, swimming, and to jog.",
+                    "2) He enjoys basketball, playing soccer, and to run.",
+                    "3) They like to read, to write, and to play music.",
+                    "4) I would like to travel, hiking, and to swim."
+                ],
+                "explanation": "Correct parallel structure requires items in a list to be in the same form. Option 3 maintains this by using 'to' before each verb.",
+                "answer": "3) They like to read, to write, and to play music.",
+                "grade_level": "9",
+                "subject": "Language Arts",
+                "subject_topic": "Grammar and Structure"
+            }
+        ]
+    },
+    {
+        "assesment_test_number": 1,
+        "subjects": [
+            {
+                "questionNumber": 1,
+                "question": "What is the primary function of the mitochondria in a cell?",
+                "options": [
+                    "1) To synthesize proteins",
+                    "2) To produce energy",
+                    "3) To store genetic information",
+                    "4) To regulate cell division"
+                ],
+                "explanation": "Mitochondria are often referred to as the powerhouse of the cell because they convert nutrients into energy in the form of ATP, which is essential for cellular functions.",
+                "answer": "2) To produce energy",
+                "grade_level": "9",
+                "subject": "Science",
+                "subject_topic": "Cell Biology"
+            },
+            {
+                "questionNumber": 2,
+                "question": "Which of the following is a chemical change?",
+                "options": [
+                    "1) Ice melting",
+                    "2) Iron rusting",
+                    "3) Water boiling",
+                    "4) Sugar dissolving"
+                ],
+                "explanation": "Iron rusting involves a chemical reaction with oxygen in the presence of water, resulting in a new substance (rust), which is an example of a chemical change.",
+                "answer": "2) Iron rusting",
+                "grade_level": "9",
+                "subject": "Science",
+                "subject_topic": "Chemistry"
+            },
+            {
+                "questionNumber": 3,
+                "question": "What is the law of conservation of mass?",
+                "options": [
+                    "1) Mass can be created or destroyed in a reaction",
+                    "2) Mass is always conserved in chemical reactions",
+                    "3) Mass is only affected by temperature",
+                    "4) Mass increases with the speed of light"
+                ],
+                "explanation": "The law of conservation of mass states that in a closed system, mass cannot be created or destroyed. It only changes forms during reactions.",
+                "answer": "2) Mass is always conserved in chemical reactions",
+                "grade_level": "9",
+                "subject": "Science",
+                "subject_topic": "Physical Science"
+            },
+            {
+                "questionNumber": 4,
+                "question": "Which part of the plant is primarily responsible for photosynthesis?",
+                "options": [
+                    "1) Roots",
+                    "2) Stems",
+                    "3) Flowers",
+                    "4) Leaves"
+                ],
+                "explanation": "Photosynthesis primarily occurs in the leaves of plants, where chlorophyll captures sunlight to convert carbon dioxide and water into glucose and oxygen.",
+                "answer": "4) Leaves",
+                "grade_level": "9",
+                "subject": "Science",
+                "subject_topic": "Biology"
+            },
+            {
+                "questionNumber": 5,
+                "question": "What is the speed of light in vacuum?",
+                "options": [
+                    "1) 300,000 km/s",
+                    "2) 150,000 km/s",
+                    "3) 1,500 km/s",
+                    "4) 3,000 km/s"
+                ],
+                "explanation": "The speed of light in a vacuum is approximately 300,000 kilometers per second, which is fundamental to various scientific theories including relativity.",
+                "answer": "1) 300,000 km/s",
+                "grade_level": "9",
+                "subject": "Science",
+                "subject_topic": "Physics"
+            },
+            {
+                "questionNumber": 6,
+                "question": "In the periodic table, what do elements in the same group share?",
+                "options": [
+                    "1) Same atomic mass",
+                    "2) Similar chemical properties",
+                    "3) Same number of protons",
+                    "4) Same number of electrons"
+                ],
+                "explanation": "Elements in the same group of the periodic table have similar chemical properties due to having the same number of valence electrons.",
+                "answer": "2) Similar chemical properties",
+                "grade_level": "9",
+                "subject": "Science",
+                "subject_topic": "Chemistry"
+            },
+            {
+                "questionNumber": 7,
+                "question": "Which of the following layers of the Earth is liquid?",
+                "options": [
+                    "1) The inner core",
+                    "2) The outer core",
+                    "3) The mantle",
+                    "4) The crust"
+                ],
+                "explanation": "The outer core of the Earth is liquid and primarily composed of iron and nickel, while the inner core is solid.",
+                "answer": "2) The outer core",
+                "grade_level": "9",
+                "subject": "Science",
+                "subject_topic": "Earth Science"
+            },
+            {
+                "questionNumber": 8,
+                "question": "What is the powerhouse of the cell?",
+                "options": [
+                    "1) Nucleus",
+                    "2) Ribosomes",
+                    "3) Mitochondria",
+                    "4) Endoplasmic Reticulum"
+                ],
+                "explanation": "The mitochondria are known as the powerhouse of the cell because they produce ATP (energy) through the process of cellular respiration.",
+                "answer": "3) Mitochondria",
+                "grade_level": "9",
+                "subject": "Science",
+                "subject_topic": "Cell Biology"
+            },
+            {
+                "questionNumber": 9,
+                "question": "Which biome is characterized by permafrost?",
+                "options": [
+                    "1) Desert",
+                    "2) Tundra",
+                    "3) Grassland",
+                    "4) Tropical Rainforest"
+                ],
+                "explanation": "The tundra biome is characterized by permafrost, a permanently frozen layer of soil beneath the surface, affecting vegetation and animal life.",
+                "answer": "2) Tundra",
+                "grade_level": "9",
+                "subject": "Science",
+                "subject_topic": "Ecology"
+            },
+            {
+                "questionNumber": 10,
+                "question": "What is the primary gas found in the atmosphere of Earth?",
+                "options": [
+                    "1) Oxygen",
+                    "2) Carbon Dioxide",
+                    "3) Nitrogen",
+                    "4) Hydrogen"
+                ],
+                "explanation": "Nitrogen makes up about 78% of the Earth's atmosphere, making it the primary gas present in the atmosphere.",
+                "answer": "3) Nitrogen",
+                "grade_level": "9",
+                "subject": "Science",
+                "subject_topic": "Earth Science"
+            }
+        ]
+    },
+    {
+        "assesment_test_number": 1,
+        "subjects": [
+            {
+                "questionNumber": 1,
+                "question": "What was the main purpose of the Magna Carta, signed in 1215?",
+                "options": [
+                    "1) To establish the principle of due process",
+                    "2) To create a tax system",
+                    "3) To promote trade between England and France",
+                    "4) To declare war on Scotland"
+                ],
+                "explanation": "The Magna Carta established the principle that everyone, including the king, is subject to the law. It introduced the idea of due process and limited the powers of the monarch.",
+                "answer": "1) To establish the principle of due process",
+                "grade_level": "9",
+                "subject": "Social Studies",
+                "subject_topic": "Historical Documents"
+            },
+            {
+                "questionNumber": 2,
+                "question": "Which of the following is an example of a secondary source?",
+                "options": [
+                    "1) A diary from a soldier during the Civil War",
+                    "2) A biography about the life of Abraham Lincoln",
+                    "3) An original photograph taken during World War II",
+                    "4) A letter written on the day of an event"
+                ],
+                "explanation": "A biography is considered a secondary source because it interprets and analyzes primary sources and events rather than providing firsthand accounts.",
+                "answer": "2) A biography about the life of Abraham Lincoln",
+                "grade_level": "9",
+                "subject": "Social Studies",
+                "subject_topic": "Sources of Historical Information"
+            },
+            {
+                "questionNumber": 3,
+                "question": "What event marked the beginning of the Great Depression in the United States?",
+                "options": [
+                    "1) The stock market crash of 1929",
+                    "2) The Dust Bowl",
+                    "3) The New Deal programs",
+                    "4) The end of World War I"
+                ],
+                "explanation": "The Great Depression began with the stock market crash of 1929, which caused widespread financial panic and economic downturn.",
+                "answer": "1) The stock market crash of 1929",
+                "grade_level": "9",
+                "subject": "Social Studies",
+                "subject_topic": "Great Depression"
+            },
+            {
+                "questionNumber": 4,
+                "question": "Which country was the first to grant women the right to vote?",
+                "options": [
+                    "1) The United States",
+                    "2) New Zealand",
+                    "3) Canada",
+                    "4) Australia"
+                ],
+                "explanation": "New Zealand was the first self-governing country to grant women the right to vote in 1893, leading the way for women's suffrage movements around the world.",
+                "answer": "2) New Zealand",
+                "grade_level": "9",
+                "subject": "Social Studies",
+                "subject_topic": "Women's Rights"
+            },
+            {
+                "questionNumber": 5,
+                "question": "What was the main cause of World War I?",
+                "options": [
+                    "1) Imperialism and militarism",
+                    "2) The assassination of Archduke Franz Ferdinand",
+                    "3) Alliance systems",
+                    "4) All of the above"
+                ],
+                "explanation": "The main cause of World War I was complex, involving imperialism, militarism, the assassination of Archduke Franz Ferdinand, and the intricate system of alliances formed between countries.",
+                "answer": "4) All of the above",
+                "grade_level": "9",
+                "subject": "Social Studies",
+                "subject_topic": "World War I"
+            },
+            {
+                "questionNumber": 6,
+                "question": "Which of the following amendments abolished slavery in the United States?",
+                "options": [
+                    "1) The 13th Amendment",
+                    "2) The 14th Amendment",
+                    "3) The 15th Amendment",
+                    "4) The 19th Amendment"
+                ],
+                "explanation": "The 13th Amendment, ratified in 1865, abolished slavery and involuntary servitude in the United States, except as punishment for a crime.",
+                "answer": "1) The 13th Amendment",
+                "grade_level": "9",
+                "subject": "Social Studies",
+                "subject_topic": "U.S. Constitutional Amendments"
+            },
+            {
+                "questionNumber": 7,
+                "question": "What does the Bill of Rights protect?",
+                "options": [
+                    "1) The rights of the states",
+                    "2) Individual liberties and rights of citizens",
+                    "3) The powers of Congress",
+                    "4) The powers of the President"
+                ],
+                "explanation": "The Bill of Rights, the first ten amendments to the U.S. Constitution, explicitly protects individual liberties including freedom of speech, religion, and the press.",
+                "answer": "2) Individual liberties and rights of citizens",
+                "grade_level": "9",
+                "subject": "Social Studies",
+                "subject_topic": "Bill of Rights"
+            },
+            {
+                "questionNumber": 8,
+                "question": "Which renowned social movement sought to end racial segregation in the United States during the 1950s and 1960s?",
+                "options": [
+                    "1) The Civil Rights Movement",
+                    "2) The Suffrage Movement",
+                    "3) The Labor Movement",
+                    "4) The Environmental Movement"
+                ],
+                "explanation": "The Civil Rights Movement aimed to end racial segregation and discrimination against African Americans, advocating for equal rights through various means, including protests and legal challenges.",
+                "answer": "1) The Civil Rights Movement",
+                "grade_level": "9",
+                "subject": "Social Studies",
+                "subject_topic": "Civil Rights Movement"
+            },
+            {
+                "questionNumber": 9,
+                "question": "Which ancient civilization is known for building pyramids as tombs for their pharaohs?",
+                "options": [
+                    "1) The Mayans",
+                    "2) The Greeks",
+                    "3) The Egyptians",
+                    "4) The Romans"
+                ],
+                "explanation": "The Egyptians are famed for their construction of pyramids, particularly the Pyramids of Giza, as monumental tombs for their leaders, the pharaohs.",
+                "answer": "3) The Egyptians",
+                "grade_level": "9",
+                "subject": "Social Studies",
+                "subject_topic": "Ancient Civilizations"
+            },
+            {
+                "questionNumber": 10,
+                "question": "What was the significance of the Berlin Wall?",
+                "options": [
+                    "1) It symbolized the division between East and West Berlin",
+                    "2) It represented the end of World War II",
+                    "3) It was built as a tourist attraction",
+                    "4) It was a military fortification"
+                ],
+                "explanation": "The Berlin Wall, erected in 1961, was significant as it physically and ideologically represented the Cold War divide between communist East Germany and democratic West Germany.",
+                "answer": "1) It symbolized the division between East and West Berlin",
+                "grade_level": "9",
+                "subject": "Social Studies",
+                "subject_topic": "Cold War"
+            }
+        ]
+    }
+]

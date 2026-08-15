@@ -1,0 +1,157 @@
+[
+    {
+        "assesment_test_number": 1,
+        "subjects": [
+            {
+                "questionNumber": 1,
+                "question": "What is the solution to the equation 2x + 3 = 11?",
+                "options": [
+                    "1) x = 2",
+                    "2) x = 4",
+                    "3) x = 5",
+                    "4) x = 3"
+                ],
+                "explanation": "To solve for x, subtract 3 from both sides: 2x = 8. Now divide by 2 to get x = 4.",
+                "answer": "2) x = 4",
+                "grade_level": "10",
+                "subject": "Mathematics",
+                "subject_topic": "Algebra"
+            },
+            {
+                "questionNumber": 2,
+                "question": "Which of the following is the factorization of x^2 - 5x + 6?",
+                "options": [
+                    "1) (x - 2)(x - 3)",
+                    "2) (x + 2)(x + 3)",
+                    "3) (x - 1)(x - 6)",
+                    "4) (x + 1)(x - 6)"
+                ],
+                "explanation": "To factor x^2 - 5x + 6, we need two numbers that multiply to 6 and add to -5. The correct numbers are -2 and -3.",
+                "answer": "1) (x - 2)(x - 3)",
+                "grade_level": "10",
+                "subject": "Mathematics",
+                "subject_topic": "Polynomials"
+            },
+            {
+                "questionNumber": 3,
+                "question": "What is the value of sin(30\u00b0)?",
+                "options": [
+                    "1) 0.5",
+                    "2) 1",
+                    "3) \u221a2/2",
+                    "4) 0"
+                ],
+                "explanation": "The sine of 30 degrees is a well-known trigonometric value equal to 0.5.",
+                "answer": "1) 0.5",
+                "grade_level": "10",
+                "subject": "Mathematics",
+                "subject_topic": "Trigonometry"
+            },
+            {
+                "questionNumber": 4,
+                "question": "What is the area of a triangle with a base of 10 units and a height of 5 units?",
+                "options": [
+                    "1) 50 square units",
+                    "2) 25 square units",
+                    "3) 15 square units",
+                    "4) 30 square units"
+                ],
+                "explanation": "Area of a triangle is calculated as (base * height) / 2. Thus, (10 * 5) / 2 = 25 square units.",
+                "answer": "2) 25 square units",
+                "grade_level": "10",
+                "subject": "Mathematics",
+                "subject_topic": "Geometry"
+            },
+            {
+                "questionNumber": 5,
+                "question": "What is the value of 3^4?",
+                "options": [
+                    "1) 12",
+                    "2) 81",
+                    "3) 27",
+                    "4) 64"
+                ],
+                "explanation": "3 raised to the power of 4 is 3 * 3 * 3 * 3 = 81.",
+                "answer": "2) 81",
+                "grade_level": "10",
+                "subject": "Mathematics",
+                "subject_topic": "Exponents"
+            },
+            {
+                "questionNumber": 6,
+                "question": "If the circumference of a circle is 31.4 meters, what is the radius? Use \u03c0 \u2248 3.14.",
+                "options": [
+                    "1) 7 meters",
+                    "2) 10 meters",
+                    "3) 5 meters",
+                    "4) 15 meters"
+                ],
+                "explanation": "Circumference of a circle is given by 2\u03c0r. So, 31.4 = 2 * 3.14 * r, which gives r = 5 meters.",
+                "answer": "3) 5 meters",
+                "grade_level": "10",
+                "subject": "Mathematics",
+                "subject_topic": "Circle Geometry"
+            },
+            {
+                "questionNumber": 7,
+                "question": "Which of the following is the quadratic formula used to find the roots of a quadratic equation?",
+                "options": [
+                    "1) x = (-b \u00b1 \u221a(b^2 - 4ac)) / 2a",
+                    "2) x = -b / 2a",
+                    "3) x = (b \u00b1 \u221a(b^2 + 4ac)) / 2a",
+                    "4) x = (b - \u221a(b^2 + 4ac)) / 2a"
+                ],
+                "explanation": "The quadratic formula is x = (-b \u00b1 \u221a(b^2 - 4ac)) / 2a, used to find the roots for ax^2 + bx + c = 0.",
+                "answer": "1) x = (-b \u00b1 \u221a(b\u00b2 - 4ac)) / 2a",
+                "grade_level": "10",
+                "subject": "Mathematics",
+                "subject_topic": "Quadratic Equations"
+            },
+            {
+                "questionNumber": 8,
+                "question": "What is the slope of the line represented by the equation y = 3x + 2?",
+                "options": [
+                    "1) 3",
+                    "2) 2",
+                    "3) -3",
+                    "4) -2"
+                ],
+                "explanation": "In the slope-intercept form y = mx + b, m represents the slope. Here, the slope is 3.",
+                "answer": "1) 3",
+                "grade_level": "10",
+                "subject": "Mathematics",
+                "subject_topic": "Linear Equations"
+            },
+            {
+                "questionNumber": 9,
+                "question": "What is the sum of the interior angles of a triangle?",
+                "options": [
+                    "1) 180\u00b0",
+                    "2) 360\u00b0",
+                    "3) 90\u00b0",
+                    "4) 270\u00b0"
+                ],
+                "explanation": "The sum of the interior angles of a triangle is always 180 degrees.",
+                "answer": "1) 180\u00b0",
+                "grade_level": "10",
+                "subject": "Mathematics",
+                "subject_topic": "Geometry"
+            },
+            {
+                "questionNumber": 10,
+                "question": "What is the value of the expression 2(3 + 5)^2?",
+                "options": [
+                    "1) 64",
+                    "2) 16",
+                    "3) 128",
+                    "4) 32"
+                ],
+                "explanation": "First, calculate the expression inside the parentheses: (3 + 5) = 8. Then square it: 8^2 = 64. Finally, multiply by 2: 2 * 64 = 128.",
+                "answer": "3) 128",
+                "grade_level": "10",
+                "subject": "Mathematics",
+                "subject_topic": "Algebra"
+            }
+        ]
+    }
+]

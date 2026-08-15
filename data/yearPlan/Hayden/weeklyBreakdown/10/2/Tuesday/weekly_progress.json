@@ -1,0 +1,2043 @@
+{
+    "Monday": {},
+    "Tuesday": {
+        "Algebra": [
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    4,
+                    9
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is a polynomial?",
+                        "options": [
+                            "3) An expression with only non-negative integers.",
+                            "4) A mathematical statement that cannot be simplified.",
+                            "1) An expression with variables and coefficients raised to whole number exponents.",
+                            "2) A type of graph that depicts a linear equation."
+                        ],
+                        "explanation": "A polynomial is defined as an expression that consists of variables raised to whole number exponents, along with coefficients, which is key to understanding polynomial functions.",
+                        "answer": "1) An expression with variables and coefficients raised to whole number exponents."
+                    },
+                    {
+                        "question": "What is the degree of a polynomial?",
+                        "options": [
+                            "3) The number of terms in the polynomial.",
+                            "1) The highest coefficient in the polynomial.",
+                            "2) The highest exponent of the variable in the expression.",
+                            "4) Always zero for constant polynomials."
+                        ],
+                        "explanation": "The degree of a polynomial is determined by the highest exponent present in the expression, which dictates the polynomial's behavior and graph.",
+                        "answer": "2) The highest exponent of the variable in the expression."
+                    },
+                    {
+                        "question": "In the trinomial ax\u00b2 + bx + c, what do we need to find to start factoring?",
+                        "options": [
+                            "1) Two numbers that are equal to a.",
+                            "2) Two numbers that multiply to (a * c) and add to b.",
+                            "4) The greatest common factor of all terms.",
+                            "3) The sum of all coefficients."
+                        ],
+                        "explanation": "To factor the trinomial ax\u00b2 + bx + c, we need to find two numbers that multiply to (a * c) and add up to b, which helps in breaking down the middle term.",
+                        "answer": "2) Two numbers that multiply to (a * c) and add to b."
+                    },
+                    {
+                        "question": "Which of the following is a special product pattern?",
+                        "options": [
+                            "4) The product of prime numbers.",
+                            "1) The sum of squares.",
+                            "2) The difference of squares: a\u00b2 - b\u00b2 = (a - b)(a + b).",
+                            "3) The cube of a binomial."
+                        ],
+                        "explanation": "The difference of squares is a well-known special product pattern that allows for easy factorization of expressions like a\u00b2 - b\u00b2 into the form (a - b)(a + b).",
+                        "answer": "2) The difference of squares: a\u00b2 - b\u00b2 = (a - b)(a + b)."
+                    },
+                    {
+                        "question": "What does the quadratic formula allow us to do?",
+                        "options": [
+                            "4) Graph a polynomial on the coordinate plane.",
+                            "3) Define any polynomial's degree.",
+                            "2) Find the roots of a polynomial without factoring.",
+                            "1) Factor any quadratic polynomial easily."
+                        ],
+                        "explanation": "The quadratic formula is used to find the roots or solutions of a quadratic polynomial, especially when it is difficult to factor that polynomial directly.",
+                        "answer": "2) Find the roots of a polynomial without factoring."
+                    },
+                    {
+                        "question": "What does the term 'factoring by grouping' refer to?",
+                        "options": [
+                            "4) Adding terms to make factorization easier.",
+                            "1) Grouping polynomials together.",
+                            "2) Separating variables from constants.",
+                            "3) Factoring an expression by pairing terms and factoring out common factors from each pair."
+                        ],
+                        "explanation": "Factoring by grouping involves rearranging and pairing terms to factor out common factors, making the process manageable for trinomials.",
+                        "answer": "3) Factoring an expression by pairing terms and factoring out common factors from each pair."
+                    },
+                    {
+                        "question": "How is a perfect square trinomial expressed?",
+                        "options": [
+                            "3) As a factorized expression with two single terms only.",
+                            "2) As (a + b)\u00b2 = a\u00b2 + 2ab + b\u00b2 or (a - b)\u00b2 = a\u00b2 - 2ab + b\u00b2.",
+                            "1) As a product of three common factors.",
+                            "4) As a simple linear equation."
+                        ],
+                        "explanation": "A perfect square trinomial follows the pattern of either (a + b)\u00b2 or (a - b)\u00b2, leading to specific expansion forms that aid in quick factorization.",
+                        "answer": "2) As (a + b)\u00b2 = a\u00b2 + 2ab + b\u00b2 or (a - b)\u00b2 = a\u00b2 - 2ab + b\u00b2."
+                    },
+                    {
+                        "question": "If the quadratic polynomial is 4x\u00b2 + 4x + 1, what can we say about its factorization?",
+                        "options": [
+                            "1) It does not factor neatly.",
+                            "3) It factors into three binomials.",
+                            "2) It can be factored into (2x + 1)\u00b2.",
+                            "4) It factors into linear equations."
+                        ],
+                        "explanation": "The expression 4x\u00b2 + 4x + 1 can be recognized as a perfect square trinomial and is factored as (2x + 1)\u00b2, showing its neat factorization.",
+                        "answer": "2) It can be factored into (2x + 1)\u00b2."
+                    },
+                    {
+                        "question": "What should you do if a quadratic polynomial cannot be factored easily?",
+                        "options": [
+                            "3) Write it as a product of binomials.",
+                            "1) Change the quadratic to a linear form.",
+                            "2) Use the quadratic formula to find its roots.",
+                            "4) Ignore it and move on."
+                        ],
+                        "explanation": "If a quadratic polynomial does not factor nicely, applying the quadratic formula is a reliable method to solve for its roots, providing solutions even for complex polynomials.",
+                        "answer": "2) Use the quadratic formula to find its roots."
+                    },
+                    {
+                        "question": "What is meant by the term 'factoring trinomials'?",
+                        "options": [
+                            "4) It simplifies a trinomial into a linear expression.",
+                            "1) It refers to adding terms together.",
+                            "2) It consists of rearranging polynomials without changing any values.",
+                            "3) It involves expressing a trinomial as the product of two binomials."
+                        ],
+                        "explanation": "Factoring trinomials refers to the process of rewriting a trinomial expression ax\u00b2 + bx + c as the product of two binomials, aiding in solving polynomial equations.",
+                        "answer": "3) It involves expressing a trinomial as the product of two binomials."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is a polynomial?",
+                        "options": [
+                            "3) An expression with only non-negative integers.",
+                            "4) A mathematical statement that cannot be simplified.",
+                            "1) An expression with variables and coefficients raised to whole number exponents.",
+                            "2) A type of graph that depicts a linear equation."
+                        ],
+                        "explanation": "A polynomial is defined as an expression that consists of variables raised to whole number exponents, along with coefficients, which is key to understanding polynomial functions.",
+                        "answer": "1) An expression with variables and coefficients raised to whole number exponents."
+                    },
+                    {
+                        "question": "What is the degree of a polynomial?",
+                        "options": [
+                            "3) The number of terms in the polynomial.",
+                            "1) The highest coefficient in the polynomial.",
+                            "2) The highest exponent of the variable in the expression.",
+                            "4) Always zero for constant polynomials."
+                        ],
+                        "explanation": "The degree of a polynomial is determined by the highest exponent present in the expression, which dictates the polynomial's behavior and graph.",
+                        "answer": "2) The highest exponent of the variable in the expression."
+                    },
+                    {
+                        "question": "In the trinomial ax\u00b2 + bx + c, what do we need to find to start factoring?",
+                        "options": [
+                            "1) Two numbers that are equal to a.",
+                            "2) Two numbers that multiply to (a * c) and add to b.",
+                            "4) The greatest common factor of all terms.",
+                            "3) The sum of all coefficients."
+                        ],
+                        "explanation": "To factor the trinomial ax\u00b2 + bx + c, we need to find two numbers that multiply to (a * c) and add up to b, which helps in breaking down the middle term.",
+                        "answer": "2) Two numbers that multiply to (a * c) and add to b."
+                    },
+                    {
+                        "question": "Which of the following is a special product pattern?",
+                        "options": [
+                            "4) The product of prime numbers.",
+                            "1) The sum of squares.",
+                            "2) The difference of squares: a\u00b2 - b\u00b2 = (a - b)(a + b).",
+                            "3) The cube of a binomial."
+                        ],
+                        "explanation": "The difference of squares is a well-known special product pattern that allows for easy factorization of expressions like a\u00b2 - b\u00b2 into the form (a - b)(a + b).",
+                        "answer": "2) The difference of squares: a\u00b2 - b\u00b2 = (a - b)(a + b)."
+                    },
+                    {
+                        "question": "What does the quadratic formula allow us to do?",
+                        "options": [
+                            "4) Graph a polynomial on the coordinate plane.",
+                            "3) Define any polynomial's degree.",
+                            "2) Find the roots of a polynomial without factoring.",
+                            "1) Factor any quadratic polynomial easily."
+                        ],
+                        "explanation": "The quadratic formula is used to find the roots or solutions of a quadratic polynomial, especially when it is difficult to factor that polynomial directly.",
+                        "answer": "2) Find the roots of a polynomial without factoring."
+                    },
+                    {
+                        "question": "What does the term 'factoring by grouping' refer to?",
+                        "options": [
+                            "4) Adding terms to make factorization easier.",
+                            "1) Grouping polynomials together.",
+                            "2) Separating variables from constants.",
+                            "3) Factoring an expression by pairing terms and factoring out common factors from each pair."
+                        ],
+                        "explanation": "Factoring by grouping involves rearranging and pairing terms to factor out common factors, making the process manageable for trinomials.",
+                        "answer": "3) Factoring an expression by pairing terms and factoring out common factors from each pair."
+                    },
+                    {
+                        "question": "How is a perfect square trinomial expressed?",
+                        "options": [
+                            "3) As a factorized expression with two single terms only.",
+                            "2) As (a + b)\u00b2 = a\u00b2 + 2ab + b\u00b2 or (a - b)\u00b2 = a\u00b2 - 2ab + b\u00b2.",
+                            "1) As a product of three common factors.",
+                            "4) As a simple linear equation."
+                        ],
+                        "explanation": "A perfect square trinomial follows the pattern of either (a + b)\u00b2 or (a - b)\u00b2, leading to specific expansion forms that aid in quick factorization.",
+                        "answer": "2) As (a + b)\u00b2 = a\u00b2 + 2ab + b\u00b2 or (a - b)\u00b2 = a\u00b2 - 2ab + b\u00b2."
+                    },
+                    {
+                        "question": "If the quadratic polynomial is 4x\u00b2 + 4x + 1, what can we say about its factorization?",
+                        "options": [
+                            "1) It does not factor neatly.",
+                            "3) It factors into three binomials.",
+                            "2) It can be factored into (2x + 1)\u00b2.",
+                            "4) It factors into linear equations."
+                        ],
+                        "explanation": "The expression 4x\u00b2 + 4x + 1 can be recognized as a perfect square trinomial and is factored as (2x + 1)\u00b2, showing its neat factorization.",
+                        "answer": "2) It can be factored into (2x + 1)\u00b2."
+                    },
+                    {
+                        "question": "What should you do if a quadratic polynomial cannot be factored easily?",
+                        "options": [
+                            "3) Write it as a product of binomials.",
+                            "1) Change the quadratic to a linear form.",
+                            "2) Use the quadratic formula to find its roots.",
+                            "4) Ignore it and move on."
+                        ],
+                        "explanation": "If a quadratic polynomial does not factor nicely, applying the quadratic formula is a reliable method to solve for its roots, providing solutions even for complex polynomials.",
+                        "answer": "2) Use the quadratic formula to find its roots."
+                    },
+                    {
+                        "question": "What is meant by the term 'factoring trinomials'?",
+                        "options": [
+                            "4) It simplifies a trinomial into a linear expression.",
+                            "1) It refers to adding terms together.",
+                            "2) It consists of rearranging polynomials without changing any values.",
+                            "3) It involves expressing a trinomial as the product of two binomials."
+                        ],
+                        "explanation": "Factoring trinomials refers to the process of rewriting a trinomial expression ax\u00b2 + bx + c as the product of two binomials, aiding in solving polynomial equations.",
+                        "answer": "3) It involves expressing a trinomial as the product of two binomials."
+                    }
+                ]
+            }
+        ],
+        "Astronomy": [
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    5,
+                    7
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is the largest storm in Jupiter's atmosphere known as?",
+                        "options": [
+                            "4) The Great Dark Spot",
+                            "1) The Great Blue Spot",
+                            "2) The Great Red Spot",
+                            "3) The Great White Spot"
+                        ],
+                        "explanation": "The Great Red Spot is a colossal storm on Jupiter, larger than Earth, that has been raging for over 350 years.",
+                        "answer": "2) The Great Red Spot"
+                    },
+                    {
+                        "question": "Which planet has the strongest winds in the solar system?",
+                        "options": [
+                            "2) Saturn",
+                            "3) Uranus",
+                            "1) Jupiter",
+                            "4) Neptune"
+                        ],
+                        "explanation": "Neptune has the strongest winds in the solar system, which can reach speeds of over 2,000 kilometers per hour.",
+                        "answer": "4) Neptune"
+                    },
+                    {
+                        "question": "What distinguishes Saturn's ring system from those of the other gas giants?",
+                        "options": [
+                            "4) It is the only ring system in the solar system",
+                            "2) It is the most complex and recognized",
+                            "1) It is less visible",
+                            "3) It is made entirely of gas"
+                        ],
+                        "explanation": "Saturn's ring system is the most prominent and recognizable due to its size and complexity compared to those of other outer planets.",
+                        "answer": "2) It is the most complex and recognized"
+                    },
+                    {
+                        "question": "What unique seasonal variations are caused by Uranus's axial tilt?",
+                        "options": [
+                            "1) Minimal seasonal changes",
+                            "2) Extreme seasonal variations",
+                            "4) Consistent temperatures year-round",
+                            "3) Regular seasonal patterns"
+                        ],
+                        "explanation": "Uranus's unique axial tilt of about 98 degrees results in extreme seasonal variations as different parts of the planet receive varying sunlight.",
+                        "answer": "2) Extreme seasonal variations"
+                    },
+                    {
+                        "question": "What notable feature does Neptune share with Jupiter's Great Red Spot?",
+                        "options": [
+                            "4) The Great Cloud Spot",
+                            "1) The Great Bright Spot",
+                            "3) The Great Ice Spot",
+                            "2) The Great Dark Spot"
+                        ],
+                        "explanation": "Neptune has a feature known as the Great Dark Spot, which is analogous to Jupiter's Great Red Spot but is often shorter-lived.",
+                        "answer": "2) The Great Dark Spot"
+                    },
+                    {
+                        "question": "Which planet\u2019s winds can exceed speeds of 360 kilometers per hour?",
+                        "options": [
+                            "4) Neptune",
+                            "3) Uranus",
+                            "1) Jupiter",
+                            "2) Saturn"
+                        ],
+                        "explanation": "Jupiter's strong winds can reach speeds of up to 360 kilometers per hour, creating dynamic weather patterns across the planet.",
+                        "answer": "1) Jupiter"
+                    },
+                    {
+                        "question": "What are Saturn's rings composed of?",
+                        "options": [
+                            "1) Ice and dust particles",
+                            "2) Gases and vapor",
+                            "4) Dust and sand",
+                            "3) Rock and metal chunks"
+                        ],
+                        "explanation": "Saturn's rings are composed of billions of ice particles, which vary in size, creating the iconic and stunning ring system.",
+                        "answer": "1) Ice and dust particles"
+                    },
+                    {
+                        "question": "How do the wind speeds on Saturn compare to those on Jupiter?",
+                        "options": [
+                            "2) Approximately the same",
+                            "4) Unmeasured wind speeds",
+                            "3) Significantly faster than Jupiter",
+                            "1) Slower than Jupiter"
+                        ],
+                        "explanation": "Saturn's winds blow even faster than those on Jupiter, making it an interesting case study in meteorology.",
+                        "answer": "3) Significantly faster than Jupiter"
+                    },
+                    {
+                        "question": "What key discoveries have recent space missions focused on regarding outer planets?",
+                        "options": [
+                            "3) Studying the atmospheres and potential habitability of outer planets",
+                            "1) Finding life on Mars",
+                            "4) Observing terrestrial planets",
+                            "2) Understanding the structure of Saturn's moons"
+                        ],
+                        "explanation": "Recent space missions have aimed to advance our understanding of the atmospheres of the outer planets and explore their potential for habitability.",
+                        "answer": "3) Studying the atmospheres and potential habitability of outer planets"
+                    },
+                    {
+                        "question": "What characteristic is shared among all four outer planets concerning their weather patterns?",
+                        "options": [
+                            "4) They have consistent weather throughout the year",
+                            "3) They are unaffected by solar activity",
+                            "2) They all experience extreme weather with high-speed winds",
+                            "1) All have solid surfaces"
+                        ],
+                        "explanation": "All four outer planets (Jupiter, Saturn, Uranus, and Neptune) exhibit extreme weather patterns with high-speed winds, making them dynamic environments.",
+                        "answer": "2) They all experience extreme weather with high-speed winds"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    5
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is the largest storm in Jupiter's atmosphere known as?",
+                        "options": [
+                            "4) The Great Dark Spot",
+                            "1) The Great Blue Spot",
+                            "2) The Great Red Spot",
+                            "3) The Great White Spot"
+                        ],
+                        "explanation": "The Great Red Spot is a colossal storm on Jupiter, larger than Earth, that has been raging for over 350 years.",
+                        "answer": "2) The Great Red Spot"
+                    },
+                    {
+                        "question": "Which planet has the strongest winds in the solar system?",
+                        "options": [
+                            "2) Saturn",
+                            "3) Uranus",
+                            "1) Jupiter",
+                            "4) Neptune"
+                        ],
+                        "explanation": "Neptune has the strongest winds in the solar system, which can reach speeds of over 2,000 kilometers per hour.",
+                        "answer": "4) Neptune"
+                    },
+                    {
+                        "question": "What distinguishes Saturn's ring system from those of the other gas giants?",
+                        "options": [
+                            "4) It is the only ring system in the solar system",
+                            "2) It is the most complex and recognized",
+                            "1) It is less visible",
+                            "3) It is made entirely of gas"
+                        ],
+                        "explanation": "Saturn's ring system is the most prominent and recognizable due to its size and complexity compared to those of other outer planets.",
+                        "answer": "2) It is the most complex and recognized"
+                    },
+                    {
+                        "question": "What unique seasonal variations are caused by Uranus's axial tilt?",
+                        "options": [
+                            "1) Minimal seasonal changes",
+                            "2) Extreme seasonal variations",
+                            "4) Consistent temperatures year-round",
+                            "3) Regular seasonal patterns"
+                        ],
+                        "explanation": "Uranus's unique axial tilt of about 98 degrees results in extreme seasonal variations as different parts of the planet receive varying sunlight.",
+                        "answer": "2) Extreme seasonal variations"
+                    },
+                    {
+                        "question": "What notable feature does Neptune share with Jupiter's Great Red Spot?",
+                        "options": [
+                            "4) The Great Cloud Spot",
+                            "1) The Great Bright Spot",
+                            "3) The Great Ice Spot",
+                            "2) The Great Dark Spot"
+                        ],
+                        "explanation": "Neptune has a feature known as the Great Dark Spot, which is analogous to Jupiter's Great Red Spot but is often shorter-lived.",
+                        "answer": "2) The Great Dark Spot"
+                    },
+                    {
+                        "question": "Which planet\u2019s winds can exceed speeds of 360 kilometers per hour?",
+                        "options": [
+                            "4) Neptune",
+                            "3) Uranus",
+                            "1) Jupiter",
+                            "2) Saturn"
+                        ],
+                        "explanation": "Jupiter's strong winds can reach speeds of up to 360 kilometers per hour, creating dynamic weather patterns across the planet.",
+                        "answer": "1) Jupiter"
+                    },
+                    {
+                        "question": "What are Saturn's rings composed of?",
+                        "options": [
+                            "1) Ice and dust particles",
+                            "2) Gases and vapor",
+                            "4) Dust and sand",
+                            "3) Rock and metal chunks"
+                        ],
+                        "explanation": "Saturn's rings are composed of billions of ice particles, which vary in size, creating the iconic and stunning ring system.",
+                        "answer": "1) Ice and dust particles"
+                    },
+                    {
+                        "question": "How do the wind speeds on Saturn compare to those on Jupiter?",
+                        "options": [
+                            "2) Approximately the same",
+                            "4) Unmeasured wind speeds",
+                            "3) Significantly faster than Jupiter",
+                            "1) Slower than Jupiter"
+                        ],
+                        "explanation": "Saturn's winds blow even faster than those on Jupiter, making it an interesting case study in meteorology.",
+                        "answer": "3) Significantly faster than Jupiter"
+                    },
+                    {
+                        "question": "What key discoveries have recent space missions focused on regarding outer planets?",
+                        "options": [
+                            "3) Studying the atmospheres and potential habitability of outer planets",
+                            "1) Finding life on Mars",
+                            "4) Observing terrestrial planets",
+                            "2) Understanding the structure of Saturn's moons"
+                        ],
+                        "explanation": "Recent space missions have aimed to advance our understanding of the atmospheres of the outer planets and explore their potential for habitability.",
+                        "answer": "3) Studying the atmospheres and potential habitability of outer planets"
+                    },
+                    {
+                        "question": "What characteristic is shared among all four outer planets concerning their weather patterns?",
+                        "options": [
+                            "4) They have consistent weather throughout the year",
+                            "3) They are unaffected by solar activity",
+                            "2) They all experience extreme weather with high-speed winds",
+                            "1) All have solid surfaces"
+                        ],
+                        "explanation": "All four outer planets (Jupiter, Saturn, Uranus, and Neptune) exhibit extreme weather patterns with high-speed winds, making them dynamic environments.",
+                        "answer": "2) They all experience extreme weather with high-speed winds"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    5
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What is the largest storm in Jupiter's atmosphere known as?",
+                        "options": [
+                            "4) The Great Dark Spot",
+                            "1) The Great Blue Spot",
+                            "2) The Great Red Spot",
+                            "3) The Great White Spot"
+                        ],
+                        "explanation": "The Great Red Spot is a colossal storm on Jupiter, larger than Earth, that has been raging for over 350 years.",
+                        "answer": "2) The Great Red Spot"
+                    },
+                    {
+                        "question": "Which planet has the strongest winds in the solar system?",
+                        "options": [
+                            "2) Saturn",
+                            "3) Uranus",
+                            "1) Jupiter",
+                            "4) Neptune"
+                        ],
+                        "explanation": "Neptune has the strongest winds in the solar system, which can reach speeds of over 2,000 kilometers per hour.",
+                        "answer": "4) Neptune"
+                    },
+                    {
+                        "question": "What distinguishes Saturn's ring system from those of the other gas giants?",
+                        "options": [
+                            "4) It is the only ring system in the solar system",
+                            "2) It is the most complex and recognized",
+                            "1) It is less visible",
+                            "3) It is made entirely of gas"
+                        ],
+                        "explanation": "Saturn's ring system is the most prominent and recognizable due to its size and complexity compared to those of other outer planets.",
+                        "answer": "2) It is the most complex and recognized"
+                    },
+                    {
+                        "question": "What unique seasonal variations are caused by Uranus's axial tilt?",
+                        "options": [
+                            "1) Minimal seasonal changes",
+                            "2) Extreme seasonal variations",
+                            "4) Consistent temperatures year-round",
+                            "3) Regular seasonal patterns"
+                        ],
+                        "explanation": "Uranus's unique axial tilt of about 98 degrees results in extreme seasonal variations as different parts of the planet receive varying sunlight.",
+                        "answer": "2) Extreme seasonal variations"
+                    },
+                    {
+                        "question": "What notable feature does Neptune share with Jupiter's Great Red Spot?",
+                        "options": [
+                            "4) The Great Cloud Spot",
+                            "1) The Great Bright Spot",
+                            "3) The Great Ice Spot",
+                            "2) The Great Dark Spot"
+                        ],
+                        "explanation": "Neptune has a feature known as the Great Dark Spot, which is analogous to Jupiter's Great Red Spot but is often shorter-lived.",
+                        "answer": "2) The Great Dark Spot"
+                    },
+                    {
+                        "question": "Which planet\u2019s winds can exceed speeds of 360 kilometers per hour?",
+                        "options": [
+                            "4) Neptune",
+                            "3) Uranus",
+                            "1) Jupiter",
+                            "2) Saturn"
+                        ],
+                        "explanation": "Jupiter's strong winds can reach speeds of up to 360 kilometers per hour, creating dynamic weather patterns across the planet.",
+                        "answer": "1) Jupiter"
+                    },
+                    {
+                        "question": "What are Saturn's rings composed of?",
+                        "options": [
+                            "1) Ice and dust particles",
+                            "2) Gases and vapor",
+                            "4) Dust and sand",
+                            "3) Rock and metal chunks"
+                        ],
+                        "explanation": "Saturn's rings are composed of billions of ice particles, which vary in size, creating the iconic and stunning ring system.",
+                        "answer": "1) Ice and dust particles"
+                    },
+                    {
+                        "question": "How do the wind speeds on Saturn compare to those on Jupiter?",
+                        "options": [
+                            "2) Approximately the same",
+                            "4) Unmeasured wind speeds",
+                            "3) Significantly faster than Jupiter",
+                            "1) Slower than Jupiter"
+                        ],
+                        "explanation": "Saturn's winds blow even faster than those on Jupiter, making it an interesting case study in meteorology.",
+                        "answer": "3) Significantly faster than Jupiter"
+                    },
+                    {
+                        "question": "What key discoveries have recent space missions focused on regarding outer planets?",
+                        "options": [
+                            "3) Studying the atmospheres and potential habitability of outer planets",
+                            "1) Finding life on Mars",
+                            "4) Observing terrestrial planets",
+                            "2) Understanding the structure of Saturn's moons"
+                        ],
+                        "explanation": "Recent space missions have aimed to advance our understanding of the atmospheres of the outer planets and explore their potential for habitability.",
+                        "answer": "3) Studying the atmospheres and potential habitability of outer planets"
+                    },
+                    {
+                        "question": "What characteristic is shared among all four outer planets concerning their weather patterns?",
+                        "options": [
+                            "4) They have consistent weather throughout the year",
+                            "3) They are unaffected by solar activity",
+                            "2) They all experience extreme weather with high-speed winds",
+                            "1) All have solid surfaces"
+                        ],
+                        "explanation": "All four outer planets (Jupiter, Saturn, Uranus, and Neptune) exhibit extreme weather patterns with high-speed winds, making them dynamic environments.",
+                        "answer": "2) They all experience extreme weather with high-speed winds"
+                    }
+                ]
+            }
+        ],
+        "Computer Science": [
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    4,
+                    7
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is the definition of Object-Oriented Programming (OOP)?",
+                        "options": [
+                            "4) A programming approach that ignores data modeling.",
+                            "1) A programming paradigm that uses 'objects' to represent data and methods.",
+                            "3) A method that involves writing sequential code.",
+                            "2) A way to write programs using only functions."
+                        ],
+                        "explanation": "OOP is defined as a programming paradigm that uses 'objects' to encapsulate data and methods, allowing for organized and modular coding practices.",
+                        "answer": "1) A programming paradigm that uses 'objects' to represent data and methods."
+                    },
+                    {
+                        "question": "What does the term polymorphism refer to in Object-Oriented Programming?",
+                        "options": [
+                            "4) The organization of functions into classes.",
+                            "2) The ability of an object to modify its properties at runtime.",
+                            "1) Multiple shapes or forms for methods based on the object invoking them.",
+                            "3) The practice of writing code in different programming languages."
+                        ],
+                        "explanation": "Polymorphism refers to the ability of methods to exhibit different behaviors based on the object that calls them, allowing for a flexible code structure.",
+                        "answer": "1) Multiple shapes or forms for methods based on the object invoking them."
+                    },
+                    {
+                        "question": "Which design principle does inheritance in OOP primarily promote?",
+                        "options": [
+                            "1) Code reusability and hierarchical class design.",
+                            "3) The elimination of data abstraction.",
+                            "4) A flat structure of methods without relationships.",
+                            "2) Complete isolation of classes."
+                        ],
+                        "explanation": "Inheritance promotes code reusability by allowing subclasses to inherit properties and methods from superclasses, establishing a natural hierarchy among classes.",
+                        "answer": "1) Code reusability and hierarchical class design."
+                    },
+                    {
+                        "question": "How does method overloading achieve polymorphism?",
+                        "options": [
+                            "2) By executing methods based on user input.",
+                            "4) By allowing method execution only at runtime.",
+                            "3) By preventing methods from having the same name in a class.",
+                            "1) By allowing multiple methods with the same name but different parameters."
+                        ],
+                        "explanation": "Method overloading achieves compile-time polymorphism by allowing the same method name to have different implementations based on the parameters provided.",
+                        "answer": "1) By allowing multiple methods with the same name but different parameters."
+                    },
+                    {
+                        "question": "What is the role of classes in Object-Oriented Programming?",
+                        "options": [
+                            "4) To control the flow of programs through loops.",
+                            "3) To manage user interfaces in applications.",
+                            "1) To serve as blueprints for creating objects.",
+                            "2) To define only variables without any methods."
+                        ],
+                        "explanation": "Classes act as blueprints for creating objects, encapsulating both data and methods that define their behavior and states.",
+                        "answer": "1) To serve as blueprints for creating objects."
+                    },
+                    {
+                        "question": "What does encapsulation in OOP entail?",
+                        "options": [
+                            "4) Storing data outside of the program's control.",
+                            "2) Making all attributes public within a class.",
+                            "1) Hiding the internal state of objects while exposing necessary parts.",
+                            "3) Creating multiple instances of a class quickly."
+                        ],
+                        "explanation": "Encapsulation involves hiding the internal state of an object and exposing only the methods that are necessary for interaction, enhancing security and reducing complexity.",
+                        "answer": "1) Hiding the internal state of objects while exposing necessary parts."
+                    },
+                    {
+                        "question": "What is the significance of method overriding in OOP?",
+                        "options": [
+                            "3) It enforces the same behavior across all subclasses unconditionally.",
+                            "1) It allows subclasses to provide specific implementation for inherited methods.",
+                            "4) It ensures that only one type of object can exist per class.",
+                            "2) It prevents any method from being changed once created."
+                        ],
+                        "explanation": "Method overriding allows a subclass to provide its own implementation for a method previously defined in its superclass, enabling specific behaviors while adhering to the same interface.",
+                        "answer": "1) It allows subclasses to provide specific implementation for inherited methods."
+                    },
+                    {
+                        "question": "In the ATM example discussed, what type of class was mentioned as a possible extension of the base class 'ATM'?",
+                        "options": [
+                            "1) SavingsATM and BusinessATM",
+                            "3) BasicATM and PremiumATM",
+                            "4) WithdrawATM and DepositATM",
+                            "2) TransactionATM and UserATM"
+                        ],
+                        "explanation": "Extending the base class 'ATM', the subclasses SavingsATM and BusinessATM were provided as examples of how specific functionality could be tailored for different use cases.",
+                        "answer": "1) SavingsATM and BusinessATM"
+                    },
+                    {
+                        "question": "What are the primary types of polymorphism mentioned in the lecture?",
+                        "options": [
+                            "1) Compile-time polymorphism and runtime polymorphism.",
+                            "4) Data abstraction and data encapsulation.",
+                            "3) Class-based and function-based polymorphism.",
+                            "2) Static typing and dynamic typing."
+                        ],
+                        "explanation": "The lecture highlighted compile-time polymorphism (through method overloading) and runtime polymorphism (through method overriding) as the two main types of polymorphism in OOP.",
+                        "answer": "1) Compile-time polymorphism and runtime polymorphism."
+                    },
+                    {
+                        "question": "Which feature of OOP reduces complexity for users interacting with a program?",
+                        "options": [
+                            "3) Writing all code in one long script without classes.",
+                            "1) Abstraction through classes and encapsulation of details.",
+                            "4) Keeping all data in separate files rather than classes.",
+                            "2) Direct access to all object methods and attributes."
+                        ],
+                        "explanation": "Abstraction and encapsulation simplify user interaction by hiding unnecessary details and exposing only relevant functionalities of an object, which reduces complexity.",
+                        "answer": "1) Abstraction through classes and encapsulation of details."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    7
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is the definition of Object-Oriented Programming (OOP)?",
+                        "options": [
+                            "4) A programming approach that ignores data modeling.",
+                            "1) A programming paradigm that uses 'objects' to represent data and methods.",
+                            "3) A method that involves writing sequential code.",
+                            "2) A way to write programs using only functions."
+                        ],
+                        "explanation": "OOP is defined as a programming paradigm that uses 'objects' to encapsulate data and methods, allowing for organized and modular coding practices.",
+                        "answer": "1) A programming paradigm that uses 'objects' to represent data and methods."
+                    },
+                    {
+                        "question": "What does the term polymorphism refer to in Object-Oriented Programming?",
+                        "options": [
+                            "4) The organization of functions into classes.",
+                            "2) The ability of an object to modify its properties at runtime.",
+                            "1) Multiple shapes or forms for methods based on the object invoking them.",
+                            "3) The practice of writing code in different programming languages."
+                        ],
+                        "explanation": "Polymorphism refers to the ability of methods to exhibit different behaviors based on the object that calls them, allowing for a flexible code structure.",
+                        "answer": "1) Multiple shapes or forms for methods based on the object invoking them."
+                    },
+                    {
+                        "question": "Which design principle does inheritance in OOP primarily promote?",
+                        "options": [
+                            "1) Code reusability and hierarchical class design.",
+                            "3) The elimination of data abstraction.",
+                            "4) A flat structure of methods without relationships.",
+                            "2) Complete isolation of classes."
+                        ],
+                        "explanation": "Inheritance promotes code reusability by allowing subclasses to inherit properties and methods from superclasses, establishing a natural hierarchy among classes.",
+                        "answer": "1) Code reusability and hierarchical class design."
+                    },
+                    {
+                        "question": "How does method overloading achieve polymorphism?",
+                        "options": [
+                            "2) By executing methods based on user input.",
+                            "4) By allowing method execution only at runtime.",
+                            "3) By preventing methods from having the same name in a class.",
+                            "1) By allowing multiple methods with the same name but different parameters."
+                        ],
+                        "explanation": "Method overloading achieves compile-time polymorphism by allowing the same method name to have different implementations based on the parameters provided.",
+                        "answer": "1) By allowing multiple methods with the same name but different parameters."
+                    },
+                    {
+                        "question": "What is the role of classes in Object-Oriented Programming?",
+                        "options": [
+                            "4) To control the flow of programs through loops.",
+                            "3) To manage user interfaces in applications.",
+                            "1) To serve as blueprints for creating objects.",
+                            "2) To define only variables without any methods."
+                        ],
+                        "explanation": "Classes act as blueprints for creating objects, encapsulating both data and methods that define their behavior and states.",
+                        "answer": "1) To serve as blueprints for creating objects."
+                    },
+                    {
+                        "question": "What does encapsulation in OOP entail?",
+                        "options": [
+                            "4) Storing data outside of the program's control.",
+                            "2) Making all attributes public within a class.",
+                            "1) Hiding the internal state of objects while exposing necessary parts.",
+                            "3) Creating multiple instances of a class quickly."
+                        ],
+                        "explanation": "Encapsulation involves hiding the internal state of an object and exposing only the methods that are necessary for interaction, enhancing security and reducing complexity.",
+                        "answer": "1) Hiding the internal state of objects while exposing necessary parts."
+                    },
+                    {
+                        "question": "What is the significance of method overriding in OOP?",
+                        "options": [
+                            "3) It enforces the same behavior across all subclasses unconditionally.",
+                            "1) It allows subclasses to provide specific implementation for inherited methods.",
+                            "4) It ensures that only one type of object can exist per class.",
+                            "2) It prevents any method from being changed once created."
+                        ],
+                        "explanation": "Method overriding allows a subclass to provide its own implementation for a method previously defined in its superclass, enabling specific behaviors while adhering to the same interface.",
+                        "answer": "1) It allows subclasses to provide specific implementation for inherited methods."
+                    },
+                    {
+                        "question": "In the ATM example discussed, what type of class was mentioned as a possible extension of the base class 'ATM'?",
+                        "options": [
+                            "1) SavingsATM and BusinessATM",
+                            "3) BasicATM and PremiumATM",
+                            "4) WithdrawATM and DepositATM",
+                            "2) TransactionATM and UserATM"
+                        ],
+                        "explanation": "Extending the base class 'ATM', the subclasses SavingsATM and BusinessATM were provided as examples of how specific functionality could be tailored for different use cases.",
+                        "answer": "1) SavingsATM and BusinessATM"
+                    },
+                    {
+                        "question": "What are the primary types of polymorphism mentioned in the lecture?",
+                        "options": [
+                            "1) Compile-time polymorphism and runtime polymorphism.",
+                            "4) Data abstraction and data encapsulation.",
+                            "3) Class-based and function-based polymorphism.",
+                            "2) Static typing and dynamic typing."
+                        ],
+                        "explanation": "The lecture highlighted compile-time polymorphism (through method overloading) and runtime polymorphism (through method overriding) as the two main types of polymorphism in OOP.",
+                        "answer": "1) Compile-time polymorphism and runtime polymorphism."
+                    },
+                    {
+                        "question": "Which feature of OOP reduces complexity for users interacting with a program?",
+                        "options": [
+                            "3) Writing all code in one long script without classes.",
+                            "1) Abstraction through classes and encapsulation of details.",
+                            "4) Keeping all data in separate files rather than classes.",
+                            "2) Direct access to all object methods and attributes."
+                        ],
+                        "explanation": "Abstraction and encapsulation simplify user interaction by hiding unnecessary details and exposing only relevant functionalities of an object, which reduces complexity.",
+                        "answer": "1) Abstraction through classes and encapsulation of details."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    7
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What is the definition of Object-Oriented Programming (OOP)?",
+                        "options": [
+                            "4) A programming approach that ignores data modeling.",
+                            "1) A programming paradigm that uses 'objects' to represent data and methods.",
+                            "3) A method that involves writing sequential code.",
+                            "2) A way to write programs using only functions."
+                        ],
+                        "explanation": "OOP is defined as a programming paradigm that uses 'objects' to encapsulate data and methods, allowing for organized and modular coding practices.",
+                        "answer": "1) A programming paradigm that uses 'objects' to represent data and methods."
+                    },
+                    {
+                        "question": "What does the term polymorphism refer to in Object-Oriented Programming?",
+                        "options": [
+                            "4) The organization of functions into classes.",
+                            "2) The ability of an object to modify its properties at runtime.",
+                            "1) Multiple shapes or forms for methods based on the object invoking them.",
+                            "3) The practice of writing code in different programming languages."
+                        ],
+                        "explanation": "Polymorphism refers to the ability of methods to exhibit different behaviors based on the object that calls them, allowing for a flexible code structure.",
+                        "answer": "1) Multiple shapes or forms for methods based on the object invoking them."
+                    },
+                    {
+                        "question": "Which design principle does inheritance in OOP primarily promote?",
+                        "options": [
+                            "1) Code reusability and hierarchical class design.",
+                            "3) The elimination of data abstraction.",
+                            "4) A flat structure of methods without relationships.",
+                            "2) Complete isolation of classes."
+                        ],
+                        "explanation": "Inheritance promotes code reusability by allowing subclasses to inherit properties and methods from superclasses, establishing a natural hierarchy among classes.",
+                        "answer": "1) Code reusability and hierarchical class design."
+                    },
+                    {
+                        "question": "How does method overloading achieve polymorphism?",
+                        "options": [
+                            "2) By executing methods based on user input.",
+                            "4) By allowing method execution only at runtime.",
+                            "3) By preventing methods from having the same name in a class.",
+                            "1) By allowing multiple methods with the same name but different parameters."
+                        ],
+                        "explanation": "Method overloading achieves compile-time polymorphism by allowing the same method name to have different implementations based on the parameters provided.",
+                        "answer": "1) By allowing multiple methods with the same name but different parameters."
+                    },
+                    {
+                        "question": "What is the role of classes in Object-Oriented Programming?",
+                        "options": [
+                            "4) To control the flow of programs through loops.",
+                            "3) To manage user interfaces in applications.",
+                            "1) To serve as blueprints for creating objects.",
+                            "2) To define only variables without any methods."
+                        ],
+                        "explanation": "Classes act as blueprints for creating objects, encapsulating both data and methods that define their behavior and states.",
+                        "answer": "1) To serve as blueprints for creating objects."
+                    },
+                    {
+                        "question": "What does encapsulation in OOP entail?",
+                        "options": [
+                            "4) Storing data outside of the program's control.",
+                            "2) Making all attributes public within a class.",
+                            "1) Hiding the internal state of objects while exposing necessary parts.",
+                            "3) Creating multiple instances of a class quickly."
+                        ],
+                        "explanation": "Encapsulation involves hiding the internal state of an object and exposing only the methods that are necessary for interaction, enhancing security and reducing complexity.",
+                        "answer": "1) Hiding the internal state of objects while exposing necessary parts."
+                    },
+                    {
+                        "question": "What is the significance of method overriding in OOP?",
+                        "options": [
+                            "3) It enforces the same behavior across all subclasses unconditionally.",
+                            "1) It allows subclasses to provide specific implementation for inherited methods.",
+                            "4) It ensures that only one type of object can exist per class.",
+                            "2) It prevents any method from being changed once created."
+                        ],
+                        "explanation": "Method overriding allows a subclass to provide its own implementation for a method previously defined in its superclass, enabling specific behaviors while adhering to the same interface.",
+                        "answer": "1) It allows subclasses to provide specific implementation for inherited methods."
+                    },
+                    {
+                        "question": "In the ATM example discussed, what type of class was mentioned as a possible extension of the base class 'ATM'?",
+                        "options": [
+                            "1) SavingsATM and BusinessATM",
+                            "3) BasicATM and PremiumATM",
+                            "4) WithdrawATM and DepositATM",
+                            "2) TransactionATM and UserATM"
+                        ],
+                        "explanation": "Extending the base class 'ATM', the subclasses SavingsATM and BusinessATM were provided as examples of how specific functionality could be tailored for different use cases.",
+                        "answer": "1) SavingsATM and BusinessATM"
+                    },
+                    {
+                        "question": "What are the primary types of polymorphism mentioned in the lecture?",
+                        "options": [
+                            "1) Compile-time polymorphism and runtime polymorphism.",
+                            "4) Data abstraction and data encapsulation.",
+                            "3) Class-based and function-based polymorphism.",
+                            "2) Static typing and dynamic typing."
+                        ],
+                        "explanation": "The lecture highlighted compile-time polymorphism (through method overloading) and runtime polymorphism (through method overriding) as the two main types of polymorphism in OOP.",
+                        "answer": "1) Compile-time polymorphism and runtime polymorphism."
+                    },
+                    {
+                        "question": "Which feature of OOP reduces complexity for users interacting with a program?",
+                        "options": [
+                            "3) Writing all code in one long script without classes.",
+                            "1) Abstraction through classes and encapsulation of details.",
+                            "4) Keeping all data in separate files rather than classes.",
+                            "2) Direct access to all object methods and attributes."
+                        ],
+                        "explanation": "Abstraction and encapsulation simplify user interaction by hiding unnecessary details and exposing only relevant functionalities of an object, which reduces complexity.",
+                        "answer": "1) Abstraction through classes and encapsulation of details."
+                    }
+                ]
+            }
+        ],
+        "English": [
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    7
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is the first step in crafting a strong argumentative essay?",
+                        "options": [
+                            "3) Addressing counterarguments",
+                            "1) Drafting your essay",
+                            "2) Researching evidence",
+                            "4) Discussing personal anecdotes"
+                        ],
+                        "explanation": "The first step in crafting a strong argumentative essay is to research evidence that supports your claims.",
+                        "answer": "2) Researching evidence"
+                    },
+                    {
+                        "question": "Why is it important to evaluate the credibility of your sources when gathering evidence?",
+                        "options": [
+                            "1) To support only your viewpoint",
+                            "3) To ensure your data stands up to scrutiny",
+                            "2) To ignore opposing arguments",
+                            "4) To enhance personal expression"
+                        ],
+                        "explanation": "Evaluating the credibility of your sources is crucial to ensure that the information you use is reliable and will stand up to scrutiny.",
+                        "answer": "3) To ensure your data stands up to scrutiny"
+                    },
+                    {
+                        "question": "What does addressing counterarguments in your essay signify?",
+                        "options": [
+                            "4) You want to confuse your reader",
+                            "1) You are ignoring other perspectives",
+                            "3) You have considered opposing viewpoints",
+                            "2) You are showing a lack of confidence in your argument"
+                        ],
+                        "explanation": "Addressing counterarguments shows that you have considered other perspectives and strengthens your overall argument by demonstrating credibility and comprehension of the topic.",
+                        "answer": "3) You have considered opposing viewpoints"
+                    },
+                    {
+                        "question": "What should your introduction contain in an argumentative essay?",
+                        "options": [
+                            "4) Only personal opinions",
+                            "1) A conclusion",
+                            "3) A background and a hook to engage the reader",
+                            "2) A strong thesis statement without context"
+                        ],
+                        "explanation": "Your introduction should hook the reader with a strong statement and provide context, ultimately leading to a clear thesis statement outlining your main points.",
+                        "answer": "3) A background and a hook to engage the reader"
+                    },
+                    {
+                        "question": "What is one effective strategy for writing body paragraphs in an argumentative essay?",
+                        "options": [
+                            "4) Overlap ideas without transitions",
+                            "3) Omit evidence and analysis",
+                            "2) Begin with a topic sentence that states the point",
+                            "1) Focus on multiple points at once"
+                        ],
+                        "explanation": "Each body paragraph should focus on a single point and begin with a topic sentence that clearly states that point, followed by evidence and an analysis of how it supports your argument.",
+                        "answer": "2) Begin with a topic sentence that states the point"
+                    },
+                    {
+                        "question": "What is the iterative process of drafting your argumentative essay meant to achieve?",
+                        "options": [
+                            "1) Immediate perfection in writing",
+                            "3) Making the essay longer",
+                            "4) Reducing the clarity of your argument",
+                            "2) Organizing your initial ideas and thoughts"
+                        ],
+                        "explanation": "The iterative process of drafting helps in organizing your initial ideas and thoughts, allowing for revisions that improve clarity and coherence over time.",
+                        "answer": "2) Organizing your initial ideas and thoughts"
+                    },
+                    {
+                        "question": "When should qualitative evidence be used in an argumentative essay?",
+                        "options": [
+                            "4) Only in the conclusion",
+                            "1) As the only source of evidence",
+                            "3) To avoid presenting analytical evidence",
+                            "2) To accompany quantitative data"
+                        ],
+                        "explanation": "Qualitative evidence, like personal anecdotes, can complement quantitative data, but should not be the sole form of evidence used in your argument.",
+                        "answer": "2) To accompany quantitative data"
+                    },
+                    {
+                        "question": "What should effectively follow a counterargument in an argumentative essay?",
+                        "options": [
+                            "1) A personal opinion",
+                            "4) A restatement of personal biases",
+                            "2) A strong rebuttal",
+                            "3) Ignoring the counterargument"
+                        ],
+                        "explanation": "A strong rebuttal should follow a counterargument to demonstrate why your argument remains stronger, effectively addressing opposing viewpoints.",
+                        "answer": "2) A strong rebuttal"
+                    },
+                    {
+                        "question": "In the conclusion of an argumentative essay, what is important to do?",
+                        "options": [
+                            "3) Leave the reader confused",
+                            "4) Include only personal experiences",
+                            "2) Summarize main points and restate the thesis",
+                            "1) Introduce new arguments"
+                        ],
+                        "explanation": "In the conclusion, you should summarize your main points and restate your thesis in light of the evidence presented, reinforcing your argument's strength.",
+                        "answer": "2) Summarize main points and restate the thesis"
+                    },
+                    {
+                        "question": "How many pieces of evidence should you aim to find to support each main point in your essay?",
+                        "options": [
+                            "4) Any amount of evidence",
+                            "1) At least one",
+                            "2) At least three",
+                            "3) At least two"
+                        ],
+                        "explanation": "For every main point, you should aim to find at least two pieces of evidence to show a well-rounded understanding of the topic and reinforce your claims.",
+                        "answer": "3) At least two"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is the first step in crafting a strong argumentative essay?",
+                        "options": [
+                            "3) Addressing counterarguments",
+                            "1) Drafting your essay",
+                            "2) Researching evidence",
+                            "4) Discussing personal anecdotes"
+                        ],
+                        "explanation": "The first step in crafting a strong argumentative essay is to research evidence that supports your claims.",
+                        "answer": "2) Researching evidence"
+                    },
+                    {
+                        "question": "Why is it important to evaluate the credibility of your sources when gathering evidence?",
+                        "options": [
+                            "1) To support only your viewpoint",
+                            "3) To ensure your data stands up to scrutiny",
+                            "2) To ignore opposing arguments",
+                            "4) To enhance personal expression"
+                        ],
+                        "explanation": "Evaluating the credibility of your sources is crucial to ensure that the information you use is reliable and will stand up to scrutiny.",
+                        "answer": "3) To ensure your data stands up to scrutiny"
+                    },
+                    {
+                        "question": "What does addressing counterarguments in your essay signify?",
+                        "options": [
+                            "4) You want to confuse your reader",
+                            "1) You are ignoring other perspectives",
+                            "3) You have considered opposing viewpoints",
+                            "2) You are showing a lack of confidence in your argument"
+                        ],
+                        "explanation": "Addressing counterarguments shows that you have considered other perspectives and strengthens your overall argument by demonstrating credibility and comprehension of the topic.",
+                        "answer": "3) You have considered opposing viewpoints"
+                    },
+                    {
+                        "question": "What should your introduction contain in an argumentative essay?",
+                        "options": [
+                            "4) Only personal opinions",
+                            "1) A conclusion",
+                            "3) A background and a hook to engage the reader",
+                            "2) A strong thesis statement without context"
+                        ],
+                        "explanation": "Your introduction should hook the reader with a strong statement and provide context, ultimately leading to a clear thesis statement outlining your main points.",
+                        "answer": "3) A background and a hook to engage the reader"
+                    },
+                    {
+                        "question": "What is one effective strategy for writing body paragraphs in an argumentative essay?",
+                        "options": [
+                            "4) Overlap ideas without transitions",
+                            "3) Omit evidence and analysis",
+                            "2) Begin with a topic sentence that states the point",
+                            "1) Focus on multiple points at once"
+                        ],
+                        "explanation": "Each body paragraph should focus on a single point and begin with a topic sentence that clearly states that point, followed by evidence and an analysis of how it supports your argument.",
+                        "answer": "2) Begin with a topic sentence that states the point"
+                    },
+                    {
+                        "question": "What is the iterative process of drafting your argumentative essay meant to achieve?",
+                        "options": [
+                            "1) Immediate perfection in writing",
+                            "3) Making the essay longer",
+                            "4) Reducing the clarity of your argument",
+                            "2) Organizing your initial ideas and thoughts"
+                        ],
+                        "explanation": "The iterative process of drafting helps in organizing your initial ideas and thoughts, allowing for revisions that improve clarity and coherence over time.",
+                        "answer": "2) Organizing your initial ideas and thoughts"
+                    },
+                    {
+                        "question": "When should qualitative evidence be used in an argumentative essay?",
+                        "options": [
+                            "4) Only in the conclusion",
+                            "1) As the only source of evidence",
+                            "3) To avoid presenting analytical evidence",
+                            "2) To accompany quantitative data"
+                        ],
+                        "explanation": "Qualitative evidence, like personal anecdotes, can complement quantitative data, but should not be the sole form of evidence used in your argument.",
+                        "answer": "2) To accompany quantitative data"
+                    },
+                    {
+                        "question": "What should effectively follow a counterargument in an argumentative essay?",
+                        "options": [
+                            "1) A personal opinion",
+                            "4) A restatement of personal biases",
+                            "2) A strong rebuttal",
+                            "3) Ignoring the counterargument"
+                        ],
+                        "explanation": "A strong rebuttal should follow a counterargument to demonstrate why your argument remains stronger, effectively addressing opposing viewpoints.",
+                        "answer": "2) A strong rebuttal"
+                    },
+                    {
+                        "question": "In the conclusion of an argumentative essay, what is important to do?",
+                        "options": [
+                            "3) Leave the reader confused",
+                            "4) Include only personal experiences",
+                            "2) Summarize main points and restate the thesis",
+                            "1) Introduce new arguments"
+                        ],
+                        "explanation": "In the conclusion, you should summarize your main points and restate your thesis in light of the evidence presented, reinforcing your argument's strength.",
+                        "answer": "2) Summarize main points and restate the thesis"
+                    },
+                    {
+                        "question": "How many pieces of evidence should you aim to find to support each main point in your essay?",
+                        "options": [
+                            "4) Any amount of evidence",
+                            "1) At least one",
+                            "2) At least three",
+                            "3) At least two"
+                        ],
+                        "explanation": "For every main point, you should aim to find at least two pieces of evidence to show a well-rounded understanding of the topic and reinforce your claims.",
+                        "answer": "3) At least two"
+                    }
+                ]
+            }
+        ],
+        "Science": [
+            {
+                "quiz_grade": 70.0,
+                "wrong_answers": [
+                    1,
+                    6,
+                    8
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is the molar mass of water (H\u2082O)?",
+                        "options": [
+                            "1) 18 g/mol",
+                            "2) 16 g/mol",
+                            "4) 22 g/mol",
+                            "3) 20 g/mol"
+                        ],
+                        "explanation": "The molar mass of water (H\u2082O) is calculated by adding the mass of 2 hydrogen atoms (1 g/mol each) and 1 oxygen atom (16 g/mol), which totals to 18 g/mol.",
+                        "answer": "1) 18 g/mol"
+                    },
+                    {
+                        "question": "In the balanced equation 2 H\u2082 + O\u2082 \u2192 2 H\u2082O, how many moles of water are produced from 2 moles of oxygen?",
+                        "options": [
+                            "2) 1 mole",
+                            "4) 3 moles",
+                            "3) 4 moles",
+                            "1) 2 moles"
+                        ],
+                        "explanation": "From the balanced equation, 1 mole of O\u2082 produces 2 moles of H\u2082O. Therefore, 2 moles of O\u2082 will produce 4 moles of H\u2082O.",
+                        "answer": "3) 4 moles"
+                    },
+                    {
+                        "question": "Which of the following is a real-world application of stoichiometry mentioned in the lecture?",
+                        "options": [
+                            "1) Formulating pharmaceuticals",
+                            "3) Magnetic resonance imaging",
+                            "4) Chemical ethology",
+                            "2) Spectroscopy analysis"
+                        ],
+                        "explanation": "The lecture mentioned that stoichiometry is widely used in the formulation of pharmaceuticals to ensure the correct dosage and efficacy of drugs.",
+                        "answer": "1) Formulating pharmaceuticals"
+                    },
+                    {
+                        "question": "Given 10 grams of substance X with a molar mass of 50 g/mol, how many moles does this represent?",
+                        "options": [
+                            "2) 1.5 mol",
+                            "4) 3.0 mol",
+                            "3) 2.0 mol",
+                            "1) 0.5 mol"
+                        ],
+                        "explanation": "To find the number of moles, divide the mass by the molar mass: 10 g / 50 g/mol = 0.2 mol.",
+                        "answer": "1) 0.2 mol"
+                    },
+                    {
+                        "question": "What does a stoichiometric coefficient in a balanced equation indicate?",
+                        "options": [
+                            "2) The number of moles of a substance",
+                            "1) The mass of the reactants",
+                            "3) The volume of the products",
+                            "4) The temperature of the reaction"
+                        ],
+                        "explanation": "Stoichiometric coefficients indicate the ratio of moles of each substance involved in the reaction as represented by the balanced chemical equation.",
+                        "answer": "2) The number of moles of a substance"
+                    },
+                    {
+                        "question": "What is a limiting reagent in a chemical reaction?",
+                        "options": [
+                            "3) A substance that determines the amount of product formed",
+                            "1) A substance that speeds up the reaction",
+                            "2) A substance that is leftover after the reaction",
+                            "4) A non-reactive substance in the reaction"
+                        ],
+                        "explanation": "The limiting reagent is the reactant that runs out first, thus limiting the amount of product formed during the reaction.",
+                        "answer": "3) A substance that determines the amount of product formed"
+                    },
+                    {
+                        "question": "If you have 20 grams of substance Y and its molar mass is 40 g/mol, what is the moles of substance Y?",
+                        "options": [
+                            "2) 1.0 mol",
+                            "1) 0.5 mol",
+                            "3) 2.0 mol",
+                            "4) 4.0 mol"
+                        ],
+                        "explanation": "Using the formula moles = mass/molar mass, we calculate 20 g / 40 g/mol = 0.5 mol of substance Y.",
+                        "answer": "2) 0.5 mol"
+                    },
+                    {
+                        "question": "What role does dimensional analysis play in stoichiometry?",
+                        "options": [
+                            "3) To ensure conversion between different units is accurate",
+                            "4) To measure temperature changes",
+                            "1) To balance chemical equations",
+                            "2) To determine the reaction rate"
+                        ],
+                        "explanation": "Dimensional analysis ensures that the units in calculations are consistent and that conversions between different measurement systems are accurate, making calculations dimensionally sound.",
+                        "answer": "3) To ensure conversion between different units is accurate"
+                    },
+                    {
+                        "question": "In the chemical equation 2 H\u2082 + O\u2082 \u2192 2 H\u2082O, if 5 moles of H\u2082 are available, how many moles of O\u2082 are needed?",
+                        "options": [
+                            "1) 2.5 moles",
+                            "4) 1 mole",
+                            "2) 5 moles",
+                            "3) 10 moles"
+                        ],
+                        "explanation": "According to the balanced equation, 2 moles of H\u2082 react with 1 mole of O\u2082. Therefore, 5 moles of H\u2082 would need 2.5 moles of O\u2082.",
+                        "answer": "1) 2.5 moles"
+                    },
+                    {
+                        "question": "If 10 grams of substance Z with a molar mass of 10 g/mol is fully reacted, how many grams of product can be formed if the reaction is 1:1?",
+                        "options": [
+                            "1) 10 grams",
+                            "3) 20 grams",
+                            "4) 0 grams",
+                            "2) 5 grams"
+                        ],
+                        "explanation": "If 10 grams of substance Z fully reacts in a 1:1 reaction, it will produce an equivalent mass of the product, which is also 10 grams.",
+                        "answer": "1) 10 grams"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    6
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is the molar mass of water (H\u2082O)?",
+                        "options": [
+                            "1) 18 g/mol",
+                            "2) 16 g/mol",
+                            "4) 22 g/mol",
+                            "3) 20 g/mol"
+                        ],
+                        "explanation": "The molar mass of water (H\u2082O) is calculated by adding the mass of 2 hydrogen atoms (1 g/mol each) and 1 oxygen atom (16 g/mol), which totals to 18 g/mol.",
+                        "answer": "1) 18 g/mol"
+                    },
+                    {
+                        "question": "In the balanced equation 2 H\u2082 + O\u2082 \u2192 2 H\u2082O, how many moles of water are produced from 2 moles of oxygen?",
+                        "options": [
+                            "2) 1 mole",
+                            "4) 3 moles",
+                            "3) 4 moles",
+                            "1) 2 moles"
+                        ],
+                        "explanation": "From the balanced equation, 1 mole of O\u2082 produces 2 moles of H\u2082O. Therefore, 2 moles of O\u2082 will produce 4 moles of H\u2082O.",
+                        "answer": "3) 4 moles"
+                    },
+                    {
+                        "question": "Which of the following is a real-world application of stoichiometry mentioned in the lecture?",
+                        "options": [
+                            "1) Formulating pharmaceuticals",
+                            "3) Magnetic resonance imaging",
+                            "4) Chemical ethology",
+                            "2) Spectroscopy analysis"
+                        ],
+                        "explanation": "The lecture mentioned that stoichiometry is widely used in the formulation of pharmaceuticals to ensure the correct dosage and efficacy of drugs.",
+                        "answer": "1) Formulating pharmaceuticals"
+                    },
+                    {
+                        "question": "Given 10 grams of substance X with a molar mass of 50 g/mol, how many moles does this represent?",
+                        "options": [
+                            "2) 1.5 mol",
+                            "4) 3.0 mol",
+                            "3) 2.0 mol",
+                            "1) 0.5 mol"
+                        ],
+                        "explanation": "To find the number of moles, divide the mass by the molar mass: 10 g / 50 g/mol = 0.2 mol.",
+                        "answer": "1) 0.2 mol"
+                    },
+                    {
+                        "question": "What does a stoichiometric coefficient in a balanced equation indicate?",
+                        "options": [
+                            "2) The number of moles of a substance",
+                            "1) The mass of the reactants",
+                            "3) The volume of the products",
+                            "4) The temperature of the reaction"
+                        ],
+                        "explanation": "Stoichiometric coefficients indicate the ratio of moles of each substance involved in the reaction as represented by the balanced chemical equation.",
+                        "answer": "2) The number of moles of a substance"
+                    },
+                    {
+                        "question": "What is a limiting reagent in a chemical reaction?",
+                        "options": [
+                            "3) A substance that determines the amount of product formed",
+                            "1) A substance that speeds up the reaction",
+                            "2) A substance that is leftover after the reaction",
+                            "4) A non-reactive substance in the reaction"
+                        ],
+                        "explanation": "The limiting reagent is the reactant that runs out first, thus limiting the amount of product formed during the reaction.",
+                        "answer": "3) A substance that determines the amount of product formed"
+                    },
+                    {
+                        "question": "If you have 20 grams of substance Y and its molar mass is 40 g/mol, what is the moles of substance Y?",
+                        "options": [
+                            "2) 1.0 mol",
+                            "1) 0.5 mol",
+                            "3) 2.0 mol",
+                            "4) 4.0 mol"
+                        ],
+                        "explanation": "Using the formula moles = mass/molar mass, we calculate 20 g / 40 g/mol = 0.5 mol of substance Y.",
+                        "answer": "2) 0.5 mol"
+                    },
+                    {
+                        "question": "What role does dimensional analysis play in stoichiometry?",
+                        "options": [
+                            "3) To ensure conversion between different units is accurate",
+                            "4) To measure temperature changes",
+                            "1) To balance chemical equations",
+                            "2) To determine the reaction rate"
+                        ],
+                        "explanation": "Dimensional analysis ensures that the units in calculations are consistent and that conversions between different measurement systems are accurate, making calculations dimensionally sound.",
+                        "answer": "3) To ensure conversion between different units is accurate"
+                    },
+                    {
+                        "question": "In the chemical equation 2 H\u2082 + O\u2082 \u2192 2 H\u2082O, if 5 moles of H\u2082 are available, how many moles of O\u2082 are needed?",
+                        "options": [
+                            "1) 2.5 moles",
+                            "4) 1 mole",
+                            "2) 5 moles",
+                            "3) 10 moles"
+                        ],
+                        "explanation": "According to the balanced equation, 2 moles of H\u2082 react with 1 mole of O\u2082. Therefore, 5 moles of H\u2082 would need 2.5 moles of O\u2082.",
+                        "answer": "1) 2.5 moles"
+                    },
+                    {
+                        "question": "If 10 grams of substance Z with a molar mass of 10 g/mol is fully reacted, how many grams of product can be formed if the reaction is 1:1?",
+                        "options": [
+                            "1) 10 grams",
+                            "3) 20 grams",
+                            "4) 0 grams",
+                            "2) 5 grams"
+                        ],
+                        "explanation": "If 10 grams of substance Z fully reacts in a 1:1 reaction, it will produce an equivalent mass of the product, which is also 10 grams.",
+                        "answer": "1) 10 grams"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What is the molar mass of water (H\u2082O)?",
+                        "options": [
+                            "1) 18 g/mol",
+                            "2) 16 g/mol",
+                            "4) 22 g/mol",
+                            "3) 20 g/mol"
+                        ],
+                        "explanation": "The molar mass of water (H\u2082O) is calculated by adding the mass of 2 hydrogen atoms (1 g/mol each) and 1 oxygen atom (16 g/mol), which totals to 18 g/mol.",
+                        "answer": "1) 18 g/mol"
+                    },
+                    {
+                        "question": "In the balanced equation 2 H\u2082 + O\u2082 \u2192 2 H\u2082O, how many moles of water are produced from 2 moles of oxygen?",
+                        "options": [
+                            "2) 1 mole",
+                            "4) 3 moles",
+                            "3) 4 moles",
+                            "1) 2 moles"
+                        ],
+                        "explanation": "From the balanced equation, 1 mole of O\u2082 produces 2 moles of H\u2082O. Therefore, 2 moles of O\u2082 will produce 4 moles of H\u2082O.",
+                        "answer": "3) 4 moles"
+                    },
+                    {
+                        "question": "Which of the following is a real-world application of stoichiometry mentioned in the lecture?",
+                        "options": [
+                            "1) Formulating pharmaceuticals",
+                            "3) Magnetic resonance imaging",
+                            "4) Chemical ethology",
+                            "2) Spectroscopy analysis"
+                        ],
+                        "explanation": "The lecture mentioned that stoichiometry is widely used in the formulation of pharmaceuticals to ensure the correct dosage and efficacy of drugs.",
+                        "answer": "1) Formulating pharmaceuticals"
+                    },
+                    {
+                        "question": "Given 10 grams of substance X with a molar mass of 50 g/mol, how many moles does this represent?",
+                        "options": [
+                            "2) 1.5 mol",
+                            "4) 3.0 mol",
+                            "3) 2.0 mol",
+                            "1) 0.5 mol"
+                        ],
+                        "explanation": "To find the number of moles, divide the mass by the molar mass: 10 g / 50 g/mol = 0.2 mol.",
+                        "answer": "1) 0.2 mol"
+                    },
+                    {
+                        "question": "What does a stoichiometric coefficient in a balanced equation indicate?",
+                        "options": [
+                            "2) The number of moles of a substance",
+                            "1) The mass of the reactants",
+                            "3) The volume of the products",
+                            "4) The temperature of the reaction"
+                        ],
+                        "explanation": "Stoichiometric coefficients indicate the ratio of moles of each substance involved in the reaction as represented by the balanced chemical equation.",
+                        "answer": "2) The number of moles of a substance"
+                    },
+                    {
+                        "question": "What is a limiting reagent in a chemical reaction?",
+                        "options": [
+                            "3) A substance that determines the amount of product formed",
+                            "1) A substance that speeds up the reaction",
+                            "2) A substance that is leftover after the reaction",
+                            "4) A non-reactive substance in the reaction"
+                        ],
+                        "explanation": "The limiting reagent is the reactant that runs out first, thus limiting the amount of product formed during the reaction.",
+                        "answer": "3) A substance that determines the amount of product formed"
+                    },
+                    {
+                        "question": "If you have 20 grams of substance Y and its molar mass is 40 g/mol, what is the moles of substance Y?",
+                        "options": [
+                            "2) 1.0 mol",
+                            "1) 0.5 mol",
+                            "3) 2.0 mol",
+                            "4) 4.0 mol"
+                        ],
+                        "explanation": "Using the formula moles = mass/molar mass, we calculate 20 g / 40 g/mol = 0.5 mol of substance Y.",
+                        "answer": "2) 0.5 mol"
+                    },
+                    {
+                        "question": "What role does dimensional analysis play in stoichiometry?",
+                        "options": [
+                            "3) To ensure conversion between different units is accurate",
+                            "4) To measure temperature changes",
+                            "1) To balance chemical equations",
+                            "2) To determine the reaction rate"
+                        ],
+                        "explanation": "Dimensional analysis ensures that the units in calculations are consistent and that conversions between different measurement systems are accurate, making calculations dimensionally sound.",
+                        "answer": "3) To ensure conversion between different units is accurate"
+                    },
+                    {
+                        "question": "In the chemical equation 2 H\u2082 + O\u2082 \u2192 2 H\u2082O, if 5 moles of H\u2082 are available, how many moles of O\u2082 are needed?",
+                        "options": [
+                            "1) 2.5 moles",
+                            "4) 1 mole",
+                            "2) 5 moles",
+                            "3) 10 moles"
+                        ],
+                        "explanation": "According to the balanced equation, 2 moles of H\u2082 react with 1 mole of O\u2082. Therefore, 5 moles of H\u2082 would need 2.5 moles of O\u2082.",
+                        "answer": "1) 2.5 moles"
+                    },
+                    {
+                        "question": "If 10 grams of substance Z with a molar mass of 10 g/mol is fully reacted, how many grams of product can be formed if the reaction is 1:1?",
+                        "options": [
+                            "1) 10 grams",
+                            "3) 20 grams",
+                            "4) 0 grams",
+                            "2) 5 grams"
+                        ],
+                        "explanation": "If 10 grams of substance Z fully reacts in a 1:1 reaction, it will produce an equivalent mass of the product, which is also 10 grams.",
+                        "answer": "1) 10 grams"
+                    }
+                ]
+            }
+        ],
+        "Texas History": [
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What was the date of the Battle of San Jacinto?",
+                        "options": [
+                            "1) March 6, 1836",
+                            "4) February 23, 1836",
+                            "2) April 21, 1836",
+                            "3) July 4, 1836"
+                        ],
+                        "explanation": "The Battle of San Jacinto occurred on April 21, 1836.",
+                        "answer": "2) April 21, 1836"
+                    },
+                    {
+                        "question": "Who commanded the Texian army at the Battle of San Jacinto?",
+                        "options": [
+                            "3) Sam Houston",
+                            "4) James Bowie",
+                            "1) Antonio L\u00f3pez de Santa Anna",
+                            "2) William B. Travis"
+                        ],
+                        "explanation": "General Sam Houston was the commander of the Texian army during the Battle of San Jacinto.",
+                        "answer": "3) Sam Houston"
+                    },
+                    {
+                        "question": "What advantage did the Texian forces have over the Mexican army during the battle?",
+                        "options": [
+                            "4) Superior technology",
+                            "1) Larger army size",
+                            "3) Access to more supplies",
+                            "2) Knowledge of the terrain"
+                        ],
+                        "explanation": "The Texians had familiarity with the terrain which they used to their advantage during the surprise attack.",
+                        "answer": "2) Knowledge of the terrain"
+                    },
+                    {
+                        "question": "What was a consequence of the Texians\u2019 previous defeats before the Battle of San Jacinto?",
+                        "options": [
+                            "2) It galvanized their willingness to fight.",
+                            "1) It led to their disbandment.",
+                            "3) It caused them to surrender.",
+                            "4) It resulted in more supplies being sent to them."
+                        ],
+                        "explanation": "The previous defeats at the Alamo and Goliad galvanized the Texian forces, strengthening their resolve for the final battle.",
+                        "answer": "2) It galvanized their willingness to fight."
+                    },
+                    {
+                        "question": "What element of battle strategy was pivotal to the Texians\u2019 victory?",
+                        "options": [
+                            "1) A long battle",
+                            "3) Surprise attack",
+                            "2) Use of heavy artillery",
+                            "4) High troop morale"
+                        ],
+                        "explanation": "The Texians executed a surprise attack early in the morning, catching the Mexican troops off guard, which was crucial to their victory.",
+                        "answer": "3) Surprise attack"
+                    },
+                    {
+                        "question": "What year did Texas achieve independence as a result of the Battle of San Jacinto?",
+                        "options": [
+                            "1) 1835",
+                            "2) 1845",
+                            "4) 1840",
+                            "3) 1836"
+                        ],
+                        "explanation": "The victory at the Battle of San Jacinto led to Texas independence in 1836, effectively ending the Texas Revolution.",
+                        "answer": "3) 1836"
+                    },
+                    {
+                        "question": "Which leader underestimated the Texian forces at the Battle of San Jacinto?",
+                        "options": [
+                            "2) James Fannin",
+                            "1) Sam Houston",
+                            "3) Santa Anna",
+                            "4) Stephen F. Austin"
+                        ],
+                        "explanation": "General Santa Anna underestimated the Texian forces due to his overconfidence which contributed to his defeat at San Jacinto.",
+                        "answer": "3) Santa Anna"
+                    },
+                    {
+                        "question": "How long did the Battle of San Jacinto last?",
+                        "options": [
+                            "2) 15 minutes",
+                            "4) 60 minutes",
+                            "3) 18 minutes",
+                            "1) 30 minutes"
+                        ],
+                        "explanation": "The Battle of San Jacinto lasted approximately 18 minutes.",
+                        "answer": "3) 18 minutes"
+                    },
+                    {
+                        "question": "What strategic location did the Battle of San Jacinto occur near?",
+                        "options": [
+                            "1) The Alamo",
+                            "3) The San Jacinto River",
+                            "2) The Rio Grande",
+                            "4) Galveston Bay"
+                        ],
+                        "explanation": "The battle took place near the San Jacinto River, which provided the Texians with cover and strategic advantage.",
+                        "answer": "3) The San Jacinto River"
+                    },
+                    {
+                        "question": "What annual event commemorates the victory at San Jacinto?",
+                        "options": [
+                            "1) Independence Day",
+                            "4) Texas Flag Day",
+                            "3) Memorial Day",
+                            "2) San Jacinto Day"
+                        ],
+                        "explanation": "April 21 is commemorated as San Jacinto Day, celebrating the victory and its significance to Texas history.",
+                        "answer": "2) San Jacinto Day"
+                    }
+                ]
+            }
+        ],
+        "The Evolution of Faith": [
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    0,
+                    3
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What covenant is Abraham known for in Judaism?",
+                        "options": [
+                            "4) The announcement of the Gospel",
+                            "3) Initiation of Christian baptism",
+                            "1) A direct relationship with God",
+                            "2) The foundation of Islamic law"
+                        ],
+                        "explanation": "Abraham is primarily known for his covenant with God, which emphasizes a direct relationship with the divine and ethical conduct in Judaism as discussed in the lecture.",
+                        "answer": "1) A direct relationship with God"
+                    },
+                    {
+                        "question": "Which figure is regarded as the final messenger of God in Islam?",
+                        "options": [
+                            "1) Moses",
+                            "4) Muhammad",
+                            "2) Jesus Christ",
+                            "3) Abraham"
+                        ],
+                        "explanation": "Muhammad is recognized as the final messenger of God in Islam, whose revelations form the Quran, as emphasized in the lecture.",
+                        "answer": "4) Muhammad"
+                    },
+                    {
+                        "question": "What did Jesus Christ's teachings emphasize beyond adherence to the law according to the lecture?",
+                        "options": [
+                            "4) Wealth accumulation",
+                            "3) Political power",
+                            "1) Inner transformation of believers",
+                            "2) Ritual practices of the temple"
+                        ],
+                        "explanation": "The lecture highlights that Jesus emphasized inner transformation alongside adherence to the law, focusing on love and mercy.",
+                        "answer": "1) Inner transformation of believers"
+                    },
+                    {
+                        "question": "How have modern Jewish thinkers approached the interpretations of Jewish law?",
+                        "options": [
+                            "4) By avoiding contemporary issues",
+                            "1) By strictly adhering to ancient texts",
+                            "2) By promoting progressive engagement",
+                            "3) By denying historical context"
+                        ],
+                        "explanation": "Many contemporary Jewish thinkers are re-evaluating their interpretations of Jewish law to promote a more progressive and relevant engagement with the texts, as noted in the lecture.",
+                        "answer": "2) By promoting progressive engagement"
+                    },
+                    {
+                        "question": "What type of perspectives have many Christian denominations adopted in modern times?",
+                        "options": [
+                            "1) Exclusive and sectarian views",
+                            "3) Focus on financial prosperity",
+                            "2) A more inclusive approach",
+                            "4) Literal interpretations of scripture"
+                        ],
+                        "explanation": "The lecture indicates that many Christian denominations have begun to adopt a more inclusive perspective that embraces dialogue with other faiths and promotes understanding.",
+                        "answer": "2) A more inclusive approach"
+                    },
+                    {
+                        "question": "Which influential figure shaped Western philosophical thought according to the lecture?",
+                        "options": [
+                            "1) Abraham",
+                            "2) Jesus Christ",
+                            "4) King Solomon",
+                            "3) Muhammad"
+                        ],
+                        "explanation": "Jesus Christ's teachings have significantly shaped Western philosophical thought, art, and social movements, as highlighted in the lecture.",
+                        "answer": "2) Jesus Christ"
+                    },
+                    {
+                        "question": "What does Muhammad's teachings emphasize in Islam according to the lecture?",
+                        "options": [
+                            "4) Mystical experiences",
+                            "2) Community and social justice",
+                            "1) Asceticism and detachment",
+                            "3) Wealth and power"
+                        ],
+                        "explanation": "The lecture emphasizes that Muhammad's teachings also focus on community and social justice, aligning with modern Islamic principles.",
+                        "answer": "2) Community and social justice"
+                    },
+                    {
+                        "question": "What is a primary focus of contemporary Islamic teachings as mentioned in the lecture?",
+                        "options": [
+                            "3) Isolation from global issues",
+                            "1) Historical preservation of the Quran",
+                            "2) Contextual understanding in relation to modern values",
+                            "4) Strict traditional practices only"
+                        ],
+                        "explanation": "The lecture discusses contemporary Muslim scholars advocating for a contextual understanding of the Quran that aligns with modern values of justice and equality.",
+                        "answer": "2) Contextual understanding in relation to modern values"
+                    },
+                    {
+                        "question": "What legacy did Abraham establish that affected Western civilization as discussed in the lecture?",
+                        "options": [
+                            "2) Practices of polytheism",
+                            "1) A lineage that directly influences monotheism",
+                            "3) Development of secular philosophies",
+                            "4) The establishment of a single nation"
+                        ],
+                        "explanation": "Abraham established a legacy that impacted Western civilization through Judaism, Christianity, and Islam, as mentioned in the lecture.",
+                        "answer": "1) A lineage that directly influences monotheism"
+                    },
+                    {
+                        "question": "How did Jesus Christ's teachings influence humanitarian efforts according to the lecture?",
+                        "options": [
+                            "2) By inspiring movements for social change",
+                            "3) By enforcing strict dogma",
+                            "1) By promoting self-interest",
+                            "4) By advocating for military power"
+                        ],
+                        "explanation": "The lecture indicates that Jesus' teachings inspired various humanitarian efforts and social change movements that echo the messages of equality and compassion he preached.",
+                        "answer": "2) By inspiring movements for social change"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    0
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What covenant is Abraham known for in Judaism?",
+                        "options": [
+                            "4) The announcement of the Gospel",
+                            "3) Initiation of Christian baptism",
+                            "1) A direct relationship with God",
+                            "2) The foundation of Islamic law"
+                        ],
+                        "explanation": "Abraham is primarily known for his covenant with God, which emphasizes a direct relationship with the divine and ethical conduct in Judaism as discussed in the lecture.",
+                        "answer": "1) A direct relationship with God"
+                    },
+                    {
+                        "question": "Which figure is regarded as the final messenger of God in Islam?",
+                        "options": [
+                            "1) Moses",
+                            "4) Muhammad",
+                            "2) Jesus Christ",
+                            "3) Abraham"
+                        ],
+                        "explanation": "Muhammad is recognized as the final messenger of God in Islam, whose revelations form the Quran, as emphasized in the lecture.",
+                        "answer": "4) Muhammad"
+                    },
+                    {
+                        "question": "What did Jesus Christ's teachings emphasize beyond adherence to the law according to the lecture?",
+                        "options": [
+                            "4) Wealth accumulation",
+                            "3) Political power",
+                            "1) Inner transformation of believers",
+                            "2) Ritual practices of the temple"
+                        ],
+                        "explanation": "The lecture highlights that Jesus emphasized inner transformation alongside adherence to the law, focusing on love and mercy.",
+                        "answer": "1) Inner transformation of believers"
+                    },
+                    {
+                        "question": "How have modern Jewish thinkers approached the interpretations of Jewish law?",
+                        "options": [
+                            "4) By avoiding contemporary issues",
+                            "1) By strictly adhering to ancient texts",
+                            "2) By promoting progressive engagement",
+                            "3) By denying historical context"
+                        ],
+                        "explanation": "Many contemporary Jewish thinkers are re-evaluating their interpretations of Jewish law to promote a more progressive and relevant engagement with the texts, as noted in the lecture.",
+                        "answer": "2) By promoting progressive engagement"
+                    },
+                    {
+                        "question": "What type of perspectives have many Christian denominations adopted in modern times?",
+                        "options": [
+                            "1) Exclusive and sectarian views",
+                            "3) Focus on financial prosperity",
+                            "2) A more inclusive approach",
+                            "4) Literal interpretations of scripture"
+                        ],
+                        "explanation": "The lecture indicates that many Christian denominations have begun to adopt a more inclusive perspective that embraces dialogue with other faiths and promotes understanding.",
+                        "answer": "2) A more inclusive approach"
+                    },
+                    {
+                        "question": "Which influential figure shaped Western philosophical thought according to the lecture?",
+                        "options": [
+                            "1) Abraham",
+                            "2) Jesus Christ",
+                            "4) King Solomon",
+                            "3) Muhammad"
+                        ],
+                        "explanation": "Jesus Christ's teachings have significantly shaped Western philosophical thought, art, and social movements, as highlighted in the lecture.",
+                        "answer": "2) Jesus Christ"
+                    },
+                    {
+                        "question": "What does Muhammad's teachings emphasize in Islam according to the lecture?",
+                        "options": [
+                            "4) Mystical experiences",
+                            "2) Community and social justice",
+                            "1) Asceticism and detachment",
+                            "3) Wealth and power"
+                        ],
+                        "explanation": "The lecture emphasizes that Muhammad's teachings also focus on community and social justice, aligning with modern Islamic principles.",
+                        "answer": "2) Community and social justice"
+                    },
+                    {
+                        "question": "What is a primary focus of contemporary Islamic teachings as mentioned in the lecture?",
+                        "options": [
+                            "3) Isolation from global issues",
+                            "1) Historical preservation of the Quran",
+                            "2) Contextual understanding in relation to modern values",
+                            "4) Strict traditional practices only"
+                        ],
+                        "explanation": "The lecture discusses contemporary Muslim scholars advocating for a contextual understanding of the Quran that aligns with modern values of justice and equality.",
+                        "answer": "2) Contextual understanding in relation to modern values"
+                    },
+                    {
+                        "question": "What legacy did Abraham establish that affected Western civilization as discussed in the lecture?",
+                        "options": [
+                            "2) Practices of polytheism",
+                            "1) A lineage that directly influences monotheism",
+                            "3) Development of secular philosophies",
+                            "4) The establishment of a single nation"
+                        ],
+                        "explanation": "Abraham established a legacy that impacted Western civilization through Judaism, Christianity, and Islam, as mentioned in the lecture.",
+                        "answer": "1) A lineage that directly influences monotheism"
+                    },
+                    {
+                        "question": "How did Jesus Christ's teachings influence humanitarian efforts according to the lecture?",
+                        "options": [
+                            "2) By inspiring movements for social change",
+                            "3) By enforcing strict dogma",
+                            "1) By promoting self-interest",
+                            "4) By advocating for military power"
+                        ],
+                        "explanation": "The lecture indicates that Jesus' teachings inspired various humanitarian efforts and social change movements that echo the messages of equality and compassion he preached.",
+                        "answer": "2) By inspiring movements for social change"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    0
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What covenant is Abraham known for in Judaism?",
+                        "options": [
+                            "4) The announcement of the Gospel",
+                            "3) Initiation of Christian baptism",
+                            "1) A direct relationship with God",
+                            "2) The foundation of Islamic law"
+                        ],
+                        "explanation": "Abraham is primarily known for his covenant with God, which emphasizes a direct relationship with the divine and ethical conduct in Judaism as discussed in the lecture.",
+                        "answer": "1) A direct relationship with God"
+                    },
+                    {
+                        "question": "Which figure is regarded as the final messenger of God in Islam?",
+                        "options": [
+                            "1) Moses",
+                            "4) Muhammad",
+                            "2) Jesus Christ",
+                            "3) Abraham"
+                        ],
+                        "explanation": "Muhammad is recognized as the final messenger of God in Islam, whose revelations form the Quran, as emphasized in the lecture.",
+                        "answer": "4) Muhammad"
+                    },
+                    {
+                        "question": "What did Jesus Christ's teachings emphasize beyond adherence to the law according to the lecture?",
+                        "options": [
+                            "4) Wealth accumulation",
+                            "3) Political power",
+                            "1) Inner transformation of believers",
+                            "2) Ritual practices of the temple"
+                        ],
+                        "explanation": "The lecture highlights that Jesus emphasized inner transformation alongside adherence to the law, focusing on love and mercy.",
+                        "answer": "1) Inner transformation of believers"
+                    },
+                    {
+                        "question": "How have modern Jewish thinkers approached the interpretations of Jewish law?",
+                        "options": [
+                            "4) By avoiding contemporary issues",
+                            "1) By strictly adhering to ancient texts",
+                            "2) By promoting progressive engagement",
+                            "3) By denying historical context"
+                        ],
+                        "explanation": "Many contemporary Jewish thinkers are re-evaluating their interpretations of Jewish law to promote a more progressive and relevant engagement with the texts, as noted in the lecture.",
+                        "answer": "2) By promoting progressive engagement"
+                    },
+                    {
+                        "question": "What type of perspectives have many Christian denominations adopted in modern times?",
+                        "options": [
+                            "1) Exclusive and sectarian views",
+                            "3) Focus on financial prosperity",
+                            "2) A more inclusive approach",
+                            "4) Literal interpretations of scripture"
+                        ],
+                        "explanation": "The lecture indicates that many Christian denominations have begun to adopt a more inclusive perspective that embraces dialogue with other faiths and promotes understanding.",
+                        "answer": "2) A more inclusive approach"
+                    },
+                    {
+                        "question": "Which influential figure shaped Western philosophical thought according to the lecture?",
+                        "options": [
+                            "1) Abraham",
+                            "2) Jesus Christ",
+                            "4) King Solomon",
+                            "3) Muhammad"
+                        ],
+                        "explanation": "Jesus Christ's teachings have significantly shaped Western philosophical thought, art, and social movements, as highlighted in the lecture.",
+                        "answer": "2) Jesus Christ"
+                    },
+                    {
+                        "question": "What does Muhammad's teachings emphasize in Islam according to the lecture?",
+                        "options": [
+                            "4) Mystical experiences",
+                            "2) Community and social justice",
+                            "1) Asceticism and detachment",
+                            "3) Wealth and power"
+                        ],
+                        "explanation": "The lecture emphasizes that Muhammad's teachings also focus on community and social justice, aligning with modern Islamic principles.",
+                        "answer": "2) Community and social justice"
+                    },
+                    {
+                        "question": "What is a primary focus of contemporary Islamic teachings as mentioned in the lecture?",
+                        "options": [
+                            "3) Isolation from global issues",
+                            "1) Historical preservation of the Quran",
+                            "2) Contextual understanding in relation to modern values",
+                            "4) Strict traditional practices only"
+                        ],
+                        "explanation": "The lecture discusses contemporary Muslim scholars advocating for a contextual understanding of the Quran that aligns with modern values of justice and equality.",
+                        "answer": "2) Contextual understanding in relation to modern values"
+                    },
+                    {
+                        "question": "What legacy did Abraham establish that affected Western civilization as discussed in the lecture?",
+                        "options": [
+                            "2) Practices of polytheism",
+                            "1) A lineage that directly influences monotheism",
+                            "3) Development of secular philosophies",
+                            "4) The establishment of a single nation"
+                        ],
+                        "explanation": "Abraham established a legacy that impacted Western civilization through Judaism, Christianity, and Islam, as mentioned in the lecture.",
+                        "answer": "1) A lineage that directly influences monotheism"
+                    },
+                    {
+                        "question": "How did Jesus Christ's teachings influence humanitarian efforts according to the lecture?",
+                        "options": [
+                            "2) By inspiring movements for social change",
+                            "3) By enforcing strict dogma",
+                            "1) By promoting self-interest",
+                            "4) By advocating for military power"
+                        ],
+                        "explanation": "The lecture indicates that Jesus' teachings inspired various humanitarian efforts and social change movements that echo the messages of equality and compassion he preached.",
+                        "answer": "2) By inspiring movements for social change"
+                    }
+                ]
+            }
+        ]
+    },
+    "Wednesday": {},
+    "Thursday": {},
+    "Friday": {}
+}

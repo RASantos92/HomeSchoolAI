@@ -1,0 +1,182 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Introduction to Dynamic Web Pages",
+                "lecture": "Hello! Today, we are diving into the fascinating world of **Dynamic Web Pages**. In the realm of web development, the ability to create dynamic content \u2013 that is, web pages that can change and respond to user interactions \u2013 can significantly enhance the user experience. Consider how modern websites like social media platforms or news feeds update instantly with new data without requiring a full page refresh. This interactivity is primarily achieved using JavaScript, a versatile programming language that runs in the user's web browser.\n\nWe will deepen our understanding of dynamic web pages by writing our first JavaScript code today, focusing on basic events and interactions. First, let\u2019s explore the concept of **Event Listeners**. An event listener is a piece of code that waits for a specific event to occur, such as a click, a key press, or a mouse movement. When the event occurs, the event listener responds by executing a designated block of code. For example, when you click a button on a website, an event listener can trigger a function that changes the text on the page, thereby creating a more interactive experience for you.\n\nTo implement event listeners in JavaScript, you typically use the `addEventListener` method. This method takes two parameters: the type of event you want to listen for (like 'click' or 'mouseover'), and the function that should run when the event occurs. For instance, if we want to change the background color of a web page when a user clicks a button, we might write something like this:\n\n```javascript\nconst button = document.getElementById('myButton');\nbutton.addEventListener('click', function() {\n    document.body.style.backgroundColor = 'lightblue';\n});\n```\n\nIn this example, upon clicking the button, the background color becomes light blue. [p]\n\nUnderstanding how to use event listeners is crucial, as they form the backbone of user interactivity on dynamic web pages. There are many different types of events you can listen for including keyboard events, form events, and mouse events, among others. As you start building your dynamic websites, you'll find that being able to manage user interactions is a powerful skill. \n\nNow, let\u2019s transition to our second sub-topic: **Basic JavaScript Functions**. Functions are an essential concept in JavaScript and in programming in general. They allow you to define a code block that performs a specific task when called. Think of functions as reusable scripts that can simplify your code and make it more organized.\n\nTo declare a function in JavaScript, you use the keyword `function`, followed by the name of the function, and parentheses. Inside the parentheses, you can define parameters if needed. Here's a simple function that greets the user:\n\n```javascript\nfunction greetUser(name) {\n    console.log('Hello, ' + name + '!');\n}\n```\n\nIn this case, the function `greetUser` takes a parameter called `name`, and when called, it will greet the user by that name. You can call this function like so:\n\n```javascript\ngreetUser('Alice'); // Output: Hello, Alice!\n```\n\nFunctions can also return values, which means they can produce output that can be used later in your code. For example:\n\n```javascript\nfunction sum(a, b) {\n    return a + b;\n}\n```\n\nWhen you call `sum(5, 3)`, it returns `8`, which you can store in a variable or print to the console. [p]\n\nAs we tie this back to dynamic web pages, you can use functions in conjunction with event listeners to create dynamic interactions. For example, you can define a function that executes an action when an event occurs. Let\u2019s say you want to display an alert box when a user clicks a button:\n\n```javascript\nfunction showAlert() {\n    alert('Button was clicked!');\n}\nconst button = document.getElementById('alertButton');\nbutton.addEventListener('click', showAlert);\n```\n\nThis structure allows your page to respond dynamically to user actions, providing a richer interactive experience. [p]\n\nIn summary, today we explored **Dynamic Web Pages**, focusing on how to make your web applications interactive. You learned about **Event Listeners**, which allow your code to respond to user interactions, and **Basic JavaScript Functions**, which help you execute reusable blocks of code.\n\nUnderstanding these concepts is foundational for any aspiring web developer. As you progress in your studies, you will layer in more complex interactions, integrate APIs, and manipulate Document Object Model (DOM) elements to create engaging and dynamic web pages. \n\nSo, as we wrap up, remember that mastering JavaScript and event-driven programming opens doors to developing sophisticated web applications that enhance users' experiences.\n\n**Summary of Key Takeaways**: You have learned how event listeners work, what basic JavaScript functions are, and how both can create dynamic web applications that engage users. Keep practicing and experimenting with these concepts!\n\n**Main Topic**: Dynamic Web Pages\n**Sub Topics**: Event Listeners, Basic JavaScript Functions\n\n**Wikipedia References**: \n1. [Event Listener](https://en.wikipedia.org/wiki/Event_listener)  \n2. [JavaScript](https://en.wikipedia.org/wiki/JavaScript)\n3. [Function_(JavaScript)](https://en.wikipedia.org/wiki/Function_(JavaScript))  \n4. [Dynamic web page](https://en.wikipedia.org/wiki/Dynamic_web_page)",
+                "summary": "Today, we explored Dynamic Web Pages focusing on Event Listeners and Basic JavaScript Functions. We learned how to use event listeners to make web pages interactive and how functions help structure and reuse code effectively. Understanding these concepts will empower you to create dynamic and engaging web experiences for users.",
+                "subject": "Computer Science",
+                "main_topic": "Dynamic Web Pages",
+                "sub_topics": [
+                    "Event Listeners",
+                    "Basic JavaScript Functions"
+                ],
+                "wikipedia_refrences": [
+                    "Event Listener",
+                    "JavaScript",
+                    "Function_(JavaScript)",
+                    "Dynamic web page"
+                ],
+                "quiz": [
+                    {
+                        "question": "What happens when an event listener detects an event?",
+                        "options": [
+                            "1) It ignores the event.",
+                            "4) It only logs the event to the console.",
+                            "2) It performs an action defined in a specified function.",
+                            "3) It refreshes the entire page."
+                        ],
+                        "explanation": "When an event listener detects an event, it executes a function that responds to that event, thereby enhancing interactivity with dynamic content.",
+                        "answer": "2) It performs an action defined in a specified function."
+                    },
+                    {
+                        "question": "Which of the following is the correct syntax to define a JavaScript function?",
+                        "options": [
+                            "4) define myFunction() {}",
+                            "3) function: myFunction() {}",
+                            "2) myFunction function() {}",
+                            "1) function myFunction() {}"
+                        ],
+                        "explanation": "The correct syntax to define a function in JavaScript is using the keyword 'function' followed by the function name and parentheses.",
+                        "answer": "1) function myFunction() {}"
+                    },
+                    {
+                        "question": "What is a common event that an event listener might respond to on a webpage?",
+                        "options": [
+                            "4) Custom script execution.",
+                            "2) User clicks on a button.",
+                            "3) Page rendering.",
+                            "1) Data loading in a database."
+                        ],
+                        "explanation": "A common event an event listener responds to is a user clicking on a button, which can trigger associated functions to execute.",
+                        "answer": "2) User clicks on a button."
+                    },
+                    {
+                        "question": "What does a function in JavaScript return when executed if it has a return statement?",
+                        "options": [
+                            "1) An undefined value.",
+                            "2) Control back to the calling code.",
+                            "3) A specific value defined within the function.",
+                            "4) An error message."
+                        ],
+                        "explanation": "When a function includes a return statement, it produces a specific value defined within that function which can be used in future operations.",
+                        "answer": "3) A specific value defined within the function."
+                    },
+                    {
+                        "question": "What is the purpose of an event listener in dynamic web pages?",
+                        "options": [
+                            "1) To set up a new webpage.",
+                            "4) To change the URL of the page.",
+                            "3) To log errors to the console.",
+                            "2) To execute code when a specified event occurs."
+                        ],
+                        "explanation": "The purpose of an event listener is to execute specific code when a certain event occurs, enhancing user interaction on the web page.",
+                        "answer": "2) To execute code when a specified event occurs."
+                    },
+                    {
+                        "question": "In the event of a button click, what could an event listener be programmed to do?",
+                        "options": [
+                            "3) Open a new tab.",
+                            "1) Close the browser window.",
+                            "4) Submit a form.",
+                            "2) Change the text or style on the web page."
+                        ],
+                        "explanation": "An event listener can be programmed to change the text or style of a webpage in response to button clicks, allowing for dynamic updates.",
+                        "answer": "2) Change the text or style on the web page."
+                    },
+                    {
+                        "question": "How are parameters defined in a JavaScript function?",
+                        "options": [
+                            "1) Inside brackets.",
+                            "4) In the global scope.",
+                            "2) After the function name in parentheses.",
+                            "3) At the end of the function definition."
+                        ],
+                        "explanation": "Parameters are defined inside the parentheses following the function name in JavaScript, allowing functions to accept input values.",
+                        "answer": "2) After the function name in parentheses."
+                    },
+                    {
+                        "question": "What JavaScript method is typically used to attach an event listener to an HTML element?",
+                        "options": [
+                            "2) addEventListener()",
+                            "4) attachEvent()",
+                            "1) getElementById()",
+                            "3) querySelector()"
+                        ],
+                        "explanation": "The method typically used to attach an event listener to an HTML element is 'addEventListener()'.",
+                        "answer": "2) addEventListener()"
+                    },
+                    {
+                        "question": "Which of the following describes a 'dynamic web page'?",
+                        "options": [
+                            "4) A page that requires heavy server-side processing.",
+                            "1) One that is static and does not change.",
+                            "3) A page that only displays text.",
+                            "2) A page that updates in response to user actions without needing to reload."
+                        ],
+                        "explanation": "A dynamic web page is one that updates content in response to user actions, providing an interactive experience without needing to refresh the page.",
+                        "answer": "2) A page that updates in response to user actions without needing to reload."
+                    },
+                    {
+                        "question": "What action does the showAlert function perform when called?",
+                        "options": [
+                            "1) It changes the background color.",
+                            "2) It alerts a message to the user.",
+                            "4) It logs a message in the console.",
+                            "3) It sums two numbers."
+                        ],
+                        "explanation": "The showAlert function performs the action of displaying an alert message to the user when it is called and executed.",
+                        "answer": "2) It alerts a message to the user."
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What does the `addEventListener` method do in JavaScript?",
+                        "options": [
+                            "2) It listens for a specific event and executes a function when the event occurs.",
+                            "1) It creates a new button on the webpage.",
+                            "3) It styles the webpage with CSS.",
+                            "4) It refreshes the webpage automatically."
+                        ],
+                        "explanation": "The `addEventListener` method is used to listen for specific events (like clicks or key presses) and allows you to run a function in response to those events, enhancing interactivity on web pages.",
+                        "answer": "2) It listens for a specific event and executes a function when the event occurs."
+                    },
+                    {
+                        "question": "What is the purpose of functions in JavaScript?",
+                        "options": [
+                            "1) To manage user interactions",
+                            "3) To handle events on web pages",
+                            "4) To store data in variables",
+                            "2) To define reusable code blocks that perform specific tasks"
+                        ],
+                        "explanation": "Functions in JavaScript allow you to define a specific block of code that can be reused throughout your program, which helps in organizing and simplifying the code. They can perform tasks, take parameters, and return values, making them essential for effective programming.",
+                        "answer": "2) To define reusable code blocks that perform specific tasks"
+                    },
+                    {
+                        "question": "What is the purpose of the `addEventListener` function in the provided JavaScript code?",
+                        "options": [
+                            "3) To create a new HTML element",
+                            "4) To declare a constant variable",
+                            "2) To set up a function that executes when a specified event occurs",
+                            "1) To define global variables"
+                        ],
+                        "explanation": "The `addEventListener` function is used to set up a function (in this case, `showAlert`) that will execute in response to a specified event (the click event on the button). This makes it integral to creating dynamic interactions on a web page.",
+                        "answer": "2) To set up a function that executes when a specified event occurs"
+                    },
+                    {
+                        "question": "What is the primary purpose of an event listener in JavaScript?",
+                        "options": [
+                            "2) To allow code to respond to user interactions",
+                            "3) To create new HTML elements",
+                            "4) To manage CSS styles on a webpage",
+                            "1) To store data in a variable"
+                        ],
+                        "explanation": "An event listener allows JavaScript code to respond when a user interacts with elements on a webpage, such as clicks, key presses, and mouse movements. This interactivity is essential for dynamic web applications.",
+                        "answer": "2) To allow code to respond to user interactions"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

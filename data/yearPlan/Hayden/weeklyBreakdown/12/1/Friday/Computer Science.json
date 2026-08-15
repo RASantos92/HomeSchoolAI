@@ -1,0 +1,235 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "HTML Basics: Preparing Your Web Page for Submission",
+                "lecture": "Hello student! Today, we\u2019re diving into the fascinating world of HTML, which stands for HyperText Markup Language. It\u2019s the fundamental building block of web pages. As you prepare to finalize your web page today, we\u2019ll be looking at the most essential elements and attributes of HTML that will enable you to structure content effectively. Let\u2019s start with the basics. \n\nHTML is a markup language that describes the structure of web pages using a variety of tags. Each tag has a specific function, and understanding these tags is crucial for creating a web page. One of the core components of HTML is the element. An element consists of a start tag, content, and an end tag. For example, the paragraph element is written as <p>This is a paragraph.</p>. This means that the text between the <p> and </p> tags will be displayed as a paragraph on the web page. [p]\n\nNext, let\u2019s talk about the document structure. Every HTML document starts with a doctype declaration that informs the browser about the version of HTML. The structure includes the <html> tag, followed by the <head> and <body> sections. The <head> section contains meta-information about the HTML document, such as the title, and links to external stylesheets and scripts. The <body> section is where the visible content of the web page lives. [p]\n\nNow, we will delve deeper into the head section. The <title> tag allows you to set the title of your web page, which appears in the browser tab. Additionally, you can include meta tags that provide descriptions and keywords which are crucial for search engine optimization. For example, the <meta name=\"description\" content=\"A brief description of my web page.\"> will tell search engines what your page is about. [p]\n\nMoving on to essential HTML tags, let\u2019s discuss headings. HTML provides six levels of headings, from <h1> to <h6>, where <h1> signifies the most important heading and <h6> the least. Proper use of headings not only improves the aesthetics of your web page but also contributes to its accessibility and search engine optimization. After all, search engines give more weight to the content under <h1> compared to <h6>. [p]\n\nNext, let's explore lists. There are two types of lists in HTML: ordered lists (<ol>) and unordered lists (<ul>). Ordered lists are used when the order of items matters, like ranked lists, while unordered lists are for items where order does not matter, like bullet-pointed lists. Each list item is marked with the <li> tag. For example, an unordered list would start like this: <ul><li>Item 1</li><li>Item 2</li></ul>. This is a simple yet effective way to organize content. [p]\n\nNow let\u2019s talk about links, which are crucial for creating a web that connects information across different pages. The anchor tag <a> is used to create hyperlinks. The href attribute specifies the URL of the page the link goes to. For instance, <a href=\"http://www.example.com\">Visit Example</a> would create a link that takes you to example.com when clicked. [p]\n\nImages are another vital component of web pages, and the image tag <img> allows you to embed images in your web pages. The src attribute specifies the source URL of the image. Remember to also include an alt attribute, which improves accessibility by providing descriptive text for screen readers, e.g., <img src=\"image.jpg\" alt=\"Description of image\">. [p]\n\nAs we conclude with essential HTML elements, let\u2019s discuss the importance of semantic HTML. Using semantic tags \u2013 such as <header>, <footer>, <article>, and <section> \u2013 provides meaning to your web page structure and helps search engines understand your content better. For instance, wrapping your main content in <article> tags indicates that it represents a complete, self-contained composition. [p]\n\nNow that we\u2019ve covered the foundational elements of HTML, it\u2019s time to look at attributes. Attributes provide additional information about HTML elements. Most attributes follow a name-value pair format. For instance, in the <a> tag we discussed earlier, the href specifies the link\u2019s target. Other common attributes include class and id, which allow you to apply CSS styles and use JavaScript. [p]\n\nAfter discussing these components, it\u2019s essential to understand the element tree or DOM tree that the browser creates when your HTML is loaded. Each element acts like a node in a tree, with parent and child relationships. This understanding will be beneficial later when we start using CSS and JavaScript to manipulate these elements. [p]\n\nNow, as you prepare to finalize your web page, I recommend reviewing your code for validation. Using tools like the W3C Markup Validation Service can help identify errors and ensure your HTML is following the standards. This can prevent unexpected issues when your web page is published and viewed in different browsers. [p]\n\nIn summary, today we\u2019ve covered the essential foundations of HTML. You\u2019ve learned what HTML is, the structure of an HTML document, the importance of various elements like headings, lists, links, and images, and the significance of attributes. We also touched on semantic HTML and DOM structure, which are crucial for accessible and SEO-friendly web design. As you prepare your web page for submission, keep these concepts in mind to create a well-structured and functional web page that is ready for the world to see. Your understanding of these basics will pave the way for further exploration into CSS and JavaScript. [p]\n\nMain Topic: HTML Basics\nSub Topics: \n1. Introduction to HTML \n2. Document Structure \n3. The Head Section \n4. Essential HTML Tags\n5. Links and Images\n6. Importance of Semantic HTML\n7. Attributes and the Element Tree\n8. Validation and Submission\n\n**Wikipedia References:**\n1. [HTML](https://en.wikipedia.org/wiki/HTML)  \n2. [HTML Elements](https://en.wikipedia.org/wiki/HTML_element)  \n3. [HTML Document Structure](https://en.wikipedia.org/wiki/HTML#Document_structure)  \n4. [Semantic HTML](https://en.wikipedia.org/wiki/Semantic_HTML)  \n5. [Attribute_(HTML)](https://en.wikipedia.org/wiki/Attribute_(HTML))  \n6. [W3C Markup Validation Service](https://en.wikipedia.org/wiki/W3C_Markup_Validation_Service)  \n7. [Hyperlink](https://en.wikipedia.org/wiki/Hyperlink)  \n\nThis lecture should guide you through preparing your web page. Now, let's take a moment to reflect on what we\u2019ve learned!",
+                "summary": "In this lecture, the student has learned the basics of HTML, including its structure, essential elements such as headings, lists, and links, the importance of semantic HTML, handling attributes, and ways to verify and validate their code. These lessons are fundamental as they build a strong foundation for creating accessible and functional web pages that are ready for submission.",
+                "subject": "Computer Science",
+                "main_topic": "HTML Basics",
+                "sub_topics": [
+                    "Introduction to HTML",
+                    "Document Structure",
+                    "The Head Section",
+                    "Essential HTML Tags",
+                    "Links and Images",
+                    "Importance of Semantic HTML",
+                    "Attributes and the Element Tree",
+                    "Validation and Submission"
+                ],
+                "wikipedia_refrences": [
+                    "HTML",
+                    "HTML Elements",
+                    "HTML Document Structure",
+                    "Semantic HTML",
+                    "Attribute_(HTML)",
+                    "W3C Markup Validation Service",
+                    "Hyperlink"
+                ],
+                "quiz": [
+                    {
+                        "question": "Which tag is used to define the structure of the document in HTML?",
+                        "options": [
+                            "1) <html>",
+                            "4) <title>",
+                            "3) <body>",
+                            "2) <head>"
+                        ],
+                        "explanation": "The <html> tag is the root element of an HTML page which defines the structure of the entire document.",
+                        "answer": "1) <html>"
+                    },
+                    {
+                        "question": "What does the <title> tag do in an HTML document?",
+                        "options": [
+                            "1) Defines hyperlinks",
+                            "3) Represents a paragraph",
+                            "2) Sets the title of the web page",
+                            "4) Contains metadata"
+                        ],
+                        "explanation": "The <title> tag sets the title of the web page, which appears in the browser tab when the page is open.",
+                        "answer": "2) Sets the title of the web page"
+                    },
+                    {
+                        "question": "Which of the following is used to create a hyperlink in HTML?",
+                        "options": [
+                            "1) <link>",
+                            "3) <href>",
+                            "4) <hyperlink>",
+                            "2) <a>"
+                        ],
+                        "explanation": "The <a> tag is used to create hyperlinks, with the href attribute specifying the destination URL.",
+                        "answer": "2) <a>"
+                    },
+                    {
+                        "question": "What is the difference between ordered lists and unordered lists in HTML?",
+                        "options": [
+                            "3) Ordered lists do not require list items; unordered lists do.",
+                            "4) Both lists serve the same function.",
+                            "1) Ordered lists are for topics; unordered lists are for paragraphs.",
+                            "2) Ordered lists show a ranked order; unordered lists do not."
+                        ],
+                        "explanation": "Ordered lists (<ol>) display items in a specific order, while unordered lists (<ul>) present items without a defined order.",
+                        "answer": "2) Ordered lists show a ranked order; unordered lists do not."
+                    },
+                    {
+                        "question": "What is the correct format for defining a paragraph in HTML?",
+                        "options": [
+                            "4) <text>This is a paragraph.</text>",
+                            "2) <p>This is a paragraph.</p>",
+                            "3) <para>This is a paragraph.</para>",
+                            "1) <paragraph>This is a paragraph.</paragraph>"
+                        ],
+                        "explanation": "The correct way to define a paragraph is using the <p> tag, which wraps the content to be displayed as a paragraph.",
+                        "answer": "2) <p>This is a paragraph.</p>"
+                    },
+                    {
+                        "question": "Which of the following is NOT a semantic HTML tag?",
+                        "options": [
+                            "3) <header>",
+                            "4) <font>",
+                            "2) <section>",
+                            "1) <article>"
+                        ],
+                        "explanation": "<font> is not a semantic tag; it was used for styling text before CSS became prevalent. Semantic tags like <article>, <header>, and <section> provide meaning to the document structure.",
+                        "answer": "4) <font>"
+                    },
+                    {
+                        "question": "How do you specify the source of an image in HTML?",
+                        "options": [
+                            "2) Using the link attribute in <img>",
+                            "1) Using the src attribute in <img>",
+                            "4) Using the img-source attribute",
+                            "3) Using the source attribute in <picture>"
+                        ],
+                        "explanation": "In an <img> tag, you specify the image source using the src attribute.",
+                        "answer": "1) Using the src attribute in <img>"
+                    },
+                    {
+                        "question": "What are the levels of headings available in HTML?",
+                        "options": [
+                            "4) 1-4",
+                            "3) 1-3",
+                            "2) 1-6",
+                            "1) 1-5"
+                        ],
+                        "explanation": "HTML provides six levels of headings, from <h1> to <h6>, where <h1> is the highest level and <h6> is the lowest.",
+                        "answer": "2) 1-6"
+                    },
+                    {
+                        "question": "What component of an HTML document is crucial for search engine optimization?",
+                        "options": [
+                            "3) Image Tags",
+                            "2) Text Content",
+                            "4) Links",
+                            "1) Headings"
+                        ],
+                        "explanation": "Proper use of heading tags (<h1> to <h6>) contributes to SEO, as search engines prioritize content based on heading levels.",
+                        "answer": "1) Headings"
+                    },
+                    {
+                        "question": "What is one of the first things you should do before publishing your HTML web page?",
+                        "options": [
+                            "2) Validate your HTML",
+                            "1) Add JavaScript",
+                            "3) Optimize images",
+                            "4) Design layout"
+                        ],
+                        "explanation": "Validating your HTML code helps identify errors and ensures compliance with standards before the page is published.",
+                        "answer": "2) Validate your HTML"
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What does HTML stand for?",
+                        "options": [
+                            "1) Hyper Text Markup Language",
+                            "3) Home Tool Markup Language",
+                            "4) HyperText Multiple Language",
+                            "2) Hyperlink Text Multilayer"
+                        ],
+                        "explanation": "HTML stands for HyperText Markup Language, which is the standard language used to create and design documents on the World Wide Web.",
+                        "answer": "1) HTML stands for HyperText Markup Language."
+                    },
+                    {
+                        "question": "What is the purpose of the <meta name=\"description\" content=\"...\"> tag in a web page's head section?",
+                        "options": [
+                            "2) To provide a brief description for search engines",
+                            "4) To create links to external stylesheets",
+                            "3) To include images in the web page",
+                            "1) To set the title of the web page"
+                        ],
+                        "explanation": "The <meta name=\"description\" content=\"...\"> tag is used to provide a brief description of the web page, which helps search engines understand the content of the page and is crucial for search engine optimization.",
+                        "answer": "2) To provide a brief description for search engines"
+                    },
+                    {
+                        "question": "What is the primary purpose of using an unordered list (<ul>) in HTML?",
+                        "options": [
+                            "1) To create a ranked list where order matters",
+                            "4) To highlight important text",
+                            "3) To define a table structure",
+                            "2) To create a bullet-pointed list where order does not matter"
+                        ],
+                        "explanation": "An unordered list is specifically used for items where the order does not matter, making it ideal for creating bullet-pointed lists. This allows for clear organization of content without implying a ranking or sequence.",
+                        "answer": "2) To create a bullet-pointed list where order does not matter"
+                    },
+                    {
+                        "question": "What is the purpose of the 'alt' attribute in the <img> tag?",
+                        "options": [
+                            "1) It specifies the URL of the image.",
+                            "4) It is used to add a border around the image.",
+                            "3) It dictates the size of the image displayed.",
+                            "2) It improves accessibility by providing descriptive text for screen readers."
+                        ],
+                        "explanation": "The 'alt' attribute is essential for accessibility; it provides descriptive text that helps screen readers convey information about the image to visually impaired users.",
+                        "answer": "2) It improves accessibility by providing descriptive text for screen readers."
+                    },
+                    {
+                        "question": "What is the purpose of attributes in HTML?",
+                        "options": [
+                            "4) To control browser settings",
+                            "1) To provide additional information about HTML elements",
+                            "3) To create multimedia content",
+                            "2) To format text content"
+                        ],
+                        "explanation": "Attributes in HTML are used to give additional information about HTML elements, which helps define their behavior and appearance on the web page. For example, attributes like href in an <a> tag specify the target link, while class and id attributes allow for styling and scripting.",
+                        "answer": "1) To provide additional information about HTML elements"
+                    },
+                    {
+                        "question": "Why is it important to validate your HTML code before publishing a web page?",
+                        "options": [
+                            "3) To increase the loading speed of the web page.",
+                            "2) To identify errors and prevent unexpected issues across different browsers.",
+                            "1) To ensure that the page looks good on one specific browser only.",
+                            "4) To make it easier for search engines to find the web page."
+                        ],
+                        "explanation": "Validating HTML code helps identify any errors that could cause display issues, enabling the web page to be reliably viewed across different browsers and devices. This process ensures that the code adheres to web standards, thereby reducing potential compatibility problems.",
+                        "answer": "2) To identify errors and prevent unexpected issues across different browsers."
+                    },
+                    {
+                        "question": "What is the main purpose of using semantic HTML in web design?",
+                        "options": [
+                            "3) To increase the loading speed of a webpage",
+                            "1) To make the website visually appealing",
+                            "4) To reduce the amount of HTML code used",
+                            "2) To improve the accessibility and SEO of the website"
+                        ],
+                        "explanation": "Semantic HTML enhances the meaning of the content within a webpage, making it more understandable for both users and search engines. This improves accessibility for individuals with disabilities and optimizes the site for SEO, allowing search engines to better interpret the content.",
+                        "answer": "2) To improve the accessibility and SEO of the website"
+                    },
+                    {
+                        "question": "What is the purpose of semantic HTML?",
+                        "options": [
+                            "1) To improve the visual appearance of a webpage",
+                            "3) To enhance the accessibility and SEO of a webpage",
+                            "4) To reduce the file size of HTML documents",
+                            "2) To make HTML code easier to write"
+                        ],
+                        "explanation": "Semantic HTML uses HTML markup to reinforce the meaning of the content, specifically in terms of accessibility for screen readers and enhancing search engine optimization (SEO). This makes it easier for browsers and machines to interpret the content appropriately, providing a better experience for users and improving discoverability.",
+                        "answer": "3) To enhance the accessibility and SEO of a webpage"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

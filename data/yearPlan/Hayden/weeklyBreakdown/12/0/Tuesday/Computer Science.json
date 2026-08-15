@@ -1,0 +1,184 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Introduction to Web Development",
+                "lecture": "Hello and welcome to today's lecture on Introduction to Web Development! Building upon yesterday's HTML basics, today we will learn about styling web pages using CSS, or Cascading Style Sheets. CSS is a core technology in web development, alongside HTML and JavaScript. It allows you to take your web pages from simple to stunning by defining how elements should be displayed on the screen. \n\nWe will cover several important aspects of CSS today, including what CSS is, the difference between inline and internal CSS, and some basic CSS properties that can enhance your web design. \n\nLet's start with the fundamental question: What is CSS?\n\nCSS stands for Cascading Style Sheets. It was created to separate content from presentation. This means you can structure your HTML content independently from how that content looks. Just imagine your favorite website - the colors, fonts, spacing, and layouts are all defined using CSS. This separation is essential because it allows for cleaner code, easier maintenance, and greater flexibility in design.\n\nCSS styles are applied to web pages via selectors, which allow you to select which HTML elements you want to style. By making use of stylesheets, you can streamline your coding process. CSS makes it easy to apply styles across multiple pages of a website, so if you want to change a style, you only need to do it in one place!  \n\n[p]  \n\nNow that we've established what CSS is and its importance in web development, let's dive into one of the ways you can implement CSS on your web pages: Inline vs. Internal CSS.\n\nInline CSS is used to apply styles directly within an HTML element's tag. This could be useful for quick styling, particularly if you want to make a specific change to one particular element. However, it's not always the best practice because it can make your HTML code messy and harder to maintain. For example, you could write:\n\n`<h1 style=\"color: blue;\">Hello, World!</h1>`  \n\nThis line not only includes the HTML structure but also the style in the same line, which is the essence of inline CSS. While it demonstrates how to apply a style, using inline CSS throughout your webpage can lead to inconsistency and redundancies.\n\nOn the other hand, there's internal CSS. This is when you write your CSS code in a `<style>` tag located in the `<head>` section of your HTML document. This method allows you to apply styles to all specified elements within that particular page without cluttering your HTML. For example:\n\n```html  \n<head>  \n<style>  \n    h1 {  \n        color: blue;  \n    }  \n</style>  \n</head>  \n<body>  \n<h1>Hello, World!</h1>  \n</body>  \n```  \n\nThis way, you maintain a separation of concerns, which is a fundamental principle in web development. Most beginners at first might find inline CSS easier because it is straightforward, but as you develop your skills, you'll appreciate the clarity that internal CSS (or even external CSS, which we'll touch on later) can provide.  \n\n[p]  \n\nNow let's take a look at some basic CSS properties that you can use to enhance your web pages. CSS properties determine how a specific HTML element will change visually. There are countless properties available, but let\u2019s focus on a few fundamental properties that can help you get started:  \n\n1. **Color** - This property defines the color of text within an element. \nExample:\n```css\ncolor: red;\n```\n\n2. **Background-color** - This property sets the background color of an element.\nExample:\n```css\nbackground-color: yellow;\n```\n\n3. **Font-size** - This property changes the size of the text displayed in an element.\nExample:\n```css\nfont-size: 20px;\n```\n\n4. **Margin and Padding** - These properties help control the spacing around and inside an element. \nMargin refers to the space outside the element, while padding is the space within the element's border. \nExample:  \n```css  \nmargin: 10px;  \npadding: 20px;  \n```\n\n5. **Border** - Defines a border around an element which can be customized with properties such as border-width, border-style, and border-color.\nExample:\n```css  \nborder: 2px solid black;\n```  \n\nWhen you implement CSS properties, you can mix and match them however you want to create unique designs. CSS is about experimentation and finding your style! Start practicing with these properties, creating several variations, and see how changing each affects the overall look of your web page.  \n\n[p]  \n\nRemember that CSS also allows for great responsiveness in web design. With techniques like media queries, you can adjust your styles based on the screen size, ensuring your web pages look great on mobile devices as well as desktop computers. However, responsiveness is a topic we will revisit in future lectures. \n\nSo today, you learned about the basics of CSS, how it functions alongside HTML, and explored the differences between inline and internal CSS. Additionally, we discussed key CSS properties that will help you bring your designs to life.  \n\nIt's crucial to remember that CSS is a skill that takes time to master. Don\u2019t be discouraged if you find it challenging at first. With practice, you\u2019ll get there!  \n\nIn summary, we covered:\n1. The role of CSS in web development and how it separates content from presentation.\n2. The difference between inline CSS (quick, but messy) and internal CSS (organized and scalable).\n3. Basic CSS properties that can help you style your web pages effectively.\n\nI encourage you to experiment with CSS on your projects. The more you practice, the more intuitive it will become. Thank you for participating in today's lecture! I look forward to our next discussion where we will build upon these concepts!  \n\n**Main Topic: Introduction to Web Development**  \n**Sub Topics:** 'What is CSS?', 'Inline vs. Internal CSS', 'Basic CSS Properties'  \n\n**Wikipedia References:**  \n- [Cascading Style Sheets](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)  \n- [Web Development](https://en.wikipedia.org/wiki/Web_development)  \n- [Inline Style](https://en.wikipedia.org/wiki/Inline_style)  \n- [CSS Properties](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#Properties)  \n- [Responsive Web Design](https://en.wikipedia.org/wiki/Responsive_web_design)  \n",
+                "summary": "In today's lecture on Introduction to Web Development, you learned about the essential role of CSS in styling web pages. We explored what CSS is and how it allows the separation of content from presentation. You discovered the differences between inline and internal CSS, and we discussed basic CSS properties that can enhance the visual appeal of web pages. The key takeaways include understanding how to apply CSS styles, using selectors effectively, and mastering some foundational properties, all of which are crucial for your journey in web development. Remember, practice is essential to mastering these skills!",
+                "subject": "Computer Science",
+                "main_topic": "Introduction to Web Development",
+                "sub_topics": [
+                    "What is CSS?",
+                    "Inline vs. Internal CSS",
+                    "Basic CSS Properties"
+                ],
+                "wikipedia_refrences": [
+                    "Cascading Style Sheets",
+                    "Web Development",
+                    "Inline Style",
+                    "CSS Properties",
+                    "Responsive Web Design"
+                ],
+                "quiz": [
+                    {
+                        "question": "What does CSS stand for?",
+                        "options": [
+                            "1) Cascading Style Sheets",
+                            "4) Colorful Style Sheets",
+                            "2) Computer Style Sheets",
+                            "3) Creative Style Sheets"
+                        ],
+                        "explanation": "CSS stands for Cascading Style Sheets, which is used to control the layout and style of web pages.",
+                        "answer": "1) Cascading Style Sheets"
+                    },
+                    {
+                        "question": "Where is internal CSS typically located in an HTML document?",
+                        "options": [
+                            "1) In the body section",
+                            "2) At the end of the document",
+                            "4) In a separate file",
+                            "3) In the head section"
+                        ],
+                        "explanation": "Internal CSS is typically located within a <style> tag in the head section of the HTML document, allowing it to style elements throughout that page.",
+                        "answer": "3) In the head section"
+                    },
+                    {
+                        "question": "What is an example of inline CSS?",
+                        "options": [
+                            "1) <style> h1 { color: blue; } </style>",
+                            "2) <h1 style='color: blue;'>Hello, World!</h1>",
+                            "3) <h1 class='blue'>Hello, World!</h1>",
+                            "4) <h1 id='title'>Hello, World!</h1>"
+                        ],
+                        "explanation": "An example of inline CSS is <h1 style='color: blue;'>Hello, World!</h1>, where styles are applied directly to the HTML element.",
+                        "answer": "2) <h1 style='color: blue;'>Hello, World!</h1>"
+                    },
+                    {
+                        "question": "Which property is used to change the text size in CSS?",
+                        "options": [
+                            "2) text-size",
+                            "1) font-size",
+                            "4) font-weight",
+                            "3) size-font"
+                        ],
+                        "explanation": "The font-size property is specifically used to set the size of the text displayed in an element.",
+                        "answer": "1) font-size"
+                    },
+                    {
+                        "question": "What does the margin property do in CSS?",
+                        "options": [
+                            "3) Changes the font style",
+                            "4) Changes the text color",
+                            "1) Adds space inside the element",
+                            "2) Adds space around the element"
+                        ],
+                        "explanation": "The margin property controls the spacing around an element, creating space outside of it.",
+                        "answer": "2) Adds space around the element"
+                    },
+                    {
+                        "question": "What is a benefit of using CSS stylesheets?",
+                        "options": [
+                            "4) They can only be used in one HTML document",
+                            "2) They clutter your HTML code",
+                            "1) They make HTML coding impossible",
+                            "3) They allow easier maintenance and design changes"
+                        ],
+                        "explanation": "CSS stylesheets allow for easier maintenance and design changes, since styles can be applied site-wide from one location.",
+                        "answer": "3) They allow easier maintenance and design changes"
+                    },
+                    {
+                        "question": "Which statement describes how to define a border in CSS?",
+                        "options": [
+                            "2) border-width: 3px; color: red; style: dotted;",
+                            "4) border: red dotted 3px;",
+                            "1) border: 3px dotted red;",
+                            "3) border-color: red; border-style: dotted; border-width: 3px;"
+                        ],
+                        "explanation": "The correct way to define a border is by combining width, style, and color, e.g. border: 3px dotted red;.",
+                        "answer": "1) border: 3px dotted red;"
+                    },
+                    {
+                        "question": "What is a media query used for in CSS?",
+                        "options": [
+                            "4) To style HTML elements differently based on user hover states",
+                            "1) To create animations",
+                            "2) To link multiple stylesheets",
+                            "3) To apply CSS rules based on screen size"
+                        ],
+                        "explanation": "Media queries adjust styles based on the screen size of the device, allowing for responsive web design.",
+                        "answer": "3) To apply CSS rules based on screen size"
+                    },
+                    {
+                        "question": "What happens if you apply the same CSS property to an element using internal CSS and also using inline CSS?",
+                        "options": [
+                            "4) They will conflict with no specific behavior",
+                            "2) Internal CSS will always override inline CSS",
+                            "1) Inline CSS will always override internal CSS",
+                            "3) They both will be ignored"
+                        ],
+                        "explanation": "Inline CSS has a higher specificity and will override internal CSS styles if both are applied to the same element.",
+                        "answer": "1) Inline CSS will always override internal CSS"
+                    },
+                    {
+                        "question": "Which of the following properties can change the space inside an HTML element?",
+                        "options": [
+                            "1) margin",
+                            "2) padding",
+                            "4) display",
+                            "3) border"
+                        ],
+                        "explanation": "The padding property controls the space within the border of an element, affecting its internal spacing.",
+                        "answer": "2) padding"
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What is the primary purpose of CSS in web development?",
+                        "options": [
+                            "1) To create the HTML structure of a web page",
+                            "2) To define how HTML elements should be displayed on the screen",
+                            "3) To increase the loading speed of a website",
+                            "4) To add interactivity to web pages"
+                        ],
+                        "explanation": "The primary purpose of CSS (Cascading Style Sheets) is to define how HTML elements should be displayed on the screen. It allows for separating content from presentation, enabling web developers to apply styles consistently across multiple web pages.",
+                        "answer": "2) To define how HTML elements should be displayed on the screen"
+                    },
+                    {
+                        "question": "What is the main advantage of using internal CSS over inline CSS?",
+                        "options": [
+                            "4) It can be combined with JavaScript more effectively.",
+                            "1) It allows for quick styling of individual elements.",
+                            "3) It is easier to write than external CSS.",
+                            "2) It helps maintain a separation of concerns, resulting in cleaner and more manageable HTML code."
+                        ],
+                        "explanation": "Internal CSS allows you to define styles in a centralized location (within the <style> tag in the <head>), which keeps your HTML clean and separate from styling concerns. This makes it easier to manage styles across the entire page without repetition.",
+                        "answer": "2) It helps maintain a separation of concerns, resulting in cleaner and more manageable HTML code."
+                    },
+                    {
+                        "question": "Which CSS property is used to set the background color of an element?",
+                        "options": [
+                            "1) margin",
+                            "4) border",
+                            "3) font-size",
+                            "2) background-color"
+                        ],
+                        "explanation": "The background-color property is specifically designed to set the background color of an element, allowing you to enhance the visual appeal of your web page.",
+                        "answer": "2) background-color"
+                    },
+                    {
+                        "question": "What is the primary purpose of CSS in web development?",
+                        "options": [
+                            "1) To store data on the web",
+                            "2) To separate content from presentation",
+                            "4) To create a web server",
+                            "3) To provide interactive elements"
+                        ],
+                        "explanation": "CSS, or Cascading Style Sheets, is used in web development primarily to separate content from its presentation. This allows developers to manage the layout and style of their web pages separately from the HTML content, leading to better organization and scalability.",
+                        "answer": "2) To separate content from presentation"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

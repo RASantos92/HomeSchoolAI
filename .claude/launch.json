@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "streamlit-app",
+      "runtimeExecutable": "myenv/Scripts/streamlit.exe",
+      "runtimeArgs": ["run", "main_page.py", "--server.headless", "true"],
+      "port": 8501
+    }
+  ]
+}

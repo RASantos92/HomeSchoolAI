@@ -1,0 +1,195 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Web Development Review",
+                "lecture": "Welcome to our lecture on Web Development Review! Today, we\u2019re diving into the essential concepts of web development that form the backbone of creating interactive and stylish websites. Get ready to refresh your web skills!\n\nLet\u2019s start with **HTML Basics**. HTML, or HyperText Markup Language, is the standard language for creating web pages. It allows you to structure content on the web. Every web page you visit is constructed from HTML, which uses elements defined by tags. For example, <html>, <head>, <body>, <h1>, <p>, and others are essential for marking sections of your page. Each HTML element can have attributes that provide additional information about the element.\n\nThe basic structure of an HTML document includes the declaration, followed by the <html> element that contains the <head> and <body>. The head includes metadata and links to styles and scripts, while the body holds the content.\n\nUnderstanding the hierarchy of elements is crucial. Headings from <h1> to <h6> denote importance, while paragraphs are marked with <p>. Lists are managed using <ul> for unordered lists and <ol> for ordered lists. Don\u2019t forget about links with the <a> tag and images with the <img> tag. You can also embed multimedia elements like videos and audio directly into your pages. \n\nAs you work on HTML, consider how it interacts with other technologies. HTML lays the foundation, but it\u2019s the style and behavior that bring your elements to life. [p]\n\nNext, we\u2019ll move on to **CSS Styling**. CSS, or Cascading Style Sheets, is the language used to style your HTML elements. This is where you get to unleash your creativity! CSS allows you to control the layout, colors, fonts, spacing, and overall appearance of a web page.\n\nCSS works by selecting HTML elements and applying styles to them. There are different ways to include CSS in your HTML: inline styles within an element, internal styles in the head section, or external stylesheets linked in the head. It\u2019s best practice to use external stylesheets for better organization and maintainability.\n\nSelectors are the heart of CSS. They enable you to target specific elements, and types include class selectors, ID selectors, and type selectors. You can use properties like \u2018color\u2019, \u2018font-size\u2019, \u2018margin\u2019, and \u2018padding\u2019 to style them. Layout techniques like Flexbox and Grid take modern CSS a step further, allowing for responsive and sophisticated designs.\n\nAlways consider accessibility and cross-browser compatibility when styling. Remember, a visually appealing site is not just about aesthetics but also functionality and user experience. [p]\n\nNow, let\u2019s explore **JavaScript Functions**. JavaScript is the programming language of the web, making your web pages interactive. Functions are one of the fundamental building blocks of JavaScript. A function is a reusable piece of code that performs a specific task. They can take inputs called parameters and return outputs.\n\nIn JavaScript, we create functions using the `function` keyword. Here\u2019s an example: `function greet(name) { return 'Hello, ' + name; }`. You can call this function with an argument like `greet('Student');`, which would return 'Hello, Student'.\n\nFunctions can also be anonymous or arrow functions. JavaScript uses objects and arrays to manage data, and mastering functions enhances your ability to manipulate these structures and handle events.\n\nEvents are vital in web development and can be handled using JavaScript to improve user interface behavior. You can respond to user actions such as clicks, form submissions, or keyboard inputs. Tying JavaScript functions to these events creates dynamic and responsive applications. [p]\n\nFinally, we\u2019ll discuss **Responsive Design**. Responsive design is the approach that ensures your web pages look good on all devices\u2014desktops, tablets, and mobiles. With the increased use of mobile devices, this concept is more important than ever.\n\nResponsive design uses CSS media queries to apply different styles based on the screen size. This means you can change layouts, font sizes, and other styles dynamically depending on the viewport size. You should start thinking about designing with a mobile-first approach; meaning your primary layout should be for mobile, then scale up for larger screens.\n\nFluid grids, flexible images, and viewport units contribute to responsive web design. There are also frameworks like Bootstrap that streamline the implementation of responsive design practices, but understanding the core principles is essential. [p]\n\nIn summary, today we covered critical aspects of web development. We began by discussing HTML basics, focusing on the structure of web pages and essential tags. Then we moved on to CSS styling, learning how to make those pages visually appealing and organized. We explored JavaScript functions that allow us to add interactivity and behavior to our web applications. Lastly, we ventured into the principles of responsive design, ensuring our sites are accessible and functional across various devices. \n\nYou now have a refreshed understanding of these core web development concepts, which will serve as the foundation for any advanced projects you undertake. With practice, you'll enhance your skills and build amazing websites! \n\nRemember, web development is an ever-evolving field, and continuous learning is key to staying relevant! \n\n**Main Topic**: Web Development Review  \n**Sub Topics**: HTML Basics, CSS Styling, JavaScript Functions, Responsive Design  \n\n**Wikipedia References**:  \n1. [HTML](https://en.wikipedia.org/wiki/HTML)  \n2. [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)  \n3. [JavaScript](https://en.wikipedia.org/wiki/JavaScript)  \n4. [Responsive Web Design](https://en.wikipedia.org/wiki/Responsive_web_design) ",
+                "summary": "In summary, today we covered critical aspects of web development. We began by discussing HTML basics, focusing on the structure of web pages and essential tags. Then we moved on to CSS styling, learning how to make those pages visually appealing and organized. We explored JavaScript functions that allow us to add interactivity and behavior to our web applications. Lastly, we ventured into the principles of responsive design, ensuring our sites are accessible and functional across various devices. You now have a refreshed understanding of these core web development concepts, which will serve as the foundation for any advanced projects you undertake. With practice, you'll enhance your skills and build amazing websites! Remember, web development is an ever-evolving field, and continuous learning is key to staying relevant!",
+                "subject": "Computer Science",
+                "main_topic": "Web Development Review",
+                "sub_topics": [
+                    "HTML Basics",
+                    "CSS Styling",
+                    "JavaScript Functions",
+                    "Responsive Design"
+                ],
+                "wikipedia_refrences": [
+                    "https://en.wikipedia.org/wiki/HTML",
+                    "https://en.wikipedia.org/wiki/Cascading_Style_Sheets",
+                    "https://en.wikipedia.org/wiki/JavaScript",
+                    "https://en.wikipedia.org/wiki/Responsive_web_design"
+                ],
+                "quiz": [
+                    {
+                        "question": "What does HTML stand for?",
+                        "options": [
+                            "3) HyperTool Markup Language",
+                            "4) HyperText Maintenance Language",
+                            "1) HyperText Markup Language",
+                            "2) HighText Markup Language"
+                        ],
+                        "explanation": "HTML stands for HyperText Markup Language, which is the standard language for creating web pages.",
+                        "answer": "1) HTML stands for HyperText Markup Language."
+                    },
+                    {
+                        "question": "Which element is essential for marking the beginning of an HTML document?",
+                        "options": [
+                            "3) <html>",
+                            "2) <body>",
+                            "1) <head>",
+                            "4) <title>"
+                        ],
+                        "explanation": "The <html> element is essential for marking the beginning of an HTML document, as it wraps all other elements.",
+                        "answer": "3) The <html> element marks the beginning of an HTML document."
+                    },
+                    {
+                        "question": "Which CSS selector is used to apply styles to a specific element with a unique ID?",
+                        "options": [
+                            "1) Class selector",
+                            "2) ID selector",
+                            "3) Type selector",
+                            "4) Attribute selector"
+                        ],
+                        "explanation": "The ID selector is used to apply styles to a specific element that is assigned a unique ID. It is denoted by a '#' symbol.",
+                        "answer": "2) The ID selector applies styles to a specific element."
+                    },
+                    {
+                        "question": "What is the CSS property to change the text color of an element?",
+                        "options": [
+                            "3) color",
+                            "2) text-color",
+                            "1) background-color",
+                            "4) font-color"
+                        ],
+                        "explanation": "The correct CSS property to change the text color of an element is 'color'.",
+                        "answer": "3) The property to change text color is 'color'."
+                    },
+                    {
+                        "question": "What keyword is used to define a function in JavaScript?",
+                        "options": [
+                            "4) method",
+                            "1) func",
+                            "3) define",
+                            "2) function"
+                        ],
+                        "explanation": "In JavaScript, the keyword used to define a function is 'function'.",
+                        "answer": "2) The keyword to define a function is 'function'."
+                    },
+                    {
+                        "question": "What technique does responsive design use to ensure web pages look good on all devices?",
+                        "options": [
+                            "2) CSS grid",
+                            "1) Fixed layouts",
+                            "3) CSS media queries",
+                            "4) JavaScript functions"
+                        ],
+                        "explanation": "Responsive design uses CSS media queries to apply different styles based on the screen size, ensuring good appearance across devices.",
+                        "answer": "3) Responsive design uses CSS media queries to adapt styles."
+                    },
+                    {
+                        "question": "Which of the following is NOT a type of HTML list?",
+                        "options": [
+                            "2) <ol>",
+                            "4) <dl>",
+                            "3) <li>",
+                            "1) <ul>"
+                        ],
+                        "explanation": "The <li> tag represents a list item and is not a type of list itself; it is used within <ul> or <ol> elements.",
+                        "answer": "3) <li> is not a type of list, it represents a list item."
+                    },
+                    {
+                        "question": "What is the primary function of JavaScript in web development?",
+                        "options": [
+                            "2) Creating server-side applications",
+                            "3) Adding interactivity to web pages",
+                            "1) Styling web pages",
+                            "4) Storing data"
+                        ],
+                        "explanation": "JavaScript is primarily used for adding interactivity to web pages, enhancing user experience.",
+                        "answer": "3) JavaScript's primary function is adding interactivity to web pages."
+                    },
+                    {
+                        "question": "Which layout technique allows for a responsive design by arranging elements in a flexible way?",
+                        "options": [
+                            "3) Float",
+                            "4) Grid system",
+                            "2) Flexbox",
+                            "1) Fixed layout"
+                        ],
+                        "explanation": "Flexbox is a modern layout technique that allows for flexible and responsive arrangement of elements in web design.",
+                        "answer": "2) Flexbox allows flexible and responsive element arrangement."
+                    },
+                    {
+                        "question": "What does it mean to design with a mobile-first approach?",
+                        "options": [
+                            "2) Design primarily for tablets",
+                            "1) Design primarily for desktops and scale down",
+                            "4) Focus only on mobile applications",
+                            "3) Design primarily for mobile and scale up"
+                        ],
+                        "explanation": "A mobile-first approach means starting the design process with mobile layouts, then scaling up for larger screens, ensuring optimal usability on smaller devices.",
+                        "answer": "3) A mobile-first approach means designing primarily for mobile, then scaling up."
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What HTML tag is used to create a hyperlink to another webpage?",
+                        "options": [
+                            "2) <a>",
+                            "4) <h1>",
+                            "3) <p>",
+                            "1) <img>"
+                        ],
+                        "explanation": "The <a> tag is used to define a hyperlink that links to another webpage. The other tags serve different purposes: <img> for images, <p> for paragraphs, and <h1> for the main heading of a page.",
+                        "answer": "2) <a>"
+                    },
+                    {
+                        "question": "What is the best practice for including CSS in an HTML document for better organization and maintainability?",
+                        "options": [
+                            "3) External stylesheets linked in the head",
+                            "4) Using a mix of all these methods",
+                            "2) Internal styles in the head section",
+                            "1) Inline styles within each HTML element"
+                        ],
+                        "explanation": "Using external stylesheets linked in the head is considered the best practice because it promotes better organization and maintainability of the code. It allows for separation of concerns between content (HTML) and presentation (CSS), making it easier to manage and update styles across multiple pages.",
+                        "answer": "3) External stylesheets linked in the head"
+                    },
+                    {
+                        "question": "What is a function in JavaScript?",
+                        "options": [
+                            "2) A reusable piece of code that performs a specific task",
+                            "4) A loop for iterating over arrays",
+                            "1) A type of variable",
+                            "3) A method to store data"
+                        ],
+                        "explanation": "A function is a fundamental building block in JavaScript that allows you to create a reusable piece of code to perform specific tasks, as explained in the lecture material.",
+                        "answer": "2) A reusable piece of code that performs a specific task"
+                    },
+                    {
+                        "question": "What is the primary advantage of using responsive design in web development?",
+                        "options": [
+                            "4) It reduces the cost of website hosting.",
+                            "1) It improves website load speed.",
+                            "3) It simplifies the coding process.",
+                            "2) It ensures web pages look good on all devices."
+                        ],
+                        "explanation": "The primary advantage of responsive design is that it ensures web pages are optimized for all device sizes, improving user experience across desktops, tablets, and mobiles.",
+                        "answer": "2) It ensures web pages look good on all devices."
+                    },
+                    {
+                        "question": "What is the main purpose of CSS in web development?",
+                        "options": [
+                            "4) To ensure websites work across all devices.",
+                            "2) To style and visually enhance web pages.",
+                            "3) To add interactivity through user events.",
+                            "1) To structure web content with tags."
+                        ],
+                        "explanation": "CSS, or Cascading Style Sheets, is primarily used to style web pages. It defines how HTML elements are to be displayed on screen, paper, or in other media, essentially focusing on the visual appearance of the web content.",
+                        "answer": "2) To style and visually enhance web pages."
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

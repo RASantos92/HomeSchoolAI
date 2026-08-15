@@ -1,0 +1,182 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Dynamic Web Pages: The Power of Interactivity",
+                "lecture": "In computer science today, we'll dive into the concept of dynamic web pages, which are pages that can change based on user interaction. This week we will focus on how to implement this using JavaScript.\n\nTo begin with, let\u2019s discuss what a dynamic web page actually is. Dynamic web pages are those that display content that can change based on various factors, such as user input, time of day, or any interactions occurring on the web page itself. Unlike static web pages, which do not change unless a new version is loaded, dynamic pages update immediately and can provide a more engaging user experience. Examples of dynamic web pages include social media feeds, online shopping sites, and web applications.\n\nNow, let\u2019s delve deeper into the core component of creating dynamic web pages: JavaScript. JavaScript is a programming language that enhances web interactions by allowing developers to create dynamic content and control multimedia, animate images, and much more. One of the first things you need to understand is the basics of JavaScript: variables, data types, functions, and events. [p] \n\n1. **JavaScript Basics** - In JavaScript, variables are used to store data values. They can be defined using keywords like var, let, or const. For instance, consider this example of declaring a variable for a username:\n\n```javascript\nlet username = 'Student';\n```\n\nHere, `username` is a variable that has been assigned the string value 'Student'. Data types in JavaScript include strings, numbers, and booleans, among others. Functions are reusable blocks of code that perform actions. For example:\n\n```javascript\nfunction greet() {\n    console.log('Hello, ' + username);\n}\n```\n\nThis function, when called, will output a greeting to the console. Events are user actions that JavaScript can respond to, such as clicks or key presses. [p] \n\n2. Once you're comfortable with the basics, the next crucial step is understanding **User Interaction**. This is where JavaScript shines, as it allows you to create responsive features that react to users. Consider a scenario where you want to change an image when a user clicks a button. You would use an event listener like this:\n\n```javascript\ndocument.getElementById('myButton').addEventListener('click', function() {\n    document.getElementById('myImage').src = 'newImage.jpg';\n});\n```\n\nIn this code, when a button with the ID `myButton` is clicked, the source (`src`) of an image element with the ID `myImage` is changed to `newImage.jpg`. This is just one way to create interactivity. [p] \n\nThere are many types of user interactions we can implement, such as form submissions, mouse movements, and keyboard inputs. Each can enhance the user experience dramatically by providing immediate feedback and responsiveness.\n\n3. Finally, to wrap our understanding of dynamic web pages, let\u2019s talk about **Creating Responsive Designs**. Responsive design is all about ensuring that a web page looks good and functions well across a variety of devices, whether it\u2019s a desktop, tablet, or smartphone. The core principle is to use CSS along with JavaScript to achieve fluid layouts that adapt to different screen sizes and resolutions.\n\nYou can utilize techniques like media queries in CSS for this purpose. For example:\n\n```css\n@media (max-width: 600px) {\n    body {\n        background-color: lightblue;\n    }\n}\n```\n\nThis CSS rule states that when the browser window width is less than or equal to 600 pixels, the background color of the body will change to light blue. JavaScript can further enhance responsiveness by enabling dynamically loaded content or layout adjustments based on user interaction or screen size.\n\nIn summary, dynamic web pages allow us to create engaging and responsive experiences for users. Through JavaScript, we can manage variables, handle user interactions, and create responsive designs that enhance the usability of our web applications. You have learned about the basics of JavaScript, how to implement user interactions, and the fundamentals of creating responsive designs that adapt to different devices. [p]\n\nAs you explore these concepts further, remember that the real skill lies in practice\u2014building projects and continually playing with JavaScript is the best way to master dynamic web development.\n\nWikipedia References:\n1. [JavaScript](https://en.wikipedia.org/wiki/JavaScript)\n2. [Dynamic Web Page](https://en.wikipedia.org/wiki/Dynamic_web_page)\n3. [Responsive Web Design](https://en.wikipedia.org/wiki/Responsive_web_design)\n",
+                "summary": "In this lecture, you have learned about dynamic web pages and how they operate differently compared to static web pages. We explored the basics of JavaScript, including variables, functions, and user interactions. Additionally, we discussed how to make web pages responsive using CSS and JavaScript, offering the ability for web applications to work seamlessly across different devices. You should now have a foundational understanding of implementing dynamic features in web design.",
+                "subject": "Computer Science",
+                "main_topic": "Dynamic Web Pages",
+                "sub_topics": [
+                    "JavaScript Basics",
+                    "User Interaction",
+                    "Creating Responsive Designs"
+                ],
+                "wikipedia_refrences": [
+                    "JavaScript",
+                    "Dynamic Web Page",
+                    "Responsive Web Design"
+                ],
+                "quiz": [
+                    {
+                        "question": "What distinguishes dynamic web pages from static web pages?",
+                        "options": [
+                            "3) Static pages are more interactive than dynamic pages.",
+                            "2) Dynamic pages can change based on user interactions.",
+                            "1) Dynamic pages do not change under any circumstances.",
+                            "4) Static pages load faster than dynamic pages."
+                        ],
+                        "explanation": "Dynamic web pages are designed to update content based on user input or interactions, making them more flexible compared to static pages, which do not change unless a new version is loaded.",
+                        "answer": "2) Dynamic pages can change based on user interactions."
+                    },
+                    {
+                        "question": "Which of the following is NOT a data type in JavaScript?",
+                        "options": [
+                            "4) Number",
+                            "2) Boolean",
+                            "3) Text",
+                            "1) String"
+                        ],
+                        "explanation": "In JavaScript, valid data types include strings, booleans, and numbers, but 'Text' is not recognized as a data type.",
+                        "answer": "3) Text"
+                    },
+                    {
+                        "question": "What is the purpose of using an event listener in JavaScript?",
+                        "options": [
+                            "4) To change the style of web pages.",
+                            "3) To declare functions.",
+                            "2) To respond to user interactions.",
+                            "1) To define a variable."
+                        ],
+                        "explanation": "Event listeners allow JavaScript to respond to specific user interactions like clicks or keystrokes, making web pages more interactive.",
+                        "answer": "2) To respond to user interactions."
+                    },
+                    {
+                        "question": "How do you declare a basic function in JavaScript?",
+                        "options": [
+                            "3) define greet() {}",
+                            "4) method greet() {}",
+                            "1) fun greet() {}",
+                            "2) function greet() {}"
+                        ],
+                        "explanation": "The proper syntax for declaring a function in JavaScript is \"function functionName() { }\". Here, 'function' is used to define a function called 'greet'.",
+                        "answer": "2) function greet() {}"
+                    },
+                    {
+                        "question": "What can JavaScript control on a web page?",
+                        "options": [
+                            "3) Content interactivity",
+                            "1) Image loading",
+                            "2) Navigation styles",
+                            "4) All of the above"
+                        ],
+                        "explanation": "JavaScript can control multiple aspects of web pages, such as image loading, navigation styles, and interactive content, which enhances the user experience overall.",
+                        "answer": "4) All of the above"
+                    },
+                    {
+                        "question": "What is one of the first steps in creating dynamic web pages?",
+                        "options": [
+                            "3) Learning JavaScript concepts",
+                            "1) Understanding CSS",
+                            "4) Writing SQL queries",
+                            "2) Practicing HTML"
+                        ],
+                        "explanation": "Learning JavaScript concepts is crucial as it forms the foundation for implementing dynamic behavior in web pages.",
+                        "answer": "3) Learning JavaScript concepts"
+                    },
+                    {
+                        "question": "When the width of the browser window is less than or equal to 600 pixels, what does the example CSS change?",
+                        "options": [
+                            "1) The font size changes.",
+                            "2) The background color changes to light blue.",
+                            "3) The layout style changes to grid.",
+                            "4) The text color changes to red."
+                        ],
+                        "explanation": "The example CSS rule specifies that when the browser width is 600 pixels or less, the background color of the body changes to light blue.",
+                        "answer": "2) The background color changes to light blue."
+                    },
+                    {
+                        "question": "In JavaScript, what is the purpose of 'let', 'const', and 'var'?",
+                        "options": [
+                            "4) To control CSS styles",
+                            "2) To define user interactions",
+                            "3) To declare variables",
+                            "1) To create functions"
+                        ],
+                        "explanation": "These keywords are used to declare variables in JavaScript, allowing the programmer to store and manipulate data within the script.",
+                        "answer": "3) To declare variables"
+                    },
+                    {
+                        "question": "Which technique helps ensure that a web page is responsive across devices?",
+                        "options": [
+                            "1) Using static dimensions",
+                            "2) Implementing media queries",
+                            "4) Limiting HTML use",
+                            "3) Disabling JavaScript"
+                        ],
+                        "explanation": "Media queries in CSS help create responsive layouts that adapt to different screen sizes, ensuring a good user experience across devices.",
+                        "answer": "2) Implementing media queries"
+                    },
+                    {
+                        "question": "What happens when the 'greet()' function is called in the provided JavaScript example?",
+                        "options": [
+                            "4) It loads a new web page.",
+                            "1) It displays an alert box.",
+                            "2) It outputs a greeting to the console.",
+                            "3) It changes the variable username."
+                        ],
+                        "explanation": "When the greet() function is called, it outputs a greeting message to the console using the username variable.",
+                        "answer": "2) It outputs a greeting to the console."
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What is the primary purpose of JavaScript in the context of dynamic web pages?",
+                        "options": [
+                            "1) To create static content that does not change",
+                            "2) To enhance user interactions and create dynamic content",
+                            "4) To manage databases without user input",
+                            "3) To build server-side applications exclusively"
+                        ],
+                        "explanation": "JavaScript is used to create dynamic content and enhance user interactions on web pages. It allows developers to make web pages respond to user actions, changing the content displayed without the need to load a new page, which is the hallmark of dynamic web pages.",
+                        "answer": "2) To enhance user interactions and create dynamic content"
+                    },
+                    {
+                        "question": "What keyword is used to declare a variable that allows reassignment in JavaScript?",
+                        "options": [
+                            "1) var",
+                            "3) const",
+                            "2) let",
+                            "4) dynamic"
+                        ],
+                        "explanation": "In JavaScript, the 'let' keyword is used to declare variables that can be reassigned later in the code. This is in contrast to 'const', which is used for variables that should not change, and 'var', which has function scoping and can be redefined. The term 'dynamic' is not a valid keyword for variable declaration in JavaScript.",
+                        "answer": "2) let"
+                    },
+                    {
+                        "question": "What happens when the button with ID 'myButton' is clicked according to the JavaScript code provided?",
+                        "options": [
+                            "3) An alert box appears on the screen.",
+                            "4) Nothing happens because there is no event listener.",
+                            "2) The source of the image element with ID 'myImage' is changed to 'newImage.jpg'.",
+                            "1) The image is removed from the webpage."
+                        ],
+                        "explanation": "The JavaScript code attaches an event listener to the button with ID 'myButton'. When this button is clicked, it executes a function that changes the 'src' attribute of the image element identified by 'myImage' to 'newImage.jpg', effectively changing what image is displayed.",
+                        "answer": "2) The source of the image element with ID 'myImage' is changed to 'newImage.jpg'."
+                    },
+                    {
+                        "question": "What is the purpose of using media queries in responsive web design?",
+                        "options": [
+                            "2) To ensure that web pages look good and function well across different devices.",
+                            "4) To disable JavaScript for better performance.",
+                            "3) To create dynamic content that loads based on user interactions only.",
+                            "1) To change styles based on the number of users visiting a site."
+                        ],
+                        "explanation": "Media queries in CSS are used to apply styles conditionally based on the characteristics of the device displaying the content, such as its screen width. This allows for a page to adapt its layout and design to provide an optimal viewing experience on different devices.",
+                        "answer": "2) To ensure that web pages look good and function well across different devices."
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

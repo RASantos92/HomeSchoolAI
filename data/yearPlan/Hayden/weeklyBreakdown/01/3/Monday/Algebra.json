@@ -1,0 +1,203 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Review of Quadratics",
+                "lecture": "Hello, and welcome to today\u2019s lecture on the review of quadratic functions! I\u2019m excited for us to dive into the basics of these important functions, which are foundational in algebra and create beautiful curves in graphs. Today, we\u2019ll talk about three key subtopics that will enhance your understanding of quadratics: the standard form of a quadratic function, how to identify key features of quadratics, and finally, how to graph these functions. Let's get started!\n\nFirst, let\u2019s discuss the standard form of a quadratic function. A quadratic function is typically expressed in the standard form as:  \n**f(x) = ax^2 + bx + c**  \nHere, **a**, **b**, and **c** are coefficients, and **x** is the variable. The coefficient **a** is particularly important, as it determines the direction of the parabola that the quadratic function represents. If **a** is positive, the parabola opens upwards, and if **a** is negative, it opens downwards. Also, something to note is that the value of **a** affects the width of the parabola - larger absolute values of **a** will make the parabola narrower, while smaller absolute values will make it wider. [p]\n\nNow let's identify the coefficients. In the quadratic equation, the coefficient **a** is the number in front of the **x^2** term, **b** is the coefficient of the **x** term, and **c** is the constant term. Let\u2019s take a look at an example:  \nConsider the quadratic function f(x) = 2x^2 - 4x + 1. In this case, **a** is 2, **b** is -4, and **c** is 1. Remember that these coefficients tell you a lot about the function\u2019s behavior! [p]  \n\nHaving a good grasp of these coefficients will help you as we next explore identifying key features of quadratics. One important feature is the vertex of the parabola, which is the highest or lowest point of the graph depending on the orientation. The x-coordinate of the vertex can be found using the formula:  \n**x = -b / (2a)**.  \nThis formula gives you the x-value at which the vertex occurs. Let's use our previous function, f(x) = 2x^2 - 4x + 1. Here, **a** is 2 and **b** is -4. Plugging these values into the formula gives us:  \n**x = -(-4) / (2 * 2) = 4 / 4 = 1**.\nThis means our vertex\u2019s x-coordinate is 1. To find the y-coordinate, substitute x back into the original equation:  \nf(1) = 2(1)^2 - 4(1) + 1 = 2 - 4 + 1 = -1.  \nSo, the vertex of the parabola is at (1, -1). [p]\n\nAnother feature of the quadratic function is the y-intercept, which occurs where the graph crosses the y-axis. The y-intercept corresponds to the constant term **c** in the function, which in our case is 1. Therefore, the y-intercept of f(x) = 2x^2 - 4x + 1 is at the point (0, 1). Next, we talk about the x-intercepts of the function, which are the points at which the graph crosses the x-axis. To find these intercepts, we need to set the function equal to zero and solve for x:  \n**0 = 2x^2 - 4x + 1**.  \nHere, you can either use the quadratic formula, which is stated as:  \n**x = (-b \u00b1 \u221a(b^2 - 4ac)) / (2a)**,  \nor you can factor the quadratic, if possible. In this case, we\u2019ll stick to the quadratic formula. Plugging values of a, b, and c gives us:  \n**x = (4 \u00b1 \u221a((-4)^2 - 4(2)(1))) / (2(2)) = (4 \u00b1 \u221a(16 - 8)) / 4 = (4 \u00b1 \u221a8) / 4 = (4 \u00b1 2\u221a2) / 4 = 1 \u00b1 \u221a2/2.**  \nSo, our x-intercepts will be approximately 1 + 1.41/2 and 1 - 1.41/2. [p] \n\nNow that we know how to identify the vertex, y-intercept, and x-intercepts, we can move on to graphing the quadratic functions! Graphing allows you to visualize these important features. You would start by plotting the vertex and the y-intercept. Then, using your x-intercepts, you can plot those points as well, and finally, draw a smooth curve through all these points to represent the parabola. Keep in mind the orientation determined by **a** and the general shape based on the width we discussed earlier. Always make sure to clearly label your axes and any key points on the graph. And as a reminder, the symmetry of the parabola means that the vertex acts as a line of symmetry. So, for any point on one side of the vertex, there will be a corresponding point on the other side. [p] \n\nAs we wrap up, let\u2019s summarize what we\u2019ve covered in today\u2019s lecture. We\u2019ve learned that quadratic functions can be represented in standard form as f(x) = ax^2 + bx + c, where **a**, **b**, and **c** are coefficients that determine the shape and position of the parabola. We identified key features of quadratic functions including vertex, x-intercepts, and y-intercepts and how to calculate them. Lastly, we discussed the process of graphing quadratic functions, ensuring to include key features like the vertex and intercepts in our graphs. Understanding these concepts will lay a strong foundation for all your future studies in algebra. Thank you for your engagement, and I hope you feel more confident in these topics!  \n\nRemember to review the formulae we covered today as they are essential for your practice ahead!\n\n**Main Topic:** Review of Quadratics  \n**Sub Topics:** Standard form of a quadratic function, Identifying key features of quadratics, Graphing quadratics",
+                "summary": "Today you learned about the standard form of quadratic functions, how to identify their key features such as the vertex, x-intercepts, and y-intercepts, and the process of graphing quadratics. By understanding these concepts, you've built a strong foundation for further exploration in algebra.",
+                "subject": "Algebra",
+                "main_topic": "Review of Quadratics",
+                "sub_topics": [
+                    "Standard form of a quadratic function",
+                    "Identifying key features of quadratics",
+                    "Graphing quadratics"
+                ],
+                "wikipedia_refrences": [
+                    "https://en.wikipedia.org/wiki/Quadratic_function",
+                    "https://en.wikipedia.org/wiki/Parabola"
+                ],
+                "quiz": [
+                    {
+                        "question": "What happens to the direction of the parabola when the coefficient 'a' is positive?",
+                        "options": [
+                            "3) It remains horizontal",
+                            "4) It becomes a straight line",
+                            "1) It opens upwards",
+                            "2) It opens downwards"
+                        ],
+                        "explanation": "If the coefficient 'a' is positive, the parabola opens upwards.",
+                        "answer": "1) It opens upwards"
+                    },
+                    {
+                        "question": "Which of the following terms is known as the constant term in the standard form of a quadratic function?",
+                        "options": [
+                            "3) c",
+                            "1) a",
+                            "4) x",
+                            "2) b"
+                        ],
+                        "explanation": "In the standard form f(x) = ax^2 + bx + c, the constant term is represented by c.",
+                        "answer": "3) c"
+                    },
+                    {
+                        "question": "How do you find the y-intercept of a quadratic function?",
+                        "options": [
+                            "3) Use the vertex formula",
+                            "1) Substitute x = 0 into the function",
+                            "2) Substitute y = 0 into the function",
+                            "4) Apply the quadratic formula"
+                        ],
+                        "explanation": "The y-intercept occurs where the graph crosses the y-axis, found by substituting x = 0 into the function.",
+                        "answer": "1) Substitute x = 0 into the function"
+                    },
+                    {
+                        "question": "What is the value of the y-intercept in the function f(x) = 2x^2 - 4x + 1?",
+                        "options": [
+                            "4) 0",
+                            "1) -1",
+                            "2) 1",
+                            "3) 2"
+                        ],
+                        "explanation": "The y-intercept corresponds to the constant term c, which is 1 in the function f(x) = 2x^2 - 4x + 1.",
+                        "answer": "2) 1"
+                    },
+                    {
+                        "question": "What does the vertex of a parabola represent in a quadratic function?",
+                        "options": [
+                            "2) The highest or lowest point of the graph",
+                            "4) The slope of the graph",
+                            "3) The value when y = 0",
+                            "1) The point where the graph crosses the x-axis"
+                        ],
+                        "explanation": "The vertex represents the highest or lowest point of the graph depending on the orientation of the parabola.",
+                        "answer": "2) The highest or lowest point of the graph"
+                    },
+                    {
+                        "question": "Which formula is used to calculate the x-coordinates of the x-intercepts of a quadratic function?",
+                        "options": [
+                            "1) x = -b/2a",
+                            "2) x = (-b \u00b1 \u221a(b\u00b2 - 4ac)) / (2a)",
+                            "4) x = c/a",
+                            "3) x = 0"
+                        ],
+                        "explanation": "The x-intercepts can be calculated using the quadratic formula: x = (-b \u00b1 \u221a(b\u00b2 - 4ac)) / (2a).",
+                        "answer": "2) x = (-b \u00b1 \u221a(b\u00b2 - 4ac)) / (2a)"
+                    },
+                    {
+                        "question": "In the function f(x) = 2x^2 - 4x + 1, what is the x-coordinate of the vertex calculated using the formula x = -b/(2a)?",
+                        "options": [
+                            "4) -1",
+                            "2) 1",
+                            "1) 0",
+                            "3) 2"
+                        ],
+                        "explanation": "By substituting the values of b (-4) and a (2) into the formula, we find that x = 1.",
+                        "answer": "2) 1"
+                    },
+                    {
+                        "question": "If the absolute value of the coefficient 'a' is greater, what effect does it have on the shape of the parabola?",
+                        "options": [
+                            "4) It shifts the parabola left",
+                            "1) The parabola becomes wider",
+                            "2) The parabola becomes narrower",
+                            "3) The direction of the parabola changes"
+                        ],
+                        "explanation": "A larger absolute value of 'a' causes the parabola to narrow, while a smaller absolute value makes it wider.",
+                        "answer": "2) The parabola becomes narrower"
+                    },
+                    {
+                        "question": "When graphing the parabola, what point should be plotted first to represent the vertex?",
+                        "options": [
+                            "2) The y-intercept",
+                            "1) The x-intercept",
+                            "3) The axis of symmetry",
+                            "4) The vertex point"
+                        ],
+                        "explanation": "When graphing a parabola, you should first plot the vertex as it is a key feature of the graph.",
+                        "answer": "4) The vertex point"
+                    },
+                    {
+                        "question": "What feature of the parabola can be used to simplify the graphing process due to its symmetry?",
+                        "options": [
+                            "4) The axis of symmetry",
+                            "3) The vertex",
+                            "2) The x-intercepts",
+                            "1) The y-intercept"
+                        ],
+                        "explanation": "The axis of symmetry is a line that divides the parabola into two symmetrical halves, making it easier to graph.",
+                        "answer": "4) The axis of symmetry"
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What does the coefficient 'a' in the standard form of a quadratic function f(x) = ax^2 + bx + c determine?",
+                        "options": [
+                            "1) The direction of the parabola",
+                            "2) The value of x",
+                            "3) The value of c",
+                            "4) The width of the graph"
+                        ],
+                        "explanation": "The coefficient 'a' determines the direction of the parabola: if 'a' is positive, the parabola opens upwards; if 'a' is negative, it opens downwards. It also affects the width of the parabola based on its absolute value.",
+                        "answer": "1) The direction of the parabola"
+                    },
+                    {
+                        "question": "In the quadratic equation f(x) = 2x^2 - 4x + 1, what is the value of the coefficient **b**?",
+                        "options": [
+                            "4) 0",
+                            "3) 1",
+                            "2) -4",
+                            "1) 2"
+                        ],
+                        "explanation": "In the given quadratic function f(x) = 2x^2 - 4x + 1, the coefficient **b** is the value in front of the **x** term. Here, the **x** term is -4x, so **b** = -4.",
+                        "answer": "2) -4"
+                    },
+                    {
+                        "question": "What is the x-coordinate of the vertex for the quadratic function f(x) = 2x^2 - 4x + 1?",
+                        "options": [
+                            "1) 1",
+                            "2) -1",
+                            "3) 2",
+                            "4) 0"
+                        ],
+                        "explanation": "The x-coordinate of the vertex can be found using the formula x = -b / (2a). For the function f(x) = 2x^2 - 4x + 1, we have a = 2 and b = -4. Plugging these values into the formula gives us: x = -(-4) / (2 * 2) = 4 / 4 = 1. Therefore, the x-coordinate of the vertex is 1.",
+                        "answer": "1) 1"
+                    },
+                    {
+                        "question": "What is the formula used to find the x-intercepts of a quadratic function?",
+                        "options": [
+                            "2) x = (b \u00b1 \u221a(b^2 + 4ac)) / (2a)",
+                            "1) x = (-b \u00b1 \u221a(b^2 - 4ac)) / (2a)",
+                            "3) x = (a \u00b1 \u221a(b^2 - 4ac)) / (2b)",
+                            "4) x = (-b \u00b1 \u221a(b^2 + 4ac)) / (2c)"
+                        ],
+                        "explanation": "The correct formula to find the x-intercepts of a quadratic function is the quadratic formula, which is x = (-b \u00b1 \u221a(b^2 - 4ac)) / (2a). This formula helps in calculating the roots of the quadratic equation by substituting the values of a, b, and c from the given quadratic function.",
+                        "answer": "1) x = (-b \u00b1 \u221a(b^2 - 4ac)) / (2a)"
+                    },
+                    {
+                        "question": "What is the significance of the vertex in the graph of a quadratic function?",
+                        "options": [
+                            "3) It is where the graph intersects the y-axis.",
+                            "1) It represents the highest or lowest point of the parabola and acts as a line of symmetry.",
+                            "4) It indicates the direction of the parabola's opening.",
+                            "2) It is always located at the x-intercept of the function."
+                        ],
+                        "explanation": "The vertex of a parabola is significant because it represents either the highest point (maximum) or the lowest point (minimum) of the quadratic function depending on the orientation determined by coefficient **a**. Additionally, the vertex serves as a line of symmetry for the graph.",
+                        "answer": "1) It represents the highest or lowest point of the parabola and acts as a line of symmetry."
+                    },
+                    {
+                        "question": "What is the standard form of a quadratic function?",
+                        "options": [
+                            "1) f(x) = ax^2 + bx + c",
+                            "2) f(x) = a(x - h)^2 + k",
+                            "3) f(x) = mx + b",
+                            "4) f(x) = x^2 + bx + c"
+                        ],
+                        "explanation": "The standard form of a quadratic function is f(x) = ax^2 + bx + c, where a, b, and c are coefficients that determine the parabola's characteristics such as its direction, width, and position.",
+                        "answer": "1) f(x) = ax^2 + bx + c"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

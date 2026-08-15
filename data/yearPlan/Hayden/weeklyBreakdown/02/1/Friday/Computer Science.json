@@ -1,0 +1,182 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Introduction to SQL Basics",
+                "lecture": "Welcome to today's lecture on SQL Basics! This is an essential topic for anyone interested in computer science, particularly in data management and database design. The ability to efficiently interact with databases using SQL, or Structured Query Language, will be a crucial skill as we progress in our studies. Today, we will explore fundamental concepts, covering the basics of SQL, and then enhance our understanding of database design.  We'll finish off by discussing some upcoming challenges you might face while working with SQL. Let's dive in!\n\nFirst, let\u2019s start with what a database actually is. Simply put, a database is an organized collection of data that can be accessed and manipulated easily. The most common way to manage databases is through SQL. SQL is used for querying, updating, and managing data stored in relational databases. Each relational database consists of tables that contain rows and columns, with each row representing a record and each column representing an attribute of that record.\n\n[p] \n\nNow, let\u2019s take a closer look at Database Design Basics. Good database design is pivotal for creating efficient databases. A well-designed database helps avoid redundancy and ensures that data can be accessed and manipulated more effectively. One essential principle of database design is the normalization process, which helps eliminate duplicate data and organize it more logically. Understanding relationships between different data sets\u2014like one-to-one, one-to-many, and many-to-many\u2014allows for more efficient database structures.\n\nNext, let\u2019s discuss the various types of SQL commands. Broadly speaking, SQL commands can be split into four categories: Data Query Language (DQL), Data Definition Language (DDL), Data Manipulation Language (DML), and Data Control Language (DCL).\n\n- DQL is used to query and retrieve data, primarily using the `SELECT` statement.\n- DDL deals with the structure of the database itself, which includes commands like `CREATE`, `ALTER`, and `DROP` that are used to define and modify the schema.\n- DML is for manipulating data, using commands such as `INSERT`, `UPDATE`, and `DELETE`.\n- DCL involves controlling access to the data with permissions through commands like `GRANT` and `REVOKE`.\n\nUnderstanding these categories helps us navigate SQL more effectively, especially as we start creating and interacting with our databases.\n\n[p]\n\nNow, let\u2019s work through a basic SQL command together. The SELECT statement is one of the most useful and powerful tools in your SQL toolkit. This statement retrieves records from one or more tables. A very simple example might be:\n\n```sql\nSELECT * FROM students;\n```\n\nThis command selects all columns from the table named 'students'. You can also select specific columns like this:\n\n```sql\nSELECT first_name, last_name FROM students;\n```\n\nThis means you only want to see the `first_name` and `last_name` attributes of each record. Playing around with these commands will help you understand how SQL retrieves data and how various filters can be applied using `WHERE` clauses.\n\nNow, let\u2019s talk about upcoming challenges you might face when working with SQL. As we progress in your SQL journey, you'll encounter several challenges. Some of these involve complex queries, including joins, subqueries, and union operations, which can become overwhelming. Understanding how to use joins\u2014essentially connecting tables\u2014is crucial for more advanced data manipulation, as this allows you to combine data from different tables based on related columns.\n\nThere will also be times when you need to optimize your queries for performance. Knowing how to write efficient SQL commands will minimize the load on the database and lead to faster results. You can address these challenges with practice, studying best practices, and exploring different SQL databases.\n\n[p]\n\nSo, how can we apply the knowledge we\u2019ve gained today? For your small project, you will utilize SQL to create a simple database. Think about a data set you are passionate about, whether it\u2019s related to a hobby, sports, or even your favorite book series. Design a database structure that includes at least two tables with appropriate relationships, and make sure you can implement the SQL commands we discussed today. Not only will this help solidify your understanding of these concepts, but it will also show you how to apply SQL in a practical way. \n\nIn conclusion, today you learned about the basics of SQL and some essential principles of database design. We explored how to use SQL commands to manipulate and query data successfully, as well as some challenges you might face. The knowledge you've gained today will be foundational as you work on your database project.\n\n[p] \n\nAs you move forward, remember that practice is key. The more you work with SQL, the more comfortable you\u2019ll become. Keep referencing the materials we've discussed today and don\u2019t hesitate to reach out with questions as you begin your project.\n\nThank you for your attention, and I look forward to seeing how your projects develop!",
+                "summary": "In today\u2019s lecture, you learned the basics of SQL, including the importance of database design, the types of SQL commands, and how to create and manipulate databases using SQL queries. We discussed upcoming challenges that you may face in your journey, especially regarding complex queries and optimization. You are now equipped to start your small SQL project, applying the principles we've discussed.",
+                "subject": "Computer Science",
+                "main_topic": "SQL Basics",
+                "sub_topics": [
+                    "Database Design Basics",
+                    "Upcoming Challenges"
+                ],
+                "wikipedia_refrences": [
+                    "https://en.wikipedia.org/wiki/SQL",
+                    "https://en.wikipedia.org/wiki/Database_design",
+                    "https://en.wikipedia.org/wiki/Normalization_(database)",
+                    "https://en.wikipedia.org/wiki/Structured_query_language"
+                ],
+                "quiz": [
+                    {
+                        "question": "What are the four main categories of SQL commands?",
+                        "options": [
+                            "2) DML, DDL, DCL, RDL",
+                            "3) DCL, SELECT, UPDATE, DELETE",
+                            "4) DML, DQL, CREATE, ALTER",
+                            "1) DQL, DDL, DML, DCL"
+                        ],
+                        "explanation": "The four main categories of SQL commands are Data Query Language (DQL), Data Definition Language (DDL), Data Manipulation Language (DML), and Data Control Language (DCL). Each category serves a distinct purpose in SQL operations.",
+                        "answer": "1) DQL, DDL, DML, DCL"
+                    },
+                    {
+                        "question": "What type of SQL command is used to create a new database table?",
+                        "options": [
+                            "2) DML",
+                            "3) DDL",
+                            "4) DCL",
+                            "1) DQL"
+                        ],
+                        "explanation": "Data Definition Language (DDL) is used to define the database structure, which includes commands like CREATE that are used to create new tables.",
+                        "answer": "3) DDL"
+                    },
+                    {
+                        "question": "Which SQL command would you use to change existing data in a table?",
+                        "options": [
+                            "3) UPDATE",
+                            "4) CREATE",
+                            "1) SELECT",
+                            "2) DELETE"
+                        ],
+                        "explanation": "The UPDATE command in SQL is used to modify existing data in a database table, allowing for the adjustment of specific records and their attributes.",
+                        "answer": "3) UPDATE"
+                    },
+                    {
+                        "question": "What does the SQL command 'SELECT * FROM employees;' do?",
+                        "options": [
+                            "4) It deletes all records from the 'employees' table.",
+                            "2) It creates a new table named 'employees'.",
+                            "3) It updates the 'employees' table.",
+                            "1) It retrieves all data from the 'employees' table."
+                        ],
+                        "explanation": "The command 'SELECT * FROM employees;' retrieves all columns of data from the 'employees' table, allowing access to all information contained within it.",
+                        "answer": "1) It retrieves all data from the 'employees' table."
+                    },
+                    {
+                        "question": "In database design, what is a one-to-many relationship?",
+                        "options": [
+                            "3) Many records in Table A can relate to many in Table B.",
+                            "1) One record in Table A can be related to one record in Table B.",
+                            "2) One record in Table A can be related to many records in Table B.",
+                            "4) No records in Table A can relate to those in Table B."
+                        ],
+                        "explanation": "A one-to-many relationship means that a single record in Table A can be associated with multiple records in Table B, which is a common relationship structure in relational databases.",
+                        "answer": "2) One record in Table A can be related to many records in Table B."
+                    },
+                    {
+                        "question": "What is the purpose of the WHERE clause in a SQL query?",
+                        "options": [
+                            "3) To delete a table from the database.",
+                            "1) To create a new table.",
+                            "2) To filter records based on specific conditions.",
+                            "4) To join multiple tables together."
+                        ],
+                        "explanation": "The WHERE clause is used in SQL queries to specify conditions that filters which records will be included in the results, allowing for targeted data retrieval.",
+                        "answer": "2) To filter records based on specific conditions."
+                    },
+                    {
+                        "question": "Which SQL command is used to grant permissions on a table to a user?",
+                        "options": [
+                            "2) ACCESS",
+                            "4) PERMIT",
+                            "3) GRANT",
+                            "1) ALLOW"
+                        ],
+                        "explanation": "The GRANT command in SQL is used to give specific access rights to users on database objects like tables, enabling them to perform designated operations.",
+                        "answer": "3) GRANT"
+                    },
+                    {
+                        "question": "What does the process of normalization aim to achieve in database design?",
+                        "options": [
+                            "2) Create duplicate data.",
+                            "4) Simplify SQL syntax.",
+                            "3) Organize data logically to reduce redundancy.",
+                            "1) Increase redundancy."
+                        ],
+                        "explanation": "Normalization aims to organize data logically and efficiently to avoid redundancy, which leads to a cleaner and more efficient database structure.",
+                        "answer": "3) Organize data logically to reduce redundancy."
+                    },
+                    {
+                        "question": "What is a subquery in SQL?",
+                        "options": [
+                            "4) A query that creates a new database.",
+                            "3) A query that deletes records from a table.",
+                            "1) A query that is executed before the main query.",
+                            "2) A query nested inside another query."
+                        ],
+                        "explanation": "A subquery is a query that is nested inside another SQL query. It allows for more complex queries by enabling data manipulations that depend on the results of the outer query.",
+                        "answer": "2) A query nested inside another query."
+                    },
+                    {
+                        "question": "What does the SQL command 'DROP TABLE students;' do?",
+                        "options": [
+                            "2) It removes all records from the 'students' table but keeps the structure.",
+                            "4) It adds a new column to the 'students' table.",
+                            "1) It deletes the 'students' table and all of its data.",
+                            "3) It changes the structure of the 'students' table."
+                        ],
+                        "explanation": "The DROP TABLE command in SQL permanently deletes the specified table and all of its data from the database, removing both the structure and its content.",
+                        "answer": "1) It deletes the 'students' table and all of its data."
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What does SQL stand for?",
+                        "options": [
+                            "2) Simple Query Language",
+                            "1) Structured Query Language",
+                            "4) Structured Question Log",
+                            "3) Standard Query List"
+                        ],
+                        "explanation": "SQL stands for Structured Query Language, which is used for managing and manipulating data in relational databases.",
+                        "answer": "1) Structured Query Language"
+                    },
+                    {
+                        "question": "What is the primary purpose of normalization in database design?",
+                        "options": [
+                            "2) To define permissions on data access",
+                            "4) To create and modify the database structure",
+                            "1) To increase redundancy in data",
+                            "3) To eliminate duplicate data and organize it logically"
+                        ],
+                        "explanation": "Normalization is a crucial process in database design that aims to eliminate duplicate data, ensuring a more logical organization of the database. This helps in reducing redundancy, leading to more efficient data manipulation and retrieval.",
+                        "answer": "3) To eliminate duplicate data and organize it logically"
+                    },
+                    {
+                        "question": "What does the SQL SELECT statement do?",
+                        "options": [
+                            "4) Updates existing records in a table",
+                            "1) Inserts new records into a table",
+                            "3) Deletes records from a table",
+                            "2) Retrieves records from one or more tables"
+                        ],
+                        "explanation": "The SELECT statement is used in SQL to retrieve records from one or more tables, allowing users to view specific columns or all columns from the database.",
+                        "answer": "2) Retrieves records from one or more tables"
+                    },
+                    {
+                        "question": "What is the primary purpose of designing a database structure with tables and relationships in SQL?",
+                        "options": [
+                            "3) To develop web applications",
+                            "2) To organize and manage data efficiently",
+                            "4) To generate random data",
+                            "1) To create visually appealing graphics"
+                        ],
+                        "explanation": "The primary purpose of designing a database structure with tables and relationships in SQL is to organize and manage data efficiently. This allows for effective data retrieval, manipulation, and integrity, ensuring that related data is stored in a way that reflects its relationships.",
+                        "answer": "2) To organize and manage data efficiently"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

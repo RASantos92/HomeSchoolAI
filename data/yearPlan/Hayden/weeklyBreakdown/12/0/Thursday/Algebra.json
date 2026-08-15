@@ -1,0 +1,195 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Understanding Radicals and Radical Functions",
+                "lecture": "Welcome! Today, we will explore graphing radical functions in more depth, focusing on transformations. We will cover three main aspects that will enhance your understanding of how radical functions behave when changed. The three topics we\u2019ll delve into are vertical and horizontal shifts, compression and stretching, and reflecting graphs. Let\u2019s start with our first sub-topic: Vertical and Horizontal Shifts.\n\nWhen we talk about vertical and horizontal shifts in the context of radical functions, we refer to how the graphs move in relation to the origin, which is the point at (0,0). For vertical shifts, when we add or subtract a constant outside of the radical, we see a movement up or down on the graph. For example, if we take the function f(x) = \u221ax and modify it to f(x) = \u221ax + 2, we are shifting the entire graph of the function up by 2 units. Conversely, if we modify it to f(x) = \u221ax - 2, the graph shifts down by 2 units. Visually, this means that every point on the original graph is lifted or lowered by the same constant number.\n[p]\nNow let\u2019s move to horizontal shifts. For a horizontal shift, we are concerned with changes inside the radical function. When we add or subtract a constant within the radical, we shift the graph left or right. For instance, if we take the same base function f(x) = \u221ax, and change it to f(x) = \u221a(x - 3), this causes the graph to shift right by 3 units. On the other hand, if we take f(x) = \u221a(x + 3), the graph moves left by 3 units. It\u2019s important to remember that when dealing with horizontal shifts, you need to consider the opposite sign of the constant you are adding or subtracting. \n[p]\nIn summary, the vertical and horizontal shifts allow you to move the graph of a radical function in relation to the original position. A solid understanding of these shifts is crucial for mastering graph transformations. Next, we'll discuss Compression and Stretching.\n\nCompression and stretching relate to how the graph of the radical function expands or shrinks vertically. To stretch the graph, we multiply the function by a constant greater than 1. For example, if we take the function f(x) = \u221ax and multiply it by 2, we get g(x) = 2\u221ax. This results in every point on the graph being pushed away from the x-axis, effectively stretching the graph vertically. You will see that the values of y become larger at every point for the same x-value. \n[p]\nOn the other hand, compression involves multiplying by a constant that is between 0 and 1. For example, if we take f(x) = \u221ax and transform it to g(x) = 0.5\u221ax, this will compress the graph vertically. The effect is that every point on the graph moves closer to the x-axis, making it flatter as compared to the original function. It is crucial to understand that horizontal transformations, unlike vertical, do not have the same effect. This leads us naturally to our next topic, reflecting graphs.\n\nReflection of graphs can occur across the x-axis or y-axis. Reflecting a graph across the x-axis involves changing the sign of the entire output of the function. For instance, if we take f(x) = \u221ax and modify it to g(x) = -\u221ax, this will reflect the graph across the x-axis. Every point that was above the x-axis now appears below it and vice versa. This means the values of y change sign while the x-values remain the same. \n[p]\nReflection across the y-axis, while less common in radical functions, involves changing the input to the function. For example, if we have f(x) = \u221ax and we modify it to g(x) = \u221a(-x), we see the reflection across the y-axis. However, it's important to note that this will restrict the domain of the function to negative values, which means we may often refer to this transformation in a more advanced discussion regarding functions with domain considerations.\n\nIn summary, today we covered how to identify and apply vertical and horizontal shifts, compression and stretching, and the concept of reflection in the context of radical functions. These transformations play a vital role in understanding how to graph radical functions accurately and predictably. Practicing these concepts will significantly bolster your algebraic skills and enable you to graph more complex radical functions with ease.\n\nSo to wrap up, you learned that vertical shifts move the graph up or down based on constants added or subtracted from the function. Horizontal shifts move the graph left or right based on constants added or subtracted within the radical. Compression and stretching relate to multiplying the function by constants to either expand or reduce the height of the graph. Lastly, reflections allow you to flip the graph across the x or y axes. By mastering these transformations, you're better equipped to tackle more complex setups in algebra. \n\nMain Topic: Radicals and Radical Functions\nSub Topics: ['Vertical and Horizontal Shifts', 'Compression and Stretching', 'Reflecting Graphs']",
+                "summary": "In this lecture, we explored radical functions with a focus on transformations, discussing vertical and horizontal shifts that move graphs up/down and left/right. We then looked at vertical compression and stretching, which affects graph height through multiplication. Finally, we examined how reflection changes graph orientation across the axes. Each transformation is crucial for effectively graphing radical functions and understanding their behavior.",
+                "subject": "Algebra",
+                "main_topic": "Radicals and Radical Functions",
+                "sub_topics": [
+                    "Vertical and Horizontal Shifts",
+                    "Compression and Stretching",
+                    "Reflecting Graphs"
+                ],
+                "wikipedia_refrences": [
+                    "https://en.wikipedia.org/wiki/Function_(mathematics)",
+                    "https://en.wikipedia.org/wiki/Vertical_shift",
+                    "https://en.wikipedia.org/wiki/Horizontal_shift",
+                    "https://en.wikipedia.org/wiki/Function_stretching_and_compression",
+                    "https://en.wikipedia.org/wiki/Reflection_(geometry)"
+                ],
+                "quiz": [
+                    {
+                        "question": "What is the effect of adding a constant outside the radical in a function?",
+                        "options": [
+                            "3) It shifts the graph up or down",
+                            "1) It compresses the graph vertically",
+                            "4) It stretches the graph vertically",
+                            "2) It reflects the graph across the y-axis"
+                        ],
+                        "explanation": "Adding a constant outside the radical shifts the graph upwards if the constant is positive or downwards if negative. This is known as a vertical shift.",
+                        "answer": "3) It shifts the graph up or down"
+                    },
+                    {
+                        "question": "In the function f(x) = \u221a(x - 5), what direction is the graph shifted?",
+                        "options": [
+                            "4) It shifts up 5 units",
+                            "1) It shifts down 5 units",
+                            "3) It shifts right 5 units",
+                            "2) It shifts left 5 units"
+                        ],
+                        "explanation": "Subtracting 5 from x in the radical causes the graph to shift to the right by 5 units, as you need to think of the inside modification as opposite in effect.",
+                        "answer": "3) It shifts right 5 units"
+                    },
+                    {
+                        "question": "What transformation occurs with the function g(x) = 3\u221ax?",
+                        "options": [
+                            "3) The graph compresses vertically",
+                            "4) The graph reflects across the x-axis",
+                            "1) The graph shifts left",
+                            "2) The graph stretches vertically"
+                        ],
+                        "explanation": "Multiplying by a constant greater than 1 results in a vertical stretch of the graph, making it taller as the y-values increase.",
+                        "answer": "2) The graph stretches vertically"
+                    },
+                    {
+                        "question": "If the graph of f(x) = \u221ax is reflected across the x-axis, what is the new function?",
+                        "options": [
+                            "4) g(x) = -x\u221ax",
+                            "1) g(x) = \u221ax",
+                            "2) g(x) = -\u221ax",
+                            "3) g(x) = \u221a(-x)"
+                        ],
+                        "explanation": "Reflecting across the x-axis means changing the sign of the output of the function, leading us to g(x) = -\u221ax.",
+                        "answer": "2) g(x) = -\u221ax"
+                    },
+                    {
+                        "question": "When altering the function to g(x) = \u221a(x + 2), how is the graph affected?",
+                        "options": [
+                            "1) Shifted left 2 units",
+                            "4) Reflected across the y-axis",
+                            "2) Shifted right 2 units",
+                            "3) Stretched vertically"
+                        ],
+                        "explanation": "Adding 2 inside the radical shifts the graph to the left by 2 units due to the opposite effect of the constant inside.",
+                        "answer": "1) Shifted left 2 units"
+                    },
+                    {
+                        "question": "For the function h(x) = 0.25\u221ax, how will the graph appear compared to f(x) = \u221ax?",
+                        "options": [
+                            "4) Shifted left",
+                            "2) Steeper than the original",
+                            "3) Shifted down",
+                            "1) Flatter than the original"
+                        ],
+                        "explanation": "Multiplying by 0.25 compresses the graph vertically, making it flatter compared to the original function.",
+                        "answer": "1) Flatter than the original"
+                    },
+                    {
+                        "question": "What effect does g(x) = \u221a(x + 1) have on the graph of f(x) = \u221ax?",
+                        "options": [
+                            "2) Shifts down",
+                            "4) Shifts right",
+                            "1) Shifts up",
+                            "3) Shifts left"
+                        ],
+                        "explanation": "Since we are adding inside the radical, the graph shifts left by 1 unit.",
+                        "answer": "3) Shifts left"
+                    },
+                    {
+                        "question": "If the function is transformed to g(x) = -\u221a(x - 4), what is the transformation?",
+                        "options": [
+                            "1) Shift up",
+                            "3) Reflect across x-axis and shift right",
+                            "4) Reflect across y-axis",
+                            "2) Shift down"
+                        ],
+                        "explanation": "The negative sign indicates a reflection across the x-axis while (x - 4) shows a shift to the right by 4 units.",
+                        "answer": "3) Reflect across x-axis and shift right"
+                    },
+                    {
+                        "question": "What happens to the graph of h(x) = \u221a(x + 5) compared to f(x) = \u221ax?",
+                        "options": [
+                            "1) Shift left 5 units",
+                            "4) Shift down 5 units",
+                            "2) Shift up 5 units",
+                            "3) Shift right 5 units"
+                        ],
+                        "explanation": "Since we add 5 inside the radical, h(x) results in a leftward shift by 5 units.",
+                        "answer": "1) Shift left 5 units"
+                    },
+                    {
+                        "question": "What happens when h(x) = -0.5\u221ax is applied to the parent function f(x) = \u221ax?",
+                        "options": [
+                            "2) The graph shifts down",
+                            "3) The graph shifts up",
+                            "1) The graph reflects and compresses vertically",
+                            "4) The graph stretches vertically"
+                        ],
+                        "explanation": "The negative indicates a reflection across the x-axis and the 0.5 indicates a vertical compression.",
+                        "answer": "1) The graph reflects and compresses vertically"
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What happens to the graph of the function f(x) = \u221ax when the function is changed to f(x) = \u221ax - 3?",
+                        "options": [
+                            "1) The graph shifts up by 3 units.",
+                            "4) The graph reflects across the y-axis.",
+                            "3) The graph reflects across the x-axis.",
+                            "2) The graph shifts down by 3 units."
+                        ],
+                        "explanation": "Changing the function from f(x) = \u221ax to f(x) = \u221ax - 3 decreases the overall value of the function by 3 units for every x. This results in the entire graph moving down by 3 units. Thus, every point on the original graph is lowered by the same constant number of 3.",
+                        "answer": "2) The graph shifts down by 3 units."
+                    },
+                    {
+                        "question": "What effect does the function f(x) = \u221a(x + 4) have on the graph of the base function f(x) = \u221ax?",
+                        "options": [
+                            "1) It shifts the graph right by 4 units",
+                            "2) It shifts the graph left by 4 units",
+                            "4) It shifts the graph down by 4 units",
+                            "3) It shifts the graph up by 4 units"
+                        ],
+                        "explanation": "When dealing with horizontal shifts in functions, it is important to note that the sign of the constant is opposite. Since f(x) = \u221a(x + 4) adds 4 inside the radical, the graph of the function shifts left by 4 units. This is because the addition of a positive number inside the function results in a negative shift from the original position.",
+                        "answer": "2) It shifts the graph left by 4 units."
+                    },
+                    {
+                        "question": "What effect does multiplying a radical function by a constant greater than 1 have on its graph?",
+                        "options": [
+                            "2) It shifts the graph downward.",
+                            "1) It shifts the graph to the left.",
+                            "3) It compresses the graph vertically.",
+                            "4) It stretches the graph vertically."
+                        ],
+                        "explanation": "Multiplying a radical function by a constant greater than 1 results in a vertical stretching of the graph, moving points away from the x-axis. This means that the y-values become larger for the same x-value, leading to an expanded appearance of the graph.",
+                        "answer": "4) It stretches the graph vertically."
+                    },
+                    {
+                        "question": "What effect does compressing the graph of a function by multiplying it with a constant between 0 and 1 have?",
+                        "options": [
+                            "3) It compresses the graph vertically, making it flatter.",
+                            "4) It stretches the graph vertically, making it taller.",
+                            "1) It reflects the graph across the y-axis.",
+                            "2) It reflects the graph across the x-axis."
+                        ],
+                        "explanation": "Compressing the graph vertically (by a constant between 0 and 1) means that all points on the graph move closer to the x-axis, resulting in a flatter appearance compared to the original function.",
+                        "answer": "3) It compresses the graph vertically, making it flatter."
+                    },
+                    {
+                        "question": "What transformation occurs when modifying the function f(x) = \u221ax to g(x) = \u221a(-x)?",
+                        "options": [
+                            "4) Horizontal shift right",
+                            "3) Vertical shift down",
+                            "1) Reflection across the x-axis",
+                            "2) Reflection across the y-axis"
+                        ],
+                        "explanation": "Modifying the function f(x) = \u221ax to g(x) = \u221a(-x) involves changing the input from x to -x, which reflects the graph across the y-axis. This transformation also restricts the domain of the function to negative values, as the input to the radical must be non-negative for the output to be real.",
+                        "answer": "2) Reflection across the y-axis"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

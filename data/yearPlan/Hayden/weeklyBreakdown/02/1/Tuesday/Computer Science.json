@@ -1,0 +1,126 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Introduction to SQL Basics",
+                "lecture": "Welcome to today's lecture on SQL Basics! SQL, which stands for Structured Query Language, is the standard language used to communicate with relational databases. In this session, we will begin to write your first queries to manipulate databases. SQL is essential for anyone looking to work with data, and understanding how to write queries is the first step towards powerful data handling.  As we move along, keep in mind that you'll be gaining knowledge that is foundational for your future studies in computer science, data analysis, or software engineering.\n\nLet's start with our first sub-topic: **SELECT Statements**. The SELECT statement is one of the most fundamental commands in SQL. It allows you to retrieve data from one or more tables. The basic syntax of a SELECT statement looks like this: \n\n```sql\nSELECT column1, column2 \nFROM table_name;\n```\n\nHere, `column1` and `column2` are the names of the columns you want to retrieve, and `table_name` is the name of the table that contains these columns. If you want to select all columns from a table, you can use the asterisk symbol (*) instead of specifying the column names:\n\n```sql\nSELECT * \nFROM table_name;\n```\n\nUsing the SELECT statement, you can retrieve specific data from your database, which helps you to focus on what you need without overloading your query with unnecessary information. Remember that the data retrieved will appear in a result set, which you can think of as a temporary table of the returned data. [p]\n\nNow, let's explore a couple of practical examples to illustrate this. Suppose you have a table called `Students` that contains the following columns: `ID`, `Name`, `Age`, and `Grade`. If you only want to see the names of students, your query would look like this:\n\n```sql\nSELECT Name \nFROM Students;\n```\n\nThis query retrieves all names in the Students table. What if you want to retrieve names and ages of students? Your query would then change to:\n\n```sql\nSELECT Name, Age \nFROM Students;\n```\n\nFeel free to play around with different column combinations in this way as you get familiar with SQL queries! [p]\n\nNext, let\u2019s move on to the second sub-topic: **WHERE Clause**. The WHERE clause is used to filter records based on specified conditions. This means that you can restrict the result set of your SELECT statement to only include records that meet certain criteria. The primary syntax for the WHERE clause is as follows:\n\n```sql\nSELECT column1, column2 \nFROM table_name \nWHERE condition;\n```\n\nHere, `condition` specifies the criteria that each record must meet to be included in the result set. For example, if you want to select only Students who are above a certain age, you could write:\n\n```sql\nSELECT Name, Age \nFROM Students \nWHERE Age > 18;\n```\n\nThis query will return only the names and ages of students older than 18. The WHERE clause is very powerful because you can use various operators like `=`, `!=`, `>`, `<`, `>=`, and `<=` to form your conditions. Additionally, you can use logical operators like `AND`, `OR`, and `NOT` to combine multiple conditions in a single query.  [p]\n\nFor example, if you want to find students named 'Alex' who are older than 18, your query will look like this:\n\n```sql\nSELECT Name, Age \nFROM Students \nWHERE Name = 'Alex' AND Age > 18;\n```\n\nYou can also filter results based on textual comparisons, numerical comparisons, and even more complex expressions. The possibilities are vast![p]\n\nLet\u2019s recap what we\u2019ve covered so far. To summarize, we started with an overview of SQL and its importance in working with databases. We learned about the **SELECT statement**, enabling us to retrieve data from a database, and how to use the asterisk (*) as a wildcard to select all columns. You also discovered that the **WHERE clause** is an essential tool to filter data according to specific criteria. This combination is a powerful mechanism that allows you to extract meaningful information from your databases, honing in on the data that truly matters.\n\nTo foster your understanding further, I encourage you to practice writing both SELECT statements and WHERE clauses using variations of the examples we discussed today. Experimenting on your own will solidify these concepts and enhance your SQL skills!\n\nRemember, SQL is not just a language but a powerful skill set that can enhance your data manipulation and analysis capabilities! I encourage you to dive into some examples and start writing some queries! [p] \n\nIn conclusion, our lecture has provided a robust foundation in SQL basics through the **SELECT statements** and **WHERE clause**. These tools will be critical as you progress in your studies in computer science and data management. \n\n### Summary of Key Learnings:\n- Introduction to SQL and its significance in database management.\n- Understanding the **SELECT statement** for retrieving data.\n- Utilization of the **WHERE clause** for filtering data based on specific conditions.\n- Practical examples that demonstrate the application of these concepts.\n\nFeel free to reference the Wikipedia pages for more in-depth information on topics we discussed today:\n\n- SQL: [Wikipedia SQL](https://en.wikipedia.org/wiki/SQL)\n- SELECT Statement: [Wikipedia SELECT](https://en.wikipedia.org/wiki/SQL#SELECT)\n- WHERE Clause: [Wikipedia WHERE](https://en.wikipedia.org/wiki/SQL#WHERE)\n\n### Main Topic: SQL Basics\n### Sub Topics: SELECT Statements, WHERE Clause",
+                "summary": "In this lecture, the student learned the fundamentals of SQL through the exploration of SELECT statements and WHERE clauses. They discovered how to write queries for retrieving data, apply filters to results based on specific criteria, and the overall importance of SQL in data management.",
+                "subject": "Computer Science",
+                "main_topic": "SQL Basics",
+                "sub_topics": [
+                    "SELECT Statements",
+                    "WHERE Clause"
+                ],
+                "wikipedia_refrences": [
+                    "https://en.wikipedia.org/wiki/SQL",
+                    "https://en.wikipedia.org/wiki/SQL#SELECT",
+                    "https://en.wikipedia.org/wiki/SQL#WHERE"
+                ],
+                "quiz": [
+                    {
+                        "question": "What symbol is used in SQL to select all columns from a table?",
+                        "options": [
+                            "1) #",
+                            "3) @",
+                            "2) *",
+                            "4) &"
+                        ],
+                        "explanation": "The asterisk (*) symbol is a wildcard used to select all columns from a specified table in SQL.",
+                        "answer": "2) *"
+                    },
+                    {
+                        "question": "Which operator in SQL can be used to combine multiple conditions in a WHERE clause?",
+                        "options": [
+                            "2) IN",
+                            "4) NOT NULL",
+                            "3) LIKE",
+                            "1) AND"
+                        ],
+                        "explanation": "The AND operator is used to combine multiple conditions within a WHERE clause to filter records based on more than one criterion.",
+                        "answer": "1) AND"
+                    },
+                    {
+                        "question": "In the SQL query 'SELECT Name, Age FROM Students WHERE Age > 18;', what does the '>' operator do?",
+                        "options": [
+                            "1) Indicates equality",
+                            "3) Checks for less than or equal to",
+                            "2) Checks for greater than",
+                            "4) Used to select columns"
+                        ],
+                        "explanation": "The '>' operator is used to check if the value on the left side is greater than the value on the right side in SQL conditions.",
+                        "answer": "2) Checks for greater than"
+                    },
+                    {
+                        "question": "Which of the following commands retrieves only the 'Name' column from the 'Students' table?",
+                        "options": [
+                            "4) SELECT Age, Grade FROM Students;",
+                            "2) SELECT ID FROM Students;",
+                            "3) SELECT Name FROM Students;",
+                            "1) SELECT * FROM Students;"
+                        ],
+                        "explanation": "The command 'SELECT Name FROM Students;' retrieves only the 'Name' column from the 'Students' table, as specified in the query.",
+                        "answer": "3) SELECT Name FROM Students;"
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What is the purpose of the SELECT statement in SQL?",
+                        "options": [
+                            "2) To retrieve data from one or more tables.",
+                            "4) To create a new table in the database.",
+                            "3) To update existing data in a table.",
+                            "1) To delete data from a table."
+                        ],
+                        "explanation": "The SELECT statement is fundamental in SQL as it allows users to retrieve specific data from one or more tables. It is the primary way to query the database and extract the information needed without modifying the data.",
+                        "answer": "2) To retrieve data from one or more tables."
+                    },
+                    {
+                        "question": "What SQL query would you use to retrieve both the names and ages of students from the Students table?",
+                        "options": [
+                            "3) SELECT Name, Age FROM Students;",
+                            "4) SELECT * FROM Students;",
+                            "1) SELECT Name FROM Students;",
+                            "2) SELECT Age FROM Students;"
+                        ],
+                        "explanation": "The correct query to retrieve both names and ages of students is 'SELECT Name, Age FROM Students;'. This query specifies that we want to select data from both the 'Name' and 'Age' columns in the 'Students' table.",
+                        "answer": "3) SELECT Name, Age FROM Students;"
+                    },
+                    {
+                        "question": "What is the purpose of the WHERE clause in a SQL query?",
+                        "options": [
+                            "4) To join two or more tables together",
+                            "1) To format the output of the query",
+                            "2) To filter records based on specified conditions",
+                            "3) To sort the results of the query"
+                        ],
+                        "explanation": "The WHERE clause is specifically designed to filter records in a database query based on certain conditions. This means it restricts the returned results to only those that meet the defined criteria, making it a powerful tool for precise data retrieval.",
+                        "answer": "2) To filter records based on specified conditions"
+                    },
+                    {
+                        "question": "What SQL clause would you use to filter records based on specific criteria?",
+                        "options": [
+                            "1) GROUP BY",
+                            "3) WHERE",
+                            "4) SELECT",
+                            "2) JOIN"
+                        ],
+                        "explanation": "The WHERE clause is used to filter records in a SQL query according to specific criteria, allowing for targeted data retrieval.",
+                        "answer": "3) WHERE"
+                    },
+                    {
+                        "question": "What is the purpose of the WHERE clause in SQL?",
+                        "options": [
+                            "1) To retrieve all records from a database table.",
+                            "4) To delete existing records from a database.",
+                            "3) To create new entries in a table.",
+                            "2) To filter records based on specific conditions."
+                        ],
+                        "explanation": "The WHERE clause is used in SQL to filter the results returned by a query based on specific conditions. This allows users to retrieve only the records that meet those conditions, rather than all records in the table.",
+                        "answer": "2) To filter records based on specific conditions."
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

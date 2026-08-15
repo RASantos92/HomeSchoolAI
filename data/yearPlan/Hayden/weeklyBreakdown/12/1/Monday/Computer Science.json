@@ -1,0 +1,205 @@
+[
+    {
+        "lessons": [
+            {
+                "title": "Introduction to HTML Basics",
+                "lecture": "Hello and welcome to your first computer science lesson this week! Today, we will dive into the essentials of HTML, which stands for HyperText Markup Language. HTML is the standard markup language used to create web pages. It's what structures the content of a webpage so that web browsers can interpret and display it correctly. Let's explore the building blocks of HTML and how you can utilize it to create your very own web pages. [p]\n\nFirst, let's understand the fundamental building blocks of HTML \u2014 the tags. Tags are the cornerstone of HTML and are used to create elements on a web page. Every HTML document begins with a declaration that tells the web browser what version of HTML they're working with. Following that, we have two key tags: <html> which indicates the start of an HTML document, and <body> where the content goes.  Within the <body> tag, you will find various HTML tags such as headings, paragraphs, links, and images that help format the displayed content. [p]\n\nNow, let\u2019s talk about the basic HTML tags you need to know. Start with the tag for headings which is <h1> through <h6> \u2014 the lower the number, the larger the heading. For most pages, <h1> is typically the main title of the page, while <h2> to <h6> can be used for subheadings. For example, you'll often see something like <h1>This is my Web Page</h1>. Next, we have the <p> tag which defines paragraphs. For instance, <p>This text is contained within a paragraph.</p>. Another vital tag is the <a> tag which is used for links. You can create a link by using <a href=\"https://www.example.com\">This is a link</a>. There are many other tags too, but these are the basics you should start with. [p]\n\nUnderstanding these basic HTML tags is essential because you will use them frequently as you begin to build your web pages. The structure of your HTML document starts to take shape with these tags. [p]\n\nNow, let\u2019s delve deeper into one of the most exciting aspects of HTML: creating a simple web page. With the knowledge of various tags we\u2019ve just covered, you're equipped to start building your web page with just a text editor. All you need to do is create a new file and save it with a .html extension. Here's how your HTML file might look:\n\n```html\n<!DOCTYPE html>\n<html>\n<head>\n<title>My First Web Page</title>\n</head>\n<body>\n <h1>Welcome to My Web Page</h1>\n <p>This is a paragraph about me!</p>\n <a href=\"https://www.example.com\">Click here to visit Example.com</a>\n</body>\n</html>\n```\nThis code establishes the basic structure of an HTML document. The <!DOCTYPE html> declaration specifies that this is an HTML5 document. Within the <head> section, we have the title tag that sets the title of the page, while the <body> section contains our main content. [p]\n\nYou can open this file in any web browser, and you will see your page come to life. The structure we've established here is what allows browsers to display content properly. I encourage you to play around with these structures, add different elements, and see what you come up with. [p]\n\nNext, let\u2019s move to understanding elements and attributes in HTML. Elements are the individual parts of your document, while attributes provide additional information about those elements. Take the <a> tag we discussed earlier; it uses an attribute called 'href' to define the destination URL for the link. Similarly, you can modify images or other tags using different attributes. For instance, <img src=\"image.jpg\" alt=\"A description of the image\" /> uses the 'src' attribute to point to the image file, while 'alt' provides alternative text for users who may not be able to view the image. [p]\n\nAttributes are always written in the opening tag and usually come in name/value pairs. Learning to use attributes effectively along with elements is crucial for creating fully functioning web pages. [p]\n\nIn summary, you have learned the basics of HTML, including key HTML tags, how to create a simple web page, and the importance of elements and attributes in building your documents. You can now write your own HTML and build your first web page, giving you a foundation to expand your knowledge of web development.\n\nAlways remember that understanding HTML opens the door to more complex topics like CSS and JavaScript, which are essential for front-end web development. Today, we covered the following: \n\n**Main Topic:** HTML Basics  \n**Sub Topics:**  \n- Basic HTML tags  \n- Creating a simple web page  \n- Understanding elements and attributes  \n\nFeel free to ask any questions you might have about today\u2019s lecture, and let\u2019s continue to explore the world of web development together! [p]  \n\n**Wikipedia References:**  \n- [HTML](https://en.wikipedia.org/wiki/HTML)  \n- [HTML element](https://en.wikipedia.org/wiki/HTML_element)  \n- [HTML attribute](https://en.wikipedia.org/wiki/HTML_attribute)  \n- [Web development](https://en.wikipedia.org/wiki/Web_development)  \n",
+                "summary": "In today's lecture on HTML Basics, you learned the fundamental elements of HTML, including the significance of basic HTML tags, how to create a simple web page, and the role of elements and attributes in structuring web pages. By now, you should feel more familiar with how to write HTML code and have a solid foundation to explore more advanced topics in web development.",
+                "subject": "Computer Science",
+                "main_topic": "HTML Basics",
+                "sub_topics": [
+                    "Basic HTML tags",
+                    "Creating a simple web page",
+                    "Understanding elements and attributes"
+                ],
+                "wikipedia_refrences": [
+                    "https://en.wikipedia.org/wiki/HTML",
+                    "https://en.wikipedia.org/wiki/HTML_element",
+                    "https://en.wikipedia.org/wiki/HTML_attribute",
+                    "https://en.wikipedia.org/wiki/Web_development"
+                ],
+                "quiz": [
+                    {
+                        "question": "What is the purpose of the <body> tag in an HTML document?",
+                        "options": [
+                            "2) It specifies the character set for the document.",
+                            "4) It marks the end of the HTML document.",
+                            "1) It contains the main content of a web page.",
+                            "3) It designates the title of the web page."
+                        ],
+                        "explanation": "The <body> tag is used to contain the main content that is displayed in the web browser, such as text, images, and links.",
+                        "answer": "1) It contains the main content of a web page."
+                    },
+                    {
+                        "question": "Which HTML tag defines a paragraph?",
+                        "options": [
+                            "1) <h1>",
+                            "4) <span>",
+                            "3) <p>",
+                            "2) <div>"
+                        ],
+                        "explanation": "The <p> tag is specifically used to define paragraphs in an HTML document.",
+                        "answer": "3) <p>"
+                    },
+                    {
+                        "question": "In HTML, what does the <h1> tag represent?",
+                        "options": [
+                            "2) A hyperlink.",
+                            "1) The most important heading.",
+                            "4) A section of an image.",
+                            "3) A paragraph of text."
+                        ],
+                        "explanation": "The <h1> tag represents the most important heading on a web page, typically used for the main title.",
+                        "answer": "1) The most important heading."
+                    },
+                    {
+                        "question": "What is the function of the <title> tag in an HTML document?",
+                        "options": [
+                            "3) To set the title of the web page that appears in the browser tab.",
+                            "2) To create a clickable link.",
+                            "4) To define an image.",
+                            "1) To display content on the page."
+                        ],
+                        "explanation": "The <title> tag is used to set the title of the web page, which appears in the title bar or tab of the browser.",
+                        "answer": "3) To set the title of the web page that appears in the browser tab."
+                    },
+                    {
+                        "question": "Which of the following is true about HTML attributes?",
+                        "options": [
+                            "1) They provide additional information about HTML elements.",
+                            "2) They are always placed in the closing tag of an element.",
+                            "3) They cannot be used with the <img> tag.",
+                            "4) They only appear in the <head> section."
+                        ],
+                        "explanation": "HTML attributes provide additional information about elements and are included within the opening tag of the element.",
+                        "answer": "1) They provide additional information about HTML elements."
+                    },
+                    {
+                        "question": "What does the <a> tag do in HTML?",
+                        "options": [
+                            "2) It creates a hyperlink to another web page.",
+                            "4) It makes text bold.",
+                            "3) It defines a heading.",
+                            "1) It displays an image on the web page."
+                        ],
+                        "explanation": "The <a> tag is used to create hyperlinks that connect to other web pages or resources.",
+                        "answer": "2) It creates a hyperlink to another web page."
+                    },
+                    {
+                        "question": "Which tag would you use to create the smallest heading in HTML?",
+                        "options": [
+                            "2) <h2>",
+                            "3) <h5>",
+                            "1) <h1>",
+                            "4) <h6>"
+                        ],
+                        "explanation": "The <h6> tag represents the smallest heading, whereas <h1> is the largest.",
+                        "answer": "4) <h6>"
+                    },
+                    {
+                        "question": "In an HTML document, where do you place metadata about the document?",
+                        "options": [
+                            "1) Within the <body> tag.",
+                            "4) Inside the <footer> tag.",
+                            "3) At the end of the document.",
+                            "2) Within the <head> tag."
+                        ],
+                        "explanation": "Metadata about the document, such as the title and links to stylesheets, is placed within the <head> section of an HTML document.",
+                        "answer": "2) Within the <head> tag."
+                    },
+                    {
+                        "question": "How do attributes appear in an HTML tag?",
+                        "options": [
+                            "1) As part of the closing tag.",
+                            "2) In a separate line under the tag.",
+                            "4) At the end of the document.",
+                            "3) Always in name/value pairs within the opening tag."
+                        ],
+                        "explanation": "Attributes in HTML are written in name/value pairs within the opening tag of an element to provide additional information about that element.",
+                        "answer": "3) Always in name/value pairs within the opening tag."
+                    },
+                    {
+                        "question": "What is the purpose of the <img> tag in HTML?",
+                        "options": [
+                            "3) To create a hyperlink.",
+                            "4) To add comments in the HTML code.",
+                            "1) To create lists in a document.",
+                            "2) To display images on a web page."
+                        ],
+                        "explanation": "The <img> tag is used to embed images in a web page, displaying graphic content to users.",
+                        "answer": "2) To display images on a web page."
+                    }
+                ],
+                "lecture_questions": [
+                    {
+                        "question": "What does HTML stand for?",
+                        "options": [
+                            "3) HighText Multimedia Language",
+                            "2) Hyper Transfer Markup Language",
+                            "1) HyperText Markup Language",
+                            "4) Hyperlink Text Markup Language"
+                        ],
+                        "explanation": "HTML stands for HyperText Markup Language, which is the standard markup language used to create and structure webpages. It provides the framework for web content, allowing browsers to display it correctly.",
+                        "answer": "1) HyperText Markup Language"
+                    },
+                    {
+                        "question": "What is the tag that indicates the start of an HTML document?",
+                        "options": [
+                            "1) <body>",
+                            "4) <title>",
+                            "2) <html>",
+                            "3) <head>"
+                        ],
+                        "explanation": "The <html> tag is used to indicate the beginning of an HTML document. It helps the web browser understand that the contents following this tag belong to an HTML file.",
+                        "answer": "2) <html>"
+                    },
+                    {
+                        "question": "Which HTML tag is used to create a hyperlink?",
+                        "options": [
+                            "2) <p>",
+                            "1) <h1>",
+                            "3) <a>",
+                            "4) <h2>"
+                        ],
+                        "explanation": "The <a> tag is specifically designed to create hyperlinks in HTML, allowing the user to click and navigate to different web pages or resources.",
+                        "answer": "3) <a>"
+                    },
+                    {
+                        "question": "What does the <!DOCTYPE html> declaration specify in an HTML document?",
+                        "options": [
+                            "2) It defines the character set used in the document.",
+                            "3) It specifies that the document is an HTML5 document.",
+                            "4) It opens the body of the HTML document.",
+                            "1) It ends the HTML document."
+                        ],
+                        "explanation": "The <!DOCTYPE html> declaration is used to inform the web browser that the document is written in HTML5. This helps the browser to render the page correctly according to the HTML specifications.",
+                        "answer": "3) It specifies that the document is an HTML5 document."
+                    },
+                    {
+                        "question": "What does the 'href' attribute in the <a> tag specify?",
+                        "options": [
+                            "4) The type of link",
+                            "3) The size of the link text",
+                            "1) The color of the link text",
+                            "2) The destination URL for the link"
+                        ],
+                        "explanation": "The 'href' attribute in the <a> tag defines the destination URL that the link points to, which is essential for making the link functional.",
+                        "answer": "2) The destination URL for the link"
+                    },
+                    {
+                        "question": "What is the primary purpose of HTML in web development?",
+                        "options": [
+                            "4) To manage server-side processes",
+                            "2) To structure web content",
+                            "3) To add interactivity to web pages",
+                            "1) To style web pages"
+                        ],
+                        "explanation": "HTML (HyperText Markup Language) is designed specifically to structure and present content on the web. It uses tags to delineate elements on a page, such as headings, paragraphs, links, and images, which makes option 2 the correct answer.",
+                        "answer": "2) To structure web content"
+                    }
+                ]
+            }
+        ],
+        "complete": true
+    }
+]

@@ -1,0 +1,2073 @@
+{
+    "Monday": {},
+    "Tuesday": {},
+    "Wednesday": {},
+    "Thursday": {
+        "Algebra": [
+            {
+                "quiz_grade": 40.0,
+                "wrong_answers": [
+                    1,
+                    2,
+                    3,
+                    6,
+                    8,
+                    9
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is the result of simplifying the expression (2^5 * 2^3) / (2^6)?",
+                        "options": [
+                            "3) 2^4",
+                            "1) 2^2",
+                            "4) 2^1",
+                            "2) 2^3"
+                        ],
+                        "explanation": "Using the Product of Powers property, we first add the exponents in the numerator: 2^5 * 2^3 = 2^(5+3) = 2^8. Then we use the Quotient of Powers property: 2^8 / 2^6 = 2^(8-6) = 2^2.",
+                        "answer": "1) 2^2"
+                    },
+                    {
+                        "question": "Simplify the expression (5^2 * 5^4) / (5^3) and what is the result?",
+                        "options": [
+                            "1) 5^3",
+                            "4) 5^1",
+                            "3) 5^5",
+                            "2) 5^2"
+                        ],
+                        "explanation": "Using the Product of Powers property, we add the exponents in the numerator: 5^2 * 5^4 = 5^(2+4) = 5^6. Then using the Quotient of Powers property: 5^6 / 5^3 = 5^(6-3) = 5^3.",
+                        "answer": "1) 5^3"
+                    },
+                    {
+                        "question": "What is the value of the expression (4^3 * 2^3) / (8^3) when simplified?",
+                        "options": [
+                            "4) 4",
+                            "3) 0",
+                            "1) 1",
+                            "2) 2"
+                        ],
+                        "explanation": "We note that 8 = 2^3. Thus, 8^3 = (2^3)^3 = 2^9. Now, the expression becomes (4^3 * 2^3) / 2^9 = (2^6 * 2^3) / 2^9 = 2^(6+3-9) = 2^0 = 1.",
+                        "answer": "1) 1"
+                    },
+                    {
+                        "question": "What is the simplified expression of (x^2 * y^3)^2 and how do you find it?",
+                        "options": [
+                            "1) x^4 * y^6",
+                            "4) x^4 * y^3",
+                            "2) x^6 * y^4",
+                            "3) x^5 * y^5"
+                        ],
+                        "explanation": "Applying the Power of a Product property: (x^2 * y^3)^2 = (x^2)^2 * (y^3)^2 = x^(2*2) * y^(3*2) = x^4 * y^6.",
+                        "answer": "1) x^4 * y^6"
+                    },
+                    {
+                        "question": "If a = 3, what is the result of simplifying (3^4 * 3^1) / (3^5)?",
+                        "options": [
+                            "3) 3^0",
+                            "2) 3^6",
+                            "1) 3^3",
+                            "4) 3^2"
+                        ],
+                        "explanation": "Using the Product of Powers property: 3^4 * 3^1 = 3^(4+1) = 3^5. Now applying the Quotient of Powers property: 3^5 / 3^5 = 3^(5-5) = 3^0 = 1.",
+                        "answer": "1) 3^0"
+                    },
+                    {
+                        "question": "What symmetrically important property is illustrated by a^0 = 1 for any a not equal to zero?",
+                        "options": [
+                            "4) Zero Exponent Property",
+                            "1) Power of a Sum",
+                            "3) Quotient of Powers",
+                            "2) Power of a Product"
+                        ],
+                        "explanation": "This is known as the Zero Exponent Property, which asserts that any base to the zero power equals one, emphasizing a fundamental symmetry in exponentiation.",
+                        "answer": "4) Zero Exponent Property"
+                    },
+                    {
+                        "question": "What is the result of simplifying (6^2 * 6^3) / (6^4)?",
+                        "options": [
+                            "3) 6^3",
+                            "4) 6^2",
+                            "1) 6^5",
+                            "2) 6^1"
+                        ],
+                        "explanation": "Using the Product of Powers property, we have: 6^2 * 6^3 = 6^(2+3) = 6^5. Now applying the Quotient of Powers property: 6^5 / 6^4 = 6^(5-4) = 6^1.",
+                        "answer": "2) 6^1"
+                    },
+                    {
+                        "question": "Simplify (x^3 / x^2)^3. What is the final result?",
+                        "options": [
+                            "4) x^6",
+                            "3) x^3",
+                            "2) x^0",
+                            "1) x^1"
+                        ],
+                        "explanation": "First, using Quotient of Powers: x^3 / x^2 = x^(3-2) = x^1. Now applying the Power of a Power property: (x^1)^3 = x^(1*3) = x^3.",
+                        "answer": "3) x^3"
+                    },
+                    {
+                        "question": "What expression follows from using the Power of a Product with (2 * x)^3?",
+                        "options": [
+                            "2) 6x^3",
+                            "3) 2^3 * x^3",
+                            "4) 2x^2",
+                            "1) 8x^3"
+                        ],
+                        "explanation": "Applying the Power of a Product: (2 * x)^3 = 2^3 * x^3 = 8 * x^3.",
+                        "answer": "1) 8x^3"
+                    },
+                    {
+                        "question": "If b = 5, what is (2^b)^3 simplified?",
+                        "options": [
+                            "4) 2^3",
+                            "2) 2^5",
+                            "3) 2^8",
+                            "1) 2^15"
+                        ],
+                        "explanation": "Using the Power of a Power property: (2^b)^3 = 2^(b*3) = 2^(5*3) = 2^15.",
+                        "answer": "1) 2^15"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 40.0,
+                "wrong_answers": [
+                    1,
+                    2,
+                    3,
+                    6,
+                    8,
+                    9
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is the result of simplifying the expression (2^5 * 2^3) / (2^6)?",
+                        "options": [
+                            "3) 2^4",
+                            "1) 2^2",
+                            "4) 2^1",
+                            "2) 2^3"
+                        ],
+                        "explanation": "Using the Product of Powers property, we first add the exponents in the numerator: 2^5 * 2^3 = 2^(5+3) = 2^8. Then we use the Quotient of Powers property: 2^8 / 2^6 = 2^(8-6) = 2^2.",
+                        "answer": "1) 2^2"
+                    },
+                    {
+                        "question": "Simplify the expression (5^2 * 5^4) / (5^3) and what is the result?",
+                        "options": [
+                            "1) 5^3",
+                            "4) 5^1",
+                            "3) 5^5",
+                            "2) 5^2"
+                        ],
+                        "explanation": "Using the Product of Powers property, we add the exponents in the numerator: 5^2 * 5^4 = 5^(2+4) = 5^6. Then using the Quotient of Powers property: 5^6 / 5^3 = 5^(6-3) = 5^3.",
+                        "answer": "1) 5^3"
+                    },
+                    {
+                        "question": "What is the value of the expression (4^3 * 2^3) / (8^3) when simplified?",
+                        "options": [
+                            "4) 4",
+                            "3) 0",
+                            "1) 1",
+                            "2) 2"
+                        ],
+                        "explanation": "We note that 8 = 2^3. Thus, 8^3 = (2^3)^3 = 2^9. Now, the expression becomes (4^3 * 2^3) / 2^9 = (2^6 * 2^3) / 2^9 = 2^(6+3-9) = 2^0 = 1.",
+                        "answer": "1) 1"
+                    },
+                    {
+                        "question": "What is the simplified expression of (x^2 * y^3)^2 and how do you find it?",
+                        "options": [
+                            "1) x^4 * y^6",
+                            "4) x^4 * y^3",
+                            "2) x^6 * y^4",
+                            "3) x^5 * y^5"
+                        ],
+                        "explanation": "Applying the Power of a Product property: (x^2 * y^3)^2 = (x^2)^2 * (y^3)^2 = x^(2*2) * y^(3*2) = x^4 * y^6.",
+                        "answer": "1) x^4 * y^6"
+                    },
+                    {
+                        "question": "If a = 3, what is the result of simplifying (3^4 * 3^1) / (3^5)?",
+                        "options": [
+                            "3) 3^0",
+                            "2) 3^6",
+                            "1) 3^3",
+                            "4) 3^2"
+                        ],
+                        "explanation": "Using the Product of Powers property: 3^4 * 3^1 = 3^(4+1) = 3^5. Now applying the Quotient of Powers property: 3^5 / 3^5 = 3^(5-5) = 3^0 = 1.",
+                        "answer": "1) 3^0"
+                    },
+                    {
+                        "question": "What symmetrically important property is illustrated by a^0 = 1 for any a not equal to zero?",
+                        "options": [
+                            "4) Zero Exponent Property",
+                            "1) Power of a Sum",
+                            "3) Quotient of Powers",
+                            "2) Power of a Product"
+                        ],
+                        "explanation": "This is known as the Zero Exponent Property, which asserts that any base to the zero power equals one, emphasizing a fundamental symmetry in exponentiation.",
+                        "answer": "4) Zero Exponent Property"
+                    },
+                    {
+                        "question": "What is the result of simplifying (6^2 * 6^3) / (6^4)?",
+                        "options": [
+                            "3) 6^3",
+                            "4) 6^2",
+                            "1) 6^5",
+                            "2) 6^1"
+                        ],
+                        "explanation": "Using the Product of Powers property, we have: 6^2 * 6^3 = 6^(2+3) = 6^5. Now applying the Quotient of Powers property: 6^5 / 6^4 = 6^(5-4) = 6^1.",
+                        "answer": "2) 6^1"
+                    },
+                    {
+                        "question": "Simplify (x^3 / x^2)^3. What is the final result?",
+                        "options": [
+                            "4) x^6",
+                            "3) x^3",
+                            "2) x^0",
+                            "1) x^1"
+                        ],
+                        "explanation": "First, using Quotient of Powers: x^3 / x^2 = x^(3-2) = x^1. Now applying the Power of a Power property: (x^1)^3 = x^(1*3) = x^3.",
+                        "answer": "3) x^3"
+                    },
+                    {
+                        "question": "What expression follows from using the Power of a Product with (2 * x)^3?",
+                        "options": [
+                            "2) 6x^3",
+                            "3) 2^3 * x^3",
+                            "4) 2x^2",
+                            "1) 8x^3"
+                        ],
+                        "explanation": "Applying the Power of a Product: (2 * x)^3 = 2^3 * x^3 = 8 * x^3.",
+                        "answer": "1) 8x^3"
+                    },
+                    {
+                        "question": "If b = 5, what is (2^b)^3 simplified?",
+                        "options": [
+                            "4) 2^3",
+                            "2) 2^5",
+                            "3) 2^8",
+                            "1) 2^15"
+                        ],
+                        "explanation": "Using the Power of a Power property: (2^b)^3 = 2^(b*3) = 2^(5*3) = 2^15.",
+                        "answer": "1) 2^15"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 40.0,
+                "wrong_answers": [
+                    1,
+                    2,
+                    3,
+                    6,
+                    8,
+                    9
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What is the result of simplifying the expression (2^5 * 2^3) / (2^6)?",
+                        "options": [
+                            "3) 2^4",
+                            "1) 2^2",
+                            "4) 2^1",
+                            "2) 2^3"
+                        ],
+                        "explanation": "Using the Product of Powers property, we first add the exponents in the numerator: 2^5 * 2^3 = 2^(5+3) = 2^8. Then we use the Quotient of Powers property: 2^8 / 2^6 = 2^(8-6) = 2^2.",
+                        "answer": "1) 2^2"
+                    },
+                    {
+                        "question": "Simplify the expression (5^2 * 5^4) / (5^3) and what is the result?",
+                        "options": [
+                            "1) 5^3",
+                            "4) 5^1",
+                            "3) 5^5",
+                            "2) 5^2"
+                        ],
+                        "explanation": "Using the Product of Powers property, we add the exponents in the numerator: 5^2 * 5^4 = 5^(2+4) = 5^6. Then using the Quotient of Powers property: 5^6 / 5^3 = 5^(6-3) = 5^3.",
+                        "answer": "1) 5^3"
+                    },
+                    {
+                        "question": "What is the value of the expression (4^3 * 2^3) / (8^3) when simplified?",
+                        "options": [
+                            "4) 4",
+                            "3) 0",
+                            "1) 1",
+                            "2) 2"
+                        ],
+                        "explanation": "We note that 8 = 2^3. Thus, 8^3 = (2^3)^3 = 2^9. Now, the expression becomes (4^3 * 2^3) / 2^9 = (2^6 * 2^3) / 2^9 = 2^(6+3-9) = 2^0 = 1.",
+                        "answer": "1) 1"
+                    },
+                    {
+                        "question": "What is the simplified expression of (x^2 * y^3)^2 and how do you find it?",
+                        "options": [
+                            "1) x^4 * y^6",
+                            "4) x^4 * y^3",
+                            "2) x^6 * y^4",
+                            "3) x^5 * y^5"
+                        ],
+                        "explanation": "Applying the Power of a Product property: (x^2 * y^3)^2 = (x^2)^2 * (y^3)^2 = x^(2*2) * y^(3*2) = x^4 * y^6.",
+                        "answer": "1) x^4 * y^6"
+                    },
+                    {
+                        "question": "If a = 3, what is the result of simplifying (3^4 * 3^1) / (3^5)?",
+                        "options": [
+                            "3) 3^0",
+                            "2) 3^6",
+                            "1) 3^3",
+                            "4) 3^2"
+                        ],
+                        "explanation": "Using the Product of Powers property: 3^4 * 3^1 = 3^(4+1) = 3^5. Now applying the Quotient of Powers property: 3^5 / 3^5 = 3^(5-5) = 3^0 = 1.",
+                        "answer": "1) 3^0"
+                    },
+                    {
+                        "question": "What symmetrically important property is illustrated by a^0 = 1 for any a not equal to zero?",
+                        "options": [
+                            "4) Zero Exponent Property",
+                            "1) Power of a Sum",
+                            "3) Quotient of Powers",
+                            "2) Power of a Product"
+                        ],
+                        "explanation": "This is known as the Zero Exponent Property, which asserts that any base to the zero power equals one, emphasizing a fundamental symmetry in exponentiation.",
+                        "answer": "4) Zero Exponent Property"
+                    },
+                    {
+                        "question": "What is the result of simplifying (6^2 * 6^3) / (6^4)?",
+                        "options": [
+                            "3) 6^3",
+                            "4) 6^2",
+                            "1) 6^5",
+                            "2) 6^1"
+                        ],
+                        "explanation": "Using the Product of Powers property, we have: 6^2 * 6^3 = 6^(2+3) = 6^5. Now applying the Quotient of Powers property: 6^5 / 6^4 = 6^(5-4) = 6^1.",
+                        "answer": "2) 6^1"
+                    },
+                    {
+                        "question": "Simplify (x^3 / x^2)^3. What is the final result?",
+                        "options": [
+                            "4) x^6",
+                            "3) x^3",
+                            "2) x^0",
+                            "1) x^1"
+                        ],
+                        "explanation": "First, using Quotient of Powers: x^3 / x^2 = x^(3-2) = x^1. Now applying the Power of a Power property: (x^1)^3 = x^(1*3) = x^3.",
+                        "answer": "3) x^3"
+                    },
+                    {
+                        "question": "What expression follows from using the Power of a Product with (2 * x)^3?",
+                        "options": [
+                            "2) 6x^3",
+                            "3) 2^3 * x^3",
+                            "4) 2x^2",
+                            "1) 8x^3"
+                        ],
+                        "explanation": "Applying the Power of a Product: (2 * x)^3 = 2^3 * x^3 = 8 * x^3.",
+                        "answer": "1) 8x^3"
+                    },
+                    {
+                        "question": "If b = 5, what is (2^b)^3 simplified?",
+                        "options": [
+                            "4) 2^3",
+                            "2) 2^5",
+                            "3) 2^8",
+                            "1) 2^15"
+                        ],
+                        "explanation": "Using the Power of a Power property: (2^b)^3 = 2^(b*3) = 2^(5*3) = 2^15.",
+                        "answer": "1) 2^15"
+                    }
+                ]
+            }
+        ],
+        "Astronomy": [
+            {
+                "quiz_grade": 70.0,
+                "wrong_answers": [
+                    2,
+                    7,
+                    9
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What does the Steady State Theory imply about the universe's density over time?",
+                        "options": [
+                            "1) It decreases as the universe expands.",
+                            "2) It remains constant as new matter is created.",
+                            "3) It increases continuously.",
+                            "4) It fluctuates with cosmic events."
+                        ],
+                        "explanation": "The Steady State Theory suggests that as the universe expands, new matter is continuously created, which keeps the overall density constant over time.",
+                        "answer": "2) It remains constant as new matter is created."
+                    },
+                    {
+                        "question": "What major evidence challenges the Steady State Theory according to the lecture?",
+                        "options": [
+                            "2) The infinite nature of black holes.",
+                            "3) The presence of dark matter.",
+                            "4) The theory of relativity.",
+                            "1) The discovery of cosmic microwave background radiation."
+                        ],
+                        "explanation": "The cosmic microwave background radiation provides strong evidence that supports the Big Bang Theory and challenges the Steady State Theory, as it indicates an earlier hot and dense state of the universe.",
+                        "answer": "1) The discovery of cosmic microwave background radiation."
+                    },
+                    {
+                        "question": "In which theory is the universe described as undergoing infinite cycles of expansion and contraction?",
+                        "options": [
+                            "2) Steady State Theory",
+                            "1) Big Bang Theory",
+                            "3) Cyclic Universe Model",
+                            "4) Quantum Cosmology"
+                        ],
+                        "explanation": "The Cyclic Universe Model suggests that the universe undergoes infinite cycles where it expands from a Big Bang, then contracts back to a singular state before expanding again.",
+                        "answer": "3) Cyclic Universe Model."
+                    },
+                    {
+                        "question": "What does the Big Bang Theory claim about the universe\u2019s current state?",
+                        "options": [
+                            "3) The universe is expanding.",
+                            "1) The universe is static and unchanging.",
+                            "2) The universe is still in its early phases.",
+                            "4) The universe is destined to collapse."
+                        ],
+                        "explanation": "The Big Bang Theory posits that the universe is currently expanding, which is evident from the redshift of distant galaxies that indicates they are moving away from us.",
+                        "answer": "3) The universe is expanding."
+                    },
+                    {
+                        "question": "Which of the following technologies is expected to enhance our understanding of the early universe as mentioned in the lecture?",
+                        "options": [
+                            "3) LIGO",
+                            "4) Kepler Space Telescope",
+                            "1) Hubble Space Telescope",
+                            "2) James Webb Space Telescope"
+                        ],
+                        "explanation": "The James Webb Space Telescope is anticipated to provide new insights into the early universe, possibly offering evidence to support or refute existing cosmological theories.",
+                        "answer": "2) James Webb Space Telescope."
+                    },
+                    {
+                        "question": "What misconception about the Big Bang is clarified in the lecture?",
+                        "options": [
+                            "1) That it was an explosion in space.",
+                            "2) That it only happened once.",
+                            "4) That it is unrelated to black holes.",
+                            "3) That it created all matter instantly."
+                        ],
+                        "explanation": "The lecture clarifies that the Big Bang should not be viewed as an explosion in space, but as an expansion of space itself.",
+                        "answer": "1) That it was an explosion in space."
+                    },
+                    {
+                        "question": "How does the Cyclic Universe Model attempt to resolve the issue of singularities?",
+                        "options": [
+                            "2) By proposing a vortex-like expansion.",
+                            "4) By eliminating the concept of cycles altogether.",
+                            "3) By suggesting infinite cycles instead of a single one.",
+                            "1) By introducing new dimensions."
+                        ],
+                        "explanation": "The Cyclic Universe Model proposes a system of infinite expansions and contractions, thus trying to avoid the singularities found in both the Big Bang and black holes.",
+                        "answer": "3) By suggesting infinite cycles instead of a single one."
+                    },
+                    {
+                        "question": "According to the lecture, what do proponents of the Steady State Theory argue about the universe\u2019s appearance?",
+                        "options": [
+                            "3) It looks the same at all times and locations.",
+                            "4) It is solely determined by black hole activity.",
+                            "2) It appears differently in various locations.",
+                            "1) It changes significantly over time."
+                        ],
+                        "explanation": "Proponents of the Steady State Theory argue that the universe looks the same at all times and in all locations, suggesting a timeless and unchanging nature.",
+                        "answer": "3) It looks the same at all times and locations."
+                    },
+                    {
+                        "question": "What emerging relationship is anticipated to impact future cosmological theories?",
+                        "options": [
+                            "1) Between gravity and time.",
+                            "2) Between quantum mechanics and cosmology.",
+                            "3) Between matter and anti-matter.",
+                            "4) Between light and dark energy."
+                        ],
+                        "explanation": "The lecture discusses how future explorations may reveal the relationship between quantum mechanics and cosmology, potentially explaining cosmic events or the universe's initial conditions.",
+                        "answer": "2) Between quantum mechanics and cosmology."
+                    },
+                    {
+                        "question": "What is the prevailing view of the universe's beginning as described in the lecture?",
+                        "options": [
+                            "4) It is entirely unpredictable.",
+                            "3) It is a constant cycle of destruction and rebirth.",
+                            "2) It is a singular event known as the Big Bang.",
+                            "1) There is no beginning or end."
+                        ],
+                        "explanation": "The prevailing view described in the lecture is that the universe began from a singular event referred to as the Big Bang, which has since expanded into the universe we observe today.",
+                        "answer": "2) It is a singular event known as the Big Bang."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    2,
+                    7
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What does the Steady State Theory imply about the universe's density over time?",
+                        "options": [
+                            "1) It decreases as the universe expands.",
+                            "2) It remains constant as new matter is created.",
+                            "3) It increases continuously.",
+                            "4) It fluctuates with cosmic events."
+                        ],
+                        "explanation": "The Steady State Theory suggests that as the universe expands, new matter is continuously created, which keeps the overall density constant over time.",
+                        "answer": "2) It remains constant as new matter is created."
+                    },
+                    {
+                        "question": "What major evidence challenges the Steady State Theory according to the lecture?",
+                        "options": [
+                            "2) The infinite nature of black holes.",
+                            "3) The presence of dark matter.",
+                            "4) The theory of relativity.",
+                            "1) The discovery of cosmic microwave background radiation."
+                        ],
+                        "explanation": "The cosmic microwave background radiation provides strong evidence that supports the Big Bang Theory and challenges the Steady State Theory, as it indicates an earlier hot and dense state of the universe.",
+                        "answer": "1) The discovery of cosmic microwave background radiation."
+                    },
+                    {
+                        "question": "In which theory is the universe described as undergoing infinite cycles of expansion and contraction?",
+                        "options": [
+                            "2) Steady State Theory",
+                            "1) Big Bang Theory",
+                            "3) Cyclic Universe Model",
+                            "4) Quantum Cosmology"
+                        ],
+                        "explanation": "The Cyclic Universe Model suggests that the universe undergoes infinite cycles where it expands from a Big Bang, then contracts back to a singular state before expanding again.",
+                        "answer": "3) Cyclic Universe Model."
+                    },
+                    {
+                        "question": "What does the Big Bang Theory claim about the universe\u2019s current state?",
+                        "options": [
+                            "3) The universe is expanding.",
+                            "1) The universe is static and unchanging.",
+                            "2) The universe is still in its early phases.",
+                            "4) The universe is destined to collapse."
+                        ],
+                        "explanation": "The Big Bang Theory posits that the universe is currently expanding, which is evident from the redshift of distant galaxies that indicates they are moving away from us.",
+                        "answer": "3) The universe is expanding."
+                    },
+                    {
+                        "question": "Which of the following technologies is expected to enhance our understanding of the early universe as mentioned in the lecture?",
+                        "options": [
+                            "3) LIGO",
+                            "4) Kepler Space Telescope",
+                            "1) Hubble Space Telescope",
+                            "2) James Webb Space Telescope"
+                        ],
+                        "explanation": "The James Webb Space Telescope is anticipated to provide new insights into the early universe, possibly offering evidence to support or refute existing cosmological theories.",
+                        "answer": "2) James Webb Space Telescope."
+                    },
+                    {
+                        "question": "What misconception about the Big Bang is clarified in the lecture?",
+                        "options": [
+                            "1) That it was an explosion in space.",
+                            "2) That it only happened once.",
+                            "4) That it is unrelated to black holes.",
+                            "3) That it created all matter instantly."
+                        ],
+                        "explanation": "The lecture clarifies that the Big Bang should not be viewed as an explosion in space, but as an expansion of space itself.",
+                        "answer": "1) That it was an explosion in space."
+                    },
+                    {
+                        "question": "How does the Cyclic Universe Model attempt to resolve the issue of singularities?",
+                        "options": [
+                            "2) By proposing a vortex-like expansion.",
+                            "4) By eliminating the concept of cycles altogether.",
+                            "3) By suggesting infinite cycles instead of a single one.",
+                            "1) By introducing new dimensions."
+                        ],
+                        "explanation": "The Cyclic Universe Model proposes a system of infinite expansions and contractions, thus trying to avoid the singularities found in both the Big Bang and black holes.",
+                        "answer": "3) By suggesting infinite cycles instead of a single one."
+                    },
+                    {
+                        "question": "According to the lecture, what do proponents of the Steady State Theory argue about the universe\u2019s appearance?",
+                        "options": [
+                            "3) It looks the same at all times and locations.",
+                            "4) It is solely determined by black hole activity.",
+                            "2) It appears differently in various locations.",
+                            "1) It changes significantly over time."
+                        ],
+                        "explanation": "Proponents of the Steady State Theory argue that the universe looks the same at all times and in all locations, suggesting a timeless and unchanging nature.",
+                        "answer": "3) It looks the same at all times and locations."
+                    },
+                    {
+                        "question": "What emerging relationship is anticipated to impact future cosmological theories?",
+                        "options": [
+                            "1) Between gravity and time.",
+                            "2) Between quantum mechanics and cosmology.",
+                            "3) Between matter and anti-matter.",
+                            "4) Between light and dark energy."
+                        ],
+                        "explanation": "The lecture discusses how future explorations may reveal the relationship between quantum mechanics and cosmology, potentially explaining cosmic events or the universe's initial conditions.",
+                        "answer": "2) Between quantum mechanics and cosmology."
+                    },
+                    {
+                        "question": "What is the prevailing view of the universe's beginning as described in the lecture?",
+                        "options": [
+                            "4) It is entirely unpredictable.",
+                            "3) It is a constant cycle of destruction and rebirth.",
+                            "2) It is a singular event known as the Big Bang.",
+                            "1) There is no beginning or end."
+                        ],
+                        "explanation": "The prevailing view described in the lecture is that the universe began from a singular event referred to as the Big Bang, which has since expanded into the universe we observe today.",
+                        "answer": "2) It is a singular event known as the Big Bang."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    7
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What does the Steady State Theory imply about the universe's density over time?",
+                        "options": [
+                            "1) It decreases as the universe expands.",
+                            "2) It remains constant as new matter is created.",
+                            "3) It increases continuously.",
+                            "4) It fluctuates with cosmic events."
+                        ],
+                        "explanation": "The Steady State Theory suggests that as the universe expands, new matter is continuously created, which keeps the overall density constant over time.",
+                        "answer": "2) It remains constant as new matter is created."
+                    },
+                    {
+                        "question": "What major evidence challenges the Steady State Theory according to the lecture?",
+                        "options": [
+                            "2) The infinite nature of black holes.",
+                            "3) The presence of dark matter.",
+                            "4) The theory of relativity.",
+                            "1) The discovery of cosmic microwave background radiation."
+                        ],
+                        "explanation": "The cosmic microwave background radiation provides strong evidence that supports the Big Bang Theory and challenges the Steady State Theory, as it indicates an earlier hot and dense state of the universe.",
+                        "answer": "1) The discovery of cosmic microwave background radiation."
+                    },
+                    {
+                        "question": "In which theory is the universe described as undergoing infinite cycles of expansion and contraction?",
+                        "options": [
+                            "2) Steady State Theory",
+                            "1) Big Bang Theory",
+                            "3) Cyclic Universe Model",
+                            "4) Quantum Cosmology"
+                        ],
+                        "explanation": "The Cyclic Universe Model suggests that the universe undergoes infinite cycles where it expands from a Big Bang, then contracts back to a singular state before expanding again.",
+                        "answer": "3) Cyclic Universe Model."
+                    },
+                    {
+                        "question": "What does the Big Bang Theory claim about the universe\u2019s current state?",
+                        "options": [
+                            "3) The universe is expanding.",
+                            "1) The universe is static and unchanging.",
+                            "2) The universe is still in its early phases.",
+                            "4) The universe is destined to collapse."
+                        ],
+                        "explanation": "The Big Bang Theory posits that the universe is currently expanding, which is evident from the redshift of distant galaxies that indicates they are moving away from us.",
+                        "answer": "3) The universe is expanding."
+                    },
+                    {
+                        "question": "Which of the following technologies is expected to enhance our understanding of the early universe as mentioned in the lecture?",
+                        "options": [
+                            "3) LIGO",
+                            "4) Kepler Space Telescope",
+                            "1) Hubble Space Telescope",
+                            "2) James Webb Space Telescope"
+                        ],
+                        "explanation": "The James Webb Space Telescope is anticipated to provide new insights into the early universe, possibly offering evidence to support or refute existing cosmological theories.",
+                        "answer": "2) James Webb Space Telescope."
+                    },
+                    {
+                        "question": "What misconception about the Big Bang is clarified in the lecture?",
+                        "options": [
+                            "1) That it was an explosion in space.",
+                            "2) That it only happened once.",
+                            "4) That it is unrelated to black holes.",
+                            "3) That it created all matter instantly."
+                        ],
+                        "explanation": "The lecture clarifies that the Big Bang should not be viewed as an explosion in space, but as an expansion of space itself.",
+                        "answer": "1) That it was an explosion in space."
+                    },
+                    {
+                        "question": "How does the Cyclic Universe Model attempt to resolve the issue of singularities?",
+                        "options": [
+                            "2) By proposing a vortex-like expansion.",
+                            "4) By eliminating the concept of cycles altogether.",
+                            "3) By suggesting infinite cycles instead of a single one.",
+                            "1) By introducing new dimensions."
+                        ],
+                        "explanation": "The Cyclic Universe Model proposes a system of infinite expansions and contractions, thus trying to avoid the singularities found in both the Big Bang and black holes.",
+                        "answer": "3) By suggesting infinite cycles instead of a single one."
+                    },
+                    {
+                        "question": "According to the lecture, what do proponents of the Steady State Theory argue about the universe\u2019s appearance?",
+                        "options": [
+                            "3) It looks the same at all times and locations.",
+                            "4) It is solely determined by black hole activity.",
+                            "2) It appears differently in various locations.",
+                            "1) It changes significantly over time."
+                        ],
+                        "explanation": "Proponents of the Steady State Theory argue that the universe looks the same at all times and in all locations, suggesting a timeless and unchanging nature.",
+                        "answer": "3) It looks the same at all times and locations."
+                    },
+                    {
+                        "question": "What emerging relationship is anticipated to impact future cosmological theories?",
+                        "options": [
+                            "1) Between gravity and time.",
+                            "2) Between quantum mechanics and cosmology.",
+                            "3) Between matter and anti-matter.",
+                            "4) Between light and dark energy."
+                        ],
+                        "explanation": "The lecture discusses how future explorations may reveal the relationship between quantum mechanics and cosmology, potentially explaining cosmic events or the universe's initial conditions.",
+                        "answer": "2) Between quantum mechanics and cosmology."
+                    },
+                    {
+                        "question": "What is the prevailing view of the universe's beginning as described in the lecture?",
+                        "options": [
+                            "4) It is entirely unpredictable.",
+                            "3) It is a constant cycle of destruction and rebirth.",
+                            "2) It is a singular event known as the Big Bang.",
+                            "1) There is no beginning or end."
+                        ],
+                        "explanation": "The prevailing view described in the lecture is that the universe began from a singular event referred to as the Big Bang, which has since expanded into the universe we observe today.",
+                        "answer": "2) It is a singular event known as the Big Bang."
+                    }
+                ]
+            }
+        ],
+        "Computer Science": [
+            {
+                "quiz_grade": 70.0,
+                "wrong_answers": [
+                    3,
+                    4,
+                    5
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is a cultural barrier to Agile implementation mentioned in the lecture?",
+                        "options": [
+                            "3) Inadequate resources",
+                            "4) Poor sprint planning",
+                            "1) Cultural resistance to change",
+                            "2) Lack of technology"
+                        ],
+                        "explanation": "Cultural resistance to change is a common barrier faced by organizations transitioning to Agile methodologies, as employees may be accustomed to traditional methods.",
+                        "answer": "1) Cultural resistance to change"
+                    },
+                    {
+                        "question": "What role do executives play in the success of Agile methodologies according to the lecture?",
+                        "options": [
+                            "1) They must drive the technical aspects",
+                            "2) They need to model Agile practices",
+                            "3) They should avoid involvement",
+                            "4) They are only necessary at the start"
+                        ],
+                        "explanation": "Executives need to model Agile practices by being flexible themselves and encouraging teams to experiment and learn, which is crucial for the success of Agile.",
+                        "answer": "2) They need to model Agile practices"
+                    },
+                    {
+                        "question": "How can teams overcome inadequate resources when implementing Agile?",
+                        "options": [
+                            "1) By ignoring the budget",
+                            "3) By focusing solely on training",
+                            "2) By conducting an audit of necessary tools",
+                            "4) By hiring more employees"
+                        ],
+                        "explanation": "Conducting an audit of necessary tools helps identify what is needed for Agile to flourish while also ensuring proper allocation of resources.",
+                        "answer": "2) By conducting an audit of necessary tools"
+                    },
+                    {
+                        "question": "What does the term 'scrum but' refer to in the context of Agile failure?",
+                        "options": [
+                            "3) A successful Agile implementation",
+                            "4) A specific Agile tool",
+                            "2) A type of software",
+                            "1) A misunderstanding of Agile"
+                        ],
+                        "explanation": "'Scrum but' describes the situation when teams claim to work Agile while still adhering to outdated practices, indicating a lack of genuine understanding of Agile principles.",
+                        "answer": "1) A misunderstanding of Agile"
+                    },
+                    {
+                        "question": "What should teams conduct regularly to prevent Agile failures according to the lecture?",
+                        "options": [
+                            "2) Retrospectives",
+                            "3) Customer surveys",
+                            "1) Market research",
+                            "4) Budget reviews"
+                        ],
+                        "explanation": "Regular retrospectives allow teams to reflect on their practices and adapt, preventing the common pitfalls associated with Agile failures.",
+                        "answer": "2) Retrospectives"
+                    },
+                    {
+                        "question": "What should teams focus on to avoid burnout during sprint planning?",
+                        "options": [
+                            "1) Overcommitting based on capacity",
+                            "4) Reducing team members",
+                            "3) Ignoring historical data",
+                            "2) Setting clear goals"
+                        ],
+                        "explanation": "Setting clear goals and relying on historical data to inform planning helps teams balance workloads and avoid burnout.",
+                        "answer": "2) Setting clear goals"
+                    },
+                    {
+                        "question": "Why is customer collaboration emphasized in Agile methodologies?",
+                        "options": [
+                            "4) To reduce development time",
+                            "2) To prioritize internal processes",
+                            "1) To ensure team success",
+                            "3) To meet user needs"
+                        ],
+                        "explanation": "Customer collaboration is crucial in Agile to ensure that products align with user needs and expectations, which is the essence of delivering value.",
+                        "answer": "3) To meet user needs"
+                    },
+                    {
+                        "question": "What is one way to foster a better understanding of Agile among team members?",
+                        "options": [
+                            "2) Workshops and seminars",
+                            "4) Limit communication",
+                            "3) Mandatory meetings",
+                            "1) Enforced training"
+                        ],
+                        "explanation": "Workshops and seminars facilitate better understanding of Agile principles, making team members more likely to embrace Agile practices.",
+                        "answer": "2) Workshops and seminars"
+                    },
+                    {
+                        "question": "What has to be managed to ensure flexible leadership in Agile methodologies?",
+                        "options": [
+                            "1) Budgeting only",
+                            "4) Executive support",
+                            "2) Resistance to change",
+                            "3) Internal politics"
+                        ],
+                        "explanation": "Managing executive support is crucial because leadership plays a significant role in modeling and advocating for Agile practices throughout the organization.",
+                        "answer": "4) Executive support"
+                    },
+                    {
+                        "question": "What is a key concept learned regarding Agile failures, as discussed in the lecture?",
+                        "options": [
+                            "4) Shorter project timelines",
+                            "3) Discounting customer feedback",
+                            "2) Continuous learning and adaptation",
+                            "1) Complacency in practices"
+                        ],
+                        "explanation": "Understanding that being agile is a journey stresses continuous learning and adaptation, which are essential to the successful implementation of Agile methodologies.",
+                        "answer": "2) Continuous learning and adaptation"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is a cultural barrier to Agile implementation mentioned in the lecture?",
+                        "options": [
+                            "3) Inadequate resources",
+                            "4) Poor sprint planning",
+                            "1) Cultural resistance to change",
+                            "2) Lack of technology"
+                        ],
+                        "explanation": "Cultural resistance to change is a common barrier faced by organizations transitioning to Agile methodologies, as employees may be accustomed to traditional methods.",
+                        "answer": "1) Cultural resistance to change"
+                    },
+                    {
+                        "question": "What role do executives play in the success of Agile methodologies according to the lecture?",
+                        "options": [
+                            "1) They must drive the technical aspects",
+                            "2) They need to model Agile practices",
+                            "3) They should avoid involvement",
+                            "4) They are only necessary at the start"
+                        ],
+                        "explanation": "Executives need to model Agile practices by being flexible themselves and encouraging teams to experiment and learn, which is crucial for the success of Agile.",
+                        "answer": "2) They need to model Agile practices"
+                    },
+                    {
+                        "question": "How can teams overcome inadequate resources when implementing Agile?",
+                        "options": [
+                            "1) By ignoring the budget",
+                            "3) By focusing solely on training",
+                            "2) By conducting an audit of necessary tools",
+                            "4) By hiring more employees"
+                        ],
+                        "explanation": "Conducting an audit of necessary tools helps identify what is needed for Agile to flourish while also ensuring proper allocation of resources.",
+                        "answer": "2) By conducting an audit of necessary tools"
+                    },
+                    {
+                        "question": "What does the term 'scrum but' refer to in the context of Agile failure?",
+                        "options": [
+                            "3) A successful Agile implementation",
+                            "4) A specific Agile tool",
+                            "2) A type of software",
+                            "1) A misunderstanding of Agile"
+                        ],
+                        "explanation": "'Scrum but' describes the situation when teams claim to work Agile while still adhering to outdated practices, indicating a lack of genuine understanding of Agile principles.",
+                        "answer": "1) A misunderstanding of Agile"
+                    },
+                    {
+                        "question": "What should teams conduct regularly to prevent Agile failures according to the lecture?",
+                        "options": [
+                            "2) Retrospectives",
+                            "3) Customer surveys",
+                            "1) Market research",
+                            "4) Budget reviews"
+                        ],
+                        "explanation": "Regular retrospectives allow teams to reflect on their practices and adapt, preventing the common pitfalls associated with Agile failures.",
+                        "answer": "2) Retrospectives"
+                    },
+                    {
+                        "question": "What should teams focus on to avoid burnout during sprint planning?",
+                        "options": [
+                            "1) Overcommitting based on capacity",
+                            "4) Reducing team members",
+                            "3) Ignoring historical data",
+                            "2) Setting clear goals"
+                        ],
+                        "explanation": "Setting clear goals and relying on historical data to inform planning helps teams balance workloads and avoid burnout.",
+                        "answer": "2) Setting clear goals"
+                    },
+                    {
+                        "question": "Why is customer collaboration emphasized in Agile methodologies?",
+                        "options": [
+                            "4) To reduce development time",
+                            "2) To prioritize internal processes",
+                            "1) To ensure team success",
+                            "3) To meet user needs"
+                        ],
+                        "explanation": "Customer collaboration is crucial in Agile to ensure that products align with user needs and expectations, which is the essence of delivering value.",
+                        "answer": "3) To meet user needs"
+                    },
+                    {
+                        "question": "What is one way to foster a better understanding of Agile among team members?",
+                        "options": [
+                            "2) Workshops and seminars",
+                            "4) Limit communication",
+                            "3) Mandatory meetings",
+                            "1) Enforced training"
+                        ],
+                        "explanation": "Workshops and seminars facilitate better understanding of Agile principles, making team members more likely to embrace Agile practices.",
+                        "answer": "2) Workshops and seminars"
+                    },
+                    {
+                        "question": "What has to be managed to ensure flexible leadership in Agile methodologies?",
+                        "options": [
+                            "1) Budgeting only",
+                            "4) Executive support",
+                            "2) Resistance to change",
+                            "3) Internal politics"
+                        ],
+                        "explanation": "Managing executive support is crucial because leadership plays a significant role in modeling and advocating for Agile practices throughout the organization.",
+                        "answer": "4) Executive support"
+                    },
+                    {
+                        "question": "What is a key concept learned regarding Agile failures, as discussed in the lecture?",
+                        "options": [
+                            "4) Shorter project timelines",
+                            "3) Discounting customer feedback",
+                            "2) Continuous learning and adaptation",
+                            "1) Complacency in practices"
+                        ],
+                        "explanation": "Understanding that being agile is a journey stresses continuous learning and adaptation, which are essential to the successful implementation of Agile methodologies.",
+                        "answer": "2) Continuous learning and adaptation"
+                    }
+                ]
+            }
+        ],
+        "English": [
+            {
+                "quiz_grade": 40.0,
+                "wrong_answers": [
+                    0,
+                    1,
+                    2,
+                    6,
+                    7,
+                    9
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What term describes a category of literature identified by certain stylistic features?",
+                        "options": [
+                            "4) Literary theme",
+                            "3) Literary structure",
+                            "1) Literary form",
+                            "2) Literary genre"
+                        ],
+                        "explanation": "Literary genre is the correct term used to categorize literature based on stylistic features, content, or thematic focus.",
+                        "answer": "2) Literary genre"
+                    },
+                    {
+                        "question": "Which of the following genres emerged as a response to the suffrage movement in the 20th century?",
+                        "options": [
+                            "1) Post-colonial literature",
+                            "4) Modernist literature",
+                            "3) Romantic literature",
+                            "2) Feminist literature"
+                        ],
+                        "explanation": "Feminist literature emerged in response to the suffrage movement, challenging male-centric narratives in literature.",
+                        "answer": "2) Feminist literature"
+                    },
+                    {
+                        "question": "Which author is associated with the romantic literature movement focused on individual emotion?",
+                        "options": [
+                            "3) William Wordsworth",
+                            "4) Salman Rushdie",
+                            "2) Chinua Achebe",
+                            "1) F. Scott Fitzgerald"
+                        ],
+                        "explanation": "William Wordsworth is known for his contributions to the romantic literature movement and emphasized individual emotion and nature.",
+                        "answer": "3) William Wordsworth"
+                    },
+                    {
+                        "question": "The emergence of what genre reflects the complexities of the American Dream in the 20th century?",
+                        "options": [
+                            "3) Dystopian fiction",
+                            "2) The Great Gatsby",
+                            "1) Historical fiction",
+                            "4) Magical realism"
+                        ],
+                        "explanation": "'The Great Gatsby' is a prime example of literature that portrays the complexities of the American Dream during the Jazz Age.",
+                        "answer": "2) The Great Gatsby"
+                    },
+                    {
+                        "question": "What literary development reflects society's changing values and perspectives after decolonization?",
+                        "options": [
+                            "1) Post-colonial literature",
+                            "3) Tragedy",
+                            "2) Science fiction",
+                            "4) Realism"
+                        ],
+                        "explanation": "Post-colonial literature emerged in response to decolonization, challenging Western narratives and presenting diverse perspectives.",
+                        "answer": "1) Post-colonial literature"
+                    },
+                    {
+                        "question": "How did the printing press influence literary genres?",
+                        "options": [
+                            "1) It made literature more expensive.",
+                            "4) It discouraged new forms of writing.",
+                            "2) It restricted access to literature.",
+                            "3) It revolutionized accessibility of literature."
+                        ],
+                        "explanation": "The invention of the printing press made literature accessible to a broader audience, which helped popularize the novel as a literary form.",
+                        "answer": "3) It revolutionized accessibility of literature."
+                    },
+                    {
+                        "question": "Which of the following genres includes fan fiction as a modern example?",
+                        "options": [
+                            "1) Biographical literature",
+                            "3) Non-fiction",
+                            "2) Online serialized novels",
+                            "4) Horror"
+                        ],
+                        "explanation": "Genres like fan fiction and online serialized novels have emerged with the rise of the internet, showcasing literature\u2019s evolution with technology.",
+                        "answer": "2) Online serialized novels"
+                    },
+                    {
+                        "question": "Which author used their work to explore themes of cultural identity and colonial influence?",
+                        "options": [
+                            "1) William Wordsworth",
+                            "4) George Orwell",
+                            "3) Chinua Achebe",
+                            "2) F. Scott Fitzgerald"
+                        ],
+                        "explanation": "Chinua Achebe's works discuss themes of identity and culture in the context of post-colonial literature, challenging colonial narratives.",
+                        "answer": "3) Chinua Achebe"
+                    },
+                    {
+                        "question": "What key element shapes literature according to the discussion of cultural changes?",
+                        "options": [
+                            "3) Societal values and beliefs",
+                            "4) Historical events",
+                            "2) Technological advancement",
+                            "1) Emotional themes"
+                        ],
+                        "explanation": "Cultural changes reflect evolving values, beliefs, and issues in society, significantly influencing the development of genres in literature.",
+                        "answer": "3) Societal values and beliefs"
+                    },
+                    {
+                        "question": "What aspect of our modern era has rapidly transformed the consumption of literature?",
+                        "options": [
+                            "1) The printing press",
+                            "2) Digital media",
+                            "4) Classical texts",
+                            "3) Oral traditions"
+                        ],
+                        "explanation": "The rise of digital media has drastically transformed how literature is produced and consumed, leading to the emergence of new genres.",
+                        "answer": "2) Digital media"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 50.0,
+                "wrong_answers": [
+                    0,
+                    1,
+                    2,
+                    6,
+                    9
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What term describes a category of literature identified by certain stylistic features?",
+                        "options": [
+                            "4) Literary theme",
+                            "3) Literary structure",
+                            "1) Literary form",
+                            "2) Literary genre"
+                        ],
+                        "explanation": "Literary genre is the correct term used to categorize literature based on stylistic features, content, or thematic focus.",
+                        "answer": "2) Literary genre"
+                    },
+                    {
+                        "question": "Which of the following genres emerged as a response to the suffrage movement in the 20th century?",
+                        "options": [
+                            "1) Post-colonial literature",
+                            "4) Modernist literature",
+                            "3) Romantic literature",
+                            "2) Feminist literature"
+                        ],
+                        "explanation": "Feminist literature emerged in response to the suffrage movement, challenging male-centric narratives in literature.",
+                        "answer": "2) Feminist literature"
+                    },
+                    {
+                        "question": "Which author is associated with the romantic literature movement focused on individual emotion?",
+                        "options": [
+                            "3) William Wordsworth",
+                            "4) Salman Rushdie",
+                            "2) Chinua Achebe",
+                            "1) F. Scott Fitzgerald"
+                        ],
+                        "explanation": "William Wordsworth is known for his contributions to the romantic literature movement and emphasized individual emotion and nature.",
+                        "answer": "3) William Wordsworth"
+                    },
+                    {
+                        "question": "The emergence of what genre reflects the complexities of the American Dream in the 20th century?",
+                        "options": [
+                            "3) Dystopian fiction",
+                            "2) The Great Gatsby",
+                            "1) Historical fiction",
+                            "4) Magical realism"
+                        ],
+                        "explanation": "'The Great Gatsby' is a prime example of literature that portrays the complexities of the American Dream during the Jazz Age.",
+                        "answer": "2) The Great Gatsby"
+                    },
+                    {
+                        "question": "What literary development reflects society's changing values and perspectives after decolonization?",
+                        "options": [
+                            "1) Post-colonial literature",
+                            "3) Tragedy",
+                            "2) Science fiction",
+                            "4) Realism"
+                        ],
+                        "explanation": "Post-colonial literature emerged in response to decolonization, challenging Western narratives and presenting diverse perspectives.",
+                        "answer": "1) Post-colonial literature"
+                    },
+                    {
+                        "question": "How did the printing press influence literary genres?",
+                        "options": [
+                            "1) It made literature more expensive.",
+                            "4) It discouraged new forms of writing.",
+                            "2) It restricted access to literature.",
+                            "3) It revolutionized accessibility of literature."
+                        ],
+                        "explanation": "The invention of the printing press made literature accessible to a broader audience, which helped popularize the novel as a literary form.",
+                        "answer": "3) It revolutionized accessibility of literature."
+                    },
+                    {
+                        "question": "Which of the following genres includes fan fiction as a modern example?",
+                        "options": [
+                            "1) Biographical literature",
+                            "3) Non-fiction",
+                            "2) Online serialized novels",
+                            "4) Horror"
+                        ],
+                        "explanation": "Genres like fan fiction and online serialized novels have emerged with the rise of the internet, showcasing literature\u2019s evolution with technology.",
+                        "answer": "2) Online serialized novels"
+                    },
+                    {
+                        "question": "Which author used their work to explore themes of cultural identity and colonial influence?",
+                        "options": [
+                            "1) William Wordsworth",
+                            "4) George Orwell",
+                            "3) Chinua Achebe",
+                            "2) F. Scott Fitzgerald"
+                        ],
+                        "explanation": "Chinua Achebe's works discuss themes of identity and culture in the context of post-colonial literature, challenging colonial narratives.",
+                        "answer": "3) Chinua Achebe"
+                    },
+                    {
+                        "question": "What key element shapes literature according to the discussion of cultural changes?",
+                        "options": [
+                            "3) Societal values and beliefs",
+                            "4) Historical events",
+                            "2) Technological advancement",
+                            "1) Emotional themes"
+                        ],
+                        "explanation": "Cultural changes reflect evolving values, beliefs, and issues in society, significantly influencing the development of genres in literature.",
+                        "answer": "3) Societal values and beliefs"
+                    },
+                    {
+                        "question": "What aspect of our modern era has rapidly transformed the consumption of literature?",
+                        "options": [
+                            "1) The printing press",
+                            "2) Digital media",
+                            "4) Classical texts",
+                            "3) Oral traditions"
+                        ],
+                        "explanation": "The rise of digital media has drastically transformed how literature is produced and consumed, leading to the emergence of new genres.",
+                        "answer": "2) Digital media"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 50.0,
+                "wrong_answers": [
+                    0,
+                    1,
+                    2,
+                    6,
+                    9
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What term describes a category of literature identified by certain stylistic features?",
+                        "options": [
+                            "4) Literary theme",
+                            "3) Literary structure",
+                            "1) Literary form",
+                            "2) Literary genre"
+                        ],
+                        "explanation": "Literary genre is the correct term used to categorize literature based on stylistic features, content, or thematic focus.",
+                        "answer": "2) Literary genre"
+                    },
+                    {
+                        "question": "Which of the following genres emerged as a response to the suffrage movement in the 20th century?",
+                        "options": [
+                            "1) Post-colonial literature",
+                            "4) Modernist literature",
+                            "3) Romantic literature",
+                            "2) Feminist literature"
+                        ],
+                        "explanation": "Feminist literature emerged in response to the suffrage movement, challenging male-centric narratives in literature.",
+                        "answer": "2) Feminist literature"
+                    },
+                    {
+                        "question": "Which author is associated with the romantic literature movement focused on individual emotion?",
+                        "options": [
+                            "3) William Wordsworth",
+                            "4) Salman Rushdie",
+                            "2) Chinua Achebe",
+                            "1) F. Scott Fitzgerald"
+                        ],
+                        "explanation": "William Wordsworth is known for his contributions to the romantic literature movement and emphasized individual emotion and nature.",
+                        "answer": "3) William Wordsworth"
+                    },
+                    {
+                        "question": "The emergence of what genre reflects the complexities of the American Dream in the 20th century?",
+                        "options": [
+                            "3) Dystopian fiction",
+                            "2) The Great Gatsby",
+                            "1) Historical fiction",
+                            "4) Magical realism"
+                        ],
+                        "explanation": "'The Great Gatsby' is a prime example of literature that portrays the complexities of the American Dream during the Jazz Age.",
+                        "answer": "2) The Great Gatsby"
+                    },
+                    {
+                        "question": "What literary development reflects society's changing values and perspectives after decolonization?",
+                        "options": [
+                            "1) Post-colonial literature",
+                            "3) Tragedy",
+                            "2) Science fiction",
+                            "4) Realism"
+                        ],
+                        "explanation": "Post-colonial literature emerged in response to decolonization, challenging Western narratives and presenting diverse perspectives.",
+                        "answer": "1) Post-colonial literature"
+                    },
+                    {
+                        "question": "How did the printing press influence literary genres?",
+                        "options": [
+                            "1) It made literature more expensive.",
+                            "4) It discouraged new forms of writing.",
+                            "2) It restricted access to literature.",
+                            "3) It revolutionized accessibility of literature."
+                        ],
+                        "explanation": "The invention of the printing press made literature accessible to a broader audience, which helped popularize the novel as a literary form.",
+                        "answer": "3) It revolutionized accessibility of literature."
+                    },
+                    {
+                        "question": "Which of the following genres includes fan fiction as a modern example?",
+                        "options": [
+                            "1) Biographical literature",
+                            "3) Non-fiction",
+                            "2) Online serialized novels",
+                            "4) Horror"
+                        ],
+                        "explanation": "Genres like fan fiction and online serialized novels have emerged with the rise of the internet, showcasing literature\u2019s evolution with technology.",
+                        "answer": "2) Online serialized novels"
+                    },
+                    {
+                        "question": "Which author used their work to explore themes of cultural identity and colonial influence?",
+                        "options": [
+                            "1) William Wordsworth",
+                            "4) George Orwell",
+                            "3) Chinua Achebe",
+                            "2) F. Scott Fitzgerald"
+                        ],
+                        "explanation": "Chinua Achebe's works discuss themes of identity and culture in the context of post-colonial literature, challenging colonial narratives.",
+                        "answer": "3) Chinua Achebe"
+                    },
+                    {
+                        "question": "What key element shapes literature according to the discussion of cultural changes?",
+                        "options": [
+                            "3) Societal values and beliefs",
+                            "4) Historical events",
+                            "2) Technological advancement",
+                            "1) Emotional themes"
+                        ],
+                        "explanation": "Cultural changes reflect evolving values, beliefs, and issues in society, significantly influencing the development of genres in literature.",
+                        "answer": "3) Societal values and beliefs"
+                    },
+                    {
+                        "question": "What aspect of our modern era has rapidly transformed the consumption of literature?",
+                        "options": [
+                            "1) The printing press",
+                            "2) Digital media",
+                            "4) Classical texts",
+                            "3) Oral traditions"
+                        ],
+                        "explanation": "The rise of digital media has drastically transformed how literature is produced and consumed, leading to the emergence of new genres.",
+                        "answer": "2) Digital media"
+                    }
+                ]
+            }
+        ],
+        "Science": [
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    0,
+                    7
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is the term that refers to an object's resistance to changes in its velocity?",
+                        "options": [
+                            "4) Gravity",
+                            "1) Mass",
+                            "3) Inertia",
+                            "2) Force"
+                        ],
+                        "explanation": "Inertia is defined as the resistance of any physical object to any change in its velocity, whether that involves changes to the object's speed or direction.",
+                        "answer": "3) Inertia"
+                    },
+                    {
+                        "question": "Which example best demonstrates Newton's Third Law of Motion?",
+                        "options": [
+                            "4) A ball rolling to a stop on grass",
+                            "3) A rocket launching into space",
+                            "1) A car accelerating down a road",
+                            "2) A skateboard remaining still until pushed"
+                        ],
+                        "explanation": "Newton's Third Law states that for every action, there is an equal and opposite reaction. The rocket example showcases this as it expels gas downwards while pushing itself upwards.",
+                        "answer": "3) A rocket launching into space"
+                    },
+                    {
+                        "question": "In the equation F = ma, what does the 'a' signify?",
+                        "options": [
+                            "3) Altitude",
+                            "4) Amplitude",
+                            "1) Acceleration",
+                            "2) Area"
+                        ],
+                        "explanation": "In the equation F = ma, 'a' represents acceleration, which is contingent on the net force acting on an object and the object's mass.",
+                        "answer": "1) Acceleration"
+                    },
+                    {
+                        "question": "How does increased mass affect the acceleration of an object, considering Newton's Second Law?",
+                        "options": [
+                            "3) It decreases acceleration",
+                            "1) It increases acceleration",
+                            "2) It has no effect on acceleration",
+                            "4) Acceleration becomes unpredictable"
+                        ],
+                        "explanation": "According to Newton's Second Law (F = ma), as mass increases, for a constant force, the acceleration will decrease.",
+                        "answer": "3) It decreases acceleration"
+                    },
+                    {
+                        "question": "What role does inertia play in the necessity of seatbelts in cars?",
+                        "options": [
+                            "2) Prevents cars from rolling back",
+                            "3) Counteracts a passenger's motion during sudden stops",
+                            "4) Ensures comfort during rides",
+                            "1) Helps cars move faster"
+                        ],
+                        "explanation": "Inertia causes passengers to continue moving forward when the car suddenly stops; seatbelts provide a force to counteract that inertia, which helps prevent injury.",
+                        "answer": "3) Counteracts a passenger's motion during sudden stops"
+                    },
+                    {
+                        "question": "What concept distinguishes classical mechanics from quantum mechanics?",
+                        "options": [
+                            "1) Deterministic behavior vs. probabilistic behavior",
+                            "3) Kinetic energy vs. potential energy",
+                            "2) Acceleration vs. velocity",
+                            "4) Static vs. dynamic forces"
+                        ],
+                        "explanation": "Classical mechanics describes motion deterministically, whereas quantum mechanics introduces a probabilistic nature to the behavior of particles at small scales.",
+                        "answer": "1) Deterministic behavior vs. probabilistic behavior"
+                    },
+                    {
+                        "question": "What happens to an object when no net external force is acting on it, according to Newton's First Law?",
+                        "options": [
+                            "2) It will remain at rest or continue moving at constant velocity",
+                            "3) It will rotate indefinitely",
+                            "4) It will change direction spontaneously",
+                            "1) It will always accelerate"
+                        ],
+                        "explanation": "Newton's First Law states that an object remains at rest or continues to move at a constant velocity unless acted upon by a net external force.",
+                        "answer": "2) It will remain at rest or continue moving at constant velocity"
+                    },
+                    {
+                        "question": "What aspect of motion is described by Newton\u2019s laws when applied to everyday speeds and sizes?",
+                        "options": [
+                            "1) It accurately describes motion under extreme conditions",
+                            "2) It is predictive and works in practical applications",
+                            "3) It fails to explain energy transformations",
+                            "4) It only applies to large objects"
+                        ],
+                        "explanation": "Newton's laws of motion effectively describe and predict the behavior of objects at everyday speeds and sizes, which is crucial for practical applications in various fields.",
+                        "answer": "2) It is predictive and works in practical applications"
+                    },
+                    {
+                        "question": "Which of the following requires a reconsideration of Newtonian concepts according to Einstein's theories?",
+                        "options": [
+                            "2) Speeds approaching the speed of light",
+                            "4) Basic mechanical systems",
+                            "1) Average speeds of objects on Earth",
+                            "3) Objects at rest in a gravitational field"
+                        ],
+                        "explanation": "Einstein's theories notably expand upon Newtonian concepts and require a reconsideration when dealing with speeds approaching the speed of light, where classical mechanics fails.",
+                        "answer": "2) Speeds approaching the speed of light"
+                    },
+                    {
+                        "question": "Which law allows for applications such as rocket propulsion?",
+                        "options": [
+                            "2) Newton's Second Law",
+                            "4) Newton\u2019s Law of Gravitation",
+                            "3) Newton's Third Law",
+                            "1) Newton's First Law"
+                        ],
+                        "explanation": "Newton's Third Law states that for every action, there is an equal and opposite reaction, and this principle is what enables rockets to propel themselves upwards by expelling gas downwards.",
+                        "answer": "3) Newton's Third Law"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    0
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is the term that refers to an object's resistance to changes in its velocity?",
+                        "options": [
+                            "4) Gravity",
+                            "1) Mass",
+                            "3) Inertia",
+                            "2) Force"
+                        ],
+                        "explanation": "Inertia is defined as the resistance of any physical object to any change in its velocity, whether that involves changes to the object's speed or direction.",
+                        "answer": "3) Inertia"
+                    },
+                    {
+                        "question": "Which example best demonstrates Newton's Third Law of Motion?",
+                        "options": [
+                            "4) A ball rolling to a stop on grass",
+                            "3) A rocket launching into space",
+                            "1) A car accelerating down a road",
+                            "2) A skateboard remaining still until pushed"
+                        ],
+                        "explanation": "Newton's Third Law states that for every action, there is an equal and opposite reaction. The rocket example showcases this as it expels gas downwards while pushing itself upwards.",
+                        "answer": "3) A rocket launching into space"
+                    },
+                    {
+                        "question": "In the equation F = ma, what does the 'a' signify?",
+                        "options": [
+                            "3) Altitude",
+                            "4) Amplitude",
+                            "1) Acceleration",
+                            "2) Area"
+                        ],
+                        "explanation": "In the equation F = ma, 'a' represents acceleration, which is contingent on the net force acting on an object and the object's mass.",
+                        "answer": "1) Acceleration"
+                    },
+                    {
+                        "question": "How does increased mass affect the acceleration of an object, considering Newton's Second Law?",
+                        "options": [
+                            "3) It decreases acceleration",
+                            "1) It increases acceleration",
+                            "2) It has no effect on acceleration",
+                            "4) Acceleration becomes unpredictable"
+                        ],
+                        "explanation": "According to Newton's Second Law (F = ma), as mass increases, for a constant force, the acceleration will decrease.",
+                        "answer": "3) It decreases acceleration"
+                    },
+                    {
+                        "question": "What role does inertia play in the necessity of seatbelts in cars?",
+                        "options": [
+                            "2) Prevents cars from rolling back",
+                            "3) Counteracts a passenger's motion during sudden stops",
+                            "4) Ensures comfort during rides",
+                            "1) Helps cars move faster"
+                        ],
+                        "explanation": "Inertia causes passengers to continue moving forward when the car suddenly stops; seatbelts provide a force to counteract that inertia, which helps prevent injury.",
+                        "answer": "3) Counteracts a passenger's motion during sudden stops"
+                    },
+                    {
+                        "question": "What concept distinguishes classical mechanics from quantum mechanics?",
+                        "options": [
+                            "1) Deterministic behavior vs. probabilistic behavior",
+                            "3) Kinetic energy vs. potential energy",
+                            "2) Acceleration vs. velocity",
+                            "4) Static vs. dynamic forces"
+                        ],
+                        "explanation": "Classical mechanics describes motion deterministically, whereas quantum mechanics introduces a probabilistic nature to the behavior of particles at small scales.",
+                        "answer": "1) Deterministic behavior vs. probabilistic behavior"
+                    },
+                    {
+                        "question": "What happens to an object when no net external force is acting on it, according to Newton's First Law?",
+                        "options": [
+                            "2) It will remain at rest or continue moving at constant velocity",
+                            "3) It will rotate indefinitely",
+                            "4) It will change direction spontaneously",
+                            "1) It will always accelerate"
+                        ],
+                        "explanation": "Newton's First Law states that an object remains at rest or continues to move at a constant velocity unless acted upon by a net external force.",
+                        "answer": "2) It will remain at rest or continue moving at constant velocity"
+                    },
+                    {
+                        "question": "What aspect of motion is described by Newton\u2019s laws when applied to everyday speeds and sizes?",
+                        "options": [
+                            "1) It accurately describes motion under extreme conditions",
+                            "2) It is predictive and works in practical applications",
+                            "3) It fails to explain energy transformations",
+                            "4) It only applies to large objects"
+                        ],
+                        "explanation": "Newton's laws of motion effectively describe and predict the behavior of objects at everyday speeds and sizes, which is crucial for practical applications in various fields.",
+                        "answer": "2) It is predictive and works in practical applications"
+                    },
+                    {
+                        "question": "Which of the following requires a reconsideration of Newtonian concepts according to Einstein's theories?",
+                        "options": [
+                            "2) Speeds approaching the speed of light",
+                            "4) Basic mechanical systems",
+                            "1) Average speeds of objects on Earth",
+                            "3) Objects at rest in a gravitational field"
+                        ],
+                        "explanation": "Einstein's theories notably expand upon Newtonian concepts and require a reconsideration when dealing with speeds approaching the speed of light, where classical mechanics fails.",
+                        "answer": "2) Speeds approaching the speed of light"
+                    },
+                    {
+                        "question": "Which law allows for applications such as rocket propulsion?",
+                        "options": [
+                            "2) Newton's Second Law",
+                            "4) Newton\u2019s Law of Gravitation",
+                            "3) Newton's Third Law",
+                            "1) Newton's First Law"
+                        ],
+                        "explanation": "Newton's Third Law states that for every action, there is an equal and opposite reaction, and this principle is what enables rockets to propel themselves upwards by expelling gas downwards.",
+                        "answer": "3) Newton's Third Law"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What is the term that refers to an object's resistance to changes in its velocity?",
+                        "options": [
+                            "4) Gravity",
+                            "1) Mass",
+                            "3) Inertia",
+                            "2) Force"
+                        ],
+                        "explanation": "Inertia is defined as the resistance of any physical object to any change in its velocity, whether that involves changes to the object's speed or direction.",
+                        "answer": "3) Inertia"
+                    },
+                    {
+                        "question": "Which example best demonstrates Newton's Third Law of Motion?",
+                        "options": [
+                            "4) A ball rolling to a stop on grass",
+                            "3) A rocket launching into space",
+                            "1) A car accelerating down a road",
+                            "2) A skateboard remaining still until pushed"
+                        ],
+                        "explanation": "Newton's Third Law states that for every action, there is an equal and opposite reaction. The rocket example showcases this as it expels gas downwards while pushing itself upwards.",
+                        "answer": "3) A rocket launching into space"
+                    },
+                    {
+                        "question": "In the equation F = ma, what does the 'a' signify?",
+                        "options": [
+                            "3) Altitude",
+                            "4) Amplitude",
+                            "1) Acceleration",
+                            "2) Area"
+                        ],
+                        "explanation": "In the equation F = ma, 'a' represents acceleration, which is contingent on the net force acting on an object and the object's mass.",
+                        "answer": "1) Acceleration"
+                    },
+                    {
+                        "question": "How does increased mass affect the acceleration of an object, considering Newton's Second Law?",
+                        "options": [
+                            "3) It decreases acceleration",
+                            "1) It increases acceleration",
+                            "2) It has no effect on acceleration",
+                            "4) Acceleration becomes unpredictable"
+                        ],
+                        "explanation": "According to Newton's Second Law (F = ma), as mass increases, for a constant force, the acceleration will decrease.",
+                        "answer": "3) It decreases acceleration"
+                    },
+                    {
+                        "question": "What role does inertia play in the necessity of seatbelts in cars?",
+                        "options": [
+                            "2) Prevents cars from rolling back",
+                            "3) Counteracts a passenger's motion during sudden stops",
+                            "4) Ensures comfort during rides",
+                            "1) Helps cars move faster"
+                        ],
+                        "explanation": "Inertia causes passengers to continue moving forward when the car suddenly stops; seatbelts provide a force to counteract that inertia, which helps prevent injury.",
+                        "answer": "3) Counteracts a passenger's motion during sudden stops"
+                    },
+                    {
+                        "question": "What concept distinguishes classical mechanics from quantum mechanics?",
+                        "options": [
+                            "1) Deterministic behavior vs. probabilistic behavior",
+                            "3) Kinetic energy vs. potential energy",
+                            "2) Acceleration vs. velocity",
+                            "4) Static vs. dynamic forces"
+                        ],
+                        "explanation": "Classical mechanics describes motion deterministically, whereas quantum mechanics introduces a probabilistic nature to the behavior of particles at small scales.",
+                        "answer": "1) Deterministic behavior vs. probabilistic behavior"
+                    },
+                    {
+                        "question": "What happens to an object when no net external force is acting on it, according to Newton's First Law?",
+                        "options": [
+                            "2) It will remain at rest or continue moving at constant velocity",
+                            "3) It will rotate indefinitely",
+                            "4) It will change direction spontaneously",
+                            "1) It will always accelerate"
+                        ],
+                        "explanation": "Newton's First Law states that an object remains at rest or continues to move at a constant velocity unless acted upon by a net external force.",
+                        "answer": "2) It will remain at rest or continue moving at constant velocity"
+                    },
+                    {
+                        "question": "What aspect of motion is described by Newton\u2019s laws when applied to everyday speeds and sizes?",
+                        "options": [
+                            "1) It accurately describes motion under extreme conditions",
+                            "2) It is predictive and works in practical applications",
+                            "3) It fails to explain energy transformations",
+                            "4) It only applies to large objects"
+                        ],
+                        "explanation": "Newton's laws of motion effectively describe and predict the behavior of objects at everyday speeds and sizes, which is crucial for practical applications in various fields.",
+                        "answer": "2) It is predictive and works in practical applications"
+                    },
+                    {
+                        "question": "Which of the following requires a reconsideration of Newtonian concepts according to Einstein's theories?",
+                        "options": [
+                            "2) Speeds approaching the speed of light",
+                            "4) Basic mechanical systems",
+                            "1) Average speeds of objects on Earth",
+                            "3) Objects at rest in a gravitational field"
+                        ],
+                        "explanation": "Einstein's theories notably expand upon Newtonian concepts and require a reconsideration when dealing with speeds approaching the speed of light, where classical mechanics fails.",
+                        "answer": "2) Speeds approaching the speed of light"
+                    },
+                    {
+                        "question": "Which law allows for applications such as rocket propulsion?",
+                        "options": [
+                            "2) Newton's Second Law",
+                            "4) Newton\u2019s Law of Gravitation",
+                            "3) Newton's Third Law",
+                            "1) Newton's First Law"
+                        ],
+                        "explanation": "Newton's Third Law states that for every action, there is an equal and opposite reaction, and this principle is what enables rockets to propel themselves upwards by expelling gas downwards.",
+                        "answer": "3) Newton's Third Law"
+                    }
+                ]
+            }
+        ],
+        "Texas History": [
+            {
+                "quiz_grade": 70.0,
+                "wrong_answers": [
+                    0,
+                    2,
+                    4
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "Who was a notable Texan author mentioned in the lecture that wrote about the life experiences of Texans after World War I?",
+                        "options": [
+                            "3) Lionel Sosa",
+                            "4) None of the above",
+                            "2) Robert Flynn",
+                            "1) Helen Cordero"
+                        ],
+                        "explanation": "Robert Flynn is highlighted in the lecture as a significant author who captured the experiences of Texans in his work after World War I.",
+                        "answer": "2) Robert Flynn"
+                    },
+                    {
+                        "question": "Which genre of artistic expression began to flourish in Texas after World War I, reflecting diverse experiences?",
+                        "options": [
+                            "3) Literature and visual arts",
+                            "2) Dance",
+                            "4) Film",
+                            "1) Sculpture"
+                        ],
+                        "explanation": "The lecture discusses how the arts, particularly literature and visual arts, began to flourish, reflecting a wide range of experiences and societal stories in Texas after World War I.",
+                        "answer": "3) Literature and visual arts"
+                    },
+                    {
+                        "question": "What type of identities did Texas literature during the post-war period help to form?",
+                        "options": [
+                            "1) Collective identities",
+                            "2) Individual identities",
+                            "3) National identities",
+                            "4) None of the above"
+                        ],
+                        "explanation": "The lecture mentions that literature helped to form influential collective identities that shaped communities, highlighting its role in engaging with social issues.",
+                        "answer": "1) Collective identities"
+                    },
+                    {
+                        "question": "Post-World War I, who became prominent local influencers in Texas according to the lecture?",
+                        "options": [
+                            "1) Local artists",
+                            "2) Returning veterans",
+                            "3) Politicians",
+                            "4) Business owners"
+                        ],
+                        "explanation": "The lecture indicates that many returning veterans became community leaders and influencers by utilizing their experiences and stories to unite people in Texas.",
+                        "answer": "2) Returning veterans"
+                    },
+                    {
+                        "question": "What was one of the effects of cultural integration in Texas after World War I?",
+                        "options": [
+                            "2) Increased economic opportunities",
+                            "3) A unique Texan identity",
+                            "4) Isolation of communities",
+                            "1) Reduced cultural diversity"
+                        ],
+                        "explanation": "The lecture discusses how cultural integration led to the formation of a unique Texan identity, emphasizing the contributions from various ethnic groups.",
+                        "answer": "3) A unique Texan identity"
+                    },
+                    {
+                        "question": "Which cultural event mentioned in the lecture honors Hispanic contributions to Texas?",
+                        "options": [
+                            "2) Texas State Fair",
+                            "1) Rodeo",
+                            "3) Fiesta San Antonio",
+                            "4) Mardi Gras"
+                        ],
+                        "explanation": "Fiesta San Antonio is specifically noted in the lecture as a cultural event that celebrates Hispanic contributions and brings together diverse backgrounds in Texas.",
+                        "answer": "3) Fiesta San Antonio"
+                    },
+                    {
+                        "question": "What aspect of community dynamics was notably influenced by returning veterans in Texas?",
+                        "options": [
+                            "3) Uniting different cultural groups",
+                            "2) Creation of social clubs",
+                            "1) Development of new art forms",
+                            "4) Economic growth"
+                        ],
+                        "explanation": "The lecture points out that returning veterans helped to unite different cultural groups in Texas, facilitating connections and fostering a spirit of collaboration and mutual understanding.",
+                        "answer": "3) Uniting different cultural groups"
+                    },
+                    {
+                        "question": "What did Texas arts begin to reflect after World War I according to the lecture?",
+                        "options": [
+                            "3) Only military themes",
+                            "2) A wide range of individual stories",
+                            "1) A single story format",
+                            "4) Predominantly abstract art"
+                        ],
+                        "explanation": "The lecture indicates that Texas art started reflecting a wider array of experiences, particularly showcasing the lives and struggles of working-class Texans.",
+                        "answer": "2) A wide range of individual stories"
+                    },
+                    {
+                        "question": "How did local influencers during the cultural shift impact community values in Texas?",
+                        "options": [
+                            "4) By limiting expression",
+                            "2) By engaging with community values and development",
+                            "3) By isolating cultural groups",
+                            "1) By promoting individualism"
+                        ],
+                        "explanation": "Local influencers, particularly veterans, engaged with community values by leading discussions and organizing events, helping to guide the development of their towns and cities.",
+                        "answer": "2) By engaging with community values and development"
+                    },
+                    {
+                        "question": "How did literature influence social discussions in Texas during the post-World War I era?",
+                        "options": [
+                            "3) It prompted meaningful discussions",
+                            "2) It avoided socio-political issues",
+                            "1) It only entertained",
+                            "4) It discouraged community engagement"
+                        ],
+                        "explanation": "The lecture emphasizes that literature served as a platform to address pressing social issues, which prompted meaningful discussions within Texas communities.",
+                        "answer": "3) It prompted meaningful discussions"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "Who was a notable Texan author mentioned in the lecture that wrote about the life experiences of Texans after World War I?",
+                        "options": [
+                            "3) Lionel Sosa",
+                            "4) None of the above",
+                            "2) Robert Flynn",
+                            "1) Helen Cordero"
+                        ],
+                        "explanation": "Robert Flynn is highlighted in the lecture as a significant author who captured the experiences of Texans in his work after World War I.",
+                        "answer": "2) Robert Flynn"
+                    },
+                    {
+                        "question": "Which genre of artistic expression began to flourish in Texas after World War I, reflecting diverse experiences?",
+                        "options": [
+                            "3) Literature and visual arts",
+                            "2) Dance",
+                            "4) Film",
+                            "1) Sculpture"
+                        ],
+                        "explanation": "The lecture discusses how the arts, particularly literature and visual arts, began to flourish, reflecting a wide range of experiences and societal stories in Texas after World War I.",
+                        "answer": "3) Literature and visual arts"
+                    },
+                    {
+                        "question": "What type of identities did Texas literature during the post-war period help to form?",
+                        "options": [
+                            "1) Collective identities",
+                            "2) Individual identities",
+                            "3) National identities",
+                            "4) None of the above"
+                        ],
+                        "explanation": "The lecture mentions that literature helped to form influential collective identities that shaped communities, highlighting its role in engaging with social issues.",
+                        "answer": "1) Collective identities"
+                    },
+                    {
+                        "question": "Post-World War I, who became prominent local influencers in Texas according to the lecture?",
+                        "options": [
+                            "1) Local artists",
+                            "2) Returning veterans",
+                            "3) Politicians",
+                            "4) Business owners"
+                        ],
+                        "explanation": "The lecture indicates that many returning veterans became community leaders and influencers by utilizing their experiences and stories to unite people in Texas.",
+                        "answer": "2) Returning veterans"
+                    },
+                    {
+                        "question": "What was one of the effects of cultural integration in Texas after World War I?",
+                        "options": [
+                            "2) Increased economic opportunities",
+                            "3) A unique Texan identity",
+                            "4) Isolation of communities",
+                            "1) Reduced cultural diversity"
+                        ],
+                        "explanation": "The lecture discusses how cultural integration led to the formation of a unique Texan identity, emphasizing the contributions from various ethnic groups.",
+                        "answer": "3) A unique Texan identity"
+                    },
+                    {
+                        "question": "Which cultural event mentioned in the lecture honors Hispanic contributions to Texas?",
+                        "options": [
+                            "2) Texas State Fair",
+                            "1) Rodeo",
+                            "3) Fiesta San Antonio",
+                            "4) Mardi Gras"
+                        ],
+                        "explanation": "Fiesta San Antonio is specifically noted in the lecture as a cultural event that celebrates Hispanic contributions and brings together diverse backgrounds in Texas.",
+                        "answer": "3) Fiesta San Antonio"
+                    },
+                    {
+                        "question": "What aspect of community dynamics was notably influenced by returning veterans in Texas?",
+                        "options": [
+                            "3) Uniting different cultural groups",
+                            "2) Creation of social clubs",
+                            "1) Development of new art forms",
+                            "4) Economic growth"
+                        ],
+                        "explanation": "The lecture points out that returning veterans helped to unite different cultural groups in Texas, facilitating connections and fostering a spirit of collaboration and mutual understanding.",
+                        "answer": "3) Uniting different cultural groups"
+                    },
+                    {
+                        "question": "What did Texas arts begin to reflect after World War I according to the lecture?",
+                        "options": [
+                            "3) Only military themes",
+                            "2) A wide range of individual stories",
+                            "1) A single story format",
+                            "4) Predominantly abstract art"
+                        ],
+                        "explanation": "The lecture indicates that Texas art started reflecting a wider array of experiences, particularly showcasing the lives and struggles of working-class Texans.",
+                        "answer": "2) A wide range of individual stories"
+                    },
+                    {
+                        "question": "How did local influencers during the cultural shift impact community values in Texas?",
+                        "options": [
+                            "4) By limiting expression",
+                            "2) By engaging with community values and development",
+                            "3) By isolating cultural groups",
+                            "1) By promoting individualism"
+                        ],
+                        "explanation": "Local influencers, particularly veterans, engaged with community values by leading discussions and organizing events, helping to guide the development of their towns and cities.",
+                        "answer": "2) By engaging with community values and development"
+                    },
+                    {
+                        "question": "How did literature influence social discussions in Texas during the post-World War I era?",
+                        "options": [
+                            "3) It prompted meaningful discussions",
+                            "2) It avoided socio-political issues",
+                            "1) It only entertained",
+                            "4) It discouraged community engagement"
+                        ],
+                        "explanation": "The lecture emphasizes that literature served as a platform to address pressing social issues, which prompted meaningful discussions within Texas communities.",
+                        "answer": "3) It prompted meaningful discussions"
+                    }
+                ]
+            }
+        ],
+        "The Evolution of Faith": [
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What does ecological justice from a faith perspective emphasize regarding humanity's responsibility to nature?",
+                        "options": [
+                            "2) It is a moral responsibility intertwined with ethical considerations.",
+                            "1) It is solely an ecological concern.",
+                            "4) It only involves individual practices without community engagement.",
+                            "3) It is disconnected from future generations' well-being."
+                        ],
+                        "explanation": "Ecological justice emphasizes a moral responsibility towards creation and respect for the well-being of future generations, highlighting the ethical dimensions of environmental care.",
+                        "answer": "2) It is a moral responsibility intertwined with ethical considerations."
+                    },
+                    {
+                        "question": "How have faith communities begun to incorporate environmental stewardship in their teachings?",
+                        "options": [
+                            "3) By solely focusing on theological doctrines unrelated to ecology.",
+                            "2) By emphasizing care for God's creation and supporting sustainability initiatives.",
+                            "4) By engaging only in political discourse without practical applications.",
+                            "1) By ignoring ecological issues altogether."
+                        ],
+                        "explanation": "Faith communities have integrated environmental stewardship into their teachings by emphasizing the importance of caring for creation and supporting tangible sustainability initiatives.",
+                        "answer": "2) By emphasizing care for God's creation and supporting sustainability initiatives."
+                    },
+                    {
+                        "question": "What type of community efforts do faith-based organizations often engage in to promote ecological justice?",
+                        "options": [
+                            "4) Avoiding any collaboration with local organizations.",
+                            "3) Focusing solely on spiritual gatherings without action.",
+                            "1) Hosting debates on theological differences.",
+                            "2) Organizing clean-up events in parks and neighborhoods."
+                        ],
+                        "explanation": "Many faith organizations collaborate with local environmental groups to organize clean-up events, displaying community solidarity and commitment to environmental care.",
+                        "answer": "2) Organizing clean-up events in parks and neighborhoods."
+                    },
+                    {
+                        "question": "In what way can faith motivate collective action towards environmental advocacy according to the lecture?",
+                        "options": [
+                            "4) By discouraging interfaith dialogue.",
+                            "2) By galvanizing individuals to work collectively for ecological goals.",
+                            "1) By promoting isolationist policies.",
+                            "3) By forbidding political involvement."
+                        ],
+                        "explanation": "Faith can motivate collective action by encouraging individuals and congregations to unite for common ecological goals, thus fostering community efforts for environmental justice.",
+                        "answer": "2) By galvanizing individuals to work collectively for ecological goals."
+                    },
+                    {
+                        "question": "What long-term goals do faith communities generally focus on regarding environmental sustainability?",
+                        "options": [
+                            "2) Nurturing environmental guardianship and supporting systemic changes.",
+                            "4) Concentrating solely on theological education.",
+                            "1) Short-term relief efforts only.",
+                            "3) Ignoring policy advocacy altogether."
+                        ],
+                        "explanation": "Faith communities aim to nurture environmental guardianship, focusing on long-term stewardship while advocating for systemic changes that support sustainability.",
+                        "answer": "2) Nurturing environmental guardianship and supporting systemic changes."
+                    },
+                    {
+                        "question": "How do faith traditions view their responsibility towards vulnerable populations affected by environmental issues?",
+                        "options": [
+                            "4) There is no mention of vulnerable populations.",
+                            "3) They should focus only on rich communities' needs.",
+                            "1) They neglect these populations entirely.",
+                            "2) They are responsible for protecting those disproportionately affected by environmental degradation."
+                        ],
+                        "explanation": "Many faith traditions teach that they have a responsibility to protect vulnerable populations impacted by environmental degradation and climate change, highlighting a commitment to equity.",
+                        "answer": "2) They are responsible for protecting those disproportionately affected by environmental degradation."
+                    },
+                    {
+                        "question": "What benefit does interreligious dialogue on environmental ethics provide to communities according to the lecture?",
+                        "options": [
+                            "2) It allows communities to pool resources and tackle ecological challenges collaboratively.",
+                            "1) It creates divides among different faith groups.",
+                            "3) It focuses only on theological disputes.",
+                            "4) It discourages outreach to local populations."
+                        ],
+                        "explanation": "Interreligious dialogue on environmental ethics allows communities to combine resources and collaborative efforts, helping to address ecological challenges more effectively.",
+                        "answer": "2) It allows communities to pool resources and tackle ecological challenges collaboratively."
+                    },
+                    {
+                        "question": "What is a significant way that faith motivates individual behavior change toward environmental responsibility?",
+                        "options": [
+                            "3) By disregarding sustainable practices.",
+                            "2) By inspiring practices such as reducing waste and conserving resources.",
+                            "4) By focusing exclusively on personal spirituality without action.",
+                            "1) By promoting unnecessary consumerism."
+                        ],
+                        "explanation": "Faith motivates individuals to adopt sustainable practices such as reducing waste and conserving resources, thereby connecting their beliefs to responsible environmental stewardship.",
+                        "answer": "2) By inspiring practices such as reducing waste and conserving resources."
+                    },
+                    {
+                        "question": "How do local faith initiatives typically demonstrate community solidarity?",
+                        "options": [
+                            "1) Through competitive environmental strategies.",
+                            "2) By organizing events like park clean-ups and sustainability programs.",
+                            "3) By avoiding direct action on environmental issues.",
+                            "4) By creating exclusive circles that do not involve the community."
+                        ],
+                        "explanation": "Local faith initiatives often demonstrate community solidarity by organizing events such as clean-ups and sustainability programs, reinforcing their commitment to creation care.",
+                        "answer": "2) By organizing events like park clean-ups and sustainability programs."
+                    },
+                    {
+                        "question": "What narrative does the lecture present about the intersection of faith and ecological ethics?",
+                        "options": [
+                            "1) Faith and ecology are completely unrelated.",
+                            "3) Only scientific arguments should address ecological issues.",
+                            "4) Environmental ethics should not involve community efforts.",
+                            "2) Faith traditions can motivate collective and individual environmental stewardship actions."
+                        ],
+                        "explanation": "The lecture presents that faith traditions can significantly motivate both collective and individual actions towards environmental stewardship, emphasizing a holistic approach linking belief and action.",
+                        "answer": "2) Faith traditions can motivate collective and individual environmental stewardship actions."
+                    }
+                ]
+            }
+        ]
+    },
+    "Friday": {}
+}

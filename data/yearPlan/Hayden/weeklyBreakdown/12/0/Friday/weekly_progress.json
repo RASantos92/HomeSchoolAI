@@ -1,0 +1,2062 @@
+{
+    "Monday": {},
+    "Tuesday": {},
+    "Wednesday": {},
+    "Thursday": {},
+    "Friday": {
+        "Algebra": [
+            {
+                "quiz_grade": 40.0,
+                "wrong_answers": [
+                    0,
+                    2,
+                    3,
+                    4,
+                    6,
+                    8
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is the radical expression for the cube root of 27?",
+                        "options": [
+                            "3) \\( \\sqrt[3]{27} = 2 \\)",
+                            "2) \\( \\sqrt[3]{27} = 9 \\)",
+                            "1) \\( \\sqrt[3]{27} = 3 \\)",
+                            "4) \\( \\sqrt[3]{27} = 0 \\)"
+                        ],
+                        "explanation": "The cube root of 27 is 3 because \\(3^3 = 27\\). Therefore, the correct expression is \\( \\sqrt[3]{27} = 3 \\).",
+                        "answer": "1) \\( \\sqrt[3]{27} = 3 \\)"
+                    },
+                    {
+                        "question": "Which of the following is true regarding the index of a radical?",
+                        "options": [
+                            "3) An index of 2 indicates a square root",
+                            "2) An index of 3 indicates a square root",
+                            "4) An index of 4 is irrelevant",
+                            "1) An index of 2 indicates a cube root"
+                        ],
+                        "explanation": "An index of 2 indicates a square root. The index signifies which root you are taking of the number.",
+                        "answer": "3) An index of 2 indicates a square root"
+                    },
+                    {
+                        "question": "What is the simplified form of \\( \\sqrt{45} \\)?",
+                        "options": [
+                            "1) \\( 3\\sqrt{5} \\)",
+                            "4) \\( 5\\sqrt{9} \\)",
+                            "3) \\( \\sqrt{45} \\)",
+                            "2) \\( \\sqrt{9 \\cdot 5} \\)"
+                        ],
+                        "explanation": "To simplify \\( \\sqrt{45} \\), we can factor it into \\( \\sqrt{9 \\cdot 5} \\) and since \\( \\sqrt{9} = 3 \\), we have \\( \\sqrt{45} = 3\\sqrt{5} \\).",
+                        "answer": "1) \\( 3\\sqrt{5} \\)"
+                    },
+                    {
+                        "question": "In what field are radicals commonly utilized when dealing with standard deviation?",
+                        "options": [
+                            "4) History",
+                            "1) Algebra",
+                            "2) Geometry",
+                            "3) Statistics"
+                        ],
+                        "explanation": "Radicals commonly appear in statistics when calculating standard deviation, especially involving the square root of variance.",
+                        "answer": "3) Statistics"
+                    },
+                    {
+                        "question": "What is the domain of the function \\( f(x) = \\sqrt{x+2} \\)?",
+                        "options": [
+                            "4) x >= -2",
+                            "1) All real numbers",
+                            "2) All x-values less than -2",
+                            "3) All non-negative real numbers"
+                        ],
+                        "explanation": "To have real square roots, the expression inside the radical must be non-negative. Therefore, \\( x+2 \\geq 0 \\) gives us \\( x \\geq -2 \\). Thus, the domain is \\( [-2, \\infty) \\).",
+                        "answer": "4) x >= -2"
+                    },
+                    {
+                        "question": "Which of the following statements about a radical function is true?",
+                        "options": [
+                            "1) The range can include negative numbers",
+                            "4) Radical functions are always increasing",
+                            "2) The domain includes all real numbers",
+                            "3) Square root functions do not include negative x-values"
+                        ],
+                        "explanation": "For square root functions, the domain consists of non-negative real numbers, meaning negative x-values are not included.",
+                        "answer": "3) Square root functions do not include negative x-values"
+                    },
+                    {
+                        "question": "Which radical function represents the calculation of the hypotenuse in a right triangle?",
+                        "options": [
+                            "1) \\( c = \\sqrt{a + b} \\)",
+                            "4) \\( c = \\sqrt[3]{a^2 + b^2} \\)",
+                            "2) \\( c = \\sqrt{a^2 + b^2} \\)",
+                            "3) \\( c = a^2 + b^2 \\)"
+                        ],
+                        "explanation": "The correct formula for calculating the hypotenuse \\( c \\) when the lengths of the other two sides are known is \\( c = \\sqrt{a^2 + b^2} \\).",
+                        "answer": "2) \\( c = \\sqrt{a^2 + b^2} \\)"
+                    },
+                    {
+                        "question": "How is the area of a circle related to radicals?",
+                        "options": [
+                            "3) Radicals can only be used in polygons",
+                            "1) \\( A = \\pi r^2 \\) can be inverted to determine radius",
+                            "2) Radicals play no role in circle area",
+                            "4) The area formula always results in irrational numbers"
+                        ],
+                        "explanation": "The area of a circle is \\( A = \\pi r^2 \\). To find the radius when the area is known, we take the square root, leading to \\( r = \\sqrt{\\frac{A}{\\pi}} \\).",
+                        "answer": "1) \\( A = \\pi r^2 \\) can be inverted to determine radius"
+                    },
+                    {
+                        "question": "When simplifying the radical \\( \\sqrt{32} \\), what is the final result?",
+                        "options": [
+                            "1) \\( 4\\sqrt{2} \\)",
+                            "2) \\( 8\\sqrt{4} \\)",
+                            "3) \\( 2\\sqrt{8} \\)",
+                            "4) \\( 16 \\)"
+                        ],
+                        "explanation": "To simplify \\( \\sqrt{32} \\), we factor it as \\( \\sqrt{16 \\cdot 2} \\), and since \\( \\sqrt{16} = 4 \\), it simplifies to \\( 4\\sqrt{2} \\).",
+                        "answer": "1) \\( 4\\sqrt{2} \\)"
+                    },
+                    {
+                        "question": "What is the general form of the nth root of a number \\( a \\)?",
+                        "options": [
+                            "2) \\( a^{n} \\)",
+                            "4) \\( a\\sqrt{n} \\)",
+                            "1) \\( \\sqrt{n}{a} \\)",
+                            "3) \\( \\sqrt[n]{a} \\)"
+                        ],
+                        "explanation": "The nth root of a number \\( a \\) is represented as \\( \\sqrt[n]{a} \\).",
+                        "answer": "3) \\( \\sqrt[n]{a} \\)"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 30.0,
+                "wrong_answers": [
+                    0,
+                    2,
+                    3,
+                    4,
+                    6,
+                    8,
+                    9
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is the radical expression for the cube root of 27?",
+                        "options": [
+                            "3) \\( \\sqrt[3]{27} = 2 \\)",
+                            "2) \\( \\sqrt[3]{27} = 9 \\)",
+                            "1) \\( \\sqrt[3]{27} = 3 \\)",
+                            "4) \\( \\sqrt[3]{27} = 0 \\)"
+                        ],
+                        "explanation": "The cube root of 27 is 3 because \\(3^3 = 27\\). Therefore, the correct expression is \\( \\sqrt[3]{27} = 3 \\).",
+                        "answer": "1) \\( \\sqrt[3]{27} = 3 \\)"
+                    },
+                    {
+                        "question": "Which of the following is true regarding the index of a radical?",
+                        "options": [
+                            "3) An index of 2 indicates a square root",
+                            "2) An index of 3 indicates a square root",
+                            "4) An index of 4 is irrelevant",
+                            "1) An index of 2 indicates a cube root"
+                        ],
+                        "explanation": "An index of 2 indicates a square root. The index signifies which root you are taking of the number.",
+                        "answer": "3) An index of 2 indicates a square root"
+                    },
+                    {
+                        "question": "What is the simplified form of \\( \\sqrt{45} \\)?",
+                        "options": [
+                            "1) \\( 3\\sqrt{5} \\)",
+                            "4) \\( 5\\sqrt{9} \\)",
+                            "3) \\( \\sqrt{45} \\)",
+                            "2) \\( \\sqrt{9 \\cdot 5} \\)"
+                        ],
+                        "explanation": "To simplify \\( \\sqrt{45} \\), we can factor it into \\( \\sqrt{9 \\cdot 5} \\) and since \\( \\sqrt{9} = 3 \\), we have \\( \\sqrt{45} = 3\\sqrt{5} \\).",
+                        "answer": "1) \\( 3\\sqrt{5} \\)"
+                    },
+                    {
+                        "question": "In what field are radicals commonly utilized when dealing with standard deviation?",
+                        "options": [
+                            "4) History",
+                            "1) Algebra",
+                            "2) Geometry",
+                            "3) Statistics"
+                        ],
+                        "explanation": "Radicals commonly appear in statistics when calculating standard deviation, especially involving the square root of variance.",
+                        "answer": "3) Statistics"
+                    },
+                    {
+                        "question": "What is the domain of the function \\( f(x) = \\sqrt{x+2} \\)?",
+                        "options": [
+                            "4) x >= -2",
+                            "1) All real numbers",
+                            "2) All x-values less than -2",
+                            "3) All non-negative real numbers"
+                        ],
+                        "explanation": "To have real square roots, the expression inside the radical must be non-negative. Therefore, \\( x+2 \\geq 0 \\) gives us \\( x \\geq -2 \\). Thus, the domain is \\( [-2, \\infty) \\).",
+                        "answer": "4) x >= -2"
+                    },
+                    {
+                        "question": "Which of the following statements about a radical function is true?",
+                        "options": [
+                            "1) The range can include negative numbers",
+                            "4) Radical functions are always increasing",
+                            "2) The domain includes all real numbers",
+                            "3) Square root functions do not include negative x-values"
+                        ],
+                        "explanation": "For square root functions, the domain consists of non-negative real numbers, meaning negative x-values are not included.",
+                        "answer": "3) Square root functions do not include negative x-values"
+                    },
+                    {
+                        "question": "Which radical function represents the calculation of the hypotenuse in a right triangle?",
+                        "options": [
+                            "1) \\( c = \\sqrt{a + b} \\)",
+                            "4) \\( c = \\sqrt[3]{a^2 + b^2} \\)",
+                            "2) \\( c = \\sqrt{a^2 + b^2} \\)",
+                            "3) \\( c = a^2 + b^2 \\)"
+                        ],
+                        "explanation": "The correct formula for calculating the hypotenuse \\( c \\) when the lengths of the other two sides are known is \\( c = \\sqrt{a^2 + b^2} \\).",
+                        "answer": "2) \\( c = \\sqrt{a^2 + b^2} \\)"
+                    },
+                    {
+                        "question": "How is the area of a circle related to radicals?",
+                        "options": [
+                            "3) Radicals can only be used in polygons",
+                            "1) \\( A = \\pi r^2 \\) can be inverted to determine radius",
+                            "2) Radicals play no role in circle area",
+                            "4) The area formula always results in irrational numbers"
+                        ],
+                        "explanation": "The area of a circle is \\( A = \\pi r^2 \\). To find the radius when the area is known, we take the square root, leading to \\( r = \\sqrt{\\frac{A}{\\pi}} \\).",
+                        "answer": "1) \\( A = \\pi r^2 \\) can be inverted to determine radius"
+                    },
+                    {
+                        "question": "When simplifying the radical \\( \\sqrt{32} \\), what is the final result?",
+                        "options": [
+                            "1) \\( 4\\sqrt{2} \\)",
+                            "2) \\( 8\\sqrt{4} \\)",
+                            "3) \\( 2\\sqrt{8} \\)",
+                            "4) \\( 16 \\)"
+                        ],
+                        "explanation": "To simplify \\( \\sqrt{32} \\), we factor it as \\( \\sqrt{16 \\cdot 2} \\), and since \\( \\sqrt{16} = 4 \\), it simplifies to \\( 4\\sqrt{2} \\).",
+                        "answer": "1) \\( 4\\sqrt{2} \\)"
+                    },
+                    {
+                        "question": "What is the general form of the nth root of a number \\( a \\)?",
+                        "options": [
+                            "2) \\( a^{n} \\)",
+                            "4) \\( a\\sqrt{n} \\)",
+                            "1) \\( \\sqrt{n}{a} \\)",
+                            "3) \\( \\sqrt[n]{a} \\)"
+                        ],
+                        "explanation": "The nth root of a number \\( a \\) is represented as \\( \\sqrt[n]{a} \\).",
+                        "answer": "3) \\( \\sqrt[n]{a} \\)"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 30.0,
+                "wrong_answers": [
+                    0,
+                    2,
+                    3,
+                    4,
+                    6,
+                    8,
+                    9
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What is the radical expression for the cube root of 27?",
+                        "options": [
+                            "3) \\( \\sqrt[3]{27} = 2 \\)",
+                            "2) \\( \\sqrt[3]{27} = 9 \\)",
+                            "1) \\( \\sqrt[3]{27} = 3 \\)",
+                            "4) \\( \\sqrt[3]{27} = 0 \\)"
+                        ],
+                        "explanation": "The cube root of 27 is 3 because \\(3^3 = 27\\). Therefore, the correct expression is \\( \\sqrt[3]{27} = 3 \\).",
+                        "answer": "1) \\( \\sqrt[3]{27} = 3 \\)"
+                    },
+                    {
+                        "question": "Which of the following is true regarding the index of a radical?",
+                        "options": [
+                            "3) An index of 2 indicates a square root",
+                            "2) An index of 3 indicates a square root",
+                            "4) An index of 4 is irrelevant",
+                            "1) An index of 2 indicates a cube root"
+                        ],
+                        "explanation": "An index of 2 indicates a square root. The index signifies which root you are taking of the number.",
+                        "answer": "3) An index of 2 indicates a square root"
+                    },
+                    {
+                        "question": "What is the simplified form of \\( \\sqrt{45} \\)?",
+                        "options": [
+                            "1) \\( 3\\sqrt{5} \\)",
+                            "4) \\( 5\\sqrt{9} \\)",
+                            "3) \\( \\sqrt{45} \\)",
+                            "2) \\( \\sqrt{9 \\cdot 5} \\)"
+                        ],
+                        "explanation": "To simplify \\( \\sqrt{45} \\), we can factor it into \\( \\sqrt{9 \\cdot 5} \\) and since \\( \\sqrt{9} = 3 \\), we have \\( \\sqrt{45} = 3\\sqrt{5} \\).",
+                        "answer": "1) \\( 3\\sqrt{5} \\)"
+                    },
+                    {
+                        "question": "In what field are radicals commonly utilized when dealing with standard deviation?",
+                        "options": [
+                            "4) History",
+                            "1) Algebra",
+                            "2) Geometry",
+                            "3) Statistics"
+                        ],
+                        "explanation": "Radicals commonly appear in statistics when calculating standard deviation, especially involving the square root of variance.",
+                        "answer": "3) Statistics"
+                    },
+                    {
+                        "question": "What is the domain of the function \\( f(x) = \\sqrt{x+2} \\)?",
+                        "options": [
+                            "4) x >= -2",
+                            "1) All real numbers",
+                            "2) All x-values less than -2",
+                            "3) All non-negative real numbers"
+                        ],
+                        "explanation": "To have real square roots, the expression inside the radical must be non-negative. Therefore, \\( x+2 \\geq 0 \\) gives us \\( x \\geq -2 \\). Thus, the domain is \\( [-2, \\infty) \\).",
+                        "answer": "4) x >= -2"
+                    },
+                    {
+                        "question": "Which of the following statements about a radical function is true?",
+                        "options": [
+                            "1) The range can include negative numbers",
+                            "4) Radical functions are always increasing",
+                            "2) The domain includes all real numbers",
+                            "3) Square root functions do not include negative x-values"
+                        ],
+                        "explanation": "For square root functions, the domain consists of non-negative real numbers, meaning negative x-values are not included.",
+                        "answer": "3) Square root functions do not include negative x-values"
+                    },
+                    {
+                        "question": "Which radical function represents the calculation of the hypotenuse in a right triangle?",
+                        "options": [
+                            "1) \\( c = \\sqrt{a + b} \\)",
+                            "4) \\( c = \\sqrt[3]{a^2 + b^2} \\)",
+                            "2) \\( c = \\sqrt{a^2 + b^2} \\)",
+                            "3) \\( c = a^2 + b^2 \\)"
+                        ],
+                        "explanation": "The correct formula for calculating the hypotenuse \\( c \\) when the lengths of the other two sides are known is \\( c = \\sqrt{a^2 + b^2} \\).",
+                        "answer": "2) \\( c = \\sqrt{a^2 + b^2} \\)"
+                    },
+                    {
+                        "question": "How is the area of a circle related to radicals?",
+                        "options": [
+                            "3) Radicals can only be used in polygons",
+                            "1) \\( A = \\pi r^2 \\) can be inverted to determine radius",
+                            "2) Radicals play no role in circle area",
+                            "4) The area formula always results in irrational numbers"
+                        ],
+                        "explanation": "The area of a circle is \\( A = \\pi r^2 \\). To find the radius when the area is known, we take the square root, leading to \\( r = \\sqrt{\\frac{A}{\\pi}} \\).",
+                        "answer": "1) \\( A = \\pi r^2 \\) can be inverted to determine radius"
+                    },
+                    {
+                        "question": "When simplifying the radical \\( \\sqrt{32} \\), what is the final result?",
+                        "options": [
+                            "1) \\( 4\\sqrt{2} \\)",
+                            "2) \\( 8\\sqrt{4} \\)",
+                            "3) \\( 2\\sqrt{8} \\)",
+                            "4) \\( 16 \\)"
+                        ],
+                        "explanation": "To simplify \\( \\sqrt{32} \\), we factor it as \\( \\sqrt{16 \\cdot 2} \\), and since \\( \\sqrt{16} = 4 \\), it simplifies to \\( 4\\sqrt{2} \\).",
+                        "answer": "1) \\( 4\\sqrt{2} \\)"
+                    },
+                    {
+                        "question": "What is the general form of the nth root of a number \\( a \\)?",
+                        "options": [
+                            "2) \\( a^{n} \\)",
+                            "4) \\( a\\sqrt{n} \\)",
+                            "1) \\( \\sqrt{n}{a} \\)",
+                            "3) \\( \\sqrt[n]{a} \\)"
+                        ],
+                        "explanation": "The nth root of a number \\( a \\) is represented as \\( \\sqrt[n]{a} \\).",
+                        "answer": "3) \\( \\sqrt[n]{a} \\)"
+                    }
+                ]
+            }
+        ],
+        "Astronomy": [
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    4,
+                    8
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What percentage of the Sun's composition is made up of helium?",
+                        "options": [
+                            "4) 75%",
+                            "1) 10%",
+                            "3) 50%",
+                            "2) 24%"
+                        ],
+                        "explanation": "The Sun's composition is primarily 74% hydrogen and around 24% helium, with trace amounts of other elements.",
+                        "answer": "2) 24%"
+                    },
+                    {
+                        "question": "What significant process contributes to the energy production in the core of the Sun?",
+                        "options": [
+                            "3) Nuclear fusion",
+                            "2) Radioactive decay",
+                            "1) Nuclear fission",
+                            "4) Chemical reactions"
+                        ],
+                        "explanation": "The core of the Sun is where nuclear fusion occurs, converting hydrogen into helium and releasing energy.",
+                        "answer": "3) Nuclear fusion"
+                    },
+                    {
+                        "question": "In which layer of the Sun do convection currents occur?",
+                        "options": [
+                            "3) Convective zone",
+                            "1) Core",
+                            "2) Radiative zone",
+                            "4) Photosphere"
+                        ],
+                        "explanation": "The convective zone enables heat transfer through convection currents, where hot plasma rises and cools down before sinking back.",
+                        "answer": "3) Convective zone"
+                    },
+                    {
+                        "question": "What phenomena are displayed on the surface of the photosphere?",
+                        "options": [
+                            "4) Coronal mass ejections",
+                            "3) Spicules",
+                            "1) Solar flares",
+                            "2) Granules and sunspots"
+                        ],
+                        "explanation": "The photosphere exhibits features such as granules and sunspots which are visible on the Sun's surface.",
+                        "answer": "2) Granules and sunspots"
+                    },
+                    {
+                        "question": "During a total solar eclipse, which layer of the Sun is visible?",
+                        "options": [
+                            "3) Chromosphere",
+                            "2) Photosphere",
+                            "1) Core",
+                            "4) Corona"
+                        ],
+                        "explanation": "The chromosphere is usually visible during a solar eclipse and appears red due to its emissions.",
+                        "answer": "3) Chromosphere"
+                    },
+                    {
+                        "question": "What is the approximate temperature of the core of the Sun?",
+                        "options": [
+                            "2) 15 million degrees Celsius",
+                            "4) 25,000 degrees Celsius",
+                            "1) 5,500 degrees Celsius",
+                            "3) 1 million degrees Celsius"
+                        ],
+                        "explanation": "The core of the Sun reaches temperatures around 15 million degrees Celsius, crucial for nuclear fusion.",
+                        "answer": "2) 15 million degrees Celsius"
+                    },
+                    {
+                        "question": "What is the role of solar radiation for plants on Earth?",
+                        "options": [
+                            "4) Creating wind patterns",
+                            "1) Heating the environment",
+                            "2) Driving ocean currents",
+                            "3) Being utilized for photosynthesis"
+                        ],
+                        "explanation": "Solar radiation provides the energy necessary for photosynthesis in plants, forming the base of food chains on Earth.",
+                        "answer": "3) Being utilized for photosynthesis"
+                    },
+                    {
+                        "question": "What keeps the planets in stable orbits within the solar system?",
+                        "options": [
+                            "2) The Sun's gravitational pull",
+                            "3) The Moon's orbit",
+                            "4) The distance from the Sun",
+                            "1) The Earth's rotation"
+                        ],
+                        "explanation": "The Sun's gravitational pull is essential for maintaining the stable orbits of planets in the solar system.",
+                        "answer": "2) The Sun's gravitational pull"
+                    },
+                    {
+                        "question": "What temperature range does the corona reach?",
+                        "options": [
+                            "2) 1 to 3 million degrees Celsius",
+                            "4) 20 million degrees Celsius",
+                            "3) 50,000 degrees Celsius",
+                            "1) 5,500 - 10,000 degrees Celsius"
+                        ],
+                        "explanation": "The corona can reach temperatures ranging from 1 to 3 million degrees Celsius, which is much hotter than the layers below it.",
+                        "answer": "2) 1 to 3 million degrees Celsius"
+                    },
+                    {
+                        "question": "How do solar storms impact technology on Earth?",
+                        "options": [
+                            "2) They enhance satellite function",
+                            "1) They stabilize communications",
+                            "4) They have no effect",
+                            "3) They can knock out satellites and interfere with communications"
+                        ],
+                        "explanation": "Solar storms can negatively affect satellites and disrupt communication systems on Earth through their interactions with the magnetic field.",
+                        "answer": "3) They can knock out satellites and interfere with communications"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What percentage of the Sun's composition is made up of helium?",
+                        "options": [
+                            "4) 75%",
+                            "1) 10%",
+                            "3) 50%",
+                            "2) 24%"
+                        ],
+                        "explanation": "The Sun's composition is primarily 74% hydrogen and around 24% helium, with trace amounts of other elements.",
+                        "answer": "2) 24%"
+                    },
+                    {
+                        "question": "What significant process contributes to the energy production in the core of the Sun?",
+                        "options": [
+                            "3) Nuclear fusion",
+                            "2) Radioactive decay",
+                            "1) Nuclear fission",
+                            "4) Chemical reactions"
+                        ],
+                        "explanation": "The core of the Sun is where nuclear fusion occurs, converting hydrogen into helium and releasing energy.",
+                        "answer": "3) Nuclear fusion"
+                    },
+                    {
+                        "question": "In which layer of the Sun do convection currents occur?",
+                        "options": [
+                            "3) Convective zone",
+                            "1) Core",
+                            "2) Radiative zone",
+                            "4) Photosphere"
+                        ],
+                        "explanation": "The convective zone enables heat transfer through convection currents, where hot plasma rises and cools down before sinking back.",
+                        "answer": "3) Convective zone"
+                    },
+                    {
+                        "question": "What phenomena are displayed on the surface of the photosphere?",
+                        "options": [
+                            "4) Coronal mass ejections",
+                            "3) Spicules",
+                            "1) Solar flares",
+                            "2) Granules and sunspots"
+                        ],
+                        "explanation": "The photosphere exhibits features such as granules and sunspots which are visible on the Sun's surface.",
+                        "answer": "2) Granules and sunspots"
+                    },
+                    {
+                        "question": "During a total solar eclipse, which layer of the Sun is visible?",
+                        "options": [
+                            "3) Chromosphere",
+                            "2) Photosphere",
+                            "1) Core",
+                            "4) Corona"
+                        ],
+                        "explanation": "The chromosphere is usually visible during a solar eclipse and appears red due to its emissions.",
+                        "answer": "3) Chromosphere"
+                    },
+                    {
+                        "question": "What is the approximate temperature of the core of the Sun?",
+                        "options": [
+                            "2) 15 million degrees Celsius",
+                            "4) 25,000 degrees Celsius",
+                            "1) 5,500 degrees Celsius",
+                            "3) 1 million degrees Celsius"
+                        ],
+                        "explanation": "The core of the Sun reaches temperatures around 15 million degrees Celsius, crucial for nuclear fusion.",
+                        "answer": "2) 15 million degrees Celsius"
+                    },
+                    {
+                        "question": "What is the role of solar radiation for plants on Earth?",
+                        "options": [
+                            "4) Creating wind patterns",
+                            "1) Heating the environment",
+                            "2) Driving ocean currents",
+                            "3) Being utilized for photosynthesis"
+                        ],
+                        "explanation": "Solar radiation provides the energy necessary for photosynthesis in plants, forming the base of food chains on Earth.",
+                        "answer": "3) Being utilized for photosynthesis"
+                    },
+                    {
+                        "question": "What keeps the planets in stable orbits within the solar system?",
+                        "options": [
+                            "2) The Sun's gravitational pull",
+                            "3) The Moon's orbit",
+                            "4) The distance from the Sun",
+                            "1) The Earth's rotation"
+                        ],
+                        "explanation": "The Sun's gravitational pull is essential for maintaining the stable orbits of planets in the solar system.",
+                        "answer": "2) The Sun's gravitational pull"
+                    },
+                    {
+                        "question": "What temperature range does the corona reach?",
+                        "options": [
+                            "2) 1 to 3 million degrees Celsius",
+                            "4) 20 million degrees Celsius",
+                            "3) 50,000 degrees Celsius",
+                            "1) 5,500 - 10,000 degrees Celsius"
+                        ],
+                        "explanation": "The corona can reach temperatures ranging from 1 to 3 million degrees Celsius, which is much hotter than the layers below it.",
+                        "answer": "2) 1 to 3 million degrees Celsius"
+                    },
+                    {
+                        "question": "How do solar storms impact technology on Earth?",
+                        "options": [
+                            "2) They enhance satellite function",
+                            "1) They stabilize communications",
+                            "4) They have no effect",
+                            "3) They can knock out satellites and interfere with communications"
+                        ],
+                        "explanation": "Solar storms can negatively affect satellites and disrupt communication systems on Earth through their interactions with the magnetic field.",
+                        "answer": "3) They can knock out satellites and interfere with communications"
+                    }
+                ]
+            }
+        ],
+        "Computer Science": [
+            {
+                "quiz_grade": 70.0,
+                "wrong_answers": [
+                    0,
+                    2,
+                    4
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What element is suggested to represent your personality in your portfolio website's design?",
+                        "options": [
+                            "2) Fonts",
+                            "1) Colors",
+                            "3) Layouts",
+                            "4) Images"
+                        ],
+                        "explanation": "Colors are often associated with personal representation and can help to convey your unique identity on a website.",
+                        "answer": "1) Colors"
+                    },
+                    {
+                        "question": "What should you regularly update in your portfolio to reflect your growth as a web developer?",
+                        "options": [
+                            "3) Skills and projects",
+                            "1) Personal projects",
+                            "2) Visual design",
+                            "4) Contact information"
+                        ],
+                        "explanation": "Keeping your portfolio updated with your latest skills and projects is crucial to showcase your growth as a developer.",
+                        "answer": "3) Skills and projects"
+                    },
+                    {
+                        "question": "Which programming languages were mentioned for back-end development exploration?",
+                        "options": [
+                            "3) Python, Ruby, and PHP",
+                            "1) HTML and CSS",
+                            "2) JavaScript and Swift",
+                            "4) Java and C#"
+                        ],
+                        "explanation": "Python, Ruby, and PHP were specifically mentioned as valuable skills for server-side programming in the lecture.",
+                        "answer": "3) Python, Ruby, and PHP"
+                    },
+                    {
+                        "question": "What should you do after receiving feedback on your web development projects?",
+                        "options": [
+                            "3) Make adjustments to improve",
+                            "2) Celebrate your success",
+                            "1) Ignore it",
+                            "4) Copy the suggestions"
+                        ],
+                        "explanation": "Making adjustments to your work after receiving feedback is an essential skill for improvement in web development.",
+                        "answer": "3) Make adjustments to improve"
+                    },
+                    {
+                        "question": "Which platforms are recommended for showcasing your work and receiving feedback?",
+                        "options": [
+                            "1) Facebook and Instagram",
+                            "3) GitHub",
+                            "4) Reddit",
+                            "2) TikTok and LinkedIn"
+                        ],
+                        "explanation": "GitHub is an excellent platform for developers to showcase their projects and receive constructive criticism from others.",
+                        "answer": "3) GitHub"
+                    },
+                    {
+                        "question": "What is a significant benefit of setting clear goals in your learning path?",
+                        "options": [
+                            "2) It allows for procrastination",
+                            "1) It keeps you organized",
+                            "4) It guarantees success",
+                            "3) It guides your study habits"
+                        ],
+                        "explanation": "Clear goals provide direction and help to guide your study habits and project work effectively.",
+                        "answer": "3) It guides your study habits"
+                    },
+                    {
+                        "question": "What type of developer is often referred to as a full-stack developer?",
+                        "options": [
+                            "4) A graphic designer",
+                            "1) A front-end developer",
+                            "3) A developer proficient in both front-end and back-end",
+                            "2) A back-end developer"
+                        ],
+                        "explanation": "A full-stack developer has knowledge and skills in both front-end and back-end development, allowing them to create complete web applications.",
+                        "answer": "3) A developer proficient in both front-end and back-end"
+                    },
+                    {
+                        "question": "Why is it important for your portfolio to be considered a 'living document'?",
+                        "options": [
+                            "2) It requires no updates",
+                            "1) It can be printed out",
+                            "4) It is for your personal use only",
+                            "3) It should evolve with your skills"
+                        ],
+                        "explanation": "A portfolio being a 'living document' means it should evolve with your skills and experiences, reflecting your ongoing growth as a developer.",
+                        "answer": "3) It should evolve with your skills"
+                    },
+                    {
+                        "question": "What is a potential resource mentioned for learning web development?",
+                        "options": [
+                            "2) Online courses and coding boot camps",
+                            "4) Movie theaters",
+                            "1) Local library books",
+                            "3) TV shows"
+                        ],
+                        "explanation": "Online courses and coding boot camps are valuable resources for learning web development, as they offer structured learning experiences.",
+                        "answer": "2) Online courses and coding boot camps"
+                    },
+                    {
+                        "question": "What type of community engagement was suggested for networking and collaboration?",
+                        "options": [
+                            "3) Gaming communities",
+                            "4) Family and friends",
+                            "1) Social media influencers",
+                            "2) Web development forums and Discord channels"
+                        ],
+                        "explanation": "Joining web development forums or Discord channels was suggested as a way to network with fellow developers and enhance your learning experience.",
+                        "answer": "2) Web development forums and Discord channels"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    0,
+                    4
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What element is suggested to represent your personality in your portfolio website's design?",
+                        "options": [
+                            "2) Fonts",
+                            "1) Colors",
+                            "3) Layouts",
+                            "4) Images"
+                        ],
+                        "explanation": "Colors are often associated with personal representation and can help to convey your unique identity on a website.",
+                        "answer": "1) Colors"
+                    },
+                    {
+                        "question": "What should you regularly update in your portfolio to reflect your growth as a web developer?",
+                        "options": [
+                            "3) Skills and projects",
+                            "1) Personal projects",
+                            "2) Visual design",
+                            "4) Contact information"
+                        ],
+                        "explanation": "Keeping your portfolio updated with your latest skills and projects is crucial to showcase your growth as a developer.",
+                        "answer": "3) Skills and projects"
+                    },
+                    {
+                        "question": "Which programming languages were mentioned for back-end development exploration?",
+                        "options": [
+                            "3) Python, Ruby, and PHP",
+                            "1) HTML and CSS",
+                            "2) JavaScript and Swift",
+                            "4) Java and C#"
+                        ],
+                        "explanation": "Python, Ruby, and PHP were specifically mentioned as valuable skills for server-side programming in the lecture.",
+                        "answer": "3) Python, Ruby, and PHP"
+                    },
+                    {
+                        "question": "What should you do after receiving feedback on your web development projects?",
+                        "options": [
+                            "3) Make adjustments to improve",
+                            "2) Celebrate your success",
+                            "1) Ignore it",
+                            "4) Copy the suggestions"
+                        ],
+                        "explanation": "Making adjustments to your work after receiving feedback is an essential skill for improvement in web development.",
+                        "answer": "3) Make adjustments to improve"
+                    },
+                    {
+                        "question": "Which platforms are recommended for showcasing your work and receiving feedback?",
+                        "options": [
+                            "1) Facebook and Instagram",
+                            "3) GitHub",
+                            "4) Reddit",
+                            "2) TikTok and LinkedIn"
+                        ],
+                        "explanation": "GitHub is an excellent platform for developers to showcase their projects and receive constructive criticism from others.",
+                        "answer": "3) GitHub"
+                    },
+                    {
+                        "question": "What is a significant benefit of setting clear goals in your learning path?",
+                        "options": [
+                            "2) It allows for procrastination",
+                            "1) It keeps you organized",
+                            "4) It guarantees success",
+                            "3) It guides your study habits"
+                        ],
+                        "explanation": "Clear goals provide direction and help to guide your study habits and project work effectively.",
+                        "answer": "3) It guides your study habits"
+                    },
+                    {
+                        "question": "What type of developer is often referred to as a full-stack developer?",
+                        "options": [
+                            "4) A graphic designer",
+                            "1) A front-end developer",
+                            "3) A developer proficient in both front-end and back-end",
+                            "2) A back-end developer"
+                        ],
+                        "explanation": "A full-stack developer has knowledge and skills in both front-end and back-end development, allowing them to create complete web applications.",
+                        "answer": "3) A developer proficient in both front-end and back-end"
+                    },
+                    {
+                        "question": "Why is it important for your portfolio to be considered a 'living document'?",
+                        "options": [
+                            "2) It requires no updates",
+                            "1) It can be printed out",
+                            "4) It is for your personal use only",
+                            "3) It should evolve with your skills"
+                        ],
+                        "explanation": "A portfolio being a 'living document' means it should evolve with your skills and experiences, reflecting your ongoing growth as a developer.",
+                        "answer": "3) It should evolve with your skills"
+                    },
+                    {
+                        "question": "What is a potential resource mentioned for learning web development?",
+                        "options": [
+                            "2) Online courses and coding boot camps",
+                            "4) Movie theaters",
+                            "1) Local library books",
+                            "3) TV shows"
+                        ],
+                        "explanation": "Online courses and coding boot camps are valuable resources for learning web development, as they offer structured learning experiences.",
+                        "answer": "2) Online courses and coding boot camps"
+                    },
+                    {
+                        "question": "What type of community engagement was suggested for networking and collaboration?",
+                        "options": [
+                            "3) Gaming communities",
+                            "4) Family and friends",
+                            "1) Social media influencers",
+                            "2) Web development forums and Discord channels"
+                        ],
+                        "explanation": "Joining web development forums or Discord channels was suggested as a way to network with fellow developers and enhance your learning experience.",
+                        "answer": "2) Web development forums and Discord channels"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What element is suggested to represent your personality in your portfolio website's design?",
+                        "options": [
+                            "2) Fonts",
+                            "1) Colors",
+                            "3) Layouts",
+                            "4) Images"
+                        ],
+                        "explanation": "Colors are often associated with personal representation and can help to convey your unique identity on a website.",
+                        "answer": "1) Colors"
+                    },
+                    {
+                        "question": "What should you regularly update in your portfolio to reflect your growth as a web developer?",
+                        "options": [
+                            "3) Skills and projects",
+                            "1) Personal projects",
+                            "2) Visual design",
+                            "4) Contact information"
+                        ],
+                        "explanation": "Keeping your portfolio updated with your latest skills and projects is crucial to showcase your growth as a developer.",
+                        "answer": "3) Skills and projects"
+                    },
+                    {
+                        "question": "Which programming languages were mentioned for back-end development exploration?",
+                        "options": [
+                            "3) Python, Ruby, and PHP",
+                            "1) HTML and CSS",
+                            "2) JavaScript and Swift",
+                            "4) Java and C#"
+                        ],
+                        "explanation": "Python, Ruby, and PHP were specifically mentioned as valuable skills for server-side programming in the lecture.",
+                        "answer": "3) Python, Ruby, and PHP"
+                    },
+                    {
+                        "question": "What should you do after receiving feedback on your web development projects?",
+                        "options": [
+                            "3) Make adjustments to improve",
+                            "2) Celebrate your success",
+                            "1) Ignore it",
+                            "4) Copy the suggestions"
+                        ],
+                        "explanation": "Making adjustments to your work after receiving feedback is an essential skill for improvement in web development.",
+                        "answer": "3) Make adjustments to improve"
+                    },
+                    {
+                        "question": "Which platforms are recommended for showcasing your work and receiving feedback?",
+                        "options": [
+                            "1) Facebook and Instagram",
+                            "3) GitHub",
+                            "4) Reddit",
+                            "2) TikTok and LinkedIn"
+                        ],
+                        "explanation": "GitHub is an excellent platform for developers to showcase their projects and receive constructive criticism from others.",
+                        "answer": "3) GitHub"
+                    },
+                    {
+                        "question": "What is a significant benefit of setting clear goals in your learning path?",
+                        "options": [
+                            "2) It allows for procrastination",
+                            "1) It keeps you organized",
+                            "4) It guarantees success",
+                            "3) It guides your study habits"
+                        ],
+                        "explanation": "Clear goals provide direction and help to guide your study habits and project work effectively.",
+                        "answer": "3) It guides your study habits"
+                    },
+                    {
+                        "question": "What type of developer is often referred to as a full-stack developer?",
+                        "options": [
+                            "4) A graphic designer",
+                            "1) A front-end developer",
+                            "3) A developer proficient in both front-end and back-end",
+                            "2) A back-end developer"
+                        ],
+                        "explanation": "A full-stack developer has knowledge and skills in both front-end and back-end development, allowing them to create complete web applications.",
+                        "answer": "3) A developer proficient in both front-end and back-end"
+                    },
+                    {
+                        "question": "Why is it important for your portfolio to be considered a 'living document'?",
+                        "options": [
+                            "2) It requires no updates",
+                            "1) It can be printed out",
+                            "4) It is for your personal use only",
+                            "3) It should evolve with your skills"
+                        ],
+                        "explanation": "A portfolio being a 'living document' means it should evolve with your skills and experiences, reflecting your ongoing growth as a developer.",
+                        "answer": "3) It should evolve with your skills"
+                    },
+                    {
+                        "question": "What is a potential resource mentioned for learning web development?",
+                        "options": [
+                            "2) Online courses and coding boot camps",
+                            "4) Movie theaters",
+                            "1) Local library books",
+                            "3) TV shows"
+                        ],
+                        "explanation": "Online courses and coding boot camps are valuable resources for learning web development, as they offer structured learning experiences.",
+                        "answer": "2) Online courses and coding boot camps"
+                    },
+                    {
+                        "question": "What type of community engagement was suggested for networking and collaboration?",
+                        "options": [
+                            "3) Gaming communities",
+                            "4) Family and friends",
+                            "1) Social media influencers",
+                            "2) Web development forums and Discord channels"
+                        ],
+                        "explanation": "Joining web development forums or Discord channels was suggested as a way to network with fellow developers and enhance your learning experience.",
+                        "answer": "2) Web development forums and Discord channels"
+                    }
+                ]
+            }
+        ],
+        "English": [
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    0
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is the first step after receiving feedback on your story?",
+                        "options": [
+                            "2) Taking notes on the key points",
+                            "1) Implementing all feedback immediately",
+                            "3) Sharing it with more peers for additional feedback",
+                            "4) Ignoring the comments and moving on"
+                        ],
+                        "explanation": "Taking notes on the key points helps you remember the feedback and focuses your revisions.",
+                        "answer": "2) Taking notes on the key points"
+                    },
+                    {
+                        "question": "What should you consider when rethinking your story structure during revisions?",
+                        "options": [
+                            "2) Reader's perspective",
+                            "4) The number of characters",
+                            "1) Length of the story",
+                            "3) Your original draft's ideas"
+                        ],
+                        "explanation": "Reading your story from a reader\u2019s perspective helps identify confusing areas and improves overall engagement.",
+                        "answer": "2) Reader's perspective"
+                    },
+                    {
+                        "question": "What should you focus on when developing characters during revisions?",
+                        "options": [
+                            "4) Avoiding dialogue entirely",
+                            "1) Their backstories only",
+                            "3) Depth and believability",
+                            "2) Creating as many characters as possible"
+                        ],
+                        "explanation": "Developing depth and believability makes your characters more relatable and engaging for readers.",
+                        "answer": "3) Depth and believability"
+                    },
+                    {
+                        "question": "Which of the following statements best describes the nature of revisions?",
+                        "options": [
+                            "4) It is unnecessary if the draft is good enough",
+                            "1) It is solely about correcting grammar",
+                            "3) It should only happen once",
+                            "2) It is a process for rethinking story elements"
+                        ],
+                        "explanation": "Revisions are about rethinking and improving various elements of your story, not just grammar corrections.",
+                        "answer": "2) It is a process for rethinking story elements"
+                    },
+                    {
+                        "question": "When should you read your story aloud during the revision process?",
+                        "options": [
+                            "1) Only after publishing",
+                            "3) To identify awkward phrasing and rhythm",
+                            "4) When sharing with peers",
+                            "2) After writing the first draft"
+                        ],
+                        "explanation": "Reading your story aloud helps detect awkward phrasing and gives you an understanding of its flow and rhythm.",
+                        "answer": "3) To identify awkward phrasing and rhythm"
+                    },
+                    {
+                        "question": "Which option represents an advantage of traditional publishing?",
+                        "options": [
+                            "3) Higher percentage of profits",
+                            "4) Easier process for self-promotion",
+                            "2) Assistance in editing, marketing, and distribution",
+                            "1) Full control over the manuscript"
+                        ],
+                        "explanation": "Traditional publishing provides authors with editorial and marketing support, enhancing the reach and credibility of their work.",
+                        "answer": "2) Assistance in editing, marketing, and distribution"
+                    },
+                    {
+                        "question": "What is a key consideration when assessing publishing options?",
+                        "options": [
+                            "1) The length of time it takes to write",
+                            "3) Researching various platforms and methods",
+                            "2) The structure of your story",
+                            "4) Ignoring your audience's preferences"
+                        ],
+                        "explanation": "Researching your publishing options is crucial for making informed decisions about how to share your work effectively.",
+                        "answer": "3) Researching various platforms and methods"
+                    },
+                    {
+                        "question": "What can help build a web presence as an author?",
+                        "options": [
+                            "3) Focusing solely on writing",
+                            "1) Avoid engaging with readers online",
+                            "4) Ignoring social media",
+                            "2) Starting a blog and connecting with other writers"
+                        ],
+                        "explanation": "Building a web presence through blogs and social media can increase your visibility and opportunities as a writer.",
+                        "answer": "2) Starting a blog and connecting with other writers"
+                    },
+                    {
+                        "question": "During the process of final revisions, what aspect of dialogue should be emphasized?",
+                        "options": [
+                            "3) It should avoid any complexity",
+                            "1) It must be lengthy",
+                            "2) It should sound natural and fit the character",
+                            "4) It should be consistent across all characters"
+                        ],
+                        "explanation": "Dialogue must be natural and true to each character to enhance the overall authenticity and engagement of the story.",
+                        "answer": "2) It should sound natural and fit the character"
+                    },
+                    {
+                        "question": "What should be the perspective of the writer when receiving feedback on their story?",
+                        "options": [
+                            "1) Defensive and dismissive",
+                            "3) Trying to argue their points",
+                            "4) Ignoring the feedback altogether",
+                            "2) That of a reader seeking clarity and improvement"
+                        ],
+                        "explanation": "Approaching feedback from a reader's perspective promotes growth and helps identify potential weaknesses or confusions in the story.",
+                        "answer": "2) That of a reader seeking clarity and improvement"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is the first step after receiving feedback on your story?",
+                        "options": [
+                            "2) Taking notes on the key points",
+                            "1) Implementing all feedback immediately",
+                            "3) Sharing it with more peers for additional feedback",
+                            "4) Ignoring the comments and moving on"
+                        ],
+                        "explanation": "Taking notes on the key points helps you remember the feedback and focuses your revisions.",
+                        "answer": "2) Taking notes on the key points"
+                    },
+                    {
+                        "question": "What should you consider when rethinking your story structure during revisions?",
+                        "options": [
+                            "2) Reader's perspective",
+                            "4) The number of characters",
+                            "1) Length of the story",
+                            "3) Your original draft's ideas"
+                        ],
+                        "explanation": "Reading your story from a reader\u2019s perspective helps identify confusing areas and improves overall engagement.",
+                        "answer": "2) Reader's perspective"
+                    },
+                    {
+                        "question": "What should you focus on when developing characters during revisions?",
+                        "options": [
+                            "4) Avoiding dialogue entirely",
+                            "1) Their backstories only",
+                            "3) Depth and believability",
+                            "2) Creating as many characters as possible"
+                        ],
+                        "explanation": "Developing depth and believability makes your characters more relatable and engaging for readers.",
+                        "answer": "3) Depth and believability"
+                    },
+                    {
+                        "question": "Which of the following statements best describes the nature of revisions?",
+                        "options": [
+                            "4) It is unnecessary if the draft is good enough",
+                            "1) It is solely about correcting grammar",
+                            "3) It should only happen once",
+                            "2) It is a process for rethinking story elements"
+                        ],
+                        "explanation": "Revisions are about rethinking and improving various elements of your story, not just grammar corrections.",
+                        "answer": "2) It is a process for rethinking story elements"
+                    },
+                    {
+                        "question": "When should you read your story aloud during the revision process?",
+                        "options": [
+                            "1) Only after publishing",
+                            "3) To identify awkward phrasing and rhythm",
+                            "4) When sharing with peers",
+                            "2) After writing the first draft"
+                        ],
+                        "explanation": "Reading your story aloud helps detect awkward phrasing and gives you an understanding of its flow and rhythm.",
+                        "answer": "3) To identify awkward phrasing and rhythm"
+                    },
+                    {
+                        "question": "Which option represents an advantage of traditional publishing?",
+                        "options": [
+                            "3) Higher percentage of profits",
+                            "4) Easier process for self-promotion",
+                            "2) Assistance in editing, marketing, and distribution",
+                            "1) Full control over the manuscript"
+                        ],
+                        "explanation": "Traditional publishing provides authors with editorial and marketing support, enhancing the reach and credibility of their work.",
+                        "answer": "2) Assistance in editing, marketing, and distribution"
+                    },
+                    {
+                        "question": "What is a key consideration when assessing publishing options?",
+                        "options": [
+                            "1) The length of time it takes to write",
+                            "3) Researching various platforms and methods",
+                            "2) The structure of your story",
+                            "4) Ignoring your audience's preferences"
+                        ],
+                        "explanation": "Researching your publishing options is crucial for making informed decisions about how to share your work effectively.",
+                        "answer": "3) Researching various platforms and methods"
+                    },
+                    {
+                        "question": "What can help build a web presence as an author?",
+                        "options": [
+                            "3) Focusing solely on writing",
+                            "1) Avoid engaging with readers online",
+                            "4) Ignoring social media",
+                            "2) Starting a blog and connecting with other writers"
+                        ],
+                        "explanation": "Building a web presence through blogs and social media can increase your visibility and opportunities as a writer.",
+                        "answer": "2) Starting a blog and connecting with other writers"
+                    },
+                    {
+                        "question": "During the process of final revisions, what aspect of dialogue should be emphasized?",
+                        "options": [
+                            "3) It should avoid any complexity",
+                            "1) It must be lengthy",
+                            "2) It should sound natural and fit the character",
+                            "4) It should be consistent across all characters"
+                        ],
+                        "explanation": "Dialogue must be natural and true to each character to enhance the overall authenticity and engagement of the story.",
+                        "answer": "2) It should sound natural and fit the character"
+                    },
+                    {
+                        "question": "What should be the perspective of the writer when receiving feedback on their story?",
+                        "options": [
+                            "1) Defensive and dismissive",
+                            "3) Trying to argue their points",
+                            "4) Ignoring the feedback altogether",
+                            "2) That of a reader seeking clarity and improvement"
+                        ],
+                        "explanation": "Approaching feedback from a reader's perspective promotes growth and helps identify potential weaknesses or confusions in the story.",
+                        "answer": "2) That of a reader seeking clarity and improvement"
+                    }
+                ]
+            }
+        ],
+        "Science": [
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    2
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What is the main role of DNA in living organisms?",
+                        "options": [
+                            "2) It carries genetic instructions for development and functioning.",
+                            "1) It provides structural support to cells.",
+                            "4) It serves as a source of energy for cells.",
+                            "3) It helps in the absorption of nutrients in the body."
+                        ],
+                        "explanation": "DNA carries the genetic instructions necessary for the growth, development, and reproduction of all living organisms. It is often described as the blueprint for life.",
+                        "answer": "2) It carries genetic instructions for development and functioning."
+                    },
+                    {
+                        "question": "Which bases are paired together in the structure of DNA?",
+                        "options": [
+                            "2) Adenine pairs with thymine, and cytosine pairs with guanine.",
+                            "3) Thymine pairs with cytosine, and guanine pairs with adenine.",
+                            "1) Adenine pairs with guanine, and cytosine pairs with thymine.",
+                            "4) Guanine pairs with thymine, and adenine pairs with cytosine."
+                        ],
+                        "explanation": "In the double helix structure of DNA, adenine pairs with thymine, and cytosine pairs with guanine according to base pairing rules.",
+                        "answer": "2) Adenine pairs with thymine, and cytosine pairs with guanine."
+                    },
+                    {
+                        "question": "How does personalized medicine utilize genetic information?",
+                        "options": [
+                            "3) It aims to standardize genetic testing procedures across all healthcare systems.",
+                            "2) It involves tailoring treatments based on an individual's genetic profile.",
+                            "4) It eliminates the need for genetic testing in medical cases.",
+                            "1) It focuses on broad treatments suitable for all patients."
+                        ],
+                        "explanation": "Personalized medicine uses genetic information to tailor treatments to an individual's unique genetic makeup, potentially increasing treatment effectiveness.",
+                        "answer": "2) It involves tailoring treatments based on an individual's genetic profile."
+                    },
+                    {
+                        "question": "What is the main advantage of CRISPR technology in genetics?",
+                        "options": [
+                            "1) It allows for the analysis of genetic data without modification.",
+                            "3) It is a method for storing genetic data securely.",
+                            "2) It provides a high degree of precision in altering DNA sequences.",
+                            "4) It solely focuses on improving agricultural practices."
+                        ],
+                        "explanation": "CRISPR technology is advantageous because it allows scientists to edit genomes with high precision and efficiency, enabling alterations in DNA sequences and gene functions.",
+                        "answer": "2) It provides a high degree of precision in altering DNA sequences."
+                    },
+                    {
+                        "question": "What ethical concerns are associated with CRISPR technology?",
+                        "options": [
+                            "2) Only concerns related to agricultural uses exist.",
+                            "1) There are no ethical concerns regarding CRISPR technology.",
+                            "3) Issues arise regarding human germline editing and its implications.",
+                            "4) It only raises concerns about data privacy."
+                        ],
+                        "explanation": "The ethical considerations surrounding CRISPR technology include concerns about human germline editing, which can significantly affect future generations.",
+                        "answer": "3) Issues arise regarding human germline editing and its implications."
+                    },
+                    {
+                        "question": "What does personal genetics provide insights into?",
+                        "options": [
+                            "4) The economic impact of genetic research.",
+                            "3) The causes of environmental changes.",
+                            "2) An individual\u2019s ancestry and potential health issues.",
+                            "1) Genetic construction of physical landscapes."
+                        ],
+                        "explanation": "Personal genetics can reveal insights about an individual's ancestry, potential health risks, and various traits based on their genetic information.",
+                        "answer": "2) An individual\u2019s ancestry and potential health issues."
+                    },
+                    {
+                        "question": "What has been a common application of genetic testing as mentioned in this lecture?",
+                        "options": [
+                            "1) Predictive assessment of mental health.",
+                            "2) Identifying predispositions to certain health conditions.",
+                            "3) Enhancing athletic performance.",
+                            "4) Treating viral infections."
+                        ],
+                        "explanation": "Genetic testing is commonly applied to identify predispositions to health conditions such as breast cancer and cystic fibrosis, guiding preventive measures and treatment.",
+                        "answer": "2) Identifying predispositions to certain health conditions."
+                    },
+                    {
+                        "question": "How does understanding genetics influence healthcare, according to the lecture?",
+                        "options": [
+                            "1) It reduces the costs of healthcare services.",
+                            "3) It completely eliminates the need for medical professionals.",
+                            "4) It creates a one-size-fits-all approach to treatment.",
+                            "2) It empowers individuals to take preventive measures and choose treatment paths based on their genetic information."
+                        ],
+                        "explanation": "Understanding genetics in healthcare empowers individuals to make informed choices regarding preventive measures and treatment paths based on their genetic predispositions.",
+                        "answer": "2) It empowers individuals to take preventive measures and choose treatment paths based on their genetic information."
+                    },
+                    {
+                        "question": "What issue arises from personal genetics and consumer genetic testing?",
+                        "options": [
+                            "4) The high cost of genetic testing.",
+                            "3) Questions regarding privacy and use of genetic information.",
+                            "1) The accuracy of the genetic data.",
+                            "2) Lack of interest from consumers."
+                        ],
+                        "explanation": "The rise of personal genetics and consumer genetic testing brings about important questions regarding privacy, particularly how companies may store or share genetic data.",
+                        "answer": "3) Questions regarding privacy and use of genetic information."
+                    },
+                    {
+                        "question": "What potential benefit does CRISPR gene editing offer in treating genetic diseases?",
+                        "options": [
+                            "2) It allows researchers to potentially correct mutations that cause genetic diseases.",
+                            "1) It can guarantee a cure for all diseases.",
+                            "4) It primarily serves to enhance beauty traits in individuals.",
+                            "3) It completely prevents all genetic disorders from occurring."
+                        ],
+                        "explanation": "CRISPR gene editing provides the potential benefit of correcting specific mutations that lead to genetic diseases, paving the way for new treatments.",
+                        "answer": "2) It allows researchers to potentially correct mutations that cause genetic diseases."
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What is the main role of DNA in living organisms?",
+                        "options": [
+                            "2) It carries genetic instructions for development and functioning.",
+                            "1) It provides structural support to cells.",
+                            "4) It serves as a source of energy for cells.",
+                            "3) It helps in the absorption of nutrients in the body."
+                        ],
+                        "explanation": "DNA carries the genetic instructions necessary for the growth, development, and reproduction of all living organisms. It is often described as the blueprint for life.",
+                        "answer": "2) It carries genetic instructions for development and functioning."
+                    },
+                    {
+                        "question": "Which bases are paired together in the structure of DNA?",
+                        "options": [
+                            "2) Adenine pairs with thymine, and cytosine pairs with guanine.",
+                            "3) Thymine pairs with cytosine, and guanine pairs with adenine.",
+                            "1) Adenine pairs with guanine, and cytosine pairs with thymine.",
+                            "4) Guanine pairs with thymine, and adenine pairs with cytosine."
+                        ],
+                        "explanation": "In the double helix structure of DNA, adenine pairs with thymine, and cytosine pairs with guanine according to base pairing rules.",
+                        "answer": "2) Adenine pairs with thymine, and cytosine pairs with guanine."
+                    },
+                    {
+                        "question": "How does personalized medicine utilize genetic information?",
+                        "options": [
+                            "3) It aims to standardize genetic testing procedures across all healthcare systems.",
+                            "2) It involves tailoring treatments based on an individual's genetic profile.",
+                            "4) It eliminates the need for genetic testing in medical cases.",
+                            "1) It focuses on broad treatments suitable for all patients."
+                        ],
+                        "explanation": "Personalized medicine uses genetic information to tailor treatments to an individual's unique genetic makeup, potentially increasing treatment effectiveness.",
+                        "answer": "2) It involves tailoring treatments based on an individual's genetic profile."
+                    },
+                    {
+                        "question": "What is the main advantage of CRISPR technology in genetics?",
+                        "options": [
+                            "1) It allows for the analysis of genetic data without modification.",
+                            "3) It is a method for storing genetic data securely.",
+                            "2) It provides a high degree of precision in altering DNA sequences.",
+                            "4) It solely focuses on improving agricultural practices."
+                        ],
+                        "explanation": "CRISPR technology is advantageous because it allows scientists to edit genomes with high precision and efficiency, enabling alterations in DNA sequences and gene functions.",
+                        "answer": "2) It provides a high degree of precision in altering DNA sequences."
+                    },
+                    {
+                        "question": "What ethical concerns are associated with CRISPR technology?",
+                        "options": [
+                            "2) Only concerns related to agricultural uses exist.",
+                            "1) There are no ethical concerns regarding CRISPR technology.",
+                            "3) Issues arise regarding human germline editing and its implications.",
+                            "4) It only raises concerns about data privacy."
+                        ],
+                        "explanation": "The ethical considerations surrounding CRISPR technology include concerns about human germline editing, which can significantly affect future generations.",
+                        "answer": "3) Issues arise regarding human germline editing and its implications."
+                    },
+                    {
+                        "question": "What does personal genetics provide insights into?",
+                        "options": [
+                            "4) The economic impact of genetic research.",
+                            "3) The causes of environmental changes.",
+                            "2) An individual\u2019s ancestry and potential health issues.",
+                            "1) Genetic construction of physical landscapes."
+                        ],
+                        "explanation": "Personal genetics can reveal insights about an individual's ancestry, potential health risks, and various traits based on their genetic information.",
+                        "answer": "2) An individual\u2019s ancestry and potential health issues."
+                    },
+                    {
+                        "question": "What has been a common application of genetic testing as mentioned in this lecture?",
+                        "options": [
+                            "1) Predictive assessment of mental health.",
+                            "2) Identifying predispositions to certain health conditions.",
+                            "3) Enhancing athletic performance.",
+                            "4) Treating viral infections."
+                        ],
+                        "explanation": "Genetic testing is commonly applied to identify predispositions to health conditions such as breast cancer and cystic fibrosis, guiding preventive measures and treatment.",
+                        "answer": "2) Identifying predispositions to certain health conditions."
+                    },
+                    {
+                        "question": "How does understanding genetics influence healthcare, according to the lecture?",
+                        "options": [
+                            "1) It reduces the costs of healthcare services.",
+                            "3) It completely eliminates the need for medical professionals.",
+                            "4) It creates a one-size-fits-all approach to treatment.",
+                            "2) It empowers individuals to take preventive measures and choose treatment paths based on their genetic information."
+                        ],
+                        "explanation": "Understanding genetics in healthcare empowers individuals to make informed choices regarding preventive measures and treatment paths based on their genetic predispositions.",
+                        "answer": "2) It empowers individuals to take preventive measures and choose treatment paths based on their genetic information."
+                    },
+                    {
+                        "question": "What issue arises from personal genetics and consumer genetic testing?",
+                        "options": [
+                            "4) The high cost of genetic testing.",
+                            "3) Questions regarding privacy and use of genetic information.",
+                            "1) The accuracy of the genetic data.",
+                            "2) Lack of interest from consumers."
+                        ],
+                        "explanation": "The rise of personal genetics and consumer genetic testing brings about important questions regarding privacy, particularly how companies may store or share genetic data.",
+                        "answer": "3) Questions regarding privacy and use of genetic information."
+                    },
+                    {
+                        "question": "What potential benefit does CRISPR gene editing offer in treating genetic diseases?",
+                        "options": [
+                            "2) It allows researchers to potentially correct mutations that cause genetic diseases.",
+                            "1) It can guarantee a cure for all diseases.",
+                            "4) It primarily serves to enhance beauty traits in individuals.",
+                            "3) It completely prevents all genetic disorders from occurring."
+                        ],
+                        "explanation": "CRISPR gene editing provides the potential benefit of correcting specific mutations that lead to genetic diseases, paving the way for new treatments.",
+                        "answer": "2) It allows researchers to potentially correct mutations that cause genetic diseases."
+                    }
+                ]
+            }
+        ],
+        "Texas History": [
+            {
+                "quiz_grade": 60.0,
+                "wrong_answers": [
+                    2,
+                    3,
+                    4,
+                    8
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What year did Texas secede from the Union to join the Confederacy?",
+                        "options": [
+                            "2) 1863",
+                            "1) 1861",
+                            "3) 1859",
+                            "4) 1865"
+                        ],
+                        "explanation": "Texas seceded from the Union in early 1861 as part of the broader secession movement among Southern states.",
+                        "answer": "1) 1861"
+                    },
+                    {
+                        "question": "Which figure opposed Texas's secession during the Civil War?",
+                        "options": [
+                            "1) John H. Morgan",
+                            "4) Jefferson Davis",
+                            "2) Sam Houston",
+                            "3) Ben McCulloch"
+                        ],
+                        "explanation": "Sam Houston was the Governor of Texas and opposed secession, unlike many other leaders at the time.",
+                        "answer": "2) Sam Houston"
+                    },
+                    {
+                        "question": "What system did many Texas farmers adapt to post-Civil War?",
+                        "options": [
+                            "2) Sharecropping",
+                            "1) Agriculture Co-op",
+                            "4) Tenant Farming",
+                            "3) Wage Labor"
+                        ],
+                        "explanation": "After the Civil War, many farmers turned to sharecropping as it became a prevalent arrangement despite its challenges.",
+                        "answer": "2) Sharecropping"
+                    },
+                    {
+                        "question": "Which museum in Texas specifically showcases artifacts from the Civil War?",
+                        "options": [
+                            "4) Houston Historical Museum",
+                            "2) Texas Civil War Museum",
+                            "1) Texas State History Museum",
+                            "3) San Jacinto Museum"
+                        ],
+                        "explanation": "The Texas Civil War Museum in Dallas is dedicated to preserving and showcasing artifacts related to the Civil War.",
+                        "answer": "2) Texas Civil War Museum"
+                    },
+                    {
+                        "question": "What major event significantly impacted Texas\u2019s economy after the Civil War?",
+                        "options": [
+                            "2) Reconstruction",
+                            "4) The Great Depression",
+                            "3) Industrial Revolution",
+                            "1) Agricultural Boom"
+                        ],
+                        "explanation": "The period of Reconstruction after the Civil War was marked by significant economic challenges and changes due to the end of slavery.",
+                        "answer": "2) Reconstruction"
+                    },
+                    {
+                        "question": "What type of cultural references in Texas often relate back to the Civil War?",
+                        "options": [
+                            "3) Theatre",
+                            "4) Sports",
+                            "1) Modern Art",
+                            "2) Literature and Music"
+                        ],
+                        "explanation": "Literature and music in Texas often reflect themes related to the Civil War and its impacts on society and culture.",
+                        "answer": "2) Literature and Music"
+                    },
+                    {
+                        "question": "What narrative continues to affect politics in Texas related to the Civil War?",
+                        "options": [
+                            "3) Education Reforms",
+                            "2) Civil Rights issues",
+                            "1) Economic Policies",
+                            "4) Environmental Concerns"
+                        ],
+                        "explanation": "Debates over civil rights and the role of African Americans in society are heavily influenced by the legacy of the Civil War.",
+                        "answer": "2) Civil Rights issues"
+                    },
+                    {
+                        "question": "What transformation occurred in the work dynamics after the Civil War in Texas?",
+                        "options": [
+                            "3) Shift towards Self-sufficiency",
+                            "1) Increased Migration",
+                            "2) Labor Reforms",
+                            "4) Changes in Labor and Social Structures"
+                        ],
+                        "explanation": "The conclusion of the Civil War brought changes in labor and social structures, especially as former slaves sought a new status in society.",
+                        "answer": "4) Changes in Labor and Social Structures"
+                    },
+                    {
+                        "question": "What is commemorated at the San Jacinto Battleground State Historic Site?",
+                        "options": [
+                            "1) Battle of San Jacinto",
+                            "3) Texas Independence",
+                            "2) Civil War Battles",
+                            "4) Reconstruction Events"
+                        ],
+                        "explanation": "The San Jacinto Battleground State Historic Site commemorates the Battle of San Jacinto, which was crucial for Texas independence from Mexico, not the Civil War directly.",
+                        "answer": "1) Battle of San Jacinto"
+                    },
+                    {
+                        "question": "What does the ongoing discussion about symbols like the Lone Star represent in Texas?",
+                        "options": [
+                            "4) Environmental Issues",
+                            "1) Economic Prosperity",
+                            "3) Cultural Diversity",
+                            "2) Historic Memory and Identity"
+                        ],
+                        "explanation": "The discussion surrounding symbols reflects Texas's struggles with its legacy, including notions of honor and memory related to the Civil War.",
+                        "answer": "2) Historic Memory and Identity"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 70.0,
+                "wrong_answers": [
+                    2,
+                    3,
+                    4
+                ],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What year did Texas secede from the Union to join the Confederacy?",
+                        "options": [
+                            "2) 1863",
+                            "1) 1861",
+                            "3) 1859",
+                            "4) 1865"
+                        ],
+                        "explanation": "Texas seceded from the Union in early 1861 as part of the broader secession movement among Southern states.",
+                        "answer": "1) 1861"
+                    },
+                    {
+                        "question": "Which figure opposed Texas's secession during the Civil War?",
+                        "options": [
+                            "1) John H. Morgan",
+                            "4) Jefferson Davis",
+                            "2) Sam Houston",
+                            "3) Ben McCulloch"
+                        ],
+                        "explanation": "Sam Houston was the Governor of Texas and opposed secession, unlike many other leaders at the time.",
+                        "answer": "2) Sam Houston"
+                    },
+                    {
+                        "question": "What system did many Texas farmers adapt to post-Civil War?",
+                        "options": [
+                            "2) Sharecropping",
+                            "1) Agriculture Co-op",
+                            "4) Tenant Farming",
+                            "3) Wage Labor"
+                        ],
+                        "explanation": "After the Civil War, many farmers turned to sharecropping as it became a prevalent arrangement despite its challenges.",
+                        "answer": "2) Sharecropping"
+                    },
+                    {
+                        "question": "Which museum in Texas specifically showcases artifacts from the Civil War?",
+                        "options": [
+                            "4) Houston Historical Museum",
+                            "2) Texas Civil War Museum",
+                            "1) Texas State History Museum",
+                            "3) San Jacinto Museum"
+                        ],
+                        "explanation": "The Texas Civil War Museum in Dallas is dedicated to preserving and showcasing artifacts related to the Civil War.",
+                        "answer": "2) Texas Civil War Museum"
+                    },
+                    {
+                        "question": "What major event significantly impacted Texas\u2019s economy after the Civil War?",
+                        "options": [
+                            "2) Reconstruction",
+                            "4) The Great Depression",
+                            "3) Industrial Revolution",
+                            "1) Agricultural Boom"
+                        ],
+                        "explanation": "The period of Reconstruction after the Civil War was marked by significant economic challenges and changes due to the end of slavery.",
+                        "answer": "2) Reconstruction"
+                    },
+                    {
+                        "question": "What type of cultural references in Texas often relate back to the Civil War?",
+                        "options": [
+                            "3) Theatre",
+                            "4) Sports",
+                            "1) Modern Art",
+                            "2) Literature and Music"
+                        ],
+                        "explanation": "Literature and music in Texas often reflect themes related to the Civil War and its impacts on society and culture.",
+                        "answer": "2) Literature and Music"
+                    },
+                    {
+                        "question": "What narrative continues to affect politics in Texas related to the Civil War?",
+                        "options": [
+                            "3) Education Reforms",
+                            "2) Civil Rights issues",
+                            "1) Economic Policies",
+                            "4) Environmental Concerns"
+                        ],
+                        "explanation": "Debates over civil rights and the role of African Americans in society are heavily influenced by the legacy of the Civil War.",
+                        "answer": "2) Civil Rights issues"
+                    },
+                    {
+                        "question": "What transformation occurred in the work dynamics after the Civil War in Texas?",
+                        "options": [
+                            "3) Shift towards Self-sufficiency",
+                            "1) Increased Migration",
+                            "2) Labor Reforms",
+                            "4) Changes in Labor and Social Structures"
+                        ],
+                        "explanation": "The conclusion of the Civil War brought changes in labor and social structures, especially as former slaves sought a new status in society.",
+                        "answer": "4) Changes in Labor and Social Structures"
+                    },
+                    {
+                        "question": "What is commemorated at the San Jacinto Battleground State Historic Site?",
+                        "options": [
+                            "1) Battle of San Jacinto",
+                            "3) Texas Independence",
+                            "2) Civil War Battles",
+                            "4) Reconstruction Events"
+                        ],
+                        "explanation": "The San Jacinto Battleground State Historic Site commemorates the Battle of San Jacinto, which was crucial for Texas independence from Mexico, not the Civil War directly.",
+                        "answer": "1) Battle of San Jacinto"
+                    },
+                    {
+                        "question": "What does the ongoing discussion about symbols like the Lone Star represent in Texas?",
+                        "options": [
+                            "4) Environmental Issues",
+                            "1) Economic Prosperity",
+                            "3) Cultural Diversity",
+                            "2) Historic Memory and Identity"
+                        ],
+                        "explanation": "The discussion surrounding symbols reflects Texas's struggles with its legacy, including notions of honor and memory related to the Civil War.",
+                        "answer": "2) Historic Memory and Identity"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 80.0,
+                "wrong_answers": [
+                    2,
+                    3
+                ],
+                "attempt_number": 4,
+                "quiz": [
+                    {
+                        "question": "What year did Texas secede from the Union to join the Confederacy?",
+                        "options": [
+                            "2) 1863",
+                            "1) 1861",
+                            "3) 1859",
+                            "4) 1865"
+                        ],
+                        "explanation": "Texas seceded from the Union in early 1861 as part of the broader secession movement among Southern states.",
+                        "answer": "1) 1861"
+                    },
+                    {
+                        "question": "Which figure opposed Texas's secession during the Civil War?",
+                        "options": [
+                            "1) John H. Morgan",
+                            "4) Jefferson Davis",
+                            "2) Sam Houston",
+                            "3) Ben McCulloch"
+                        ],
+                        "explanation": "Sam Houston was the Governor of Texas and opposed secession, unlike many other leaders at the time.",
+                        "answer": "2) Sam Houston"
+                    },
+                    {
+                        "question": "What system did many Texas farmers adapt to post-Civil War?",
+                        "options": [
+                            "2) Sharecropping",
+                            "1) Agriculture Co-op",
+                            "4) Tenant Farming",
+                            "3) Wage Labor"
+                        ],
+                        "explanation": "After the Civil War, many farmers turned to sharecropping as it became a prevalent arrangement despite its challenges.",
+                        "answer": "2) Sharecropping"
+                    },
+                    {
+                        "question": "Which museum in Texas specifically showcases artifacts from the Civil War?",
+                        "options": [
+                            "4) Houston Historical Museum",
+                            "2) Texas Civil War Museum",
+                            "1) Texas State History Museum",
+                            "3) San Jacinto Museum"
+                        ],
+                        "explanation": "The Texas Civil War Museum in Dallas is dedicated to preserving and showcasing artifacts related to the Civil War.",
+                        "answer": "2) Texas Civil War Museum"
+                    },
+                    {
+                        "question": "What major event significantly impacted Texas\u2019s economy after the Civil War?",
+                        "options": [
+                            "2) Reconstruction",
+                            "4) The Great Depression",
+                            "3) Industrial Revolution",
+                            "1) Agricultural Boom"
+                        ],
+                        "explanation": "The period of Reconstruction after the Civil War was marked by significant economic challenges and changes due to the end of slavery.",
+                        "answer": "2) Reconstruction"
+                    },
+                    {
+                        "question": "What type of cultural references in Texas often relate back to the Civil War?",
+                        "options": [
+                            "3) Theatre",
+                            "4) Sports",
+                            "1) Modern Art",
+                            "2) Literature and Music"
+                        ],
+                        "explanation": "Literature and music in Texas often reflect themes related to the Civil War and its impacts on society and culture.",
+                        "answer": "2) Literature and Music"
+                    },
+                    {
+                        "question": "What narrative continues to affect politics in Texas related to the Civil War?",
+                        "options": [
+                            "3) Education Reforms",
+                            "2) Civil Rights issues",
+                            "1) Economic Policies",
+                            "4) Environmental Concerns"
+                        ],
+                        "explanation": "Debates over civil rights and the role of African Americans in society are heavily influenced by the legacy of the Civil War.",
+                        "answer": "2) Civil Rights issues"
+                    },
+                    {
+                        "question": "What transformation occurred in the work dynamics after the Civil War in Texas?",
+                        "options": [
+                            "3) Shift towards Self-sufficiency",
+                            "1) Increased Migration",
+                            "2) Labor Reforms",
+                            "4) Changes in Labor and Social Structures"
+                        ],
+                        "explanation": "The conclusion of the Civil War brought changes in labor and social structures, especially as former slaves sought a new status in society.",
+                        "answer": "4) Changes in Labor and Social Structures"
+                    },
+                    {
+                        "question": "What is commemorated at the San Jacinto Battleground State Historic Site?",
+                        "options": [
+                            "1) Battle of San Jacinto",
+                            "3) Texas Independence",
+                            "2) Civil War Battles",
+                            "4) Reconstruction Events"
+                        ],
+                        "explanation": "The San Jacinto Battleground State Historic Site commemorates the Battle of San Jacinto, which was crucial for Texas independence from Mexico, not the Civil War directly.",
+                        "answer": "1) Battle of San Jacinto"
+                    },
+                    {
+                        "question": "What does the ongoing discussion about symbols like the Lone Star represent in Texas?",
+                        "options": [
+                            "4) Environmental Issues",
+                            "1) Economic Prosperity",
+                            "3) Cultural Diversity",
+                            "2) Historic Memory and Identity"
+                        ],
+                        "explanation": "The discussion surrounding symbols reflects Texas's struggles with its legacy, including notions of honor and memory related to the Civil War.",
+                        "answer": "2) Historic Memory and Identity"
+                    }
+                ]
+            }
+        ],
+        "The Evolution of Faith": [
+            {
+                "quiz_grade": 90.0,
+                "wrong_answers": [
+                    2
+                ],
+                "attempt_number": 2,
+                "quiz": [
+                    {
+                        "question": "What does religious pluralism recognize according to the lecture?",
+                        "options": [
+                            "3) That one religion is superior to others",
+                            "4) That religions should be practiced privately",
+                            "2) That no single religion has all the answers",
+                            "1) That all religions agree on every point"
+                        ],
+                        "explanation": "Religious pluralism acknowledges that no single religion holds complete truth, allowing for multiple ways to understand the divine.",
+                        "answer": "2) That no single religion has all the answers"
+                    },
+                    {
+                        "question": "How does the lecture suggest we might engage with different religious beliefs?",
+                        "options": [
+                            "1) By ignoring them",
+                            "3) By engaging in meaningful dialogue and learning",
+                            "2) By converting others to your faith",
+                            "4) By promoting conflict"
+                        ],
+                        "explanation": "The lecture emphasizes the importance of dialogue and learning from various faiths as a way to promote understanding and respect.",
+                        "answer": "3) By engaging in meaningful dialogue and learning"
+                    },
+                    {
+                        "question": "What is one opportunity for interfaith collaboration mentioned in the lecture?",
+                        "options": [
+                            "2) Forming interfaith councils",
+                            "1) Focusing solely on intrafaith dialogue",
+                            "4) Isolating faith practices",
+                            "3) Promoting one religion exclusively"
+                        ],
+                        "explanation": "Interfaith councils provide a platform for collaboration on social justice and community service initiatives across diverse faith backgrounds.",
+                        "answer": "2) Forming interfaith councils"
+                    },
+                    {
+                        "question": "According to the lecture, what role can online platforms play in interfaith dialogue?",
+                        "options": [
+                            "1) They can be used to promote hate speech",
+                            "3) They foster communication among diverse faiths",
+                            "4) They are irrelevant to religious discussions",
+                            "2) They isolate individuals from each other"
+                        ],
+                        "explanation": "The lecture highlights the significance of digital platforms in bridging gaps and fostering interfaith dialogue remotely.",
+                        "answer": "3) They foster communication among diverse faiths"
+                    },
+                    {
+                        "question": "What skills are beneficial for facilitating interfaith dialogue as discussed in the lecture?",
+                        "options": [
+                            "4) Strict adherence to one's beliefs",
+                            "1) Aggressive debating",
+                            "2) Empathy and active listening",
+                            "3) Ignoring differing opinions"
+                        ],
+                        "explanation": "Empathy and the ability to listen actively are essential for bridging misunderstandings and facilitating productive interfaith dialogues.",
+                        "answer": "2) Empathy and active listening"
+                    },
+                    {
+                        "question": "How does the lecture define interfaith dialogue?",
+                        "options": [
+                            "1) A competition between religions",
+                            "3) A one-sided conversation",
+                            "4) A focus solely on religious texts",
+                            "2) A collaborative discussion among different religious traditions"
+                        ],
+                        "explanation": "Interfaith dialogue is defined as a collaborative exchange between individuals or groups from various religious backgrounds, promoting understanding and respect.",
+                        "answer": "2) A collaborative discussion among different religious traditions"
+                    },
+                    {
+                        "question": "What does the lecture imply is necessary for meaningful interfaith dialogue?",
+                        "options": [
+                            "4) Ignoring differing perspectives",
+                            "1) Remaining silent in discussions",
+                            "3) Only discussing non-controversial topics",
+                            "2) Engaging with others"
+                        ],
+                        "explanation": "Meaningful dialogue is built on engaging with others, as mentioned in the lecture, which leads to deeper insights and understanding.",
+                        "answer": "2) Engaging with others"
+                    },
+                    {
+                        "question": "What challenge does the lecture suggest individuals might face when engaging in interfaith projects?",
+                        "options": [
+                            "3) Zero participation from the community",
+                            "1) A lack of interest in other religions",
+                            "2) Overcoming prejudice and misunderstanding",
+                            "4) Total agreement on all issues"
+                        ],
+                        "explanation": "The conversation addresses the need to combat prejudice and misunderstandings, which can be significant challenges in interfaith work.",
+                        "answer": "2) Overcoming prejudice and misunderstanding"
+                    },
+                    {
+                        "question": "What potential benefit does participating in interfaith events provide, according to the lecture?",
+                        "options": [
+                            "2) It diminishes understanding of other faiths",
+                            "4) It focuses only on one belief system",
+                            "3) It sparks conversations and builds friendships",
+                            "1) It isolates people from their communities"
+                        ],
+                        "explanation": "Participating in interfaith events fosters conversations and relationships based on shared values, enriching community ties.",
+                        "answer": "3) It sparks conversations and builds friendships"
+                    },
+                    {
+                        "question": "What does the lecture suggest is crucial for personal growth in understanding religious pluralism?",
+                        "options": [
+                            "3) Sticking to only one belief system",
+                            "1) Avoiding those who are different",
+                            "4) Dismissing others' perspectives",
+                            "2) Personal reflection and active participation"
+                        ],
+                        "explanation": "The importance of personal reflection and active involvement is emphasized to enhance understanding of religious pluralism and interfaith dialogue.",
+                        "answer": "2) Personal reflection and active participation"
+                    }
+                ]
+            },
+            {
+                "quiz_grade": 100.0,
+                "wrong_answers": [],
+                "attempt_number": 3,
+                "quiz": [
+                    {
+                        "question": "What does religious pluralism recognize according to the lecture?",
+                        "options": [
+                            "3) That one religion is superior to others",
+                            "4) That religions should be practiced privately",
+                            "2) That no single religion has all the answers",
+                            "1) That all religions agree on every point"
+                        ],
+                        "explanation": "Religious pluralism acknowledges that no single religion holds complete truth, allowing for multiple ways to understand the divine.",
+                        "answer": "2) That no single religion has all the answers"
+                    },
+                    {
+                        "question": "How does the lecture suggest we might engage with different religious beliefs?",
+                        "options": [
+                            "1) By ignoring them",
+                            "3) By engaging in meaningful dialogue and learning",
+                            "2) By converting others to your faith",
+                            "4) By promoting conflict"
+                        ],
+                        "explanation": "The lecture emphasizes the importance of dialogue and learning from various faiths as a way to promote understanding and respect.",
+                        "answer": "3) By engaging in meaningful dialogue and learning"
+                    },
+                    {
+                        "question": "What is one opportunity for interfaith collaboration mentioned in the lecture?",
+                        "options": [
+                            "2) Forming interfaith councils",
+                            "1) Focusing solely on intrafaith dialogue",
+                            "4) Isolating faith practices",
+                            "3) Promoting one religion exclusively"
+                        ],
+                        "explanation": "Interfaith councils provide a platform for collaboration on social justice and community service initiatives across diverse faith backgrounds.",
+                        "answer": "2) Forming interfaith councils"
+                    },
+                    {
+                        "question": "According to the lecture, what role can online platforms play in interfaith dialogue?",
+                        "options": [
+                            "1) They can be used to promote hate speech",
+                            "3) They foster communication among diverse faiths",
+                            "4) They are irrelevant to religious discussions",
+                            "2) They isolate individuals from each other"
+                        ],
+                        "explanation": "The lecture highlights the significance of digital platforms in bridging gaps and fostering interfaith dialogue remotely.",
+                        "answer": "3) They foster communication among diverse faiths"
+                    },
+                    {
+                        "question": "What skills are beneficial for facilitating interfaith dialogue as discussed in the lecture?",
+                        "options": [
+                            "4) Strict adherence to one's beliefs",
+                            "1) Aggressive debating",
+                            "2) Empathy and active listening",
+                            "3) Ignoring differing opinions"
+                        ],
+                        "explanation": "Empathy and the ability to listen actively are essential for bridging misunderstandings and facilitating productive interfaith dialogues.",
+                        "answer": "2) Empathy and active listening"
+                    },
+                    {
+                        "question": "How does the lecture define interfaith dialogue?",
+                        "options": [
+                            "1) A competition between religions",
+                            "3) A one-sided conversation",
+                            "4) A focus solely on religious texts",
+                            "2) A collaborative discussion among different religious traditions"
+                        ],
+                        "explanation": "Interfaith dialogue is defined as a collaborative exchange between individuals or groups from various religious backgrounds, promoting understanding and respect.",
+                        "answer": "2) A collaborative discussion among different religious traditions"
+                    },
+                    {
+                        "question": "What does the lecture imply is necessary for meaningful interfaith dialogue?",
+                        "options": [
+                            "4) Ignoring differing perspectives",
+                            "1) Remaining silent in discussions",
+                            "3) Only discussing non-controversial topics",
+                            "2) Engaging with others"
+                        ],
+                        "explanation": "Meaningful dialogue is built on engaging with others, as mentioned in the lecture, which leads to deeper insights and understanding.",
+                        "answer": "2) Engaging with others"
+                    },
+                    {
+                        "question": "What challenge does the lecture suggest individuals might face when engaging in interfaith projects?",
+                        "options": [
+                            "3) Zero participation from the community",
+                            "1) A lack of interest in other religions",
+                            "2) Overcoming prejudice and misunderstanding",
+                            "4) Total agreement on all issues"
+                        ],
+                        "explanation": "The conversation addresses the need to combat prejudice and misunderstandings, which can be significant challenges in interfaith work.",
+                        "answer": "2) Overcoming prejudice and misunderstanding"
+                    },
+                    {
+                        "question": "What potential benefit does participating in interfaith events provide, according to the lecture?",
+                        "options": [
+                            "2) It diminishes understanding of other faiths",
+                            "4) It focuses only on one belief system",
+                            "3) It sparks conversations and builds friendships",
+                            "1) It isolates people from their communities"
+                        ],
+                        "explanation": "Participating in interfaith events fosters conversations and relationships based on shared values, enriching community ties.",
+                        "answer": "3) It sparks conversations and builds friendships"
+                    },
+                    {
+                        "question": "What does the lecture suggest is crucial for personal growth in understanding religious pluralism?",
+                        "options": [
+                            "3) Sticking to only one belief system",
+                            "1) Avoiding those who are different",
+                            "4) Dismissing others' perspectives",
+                            "2) Personal reflection and active participation"
+                        ],
+                        "explanation": "The importance of personal reflection and active involvement is emphasized to enhance understanding of religious pluralism and interfaith dialogue.",
+                        "answer": "2) Personal reflection and active participation"
+                    }
+                ]
+            }
+        ]
+    }
+}
