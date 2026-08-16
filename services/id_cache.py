@@ -75,6 +75,37 @@ def set_subject_id(student_name, subject_name, subject_id):
     _save(data)
 
 
+def get_student_subjects(student_name: str) -> dict:
+    """Returns {subject_name: subject_id} for subjects cached for this student."""
+    data = _load()
+    prefix = f"{student_name}:"
+    return {
+        key[len(prefix):]: val
+        for key, val in data["subjects"].items()
+        if key.startswith(prefix)
+    }
+
+
+def get_subject_grade(student_name: str, subject_name: str) -> int | None:
+    data = _load()
+    return data.get("subject_grades", {}).get(_subject_key(student_name, subject_name))
+
+
+def set_subject_grade(student_name: str, subject_name: str, grade: int) -> None:
+    data = _load()
+    data.setdefault("subject_grades", {})[_subject_key(student_name, subject_name)] = int(grade)
+    _save(data)
+
+
+def remove_subject(student_name: str, subject_name: str) -> None:
+    """Removes a subject from the local cache for this student (API data unchanged)."""
+    data = _load()
+    _key = _subject_key(student_name, subject_name)
+    data["subjects"].pop(_key, None)
+    data.get("subject_grades", {}).pop(_key, None)
+    _save(data)
+
+
 def get_subject_id(client, student_name, subject_name):
     data = _load()
     key = _subject_key(student_name, subject_name)

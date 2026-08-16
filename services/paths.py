@@ -75,3 +75,7 @@ def dictionary_file() -> Path:
 
 def empower_ids_file() -> Path:
     return Path("data/empower_ids.json")
+
+
+def school_year_config_file() -> Path:
+    return Path("data/school_year_config.json")

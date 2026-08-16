@@ -196,3 +196,25 @@ class EmpowerHSAClient:
 
     def delete_assessment(self, assessment_id):
         return self._request("DELETE", "/api/assessment", params={"assessment_id": assessment_id})
+
+    # ---- bulk generation ----
+    def start_bulk_breakdown(self, student_id: str, weeks: list) -> str:
+        """Starts a server-side background job generating weekly breakdowns for
+        each (month, week) pair. Returns the job_id to poll with get_bulk_status()."""
+        data = self._request(
+            "POST", "/api/bulk/weekly-breakdown",
+            json_body={"student_id": student_id, "weeks": weeks},
+            timeout=30,
+        )
+        return data["job_id"]
+
+    def get_bulk_status(self, job_id: str) -> dict:
+        """Polls a bulk job. Returns {total, completed, errors, done, cancelled}."""
+        return self._request(
+            "GET", "/api/bulk/weekly-breakdown",
+            params={"job_id": job_id},
+            timeout=10,
+        )
+
+    def cancel_bulk_job(self, job_id: str) -> None:
+        self._request("DELETE", "/api/bulk/weekly-breakdown", params={"job_id": job_id}, timeout=10)

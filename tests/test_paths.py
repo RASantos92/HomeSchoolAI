@@ -47,6 +47,10 @@ def test_dictionary_file():
     assert paths.dictionary_file() == Path("data/dictionary.json")
 
 
+def test_school_year_config_file():
+    assert paths.school_year_config_file() == Path("data/school_year_config.json")
+
+
 def test_casing_is_consistent_across_related_builders():
     # Regression guard: weekly_breakdown_dir/file/quiz/daily_subject builders must all
     # share the same on-disk "weeklyBreakdown" root - this is exactly the class of
