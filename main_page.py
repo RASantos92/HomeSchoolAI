@@ -1,6 +1,9 @@
+import datetime
+
 import streamlit as st
 
 from controller.parent import Parent
+from services import school_year as sy
 from ui.session import init_session_state
 from ui.graph_lab import is_graph_popup_requested, render_graph_popup
 from ui.lecture_view import render_lecture
@@ -17,20 +20,39 @@ pc = Parent()
 
 STUDENT_NAME = "Hayden"
 
-selected_month = '03'
-selected_week = '2'
-# The UI's week convention is zero-indexed; the API's week_of_the_month is 1-4.
-week_number = int(selected_week) + 1
+_cfg = sy.load_config()
+_today = datetime.date.today()
+_first_day = datetime.date.fromisoformat(_cfg.get("first_day", "2026-08-17"))
+_last_day = datetime.date.fromisoformat(_cfg.get("last_day", "2027-05-28"))
 
-# Define days of the week
+if _today < _first_day:
+    st.info(f"School hasn't started yet. Classes begin {_first_day.strftime('%B %d, %Y')}.")
+    st.stop()
+elif _today > _last_day:
+    st.info("The school year has ended. See you next year!")
+    st.stop()
+elif not sy.is_school_day(_cfg, _today):
+    _label = sy.vacation_label(_cfg, _today.isoformat())
+    _reason = f" ({_label})" if _label else ""
+    _next = sy.next_school_day(_cfg, _today + datetime.timedelta(days=1))
+    _next_str = f" Next school day: {_next.strftime('%A, %B %d')}." if _next else ""
+    st.info(f"Today is not a school day{_reason}.{_next_str} Enjoy your break!")
+    st.stop()
+
+_smart = sy.get_smart_day(_cfg)
+school_month, school_week, today_day = _smart if _smart else (1, 1, "Monday")
+
+# Define days of the week — default to today's day
 days_of_week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
-selected_day = st.sidebar.selectbox("Choose a day", days_of_week)
+selected_day = st.sidebar.selectbox("Choose a day", days_of_week, index=days_of_week.index(today_day))
 
 # Idempotent re-fetch of the week's breakdown (no OpenAI call if already generated).
-week_data = pc.createWeeklyBreakdown(STUDENT_NAME, selected_month, week_number)
-day_data = None
-if week_data:
-    day_data = next((d for d in week_data.get("days", []) if d.get("day_name") == selected_day), None)
+week_data = pc.createWeeklyBreakdown(STUDENT_NAME, school_month, school_week)
+if not week_data:
+    st.warning("Today's lessons haven't been generated yet. Ask a parent to generate them in the Parent Portal.")
+    st.stop()
+
+day_data = next((d for d in week_data.get("days", []) if d.get("day_name") == selected_day), None)
 subject_names = [s["subject_name"] for s in day_data.get("subjects", [])] if day_data else []
 
 if not subject_names:
@@ -85,7 +107,7 @@ if subject_names:
     st.sidebar.write("Subjects:")
     for subject_name in subject_names:
         # try_get_lesson never triggers generation - just checks what's already there.
-        lesson = pc.tryGetLesson(STUDENT_NAME, subject_name, selected_month, week_number, selected_day)
+        lesson = pc.tryGetLesson(STUDENT_NAME, subject_name, school_month, school_week, selected_day)
         if lesson and lesson.get('complete'):
             # Green background for completed subjects
             st.sidebar.markdown(
@@ -108,7 +130,7 @@ if subject_names:
 if st.session_state['selected_subject']:
     subject_name = st.session_state['selected_subject']
     # generate_lesson fetches the existing lesson, or generates it if this is the first open.
-    lesson = pc.generateLesson(STUDENT_NAME, subject_name, selected_month, week_number, selected_day)
+    lesson = pc.generateLesson(STUDENT_NAME, subject_name, school_month, school_week, selected_day)
 
     if lesson is not None:
         lesson = render_lecture(subject_name, lesson)
@@ -119,7 +141,7 @@ if st.session_state['selected_subject']:
 
         # If the student has a passing grade for the lecture questions
         if st.session_state.get('quiz_view', False) and not st.session_state.get('final_attempt'):
-            render_quiz(pc, STUDENT_NAME, subject_name, lesson, selected_month, week_number, selected_day)
+            render_quiz(pc, STUDENT_NAME, subject_name, lesson, school_month, school_week, selected_day)
 
         if st.session_state['final_attempt']:
             render_final_attempt(lesson)

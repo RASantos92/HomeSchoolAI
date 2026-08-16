@@ -27,10 +27,6 @@ class Parent:
         return id_cache.get_subject_id(self.client, name, subject)
 
     def createYearlyLessonPlanForSubject(self, name: str, age, grade_level, subject: str):
-        if id_cache.peek_subject_id(name, subject):
-            print(f"You already have created a year plan for {name} with the subject {subject}.")
-            return None
-
         student_id = self._student_id(name)
         result = self.client.generate_yearly_breakdown(
             age=int(age),
