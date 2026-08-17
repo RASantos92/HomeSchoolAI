@@ -6,6 +6,7 @@ truth - content itself only ever lives in the API. Backed by
 data/empower_ids.json; falls back to listing the API and matching by name
 whenever the cache misses.
 """
+import datetime
 import json
 
 from services import paths
@@ -97,6 +98,33 @@ def set_subject_grade(student_name: str, subject_name: str, grade: int) -> None:
     _save(data)
 
 
+def _bulk_key(student_name, school_year):
+    return f"{student_name}:{school_year}"
+
+
+def get_bulk_generation_status(student_name: str, school_year: int) -> dict | None:
+    """Returns the last-recorded bulk-generation run for this (student, school_year),
+    or None if bulk generation has never completed for it. Just a local marker for
+    the Parent Portal UI - not a substitute for checking actual server content."""
+    data = _load()
+    return data.get("bulk_generation", {}).get(_bulk_key(student_name, school_year))
+
+
+def set_bulk_generation_status(
+    student_name: str, school_year: int, completed: int, total: int, errors: int,
+    failed_weeks: list | None = None,
+) -> None:
+    data = _load()
+    data.setdefault("bulk_generation", {})[_bulk_key(student_name, school_year)] = {
+        "completed_at": datetime.datetime.now().isoformat(timespec="seconds"),
+        "completed": completed,
+        "total": total,
+        "errors": errors,
+        "failed_weeks": failed_weeks or [],
+    }
+    _save(data)
+
+
 def remove_subject(student_name: str, subject_name: str) -> None:
     """Removes a subject from the local cache for this student (API data unchanged)."""
     data = _load()
@@ -118,10 +146,42 @@ def get_subject_id(client, student_name, subject_name):
     # (e.g. "Computer Science" -> "Computer science"), so match case-insensitively
     # rather than assuming the API echoes back the exact casing given to it.
     match = next((s for s in subjects if (s.get("name") or "").lower() == subject_name.lower()), None)
+
     if not match:
+        # AI-generated daily/weekly breakdowns sometimes shorten a subject's name
+        # instead of echoing it back verbatim (e.g. "The Evolution of Faith" ->
+        # "Faith", "Social Studies / Economics" -> "Economics"). Fall back to a
+        # substring match against this student's OWN already-known subjects (not
+        # the global list, to avoid matching some other student's unrelated
+        # subject of a similar name) before giving up. Deliberately NOT cached
+        # under this shortened name - that would add a second "subject" entry
+        # pointing at the same id, duplicating rows in the Curriculum tab.
+        needle = subject_name.lower().strip()
+        if not needle:
+            return None
+        for known_name, known_id in get_student_subjects(student_name).items():
+            hay = known_name.lower().strip()
+            if needle in hay or hay in needle:
+                return known_id
         return None
 
     subject_id = match["_id"]
     data["subjects"][key] = subject_id
     _save(data)
     return subject_id
+
+
+def get_canonical_subject_name(client, student_name: str, subject_name: str) -> str:
+    """Maps a possibly-shortened AI-generated subject name (as it appears in a
+    daily/weekly breakdown, e.g. "Faith") back to the real subject name on file
+    (e.g. "The Evolution of Faith"), using the same resolution get_subject_id
+    uses. Falls back to the input unchanged if it can't be resolved to any of
+    this student's known subjects (e.g. a fully hallucinated subject name) -
+    callers should still be able to display *something* in that case."""
+    subject_id = get_subject_id(client, student_name, subject_name)
+    if not subject_id:
+        return subject_name
+    for known_name, known_id in get_student_subjects(student_name).items():
+        if known_id == subject_id:
+            return known_name
+    return subject_name

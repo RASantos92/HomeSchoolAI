@@ -79,3 +79,7 @@ def empower_ids_file() -> Path:
 
 def school_year_config_file() -> Path:
     return Path("data/school_year_config.json")
+
+
+def theme_file() -> Path:
+    return Path("data/theme_preference.json")

@@ -2,9 +2,15 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "streamlit-app",
-      "runtimeExecutable": "myenv/Scripts/streamlit.exe",
-      "runtimeArgs": ["run", "main_page.py", "--server.headless", "true"],
+      "name": "empowerHSA",
+      "runtimeExecutable": "D:\\empowerHSA\\empowerenv\\Scripts\\python.exe",
+      "runtimeArgs": ["D:\\empowerHSA\\manage.py", "runserver", "8000"],
+      "port": 8000
+    },
+    {
+      "name": "streamlit",
+      "runtimeExecutable": "D:\\GenAI\\HomeSchoolingAi\\myenv\\Scripts\\streamlit.exe",
+      "runtimeArgs": ["run", "main_page.py"],
       "port": 8501
     }
   ]

@@ -12,13 +12,17 @@ directly - callers using a 0-indexed week convention (e.g. the Streamlit UI)
 convert at their own boundary, not here. Month numbers accept either a
 zero-padded string ("08") or an int - int(month) handles both.
 """
-from services import id_cache
+from services import id_cache, school_year as sy
 from services.empower_client import EmpowerHSAClient
 
 
 class Parent:
-    def __init__(self):
+    def __init__(self, school_year=None):
         self.client = EmpowerHSAClient()
+        # Resolves once per Parent instance so every generation/lookup call
+        # below is scoped to the same school year, without every caller in
+        # parent_portal.py/main_page.py having to pass it through explicitly.
+        self.school_year = school_year if school_year is not None else sy.load_config().get("school_year_start")
 
     def _student_id(self, name: str):
         return id_cache.get_student_id(self.client, name)
@@ -32,6 +36,7 @@ class Parent:
             age=int(age),
             grade=int(grade_level),
             subject=subject,
+            school_year=self.school_year,
             name=None if student_id else name,
             student_id=student_id,
             subject_id=self._subject_id(name, subject),
@@ -49,7 +54,7 @@ class Parent:
             print(f"No student named {name} found - create a yearly plan for at least one subject first.")
             return None
         result = self.client.generate_yearly_breakdown(
-            age=int(age), grade=int(grade_level), subject=subject_name,
+            age=int(age), grade=int(grade_level), subject=subject_name, school_year=self.school_year,
             student_id=student_id, subject_id=self._subject_id(name, subject_name),
         )
         id_cache.set_subject_id(name, subject_name, result["subject_id"])
@@ -63,12 +68,23 @@ class Parent:
         if not student_id:
             print(f"No student named {name} found - generate a yearly plan first.")
             return None
-        return self.client.generate_weekly_breakdown(student_id, int(month), int(week_number))
+        return self.client.generate_weekly_breakdown(student_id, int(month), int(week_number), self.school_year)
 
     def createWeeklyQuiz(self, name: str, month, week_number, age=None, grade=None):
         """The weekly quiz is generated as part of createWeeklyBreakdown now;
         this just re-fetches the week (idempotent re-POST), which includes it."""
         return self.createWeeklyBreakdown(name, month, week_number)
+
+    def tryGetWeeklyBreakdown(self, name: str, month, week_number):
+        """Like createWeeklyBreakdown, but never triggers generation - returns None
+        if this week hasn't been generated yet. Use for UI status checks."""
+        student_id = self._student_id(name)
+        if not student_id:
+            return None
+        return self.client.try_get_weekly_breakdown(
+            student_id=student_id, month_number=int(month),
+            week_of_the_month=int(week_number), school_year=self.school_year,
+        )
 
     def createDailyBreakDown(self, name: str, month, week_number, day: str):
         """Ensures the week is broken down, then generates every subject's
@@ -90,7 +106,9 @@ class Parent:
             if not subject_id:
                 print(f"No subject_id for '{subject_name}' - skipping")
                 continue
-            lessons.append(self.client.generate_lesson(student_id, subject_id, int(month), int(week_number), day))
+            lessons.append(self.client.generate_lesson(
+                student_id, subject_id, int(month), int(week_number), day, self.school_year
+            ))
         return lessons
 
     def generateLesson(self, name: str, subject: str, month, week_number, day: str):
@@ -102,7 +120,7 @@ class Parent:
         if not student_id or not subject_id:
             print(f"No student/subject id found for {name}/{subject} - generate a yearly plan first.")
             return None
-        return self.client.generate_lesson(student_id, subject_id, int(month), int(week_number), day)
+        return self.client.generate_lesson(student_id, subject_id, int(month), int(week_number), day, self.school_year)
 
     def tryGetLesson(self, name: str, subject: str, month, week_number, day: str):
         """Like generateLesson, but never triggers generation - returns None if
@@ -116,6 +134,7 @@ class Parent:
         return self.client.try_get_lesson(
             student_id=student_id, subject_id=subject_id,
             month_number=int(month), week_of_the_month=int(week_number), day_name=day,
+            school_year=self.school_year,
         )
 
     def markLessonComplete(self, lesson_id: str):
@@ -129,7 +148,7 @@ class Parent:
             return None
         return self.client.record_progress(
             student_id, subject_name, int(month), int(week_number), day,
-            quiz_grade, wrong_answers=wrong_answers, quiz=quiz,
+            quiz_grade, self.school_year, wrong_answers=wrong_answers, quiz=quiz,
         )
 
     def assessmentTest(self, name: str, age, assumed_grade,

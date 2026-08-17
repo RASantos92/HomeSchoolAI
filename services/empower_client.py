@@ -57,7 +57,7 @@ class EmpowerHSAClient:
         return self._request("DELETE", "/api/grade", params={"grade_id": grade_id})
 
     # ---- student ----
-    def create_or_update_student(self, name=None, age=None, student_id=None):
+    def create_or_update_student(self, name=None, age=None, grade=None, student_id=None):
         body = {}
         if student_id:
             body["student_id"] = student_id
@@ -65,10 +65,17 @@ class EmpowerHSAClient:
             body["name"] = name
         if age is not None:
             body["age"] = age
+        if grade is not None:
+            body["grade"] = grade
         return self._request("POST", "/api/student", json_body=body)
 
-    def get_student(self, student_id=None):
-        return self._request("GET", "/api/student", params={"student_id": student_id} if student_id else None)
+    def get_student(self, student_id=None, school_year=None):
+        params = {}
+        if student_id:
+            params["student_id"] = student_id
+        if school_year is not None:
+            params["school_year"] = school_year
+        return self._request("GET", "/api/student", params=params or None)
 
     def delete_student(self, student_id):
         return self._request("DELETE", "/api/student", params={"student_id": student_id})
@@ -86,15 +93,20 @@ class EmpowerHSAClient:
             body["topic_ids"] = topic_ids
         return self._request("POST", "/api/subject", json_body=body)
 
-    def get_subject(self, subject_id=None):
-        return self._request("GET", "/api/subject", params={"subject_id": subject_id} if subject_id else None)
+    def get_subject(self, subject_id=None, school_year=None):
+        params = {}
+        if subject_id:
+            params["subject_id"] = subject_id
+        if school_year is not None:
+            params["school_year"] = school_year
+        return self._request("GET", "/api/subject", params=params or None)
 
     def delete_subject(self, subject_id):
         return self._request("DELETE", "/api/subject", params={"subject_id": subject_id})
 
     # ---- generation pipeline ----
-    def generate_yearly_breakdown(self, age, grade, subject, name=None, student_id=None, subject_id=None):
-        body = {"age": age, "grade": grade, "subject": subject}
+    def generate_yearly_breakdown(self, age, grade, subject, school_year, name=None, student_id=None, subject_id=None):
+        body = {"age": age, "grade": grade, "subject": subject, "school_year": school_year}
         if student_id:
             body["student_id"] = student_id
         if name:
@@ -103,25 +115,56 @@ class EmpowerHSAClient:
             body["subject_id"] = subject_id
         return self._request("POST", "/api/yearly/breakdown/subject", json_body=body, timeout=300)
 
-    def generate_weekly_breakdown(self, student_id, month_number, week_of_the_month):
+    def generate_weekly_breakdown(self, student_id, month_number, week_of_the_month, school_year):
         # Three sequential generation stages server-side (plan, days, then a
         # 20-question-per-subject quiz across every subject in the week) - can
         # comfortably run past the default timeout for a 6-7 subject week.
-        body = {"student_id": student_id, "month_number": month_number, "week_of_the_month": week_of_the_month}
+        body = {
+            "student_id": student_id, "month_number": month_number,
+            "week_of_the_month": week_of_the_month, "school_year": school_year,
+        }
         return self._request("POST", "/api/weekly/breakdown", json_body=body, timeout=600)
 
-    def generate_lesson(self, student_id, subject_id, month_number, week_of_the_month, day_name):
+    def get_weekly_breakdown(self, student_id, month_number, week_of_the_month, school_year):
+        params = {
+            "student_id": student_id, "month_number": month_number,
+            "week_of_the_month": week_of_the_month, "school_year": school_year,
+        }
+        return self._request("GET", "/api/weekly/breakdown", params=params)
+
+    def try_get_weekly_breakdown(self, **kwargs):
+        """Like get_weekly_breakdown, but returns None instead of raising on a 404
+        (not generated yet) - never triggers generation, unlike generate_weekly_breakdown."""
+        try:
+            return self.get_weekly_breakdown(**kwargs)
+        except EmpowerHSAError as e:
+            if e.status == 404:
+                return None
+            raise
+
+    def delete_weekly_breakdown(self, student_id, month_number, week_of_the_month, school_year):
+        """Destructive - wipes one week's plan/day-breakdown/quiz so it can be
+        regenerated fresh (e.g. to backfill a subject added afterward). Does not
+        delete any Lesson documents - those survive independently."""
+        params = {
+            "student_id": student_id, "month_number": month_number,
+            "week_of_the_month": week_of_the_month, "school_year": school_year,
+        }
+        return self._request("DELETE", "/api/weekly/breakdown", params=params)
+
+    def generate_lesson(self, student_id, subject_id, month_number, week_of_the_month, day_name, school_year):
         body = {
             "student_id": student_id,
             "subject_id": subject_id,
             "month_number": month_number,
             "week_of_the_month": week_of_the_month,
             "day_name": day_name,
+            "school_year": school_year,
         }
         return self._request("POST", "/api/lesson", json_body=body, timeout=240)
 
     def get_lesson(self, lesson_id=None, student_id=None, subject_id=None,
-                    month_number=None, week_of_the_month=None, day_name=None):
+                    month_number=None, week_of_the_month=None, day_name=None, school_year=None):
         if lesson_id:
             params = {"lesson_id": lesson_id}
         else:
@@ -131,6 +174,7 @@ class EmpowerHSAClient:
                 "month_number": month_number,
                 "week_of_the_month": week_of_the_month,
                 "day_name": day_name,
+                "school_year": school_year,
             }
         return self._request("GET", "/api/lesson", params=params)
 
@@ -151,7 +195,7 @@ class EmpowerHSAClient:
 
     # ---- progress ----
     def record_progress(self, student_id, subject_name, month_number, week_of_the_month, day_name,
-                         quiz_grade, wrong_answers=None, quiz=None):
+                         quiz_grade, school_year, wrong_answers=None, quiz=None):
         body = {
             "student_id": student_id,
             "subject_name": subject_name,
@@ -159,18 +203,29 @@ class EmpowerHSAClient:
             "week_of_the_month": week_of_the_month,
             "day_name": day_name,
             "quiz_grade": quiz_grade,
+            "school_year": school_year,
             "wrong_answers": wrong_answers or [],
             "quiz": quiz or [],
         }
         return self._request("POST", "/api/progress", json_body=body)
 
-    def get_progress(self, student_id, subject_name, month_number, week_of_the_month, day_name):
+    def get_progress(self, student_id, subject_name, month_number, week_of_the_month, day_name, school_year):
         params = {
             "student_id": student_id,
             "subject_name": subject_name,
             "month_number": month_number,
             "week_of_the_month": week_of_the_month,
             "day_name": day_name,
+            "school_year": school_year,
+        }
+        return self._request("GET", "/api/progress", params=params)
+
+    def get_progress_month(self, student_id, month_number, school_year):
+        """Every quiz attempt for a student across all subjects/weeks/days in one school month."""
+        params = {
+            "student_id": student_id,
+            "month_number": month_number,
+            "school_year": school_year,
         }
         return self._request("GET", "/api/progress", params=params)
 
@@ -198,12 +253,12 @@ class EmpowerHSAClient:
         return self._request("DELETE", "/api/assessment", params={"assessment_id": assessment_id})
 
     # ---- bulk generation ----
-    def start_bulk_breakdown(self, student_id: str, weeks: list) -> str:
+    def start_bulk_breakdown(self, student_id: str, weeks: list, school_year: int) -> str:
         """Starts a server-side background job generating weekly breakdowns for
         each (month, week) pair. Returns the job_id to poll with get_bulk_status()."""
         data = self._request(
             "POST", "/api/bulk/weekly-breakdown",
-            json_body={"student_id": student_id, "weeks": weeks},
+            json_body={"student_id": student_id, "weeks": weeks, "school_year": school_year},
             timeout=30,
         )
         return data["job_id"]

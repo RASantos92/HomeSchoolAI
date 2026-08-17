@@ -2,6 +2,9 @@
 curriculum generation, assessments, and data in empowerHSA."""
 
 import datetime
+import re
+from collections import defaultdict
+from statistics import mean
 
 import streamlit as st
 from streamlit_calendar import calendar as st_calendar
@@ -43,6 +46,97 @@ _client = EmpowerHSAClient()
 _pc = Parent()
 
 
+def _all_students():
+    try:
+        return _client.get_student() or []
+    except EmpowerHSAError as e:
+        st.error(f"Could not load students: {e}")
+        return []
+
+
+def _all_subjects():
+    try:
+        return _client.get_subject() or []
+    except EmpowerHSAError as e:
+        st.error(f"Could not load subjects: {e}")
+        return []
+
+
+def _all_grades():
+    try:
+        return _client.get_grade() or []
+    except EmpowerHSAError as e:
+        st.error(f"Could not load grades: {e}")
+        return []
+
+
+def _resolve_student_grade_number(client, student_obj):
+    """Student.grade is a Link[Grade] server-side, so the list/detail response
+    carries a grade reference (or None), not the grade number directly -
+    resolve it to the int the edit form should show."""
+    g = student_obj.get("grade")
+    if g is None:
+        return None
+    if isinstance(g, int):
+        return g
+    if isinstance(g, dict):
+        grade_id = g.get("id") or g.get("_id")
+        if grade_id:
+            try:
+                grade_doc = client.get_grade(grade_id=grade_id)
+                if grade_doc:
+                    return grade_doc.get("grade")
+            except EmpowerHSAError:
+                return None
+    return None
+
+
+@st.dialog("Year Plan")
+def _show_year_plan(subject_name, subject_id, school_year):
+    """Shows the topics actually generated for a subject's yearly breakdown -
+    i.e. what the 'Year Plan' status on the Curriculum tab is referencing.
+    Scoped to one school year - a topic generated under a different year
+    doesn't count here, even if the subject itself spans multiple years."""
+    try:
+        data = _client.get_subject(subject_id=subject_id, school_year=school_year)
+    except EmpowerHSAError as e:
+        st.error(str(e))
+        return
+    topics = (data or {}).get("topics", [])
+    _sy_label = f"{school_year}-{str(school_year + 1)[2:]}"
+    st.caption(f"**{subject_name}** — {len(topics)} topic(s) generated for {_sy_label}")
+    if not topics:
+        st.info("No topics generated yet — use Regen or Add Subject to generate this year's plan.")
+    for t in topics:
+        st.markdown(f"- **{t.get('name', '—')}**")
+        for sub in t.get("sub_topics") or []:
+            sub_name = sub.get("name") if isinstance(sub, dict) else sub
+            if sub_name:
+                st.markdown(f"  - {sub_name}")
+
+
+@st.dialog("Weekly Breakdown")
+def _show_weekly_breakdown(week_data, month_number, week_number):
+    """Shows the topic plan, day-by-day breakdown, and quiz size for a week
+    that's already been generated - the read-only companion to Generate
+    Weekly Breakdown, fetched via the never-generates GET endpoint."""
+    st.caption(f"Month {month_number}, Week {week_number}")
+    if week_data.get("intro"):
+        st.markdown(f"**Intro:** {week_data['intro']}")
+    if week_data.get("summary"):
+        st.markdown(f"**Summary:** {week_data['summary']}")
+    _topics = [t.get("value") for t in (week_data.get("topics") or [])]
+    if _topics:
+        st.markdown("**Topics:** " + ", ".join(_topics))
+    st.markdown(f"**Quiz questions:** {len(week_data.get('quiz') or [])}")
+    st.divider()
+    for _d in week_data.get("days", []):
+        with st.expander(_d.get("day_name", "—")):
+            for _s in _d.get("subjects", []):
+                st.markdown(f"**{_s.get('subject_name', '—')}** — {_s.get('subject_topic', '—')}")
+                st.caption(_s.get("subject_daily_intro", ""))
+
+
 @st.fragment(run_every=5)
 def _bulk_status_panel():
     """Auto-polling fragment — re-executes every 5 s while a bulk job is running."""
@@ -82,6 +176,20 @@ def _bulk_status_panel():
                 st.caption(f"• {_e}")
         else:
             st.success(f"All {_completed} school weeks generated successfully!")
+        if _done:
+            _bulk_student = st.session_state.get("_bulk_job_student")
+            _bulk_year = st.session_state.get("_bulk_job_school_year")
+            if _bulk_student and _bulk_year:
+                # bulk_controller.py logs each failure as "Month {n} Week {n}: <reason>" -
+                # pull the (month, week) back out so a failed week can be retried directly
+                # instead of the user re-typing coordinates from a dismissible error message.
+                _failed_weeks = [
+                    [int(_m), int(_w)]
+                    for _m, _w in re.findall(r"Month (\d+) Week (\d+):", " ".join(_errors))
+                ]
+                id_cache.set_bulk_generation_status(
+                    _bulk_student, _bulk_year, _completed, _total, len(_errors), _failed_weeks
+                )
         if st.button("Dismiss", key="_bulk_dismiss"):
             st.session_state.pop("_bulk_job_id", None)
             st.rerun()
@@ -100,33 +208,9 @@ def _bulk_status_panel():
             st.rerun()
 
 
-def _all_students():
-    try:
-        return _client.get_student() or []
-    except EmpowerHSAError as e:
-        st.error(f"Could not load students: {e}")
-        return []
-
-
-def _all_subjects():
-    try:
-        return _client.get_subject() or []
-    except EmpowerHSAError as e:
-        st.error(f"Could not load subjects: {e}")
-        return []
-
-
-def _all_grades():
-    try:
-        return _client.get_grade() or []
-    except EmpowerHSAError as e:
-        st.error(f"Could not load grades: {e}")
-        return []
-
-
 # ── Main tabs ─────────────────────────────────────────────────────────────
-tab_students, tab_curriculum, tab_assessments, tab_manage, tab_school_year = st.tabs(
-    ["Students", "Curriculum", "Assessments", "Manage", "School Year"]
+tab_students, tab_curriculum, tab_assessments, tab_manage, tab_school_year, tab_help = st.tabs(
+    ["Students", "Curriculum", "Assessments", "Manage", "School Year", "Help"]
 )
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -158,16 +242,49 @@ with tab_students:
         st.info("No students found.")
     else:
         for s in students:
-            c1, c2, c3 = st.columns([3, 2, 1])
+            c1, c2, c3, c4 = st.columns([3, 2, 1, 1])
             c1.write(f"**{s.get('name', '—')}**")
             c2.write(f"Age {s.get('age', '?')}")
-            if c3.button("Delete", key=f"del_stu_{s['_id']}"):
+            _edit_key = f"_edit_stu_{s['_id']}"
+            if c3.button("Edit", key=f"edit_stu_{s['_id']}"):
+                st.session_state[_edit_key] = not st.session_state.get(_edit_key, False)
+                st.rerun()
+            if c4.button("Delete", key=f"del_stu_{s['_id']}"):
                 try:
                     _client.delete_student(s["_id"])
                     st.success("Student deleted.")
                     st.rerun()
                 except EmpowerHSAError as e:
                     st.error(str(e))
+
+            if st.session_state.get(_edit_key):
+                _default_grade_num = _resolve_student_grade_number(_client, s) or 5
+                with st.form(f"edit_student_{s['_id']}"):
+                    ec1, ec2, ec3 = st.columns(3)
+                    e_name = ec1.text_input("Name", value=s.get("name", ""))
+                    e_age = ec2.number_input(
+                        "Age", min_value=4, max_value=18, value=int(s.get("age") or 10)
+                    )
+                    e_grade = ec3.number_input(
+                        "Grade", min_value=1, max_value=12, value=int(_default_grade_num)
+                    )
+                    if st.form_submit_button("Save Changes"):
+                        new_name = e_name.strip()
+                        if not new_name:
+                            st.warning("Name can't be empty.")
+                        else:
+                            try:
+                                _client.create_or_update_student(
+                                    name=new_name, age=int(e_age), grade=int(e_grade),
+                                    student_id=s["_id"],
+                                )
+                                if new_name != s.get("name"):
+                                    id_cache.set_student_id(new_name, s["_id"])
+                                st.session_state.pop(_edit_key, None)
+                                st.success(f"**{new_name}** updated.")
+                                st.rerun()
+                            except EmpowerHSAError as ex:
+                                st.error(str(ex))
 
 # ═══════════════════════════════════════════════════════════════════════════
 # CURRICULUM
@@ -186,13 +303,53 @@ with tab_curriculum:
         # ── Subject management panel ──────────────────────────────────────
         _existing_subjects = id_cache.get_student_subjects(selected)
         _stu_id = stu_obj.get("_id", "")
-        _month_count = len(stu_obj.get("year", []))
+        _curr_school_year = sy.load_config().get("school_year_start")
+        _default_subject_grade = _resolve_student_grade_number(_client, stu_obj) or 5
+        _month_count = None
+        _stu_detail = None
+        if _stu_id:
+            try:
+                _stu_detail = _client.get_student(student_id=_stu_id, school_year=_curr_school_year)
+                _month_count = (_stu_detail or {}).get("year_count")
+            except EmpowerHSAError:
+                _month_count = None
+        if _month_count is None:
+            _month_count = len(stu_obj.get("year", []))  # server didn't return year_count yet
+
+        # Scope the subject list to subjects with actual content in the CURRENT
+        # school year - id_cache.get_student_subjects() is per-student, not
+        # per-year, so without this a subject from a past school year (or one
+        # whose yearly plan hasn't been regenerated yet this year) would show
+        # up here identically to one that's actually active. Falls back to the
+        # unfiltered (all-time) list if the server hasn't started returning
+        # 'subjects_this_year' yet.
+        _subjects_this_year = (_stu_detail or {}).get("subjects_this_year")
+        if _subjects_this_year is not None:
+            _year_names_lower = {n.lower() for n in _subjects_this_year}
+            _existing_subjects = {
+                _n: _sid for _n, _sid in _existing_subjects.items()
+                if _n.lower() in _year_names_lower
+            }
 
         st.subheader(f"{selected}'s Subjects")
 
         if not _existing_subjects:
             st.info("No subjects yet — add one below.")
         else:
+            st.caption(
+                f"This student has calendar content in {_month_count}/10 school months this year "
+                "(student-wide — see each subject's own Year Plan status below, not this number)."
+            )
+            # Per-subject topic counts, so the Year Plan column reflects each subject
+            # individually instead of the shared student-level month count above.
+            _subject_topic_counts = {}
+            for _sn, _sid_lookup in _existing_subjects.items():
+                try:
+                    _sdoc = _client.get_subject(subject_id=_sid_lookup, school_year=_curr_school_year)
+                    _subject_topic_counts[_sn] = len((_sdoc or {}).get("topics", []))
+                except EmpowerHSAError:
+                    _subject_topic_counts[_sn] = None
+
             # Header row
             _hc = st.columns([3, 1, 2, 2, 1, 1])
             _hc[0].markdown("**Subject**")
@@ -200,6 +357,12 @@ with tab_curriculum:
             _hc[2].markdown("**Year Plan**")
             _hc[3].markdown("**Breakdowns**")
             st.divider()
+
+            # The per-subject "Check" button below tests today's actual school day
+            # (not a fixed month/week) so it reflects whatever's really been generated.
+            _chk_smart = sy.get_smart_day(sy.load_config())
+            _chk_sm, _chk_sw, _chk_sd = _chk_smart if _chk_smart else (1, 1, "Monday")
+            _chk_cal_month = sy.school_month_to_calendar_month(_chk_sm)
 
             for _sname in sorted(_existing_subjects.keys()):
                 _sid = _existing_subjects[_sname]
@@ -218,34 +381,43 @@ with tab_curriculum:
                     _name_label += " ⚠ regen needed"
                 _row[0].markdown(_name_label)
 
-                # Grade column: shows current grade as a button label; click = increment by 1
-                _g_label = str(_cached_grade) if _cached_grade else "?"
-                if _row[1].button(
-                    f"{_g_label} ▲",
-                    key=f"inc_{_sname}",
-                    help="Click to increment grade by 1 (then Regen to apply)",
-                ):
-                    _new_grade = (_cached_grade or 0) + 1
-                    id_cache.set_subject_grade(selected, _sname, _new_grade)
+                # Grade column: type a grade level directly (target grade for content generation)
+                _new_grade_val = int(_row[1].number_input(
+                    "Grade", min_value=1, max_value=12, value=_cached_grade or _default_subject_grade,
+                    key=f"grade_{_sname}", label_visibility="collapsed",
+                    help="Target grade level for this subject (then Regen to apply)",
+                ))
+                if _new_grade_val != (_cached_grade or _default_subject_grade):
+                    id_cache.set_subject_grade(selected, _sname, _new_grade_val)
                     st.session_state[_grade_changed_key] = True
                     st.session_state.pop(_chk_key, None)
                     st.rerun()
 
-                _row[2].caption(
-                    f"✓ {_month_count}/10 months" if _month_count else "Not started"
-                )
+                # Year Plan column: click to see the topics actually generated for
+                # THIS subject specifically (not the student-wide month count above).
+                _topic_count = _subject_topic_counts.get(_sname)
+                if _row[2].button(
+                    f"✓ {_topic_count} topics" if _topic_count else "Not started",
+                    key=f"yp_{_sname}",
+                    help="View the topics generated for this subject",
+                ):
+                    _show_year_plan(_sname, _sid, _curr_school_year)
 
                 # Breakdown spot-check
                 _chk_status = st.session_state.get(_chk_key, "—")
                 _row[3].caption(_chk_status)
-                if _row[3].button("Check", key=f"chk_{_sname}", help="Test month 1 week 1"):
+                if _row[3].button(
+                    "Check", key=f"chk_{_sname}",
+                    help=f"Test Month {_chk_sm} Week {_chk_sw} {_chk_sd} (today's school day)",
+                ):
                     try:
                         _lesson = _client.try_get_lesson(
                             student_id=_stu_id,
                             subject_id=_sid,
-                            month_number=1,
-                            week_of_the_month=1,
-                            day_name="Monday",
+                            month_number=_chk_cal_month,
+                            week_of_the_month=_chk_sw,
+                            day_name=_chk_sd,
+                            school_year=sy.load_config().get("school_year_start"),
                         )
                         st.session_state[_chk_key] = "✓ Lessons exist" if _lesson else "Not generated"
                     except Exception:
@@ -266,7 +438,7 @@ with tab_curriculum:
 
                 # Inline regenerate form (toggled)
                 if st.session_state.get(_regen_open_key):
-                    _default_grade = id_cache.get_subject_grade(selected, _sname) or 5
+                    _default_grade = id_cache.get_subject_grade(selected, _sname) or _default_subject_grade
                     with st.form(f"regen_form_{_sname}"):
                         _fc1, _fc2 = st.columns(2)
                         _r_age = _fc1.number_input(
@@ -302,7 +474,9 @@ with tab_curriculum:
                 c1, c2, c3 = st.columns(3)
                 yr_subject = c1.text_input("Subject name")
                 yr_age = c2.number_input("Age", min_value=4, max_value=18, value=default_age, key="yr_age")
-                yr_grade = c3.number_input("Grade level", min_value=1, max_value=12, value=5, key="yr_grade")
+                yr_grade = c3.number_input(
+                    "Grade level", min_value=1, max_value=12, value=_default_subject_grade, key="yr_grade"
+                )
                 if st.form_submit_button("Generate Yearly Plan"):
                     subj = yr_subject.strip()
                     if not subj:
@@ -326,10 +500,21 @@ with tab_curriculum:
             _cfg = sy.load_config()
             _subjects = id_cache.get_student_subjects(selected)
             _smart_m, _smart_w = sy.get_smart_week(_cfg)
-            if _subjects:
-                _wk_check = _pc.tryGetLesson(selected, next(iter(_subjects)), _smart_m, _smart_w, "Monday")
-                if _wk_check:
-                    st.info("✓ This week has already been generated.")
+
+            # Status for whichever month/week is currently selected in the form below
+            # (falls back to the smart default before the widgets first render).
+            _wk_check_m = int(st.session_state.get("wk_m", _smart_m))
+            _wk_check_w = int(st.session_state.get("wk_w", _smart_w))
+            _wk_data = _pc.tryGetWeeklyBreakdown(
+                selected, sy.school_month_to_calendar_month(_wk_check_m), _wk_check_w
+            )
+            if _wk_data:
+                st.success(f"✓ Month {_wk_check_m} Week {_wk_check_w} has already been generated.")
+                if st.button("View Weekly Breakdown", key="view_wk_bd"):
+                    _show_weekly_breakdown(_wk_data, _wk_check_m, _wk_check_w)
+            else:
+                st.info(f"Month {_wk_check_m} Week {_wk_check_w} has not been generated yet.")
+
             with st.form("weekly"):
                 c1, c2 = st.columns(2)
                 wk_month = c1.number_input("Month (1–10)", min_value=1, max_value=10, value=_smart_m, key="wk_m")
@@ -343,35 +528,72 @@ with tab_curriculum:
                         )
                     with st.spinner("Generating — may take several minutes for many subjects…"):
                         try:
-                            _pc.createWeeklyBreakdown(selected, str(wk_month), int(wk_week))
+                            _cal_month = sy.school_month_to_calendar_month(int(wk_month))
+                            _pc.createWeeklyBreakdown(selected, str(_cal_month), int(wk_week))
                             st.success(f"Week {wk_week} of month {wk_month} generated!")
+                            st.rerun()
                         except Exception as e:
                             st.error(str(e))
 
         # ── Daily lessons ─────────────────────────────────────────────────
         with st.expander("Daily Lessons"):
             st.caption(
-                "Generates all subject lessons for one day. "
-                "Requires the weekly breakdown for this month/week to already exist."
+                "Generates lessons for one day, one subject at a time - only for subjects that "
+                "don't already have this day's lesson. Requires the weekly breakdown for this "
+                "month/week to already exist."
             )
             _smart_day = sy.get_smart_day(_cfg)
             _smart_dm, _smart_dw, _smart_dd = _smart_day if _smart_day else (1, 1, "Monday")
+
+            # Status for whichever month/week/day is currently selected in the form below.
+            _dl_check_m = int(st.session_state.get("dl_m", _smart_dm))
+            _dl_check_w = int(st.session_state.get("dl_w", _smart_dw))
+            _dl_check_day = st.session_state.get("dl_day", _smart_dd)
+            _dl_cal_month = sy.school_month_to_calendar_month(_dl_check_m)
             if _subjects:
-                _dl_check = _pc.tryGetLesson(selected, next(iter(_subjects)), _smart_dm, _smart_dw, _smart_dd)
-                if _dl_check:
-                    st.info("✓ Lessons for this day have already been generated.")
+                st.caption(f"Status for Month {_dl_check_m} Week {_dl_check_w} {_dl_check_day}:")
+                _dl_cols = st.columns(4)
+                for _i, _sn in enumerate(sorted(_subjects)):
+                    _has_lesson = _pc.tryGetLesson(selected, _sn, _dl_cal_month, _dl_check_w, _dl_check_day)
+                    _mark = "✓" if _has_lesson else "✗"
+                    _dl_cols[_i % 4].write(f"{_mark} {_sn}")
+
             with st.form("daily"):
                 c1, c2, c3 = st.columns(3)
                 dl_month = c1.number_input("Month (1–10)", min_value=1, max_value=10, value=_smart_dm, key="dl_m")
                 dl_week = c2.number_input("Week (1–4)", min_value=1, max_value=4, value=_smart_dw, key="dl_w")
-                dl_day = c3.selectbox("Day", _DAYS, index=_DAYS.index(_smart_dd))
+                dl_day = c3.selectbox("Day", _DAYS, index=_DAYS.index(_smart_dd), key="dl_day")
                 if st.form_submit_button("Generate Daily Lessons"):
-                    with st.spinner("Generating all subject lessons…"):
-                        try:
-                            _pc.createDailyBreakDown(selected, str(dl_month), int(dl_week), dl_day)
-                            st.success(f"**{dl_day}** lessons for month {dl_month} week {dl_week} generated!")
-                        except Exception as e:
-                            st.error(str(e))
+                    _cal_month = sy.school_month_to_calendar_month(int(dl_month))
+                    _to_generate = [
+                        _sn for _sn in _subjects
+                        if not _pc.tryGetLesson(selected, _sn, _cal_month, int(dl_week), dl_day)
+                    ]
+                    if not _to_generate:
+                        st.info("All subjects already have this day's lesson generated — nothing to do.")
+                    else:
+                        with st.spinner(f"Generating {len(_to_generate)} subject lesson(s)…"):
+                            _dl_errors = []
+                            for _sn in _to_generate:
+                                try:
+                                    _pc.generateLesson(selected, _sn, _cal_month, int(dl_week), dl_day)
+                                except Exception as e:
+                                    _dl_errors.append(f"{_sn}: {e}")
+                        if _dl_errors:
+                            st.warning(
+                                f"Generated {len(_to_generate) - len(_dl_errors)}/{len(_to_generate)} "
+                                f"— {len(_dl_errors)} error(s):"
+                            )
+                            for _e in _dl_errors:
+                                st.caption(f"• {_e}")
+                        else:
+                            st.success(
+                                f"Generated {len(_to_generate)} subject lesson(s) for **{dl_day}**, "
+                                f"month {dl_month} week {dl_week}!"
+                            )
+                        # Refresh so the checklist/status above reflects whatever just
+                        # succeeded, even on a partial failure.
+                        st.rerun()
 
         # ── Bulk Generate all school weeks ────────────────────────────────
         with st.expander("Bulk Generate All School Weeks"):
@@ -383,11 +605,131 @@ with tab_curriculum:
                 f"**{_vac_count}** vacation weeks skipped."
             )
 
+            with st.expander("Week-by-Week Status", expanded=False):
+                st.caption(
+                    "Checks every school week against what's actually generated, and whether "
+                    "every current subject is covered - read-only, no OpenAI cost. Up to "
+                    f"{len(_school_weeks)} quick requests, so it may take a moment."
+                )
+                if st.button("Check Week-by-Week Status", key="bulk_wk_status"):
+                    _current_names = set(_subjects.keys())
+                    _wk_rows = []
+                    with st.spinner("Checking all weeks…"):
+                        for _sm, _sw in _school_weeks:
+                            _cal_m = sy.school_month_to_calendar_month(_sm)
+                            _wk_data = _pc.tryGetWeeklyBreakdown(selected, _cal_m, _sw)
+                            if not _wk_data:
+                                _wk_rows.append((_sm, _sw, "not_generated", []))
+                                continue
+                            _covered = set()
+                            for _d in _wk_data.get("days", []):
+                                for _s in _d.get("subjects", []):
+                                    _covered.add(
+                                        id_cache.get_canonical_subject_name(
+                                            _client, selected, _s.get("subject_name", "")
+                                        )
+                                    )
+                            _missing = sorted(_current_names - _covered)
+                            _wk_rows.append((_sm, _sw, "missing" if _missing else "complete", _missing))
+                    st.session_state["_bulk_wk_rows"] = _wk_rows
+
+                _wk_rows = st.session_state.get("_bulk_wk_rows")
+                if _wk_rows:
+                    _n_missing = sum(1 for r in _wk_rows if r[2] == "missing")
+                    _n_not_gen = sum(1 for r in _wk_rows if r[2] == "not_generated")
+                    _n_complete = sum(1 for r in _wk_rows if r[2] == "complete")
+                    st.write(
+                        f"✓ **{_n_complete}** complete · ⚠ **{_n_missing}** missing a subject · "
+                        f"✗ **{_n_not_gen}** not generated"
+                    )
+                    for _sm, _sw, _status, _missing in _wk_rows:
+                        if _status == "complete":
+                            continue
+                        _label = (
+                            "✗ Not generated" if _status == "not_generated"
+                            else f"⚠ Missing: {', '.join(_missing)}"
+                        )
+                        _wc1, _wc2 = st.columns([4, 1])
+                        _wc1.caption(f"Month {_sm} Week {_sw} — {_label}")
+
+                        if _status != "missing":
+                            continue  # "not_generated" just needs normal generation, not a sync
+
+                        _sync_key = f"_sync_confirm_{selected}_{_sm}_{_sw}"
+                        if st.session_state.get(_sync_key):
+                            st.warning(
+                                f"This will **delete and regenerate** Month {_sm} Week {_sw}'s "
+                                "entire topic plan, day-by-day breakdown, and quiz - for ALL "
+                                "subjects, not just the missing one, since a week's content is "
+                                "generated for every subject together in one call. Already-"
+                                "completed lessons for this week are **not** deleted, but may no "
+                                "longer match the refreshed topic text."
+                            )
+                            _cc1, _cc2 = st.columns(2)
+                            if _cc1.button(
+                                "Confirm: Delete & Regenerate", key=f"{_sync_key}_go", type="primary"
+                            ):
+                                _cal_m = sy.school_month_to_calendar_month(_sm)
+                                try:
+                                    with st.spinner(f"Regenerating Month {_sm} Week {_sw}…"):
+                                        _client.delete_weekly_breakdown(
+                                            _stu_id, _cal_m, _sw, _curr_school_year
+                                        )
+                                        _pc.createWeeklyBreakdown(selected, _cal_m, _sw)
+                                    st.success(f"Month {_sm} Week {_sw} regenerated.")
+                                    st.session_state.pop(_sync_key, None)
+                                    st.session_state.pop("_bulk_wk_rows", None)
+                                    st.rerun()
+                                except EmpowerHSAError as _e:
+                                    st.error(str(_e))
+                            if _cc2.button("Cancel", key=f"{_sync_key}_cancel"):
+                                st.session_state.pop(_sync_key, None)
+                                st.rerun()
+                        else:
+                            if _wc2.button("Sync", key=f"{_sync_key}_btn"):
+                                st.session_state[_sync_key] = True
+                                st.rerun()
+
             _active_job = st.session_state.get("_bulk_job_id")
             if _active_job:
                 # Auto-polling status panel (re-executes every 5 s via st.fragment)
                 _bulk_status_panel()
             else:
+                _bulk_status = id_cache.get_bulk_generation_status(selected, _curr_school_year)
+                if _bulk_status:
+                    _b_errors = _bulk_status.get("errors", 0)
+                    if _b_errors:
+                        _failed_weeks = _bulk_status.get("failed_weeks") or []
+                        st.warning(
+                            f"Bulk generation for **{selected}**'s {_curr_school_year}-{str(_curr_school_year + 1)[2:]} "
+                            f"school year last ran on {_bulk_status.get('completed_at')} — "
+                            f"{_bulk_status.get('completed')}/{_bulk_status.get('total')} weeks, "
+                            f"**{_b_errors}** error(s)."
+                        )
+                        if _failed_weeks:
+                            _fw_labels = ", ".join(f"month {m} week {w}" for m, w in _failed_weeks)
+                            st.caption(f"Failed: {_fw_labels} (calendar month numbers)")
+                            if st.button(f"Retry {len(_failed_weeks)} failed week(s)", key="bulk_retry"):
+                                _stu_id_bulk = stu_obj.get("_id")
+                                if not _stu_id_bulk:
+                                    st.error("Could not resolve student ID.")
+                                else:
+                                    try:
+                                        _jid = _client.start_bulk_breakdown(
+                                            _stu_id_bulk, _failed_weeks, _curr_school_year,
+                                        )
+                                        st.session_state["_bulk_job_id"] = _jid
+                                        st.session_state["_bulk_job_student"] = selected
+                                        st.session_state["_bulk_job_school_year"] = _curr_school_year
+                                        st.rerun()
+                                    except EmpowerHSAError as _e:
+                                        st.error(str(_e))
+                    else:
+                        st.info(
+                            f"✓ Bulk generation for **{selected}**'s {_curr_school_year}-{str(_curr_school_year + 1)[2:]} "
+                            f"school year already completed on {_bulk_status.get('completed_at')} "
+                            f"({_bulk_status.get('completed')}/{_bulk_status.get('total')} weeks)."
+                        )
                 st.caption(
                     "Runs on the empowerHSA server in the background — page refreshes "
                     "and tab switches won't interrupt it. Save your School Year calendar first."
@@ -400,12 +742,16 @@ with tab_curriculum:
                         try:
                             _jid = _client.start_bulk_breakdown(
                                 _stu_id_bulk,
-                                [[m, w] for m, w in _school_weeks],
+                                [[sy.school_month_to_calendar_month(m), w] for m, w in _school_weeks],
+                                sy.load_config().get("school_year_start"),
                             )
                             st.session_state["_bulk_job_id"] = _jid
+                            st.session_state["_bulk_job_student"] = selected
+                            st.session_state["_bulk_job_school_year"] = sy.load_config().get("school_year_start")
                             st.rerun()
                         except EmpowerHSAError as _e:
                             st.error(str(_e))
+
 
 # ═══════════════════════════════════════════════════════════════════════════
 # ASSESSMENTS
@@ -582,52 +928,135 @@ with tab_manage:
         if not names:
             st.info("No students found.")
         else:
-            with st.form("view_progress"):
-                c1, c2 = st.columns(2)
-                pr_stu = c1.selectbox("Student", names, key="pr_stu")
-                pr_subj = c2.text_input("Subject name")
-                c3, c4, c5 = st.columns(3)
-                pr_month = c3.number_input("Month (1–10)", min_value=1, max_value=10, value=1, key="pr_m")
-                pr_week = c4.number_input("Week (1–4)", min_value=1, max_value=4, value=1, key="pr_w")
-                pr_day = c5.selectbox("Day", _DAYS, key="pr_day")
-                if st.form_submit_button("View Progress"):
-                    stu_id = id_cache.get_student_id(_client, pr_stu)
-                    if not stu_id:
-                        st.warning("Student ID not cached — generate a yearly plan for this student first.")
-                    elif not pr_subj.strip():
-                        st.warning("Enter a subject name.")
-                    else:
-                        try:
-                            data = _client.get_progress(
-                                stu_id, pr_subj.strip(), int(pr_month), int(pr_week), pr_day
-                            )
-                            if data:
-                                st.metric("Quiz Grade", f"{data.get('quiz_grade', '?')}%")
-                                wrong = data.get("wrong_answers", [])
+            _pr_cfg = sy.load_config()
+            _pr_school_year = _pr_cfg.get("school_year_start")
+
+            c1, c2 = st.columns(2)
+            pr_stu = c1.selectbox("Student", names, key="pr_stu")
+
+            _today_coords = sy.date_to_school_coords(_pr_cfg, datetime.date.today())
+            _default_month = _today_coords[0] if _today_coords else 1
+            _month_options = list(range(1, 11))
+            pr_month = c2.selectbox(
+                "Month", _month_options,
+                index=_month_options.index(_default_month),
+                format_func=lambda m: sy.MONTH_NAMES[m],
+                key="pr_month",
+            )
+
+            stu_id = id_cache.get_student_id(_client, pr_stu)
+            if not stu_id:
+                st.warning("Student ID not cached — generate a yearly plan for this student first.")
+            else:
+                try:
+                    attempts = _client.get_progress_month(
+                        stu_id, sy.school_month_to_calendar_month(int(pr_month)), _pr_school_year,
+                    ) or []
+                except EmpowerHSAError as e:
+                    st.error(str(e))
+                    attempts = []
+
+                if not attempts:
+                    st.info(f"No progress recorded yet for {pr_stu} in {sy.MONTH_NAMES[pr_month]}.")
+                else:
+                    # Collapse repeated attempts on the same day down to the latest one,
+                    # so retries don't get double-counted in the overview.
+                    _latest_by_day = {}
+                    for a in attempts:
+                        key = (a.get("subject_name"), a.get("week_of_the_month"), a.get("day_name"))
+                        if key not in _latest_by_day or (a.get("attempt_number") or 0) > (_latest_by_day[key].get("attempt_number") or 0):
+                            _latest_by_day[key] = a
+
+                    _by_subject = defaultdict(list)
+                    for a in _latest_by_day.values():
+                        _by_subject[a["subject_name"]].append(a)
+                    for entries in _by_subject.values():
+                        entries.sort(key=lambda a: (a["week_of_the_month"], _DAYS.index(a["day_name"])))
+
+                    _month_avg = mean(a["quiz_grade"] for a in _latest_by_day.values())
+                    st.metric(f"{sy.MONTH_NAMES[pr_month]} Average", f"{_month_avg:.1f}%")
+
+                    st.divider()
+                    for subj_name in sorted(_by_subject):
+                        entries = _by_subject[subj_name]
+                        avg = mean(e["quiz_grade"] for e in entries)
+                        latest = entries[-1]
+                        with st.expander(
+                            f"**{subj_name}** — {len(entries)} lesson(s) recorded · "
+                            f"avg {avg:.1f}% · latest {latest['quiz_grade']}%"
+                        ):
+                            for e in entries:
+                                ec1, ec2, ec3 = st.columns([2, 1, 1])
+                                ec1.write(f"Week {e['week_of_the_month']} · {e['day_name']}")
+                                ec2.write(f"{e['quiz_grade']}%")
+                                if e.get("attempt_number", 1) > 1:
+                                    ec3.caption(f"Attempt {e['attempt_number']}")
+
+                                wrong = e.get("wrong_answers") or []
+                                quiz = e.get("quiz") or []
                                 if wrong:
-                                    st.markdown("**Incorrect answers:**")
+                                    st.markdown("**Missed questions:**")
                                     for w in wrong:
-                                        st.write(f"  - {w}")
+                                        try:
+                                            q = quiz[int(w)]
+                                        except (ValueError, IndexError, TypeError):
+                                            st.write(f"  - Question {w}")
+                                            continue
+                                        st.write(
+                                            f"  - {q.get('question', '?')}  "
+                                            f"(correct answer: {q.get('answer', '?')})"
+                                        )
                                 else:
-                                    st.success("No wrong answers on record.")
-                            else:
-                                st.info("No progress record found for that combination.")
-                        except EmpowerHSAError as e:
-                            st.error(str(e))
+                                    st.caption("No wrong answers on record.")
+                                st.divider()
 
 # ═══════════════════════════════════════════════════════════════════════════
 # SCHOOL YEAR CALENDAR
 # ═══════════════════════════════════════════════════════════════════════════
 with tab_school_year:
-    st.subheader("School Year Calendar — 2026-27")
+    _current_cfg = sy.load_config()
+    _current_sy = _current_cfg.get("school_year_start", 2026)
+    _sy_label = f"{_current_sy}-{str(_current_sy + 1)[2:]}"
+
+    st.subheader(f"School Year Calendar — {_sy_label}")
     st.caption(
         "Click a day to mark it off. Click a red event to remove it. Drag to select a range. "
         "Save when done — vacation weeks (3+ days off) are skipped during bulk generation."
     )
 
+    with st.expander(f"Start New School Year (currently {_sy_label})"):
+        st.caption(
+            "Rolls the configured school year forward. Past years' generated content stays "
+            "in empowerHSA untouched - new generation calls (yearly plans, weekly breakdowns, "
+            "lessons) target whatever year is set here. Clears the vacation-day calendar below "
+            "since specific dates don't carry over between years - reload defaults or re-add them."
+        )
+        with st.form("new_school_year"):
+            _new_sy = st.number_input(
+                "School year starts in", min_value=2020, max_value=2100,
+                value=_current_sy + 1, key="new_sy_input",
+            )
+            if st.form_submit_button("Start New School Year", type="primary"):
+                _new_sy_int = int(_new_sy)
+                sy.save_config({
+                    "school_year_start": _new_sy_int,
+                    "first_day": f"{_new_sy_int}-08-17",
+                    "last_day": f"{_new_sy_int + 1}-05-28",
+                    "vacation_days": [],
+                })
+                st.session_state["vacation_days"] = []
+                st.session_state.pop("_pending_date", None)
+                st.session_state.pop("_cal_fp", None)
+                st.success(
+                    f"School year set to {_new_sy_int}-{str(_new_sy_int + 1)[2:]}. "
+                    "Add vacation days below (or load Texas defaults) and Save."
+                )
+                st.rerun()
+
     # ── Action buttons ────────────────────────────────────────────────────
     _sy_c1, _sy_c2, _sy_c3, _sy_spacer = st.columns([1.5, 1.2, 1, 4])
-    if _sy_c1.button("Load Texas 2026-27 Defaults", key="sy_load"):
+    if _sy_c1.button("Load Texas 2026-27 Defaults", key="sy_load",
+                      help="Specific holiday dates are only accurate for the 2026-27 calendar year."):
         st.session_state["vacation_days"] = list(sy.default_config()["vacation_days"])
         st.session_state.pop("_pending_date", None)
         st.session_state.pop("_cal_fp", None)
@@ -640,17 +1069,16 @@ with tab_school_year:
         st.rerun()
 
     if _sy_c3.button("Save Calendar", key="sy_save", type="primary"):
-        _existing_cfg = sy.load_config()
         _save_days = sorted(
             st.session_state["vacation_days"], key=lambda x: x["date"]
         )
         sy.save_config({
-            "school_year_start": _existing_cfg.get("school_year_start", 2026),
-            "first_day": _existing_cfg.get("first_day", "2026-08-17"),
-            "last_day": _existing_cfg.get("last_day", "2027-05-28"),
+            "school_year_start": _current_sy,
+            "first_day": _current_cfg.get("first_day", f"{_current_sy}-08-17"),
+            "last_day": _current_cfg.get("last_day", f"{_current_sy + 1}-05-28"),
             "vacation_days": _save_days,
         })
-        _temp_cfg = {"school_year_start": 2026, "vacation_days": _save_days}
+        _temp_cfg = {"school_year_start": _current_sy, "vacation_days": _save_days}
         _sw = sy.get_school_weeks(_temp_cfg)
         st.success(
             f"Saved — **{len(_save_days)}** vacation days · "
@@ -671,7 +1099,7 @@ with tab_school_year:
     ]
     _cal_options = {
         "initialView": "dayGridMonth",
-        "initialDate": "2026-08-01",
+        "initialDate": f"{_current_sy}-08-01",
         "selectable": True,
         "navLinks": True,
         "editable": False,
@@ -683,6 +1111,36 @@ with tab_school_year:
         },
     }
     _cal_state = st_calendar(events=_events, options=_cal_options, key="school_year_cal")
+    # streamlit-calendar only reports its height to Streamlit once, on mount (see its
+    # bundled JS: `useEffect(() => Streamlit.setFrameHeight(), [])`). Since this tab isn't
+    # the default-selected one, it first mounts while its panel is hidden and gets stuck
+    # reporting 0 height forever - the iframe stays collapsed even after switching to this
+    # tab. Force the iframe's actual size to match its real rendered content each time this
+    # tab becomes visible.
+    st.components.v1.html(
+        """
+        <script>
+        function fixCalendarSize() {
+            const doc = window.parent.document;
+            const iframes = doc.querySelectorAll('iframe[title="streamlit_calendar.calendar"]');
+            iframes.forEach((f) => {
+                try {
+                    const h = f.contentDocument && f.contentDocument.body
+                        ? f.contentDocument.body.scrollHeight : 0;
+                    if (h > 0 && f.style.height !== h + 'px') {
+                        f.style.height = h + 'px';
+                    }
+                    if (f.style.width !== '100%') {
+                        f.style.width = '100%';
+                    }
+                } catch (e) {}
+            });
+        }
+        setInterval(fixCalendarSize, 300);
+        </script>
+        """,
+        height=0,
+    )
 
     # Process calendar interactions
     if _cal_state:
@@ -750,7 +1208,7 @@ with tab_school_year:
     _all_vdays = sorted(
         st.session_state["vacation_days"], key=lambda x: x["date"]
     )
-    _temp_cfg2 = {"school_year_start": 2026, "vacation_days": _all_vdays}
+    _temp_cfg2 = {"school_year_start": _current_sy, "vacation_days": _all_vdays}
     _school_wk_count = len(sy.get_school_weeks(_temp_cfg2))
 
     _mc1, _mc2 = st.columns(2)
@@ -781,3 +1239,101 @@ with tab_school_year:
             vd for vd in st.session_state["vacation_days"] if vd["date"] != _remove_date
         ]
         st.rerun()
+
+# ═══════════════════════════════════════════════════════════════════════════
+# HELP
+# ═══════════════════════════════════════════════════════════════════════════
+with tab_help:
+    st.subheader("Getting Started with a New Student")
+    st.markdown(
+        "Follow these steps in order — each stage depends on the one before it "
+        "(a subject needs a Yearly Plan before a week can be generated; a week "
+        "needs a Weekly Breakdown before a day's lessons can be generated)."
+    )
+
+    with st.expander("1. Add the student", expanded=True):
+        st.markdown(
+            "**Students tab** → fill in name and age → **Add**.\n\n"
+            "That's it for this step — grade level is set per-subject later, not here."
+        )
+
+    with st.expander("2. Set up the school year calendar", expanded=True):
+        st.markdown(
+            "**School Year tab** → either **Load Texas Defaults** (accurate only for the "
+            "2026-27 calendar year) or click days on the calendar yourself to mark them off "
+            "as vacation days → **Save Calendar**.\n\n"
+            "A week is automatically skipped during bulk generation once 3 or more of its "
+            "weekdays are marked off. If you're starting a brand-new school year (not just "
+            "editing this one), use **Start New School Year** first — it rolls the active "
+            "year forward and clears the vacation calendar so you can rebuild it for the new year."
+        )
+
+    with st.expander("3. Generate each subject's Yearly Plan", expanded=True):
+        st.markdown(
+            "**Curriculum tab** → select the student → **Add Subject** expander → enter a "
+            "subject name, age, and grade level → **Generate Yearly Plan**.\n\n"
+            "Repeat once per subject (Math, Science, English, etc.) — this is what actually "
+            "creates the subject and its 10-month topic outline; nothing downstream works "
+            "without it. Each click is a real OpenAI call and takes a little while.\n\n"
+            "**Important:** only click this once per subject. There's no \"already generated\" "
+            "check here — running it again on the same subject adds a second, likely "
+            "overlapping topic outline on top of the first instead of replacing it. If a "
+            "subject's plan looks wrong, use **Regen** on that subject's row instead of "
+            "Add Subject again (same caveat applies to Regen too - re-running it repeatedly "
+            "on a subject that's already correct just adds redundant topics)."
+        )
+
+    with st.expander("4. Generate the actual weekly/daily content", expanded=True):
+        st.markdown(
+            "Once every subject has a Yearly Plan, you have two ways to get lesson content "
+            "in front of the student:\n\n"
+            "- **Let it happen automatically** — do nothing here. When the student opens the "
+            "main app and picks a day, it generates that week's breakdown and that subject's "
+            "lesson the first time it's needed. This is the lowest-effort option and is fine "
+            "for day-to-day use once the year is underway.\n"
+            "- **Generate ahead of time from here** — useful for testing, or to avoid the "
+            "student waiting on a generation call:\n"
+            "  - **Weekly Breakdown** expander: generates one month/week's topic plan, "
+            "day-by-day breakdown, and end-of-week quiz across every subject. Shows whether "
+            "that week already exists, with a **View Weekly Breakdown** button if so.\n"
+            "  - **Daily Lessons** expander: generates one day's actual lecture + quiz for "
+            "every subject, but only for subjects that don't already have that day's lesson - "
+            "shows a ✓/✗ checklist so you can see what's missing before generating.\n"
+            "  - **Bulk Generate All School Weeks** expander: generates every non-vacation "
+            "week for the whole year in one background job (progress bar, safe to leave "
+            "running). This is the expensive one - real OpenAI cost across the full year, "
+            "so make sure your subjects and calendar are correct first."
+        )
+
+    with st.expander("5. Check what's actually there", expanded=False):
+        st.markdown(
+            "- Each subject's **Check** button (Curriculum tab) tests *today's actual "
+            "school day* — its tooltip tells you exactly which month/week/day it's testing.\n"
+            "- The **Year Plan** number next to each subject is that subject's topic count "
+            "for the *currently active school year only* — topics from a previous year (or "
+            "generated before year-scoping existed) don't count toward it.\n"
+            "- **Manage tab** lets you look up progress records, and delete individual grades/"
+            "lessons if something was generated wrong and needs to be cleared out by hand."
+        )
+
+    st.divider()
+    st.subheader("What each tab is for")
+    st.markdown(
+        "- **Students** — add/edit/delete students; this is the only place age/name live.\n"
+        "- **Curriculum** — the main workspace: per-subject Yearly Plans, Weekly Breakdown, "
+        "Daily Lessons, and Bulk Generate, all scoped to whichever student is selected.\n"
+        "- **Assessments** — generates a separate multi-subject placement/assessment test "
+        "(not tied to the weekly curriculum), and lets you view or delete past ones by number/ID.\n"
+        "- **Manage** — cross-cutting lookups and cleanup: view/delete grade records, delete a "
+        "lesson by ID, and look up a specific progress/quiz-grade record.\n"
+        "- **School Year** — the vacation-day calendar that controls which weeks get generated "
+        "and skipped, plus rolling forward into a new school year.\n"
+        "- **Help** — this tab."
+    )
+
+    st.divider()
+    st.caption(
+        "Generation calls cost real OpenAI usage and can take a few minutes each, especially "
+        "Bulk Generate and any student with many subjects — there's no need to re-run something "
+        "that already succeeded."
+    )

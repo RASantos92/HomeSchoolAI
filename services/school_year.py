@@ -116,6 +116,20 @@ def is_vacation_day(config: dict, date_str: str) -> bool:
     return date_str in get_vacation_dates(config)
 
 
+def school_month_to_calendar_month(school_month: int) -> int:
+    """Convert a school-year month ordinal (1-10, Aug=1...May=10) into the
+    real calendar month (1-12) empowerHSA's month_number expects.
+
+    empowerHSA's YearlyBreakdown assigns month_number sequentially from the
+    real calendar month it was first called in (wrapping after 12), not from
+    a 1-10 school-year ordinal - callers must translate before every
+    Parent/API call that takes a month, or requests silently target the
+    wrong month (or 404 for school months 6/7, which map to literal June/July,
+    never generated since the school year skips summer)."""
+    _, cal_month = SCHOOL_MONTH_CALENDAR[school_month]
+    return cal_month
+
+
 def _week_weekdays(config: dict, school_month: int, school_week: int) -> list:
     """Return ISO date strings for Mon-Fri that fall in the given school week.
 

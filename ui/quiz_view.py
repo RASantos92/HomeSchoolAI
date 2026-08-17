@@ -6,7 +6,9 @@ def inject_scroll_script():
     <script>
         function scrollToTop() {
             var body = window.parent.document.querySelector('.main');
-            body.scrollTo(0, 0);
+            if (body) {
+                body.scrollTo(0, 0);
+            }
         };
         scrollToTop();
     </script>
@@ -84,13 +86,12 @@ def render_quiz(pc, student_name, subject_name, lesson, month, week_number, day)
         if (st.session_state['quiz_attempts'] + 1) > 3:
             toggle_final_attempt(pc, lesson)
 
-    if 'quiz_grade' in st.session_state:
+    if st.session_state.get('quiz_submitted'):
         if st.session_state['quiz_grade'] == 100:
             pc.markLessonComplete(lesson['_id'])
 
             st.write("Marked as complete!")
-            st.write('Awesome job. You finised the quiz with a 100%')
-            st.write(st.session_state['wrong_answers_quiz_questions'])
+            st.write('Awesome job. You finished the quiz with a 100%')
             st.subheader("Summary")
             st.write(lesson.get("summary", "No summary available"))
         elif st.session_state['quiz_grade'] >= 70:
